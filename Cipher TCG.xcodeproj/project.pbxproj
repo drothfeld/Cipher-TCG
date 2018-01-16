@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B054BBB3200E68AE004159A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBB2200E68AE004159A6 /* AppDelegate.swift */; };
-		B054BBB5200E68AE004159A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBB4200E68AE004159A6 /* ViewController.swift */; };
+		B054BBB5200E68AE004159A6 /* CardListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBB4200E68AE004159A6 /* CardListViewController.swift */; };
 		B054BBB8200E68AE004159A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B054BBB6200E68AE004159A6 /* Main.storyboard */; };
 		B054BBBA200E68AE004159A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B054BBB9200E68AE004159A6 /* Assets.xcassets */; };
 		B054BBBD200E68AE004159A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B054BBBB200E68AE004159A6 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		B054BBAF200E68AE004159A6 /* Cipher TCG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cipher TCG.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B054BBB2200E68AE004159A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B054BBB4200E68AE004159A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B054BBB4200E68AE004159A6 /* CardListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewController.swift; sourceTree = "<group>"; };
 		B054BBB7200E68AE004159A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B054BBB9200E68AE004159A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B054BBBC200E68AE004159A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +54,22 @@
 		B054BBB1200E68AE004159A6 /* Cipher TCG */ = {
 			isa = PBXGroup;
 			children = (
+				B054BBC4200E6E5F004159A6 /* View Controllers */,
 				B054BBB2200E68AE004159A6 /* AppDelegate.swift */,
-				B054BBB4200E68AE004159A6 /* ViewController.swift */,
 				B054BBB6200E68AE004159A6 /* Main.storyboard */,
 				B054BBB9200E68AE004159A6 /* Assets.xcassets */,
 				B054BBBB200E68AE004159A6 /* LaunchScreen.storyboard */,
 				B054BBBE200E68AE004159A6 /* Info.plist */,
 			);
 			path = "Cipher TCG";
+			sourceTree = "<group>";
+		};
+		B054BBC4200E6E5F004159A6 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B054BBB4200E68AE004159A6 /* CardListViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B054BBB5200E68AE004159A6 /* ViewController.swift in Sources */,
+				B054BBB5200E68AE004159A6 /* CardListViewController.swift in Sources */,
 				B054BBB3200E68AE004159A6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
