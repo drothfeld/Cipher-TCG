@@ -21,6 +21,8 @@
 		B054BBDA200E7C1C004159A6 /* B03 in Resources */ = {isa = PBXBuildFile; fileRef = B054BBD3200E7C1B004159A6 /* B03 */; };
 		B054BBDB200E7C1C004159A6 /* B07 in Resources */ = {isa = PBXBuildFile; fileRef = B054BBD4200E7C1B004159A6 /* B07 */; };
 		B054BBDD200E8A0A004159A6 /* Skills.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBDC200E8A0A004159A6 /* Skills.swift */; };
+		B054BBDF200E9DB7004159A6 /* Insignia.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBDE200E9DB7004159A6 /* Insignia.swift */; };
+		B054BBE1200E9E8A004159A6 /* Insignias.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBE0200E9E8A004159A6 /* Insignias.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		B054BBD3200E7C1B004159A6 /* B03 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = B03; sourceTree = "<group>"; };
 		B054BBD4200E7C1B004159A6 /* B07 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = B07; sourceTree = "<group>"; };
 		B054BBDC200E8A0A004159A6 /* Skills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skills.swift; sourceTree = "<group>"; };
+		B054BBDE200E9DB7004159A6 /* Insignia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insignia.swift; sourceTree = "<group>"; };
+		B054BBE0200E9E8A004159A6 /* Insignias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insignias.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				B054BBCA200E7BA1004159A6 /* Skill.swift */,
+				B054BBDE200E9DB7004159A6 /* Insignia.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -105,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				B054BBDC200E8A0A004159A6 /* Skills.swift */,
+				B054BBE0200E9E8A004159A6 /* Insignias.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -213,7 +219,9 @@
 				B054BBCB200E7BA1004159A6 /* Skill.swift in Sources */,
 				B054BBDD200E8A0A004159A6 /* Skills.swift in Sources */,
 				B054BBB5200E68AE004159A6 /* CardListViewController.swift in Sources */,
+				B054BBE1200E9E8A004159A6 /* Insignias.swift in Sources */,
 				B054BBB3200E68AE004159A6 /* AppDelegate.swift in Sources */,
+				B054BBDF200E9DB7004159A6 /* Insignia.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

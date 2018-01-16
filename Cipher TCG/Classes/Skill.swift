@@ -14,15 +14,17 @@ class Skill {
     var description: String
     var colorType: UIColor
     var flippedBonds: Int
+    var flipOrb: Bool
     var tapUnit: Bool
     var CCS: Bool
     
     // Constructor
-    init(name: String, description: String, colorType: UIColor, flippedBonds: Int, tapUnit: Bool, CCS: Bool) {
+    init(name: String, description: String, colorType: UIColor, flippedBonds: Int, flipOrb: Bool, tapUnit: Bool, CCS: Bool) {
         self.name = name
         self.description = description
         self.colorType = colorType
         self.flippedBonds = flippedBonds
+        self.flipOrb = flipOrb
         self.tapUnit = tapUnit
         self.CCS = CCS
     }
