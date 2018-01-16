@@ -25,20 +25,20 @@ let unyielding_forces = Skill(name: "Unyielding Forces",
                               CCS: false)
 
 let royal_familys_blood = Skill(name: "Royal Family's Blood",
-                              description: "If you have a face-up card Orb, this unit gains +10 attack and this unit's range becomes 1-2.",
-                              colorType: UIColor.green,
-                              flippedBonds: 0,
-                              flipOrb: false,
-                              tapUnit: false,
-                              CCS: false)
-
-let sacred_treasure_raijinto = Skill(name: "Sacred Treasure, Raijinto",
-                                description: "This turn, this unit gains +10 attack and this unit's range becomes 1-2.",
-                                colorType: UIColor.red,
-                                flippedBonds: 2,
+                                description: "If you have a face-up card Orb, this unit gains +10 attack and this unit's range becomes 1-2.",
+                                colorType: UIColor.green,
+                                flippedBonds: 0,
                                 flipOrb: false,
                                 tapUnit: false,
                                 CCS: false)
+
+let sacred_treasure_raijinto = Skill(name: "Sacred Treasure, Raijinto",
+                                     description: "This turn, this unit gains +10 attack and this unit's range becomes 1-2.",
+                                     colorType: UIColor.red,
+                                     flippedBonds: 2,
+                                     flipOrb: false,
+                                     tapUnit: false,
+                                     CCS: false)
 
 let i_do_not_like_to_give_up = Skill(name: "I Do Not Like to Give Up!",
                                      description: "While you have no Orbs, the number of orbs this unit’s attacks would destroy becomes 2. This skill is inactive if you have any face-up bonds that have an insignia that isn't White.",
@@ -57,17 +57,49 @@ let summoning_thunder = Skill(name: "Summoning Thunder",
                               CCS: false)
 
 let stage_for_decisive_battle = Skill(name: "Stage for Decisive Battle",
-                              description: "If you have a face-up Orb, while any unit is attacking a unit besides the Main Character, the attacking unit gains +30 attack.",
-                              colorType: UIColor.green,
-                              flippedBonds: 0,
-                              flipOrb: false,
-                              tapUnit: false,
-                              CCS: false)
-
-let voice_of_dragons = Skill(name: "Voice of Dragons",
-                                      description: "While you have a face-up Orb, this card's deployment and class change cost are reduced by 1 while this card is in your hand.",
-                                      colorType: UIColor.purple,
+                                      description: "If you have a face-up Orb, while any unit is attacking a unit besides the Main Character, the attacking unit gains +30 attack.",
+                                      colorType: UIColor.green,
                                       flippedBonds: 0,
                                       flipOrb: false,
                                       tapUnit: false,
                                       CCS: false)
+
+let voice_of_dragons = Skill(name: "Voice of Dragons",
+                             description: "While you have a face-up Orb, this card's deployment and class change cost are reduced by 1 while this card is in your hand.",
+                             colorType: UIColor.purple,
+                             flippedBonds: 0,
+                             flipOrb: false,
+                             tapUnit: false,
+                             CCS: false)
+
+let wings_of_darkness_neverending = Skill(name: "Wings of Darkness Neverending",
+                                          description: "Choose a Black card from your hand, and place it in your Bond Area. If you do, choose an enemy besides the Main Character and destroy them.",
+                                          colorType: UIColor.red,
+                                          flippedBonds: 0,
+                                          flipOrb: false,
+                                          tapUnit: false,
+                                          CCS: false)
+
+let dusking_dragon_blood = Skill(name: "Dusking Dragon Blood",
+                                 description: "During your turn, if you have 2 or more Black bond cards, all allies gain +10 attack.",
+                                 colorType: UIColor.green,
+                                 flippedBonds: 0,
+                                 flipOrb: false,
+                                 tapUnit: false,
+                                 CCS: false)
+
+let flaming_blade_of_light_and_darkness = Skill(name: "Flaming Blade of Light and Darkness",
+                                                description: "Select a unit with a Deployment Cost of 3 or less from your Retreat Area and deploy it. If the unit deployed by this skill is a Black unit, untap this unit.",
+                                                colorType: UIColor.red,
+                                                flippedBonds: 2,
+                                                flipOrb: false,
+                                                tapUnit: true,
+                                                CCS: false)
+
+let omega_yato = Skill(name: "Omega Yato",
+                       description: "While this unit is attacking a Dragon enemy, until the end of the battle, this unit gains +40 attack. This skill is inactive unless you have a Black bond.",
+                       colorType: UIColor.green,
+                       flippedBonds: 0,
+                       flipOrb: false,
+                       tapUnit: false,
+                       CCS: false)
