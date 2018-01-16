@@ -8,6 +8,9 @@
 
 import UIKit
 
+let none = SupportingSkill(type: "None",
+                                    description: "")
+
 let attack_emblem = SupportingSkill(type: "Attack Emblem",
                                     description: "Until the end of this battle, your attacking unit gains +20 attack.")
 

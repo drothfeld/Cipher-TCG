@@ -25,6 +25,8 @@
 		B054BBE1200E9E8A004159A6 /* Insignias.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBE0200E9E8A004159A6 /* Insignias.swift */; };
 		B054BBE3200EA461004159A6 /* SupportingSkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBE2200EA461004159A6 /* SupportingSkill.swift */; };
 		B054BBE5200EA4DA004159A6 /* SupportingSkills.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBE4200EA4DA004159A6 /* SupportingSkills.swift */; };
+		B054BBE7200EA5E0004159A6 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBE6200EA5E0004159A6 /* Card.swift */; };
+		B054BBE9200EAC3C004159A6 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBE8200EAC3C004159A6 /* Cards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		B054BBE0200E9E8A004159A6 /* Insignias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insignias.swift; sourceTree = "<group>"; };
 		B054BBE2200EA461004159A6 /* SupportingSkill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportingSkill.swift; sourceTree = "<group>"; };
 		B054BBE4200EA4DA004159A6 /* SupportingSkills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportingSkills.swift; sourceTree = "<group>"; };
+		B054BBE6200EA5E0004159A6 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		B054BBE8200EAC3C004159A6 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 				B054BBCA200E7BA1004159A6 /* Skill.swift */,
 				B054BBDE200E9DB7004159A6 /* Insignia.swift */,
 				B054BBE2200EA461004159A6 /* SupportingSkill.swift */,
+				B054BBE6200EA5E0004159A6 /* Card.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -117,6 +122,7 @@
 				B054BBDC200E8A0A004159A6 /* Skills.swift */,
 				B054BBE0200E9E8A004159A6 /* Insignias.swift */,
 				B054BBE4200EA4DA004159A6 /* SupportingSkills.swift */,
+				B054BBE8200EAC3C004159A6 /* Cards.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -223,9 +229,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B054BBCB200E7BA1004159A6 /* Skill.swift in Sources */,
+				B054BBE7200EA5E0004159A6 /* Card.swift in Sources */,
 				B054BBDD200E8A0A004159A6 /* Skills.swift in Sources */,
 				B054BBB5200E68AE004159A6 /* CardListViewController.swift in Sources */,
 				B054BBE1200E9E8A004159A6 /* Insignias.swift in Sources */,
+				B054BBE9200EAC3C004159A6 /* Cards.swift in Sources */,
 				B054BBB3200E68AE004159A6 /* AppDelegate.swift in Sources */,
 				B054BBE3200EA461004159A6 /* SupportingSkill.swift in Sources */,
 				B054BBE5200EA4DA004159A6 /* SupportingSkills.swift in Sources */,
