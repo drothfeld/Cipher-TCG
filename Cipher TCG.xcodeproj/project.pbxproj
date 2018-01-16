@@ -23,6 +23,8 @@
 		B054BBDD200E8A0A004159A6 /* Skills.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBDC200E8A0A004159A6 /* Skills.swift */; };
 		B054BBDF200E9DB7004159A6 /* Insignia.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBDE200E9DB7004159A6 /* Insignia.swift */; };
 		B054BBE1200E9E8A004159A6 /* Insignias.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBE0200E9E8A004159A6 /* Insignias.swift */; };
+		B054BBE3200EA461004159A6 /* SupportingSkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBE2200EA461004159A6 /* SupportingSkill.swift */; };
+		B054BBE5200EA4DA004159A6 /* SupportingSkills.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBE4200EA4DA004159A6 /* SupportingSkills.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		B054BBDC200E8A0A004159A6 /* Skills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skills.swift; sourceTree = "<group>"; };
 		B054BBDE200E9DB7004159A6 /* Insignia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insignia.swift; sourceTree = "<group>"; };
 		B054BBE0200E9E8A004159A6 /* Insignias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insignias.swift; sourceTree = "<group>"; };
+		B054BBE2200EA461004159A6 /* SupportingSkill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportingSkill.swift; sourceTree = "<group>"; };
+		B054BBE4200EA4DA004159A6 /* SupportingSkills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportingSkills.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,7 @@
 			children = (
 				B054BBCA200E7BA1004159A6 /* Skill.swift */,
 				B054BBDE200E9DB7004159A6 /* Insignia.swift */,
+				B054BBE2200EA461004159A6 /* SupportingSkill.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -111,6 +116,7 @@
 			children = (
 				B054BBDC200E8A0A004159A6 /* Skills.swift */,
 				B054BBE0200E9E8A004159A6 /* Insignias.swift */,
+				B054BBE4200EA4DA004159A6 /* SupportingSkills.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -221,6 +227,8 @@
 				B054BBB5200E68AE004159A6 /* CardListViewController.swift in Sources */,
 				B054BBE1200E9E8A004159A6 /* Insignias.swift in Sources */,
 				B054BBB3200E68AE004159A6 /* AppDelegate.swift in Sources */,
+				B054BBE3200EA461004159A6 /* SupportingSkill.swift in Sources */,
+				B054BBE5200EA4DA004159A6 /* SupportingSkills.swift in Sources */,
 				B054BBDF200E9DB7004159A6 /* Insignia.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
