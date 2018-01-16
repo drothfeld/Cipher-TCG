@@ -11,11 +11,20 @@ import UIKit
 class Skill {
     // Fields
     var name: String
-    
+    var description: String
+    var colorType: UIColor
+    var flippedBonds: Int
+    var tapUnit: Bool
+    var CCS: Bool
     
     // Constructor
-    init(name: String) {
+    init(name: String, description: String, colorType: UIColor, flippedBonds: Int, tapUnit: Bool, CCS: Bool) {
         self.name = name
+        self.description = description
+        self.colorType = colorType
+        self.flippedBonds = flippedBonds
+        self.tapUnit = tapUnit
+        self.CCS = CCS
     }
 }
 
