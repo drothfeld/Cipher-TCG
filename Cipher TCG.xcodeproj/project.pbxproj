@@ -54,6 +54,7 @@
 		B054BBB1200E68AE004159A6 /* Cipher TCG */ = {
 			isa = PBXGroup;
 			children = (
+				B054BBC7200E7665004159A6 /* Classes */,
 				B054BBC4200E6E5F004159A6 /* View Controllers */,
 				B054BBB2200E68AE004159A6 /* AppDelegate.swift */,
 				B054BBB6200E68AE004159A6 /* Main.storyboard */,
@@ -70,6 +71,13 @@
 				B054BBB4200E68AE004159A6 /* CardListViewController.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B054BBC7200E7665004159A6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

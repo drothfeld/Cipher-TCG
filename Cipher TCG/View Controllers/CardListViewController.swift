@@ -15,50 +15,35 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     @IBOutlet weak var CardListSearchBar: UISearchBar!
     
     // Defined Values
-//    var sortedCardList: [Ingredient] = []
-//    var filteredCardList: [Ingredient] = []
     var isSearching = false
+    var testList: [String] = ["one", "two", "three", "four", "five"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        refreshTable()
     }
     
     // Number of Rows
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//        if (isSearching) {
-//            return filteredUnhealthyIngredients.count
-//        }
-        return unhealthyIngredients.count
+        return testList.count
     }
     
     // Cell Data
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        let cell = tableView.dequeueReusableCell(withIdentifier: "customCell", for: indexPath)
-//        if (isSearching) {
-//            cell.textLabel?.text = filteredUnhealthyIngredients[indexPath.item].name
-//        } else {
-//            cell.textLabel?.text = sortedUnhealthyIngredients[indexPath.item].name
-//        }
+        let cell = tableView.dequeueReusableCell(withIdentifier: "customCell", for: indexPath)
+        cell.textLabel?.text = testList[indexPath.item]
         return cell
-    }
-    
-    // Sort list of unhealthy ingredients alphabetically
-    func sortIngredientsAlphabetically(unsortedList: Array<Ingredient>) -> Array<Ingredient> {
-        return unsortedList.sorted { $0.name < $1.name }
     }
     
     // Table Refresh
     func refreshTable() {
-        sortedUnhealthyIngredients = sortIngredientsAlphabetically(unsortedList: unhealthyIngredients)
-        self.UnhealthyIngredientsTableView.reloadData()
+        self.CardListTableView.reloadData()
     }
     
     // Hiding status bar
     override var prefersStatusBarHidden: Bool {
         return true
     }
-
 
 }
 
