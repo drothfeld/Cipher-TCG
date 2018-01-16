@@ -20,6 +20,7 @@
 		B054BBD9200E7C1C004159A6 /* B10 in Resources */ = {isa = PBXBuildFile; fileRef = B054BBD2200E7C1B004159A6 /* B10 */; };
 		B054BBDA200E7C1C004159A6 /* B03 in Resources */ = {isa = PBXBuildFile; fileRef = B054BBD3200E7C1B004159A6 /* B03 */; };
 		B054BBDB200E7C1C004159A6 /* B07 in Resources */ = {isa = PBXBuildFile; fileRef = B054BBD4200E7C1B004159A6 /* B07 */; };
+		B054BBDD200E8A0A004159A6 /* Skills.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBDC200E8A0A004159A6 /* Skills.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		B054BBD2200E7C1B004159A6 /* B10 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = B10; sourceTree = "<group>"; };
 		B054BBD3200E7C1B004159A6 /* B03 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = B03; sourceTree = "<group>"; };
 		B054BBD4200E7C1B004159A6 /* B07 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = B07; sourceTree = "<group>"; };
+		B054BBDC200E8A0A004159A6 /* Skills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skills.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		B054BBC9200E7B73004159A6 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				B054BBDC200E8A0A004159A6 /* Skills.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B054BBCB200E7BA1004159A6 /* Skill.swift in Sources */,
+				B054BBDD200E8A0A004159A6 /* Skills.swift in Sources */,
 				B054BBB5200E68AE004159A6 /* CardListViewController.swift in Sources */,
 				B054BBB3200E68AE004159A6 /* AppDelegate.swift in Sources */,
 			);
