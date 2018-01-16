@@ -24,6 +24,30 @@ let unyielding_forces = Skill(name: "Unyielding Forces",
                               tapUnit: false,
                               CCS: false)
 
+let royal_familys_blood = Skill(name: "Royal Family's Blood",
+                              description: "If you have a face-up card Orb, this unit gains +10 attack and this unit's range becomes 1-2.",
+                              colorType: UIColor.green,
+                              flippedBonds: 0,
+                              flipOrb: false,
+                              tapUnit: false,
+                              CCS: false)
+
+let sacred_treasure_raijinto = Skill(name: "Sacred Treasure, Raijinto",
+                                description: "This turn, this unit gains +10 attack and this unit's range becomes 1-2.",
+                                colorType: UIColor.red,
+                                flippedBonds: 2,
+                                flipOrb: false,
+                                tapUnit: false,
+                                CCS: false)
+
+let i_do_not_like_to_give_up = Skill(name: "I Do Not Like to Give Up!",
+                                     description: "While you have no Orbs, the number of orbs this unit’s attacks would destroy becomes 2. This skill is inactive if you have any face-up bonds that have an insignia that isn't White.",
+                                     colorType: UIColor.green,
+                                     flippedBonds: 0,
+                                     flipOrb: false,
+                                     tapUnit: false,
+                                     CCS: false)
+
 let summoning_thunder = Skill(name: "Summoning Thunder",
                               description: "[Flip one of your Orbs face-up] This turn, this unit's range becomes 1-2 and this unit's attacks cannot be evaded except by the Main Character.",
                               colorType: UIColor.red,

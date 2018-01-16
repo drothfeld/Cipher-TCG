@@ -19,3 +19,24 @@ let b02_006 = Card(series: "B02-006SR",
                    skills: [lightning_blade, unyielding_forces],
                    cardImage: #imageLiteral(resourceName: "B02-006.png"))
 
+let b07_053 = Card(series: "B07-053HN",
+                   name: "Warrior of Hoshido, Ryoma",
+                   rarity: "HN",
+                   insignia: hoshido,
+                   attack: 40,
+                   support: 10,
+                   illustrator: "Tada",
+                   supportingSkill: attack_emblem,
+                   skills: [royal_familys_blood],
+                   cardImage: #imageLiteral(resourceName: "B07-053.png"))
+
+let s03_002 = Card(series: "S03-002ST",
+                   name: "Successor of Hoshido, Ryoma",
+                   rarity: "ST",
+                   insignia: hoshido,
+                   attack: 70,
+                   support: 10,
+                   illustrator: "Clover K",
+                   supportingSkill: none,
+                   skills: [sacred_treasure_raijinto, i_do_not_like_to_give_up],
+                   cardImage: #imageLiteral(resourceName: "S03-002ST.png"))
