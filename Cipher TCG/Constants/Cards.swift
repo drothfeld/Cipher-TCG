@@ -40,3 +40,16 @@ let s03_002 = Card(series: "S03-002ST",
                    supportingSkill: none,
                    skills: [sacred_treasure_raijinto, i_do_not_like_to_give_up],
                    cardImage: #imageLiteral(resourceName: "S03-002ST.png"))
+
+let b07_051 = Card(series: "B07-051SR",
+                   name: "Unifier of the Kingdom of Hoshido, Ryom",
+                   rarity: "SR",
+                   insignia: hoshido,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "Rika Suzuki",
+                   supportingSkill: none,
+                   skills: [summoning_thunder, stage_for_decisive_battle, voice_of_dragons],
+                   cardImage: #imageLiteral(resourceName: "B07-051.png"))
+
+

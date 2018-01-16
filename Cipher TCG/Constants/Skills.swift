@@ -55,3 +55,19 @@ let summoning_thunder = Skill(name: "Summoning Thunder",
                               flipOrb: true,
                               tapUnit: false,
                               CCS: false)
+
+let stage_for_decisive_battle = Skill(name: "Stage for Decisive Battle",
+                              description: "If you have a face-up Orb, while any unit is attacking a unit besides the Main Character, the attacking unit gains +30 attack.",
+                              colorType: UIColor.green,
+                              flippedBonds: 0,
+                              flipOrb: false,
+                              tapUnit: false,
+                              CCS: false)
+
+let voice_of_dragons = Skill(name: "Voice of Dragons",
+                                      description: "While you have a face-up Orb, this card's deployment and class change cost are reduced by 1 while this card is in your hand.",
+                                      colorType: UIColor.purple,
+                                      flippedBonds: 0,
+                                      flipOrb: false,
+                                      tapUnit: false,
+                                      CCS: false)
