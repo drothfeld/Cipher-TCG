@@ -30,6 +30,50 @@ let b03_051 = Card(series: "B03-051SR",
                    skills: [flaming_blade_of_light_and_darkness, omega_yato],
                    cardImage: #imageLiteral(resourceName: "B03-051.png"))
 
+let b03_063 = Card(series: "B03-063R",
+                   name: "Nightingale Warrior, Shigure",
+                   rarity: "R",
+                   insignia: hoshido,
+                   attack: 50,
+                   support: 30,
+                   illustrator: "Unknown",
+                   supportingSkill: none,
+                   skills: [cry_of_the_pegasus, resounding_anthem],
+                   cardImage: #imageLiteral(resourceName: "B03-063.png"))
+
+let b03_067 = Card(series: "B03-067HN",
+                   name: "Natural Hunter, Kiragi",
+                   rarity: "HN",
+                   insignia: hoshido,
+                   attack: 50,
+                   support: 20,
+                   illustrator: "Unknown",
+                   supportingSkill: none,
+                   skills: [prince_of_gales, wingbane],
+                   cardImage: #imageLiteral(resourceName: "B03-067.png"))
+
+let b03_068 = Card(series: "B03-068N",
+                   name: "Optimistic Archer, Kiragi",
+                   rarity: "N",
+                   insignia: hoshido,
+                   attack: 30,
+                   support: 20,
+                   illustrator: "Unknown",
+                   supportingSkill: attack_emblem,
+                   skills: [wild_prince, wingbane],
+                   cardImage: #imageLiteral(resourceName: "B03-068.png"))
+
+let b03_072 = Card(series: "B03-072R",
+                   name: "Thread of Gold, Selkie",
+                   rarity: "R",
+                   insignia: hoshido,
+                   attack: 60,
+                   support: 10,
+                   illustrator: "Unknown",
+                   supportingSkill: none,
+                   skills: [whos_that_whos_that, masquerade],
+                   cardImage: #imageLiteral(resourceName: "B03-072.png"))
+
 let b07_051 = Card(series: "B07-051SR",
                    name: "Unifier of the Kingdom of Hoshido, Ryom",
                    rarity: "SR",
