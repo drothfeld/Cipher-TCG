@@ -200,4 +200,122 @@ let lecherous_lockpicking = Skill(name: "Lecherous Lockpicking",
                        tapUnit: true,
                        CCS: false)
 
+let eruption = Skill(name: "Eruption",
+                       description: "[ Flip 3 Bonds, Flip one of your Orbs face-up] Destroy all units in both player's Front Lines besides the Main Character OR Destroy all units in both player's back lines besides the Main Character.",
+                       colorType: UIColor.red,
+                       flippedBonds: 3,
+                       flipOrb: true,
+                       tapUnit: false,
+                       CCS: false)
 
+let obsidian_mist = Skill(name: "Obsidian Mist",
+                       description: "During the end of a player's turn, If you have a face-up Orb: Destroy all units with a Deployment Cost of 1, besides the Main Characters.",
+                       colorType: UIColor.blue,
+                       flippedBonds: 0,
+                       flipOrb: false,
+                       tapUnit: false,
+                       CCS: false)
+
+let all_or_nothing = Skill(name: "All-Or-Nothing",
+                       description: "This turn, this unit gains +30 attack and gains the following skill ' AUTO After this unit attacks, destroy this unit.'",
+                       colorType: UIColor.red,
+                       flippedBonds: 1,
+                       flipOrb: false,
+                       tapUnit: false,
+                       CCS: false)
+
+let death_gale = Skill(name: "Death Gale",
+                       description: "When this unit or another ally is destroyed, you may move an ally.",
+                       colorType: UIColor.blue,
+                       flippedBonds: 0,
+                       flipOrb: false,
+                       tapUnit: false,
+                       CCS: false)
+
+let commander_of_the_kamikaze_unit = Skill(name: "Commander of the Kamikaze Unit",
+                       description: "[ Flip 1 Bond and Destroy this unit] Select an enemy with a deployment cost of 1 besides their Main Character and destroy it.",
+                       colorType: UIColor.red,
+                       flippedBonds: 1,
+                       flipOrb: false,
+                       tapUnit: false,
+                       CCS: false)
+
+let parting_the_sea = Skill(name: "Parting the Sea",
+                       description: "[Flip one of your Orbs face-up] Deploy a Bow unit with a Deployment Cost of 3 or less from your hand.",
+                       colorType: UIColor.red,
+                       flippedBonds: 0,
+                       flipOrb: true,
+                       tapUnit: false,
+                       CCS: false)
+
+let stormy_plains = Skill(name: "Stormy Plains",
+                       description: "At the start of either player's turn, if you have at least one face-up Orb, move all units in the front row to the back rows, besides the Main Characters.",
+                       colorType: UIColor.blue,
+                       flippedBonds: 0,
+                       flipOrb: false,
+                       tapUnit: false,
+                       CCS: false)
+
+let recovery = Skill(name: "Recovery",
+                       description: "[ Tap.png, Flip 3 Bonds , Flip one of your Orbs face-up] Draw 3 cards. Then, if you have equal or less Orbs than your opponent, you may untap this unit.",
+                       colorType: UIColor.red,
+                       flippedBonds: 3,
+                       flipOrb: true,
+                       tapUnit: true,
+                       CCS: false)
+
+let blessed_sakura_storm = Skill(name: "Blessed Sakura Storm",
+                       description: "If you have at least one face-up Orb, all units with a Deployment Cost of 5 or more gain +10 attack.",
+                       colorType: UIColor.green,
+                       flippedBonds: 0,
+                       flipOrb: false,
+                       tapUnit: false,
+                       CCS: false)
+
+let airhead = Skill(name: "Airhead",
+                       description: "[ Flip 1 Bond ] When this unit is untapped, you may pay the cost, and if you do: Draw a card.",
+                       colorType: UIColor.green,
+                       flippedBonds: 1,
+                       flipOrb: false,
+                       tapUnit: false,
+                       CCS: false)
+
+let setsunas_yumi = Skill(name: "Setsuna's Yumi",
+                       description: "When this unit attacks, this turn, this unit gains +30 attack (Class Change Skill: This skill is inactive unless this unit was Class Changed).",
+                       colorType: UIColor.green,
+                       flippedBonds: 0,
+                       flipOrb: false,
+                       tapUnit: false,
+                       CCS: true)
+
+let swords_beat_axes_and_bows = Skill(name: "Swords beat axes and bows!",
+                       description: "If this unit is battling an enemy with Axe or Bow affinities, this unit gains +10 attack.",
+                       colorType: UIColor.green,
+                       flippedBonds: 0,
+                       flipOrb: false,
+                       tapUnit: false,
+                       CCS: false)
+
+let axes_beat_lances_and_shurikens = Skill(name: "Axes beat lances and shurikens!",
+                       description: "If this unit is attacked by an enemy with Lance or Shuriken affinities, the attacking unit cannot perform a critical hit.",
+                       colorType: UIColor.green,
+                       flippedBonds: 0,
+                       flipOrb: false,
+                       tapUnit: false,
+                       CCS: false)
+
+let lances_beat_swords_and_tomes = Skill(name: "Lances beat swords and tomes!",
+                       description: "If this unit attacks a enemy with Sword or Tome affinities except for the Main Character, the defending unit cannot avoid.",
+                       colorType: UIColor.green,
+                       flippedBonds: 0,
+                       flipOrb: false,
+                       tapUnit: false,
+                       CCS: false)
+
+let dragon_vein_whiff = Skill(name: "Dragon Vein Whiff",
+                       description: "When this unit is deployed, you may select an Orb and flip that card face-up or flip that card face-down.",
+                       colorType: UIColor.blue,
+                       flippedBonds: 0,
+                       flipOrb: false,
+                       tapUnit: false,
+                       CCS: false)

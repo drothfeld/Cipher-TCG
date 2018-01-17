@@ -17,3 +17,6 @@ let attack_emblem = SupportingSkill(type: "Attack Emblem",
 let thief_emblem = SupportingSkill(type: "Thief Emblem",
                                     description: "Reveal the top card of your opponent’s deck. You may then place that card in their Retreat Area.")
 
+let flying_emblem = SupportingSkill(type: "Flying Emblem",
+                                   description: "You may choose one ally that is not the attacking unit, and move it.")
+

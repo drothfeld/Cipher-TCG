@@ -107,6 +107,39 @@ let b03_092 = Card(series: "B03-092N",
                    skills: [lecherous_lockpicking, wingbane],
                    cardImage: #imageLiteral(resourceName: "B03-092.png"))
 
+let b06_054 = Card(series: "B06-054SR",
+                   name: "Beautiful Obsidian Princess, Camilla",
+                   rarity: "SR",
+                   insignia: nohr,
+                   attack: 60,
+                   support: 30,
+                   illustrator: "Mayo",
+                   supportingSkill: none,
+                   skills: [eruption, obsidian_mist],
+                   cardImage: #imageLiteral(resourceName: "B06-054.png"))
+
+let b06_062 = Card(series: "B06-062R",
+                   name: "The Deadly, Beruka",
+                   rarity: "R",
+                   insignia: nohr,
+                   attack: 50,
+                   support: 30,
+                   illustrator: "Saori Toyota",
+                   supportingSkill: none,
+                   skills: [all_or_nothing, death_gale],
+                   cardImage: #imageLiteral(resourceName: "B06-062.png"))
+
+let b06_063 = Card(series: "B06-063N",
+                   name: "Flying Assassin, Beruka",
+                   rarity: "N",
+                   insignia: nohr,
+                   attack: 30,
+                   support: 30,
+                   illustrator: "Saori Toyota",
+                   supportingSkill: flying_emblem,
+                   skills: [commander_of_the_kamikaze_unit],
+                   cardImage: #imageLiteral(resourceName: "B06-062.png"))
+
 let b07_051 = Card(series: "B07-051SR",
                    name: "Unifier of the Kingdom of Hoshido, Ryom",
                    rarity: "SR",
@@ -128,6 +161,61 @@ let b07_053 = Card(series: "B07-053HN",
                    supportingSkill: attack_emblem,
                    skills: [royal_familys_blood],
                    cardImage: #imageLiteral(resourceName: "B07-053.png"))
+
+let b07_056 = Card(series: "B07-056SR",
+                   name: "Prince of Brilliant Winds, Takumi",
+                   rarity: "SR",
+                   insignia: hoshido,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "Aoji",
+                   supportingSkill: none,
+                   skills: [parting_the_sea, stormy_plains, wingbane],
+                   cardImage: #imageLiteral(resourceName: "B07-056.png"))
+
+let b07_058 = Card(series: "B07-058SR",
+                   name: "Dancing in Hoshidan Bloom, Sakura",
+                   rarity: "SR",
+                   insignia: hoshido,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "Tetsu Kurosawa",
+                   supportingSkill: none,
+                   skills: [recovery, blessed_sakura_storm],
+                   cardImage: #imageLiteral(resourceName: "B07-056.png"))
+
+let b07_064 = Card(series: "B07-064R",
+                   name: "Careless Kinshi Knight, Setsuna",
+                   rarity: "R",
+                   insignia: hoshido,
+                   attack: 30,
+                   support: 30,
+                   illustrator: "BISAI",
+                   supportingSkill: none,
+                   skills: [airhead, setsunas_yumi, wingbane],
+                   cardImage: #imageLiteral(resourceName: "B07-064.png"))
+
+let b07_068 = Card(series: "B07-068R",
+                   name: "The Unyielding Girl, Hana",
+                   rarity: "R",
+                   insignia: hoshido,
+                   attack: 70,
+                   support: 10,
+                   illustrator: "daigoman",
+                   supportingSkill: none,
+                   skills: [swords_beat_axes_and_bows, axes_beat_lances_and_shurikens, lances_beat_swords_and_tomes],
+                   cardImage: #imageLiteral(resourceName: "B07-068.png"))
+
+let b07_086 = Card(series: "B07-086HN",
+                   name: "Wild Archery, Kiragi",
+                   rarity: "HN",
+                   insignia: hoshido,
+                   attack: 40,
+                   support: 30,
+                   illustrator: "Kokon Konfuzi",
+                   supportingSkill: none,
+                   skills: [dragon_vein_whiff, wingbane],
+                   cardImage: #imageLiteral(resourceName: "B07-068.png"))
 
 let b10_057 = Card(series: "B10-057SR",
                    name: "Divine Daughter of the Darkening Dusk Dragon, Corrin",
