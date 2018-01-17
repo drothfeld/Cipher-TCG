@@ -159,3 +159,45 @@ let masquerade = Skill(name: "Masquerade",
                        flipOrb: false,
                        tapUnit: false,
                        CCS: false)
+
+let song_of_destruction = Skill(name: "Song of Destruction",
+                       description: "Choose any number of enemy Dragon Stone units besides the Main Character, and destroy them. Then, for each enemy destroyed by this skill, your opponent discards one card.",
+                       colorType: UIColor.red,
+                       flippedBonds: 1,
+                       flipOrb: false,
+                       tapUnit: false,
+                       CCS: false)
+
+let princess_of_the_nation = Skill(name: "Princess of the Nation",
+                       description: "While you have 2 or more face-down bonds, this unit gains +10 attack.",
+                       colorType: UIColor.green,
+                       flippedBonds: 0,
+                       flipOrb: false,
+                       tapUnit: false,
+                       CCS: false)
+
+let dark_road_to_the_invisible_kingdom = Skill(name: "Dark Road to the Invisible Kingdom",
+                       description: "While you have at least one White card in your Bond Area, this card gains a promotion cost of 2.",
+                       colorType: UIColor.green,
+                       flippedBonds: 0,
+                       flipOrb: false,
+                       tapUnit: false,
+                       CCS: false)
+
+let youthful_discernment = Skill(name: "Youthful Discernment",
+                       description: "When a Flying enemy is deployed, you may tap that enemy.",
+                       colorType: UIColor.blue,
+                       flippedBonds: 0,
+                       flipOrb: false,
+                       tapUnit: false,
+                       CCS: false)
+
+let lecherous_lockpicking = Skill(name: "Lecherous Lockpicking",
+                       description: "Reveal the top card of your opponent’s deck. If the revealed card has a deployment cost of 3 or more , you may Flip 1 Bond to draw a card. This skill cannot be activated unless you have exactly two Male allies.",
+                       colorType: UIColor.red,
+                       flippedBonds: 0,
+                       flipOrb: false,
+                       tapUnit: true,
+                       CCS: false)
+
+

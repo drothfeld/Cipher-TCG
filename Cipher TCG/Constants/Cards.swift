@@ -74,6 +74,39 @@ let b03_072 = Card(series: "B03-072R",
                    skills: [whos_that_whos_that, masquerade],
                    cardImage: #imageLiteral(resourceName: "B03-072.png"))
 
+let b03_078 = Card(series: "B03-078SR",
+                   name: "Diva of Dusk, Azura",
+                   rarity: "SR",
+                   insignia: nohr,
+                   attack: 60,
+                   support: 10,
+                   illustrator: "Unknown",
+                   supportingSkill: none,
+                   skills: [song_of_destruction, princess_of_the_nation, dark_road_to_the_invisible_kingdom],
+                   cardImage: #imageLiteral(resourceName: "B03-078.png"))
+
+let b03_091 = Card(series: "B03-091R",
+                   name: "Chivalrous Thief, Nina",
+                   rarity: "R",
+                   insignia: nohr,
+                   attack: 50,
+                   support: 10,
+                   illustrator: "daigoman",
+                   supportingSkill: none,
+                   skills: [youthful_discernment, wingbane],
+                   cardImage: #imageLiteral(resourceName: "B03-091.png"))
+
+let b03_092 = Card(series: "B03-092N",
+                   name: "Delusional Escapist, Nina",
+                   rarity: "N",
+                   insignia: nohr,
+                   attack: 30,
+                   support: 10,
+                   illustrator: "daigoman",
+                   supportingSkill: thief_emblem,
+                   skills: [lecherous_lockpicking, wingbane],
+                   cardImage: #imageLiteral(resourceName: "B03-092.png"))
+
 let b07_051 = Card(series: "B07-051SR",
                    name: "Unifier of the Kingdom of Hoshido, Ryom",
                    rarity: "SR",
