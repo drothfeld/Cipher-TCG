@@ -20,3 +20,5 @@ let thief_emblem = SupportingSkill(type: "Thief Emblem",
 let flying_emblem = SupportingSkill(type: "Flying Emblem",
                                    description: "You may choose one ally that is not the attacking unit, and move it.")
 
+let hope_emblem = SupportingSkill(type: "Hope Emblem",
+                                    description: "If the defending unit has the White affinity, you may look at one of your orbs.")

@@ -8,6 +8,17 @@
 
 import UIKit
 
+let s03_002 = Card(series: "S03-002ST",
+                   name: "Successor of Hoshido, Ryoma",
+                   rarity: "ST",
+                   insignia: hoshido,
+                   attack: 70,
+                   support: 10,
+                   illustrator: "Clover K",
+                   supportingSkill: none,
+                   skills: [sacred_treasure_raijinto, i_do_not_like_to_give_up],
+                   cardImage: #imageLiteral(resourceName: "S03-002ST.png"))
+
 let b02_006 = Card(series: "B02-006SR",
                    name: "Swordmaster of Roaring Thunder, Ryoma",
                    rarity: "SR",
@@ -141,7 +152,7 @@ let b06_063 = Card(series: "B06-063N",
                    cardImage: #imageLiteral(resourceName: "B06-062.png"))
 
 let b07_051 = Card(series: "B07-051SR",
-                   name: "Unifier of the Kingdom of Hoshido, Ryom",
+                   name: "Unifier of the Kingdom of Hoshido, Ryoma",
                    rarity: "SR",
                    insignia: hoshido,
                    attack: 70,
@@ -217,6 +228,61 @@ let b07_086 = Card(series: "B07-086HN",
                    skills: [dragon_vein_whiff, wingbane],
                    cardImage: #imageLiteral(resourceName: "B07-068.png"))
 
+let b10_051 = Card(series: "B10-051SR",
+                   name: "Night-Transcending Princess, Kana",
+                   rarity: "SR",
+                   insignia: hoshido,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "lack",
+                   supportingSkill: none,
+                   skills: [warm_strength, our_yato],
+                   cardImage: #imageLiteral(resourceName: "B10-051.png"))
+
+let b10_052 = Card(series: "B10-052N",
+                   name: "Girl of the White Path, Kana",
+                   rarity: "N",
+                   insignia: hoshido,
+                   attack: 40,
+                   support: 20,
+                   illustrator: "lack",
+                   supportingSkill: hope_emblem,
+                   skills: [in_the_white_light],
+                   cardImage: #imageLiteral(resourceName: "B10-052.png"))
+
+let b10_053 = Card(series: "B10-053SR",
+                   name: "Night-Transcending Prince, Kana",
+                   rarity: "SR",
+                   insignia: nohr,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "lack",
+                   supportingSkill: none,
+                   skills: [unyielding_hope, our_yato],
+                   cardImage: #imageLiteral(resourceName: "B10-053.png"))
+
+let b10_054 = Card(series: "B10-054N",
+                   name: "Boy of the Dark Path, Kana",
+                   rarity: "N",
+                   insignia: nohr,
+                   attack: 40,
+                   support: 20,
+                   illustrator: "lack",
+                   supportingSkill: hope_emblem,
+                   skills: [embrace_the_dark],
+                   cardImage: #imageLiteral(resourceName: "B10-054.png"))
+
+let b10_055 = Card(series: "B10-055SR",
+                   name: "Divine Son of the Dazzling Dawn Dragon, Corrin",
+                   rarity: "SR",
+                   insignia: hoshido,
+                   attack: 80,
+                   support: 20,
+                   illustrator: "Ryuutetu",
+                   supportingSkill: none,
+                   skills: [gleaming_white_scale, dawning_dragon_blood],
+                   cardImage: #imageLiteral(resourceName: "B10-055.png"))
+
 let b10_057 = Card(series: "B10-057SR",
                    name: "Divine Daughter of the Darkening Dusk Dragon, Corrin",
                    rarity: "SR",
@@ -228,14 +294,58 @@ let b10_057 = Card(series: "B10-057SR",
                    skills: [wings_of_darkness_neverending, dusking_dragon_blood],
                    cardImage: #imageLiteral(resourceName: "B10-057.png"))
 
-let s03_002 = Card(series: "S03-002ST",
-                   name: "Successor of Hoshido, Ryoma",
-                   rarity: "ST",
+let b10_059 = Card(series: "B10-059R",
+                   name: "End of the Ideal Path, Shigure",
+                   rarity: "R",
+                   insignia: nohr,
+                   attack: 60,
+                   support: 30,
+                   illustrator: "Kaoru Hagiya / Misei Ito",
+                   supportingSkill: none,
+                   skills: [lost_in_the_waves, forbidden_lyric, treasured_memory],
+                   cardImage: #imageLiteral(resourceName: "B10-059.png"))
+
+let b10_060 = Card(series: "B10-060N",
+                   name: "Canyon-Wandering Soul, Shigure",
+                   rarity: "N",
+                   insignia: nohr,
+                   attack: 30,
+                   support: 30,
+                   illustrator: "Unknown",
+                   supportingSkill: flying_emblem,
+                   skills: [bequeathed_necklace],
+                   cardImage: #imageLiteral(resourceName: "B10-060.png"))
+
+let b10_061 = Card(series: "B10-061R",
+                   name: "Ephemeral Songstress, Azura",
+                   rarity: "R",
+                   insignia: nohr,
+                   attack: 0,
+                   support: 20,
+                   illustrator: "cuboon / Misei Ito",
+                   supportingSkill: none,
+                   skills: [the_changing_tide, watchful_eye],
+                   cardImage: #imageLiteral(resourceName: "B10-061.png"))
+
+let b10_064 = Card(series: "B10-064R",
+                   name: "Fox in Black, Selkie",
+                   rarity: "R",
                    insignia: hoshido,
                    attack: 70,
                    support: 10,
-                   illustrator: "Clover K",
+                   illustrator: "Tetsu Kurosawa",
                    supportingSkill: none,
-                   skills: [sacred_treasure_raijinto, i_do_not_like_to_give_up],
-                   cardImage: #imageLiteral(resourceName: "S03-002ST.png"))
+                   skills: [everybody_dance, kitsunes_dancing_beat],
+                   cardImage: #imageLiteral(resourceName: "B10-064.png"))
+
+let b10_065 = Card(series: "B10-065N",
+                   name: "Simple Fox Girl, Selkie",
+                   rarity: "N",
+                   insignia: hoshido,
+                   attack: 40,
+                   support: 10,
+                   illustrator: "Tetsu Kurosawa",
+                   supportingSkill: attack_emblem,
+                   skills: [i_found_you],
+                   cardImage: #imageLiteral(resourceName: "B10-065.png"))
 

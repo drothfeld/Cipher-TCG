@@ -319,3 +319,134 @@ let dragon_vein_whiff = Skill(name: "Dragon Vein Whiff",
                        flipOrb: false,
                        tapUnit: false,
                        CCS: false)
+
+let warm_strength = Skill(name: "Warm Strength",
+                       description: "[ Flip 1 Bond ] This turn, all White allies gain +10 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let our_yato = Skill(name: "Our Yato",
+                        description: "[ Flip 1 Bond ] If you have at least 2 other allies, reveal the top card of your deck. If the revealed card is White or Black, add that card to your hand.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let in_the_white_light = Skill(name: "In the White Light",
+                        description: "During your turn, while this unit is being supported by White, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let unyielding_hope = Skill(name: "Unyielding Hope",
+                        description: "[ Flip 1 Bond ] This turn, all Black allies gain +10 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let embrace_the_dark = Skill(name: "Embrace The Dark",
+                        description: "During your turn, while this unit is being supported by Black, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let gleaming_white_scale = Skill(name: "Gleaming White Scale",
+                        description: "Choose 1 of your bond cards, and add it to your hand. Choose up to 3 White cards from your hand with a deployment cost of 2 or lower, and deploy them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let dawning_dragon_blood = Skill(name: "Dawning Dragon Blood",
+                        description: "During your turn, if you have 2 or more White bond cards, all allies gain +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let lost_in_the_waves = Skill(name: "Lost in the Waves",
+                        description: "Reveal the top card of your deck. Choose any number of allies with the same insignia as that card, and move them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let forbidden_lyric = Skill(name: "Forbidden Lyric",
+                        description: "Choose a Dragon Stone enemy besides the Main Character, and destroy them. Then, destroy this unit.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let treasured_memory = Skill(name: "Treasured Memory",
+                        description: "If you have at least two other allies where one ally has the White affinity and the other ally has a Black affinity, this unit cannot be destroyed by the cost or effect of a skill.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let bequeathed_necklace = Skill(name: "Bequeathed Necklace",
+                        description: "During your opponent's turn, if you have another ally, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let the_changing_tide = Skill(name: "The Changing Tide",
+                        description: "If this unit is in the back row, this unit cannot be attacked.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let watchful_eye = Skill(name: "Watchful Eye",
+                        description: "Look at the top two cards of your deck. Choose one of them, discard it and place the other card back on top of your deck.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let everybody_dance = Skill(name: "Everybody, Dance!",
+                        description: "[ Flip 1 Bond ] When this unit's attack destroys an enemy, you may pay the cost, and if you do: Deploy a Black card with a Deployment Cost of 4 or less from your hand.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let kitsunes_dancing_beat = Skill(name: "Kitsune's Dancing Beat",
+                        description: "During your turn, if you have two or more other White allies, allied Fang attacks cannot be evaded except by the Main Character.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let i_found_you = Skill(name: "I Found You!",
+                        description: "[ Flip 1 Bond ] This turn, this unit in the frontlines can attack any enemy regardless of range.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+
+
