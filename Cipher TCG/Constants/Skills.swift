@@ -448,5 +448,91 @@ let i_found_you = Skill(name: "I Found You!",
                         tapUnit: false,
                         CCS: false)
 
+let perfect_arragement = Skill(name: "Perfect Arragement",
+                        description: "[ Flip 1 Bond ] Choose one of the following affinities between Sword, Lance or Axe. This turn, all allies gain the chosen affinity and range 1.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
 
+let prodigy = Skill(name: "Prodigy",
+                        description: "While this unit is attacking an enemy with a Deployment Cost of 3 or more, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let maidens_supreme_secret_weapon = Skill(name: "Maiden's Supreme Secret Weapon",
+                        description: "During your turn, for each other Tome ally, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let missiletainn_2 = Skill(name: "Missiletainn II",
+                        description: "When this unit attacks, if this unit's attack is 100 or more, this turn, the number of orbs this unit’s attacks would destroy becomes 2 (Class Change Skill: This skill is inactive unless this unit was Class Changed).",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: true)
+
+let soleil_the_flirtatious = Skill(name: "Soleil the Flirtatious",
+                        description: "Every time you deploy another Female ally, this turn, this unit gains +10 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let ill_protect_you = Skill(name: "I'll Protect You!",
+                        description: "[Tap another Female ally] Move an enemy in the back row.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let corrupted_paradise = Skill(name: "Corrupted Paradise",
+                        description: "[ Tap This Unit ] Place all enemies, excluding their main character, in your opponent's Bond Area face-down. Place all allies, excluding your main character and this unit, in your Bond Area face-down.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let curse_twisted_dream = Skill(name: "Curse-Twisted Dream",
+                        description: "For each of your face-down bonds, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let nohrian_heart = Skill(name: "Nohrian Heart",
+                        description: "You may also treat this card as a Black unit. (CONT This skill is inactive unless this card is deployed on the field.)",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let noble_yato = Skill(name: "Noble Yato",
+                        description: "During your turn, if you have at least two White cards in your Bond Area, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let grim_yato = Skill(name: "Grim Yato",
+                        description: "During your turn, if you have both White and Black Bonds, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
 

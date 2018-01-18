@@ -12,13 +12,16 @@ let none = SupportingSkill(type: "None",
                                     description: "")
 
 let attack_emblem = SupportingSkill(type: "Attack Emblem",
-                                    description: "Until the end of this battle, your attacking unit gains +20 attack.")
+                                   description: "Until the end of this battle, your attacking unit gains +20 attack.")
 
 let thief_emblem = SupportingSkill(type: "Thief Emblem",
-                                    description: "Reveal the top card of your opponent’s deck. You may then place that card in their Retreat Area.")
+                                   description: "Reveal the top card of your opponent’s deck. You may then place that card in their Retreat Area.")
 
 let flying_emblem = SupportingSkill(type: "Flying Emblem",
                                    description: "You may choose one ally that is not the attacking unit, and move it.")
 
 let hope_emblem = SupportingSkill(type: "Hope Emblem",
-                                    description: "If the defending unit has the White affinity, you may look at one of your orbs.")
+                                   description: "If the defending unit has the White affinity, you may look at one of your orbs.")
+
+let heros_emblem = SupportingSkill(type: "Hero's Emblem",
+                                  description: "If the attacking unit is White, until the end of this battle, the number of orbs this unit’s attack would destroy becomes 2.")

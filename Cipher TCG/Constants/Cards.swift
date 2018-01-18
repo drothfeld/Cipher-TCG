@@ -19,6 +19,17 @@ let s03_002 = Card(series: "S03-002ST",
                    skills: [sacred_treasure_raijinto, i_do_not_like_to_give_up],
                    cardImage: #imageLiteral(resourceName: "S03-002ST.png"))
 
+let b02_003 = Card(series: "B02-003HN",
+                   name: "Crown Prince of Hoshido, Corrin (Male)",
+                   rarity: "HN",
+                   insignia: hoshido,
+                   attack: 40,
+                   support: 20,
+                   illustrator: "Yusuke Kozaki",
+                   supportingSkill: heros_emblem,
+                   skills: [nohrian_heart, noble_yato],
+                   cardImage: #imageLiteral(resourceName: "B02-003.png"))
+
 let b02_006 = Card(series: "B02-006SR",
                    name: "Swordmaster of Roaring Thunder, Ryoma",
                    rarity: "SR",
@@ -40,6 +51,17 @@ let b03_051 = Card(series: "B03-051SR",
                    supportingSkill: none,
                    skills: [flaming_blade_of_light_and_darkness, omega_yato],
                    cardImage: #imageLiteral(resourceName: "B03-051.png"))
+
+let b03_052 = Card(series: "B03-052HN",
+                   name: "Princess of Hoshido, Corrin",
+                   rarity: "HN",
+                   insignia: hoshido,
+                   attack: 40,
+                   support: 20,
+                   illustrator: "Unknown",
+                   supportingSkill: heros_emblem,
+                   skills: [grim_yato],
+                   cardImage: #imageLiteral(resourceName: "B03-052.png"))
 
 let b03_063 = Card(series: "B03-063R",
                    name: "Nightingale Warrior, Shigure",
@@ -348,4 +370,48 @@ let b10_065 = Card(series: "B10-065N",
                    supportingSkill: attack_emblem,
                    skills: [i_found_you],
                    cardImage: #imageLiteral(resourceName: "B10-065.png"))
+
+let b10_068 = Card(series: "B10-068HN",
+                   name: "Flawless Winged Archer, Caeldori",
+                   rarity: "HN",
+                   insignia: hoshido,
+                   attack: 40,
+                   support: 30,
+                   illustrator: "HMK84",
+                   supportingSkill: none,
+                   skills: [perfect_arragement, prodigy, wingbane],
+                   cardImage: #imageLiteral(resourceName: "B10-068.png"))
+
+let b10_076 = Card(series: "B10-076R",
+                   name: "Rehearsal of a Turnabout Victory, Ophelia",
+                   rarity: "R",
+                   insignia: nohr,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "Sakura Miwabe",
+                   supportingSkill: none,
+                   skills: [maidens_supreme_secret_weapon, missiletainn_2],
+                   cardImage: #imageLiteral(resourceName: "B10-076.png"))
+
+let b10_081 = Card(series: "B10-081HN",
+                   name: "Bright Smile, Soleil",
+                   rarity: "HN",
+                   insignia: nohr,
+                   attack: 60,
+                   support: 10,
+                   illustrator: "Sachiko Wada",
+                   supportingSkill: none,
+                   skills: [soleil_the_flirtatious, ill_protect_you],
+                   cardImage: #imageLiteral(resourceName: "B10-081.png"))
+
+let b10_086 = Card(series: "B10-086HN",
+                   name: "Crazed Silent Dragon, Anankos",
+                   rarity: "HN",
+                   insignia: nohr,
+                   attack: 0,
+                   support: 0,
+                   illustrator: "Yoneko",
+                   supportingSkill: none,
+                   skills: [corrupted_paradise, curse_twisted_dream],
+                   cardImage: #imageLiteral(resourceName: "B10-086.png"))
 
