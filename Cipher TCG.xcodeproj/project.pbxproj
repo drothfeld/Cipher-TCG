@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B03D5775201105A9007A3E97 /* CardLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03D5774201105A9007A3E97 /* CardLists.swift */; };
 		B054BBB3200E68AE004159A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBB2200E68AE004159A6 /* AppDelegate.swift */; };
 		B054BBB5200E68AE004159A6 /* CardListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBB4200E68AE004159A6 /* CardListViewController.swift */; };
 		B054BBB8200E68AE004159A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B054BBB6200E68AE004159A6 /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B03D5774201105A9007A3E97 /* CardLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardLists.swift; sourceTree = "<group>"; };
 		B054BBAF200E68AE004159A6 /* Cipher TCG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cipher TCG.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B054BBB2200E68AE004159A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B054BBB4200E68AE004159A6 /* CardListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewController.swift; sourceTree = "<group>"; };
@@ -90,7 +92,6 @@
 				B054BBC4200E6E5F004159A6 /* View Controllers */,
 				B054BBB2200E68AE004159A6 /* AppDelegate.swift */,
 				B054BBB6200E68AE004159A6 /* Main.storyboard */,
-				B054BBB9200E68AE004159A6 /* Assets.xcassets */,
 				B054BBBB200E68AE004159A6 /* LaunchScreen.storyboard */,
 				B054BBBE200E68AE004159A6 /* Info.plist */,
 			);
@@ -123,6 +124,7 @@
 				B054BBE0200E9E8A004159A6 /* Insignias.swift */,
 				B054BBE4200EA4DA004159A6 /* SupportingSkills.swift */,
 				B054BBE8200EAC3C004159A6 /* Cards.swift */,
+				B03D5774201105A9007A3E97 /* CardLists.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -130,6 +132,7 @@
 		B054BBCC200E7BF4004159A6 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				B054BBB9200E68AE004159A6 /* Assets.xcassets */,
 				B054BBCD200E7C03004159A6 /* Images */,
 			);
 			path = Assets;
@@ -236,6 +239,7 @@
 				B054BBE9200EAC3C004159A6 /* Cards.swift in Sources */,
 				B054BBB3200E68AE004159A6 /* AppDelegate.swift in Sources */,
 				B054BBE3200EA461004159A6 /* SupportingSkill.swift in Sources */,
+				B03D5775201105A9007A3E97 /* CardLists.swift in Sources */,
 				B054BBE5200EA4DA004159A6 /* SupportingSkills.swift in Sources */,
 				B054BBDF200E9DB7004159A6 /* Insignia.swift in Sources */,
 			);
