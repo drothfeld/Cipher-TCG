@@ -19,10 +19,10 @@ class Card {
     var illustrator: String
     var supportingSkill: SupportingSkill
     var skills: [Skill]
-    var cardImage: UIImage
+    var cardImage: UIImage?
     
     // Constructor
-    init(series: String, name: String, rarity: String, insignia: Insignia, attack: Int, support: Int, illustrator: String, supportingSkill: SupportingSkill, skills: [Skill], cardImage: UIImage) {
+    init(series: String, name: String, rarity: String, insignia: Insignia, attack: Int, support: Int, illustrator: String, supportingSkill: SupportingSkill, skills: [Skill], cardImageName: String?) {
         self.series = series
         self.name = name
         self.rarity = rarity
@@ -32,7 +32,12 @@ class Card {
         self.illustrator = illustrator
         self.supportingSkill = supportingSkill
         self.skills = skills
-        self.cardImage = cardImage
+        
+        if let image = UIImage(named: cardImageName!) {
+            self.cardImage = image
+        } else {
+            self.cardImage = nil
+        }
     }
 }
 

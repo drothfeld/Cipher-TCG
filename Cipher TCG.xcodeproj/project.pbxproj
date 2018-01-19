@@ -86,10 +86,10 @@
 		B054BBB1200E68AE004159A6 /* Cipher TCG */ = {
 			isa = PBXGroup;
 			children = (
-				B054BBCC200E7BF4004159A6 /* Assets */,
-				B054BBC9200E7B73004159A6 /* Constants */,
 				B054BBC7200E7665004159A6 /* Classes */,
+				B054BBC9200E7B73004159A6 /* Constants */,
 				B054BBC4200E6E5F004159A6 /* View Controllers */,
+				B054BBCC200E7BF4004159A6 /* Assets */,
 				B054BBB2200E68AE004159A6 /* AppDelegate.swift */,
 				B054BBB6200E68AE004159A6 /* Main.storyboard */,
 				B054BBBB200E68AE004159A6 /* LaunchScreen.storyboard */,
@@ -232,16 +232,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B054BBCB200E7BA1004159A6 /* Skill.swift in Sources */,
+				B054BBE3200EA461004159A6 /* SupportingSkill.swift in Sources */,
+				B054BBDF200E9DB7004159A6 /* Insignia.swift in Sources */,
 				B054BBE7200EA5E0004159A6 /* Card.swift in Sources */,
 				B054BBDD200E8A0A004159A6 /* Skills.swift in Sources */,
-				B054BBB5200E68AE004159A6 /* CardListViewController.swift in Sources */,
+				B054BBE5200EA4DA004159A6 /* SupportingSkills.swift in Sources */,
 				B054BBE1200E9E8A004159A6 /* Insignias.swift in Sources */,
 				B054BBE9200EAC3C004159A6 /* Cards.swift in Sources */,
 				B054BBB3200E68AE004159A6 /* AppDelegate.swift in Sources */,
-				B054BBE3200EA461004159A6 /* SupportingSkill.swift in Sources */,
 				B03D5775201105A9007A3E97 /* CardLists.swift in Sources */,
-				B054BBE5200EA4DA004159A6 /* SupportingSkills.swift in Sources */,
-				B054BBDF200E9DB7004159A6 /* Insignia.swift in Sources */,
+				B054BBB5200E68AE004159A6 /* CardListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

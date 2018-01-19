@@ -30,8 +30,15 @@
                                             <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="showDetail" id="qia-i8-aIC"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="Pq1-Uc-tVd"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Mem-fx-CcW"/>
+                                </connections>
                             </tableView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bCi-jW-AfE" userLabel="Header View">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>

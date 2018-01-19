@@ -9,15 +9,21 @@
 import UIKit
 
 class Insignia {
+    
     // Fields
     var name: String
     var color: UIColor
-    var iconImage: UIImage
+    var iconImage: UIImage?
     
     // Constructor
-    init(name: String, color: UIColor, iconImage: UIImage) {
+    init(name: String, color: UIColor, iconImageName: String?) {
         self.name = name
         self.color = color
-        self.iconImage = iconImage
+        
+        if let image = UIImage(named: iconImageName!) {
+            self.iconImage = image
+        } else {
+            self.iconImage = nil
+        }
     }
 }

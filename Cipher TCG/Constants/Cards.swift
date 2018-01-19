@@ -17,7 +17,7 @@ let s03_002 = Card(series: "S03-002ST",
                    illustrator: "Clover K",
                    supportingSkill: none,
                    skills: [sacred_treasure_raijinto, i_do_not_like_to_give_up],
-                   cardImage: #imageLiteral(resourceName: "S03-002ST.png"))
+                   cardImageName: "S03-002ST.png")
 
 let b02_003 = Card(series: "B02-003HN",
                    name: "Crown Prince of Hoshido, Corrin (Male)",
@@ -28,7 +28,7 @@ let b02_003 = Card(series: "B02-003HN",
                    illustrator: "Yusuke Kozaki",
                    supportingSkill: heros_emblem,
                    skills: [nohrian_heart, noble_yato],
-                   cardImage: #imageLiteral(resourceName: "B02-003.png"))
+                   cardImageName: "B02-003.png")
 
 let b02_006 = Card(series: "B02-006SR",
                    name: "Swordmaster of Roaring Thunder, Ryoma",
@@ -39,7 +39,7 @@ let b02_006 = Card(series: "B02-006SR",
                    illustrator: "Rika Suzuki",
                    supportingSkill: none,
                    skills: [lightning_blade, unyielding_forces],
-                   cardImage: #imageLiteral(resourceName: "B02-006.png"))
+                   cardImageName: "B02-006.png")
 
 let b03_051 = Card(series: "B03-051SR",
                    name: "Godly Child of the Final Light Flame, Corrin",
@@ -50,7 +50,7 @@ let b03_051 = Card(series: "B03-051SR",
                    illustrator: "Unknown",
                    supportingSkill: none,
                    skills: [flaming_blade_of_light_and_darkness, omega_yato],
-                   cardImage: #imageLiteral(resourceName: "B03-051.png"))
+                   cardImageName: "B03-051.png")
 
 let b03_052 = Card(series: "B03-052HN",
                    name: "Princess of Hoshido, Corrin",
@@ -61,7 +61,7 @@ let b03_052 = Card(series: "B03-052HN",
                    illustrator: "Unknown",
                    supportingSkill: heros_emblem,
                    skills: [grim_yato],
-                   cardImage: #imageLiteral(resourceName: "B03-052.png"))
+                   cardImageName: "B03-052.png")
 
 let b03_063 = Card(series: "B03-063R",
                    name: "Nightingale Warrior, Shigure",
@@ -72,7 +72,7 @@ let b03_063 = Card(series: "B03-063R",
                    illustrator: "Unknown",
                    supportingSkill: none,
                    skills: [cry_of_the_pegasus, resounding_anthem],
-                   cardImage: #imageLiteral(resourceName: "B03-063.png"))
+                   cardImageName: "B03-063.png")
 
 let b03_067 = Card(series: "B03-067HN",
                    name: "Natural Hunter, Kiragi",
@@ -83,7 +83,7 @@ let b03_067 = Card(series: "B03-067HN",
                    illustrator: "Unknown",
                    supportingSkill: none,
                    skills: [prince_of_gales, wingbane],
-                   cardImage: #imageLiteral(resourceName: "B03-067.png"))
+                   cardImageName: "B03-067.png")
 
 let b03_068 = Card(series: "B03-068N",
                    name: "Optimistic Archer, Kiragi",
@@ -94,7 +94,7 @@ let b03_068 = Card(series: "B03-068N",
                    illustrator: "Unknown",
                    supportingSkill: attack_emblem,
                    skills: [wild_prince, wingbane],
-                   cardImage: #imageLiteral(resourceName: "B03-068.png"))
+                   cardImageName: "B03-068.png")
 
 let b03_072 = Card(series: "B03-072R",
                    name: "Thread of Gold, Selkie",
@@ -105,7 +105,7 @@ let b03_072 = Card(series: "B03-072R",
                    illustrator: "Unknown",
                    supportingSkill: none,
                    skills: [whos_that_whos_that, masquerade],
-                   cardImage: #imageLiteral(resourceName: "B03-072.png"))
+                   cardImageName: "B03-072.png")
 
 let b03_078 = Card(series: "B03-078SR",
                    name: "Diva of Dusk, Azura",
@@ -116,7 +116,7 @@ let b03_078 = Card(series: "B03-078SR",
                    illustrator: "Unknown",
                    supportingSkill: none,
                    skills: [song_of_destruction, princess_of_the_nation, dark_road_to_the_invisible_kingdom],
-                   cardImage: #imageLiteral(resourceName: "B03-078.png"))
+                   cardImageName: "B03-078.png")
 
 let b03_091 = Card(series: "B03-091R",
                    name: "Chivalrous Thief, Nina",
@@ -127,7 +127,7 @@ let b03_091 = Card(series: "B03-091R",
                    illustrator: "daigoman",
                    supportingSkill: none,
                    skills: [youthful_discernment, wingbane],
-                   cardImage: #imageLiteral(resourceName: "B03-091.png"))
+                   cardImageName: "B03-091.png")
 
 let b03_092 = Card(series: "B03-092N",
                    name: "Delusional Escapist, Nina",
@@ -138,7 +138,7 @@ let b03_092 = Card(series: "B03-092N",
                    illustrator: "daigoman",
                    supportingSkill: thief_emblem,
                    skills: [lecherous_lockpicking, wingbane],
-                   cardImage: #imageLiteral(resourceName: "B03-092.png"))
+                   cardImageName: "B03-092.png")
 
 let b06_054 = Card(series: "B06-054SR",
                    name: "Beautiful Obsidian Princess, Camilla",
@@ -149,7 +149,7 @@ let b06_054 = Card(series: "B06-054SR",
                    illustrator: "Mayo",
                    supportingSkill: none,
                    skills: [eruption, obsidian_mist],
-                   cardImage: #imageLiteral(resourceName: "B06-054.png"))
+                   cardImageName: "B06-054.png")
 
 let b06_062 = Card(series: "B06-062R",
                    name: "The Deadly, Beruka",
@@ -160,7 +160,7 @@ let b06_062 = Card(series: "B06-062R",
                    illustrator: "Saori Toyota",
                    supportingSkill: none,
                    skills: [all_or_nothing, death_gale],
-                   cardImage: #imageLiteral(resourceName: "B06-062.png"))
+                   cardImageName: "B06-062.png")
 
 let b06_063 = Card(series: "B06-063N",
                    name: "Flying Assassin, Beruka",
@@ -171,7 +171,7 @@ let b06_063 = Card(series: "B06-063N",
                    illustrator: "Saori Toyota",
                    supportingSkill: flying_emblem,
                    skills: [commander_of_the_kamikaze_unit],
-                   cardImage: #imageLiteral(resourceName: "B06-062.png"))
+                   cardImageName: "B06-063.png")
 
 let b07_051 = Card(series: "B07-051SR",
                    name: "Unifier of the Kingdom of Hoshido, Ryoma",
@@ -182,7 +182,7 @@ let b07_051 = Card(series: "B07-051SR",
                    illustrator: "Rika Suzuki",
                    supportingSkill: none,
                    skills: [summoning_thunder, stage_for_decisive_battle, voice_of_dragons],
-                   cardImage: #imageLiteral(resourceName: "B07-051.png"))
+                   cardImageName: "B07-051.png")
 
 let b07_053 = Card(series: "B07-053HN",
                    name: "Warrior of Hoshido, Ryoma",
@@ -193,7 +193,7 @@ let b07_053 = Card(series: "B07-053HN",
                    illustrator: "Tada",
                    supportingSkill: attack_emblem,
                    skills: [royal_familys_blood],
-                   cardImage: #imageLiteral(resourceName: "B07-053.png"))
+                   cardImageName: "B07-053.png")
 
 let b07_056 = Card(series: "B07-056SR",
                    name: "Prince of Brilliant Winds, Takumi",
@@ -204,7 +204,7 @@ let b07_056 = Card(series: "B07-056SR",
                    illustrator: "Aoji",
                    supportingSkill: none,
                    skills: [parting_the_sea, stormy_plains, wingbane],
-                   cardImage: #imageLiteral(resourceName: "B07-056.png"))
+                   cardImageName: "B07-056.png")
 
 let b07_058 = Card(series: "B07-058SR",
                    name: "Dancing in Hoshidan Bloom, Sakura",
@@ -215,7 +215,7 @@ let b07_058 = Card(series: "B07-058SR",
                    illustrator: "Tetsu Kurosawa",
                    supportingSkill: none,
                    skills: [recovery, blessed_sakura_storm],
-                   cardImage: #imageLiteral(resourceName: "B07-056.png"))
+                   cardImageName: "B07-058.png")
 
 let b07_064 = Card(series: "B07-064R",
                    name: "Careless Kinshi Knight, Setsuna",
@@ -226,7 +226,7 @@ let b07_064 = Card(series: "B07-064R",
                    illustrator: "BISAI",
                    supportingSkill: none,
                    skills: [airhead, setsunas_yumi, wingbane],
-                   cardImage: #imageLiteral(resourceName: "B07-064.png"))
+                   cardImageName: "B07-064.png")
 
 let b07_068 = Card(series: "B07-068R",
                    name: "The Unyielding Girl, Hana",
@@ -237,7 +237,7 @@ let b07_068 = Card(series: "B07-068R",
                    illustrator: "daigoman",
                    supportingSkill: none,
                    skills: [swords_beat_axes_and_bows, axes_beat_lances_and_shurikens, lances_beat_swords_and_tomes],
-                   cardImage: #imageLiteral(resourceName: "B07-068.png"))
+                   cardImageName: "B07-068.png")
 
 let b07_086 = Card(series: "B07-086HN",
                    name: "Wild Archery, Kiragi",
@@ -248,7 +248,7 @@ let b07_086 = Card(series: "B07-086HN",
                    illustrator: "Kokon Konfuzi",
                    supportingSkill: none,
                    skills: [dragon_vein_whiff, wingbane],
-                   cardImage: #imageLiteral(resourceName: "B07-068.png"))
+                   cardImageName: "B07-086.png")
 
 let b10_051 = Card(series: "B10-051SR",
                    name: "Night-Transcending Princess, Kana",
@@ -259,7 +259,7 @@ let b10_051 = Card(series: "B10-051SR",
                    illustrator: "lack",
                    supportingSkill: none,
                    skills: [warm_strength, our_yato],
-                   cardImage: #imageLiteral(resourceName: "B10-051.png"))
+                   cardImageName: "B10-051.png")
 
 let b10_052 = Card(series: "B10-052N",
                    name: "Girl of the White Path, Kana",
@@ -270,7 +270,7 @@ let b10_052 = Card(series: "B10-052N",
                    illustrator: "lack",
                    supportingSkill: hope_emblem,
                    skills: [in_the_white_light],
-                   cardImage: #imageLiteral(resourceName: "B10-052.png"))
+                   cardImageName: "B10-052.png")
 
 let b10_053 = Card(series: "B10-053SR",
                    name: "Night-Transcending Prince, Kana",
@@ -281,7 +281,7 @@ let b10_053 = Card(series: "B10-053SR",
                    illustrator: "lack",
                    supportingSkill: none,
                    skills: [unyielding_hope, our_yato],
-                   cardImage: #imageLiteral(resourceName: "B10-053.png"))
+                   cardImageName: "B10-053.png")
 
 let b10_054 = Card(series: "B10-054N",
                    name: "Boy of the Dark Path, Kana",
@@ -292,7 +292,7 @@ let b10_054 = Card(series: "B10-054N",
                    illustrator: "lack",
                    supportingSkill: hope_emblem,
                    skills: [embrace_the_dark],
-                   cardImage: #imageLiteral(resourceName: "B10-054.png"))
+                   cardImageName: "B10-054.png")
 
 let b10_055 = Card(series: "B10-055SR",
                    name: "Divine Son of the Dazzling Dawn Dragon, Corrin",
@@ -303,7 +303,7 @@ let b10_055 = Card(series: "B10-055SR",
                    illustrator: "Ryuutetu",
                    supportingSkill: none,
                    skills: [gleaming_white_scale, dawning_dragon_blood],
-                   cardImage: #imageLiteral(resourceName: "B10-055.png"))
+                   cardImageName: "B10-055.png")
 
 let b10_057 = Card(series: "B10-057SR",
                    name: "Divine Daughter of the Darkening Dusk Dragon, Corrin",
@@ -314,7 +314,7 @@ let b10_057 = Card(series: "B10-057SR",
                    illustrator: "Ryuutetu",
                    supportingSkill: none,
                    skills: [wings_of_darkness_neverending, dusking_dragon_blood],
-                   cardImage: #imageLiteral(resourceName: "B10-057.png"))
+                   cardImageName: "B10-057.png")
 
 let b10_059 = Card(series: "B10-059R",
                    name: "End of the Ideal Path, Shigure",
@@ -325,7 +325,7 @@ let b10_059 = Card(series: "B10-059R",
                    illustrator: "Kaoru Hagiya / Misei Ito",
                    supportingSkill: none,
                    skills: [lost_in_the_waves, forbidden_lyric, treasured_memory],
-                   cardImage: #imageLiteral(resourceName: "B10-059.png"))
+                   cardImageName: "B10-059.png")
 
 let b10_060 = Card(series: "B10-060N",
                    name: "Canyon-Wandering Soul, Shigure",
@@ -336,7 +336,7 @@ let b10_060 = Card(series: "B10-060N",
                    illustrator: "Unknown",
                    supportingSkill: flying_emblem,
                    skills: [bequeathed_necklace],
-                   cardImage: #imageLiteral(resourceName: "B10-060.png"))
+                   cardImageName: "B10-060.png")
 
 let b10_061 = Card(series: "B10-061R",
                    name: "Ephemeral Songstress, Azura",
@@ -347,7 +347,7 @@ let b10_061 = Card(series: "B10-061R",
                    illustrator: "cuboon / Misei Ito",
                    supportingSkill: none,
                    skills: [the_changing_tide, watchful_eye],
-                   cardImage: #imageLiteral(resourceName: "B10-061.png"))
+                   cardImageName: "B10-061.png")
 
 let b10_064 = Card(series: "B10-064R",
                    name: "Fox in Black, Selkie",
@@ -358,7 +358,7 @@ let b10_064 = Card(series: "B10-064R",
                    illustrator: "Tetsu Kurosawa",
                    supportingSkill: none,
                    skills: [everybody_dance, kitsunes_dancing_beat],
-                   cardImage: #imageLiteral(resourceName: "B10-064.png"))
+                   cardImageName: "B10-064.png")
 
 let b10_065 = Card(series: "B10-065N",
                    name: "Simple Fox Girl, Selkie",
@@ -369,7 +369,7 @@ let b10_065 = Card(series: "B10-065N",
                    illustrator: "Tetsu Kurosawa",
                    supportingSkill: attack_emblem,
                    skills: [i_found_you],
-                   cardImage: #imageLiteral(resourceName: "B10-065.png"))
+                   cardImageName: "B10-065.png")
 
 let b10_068 = Card(series: "B10-068HN",
                    name: "Flawless Winged Archer, Caeldori",
@@ -380,7 +380,7 @@ let b10_068 = Card(series: "B10-068HN",
                    illustrator: "HMK84",
                    supportingSkill: none,
                    skills: [perfect_arragement, prodigy, wingbane],
-                   cardImage: #imageLiteral(resourceName: "B10-068.png"))
+                   cardImageName: "B10-068.png")
 
 let b10_076 = Card(series: "B10-076R",
                    name: "Rehearsal of a Turnabout Victory, Ophelia",
@@ -391,7 +391,7 @@ let b10_076 = Card(series: "B10-076R",
                    illustrator: "Sakura Miwabe",
                    supportingSkill: none,
                    skills: [maidens_supreme_secret_weapon, missiletainn_2],
-                   cardImage: #imageLiteral(resourceName: "B10-076.png"))
+                   cardImageName: "B10-076.png")
 
 let b10_081 = Card(series: "B10-081HN",
                    name: "Bright Smile, Soleil",
@@ -402,7 +402,7 @@ let b10_081 = Card(series: "B10-081HN",
                    illustrator: "Sachiko Wada",
                    supportingSkill: none,
                    skills: [soleil_the_flirtatious, ill_protect_you],
-                   cardImage: #imageLiteral(resourceName: "B10-081.png"))
+                   cardImageName: "B10-081.png")
 
 let b10_086 = Card(series: "B10-086HN",
                    name: "Crazed Silent Dragon, Anankos",
@@ -413,5 +413,5 @@ let b10_086 = Card(series: "B10-086HN",
                    illustrator: "Yoneko",
                    supportingSkill: none,
                    skills: [corrupted_paradise, curse_twisted_dream],
-                   cardImage: #imageLiteral(resourceName: "B10-086.png"))
+                   cardImageName: "B10-086.png")
 
