@@ -96,19 +96,19 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         CardListTableView.reloadData()
     }
     
-    // Preparing Ingredient to get details on
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if let indexPath = CardListTableView.indexPathForSelectedRow {
-//            let card: Card
-//            if isSearching {
-//                card = filteredRawCardList[indexPath.row]
-//            } else {
-//                card = sortedRawCardList[indexPath.row]
-//            }
-//            let controller = segue.destination as! IngredientViewController
-//            controller.detailIngredient = card
-//        }
-//    }
+    // Preparing Specific Card
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let indexPath = CardListTableView.indexPathForSelectedRow {
+            let card: Card
+            if isSearching {
+                card = filteredRawCardList[indexPath.row]
+            } else {
+                card = sortedRawCardList[indexPath.row]
+            }
+            let controller = segue.destination as! CardViewController
+            controller.detailCard = card
+        }
+    }
     
     // Hiding status bar
     override var prefersStatusBarHidden: Bool {

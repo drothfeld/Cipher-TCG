@@ -55,6 +55,9 @@
 		B03D58012012CD14007A3E97 /* B10-054.png in Resources */ = {isa = PBXBuildFile; fileRef = B03D57F12012CD14007A3E97 /* B10-054.png */; };
 		B03D58022012CD14007A3E97 /* B10-068.png in Resources */ = {isa = PBXBuildFile; fileRef = B03D57F22012CD14007A3E97 /* B10-068.png */; };
 		B03D58042012D169007A3E97 /* cipher_header.png in Resources */ = {isa = PBXBuildFile; fileRef = B03D58032012D169007A3E97 /* cipher_header.png */; };
+		B03D580A2012DBC5007A3E97 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03D58092012DBC5007A3E97 /* CardViewController.swift */; };
+		B03D580D2013C100007A3E97 /* SegueFromLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03D580C2013C100007A3E97 /* SegueFromLeft.swift */; };
+		B03D580F2013C1A0007A3E97 /* SegueFromRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03D580E2013C1A0007A3E97 /* SegueFromRight.swift */; };
 		B054BBB3200E68AE004159A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBB2200E68AE004159A6 /* AppDelegate.swift */; };
 		B054BBB5200E68AE004159A6 /* CardListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBB4200E68AE004159A6 /* CardListViewController.swift */; };
 		B054BBB8200E68AE004159A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B054BBB6200E68AE004159A6 /* Main.storyboard */; };
@@ -119,6 +122,9 @@
 		B03D57F12012CD14007A3E97 /* B10-054.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B10-054.png"; sourceTree = "<group>"; };
 		B03D57F22012CD14007A3E97 /* B10-068.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B10-068.png"; sourceTree = "<group>"; };
 		B03D58032012D169007A3E97 /* cipher_header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cipher_header.png; sourceTree = "<group>"; };
+		B03D58092012DBC5007A3E97 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		B03D580C2013C100007A3E97 /* SegueFromLeft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueFromLeft.swift; sourceTree = "<group>"; };
+		B03D580E2013C1A0007A3E97 /* SegueFromRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueFromRight.swift; sourceTree = "<group>"; };
 		B054BBAF200E68AE004159A6 /* Cipher TCG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cipher TCG.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B054BBB2200E68AE004159A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B054BBB4200E68AE004159A6 /* CardListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewController.swift; sourceTree = "<group>"; };
@@ -241,6 +247,15 @@
 			path = B10;
 			sourceTree = "<group>";
 		};
+		B03D580B2013C0D5007A3E97 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				B03D580C2013C100007A3E97 /* SegueFromLeft.swift */,
+				B03D580E2013C1A0007A3E97 /* SegueFromRight.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
 		B054BBA6200E68AE004159A6 = {
 			isa = PBXGroup;
 			children = (
@@ -260,6 +275,7 @@
 		B054BBB1200E68AE004159A6 /* Cipher TCG */ = {
 			isa = PBXGroup;
 			children = (
+				B03D580B2013C0D5007A3E97 /* Animations */,
 				B054BBC7200E7665004159A6 /* Classes */,
 				B054BBC9200E7B73004159A6 /* Constants */,
 				B054BBC4200E6E5F004159A6 /* View Controllers */,
@@ -276,6 +292,7 @@
 			isa = PBXGroup;
 			children = (
 				B054BBB4200E68AE004159A6 /* CardListViewController.swift */,
+				B03D58092012DBC5007A3E97 /* CardViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -451,10 +468,13 @@
 				B054BBE3200EA461004159A6 /* SupportingSkill.swift in Sources */,
 				B054BBDF200E9DB7004159A6 /* Insignia.swift in Sources */,
 				B054BBE7200EA5E0004159A6 /* Card.swift in Sources */,
+				B03D580F2013C1A0007A3E97 /* SegueFromRight.swift in Sources */,
 				B054BBDD200E8A0A004159A6 /* Skills.swift in Sources */,
+				B03D580D2013C100007A3E97 /* SegueFromLeft.swift in Sources */,
 				B054BBE5200EA4DA004159A6 /* SupportingSkills.swift in Sources */,
 				B054BBE1200E9E8A004159A6 /* Insignias.swift in Sources */,
 				B054BBE9200EAC3C004159A6 /* Cards.swift in Sources */,
+				B03D580A2012DBC5007A3E97 /* CardViewController.swift in Sources */,
 				B054BBB3200E68AE004159A6 /* AppDelegate.swift in Sources */,
 				B03D5775201105A9007A3E97 /* CardLists.swift in Sources */,
 				B054BBB5200E68AE004159A6 /* CardListViewController.swift in Sources */,
