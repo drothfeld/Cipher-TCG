@@ -50,11 +50,19 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         if (isSearching) {
             cell.textLabel?.text = filteredRawCardList[indexPath.item].series
             cell.detailTextLabel?.text = filteredRawCardList[indexPath.item].name
-            cell.imageView?.image = filteredRawCardList[indexPath.item].cardImage
+            if (filteredRawCardList[indexPath.item].cardImage == nil) {
+                cell.imageView?.image = #imageLiteral(resourceName: "card_placeholder.png")
+            } else {
+                cell.imageView?.image = filteredRawCardList[indexPath.item].cardImage
+            }
         } else {
             cell.textLabel?.text = sortedRawCardList[indexPath.item].series
             cell.detailTextLabel?.text = sortedRawCardList[indexPath.item].name
-            cell.imageView?.image = sortedRawCardList[indexPath.item].cardImage
+            if (sortedRawCardList[indexPath.item].cardImage == nil) {
+                cell.imageView?.image = #imageLiteral(resourceName: "card_placeholder.png")
+            } else {
+                cell.imageView?.image = sortedRawCardList[indexPath.item].cardImage
+            }
         }
         return cell
     }

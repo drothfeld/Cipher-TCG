@@ -20,7 +20,7 @@ let s03_002 = Card(series: "S03-002ST",
                    cardImageName: "S03-002ST.png")
 
 let b02_003 = Card(series: "B02-003HN",
-                   name: "Crown Prince of Hoshido, Corrin (Male)",
+                   name: "Crown Prince of Hoshido, Corrin",
                    rarity: "HN",
                    insignia: hoshido,
                    attack: 40,
