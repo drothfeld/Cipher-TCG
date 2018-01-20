@@ -33,7 +33,7 @@ class Card {
         self.supportingSkill = supportingSkill
         self.skills = skills
         
-        if let image = UIImage(named: cardImageName!) {
+        if let image = UIImage(contentsOfFile: cardImageName!) {
             self.cardImage = image
         } else {
             self.cardImage = nil

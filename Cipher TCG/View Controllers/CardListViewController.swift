@@ -33,13 +33,28 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         return rawCardsList.count
     }
     
+    // Row Height
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+//        if (indexPath.row == 0) {
+//            return 100
+//        }
+//        else {
+//            return 60
+//        }
+        return 75
+    }
+    
     // Cell Data
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "customCell", for: indexPath)
         if (isSearching) {
-            cell.textLabel?.text = filteredRawCardList[indexPath.item].name
+            cell.textLabel?.text = filteredRawCardList[indexPath.item].series
+            cell.detailTextLabel?.text = filteredRawCardList[indexPath.item].name
+            cell.imageView?.image = filteredRawCardList[indexPath.item].cardImage
         } else {
-            cell.textLabel?.text = sortedRawCardList[indexPath.item].name
+            cell.textLabel?.text = sortedRawCardList[indexPath.item].series
+            cell.detailTextLabel?.text = sortedRawCardList[indexPath.item].name
+            cell.imageView?.image = sortedRawCardList[indexPath.item].cardImage
         }
         return cell
     }
