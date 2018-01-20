@@ -51,7 +51,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
             cell.textLabel?.text = filteredRawCardList[indexPath.item].series
             cell.detailTextLabel?.text = filteredRawCardList[indexPath.item].name
             if (filteredRawCardList[indexPath.item].cardImage == nil) {
-                cell.imageView?.image = #imageLiteral(resourceName: "card_placeholder.png")
+                cell.imageView?.image = UIImage(named: "card_placeholder.png")
             } else {
                 cell.imageView?.image = filteredRawCardList[indexPath.item].cardImage
             }
@@ -59,7 +59,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
             cell.textLabel?.text = sortedRawCardList[indexPath.item].series
             cell.detailTextLabel?.text = sortedRawCardList[indexPath.item].name
             if (sortedRawCardList[indexPath.item].cardImage == nil) {
-                cell.imageView?.image = #imageLiteral(resourceName: "card_placeholder.png")
+                cell.imageView?.image = UIImage(named: "card_placeholder.png")
             } else {
                 cell.imageView?.image = sortedRawCardList[indexPath.item].cardImage
             }
