@@ -19,6 +19,8 @@ class CardViewController: UIViewController {
     @IBOutlet weak var CardRarityText: UILabel!
     @IBOutlet weak var CardAttackText: UILabel!
     @IBOutlet weak var CardSupportText: UILabel!
+    @IBOutlet weak var CardSupportingSkillText: UILabel!
+    @IBOutlet weak var SupportingSkillTitleText: UILabel!
     
     // Defined Values
     var detailCard: Card? {
@@ -43,7 +45,9 @@ class CardViewController: UIViewController {
                let CardIllustratorText = CardIllustratorText,
                let CardRarityText = CardRarityText,
                let CardAttackText = CardAttackText,
-               let CardSupportText = CardSupportText{
+               let CardSupportText = CardSupportText,
+               let CardSupportingSkillText = CardSupportingSkillText,
+               let SupportingSkillTitleText = SupportingSkillTitleText {
                 // Assigning Values to UI Elements
                 CardImage.image = detailCard.cardImage
                 CardNameText.text = detailCard.name
@@ -54,6 +58,15 @@ class CardViewController: UIViewController {
                 CardRarityText.text = "Rarity: " + detailCard.rarity
                 CardAttackText.text = "Attack: " + String(detailCard.attack)
                 CardSupportText.text = "Support: " + String(detailCard.support)
+                // Supporting Skill Text
+                if (detailCard.supportingSkill.type != "None") {
+                    SupportingSkillTitleText.isHidden = false
+                    CardSupportingSkillText.numberOfLines = 0
+                    CardSupportingSkillText.text = detailCard.supportingSkill.type + " - " + detailCard.supportingSkill.description
+                } else {
+                    SupportingSkillTitleText.isHidden = true
+                    CardSupportingSkillText.text = ""
+                }
             }
         }
     }

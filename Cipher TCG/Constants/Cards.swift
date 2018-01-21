@@ -397,10 +397,10 @@ let b10_081 = Card(series: "B10-081HN",
                    name: "Bright Smile, Soleil",
                    rarity: "High Normal",
                    insignia: nohr,
-                   attack: 60,
+                   attack: 40,
                    support: 10,
                    illustrator: "Sachiko Wada",
-                   supportingSkill: none,
+                   supportingSkill: attack_emblem,
                    skills: [soleil_the_flirtatious, ill_protect_you],
                    cardImageName: "B10-081.png")
 
