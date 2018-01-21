@@ -27,6 +27,8 @@ class CardViewController: UIViewController {
     @IBOutlet weak var CardSupportingSkillText: UILabel!
     @IBOutlet weak var SupportingSkillTitleText: UILabel!
     @IBOutlet weak var CardSupportingSkillImage: UIImageView!
+    @IBOutlet weak var SkillsTitleText: UILabel!
+    @IBOutlet weak var CardSkillsText: UILabel!
     
     // Defined Values
     var detailCard: Card? {
@@ -40,9 +42,11 @@ class CardViewController: UIViewController {
         configureView()
     }
     
-    // Setting up the view
+    // Setting View
     func configureView() {
         if let detailCard = detailCard {
+            
+            // UI Elements Being Manipulated
             if let CardImage = CardImage,
                let CardNameText = CardNameText,
                let CardSeriesText = CardSeriesText,
@@ -54,7 +58,9 @@ class CardViewController: UIViewController {
                let CardSupportText = CardSupportText,
                let CardSupportingSkillText = CardSupportingSkillText,
                let SupportingSkillTitleText = SupportingSkillTitleText,
-               let CardSupportingSkillImage = CardSupportingSkillImage {
+               let CardSupportingSkillImage = CardSupportingSkillImage,
+               let CardSkillsText = CardSkillsText {
+                
                 // Assigning Values to UI Elements
                 CardImage.image = detailCard.cardImage
                 CardNameText.text = detailCard.name
@@ -65,6 +71,7 @@ class CardViewController: UIViewController {
                 CardRarityText.text = detailCard.rarity
                 CardAttackText.text = String(detailCard.attack)
                 CardSupportText.text = String(detailCard.support)
+                
                 // Supporting Skill Text
                 if (detailCard.supportingSkill.type != "None") {
                     SupportingSkillTitleText.isHidden = false
@@ -77,6 +84,13 @@ class CardViewController: UIViewController {
                     CardSupportingSkillImage.isHidden = true
                     CardSupportingSkillText.text = ""
                 }
+                
+                // Skills Text
+                var skillsLongString: String = ""
+                for (index, skill) in detailCard.skills.enumerated() {
+                    skillsLongString = skillsLongString + "Skill " + String(index + 1) + ": " + skill.name + " - " + skill.description + "\n \n"
+                }
+                CardSkillsText.text = skillsLongString
             }
         }
     }

@@ -258,6 +258,27 @@
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TrZ-pl-g5P" userLabel="Skills">
+                                        <rect key="frame" x="8" y="336" width="357" height="254"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Skills:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bKT-PU-Rr4" userLabel="Card Skills Title Text">
+                                                <rect key="frame" x="0.0" y="0.0" width="51" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Skill Text" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9aT-ht-935" userLabel="Skill Text">
+                                                <rect key="frame" x="8" y="22" width="349" height="232"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
@@ -275,12 +296,14 @@
                         <outlet property="CardNameText" destination="baE-Rw-07R" id="Ygj-y9-HLy"/>
                         <outlet property="CardRarityText" destination="1xQ-v6-oka" id="yNC-PV-qqF"/>
                         <outlet property="CardSeriesText" destination="9im-wi-VKQ" id="VAg-3Q-nyu"/>
+                        <outlet property="CardSkillsText" destination="9aT-ht-935" id="DB7-Vv-rrj"/>
                         <outlet property="CardSupportText" destination="nXl-6y-hZw" id="tLv-V6-c5f"/>
                         <outlet property="CardSupportingSkillImage" destination="jSe-xV-ppj" id="gOS-sU-x9G"/>
                         <outlet property="CardSupportingSkillText" destination="zSv-Yy-0WK" id="RTt-PK-gW8"/>
                         <outlet property="IllustratorTitleText" destination="2vb-QZ-AUS" id="5ft-o5-nPk"/>
                         <outlet property="RarityTitleText" destination="Ib0-NA-Qaa" id="3af-Rr-CjQ"/>
                         <outlet property="SeriesTitleText" destination="Jky-fa-qgr" id="baJ-jK-0uO"/>
+                        <outlet property="SkillsTitleText" destination="bKT-PU-Rr4" id="eza-rT-zwx"/>
                         <outlet property="SupportTitleText" destination="YLI-SF-J22" id="GcS-nH-INJ"/>
                         <outlet property="SupportingSkillTitleText" destination="O8A-Yt-wVz" id="cKc-sb-CfE"/>
                     </connections>
