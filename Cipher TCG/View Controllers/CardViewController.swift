@@ -13,12 +13,17 @@ class CardViewController: UIViewController {
     @IBOutlet weak var CardImage: UIImageView!
     @IBOutlet weak var CardNameText: UILabel!
     @IBOutlet weak var CardSeriesText: UILabel!
+    @IBOutlet weak var SeriesTitleText: UILabel!
     @IBOutlet weak var CardInsigniaImage: UIImageView!
     @IBOutlet weak var CardInsigniaText: UILabel!
     @IBOutlet weak var CardIllustratorText: UILabel!
+    @IBOutlet weak var IllustratorTitleText: UILabel!
     @IBOutlet weak var CardRarityText: UILabel!
+    @IBOutlet weak var RarityTitleText: UILabel!
     @IBOutlet weak var CardAttackText: UILabel!
+    @IBOutlet weak var AttackTitleText: UILabel!
     @IBOutlet weak var CardSupportText: UILabel!
+    @IBOutlet weak var SupportTitleText: UILabel!
     @IBOutlet weak var CardSupportingSkillText: UILabel!
     @IBOutlet weak var SupportingSkillTitleText: UILabel!
     
@@ -54,10 +59,10 @@ class CardViewController: UIViewController {
                 CardSeriesText.text = detailCard.series
                 CardInsigniaImage.image = detailCard.insignia.iconImage
                 CardInsigniaText.text = detailCard.insignia.name
-                CardIllustratorText.text = "Illustrator: " + detailCard.illustrator
-                CardRarityText.text = "Rarity: " + detailCard.rarity
-                CardAttackText.text = "Attack: " + String(detailCard.attack)
-                CardSupportText.text = "Support: " + String(detailCard.support)
+                CardIllustratorText.text = detailCard.illustrator
+                CardRarityText.text = detailCard.rarity
+                CardAttackText.text = String(detailCard.attack)
+                CardSupportText.text = String(detailCard.support)
                 // Supporting Skill Text
                 if (detailCard.supportingSkill.type != "None") {
                     SupportingSkillTitleText.isHidden = false
