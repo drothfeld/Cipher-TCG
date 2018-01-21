@@ -71,6 +71,9 @@
 		B054BBE5200EA4DA004159A6 /* SupportingSkills.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBE4200EA4DA004159A6 /* SupportingSkills.swift */; };
 		B054BBE7200EA5E0004159A6 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBE6200EA5E0004159A6 /* Card.swift */; };
 		B054BBE9200EAC3C004159A6 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBE8200EAC3C004159A6 /* Cards.swift */; };
+		B0B7E3EF20150EAC00331FC3 /* 28px-Attack_Support.png in Resources */ = {isa = PBXBuildFile; fileRef = B0B7E3EC20150EAC00331FC3 /* 28px-Attack_Support.png */; };
+		B0B7E3F020150EAC00331FC3 /* 28px-Defense_Support.png in Resources */ = {isa = PBXBuildFile; fileRef = B0B7E3ED20150EAC00331FC3 /* 28px-Defense_Support.png */; };
+		B0B7E3F120150EAC00331FC3 /* 60px-AtkDef.png in Resources */ = {isa = PBXBuildFile; fileRef = B0B7E3EE20150EAC00331FC3 /* 60px-AtkDef.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -140,6 +143,9 @@
 		B054BBE4200EA4DA004159A6 /* SupportingSkills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportingSkills.swift; sourceTree = "<group>"; };
 		B054BBE6200EA5E0004159A6 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		B054BBE8200EAC3C004159A6 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		B0B7E3EC20150EAC00331FC3 /* 28px-Attack_Support.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "28px-Attack_Support.png"; sourceTree = "<group>"; };
+		B0B7E3ED20150EAC00331FC3 /* 28px-Defense_Support.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "28px-Defense_Support.png"; sourceTree = "<group>"; };
+		B0B7E3EE20150EAC00331FC3 /* 60px-AtkDef.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "60px-AtkDef.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,7 +216,7 @@
 			path = S03;
 			sourceTree = "<group>";
 		};
-		B03D57D32012CCEF007A3E97 /* 30px-categories */ = {
+		B03D57D32012CCEF007A3E97 /* Insignia Categories */ = {
 			isa = PBXGroup;
 			children = (
 				B03D57D42012CCEF007A3E97 /* 30px-Black.png */,
@@ -221,7 +227,7 @@
 				B03D57D92012CCEF007A3E97 /* 30px-Green.png */,
 				B03D57DA2012CCEF007A3E97 /* 30px-Purple.png */,
 			);
-			path = "30px-categories";
+			path = "Insignia Categories";
 			sourceTree = "<group>";
 		};
 		B03D57E22012CD14007A3E97 /* B10 */ = {
@@ -334,7 +340,8 @@
 			children = (
 				B03D58032012D169007A3E97 /* cipher_header.png */,
 				B03D57872012C56F007A3E97 /* card_placeholder.png */,
-				B03D57D32012CCEF007A3E97 /* 30px-categories */,
+				B0B7E3EB20150E7900331FC3 /* Supporting Skill Categories */,
+				B03D57D32012CCEF007A3E97 /* Insignia Categories */,
 				B03D57D02012CCE9007A3E97 /* S03 */,
 				B03D57B52012CCD1007A3E97 /* B02 */,
 				B03D57A22012CCB7007A3E97 /* B03 */,
@@ -343,6 +350,16 @@
 				B03D57E22012CD14007A3E97 /* B10 */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		B0B7E3EB20150E7900331FC3 /* Supporting Skill Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B0B7E3EC20150EAC00331FC3 /* 28px-Attack_Support.png */,
+				B0B7E3ED20150EAC00331FC3 /* 28px-Defense_Support.png */,
+				B0B7E3EE20150EAC00331FC3 /* 60px-AtkDef.png */,
+			);
+			path = "Supporting Skill Categories";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -412,6 +429,7 @@
 				B03D57FA2012CD14007A3E97 /* B10-051.png in Resources */,
 				B03D57AE2012CCB7007A3E97 /* B03-063.png in Resources */,
 				B03D57F82012CD14007A3E97 /* B10-061.png in Resources */,
+				B0B7E3F020150EAC00331FC3 /* 28px-Defense_Support.png in Resources */,
 				B03D57DE2012CCEF007A3E97 /* 30px-Yellow.png in Resources */,
 				B03D57C02012CCDB007A3E97 /* B06-063.png in Resources */,
 				B03D57B02012CCB7007A3E97 /* B03-091.png in Resources */,
@@ -424,6 +442,7 @@
 				B03D57F72012CD14007A3E97 /* B10-060.png in Resources */,
 				B03D57AF2012CCB7007A3E97 /* B03-052.png in Resources */,
 				B03D57882012C570007A3E97 /* card_placeholder.png in Resources */,
+				B0B7E3F120150EAC00331FC3 /* 60px-AtkDef.png in Resources */,
 				B03D57BF2012CCDB007A3E97 /* B06-062.png in Resources */,
 				B03D57F52012CD14007A3E97 /* B10-064.png in Resources */,
 				B03D57F42012CD14007A3E97 /* B10-059.png in Resources */,
@@ -449,6 +468,7 @@
 				B03D58002012CD14007A3E97 /* B10-055.png in Resources */,
 				B03D57DF2012CCEF007A3E97 /* 30px-White.png in Resources */,
 				B054BBB8200E68AE004159A6 /* Main.storyboard in Resources */,
+				B0B7E3EF20150EAC00331FC3 /* 28px-Attack_Support.png in Resources */,
 				B03D57B42012CCB7007A3E97 /* B03-068.png in Resources */,
 				B03D57F32012CD14007A3E97 /* B10-065.png in Resources */,
 				B03D57DB2012CCEF007A3E97 /* 30px-Black.png in Resources */,

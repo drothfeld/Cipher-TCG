@@ -12,10 +12,12 @@ class SupportingSkill {
     // Fields
     var type: String
     var description: String
+    var iconImage: UIImage
     
     // Constructor
-    init(type: String, description: String) {
+    init(type: String, description: String, iconImage: UIImage) {
         self.type = type
         self.description = description
+        self.iconImage = iconImage
     }
 }
