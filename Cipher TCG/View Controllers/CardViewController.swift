@@ -10,10 +10,15 @@ import UIKit
 
 class CardViewController: UIViewController {
     // UI Elements
-//    @IBOutlet weak var IngredientNameLabel: UILabel!
-//    @IBOutlet weak var IngredientDescriptionText: UITextView!
-//    @IBOutlet weak var IngredientImage: UIImageView!
-//    @IBOutlet weak var IngredientSourceText: UITextView!
+    @IBOutlet weak var CardImage: UIImageView!
+    @IBOutlet weak var CardNameText: UILabel!
+    @IBOutlet weak var CardSeriesText: UILabel!
+    @IBOutlet weak var CardInsigniaImage: UIImageView!
+    @IBOutlet weak var CardInsigniaText: UILabel!
+    @IBOutlet weak var CardIllustratorText: UILabel!
+    @IBOutlet weak var CardRarityText: UILabel!
+    @IBOutlet weak var CardAttackText: UILabel!
+    @IBOutlet weak var CardSupportText: UILabel!
     
     // Defined Values
     var detailCard: Card? {
@@ -30,15 +35,26 @@ class CardViewController: UIViewController {
     // Setting up the view
     func configureView() {
         if let detailCard = detailCard {
-//            if let IngredientDescriptionText = IngredientDescriptionText, let IngredientNameLabel = IngredientNameLabel {
-//                IngredientNameLabel.text = detailIngredient.name
-//                IngredientDescriptionText.text = detailIngredient.description
-//                // Hypertext to reference site
-//                IngredientSourceText.text = String(describing: detailIngredient.source)
-//                attributedSourceString.addAttribute(.link, value: String(describing: detailIngredient.source), range: NSRange(location: 0, length: 16))
-//                IngredientSourceText.attributedText = attributedSourceString
-//                IngredientImage.image = detailIngredient.image
-//            }
+            if let CardImage = CardImage,
+               let CardNameText = CardNameText,
+               let CardSeriesText = CardSeriesText,
+               let CardInsigniaImage = CardInsigniaImage,
+               let CardInsigniaText = CardInsigniaText,
+               let CardIllustratorText = CardIllustratorText,
+               let CardRarityText = CardRarityText,
+               let CardAttackText = CardAttackText,
+               let CardSupportText = CardSupportText{
+                // Assigning Values to UI Elements
+                CardImage.image = detailCard.cardImage
+                CardNameText.text = detailCard.name
+                CardSeriesText.text = detailCard.series
+                CardInsigniaImage.image = detailCard.insignia.iconImage
+                CardInsigniaText.text = detailCard.insignia.name
+                CardIllustratorText.text = "Illustrator: " + detailCard.illustrator
+                CardRarityText.text = "Rarity: " + detailCard.rarity
+                CardAttackText.text = "Attack: " + String(detailCard.attack)
+                CardSupportText.text = "Support: " + String(detailCard.support)
+            }
         }
     }
     
