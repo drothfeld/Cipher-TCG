@@ -95,6 +95,7 @@
                     <connections>
                         <outlet property="CardListSearchBar" destination="hzd-cv-NpC" id="2Ec-DG-mpf"/>
                         <outlet property="CardListTableView" destination="2ZS-RV-4qz" id="N8t-V0-sD4"/>
+                        <outlet property="HeaderView" destination="bCi-jW-AfE" id="wNq-TA-x6g"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -300,6 +301,7 @@
                         <outlet property="CardSupportText" destination="nXl-6y-hZw" id="tLv-V6-c5f"/>
                         <outlet property="CardSupportingSkillImage" destination="jSe-xV-ppj" id="gOS-sU-x9G"/>
                         <outlet property="CardSupportingSkillText" destination="zSv-Yy-0WK" id="RTt-PK-gW8"/>
+                        <outlet property="HeaderView" destination="48J-Nh-E77" id="zyN-qo-Rob"/>
                         <outlet property="IllustratorTitleText" destination="2vb-QZ-AUS" id="5ft-o5-nPk"/>
                         <outlet property="RarityTitleText" destination="Ib0-NA-Qaa" id="3af-Rr-CjQ"/>
                         <outlet property="SeriesTitleText" destination="Jky-fa-qgr" id="baJ-jK-0uO"/>

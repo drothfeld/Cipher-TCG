@@ -10,6 +10,7 @@ import UIKit
 
 class CardViewController: UIViewController {
     // UI Elements
+    @IBOutlet weak var HeaderView: UIView!
     @IBOutlet weak var CardImage: UIImageView!
     @IBOutlet weak var CardNameText: UILabel!
     @IBOutlet weak var CardSeriesText: UILabel!
@@ -48,18 +49,22 @@ class CardViewController: UIViewController {
             
             // UI Elements Being Manipulated
             if let CardImage = CardImage,
-               let CardNameText = CardNameText,
-               let CardSeriesText = CardSeriesText,
-               let CardInsigniaImage = CardInsigniaImage,
-               let CardInsigniaText = CardInsigniaText,
-               let CardIllustratorText = CardIllustratorText,
-               let CardRarityText = CardRarityText,
-               let CardAttackText = CardAttackText,
-               let CardSupportText = CardSupportText,
-               let CardSupportingSkillText = CardSupportingSkillText,
-               let SupportingSkillTitleText = SupportingSkillTitleText,
-               let CardSupportingSkillImage = CardSupportingSkillImage,
-               let CardSkillsText = CardSkillsText {
+                let CardNameText = CardNameText,
+                let CardSeriesText = CardSeriesText,
+                let CardInsigniaImage = CardInsigniaImage,
+                let CardInsigniaText = CardInsigniaText,
+                let CardIllustratorText = CardIllustratorText,
+                let CardRarityText = CardRarityText,
+                let CardAttackText = CardAttackText,
+                let CardSupportText = CardSupportText,
+                let CardSupportingSkillText = CardSupportingSkillText,
+                let SupportingSkillTitleText = SupportingSkillTitleText,
+                let CardSupportingSkillImage = CardSupportingSkillImage,
+                let CardSkillsText = CardSkillsText,
+                let HeaderView = HeaderView {
+                
+                // Setting up Interface
+                HeaderView.dropShadow()
                 
                 // Assigning Values to UI Elements
                 CardImage.image = detailCard.cardImage

@@ -71,6 +71,7 @@
 		B054BBE5200EA4DA004159A6 /* SupportingSkills.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBE4200EA4DA004159A6 /* SupportingSkills.swift */; };
 		B054BBE7200EA5E0004159A6 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBE6200EA5E0004159A6 /* Card.swift */; };
 		B054BBE9200EAC3C004159A6 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBE8200EAC3C004159A6 /* Cards.swift */; };
+		B08A6B1C2016532700603113 /* UIViewDropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08A6B1B2016532700603113 /* UIViewDropShadow.swift */; };
 		B0B7E3EF20150EAC00331FC3 /* 28px-Attack_Support.png in Resources */ = {isa = PBXBuildFile; fileRef = B0B7E3EC20150EAC00331FC3 /* 28px-Attack_Support.png */; };
 		B0B7E3F020150EAC00331FC3 /* 28px-Defense_Support.png in Resources */ = {isa = PBXBuildFile; fileRef = B0B7E3ED20150EAC00331FC3 /* 28px-Defense_Support.png */; };
 		B0B7E3F120150EAC00331FC3 /* 60px-AtkDef.png in Resources */ = {isa = PBXBuildFile; fileRef = B0B7E3EE20150EAC00331FC3 /* 60px-AtkDef.png */; };
@@ -143,6 +144,7 @@
 		B054BBE4200EA4DA004159A6 /* SupportingSkills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportingSkills.swift; sourceTree = "<group>"; };
 		B054BBE6200EA5E0004159A6 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		B054BBE8200EAC3C004159A6 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		B08A6B1B2016532700603113 /* UIViewDropShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewDropShadow.swift; sourceTree = "<group>"; };
 		B0B7E3EC20150EAC00331FC3 /* 28px-Attack_Support.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "28px-Attack_Support.png"; sourceTree = "<group>"; };
 		B0B7E3ED20150EAC00331FC3 /* 28px-Defense_Support.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "28px-Defense_Support.png"; sourceTree = "<group>"; };
 		B0B7E3EE20150EAC00331FC3 /* 60px-AtkDef.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "60px-AtkDef.png"; sourceTree = "<group>"; };
@@ -281,6 +283,7 @@
 		B054BBB1200E68AE004159A6 /* Cipher TCG */ = {
 			isa = PBXGroup;
 			children = (
+				B08A6B1D2016532C00603113 /* Extensions */,
 				B03D580B2013C0D5007A3E97 /* Animations */,
 				B054BBC7200E7665004159A6 /* Classes */,
 				B054BBC9200E7B73004159A6 /* Constants */,
@@ -350,6 +353,14 @@
 				B03D57E22012CD14007A3E97 /* B10 */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		B08A6B1D2016532C00603113 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B08A6B1B2016532700603113 /* UIViewDropShadow.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		B0B7E3EB20150E7900331FC3 /* Supporting Skill Categories */ = {
@@ -494,6 +505,7 @@
 				B054BBE5200EA4DA004159A6 /* SupportingSkills.swift in Sources */,
 				B054BBE1200E9E8A004159A6 /* Insignias.swift in Sources */,
 				B054BBE9200EAC3C004159A6 /* Cards.swift in Sources */,
+				B08A6B1C2016532700603113 /* UIViewDropShadow.swift in Sources */,
 				B03D580A2012DBC5007A3E97 /* CardViewController.swift in Sources */,
 				B054BBB3200E68AE004159A6 /* AppDelegate.swift in Sources */,
 				B03D5775201105A9007A3E97 /* CardLists.swift in Sources */,

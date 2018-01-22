@@ -11,6 +11,7 @@ import UIKit
 class CardListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate {
     
     // User Interface Outlets
+    @IBOutlet weak var HeaderView: UIView!
     @IBOutlet weak var CardListTableView: UITableView!
     @IBOutlet weak var CardListSearchBar: UISearchBar!
     
@@ -21,6 +22,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        interfaceSetup()
         refreshTable()
         searchBarSetup()
     }
@@ -110,7 +112,12 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         }
     }
     
-    // Hiding status bar
+    // Make any Changes to the Interface
+    func interfaceSetup() {
+        HeaderView.dropShadow()
+    }
+    
+    // Hiding Status Bar
     override var prefersStatusBarHidden: Bool {
         return true
     }
