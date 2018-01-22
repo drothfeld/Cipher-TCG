@@ -72,6 +72,7 @@
 		B054BBE7200EA5E0004159A6 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBE6200EA5E0004159A6 /* Card.swift */; };
 		B054BBE9200EAC3C004159A6 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBE8200EAC3C004159A6 /* Cards.swift */; };
 		B08A6B1C2016532700603113 /* UIViewDropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08A6B1B2016532700603113 /* UIViewDropShadow.swift */; };
+		B08A6B1F201661C300603113 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08A6B1E201661C300603113 /* MenuViewController.swift */; };
 		B0B7E3EF20150EAC00331FC3 /* 28px-Attack_Support.png in Resources */ = {isa = PBXBuildFile; fileRef = B0B7E3EC20150EAC00331FC3 /* 28px-Attack_Support.png */; };
 		B0B7E3F020150EAC00331FC3 /* 28px-Defense_Support.png in Resources */ = {isa = PBXBuildFile; fileRef = B0B7E3ED20150EAC00331FC3 /* 28px-Defense_Support.png */; };
 		B0B7E3F120150EAC00331FC3 /* 60px-AtkDef.png in Resources */ = {isa = PBXBuildFile; fileRef = B0B7E3EE20150EAC00331FC3 /* 60px-AtkDef.png */; };
@@ -145,6 +146,7 @@
 		B054BBE6200EA5E0004159A6 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		B054BBE8200EAC3C004159A6 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
 		B08A6B1B2016532700603113 /* UIViewDropShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewDropShadow.swift; sourceTree = "<group>"; };
+		B08A6B1E201661C300603113 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		B0B7E3EC20150EAC00331FC3 /* 28px-Attack_Support.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "28px-Attack_Support.png"; sourceTree = "<group>"; };
 		B0B7E3ED20150EAC00331FC3 /* 28px-Defense_Support.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "28px-Defense_Support.png"; sourceTree = "<group>"; };
 		B0B7E3EE20150EAC00331FC3 /* 60px-AtkDef.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "60px-AtkDef.png"; sourceTree = "<group>"; };
@@ -302,6 +304,7 @@
 			children = (
 				B054BBB4200E68AE004159A6 /* CardListViewController.swift */,
 				B03D58092012DBC5007A3E97 /* CardViewController.swift */,
+				B08A6B1E201661C300603113 /* MenuViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -502,6 +505,7 @@
 				B03D580F2013C1A0007A3E97 /* SegueFromRight.swift in Sources */,
 				B054BBDD200E8A0A004159A6 /* Skills.swift in Sources */,
 				B03D580D2013C100007A3E97 /* SegueFromLeft.swift in Sources */,
+				B08A6B1F201661C300603113 /* MenuViewController.swift in Sources */,
 				B054BBE5200EA4DA004159A6 /* SupportingSkills.swift in Sources */,
 				B054BBE1200E9E8A004159A6 /* Insignias.swift in Sources */,
 				B054BBE9200EAC3C004159A6 /* Cards.swift in Sources */,
