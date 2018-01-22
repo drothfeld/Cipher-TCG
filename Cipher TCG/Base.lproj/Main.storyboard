@@ -95,7 +95,7 @@
                     <connections>
                         <outlet property="CardListSearchBar" destination="hzd-cv-NpC" id="2Ec-DG-mpf"/>
                         <outlet property="CardListTableView" destination="2ZS-RV-4qz" id="N8t-V0-sD4"/>
-                        <outlet property="HeaderView" destination="bCi-jW-AfE" id="wNq-TA-x6g"/>
+                        <outlet property="HeaderView" destination="bCi-jW-AfE" id="2Xg-u8-cMm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -238,13 +238,6 @@
                                         <rect key="frame" x="231" y="181" width="134" height="147"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Supporting Skill Text" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zSv-Yy-0WK">
-                                                <rect key="frame" x="8" y="15" width="120" height="124"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="12"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jSe-xV-ppj" userLabel="Card Supporting Skill Image">
                                                 <rect key="frame" x="0.0" y="8" width="16" height="16"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -256,6 +249,13 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" delaysContentTouches="NO" canCancelContentTouches="NO" keyboardDismissMode="interactive" editable="NO" text="Supporting Skill Text" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ds5-v6-nco" userLabel="Card Supporting Skill Text">
+                                                <rect key="frame" x="0.0" y="23" width="128" height="124"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
@@ -270,13 +270,13 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Skill Text" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9aT-ht-935" userLabel="Skill Text">
-                                                <rect key="frame" x="8" y="22" width="349" height="232"/>
+                                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" delaysContentTouches="NO" canCancelContentTouches="NO" keyboardDismissMode="interactive" editable="NO" text="Skill Text" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qER-V9-n48" userLabel="Skill Text">
+                                                <rect key="frame" x="8" y="22" width="341" height="224"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="12"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="13"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
@@ -297,10 +297,10 @@
                         <outlet property="CardNameText" destination="baE-Rw-07R" id="Ygj-y9-HLy"/>
                         <outlet property="CardRarityText" destination="1xQ-v6-oka" id="yNC-PV-qqF"/>
                         <outlet property="CardSeriesText" destination="9im-wi-VKQ" id="VAg-3Q-nyu"/>
-                        <outlet property="CardSkillsText" destination="9aT-ht-935" id="DB7-Vv-rrj"/>
+                        <outlet property="CardSkillsText" destination="qER-V9-n48" id="dLY-0c-aHc"/>
                         <outlet property="CardSupportText" destination="nXl-6y-hZw" id="tLv-V6-c5f"/>
                         <outlet property="CardSupportingSkillImage" destination="jSe-xV-ppj" id="gOS-sU-x9G"/>
-                        <outlet property="CardSupportingSkillText" destination="zSv-Yy-0WK" id="RTt-PK-gW8"/>
+                        <outlet property="CardSupportingSkillText" destination="ds5-v6-nco" id="L6g-13-dYS"/>
                         <outlet property="HeaderView" destination="48J-Nh-E77" id="zyN-qo-Rob"/>
                         <outlet property="IllustratorTitleText" destination="2vb-QZ-AUS" id="5ft-o5-nPk"/>
                         <outlet property="RarityTitleText" destination="Ib0-NA-Qaa" id="3af-Rr-CjQ"/>

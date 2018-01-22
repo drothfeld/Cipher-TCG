@@ -25,11 +25,11 @@ class CardViewController: UIViewController {
     @IBOutlet weak var AttackTitleText: UILabel!
     @IBOutlet weak var CardSupportText: UILabel!
     @IBOutlet weak var SupportTitleText: UILabel!
-    @IBOutlet weak var CardSupportingSkillText: UILabel!
+    @IBOutlet weak var CardSupportingSkillText: UITextView!
     @IBOutlet weak var SupportingSkillTitleText: UILabel!
     @IBOutlet weak var CardSupportingSkillImage: UIImageView!
     @IBOutlet weak var SkillsTitleText: UILabel!
-    @IBOutlet weak var CardSkillsText: UILabel!
+    @IBOutlet weak var CardSkillsText: UITextView!
     
     // Defined Values
     var detailCard: Card? {
@@ -81,7 +81,6 @@ class CardViewController: UIViewController {
                 if (detailCard.supportingSkill.type != "None") {
                     SupportingSkillTitleText.isHidden = false
                     CardSupportingSkillImage.isHidden = false
-                    CardSupportingSkillText.numberOfLines = 0
                     CardSupportingSkillText.text = detailCard.supportingSkill.type + " - " + detailCard.supportingSkill.description
                     CardSupportingSkillImage.image = detailCard.supportingSkill.iconImage
                 } else {
