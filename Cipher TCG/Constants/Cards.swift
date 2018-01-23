@@ -19,6 +19,28 @@ let s03_002 = Card(series: "S03-002ST",
                    skills: [sacred_treasure_raijinto, i_do_not_like_to_give_up],
                    cardImageName: "S03-002ST.png")
 
+let b01_046 = Card(series: "B01-046SR",
+                   name: "Manakete Princess, Tiki",
+                   rarity: "Secret Rare",
+                   insignia: blade_of_light,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "Fuzichoco",
+                   supportingSkill: none,
+                   skills: [kind_hearted_dragon_princess, ancient_dragon_tribe_2, divine_stone],
+                   cardImageName: "B01-046.png")
+
+let b01_051 = Card(series: "B01-051SR",
+                   name: "Exalted Prince, Chrom",
+                   rarity: "Secret Rare",
+                   insignia: mark_of_naga,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "Senri Kita",
+                   supportingSkill: none,
+                   skills: [vested_authority, exalted_falchion],
+                   cardImageName: "B01-051.png")
+
 let b01_054 = Card(series: "B01-054SR",
                    name: "Future Witness, Lucina",
                    rarity: "Secret Rare",

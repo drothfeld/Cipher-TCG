@@ -567,3 +567,43 @@ let parallel_falchion = Skill(name: "Parallel Falchion",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let vested_authority = Skill(name: "Vested Authority",
+                        description: "[ Flip 3 Bonds, discard a 'Chrom'] Choose as many enemy units as you like and move them. This turn, all allies gain +30 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 3,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let exalted_falchion = Skill(name: "Exalted Falchion",
+                        description: "While this unit is attacking a Dragon unit, this unit gains +40 attack. (Class Change Skill: This skill is inactive unless this unit was Class Changed.)",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: true)
+
+let kind_hearted_dragon_princess = Skill(name: "Kind-hearted Dragon Princess",
+                        description: "During your turn, if this unit's support is successful, you may place this unit's support in the Bond Area instead of sending it to your Retreat Area.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let ancient_dragon_tribe_2 = Skill(name: "Ancient Dragon Tribe",
+                        description: "If you have at least 8 bonds, this unit gains +30 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let divine_stone = Skill(name: "Divine Stone",
+                        description: "While this unit is attacking a Dragon unit, this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
