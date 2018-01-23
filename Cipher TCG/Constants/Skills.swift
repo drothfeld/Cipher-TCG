@@ -607,3 +607,51 @@ let divine_stone = Skill(name: "Divine Stone",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let aether = Skill(name: "Aether",
+                        description: "[ Flip 5 Bonds ] When this unit attacks the Main Character, you may pay the cost, and if you do: Destroy up to 2 enemies that aren't the Main Character. Also, this unit gains +10 attack until the end of your opponent's turn.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 5,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let memories_of_war = Skill(name: "Memories of War",
+                        description: "For each card stacked under this unit, reduce the cost of Aether by 1 (Bond Flip 1 Bond ). You cannot reduce the cost of Aether by more than 4 (Bonds).",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let overwhelming_power = Skill(name: "Overwhelming Power",
+                        description: "When this unit's attack destroys an enemy besides the Main Character, place that enemy's stack into your opponent’s Bond Area instead of sending it to the Retreat Area.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let lineage_of_the_elder_dragon = Skill(name: "Lineage of the Elder Dragon",
+                        description: "If you have at least 7 bonds, this unit gains +30 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let leader_of_the_ragtag = Skill(name: "Leader of the Ragtag",
+                        description: "During your turn, if this unit's support card has a deployment cost of 2 or less, you may add that card to your hand instead of sending it to your Retreat Area.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let falchion = Skill(name: "Falchion",
+                        description: "While this unit is attacking a Dragon unit, this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

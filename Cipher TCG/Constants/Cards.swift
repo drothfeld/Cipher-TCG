@@ -162,6 +162,17 @@ let b03_078 = Card(series: "B03-078SR",
                    skills: [song_of_destruction, princess_of_the_nation, dark_road_to_the_invisible_kingdom],
                    cardImageName: "B03-078.png")
 
+let b03_086 = Card(series: "B03-086R",
+                   name: "Black Dragon Princess, Kana",
+                   rarity: "Rare",
+                   insignia: nohr,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "Unknown",
+                   supportingSkill: none,
+                   skills: [overwhelming_power, lineage_of_the_elder_dragon],
+                   cardImageName: "B03-086.png")
+
 let b03_091 = Card(series: "B03-091R",
                    name: "Chivalrous Thief, Nina",
                    rarity: "Rare",
@@ -183,6 +194,28 @@ let b03_092 = Card(series: "B03-092N",
                    supportingSkill: thief_emblem,
                    skills: [lecherous_lockpicking, wingbane],
                    cardImageName: "B03-092.png")
+
+let b04_018 = Card(series: "B04-018SR",
+                   name: "Lambent Hero-King, Marth",
+                   rarity: "Secret Rare",
+                   insignia: blade_of_light,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "Maki Hakoda",
+                   supportingSkill: none,
+                   skills: [leader_of_the_ragtag, falchion],
+                   cardImageName: "B04-018.png")
+
+let b05_089 = Card(series: "B05-089SR",
+                   name: "Radiant Hero, Ike",
+                   rarity: "Secret Rare",
+                   insignia: medallion,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "Senri Kita",
+                   supportingSkill: none,
+                   skills: [aether, memories_of_war],
+                   cardImageName: "B05-089.png")
 
 let b06_054 = Card(series: "B06-054SR",
                    name: "Beautiful Obsidian Princess, Camilla",
