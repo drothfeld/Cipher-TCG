@@ -655,3 +655,67 @@ let falchion = Skill(name: "Falchion",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let lord_of_the_future = Skill(name: "Lord of the Future",
+                        description: "After you draw a card, you may look at the top card of your Deck.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let inexhaustible_wish = Skill(name: "Inexhaustible Wish",
+                        description: "Add the top card of your Deck to your Orb Area. Then, select one of your Orbs and place that card on top of your Deck.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let guidance_of_the_brand = Skill(name: "Guidance of the Brand",
+                        description: "This unit gains +10 Attack for every other Class Changed ally. (Class Change Skill: This skill is inactive unless this unit was Class Changed.)",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: true)
+
+let rite_of_awakening = Skill(name: "Rite of Awakening",
+                        description: "[ Flip 1 Bond ] Select an ally. Choose a card in your hand with a Promotion Cost that has same name as that ally, then Class Change the selected ally with the chosen card.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let divine_dragons_awakening = Skill(name: "Divine Dragon's Awakening",
+                        description: "When another ally Class Changes, this turn, this unit gains +20 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let long_lived_dragon_clan = Skill(name: "Long-Lived Dragon Clan",
+                        description: "If you have at least 7 bonds, this card gains +30 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let hands_of_fate = Skill(name: "Hands of Fate",
+                        description: "At the start of your turn, you may look at the top 2 cards of your deck. If so, choose 1 of those cards and place that card in your Retreat Area. Place the remaining card back on top of your deck.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let enlightened_edge = Skill(name: "Enlightened Edge",
+                        description: "While this unit is on the frontlines, your other Class Changed allies +gain 10 Attack. (Class Change Skill: This skill does not take effect unless this card was Class Changed.)",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: true)

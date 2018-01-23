@@ -206,6 +206,17 @@ let b04_018 = Card(series: "B04-018SR",
                    skills: [leader_of_the_ragtag, falchion],
                    cardImageName: "B04-018.png")
 
+let b04_063 = Card(series: "B04-063SR",
+                   name: "Iris of Destiny, Lucina",
+                   rarity: "Secret Rare",
+                   insignia: mark_of_naga,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "Fuzichoco",
+                   supportingSkill: none,
+                   skills: [hands_of_fate, enlightened_edge],
+                   cardImageName: "B04-063.png")
+
 let b05_089 = Card(series: "B05-089SR",
                    name: "Radiant Hero, Ike",
                    rarity: "Secret Rare",
@@ -326,6 +337,28 @@ let b07_086 = Card(series: "B07-086HN",
                    supportingSkill: none,
                    skills: [dragon_vein_whiff, wingbane],
                    cardImageName: "B07-086.png")
+
+let b08_004 = Card(series: "B08-004R",
+                   name: "Divine Dragon's Exalt, Lucina",
+                   rarity: "Rare",
+                   insignia: mark_of_naga,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "Tetsu Kurosawa",
+                   supportingSkill: none,
+                   skills: [lord_of_the_future, inexhaustible_wish, guidance_of_the_brand],
+                   cardImageName: "B08-004.png")
+
+let b08_039 = Card(series: "B08-039R",
+                   name: "Immortal Voice, Tiki",
+                   rarity: "Rare",
+                   insignia: mark_of_naga,
+                   attack: 50,
+                   support: 20,
+                   illustrator: "Fuzichoco",
+                   supportingSkill: none,
+                   skills: [rite_of_awakening, divine_dragons_awakening, long_lived_dragon_clan],
+                   cardImageName: "B08-039.png")
 
 let b10_051 = Card(series: "B10-051SR",
                    name: "Night-Transcending Princess, Kana",
