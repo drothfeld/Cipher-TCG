@@ -19,6 +19,28 @@ let s03_002 = Card(series: "S03-002ST",
                    skills: [sacred_treasure_raijinto, i_do_not_like_to_give_up],
                    cardImageName: "S03-002ST.png")
 
+let b01_054 = Card(series: "B01-054SR",
+                   name: "Future Witness, Lucina",
+                   rarity: "Secret Rare",
+                   insignia: mark_of_naga,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "Masaki Hirooka",
+                   supportingSkill: none,
+                   skills: [defiant_of_destiny, parallel_falchion],
+                   cardImageName: "B01-054.png")
+
+let b01_078 = Card(series: "B01-078R",
+                   name: "Wellspring of Youth, Nowi",
+                   rarity: "Rare",
+                   insignia: mark_of_naga,
+                   attack: 50,
+                   support: 20,
+                   illustrator: "Pisuke",
+                   supportingSkill: none,
+                   skills: [young_manakete, ancient_dragon_tribe],
+                   cardImageName: "B01-078.png")
+
 let b02_003 = Card(series: "B02-003HN",
                    name: "Crown Prince of Hoshido, Corrin",
                    rarity: "High Normal",

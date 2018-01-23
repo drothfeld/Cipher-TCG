@@ -11,6 +11,9 @@ import UIKit
 let rawCardsList: [Card] = [
     // Series: Starter Deck 03
     s03_002,
+    // Series: Box Set 01
+    b01_078,
+    b01_054,
     // Series: Box Set 02
     b02_003,
     b02_006,

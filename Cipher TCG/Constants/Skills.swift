@@ -536,3 +536,34 @@ let grim_yato = Skill(name: "Grim Yato",
                         tapUnit: false,
                         CCS: false)
 
+let young_manakete = Skill(name: "Young Manakete",
+                        description: "During the end of your turn, add a card from your Bond Area to your hand.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let ancient_dragon_tribe = Skill(name: "Ancient Dragon Tribe",
+                        description: "If you have at least 6 bonds, this unit gains +30 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let defiant_of_destiny = Skill(name: "Defiant of Destiny",
+                        description: "[ Flip 1 Bond , Discard a 'Lucina'] Draw 2 cards, then place a card in your hand on top of your deck. If this card has been Class Changed, draw 3 cards instead, then place two cards from your hand in any order on top of your deck.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let parallel_falchion = Skill(name: "Parallel Falchion",
+                        description: "While this unit is attacking a Dragon, this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
