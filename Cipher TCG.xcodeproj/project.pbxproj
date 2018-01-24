@@ -93,6 +93,8 @@
 		B0B7E3EF20150EAC00331FC3 /* 28px-Attack_Support.png in Resources */ = {isa = PBXBuildFile; fileRef = B0B7E3EC20150EAC00331FC3 /* 28px-Attack_Support.png */; };
 		B0B7E3F020150EAC00331FC3 /* 28px-Defense_Support.png in Resources */ = {isa = PBXBuildFile; fileRef = B0B7E3ED20150EAC00331FC3 /* 28px-Defense_Support.png */; };
 		B0B7E3F120150EAC00331FC3 /* 60px-AtkDef.png in Resources */ = {isa = PBXBuildFile; fileRef = B0B7E3EE20150EAC00331FC3 /* 60px-AtkDef.png */; };
+		B0E4223F20191D7C00CA879C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B0E4223E20191D7C00CA879C /* .gitignore */; };
+		B0E4224120191DCE00CA879C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B0E4224020191DCE00CA879C /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -184,6 +186,8 @@
 		B0B7E3EC20150EAC00331FC3 /* 28px-Attack_Support.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "28px-Attack_Support.png"; sourceTree = "<group>"; };
 		B0B7E3ED20150EAC00331FC3 /* 28px-Defense_Support.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "28px-Defense_Support.png"; sourceTree = "<group>"; };
 		B0B7E3EE20150EAC00331FC3 /* 60px-AtkDef.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "60px-AtkDef.png"; sourceTree = "<group>"; };
+		B0E4223E20191D7C00CA879C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
+		B0E4224020191DCE00CA879C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -330,6 +334,8 @@
 				B054BBB6200E68AE004159A6 /* Main.storyboard */,
 				B054BBBB200E68AE004159A6 /* LaunchScreen.storyboard */,
 				B054BBBE200E68AE004159A6 /* Info.plist */,
+				B0E4223E20191D7C00CA879C /* .gitignore */,
+				B0E4224020191DCE00CA879C /* README.md */,
 			);
 			path = "Cipher TCG";
 			sourceTree = "<group>";
@@ -530,6 +536,7 @@
 				B03D57FC2012CD14007A3E97 /* B10-052.png in Resources */,
 				B03D57B22012CCB7007A3E97 /* B03-051.png in Resources */,
 				B03D57B12012CCB7007A3E97 /* B03-078.png in Resources */,
+				B0E4223F20191D7C00CA879C /* .gitignore in Resources */,
 				B08A6B472019065B00603113 /* loading_attack.gif in Resources */,
 				B054BBBD200E68AE004159A6 /* LaunchScreen.storyboard in Resources */,
 				B03D57FA2012CD14007A3E97 /* B10-051.png in Resources */,
@@ -579,6 +586,7 @@
 				B08A6B392018008E00603113 /* B04-063.png in Resources */,
 				B08A6B372017FEB200603113 /* B08-039.png in Resources */,
 				B08A6B292017C06D00603113 /* B01-051.png in Resources */,
+				B0E4224120191DCE00CA879C /* README.md in Resources */,
 				B03D57FF2012CD14007A3E97 /* B10-057.png in Resources */,
 				B03D57CB2012CCE0007A3E97 /* B07-051.png in Resources */,
 				B03D58002012CD14007A3E97 /* B10-055.png in Resources */,
