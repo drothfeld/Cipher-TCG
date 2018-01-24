@@ -11,12 +11,12 @@ Version 0.2.5
 - Build and view pre-made deck lists (incomplete).
 
 **Adding Cards/Skills to this Project:**
-- To add a cipher card to the application, edit the following files:
-  • Constants/Skills.swift
-  • Constants/Cards.swift
-  • Constants/CardLists.swift
-  • Images/B## (Where ## is the set number you are adding a card image to)
-- Make sure to follow the naming conventions I have set in place.
+- To add a cipher card to the application, edit the following files (make sure to follow the naming conventions I have set in place):
+
+  - Constants/Skills.swift
+  - Constants/Cards.swift
+  - Constants/CardLists.swift
+  - Images/B## (Where ## is the set number you are adding a card image to)
 
 **I do not own the rights to Fire Emblem or Fire Emblem Cipher. This is an open-source fan-made project to provide a tool to help people who want to play Fire Emblem Cipher. All rights belongs to Nintendo and Intelligent Systems**
 
