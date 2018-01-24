@@ -85,6 +85,11 @@
 		B08A6B392018008E00603113 /* B04-063.png in Resources */ = {isa = PBXBuildFile; fileRef = B08A6B382018008E00603113 /* B04-063.png */; };
 		B08A6B3D201900AD00603113 /* cipher_launch_screen.png in Resources */ = {isa = PBXBuildFile; fileRef = B08A6B3C201900AD00603113 /* cipher_launch_screen.png */; };
 		B08A6B3F201902CA00603113 /* UIImageGIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08A6B3E201902CA00603113 /* UIImageGIF.swift */; };
+		B08A6B42201903AD00603113 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08A6B41201903AD00603113 /* LaunchScreenViewController.swift */; };
+		B08A6B472019065B00603113 /* loading_attack.gif in Resources */ = {isa = PBXBuildFile; fileRef = B08A6B442019065A00603113 /* loading_attack.gif */; };
+		B08A6B482019065B00603113 /* loading_guitar.gif in Resources */ = {isa = PBXBuildFile; fileRef = B08A6B452019065A00603113 /* loading_guitar.gif */; };
+		B08A6B492019065B00603113 /* loading_fetch.gif in Resources */ = {isa = PBXBuildFile; fileRef = B08A6B462019065B00603113 /* loading_fetch.gif */; };
+		B08A6B4B20190E8100603113 /* AnimationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08A6B4A20190E8100603113 /* AnimationList.swift */; };
 		B0B7E3EF20150EAC00331FC3 /* 28px-Attack_Support.png in Resources */ = {isa = PBXBuildFile; fileRef = B0B7E3EC20150EAC00331FC3 /* 28px-Attack_Support.png */; };
 		B0B7E3F020150EAC00331FC3 /* 28px-Defense_Support.png in Resources */ = {isa = PBXBuildFile; fileRef = B0B7E3ED20150EAC00331FC3 /* 28px-Defense_Support.png */; };
 		B0B7E3F120150EAC00331FC3 /* 60px-AtkDef.png in Resources */ = {isa = PBXBuildFile; fileRef = B0B7E3EE20150EAC00331FC3 /* 60px-AtkDef.png */; };
@@ -171,6 +176,11 @@
 		B08A6B382018008E00603113 /* B04-063.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B04-063.png"; sourceTree = "<group>"; };
 		B08A6B3C201900AD00603113 /* cipher_launch_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cipher_launch_screen.png; sourceTree = "<group>"; };
 		B08A6B3E201902CA00603113 /* UIImageGIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageGIF.swift; sourceTree = "<group>"; };
+		B08A6B41201903AD00603113 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		B08A6B442019065A00603113 /* loading_attack.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading_attack.gif; sourceTree = "<group>"; };
+		B08A6B452019065A00603113 /* loading_guitar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading_guitar.gif; sourceTree = "<group>"; };
+		B08A6B462019065B00603113 /* loading_fetch.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading_fetch.gif; sourceTree = "<group>"; };
+		B08A6B4A20190E8100603113 /* AnimationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationList.swift; sourceTree = "<group>"; };
 		B0B7E3EC20150EAC00331FC3 /* 28px-Attack_Support.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "28px-Attack_Support.png"; sourceTree = "<group>"; };
 		B0B7E3ED20150EAC00331FC3 /* 28px-Defense_Support.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "28px-Defense_Support.png"; sourceTree = "<group>"; };
 		B0B7E3EE20150EAC00331FC3 /* 60px-AtkDef.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "60px-AtkDef.png"; sourceTree = "<group>"; };
@@ -330,6 +340,7 @@
 				B054BBB4200E68AE004159A6 /* CardListViewController.swift */,
 				B03D58092012DBC5007A3E97 /* CardViewController.swift */,
 				B08A6B1E201661C300603113 /* MenuViewController.swift */,
+				B08A6B41201903AD00603113 /* LaunchScreenViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -353,6 +364,7 @@
 				B054BBE4200EA4DA004159A6 /* SupportingSkills.swift */,
 				B054BBE8200EAC3C004159A6 /* Cards.swift */,
 				B03D5774201105A9007A3E97 /* CardLists.swift */,
+				B08A6B4A20190E8100603113 /* AnimationList.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -372,6 +384,7 @@
 				B08A6B3C201900AD00603113 /* cipher_launch_screen.png */,
 				B03D58032012D169007A3E97 /* cipher_header.png */,
 				B03D57872012C56F007A3E97 /* card_placeholder.png */,
+				B08A6B432019064900603113 /* Loading Gifs */,
 				B0B7E3EB20150E7900331FC3 /* Supporting Skill Categories */,
 				B03D57D32012CCEF007A3E97 /* Insignia Categories */,
 				B03D57D02012CCE9007A3E97 /* S03 */,
@@ -432,6 +445,16 @@
 				B08A6B362017FEB200603113 /* B08-039.png */,
 			);
 			path = B08;
+			sourceTree = "<group>";
+		};
+		B08A6B432019064900603113 /* Loading Gifs */ = {
+			isa = PBXGroup;
+			children = (
+				B08A6B442019065A00603113 /* loading_attack.gif */,
+				B08A6B462019065B00603113 /* loading_fetch.gif */,
+				B08A6B452019065A00603113 /* loading_guitar.gif */,
+			);
+			path = "Loading Gifs";
 			sourceTree = "<group>";
 		};
 		B0B7E3EB20150E7900331FC3 /* Supporting Skill Categories */ = {
@@ -507,11 +530,13 @@
 				B03D57FC2012CD14007A3E97 /* B10-052.png in Resources */,
 				B03D57B22012CCB7007A3E97 /* B03-051.png in Resources */,
 				B03D57B12012CCB7007A3E97 /* B03-078.png in Resources */,
+				B08A6B472019065B00603113 /* loading_attack.gif in Resources */,
 				B054BBBD200E68AE004159A6 /* LaunchScreen.storyboard in Resources */,
 				B03D57FA2012CD14007A3E97 /* B10-051.png in Resources */,
 				B03D57AE2012CCB7007A3E97 /* B03-063.png in Resources */,
 				B03D57F82012CD14007A3E97 /* B10-061.png in Resources */,
 				B0B7E3F020150EAC00331FC3 /* 28px-Defense_Support.png in Resources */,
+				B08A6B492019065B00603113 /* loading_fetch.gif in Resources */,
 				B03D57DE2012CCEF007A3E97 /* 30px-Yellow.png in Resources */,
 				B03D57C02012CCDB007A3E97 /* B06-063.png in Resources */,
 				B03D57B02012CCB7007A3E97 /* B03-091.png in Resources */,
@@ -541,6 +566,7 @@
 				B08A6B302017E55000603113 /* B05-089.png in Resources */,
 				B03D57FB2012CD14007A3E97 /* B10-053.png in Resources */,
 				B03D57CD2012CCE0007A3E97 /* B07-056.png in Resources */,
+				B08A6B482019065B00603113 /* loading_guitar.gif in Resources */,
 				B08A6B322017E55500603113 /* B04-018.png in Resources */,
 				B03D57FD2012CD14007A3E97 /* B10-081.png in Resources */,
 				B03D57AD2012CCB7007A3E97 /* B03-067.png in Resources */,
@@ -581,6 +607,7 @@
 				B054BBE3200EA461004159A6 /* SupportingSkill.swift in Sources */,
 				B054BBDF200E9DB7004159A6 /* Insignia.swift in Sources */,
 				B054BBE7200EA5E0004159A6 /* Card.swift in Sources */,
+				B08A6B4B20190E8100603113 /* AnimationList.swift in Sources */,
 				B03D580F2013C1A0007A3E97 /* SegueFromRight.swift in Sources */,
 				B054BBDD200E8A0A004159A6 /* Skills.swift in Sources */,
 				B03D580D2013C100007A3E97 /* SegueFromLeft.swift in Sources */,
@@ -593,6 +620,7 @@
 				B054BBB3200E68AE004159A6 /* AppDelegate.swift in Sources */,
 				B03D5775201105A9007A3E97 /* CardLists.swift in Sources */,
 				B08A6B3F201902CA00603113 /* UIImageGIF.swift in Sources */,
+				B08A6B42201903AD00603113 /* LaunchScreenViewController.swift in Sources */,
 				B054BBB5200E68AE004159A6 /* CardListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
