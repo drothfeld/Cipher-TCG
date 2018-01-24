@@ -22,6 +22,10 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        prepare()
+    }
+    
+    func prepare() {
         interfaceSetup()
         refreshTable()
         searchBarSetup()
