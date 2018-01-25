@@ -85,6 +85,39 @@ let b02_006 = Card(series: "B02-006SR",
                    skills: [lightning_blade, unyielding_forces],
                    cardImageName: "B02-006.png")
 
+let b02_008 = Card(series: "B02-008SR",
+                   name: "Captain of the Red Lotus, Hinoka",
+                   rarity: "Secret Rare",
+                   insignia: hoshido,
+                   attack: 60,
+                   support: 30,
+                   illustrator: "Mayo",
+                   supportingSkill: none,
+                   skills: [pep_talk, galloping_gallantry],
+                   cardImageName: "B02-008.png")
+
+let b02_030 = Card(series: "B02-030SR",
+                   name: "Capable Maid, Felicia",
+                   rarity: "Secret Rare",
+                   insignia: hoshido,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "HACCAN",
+                   supportingSkill: none,
+                   skills: [here_i_go, i_wont_go_easy],
+                   cardImageName: "B02-030.png")
+
+let b02_051 = Card(series: "B02-051SR",
+                   name: "Chosen Princess of the Godly Blade, Corrin",
+                   rarity: "Secret Rare",
+                   insignia: nohr,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "Unknown",
+                   supportingSkill: none,
+                   skills: [blood_stained_dark_sword, march_of_darkness],
+                   cardImageName: "B02-051.png")
+
 let b03_051 = Card(series: "B03-051SR",
                    name: "Godly Child of the Final Light Flame, Corrin",
                    rarity: "Secret Rare",

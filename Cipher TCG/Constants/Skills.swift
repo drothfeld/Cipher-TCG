@@ -719,3 +719,51 @@ let enlightened_edge = Skill(name: "Enlightened Edge",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: true)
+
+let pep_talk = Skill(name: "Pep Talk",
+                        description: "[ Flip 1 Bond ] Choose an ally with 30 attack or less. This turn, the chosen ally gains +30 attack. During the turn this card was Class Changed, this skill loses the Once Per Turn restriction.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let galloping_gallantry = Skill(name: "Galloping Gallantry",
+                        description: "If 'Hinoka' and at least 2 other allies are on the field, this card's Promotion Cost while in your hand is 2.",
+                        colorType: UIColor.purple,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let here_i_go = Skill(name: "Here I Go!",
+                        description: " [  Flip 1 Bond , Tap your Main Character] Untap this unit.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let i_wont_go_easy = Skill(name: "I Won't Go Easy!",
+                        description: "[Discard a card with the same name as your Main Character] This turn, this unit's attack is doubled.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let blood_stained_dark_sword = Skill(name: "Blood-Stained Dark Sword",
+                        description: "[ Flip 3 Bonds , Discard a 'Corrin (Female)'] Select up to three enemies except for the Main Character and destroy them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 3,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let march_of_darkness = Skill(name: "March of Darkness",
+                        description: "[ Flip 3 Bonds , Discard a 'Corrin (Female)'] Until the end of your opponent's next turn, all Black allies gain +20 attack, and this unit gains 1-2 range.",
+                        colorType: UIColor.red,
+                        flippedBonds: 3,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
