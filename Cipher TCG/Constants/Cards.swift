@@ -602,3 +602,25 @@ let b10_086 = Card(series: "B10-086HN",
                    skills: [corrupted_paradise, curse_twisted_dream],
                    cardImageName: "B10-086.png")
 
+let b11_001 = Card(series: "B11-001SR",
+                   name: "Restoration Queen, Eirika",
+                   rarity: "Secret Rare",
+                   insignia: divine_weapons,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "Sachiko Wada",
+                   supportingSkill: none,
+                   skills: [two_heroes_eirika, courage_to_confront, sieglindes_rays],
+                   cardImageName: "B11-001.png")
+
+let b11_004 = Card(series: "B11-004SR",
+                   name: "Restoration King, Ephraim",
+                   rarity: "Secret Rare",
+                   insignia: divine_weapons,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "Sachiko Wada",
+                   supportingSkill: none,
+                   skills: [two_heroes_ephraim, cleaving_justice, legendary_siegmund],
+                   cardImageName: "B11-004.png")
+

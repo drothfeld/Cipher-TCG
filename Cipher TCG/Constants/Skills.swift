@@ -831,3 +831,51 @@ let soulcrushing_darkness = Skill(name: "Soulcrushing Darkness",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: true)
+
+let two_heroes_eirika = Skill(name: "Two Heroes",
+                        description: "If your Main Character is 'Ephraim', if this unit is to be sent to the Retreat Area as the result of being destroyed, you may destroy one of your orbs instead.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let courage_to_confront = Skill(name: "Courage to Confront",
+                        description: "If this unit is in the same area as two or more other  Purple allies, this unit cannot be destroyed.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let sieglindes_rays = Skill(name: "Sieglinde's Rays",
+                        description: "[ Flip 1 Bond ] Move an enemy backline unit.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let two_heroes_ephraim = Skill(name: "Two Heroes",
+                        description: "If your Main Character is 'Eirika', if this unit is to be sent to the Retreat Area as the result of being destroyed, you may destroy one of your orbs instead.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let cleaving_justice = Skill(name: "Cleaving Justice",
+                        description: "For each other Purple ally in the same area as this unit, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let legendary_siegmund = Skill(name: "Legendary Siegmund",
+                        description: "[ Flip 1 Bond ] This turn, the number of orbs this unit’s attacks would destroy becomes 2.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
