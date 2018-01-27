@@ -879,3 +879,59 @@ let legendary_siegmund = Skill(name: "Legendary Siegmund",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let future_changing_bonds = Skill(name: "Future Changing Bonds",
+                        description: "[ Flip 2 Bonds ] Select an ally that isn't Class Changed. Choose a card with a Promotion Cost that has same name as that ally from your Retreat Area, then Class Change that ally with the selected card.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let hopeful_future = Skill(name: "Hopeful Future",
+                        description: "This turn, all Class Changed allies gain +10 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let awaken_the_dead = Skill(name: "Awaken the Dead",
+                        description: "[Tap 2 allied Risen ] Select a Risen card in your Retreat Area and deploy it.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let cursed_army_of_despair = Skill(name: "Cursed Army of Despair",
+                        description: "[Tap 3 allied Risen units] Select an ally. This turn, that ally gains +70 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let land_of_the_risen = Skill(name: "Land of the Risen",
+                        description: "During your opponent's turn, if you have no allied Risen, this unit loses -10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let dukes_conquest = Skill(name: "Duke's Conquest",
+                        description: "When this unit is moved, this turn, this unit gains +20 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let bowbreaker = Skill(name: "Bowbreaker",
+                        description: "Enemy Bow units cannot perform Critical Hits.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

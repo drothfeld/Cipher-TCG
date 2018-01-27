@@ -426,6 +426,39 @@ let b08_004 = Card(series: "B08-004R",
                    skills: [lord_of_the_future, inexhaustible_wish, guidance_of_the_brand],
                    cardImageName: "B08-004.png")
 
+let b08_001 = Card(series: "B08-001SR",
+                   name: "Sacred Sovereign of Hope, Chrom",
+                   rarity: "Secret Rare",
+                   insignia: mark_of_naga,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "Kotaro Yamada",
+                   supportingSkill: none,
+                   skills: [future_changing_bonds, hopeful_future],
+                   cardImageName: "B08-001.png")
+
+let b08_002 = Card(series: "B08-002SR",
+                   name: "Undead King of Despair, Chrom",
+                   rarity: "Secret Rare",
+                   insignia: mark_of_naga,
+                   attack: 80,
+                   support: 0,
+                   illustrator: "Setsu",
+                   supportingSkill: none,
+                   skills: [awaken_the_dead, cursed_army_of_despair, land_of_the_risen],
+                   cardImageName: "B08-002.png")
+
+let b08_010 = Card(series: "B08-010R",
+                   name: "Head of House Virion, Virion",
+                   rarity: "Rare",
+                   insignia: mark_of_naga,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "Yamada Kotarou",
+                   supportingSkill: none,
+                   skills: [dukes_conquest, bowbreaker, wingbane],
+                   cardImageName: "B08-010.png")
+
 let b08_039 = Card(series: "B08-039R",
                    name: "Immortal Voice, Tiki",
                    rarity: "Rare",

@@ -104,6 +104,9 @@
 		B0E4224F201C424B00CA879C /* B06-056.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E4224E201C424B00CA879C /* B06-056.png */; };
 		B0E42253201C46DD00CA879C /* B11-004.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E42251201C46DD00CA879C /* B11-004.png */; };
 		B0E42254201C46DD00CA879C /* B11-001.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E42252201C46DD00CA879C /* B11-001.png */; };
+		B0E42258201CEB9C00CA879C /* B08-010.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E42255201CEB9B00CA879C /* B08-010.png */; };
+		B0E42259201CEB9C00CA879C /* B08-001.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E42256201CEB9B00CA879C /* B08-001.png */; };
+		B0E4225A201CEB9C00CA879C /* B08-002.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E42257201CEB9B00CA879C /* B08-002.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -206,6 +209,9 @@
 		B0E4224E201C424B00CA879C /* B06-056.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B06-056.png"; sourceTree = "<group>"; };
 		B0E42251201C46DD00CA879C /* B11-004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B11-004.png"; sourceTree = "<group>"; };
 		B0E42252201C46DD00CA879C /* B11-001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B11-001.png"; sourceTree = "<group>"; };
+		B0E42255201CEB9B00CA879C /* B08-010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B08-010.png"; sourceTree = "<group>"; };
+		B0E42256201CEB9B00CA879C /* B08-001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B08-001.png"; sourceTree = "<group>"; };
+		B0E42257201CEB9B00CA879C /* B08-002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B08-002.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -475,6 +481,9 @@
 			children = (
 				B08A6B342017FCE200603113 /* B08-004.png */,
 				B08A6B362017FEB200603113 /* B08-039.png */,
+				B0E42256201CEB9B00CA879C /* B08-001.png */,
+				B0E42257201CEB9B00CA879C /* B08-002.png */,
+				B0E42255201CEB9B00CA879C /* B08-010.png */,
 			);
 			path = B08;
 			sourceTree = "<group>";
@@ -573,6 +582,7 @@
 				B03D57B22012CCB7007A3E97 /* B03-051.png in Resources */,
 				B03D57B12012CCB7007A3E97 /* B03-078.png in Resources */,
 				B0E4223F20191D7C00CA879C /* .gitignore in Resources */,
+				B0E42259201CEB9C00CA879C /* B08-001.png in Resources */,
 				B0E42253201C46DD00CA879C /* B11-004.png in Resources */,
 				B08A6B472019065B00603113 /* loading_attack.gif in Resources */,
 				B054BBBD200E68AE004159A6 /* LaunchScreen.storyboard in Resources */,
@@ -629,11 +639,13 @@
 				B08A6B372017FEB200603113 /* B08-039.png in Resources */,
 				B08A6B292017C06D00603113 /* B01-051.png in Resources */,
 				B0E4224120191DCE00CA879C /* README.md in Resources */,
+				B0E42258201CEB9C00CA879C /* B08-010.png in Resources */,
 				B03D57FF2012CD14007A3E97 /* B10-057.png in Resources */,
 				B0E4224B201C423A00CA879C /* B04-001.png in Resources */,
 				B03D57CB2012CCE0007A3E97 /* B07-051.png in Resources */,
 				B03D58002012CD14007A3E97 /* B10-055.png in Resources */,
 				B03D57DF2012CCEF007A3E97 /* 30px-White.png in Resources */,
+				B0E4225A201CEB9C00CA879C /* B08-002.png in Resources */,
 				B054BBB8200E68AE004159A6 /* Main.storyboard in Resources */,
 				B0B7E3EF20150EAC00331FC3 /* 28px-Attack_Support.png in Resources */,
 				B08A6B2C2017E50E00603113 /* B03-086.png in Resources */,
