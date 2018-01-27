@@ -98,6 +98,10 @@
 		B0E42245201A820600CA879C /* B02-008.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E42242201A820500CA879C /* B02-008.png */; };
 		B0E42246201A820600CA879C /* B02-030.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E42243201A820600CA879C /* B02-030.png */; };
 		B0E42247201A820600CA879C /* B02-051.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E42244201A820600CA879C /* B02-051.png */; };
+		B0E42249201C422700CA879C /* B02-060.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E42248201C422700CA879C /* B02-060.png */; };
+		B0E4224B201C423A00CA879C /* B04-001.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E4224A201C423A00CA879C /* B04-001.png */; };
+		B0E4224D201C424500CA879C /* B04-065.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E4224C201C424500CA879C /* B04-065.png */; };
+		B0E4224F201C424B00CA879C /* B06-056.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E4224E201C424B00CA879C /* B06-056.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -194,6 +198,10 @@
 		B0E42242201A820500CA879C /* B02-008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B02-008.png"; sourceTree = "<group>"; };
 		B0E42243201A820600CA879C /* B02-030.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B02-030.png"; sourceTree = "<group>"; };
 		B0E42244201A820600CA879C /* B02-051.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B02-051.png"; sourceTree = "<group>"; };
+		B0E42248201C422700CA879C /* B02-060.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B02-060.png"; sourceTree = "<group>"; };
+		B0E4224A201C423A00CA879C /* B04-001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B04-001.png"; sourceTree = "<group>"; };
+		B0E4224C201C424500CA879C /* B04-065.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B04-065.png"; sourceTree = "<group>"; };
+		B0E4224E201C424B00CA879C /* B06-056.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B06-056.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +235,7 @@
 		B03D57B52012CCD1007A3E97 /* B02 */ = {
 			isa = PBXGroup;
 			children = (
+				B0E42248201C422700CA879C /* B02-060.png */,
 				B03D57B62012CCD1007A3E97 /* B02-003.png */,
 				B03D57B72012CCD1007A3E97 /* B02-006.png */,
 				B0E42242201A820500CA879C /* B02-008.png */,
@@ -239,6 +248,7 @@
 		B03D57BA2012CCDB007A3E97 /* B06 */ = {
 			isa = PBXGroup;
 			children = (
+				B0E4224E201C424B00CA879C /* B06-056.png */,
 				B03D57BB2012CCDB007A3E97 /* B06-054.png */,
 				B03D57BC2012CCDB007A3E97 /* B06-062.png */,
 				B03D57BD2012CCDB007A3E97 /* B06-063.png */,
@@ -439,6 +449,8 @@
 		B08A6B2D2017E52900603113 /* B04 */ = {
 			isa = PBXGroup;
 			children = (
+				B0E4224A201C423A00CA879C /* B04-001.png */,
+				B0E4224C201C424500CA879C /* B04-065.png */,
 				B08A6B312017E55500603113 /* B04-018.png */,
 				B08A6B382018008E00603113 /* B04-063.png */,
 			);
@@ -558,6 +570,7 @@
 				B03D57DE2012CCEF007A3E97 /* 30px-Yellow.png in Resources */,
 				B03D57C02012CCDB007A3E97 /* B06-063.png in Resources */,
 				B03D57B02012CCB7007A3E97 /* B03-091.png in Resources */,
+				B0E42249201C422700CA879C /* B02-060.png in Resources */,
 				B08A6B262017A50B00603113 /* B01-054.png in Resources */,
 				B03D57B92012CCD1007A3E97 /* B02-006.png in Resources */,
 				B03D57CF2012CCE0007A3E97 /* B07-058.png in Resources */,
@@ -594,12 +607,15 @@
 				B03D57B32012CCB7007A3E97 /* B03-092.png in Resources */,
 				B03D58022012CD14007A3E97 /* B10-068.png in Resources */,
 				B03D57B82012CCD1007A3E97 /* B02-003.png in Resources */,
+				B0E4224F201C424B00CA879C /* B06-056.png in Resources */,
 				B0E42247201A820600CA879C /* B02-051.png in Resources */,
 				B08A6B392018008E00603113 /* B04-063.png in Resources */,
+				B0E4224D201C424500CA879C /* B04-065.png in Resources */,
 				B08A6B372017FEB200603113 /* B08-039.png in Resources */,
 				B08A6B292017C06D00603113 /* B01-051.png in Resources */,
 				B0E4224120191DCE00CA879C /* README.md in Resources */,
 				B03D57FF2012CD14007A3E97 /* B10-057.png in Resources */,
+				B0E4224B201C423A00CA879C /* B04-001.png in Resources */,
 				B03D57CB2012CCE0007A3E97 /* B07-051.png in Resources */,
 				B03D58002012CD14007A3E97 /* B10-055.png in Resources */,
 				B03D57DF2012CCEF007A3E97 /* 30px-White.png in Resources */,

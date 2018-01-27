@@ -767,3 +767,67 @@ let march_of_darkness = Skill(name: "March of Darkness",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let grand_finale = Skill(name: "Grand Finale",
+                        description: "[ Flip 3 Bonds , discard a 'Tsubasa Oribe' or 'Shiida'] Untap your other allies.",
+                        colorType: UIColor.red,
+                        flippedBonds: 3,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let fly_windswept_passions = Skill(name: "Fly ~Windswept Passions~",
+                        description: "When an ally is moved by a skill's effect, this turn, this unit gains +10 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let rally_spectrum = Skill(name: "Rally Spectrum",
+                        description: "[ Flip 2 Bonds, Discard a 'Robin (Male)'] This turn, all allies gain +10 attack. Also, if you have less Orbs than your opponent, you may place a card from your hand into your Orb Area.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let two_steps_ahead = Skill(name: "Two Steps Ahead",
+                        description: "When this unit's attack destroys an enemy, you may destroy an Orb. If you do, then you may place a card from your hand into your Orb Area.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let terrorizing_fear = Skill(name: "Terrorizing Fear",
+                        description: "[ Tap This Unit, Flip 1 Bond, Flip one of your Orbs face-up] Destroy an enemy besides the Main Character. Until the end of your opponent's next turn, your opponent cannot deploy another unit of the same name as the unit destroyed by this skill.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: true,
+                        tapUnit: true,
+                        CCS: false)
+
+let chilling_miasma = Skill(name: "Chilling Miasma",
+                        description: "At the end of each players' turn, if you have a face-up Orb, if a player has at least 5 cards in his hand, they must discard a card.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let brynhildr = Skill(name: "Brynhildr",
+                        description: "[ Flip 2 Bonds, discard a 'Leo'] Discard two random cards from your opponent's hand.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let soulcrushing_darkness = Skill(name: "Soulcrushing Darkness",
+                        description: "When this unit uses 'Brynhildr', you may select one of the discard cards. This turn, units with the same name as the chosen card lose -20 attack (Class Change Skill: This skill is inactive unless this unit was Class Changed).",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: true)

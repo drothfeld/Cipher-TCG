@@ -118,6 +118,17 @@ let b02_051 = Card(series: "B02-051SR",
                    skills: [blood_stained_dark_sword, march_of_darkness],
                    cardImageName: "B02-051.png")
 
+let b02_060 = Card(series: "B02-060SR",
+                   name: "Prince of Darkness, Leo",
+                   rarity: "Secret Rare",
+                   insignia: nohr,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "Unknown",
+                   supportingSkill: none,
+                   skills: [brynhildr, soulcrushing_darkness],
+                   cardImageName: "B02-060.png")
+
 let b03_051 = Card(series: "B03-051SR",
                    name: "Godly Child of the Final Light Flame, Corrin",
                    rarity: "Secret Rare",
@@ -228,6 +239,17 @@ let b03_092 = Card(series: "B03-092N",
                    skills: [lecherous_lockpicking, wingbane],
                    cardImageName: "B03-092.png")
 
+let b04_001 = Card(series: "B04-001SR",
+                   name: "The Golden Idol, Tsubasa Oribe",
+                   rarity: "Secret Rare",
+                   insignia: blade_of_light,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "Masaki Hiiroka",
+                   supportingSkill: none,
+                   skills: [grand_finale, fly_windswept_passions],
+                   cardImageName: "B04-001.png")
+
 let b04_018 = Card(series: "B04-018SR",
                    name: "Lambent Hero-King, Marth",
                    rarity: "Secret Rare",
@@ -250,6 +272,17 @@ let b04_063 = Card(series: "B04-063SR",
                    skills: [hands_of_fate, enlightened_edge],
                    cardImageName: "B04-063.png")
 
+let b04_065 = Card(series: "B04-065SR",
+                   name: "Exalted Grandmaster, Robin",
+                   rarity: "Secret Rare",
+                   insignia: mark_of_naga,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "lack",
+                   supportingSkill: none,
+                   skills: [rally_spectrum, two_steps_ahead],
+                   cardImageName: "B04-065.png")
+
 let b05_089 = Card(series: "B05-089SR",
                    name: "Radiant Hero, Ike",
                    rarity: "Secret Rare",
@@ -271,6 +304,17 @@ let b06_054 = Card(series: "B06-054SR",
                    supportingSkill: none,
                    skills: [eruption, obsidian_mist],
                    cardImageName: "B06-054.png")
+
+let b06_056 = Card(series: "B06-056SR",
+                   name: "Younger Dark Prince of Chilling Magic, Leo",
+                   rarity: "Secret Rare",
+                   insignia: nohr,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "Aoji",
+                   supportingSkill: none,
+                   skills: [terrorizing_fear, chilling_miasma],
+                   cardImageName: "B06-056.png")
 
 let b06_062 = Card(series: "B06-062R",
                    name: "The Deadly, Beruka",
