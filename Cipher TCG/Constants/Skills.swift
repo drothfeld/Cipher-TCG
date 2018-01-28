@@ -935,3 +935,51 @@ let bowbreaker = Skill(name: "Bowbreaker",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let sky_glider = Skill(name: "Sky Glider",
+                        description: "This unit gains +10 attack for each other ally Fang unit.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let roar_of_the_king = Skill(name: "Roar of the King",
+                        description: "While this unit has 100 or more attack, all other Fang ally units gain +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let divine_blade_alondite = Skill(name: "Divine Blade Alondite",
+                        description: "[ Flip 2 Bonds ] Until the end of your opponent’s turn, this unit gains +20 attack, this unit's range becomes 1-2 and the number of orbs this unit’s attacks would destroy becomes 2.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let mantle = Skill(name: "Mantle",
+                        description: "This unit cannot be destroyed by an attack from an enemy with a Deployment Cost of 2 or less.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let vortex = Skill(name: "Vortex",
+                        description: "[ Flip 1 Bond ] This turn, this unit is treated as a Tome unit, this unit's range becomes 1-2 range, and gains the skill “Wingbane”. (“Wingbane” CONT While this unit attacks a Flying unit, this unit gains 30 attack.)",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let job_well_done = Skill(name: "Job Well Done",
+                        description: "When another Fang ally is deployed, if there is another ally Fang besides the deployed ally and this unit, draw 1 card.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

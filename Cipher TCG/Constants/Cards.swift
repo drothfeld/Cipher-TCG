@@ -129,6 +129,39 @@ let b02_060 = Card(series: "B02-060SR",
                    skills: [brynhildr, soulcrushing_darkness],
                    cardImageName: "B02-060.png")
 
+let b03_043 = Card(series: "B03-043R",
+                   name: "King of Phoenicis, Tibarn",
+                   rarity: "Rare",
+                   insignia: medallion,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "Ayaka Suzuki",
+                   supportingSkill: none,
+                   skills: [sky_glider, roar_of_the_king],
+                   cardImageName: "B03-043.png")
+
+let b03_044 = Card(series: "B03-044R",
+                   name: "King of Kilvas, Naesala",
+                   rarity: "Rare",
+                   insignia: medallion,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "Mikihiro Taguchi",
+                   supportingSkill: none,
+                   skills: [vortex, job_well_done],
+                   cardImageName: "B03-044.png")
+
+let b03_047 = Card(series: "B03-047SR",
+                   name: "Demon in Blessed Armor, Black Knight",
+                   rarity: "Secret Rare",
+                   insignia: medallion,
+                   attack: 80,
+                   support: 0,
+                   illustrator: "Daisuke Izuka",
+                   supportingSkill: none,
+                   skills: [divine_blade_alondite, mantle],
+                   cardImageName: "B03-047.png")
+
 let b03_051 = Card(series: "B03-051SR",
                    name: "Godly Child of the Final Light Flame, Corrin",
                    rarity: "Secret Rare",
