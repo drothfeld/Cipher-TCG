@@ -316,6 +316,28 @@ let b04_065 = Card(series: "B04-065SR",
                    skills: [rally_spectrum, two_steps_ahead],
                    cardImageName: "B04-065.png")
 
+let b05_051 = Card(series: "B05-051SR",
+                   name: "Priestess of Hope, Micaiah",
+                   rarity: "Secret Rare",
+                   insignia: medallion,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "Tetsu Kurosawa",
+                   supportingSkill: none,
+                   skills: [shine, priestess_of_dawn],
+                   cardImageName: "B05-051.png")
+
+let b05_082 = Card(series: "B05-082SR",
+                   name: "Lancer General, Geoffrey",
+                   rarity: "Secret Rare",
+                   insignia: medallion,
+                   attack: 70,
+                   support: 10,
+                   illustrator: "Rika Suzuki",
+                   supportingSkill: none,
+                   skills: [glory_to_the_queen, commander_of_the_royal_guards],
+                   cardImageName: "B05-082.png")
+
 let b05_089 = Card(series: "B05-089SR",
                    name: "Radiant Hero, Ike",
                    rarity: "Secret Rare",
@@ -481,6 +503,17 @@ let b08_002 = Card(series: "B08-002SR",
                    skills: [awaken_the_dead, cursed_army_of_despair, land_of_the_risen],
                    cardImageName: "B08-002.png")
 
+let b08_009 = Card(series: "B08-009SR",
+                   name: "The Exalt's Guardian Knight, Frederick",
+                   rarity: "Secret Rare",
+                   insignia: mark_of_naga,
+                   attack: 70,
+                   support: 10,
+                   illustrator: "Kaoru Hagiya",
+                   supportingSkill: none,
+                   skills: [divine_ride, the_silver_knightly_captain, ill_defend_you_to_the_last],
+                   cardImageName: "B08-009.png")
+
 let b08_010 = Card(series: "B08-010R",
                    name: "Head of House Virion, Virion",
                    rarity: "Rare",
@@ -502,6 +535,17 @@ let b08_039 = Card(series: "B08-039R",
                    supportingSkill: none,
                    skills: [rite_of_awakening, divine_dragons_awakening, long_lived_dragon_clan],
                    cardImageName: "B08-039.png")
+
+let b09_090 = Card(series: "B09-090R",
+                   name: "King of Gallia, Caineghis",
+                   rarity: "Rare",
+                   insignia: medallion,
+                   attack: 100,
+                   support: 10,
+                   illustrator: "Kita Senri",
+                   supportingSkill: none,
+                   skills: [race_transcending_alliance],
+                   cardImageName: "B09-090.png")
 
 let b10_051 = Card(series: "B10-051SR",
                    name: "Night-Transcending Princess, Kana",

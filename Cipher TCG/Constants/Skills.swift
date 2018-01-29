@@ -983,3 +983,67 @@ let job_well_done = Skill(name: "Job Well Done",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let divine_ride = Skill(name: "Divine Ride",
+                        description: "[ Flip 1 Bond ] When an ally class changes, you may pay the cost, and if you do: Deploy this card from your hand.",
+                        colorType: UIColor.purple,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let the_silver_knightly_captain = Skill(name: "The Silver Knightly Captain",
+                        description: "If this unit is on the frontline, this unit and your Main Character cannot be moved by an enemy unit's skill or your opponent's support skills.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let ill_defend_you_to_the_last = Skill(name: "I'll defend you to the last!",
+                        description: "Enemies attacking your Main Character cannot perform Critical Hits.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let race_transcending_alliance = Skill(name: "Race-Transcending Alliance",
+                        description: "The deployment costs of all Green cards in your hand are reduced by 1. Deployment Costs cannot be reduced below 1 with this skill.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let glory_to_the_queen = Skill(name: "Glory to the Queen!",
+                        description: "For each other ally that has performed a Level Up or Growth this turn, all allies in the front row gain +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let commander_of_the_royal_guards = Skill(name: "Commander of the Royal Guards!",
+                        description: "When another ally levels up or performs a growth, you can select an enemy in the back row and move it (Class Change Skill: This skill is inactive unless this unit was Class Changed).",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: true)
+
+let shine = Skill(name: "Shine",
+                        description: "[ Flip 1 Bond and Stack two 'Micaiah' cards from your Retreat Area under this unit to growth them] Draw a card (The unit is treated as if it was Leveled Up. CCS.png effects can be used if that unit has any CCS.png effects).",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let priestess_of_dawn = Skill(name: "Priestess of Dawn",
+                        description: "During your turn, your other allies gain +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
