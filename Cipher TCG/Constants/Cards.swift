@@ -536,6 +536,17 @@ let b08_039 = Card(series: "B08-039R",
                    skills: [rite_of_awakening, divine_dragons_awakening, long_lived_dragon_clan],
                    cardImageName: "B08-039.png")
 
+let b09_085 = Card(series: "B09-085SR",
+                   name: "King of Gallia, Caineghis",
+                   rarity: "Secret Rare",
+                   insignia: medallion,
+                   attack: 50,
+                   support: 20,
+                   illustrator: "Fuzichoco",
+                   supportingSkill: none,
+                   skills: [nurture_a_wish, pink_scaled_dragon_girl],
+                   cardImageName: "B09-085.png")
+
 let b09_090 = Card(series: "B09-090R",
                    name: "King of Gallia, Caineghis",
                    rarity: "Rare",
@@ -712,6 +723,17 @@ let b10_086 = Card(series: "B10-086HN",
                    skills: [corrupted_paradise, curse_twisted_dream],
                    cardImageName: "B10-086.png")
 
+let b10_097 = Card(series: "B10-097SR",
+                   name: "Detached Princess, Veronica",
+                   rarity: "Secret Rare",
+                   insignia: colorless,
+                   attack: 50,
+                   support: 20,
+                   illustrator: "Geso Umiu",
+                   supportingSkill: none,
+                   skills: [princess_of_death, ill_shut_you_out, elivagar],
+                   cardImageName: "B10-097.png")
+
 let b11_001 = Card(series: "B11-001SR",
                    name: "Restoration Queen, Eirika",
                    rarity: "Secret Rare",
@@ -733,4 +755,15 @@ let b11_004 = Card(series: "B11-004SR",
                    supportingSkill: none,
                    skills: [two_heroes_ephraim, cleaving_justice, legendary_siegmund],
                    cardImageName: "B11-004.png")
+
+let b11_073 = Card(series: "B11-0073HN",
+                   name: "Flickering Memory of Love, Rinea",
+                   rarity: "High Normal",
+                   insignia: blade_of_light,
+                   attack: 50,
+                   support: 20,
+                   illustrator: "Azusa",
+                   supportingSkill: none,
+                   skills: [inferno_of_love, dance_in_purgatory],
+                   cardImageName: "B11-073.png")
 

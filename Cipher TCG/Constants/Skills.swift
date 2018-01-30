@@ -1047,3 +1047,59 @@ let priestess_of_dawn = Skill(name: "Priestess of Dawn",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let nurture_a_wish = Skill(name: "Nurture a Wish",
+                        description: "[Stack an 'Ena' card from your hand underneath this unit to growth them] Reveal the top five cards of your deck. Choose one of the revealed cards, add it to your hand, then send the remaining cards to your Retreat Area (A unit who has growthed is treated as if they have been Leveled Up).",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let pink_scaled_dragon_girl = Skill(name: "Pink-Scaled Dragon Girl",
+                        description: "When you growth this unit, you may choose a Green ally. This turn, that ally gains +30 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let princess_of_death = Skill(name: "Princess of Death",
+                        description: "During your opponent's turn, when an enemy is deployed by the effect of a skill, you may deploy this unit from your hand.",
+                        colorType: UIColor.purple,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let ill_shut_you_out = Skill(name: "I'll shut you out...",
+                        description: "When this unit is deployed by 'Princess of Death', choose 1 enemy, and tap them. Until the end of the turn, that enemy cannot be untapped.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let elivagar = Skill(name: "Élivágar",
+                        description: "[ Flip 1 Bond ] Choose 1 non-lord enemy. Until the end of the turn, that unit gains -30 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let inferno_of_love = Skill(name: "Inferno of Love",
+                        description: "[ Flip 1 Bond ] When this unit is deployed, if you have no cards in your hand, you may pay the cost and if you do: Draw 2 cards.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let dance_in_purgatory = Skill(name: "Dance in Purgatory",
+                        description: "If this unit is sent to the Retreat Area as the result of being destroyed by the cost or effect of a Red ally's skill, you may instead add this card to your hand.",
+                        colorType: UIColor.green,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

@@ -38,5 +38,5 @@ let holy_war_flag = Insignia(name: "Holy War Flag",
 
 let colorless = Insignia(name: "Colorless",
                              color: UIColor.clear,
-                             iconImageName: nil)
+                             iconImageName: "30px-Colorless.png")
 

@@ -65,6 +65,9 @@
 		B048FE35201F8BA9007F1525 /* B05-082.png in Resources */ = {isa = PBXBuildFile; fileRef = B048FE33201F8BA9007F1525 /* B05-082.png */; };
 		B048FE38201F8BC3007F1525 /* B09-090.png in Resources */ = {isa = PBXBuildFile; fileRef = B048FE37201F8BC3007F1525 /* B09-090.png */; };
 		B048FE3A201F8BCA007F1525 /* B08-009.png in Resources */ = {isa = PBXBuildFile; fileRef = B048FE39201F8BCA007F1525 /* B08-009.png */; };
+		B048FE3C2020DD13007F1525 /* B11-073.png in Resources */ = {isa = PBXBuildFile; fileRef = B048FE3B2020DD13007F1525 /* B11-073.png */; };
+		B048FE3E2020DD1F007F1525 /* B10-097.png in Resources */ = {isa = PBXBuildFile; fileRef = B048FE3D2020DD1F007F1525 /* B10-097.png */; };
+		B048FE402020DD2B007F1525 /* B09-085.png in Resources */ = {isa = PBXBuildFile; fileRef = B048FE3F2020DD2B007F1525 /* B09-085.png */; };
 		B054BBB3200E68AE004159A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBB2200E68AE004159A6 /* AppDelegate.swift */; };
 		B054BBB5200E68AE004159A6 /* CardListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBB4200E68AE004159A6 /* CardListViewController.swift */; };
 		B054BBB8200E68AE004159A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B054BBB6200E68AE004159A6 /* Main.storyboard */; };
@@ -175,6 +178,9 @@
 		B048FE33201F8BA9007F1525 /* B05-082.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B05-082.png"; sourceTree = "<group>"; };
 		B048FE37201F8BC3007F1525 /* B09-090.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B09-090.png"; sourceTree = "<group>"; };
 		B048FE39201F8BCA007F1525 /* B08-009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B08-009.png"; sourceTree = "<group>"; };
+		B048FE3B2020DD13007F1525 /* B11-073.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B11-073.png"; sourceTree = "<group>"; };
+		B048FE3D2020DD1F007F1525 /* B10-097.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B10-097.png"; sourceTree = "<group>"; };
+		B048FE3F2020DD2B007F1525 /* B09-085.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B09-085.png"; sourceTree = "<group>"; };
 		B054BBAF200E68AE004159A6 /* Cipher TCG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cipher TCG.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B054BBB2200E68AE004159A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B054BBB4200E68AE004159A6 /* CardListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewController.swift; sourceTree = "<group>"; };
@@ -338,6 +344,7 @@
 				B03D57F02012CD14007A3E97 /* B10-055.png */,
 				B03D57F12012CD14007A3E97 /* B10-054.png */,
 				B03D57F22012CD14007A3E97 /* B10-068.png */,
+				B048FE3D2020DD1F007F1525 /* B10-097.png */,
 			);
 			path = B10;
 			sourceTree = "<group>";
@@ -355,6 +362,7 @@
 			isa = PBXGroup;
 			children = (
 				B048FE37201F8BC3007F1525 /* B09-090.png */,
+				B048FE3F2020DD2B007F1525 /* B09-085.png */,
 			);
 			path = B09;
 			sourceTree = "<group>";
@@ -542,6 +550,7 @@
 			children = (
 				B0E42252201C46DD00CA879C /* B11-001.png */,
 				B0E42251201C46DD00CA879C /* B11-004.png */,
+				B048FE3B2020DD13007F1525 /* B11-073.png */,
 			);
 			path = B11;
 			sourceTree = "<group>";
@@ -606,6 +615,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B03D57DC2012CCEF007A3E97 /* 30px-Blue.png in Resources */,
+				B048FE3C2020DD13007F1525 /* B11-073.png in Resources */,
 				B03D57FC2012CD14007A3E97 /* B10-052.png in Resources */,
 				B048FE35201F8BA9007F1525 /* B05-082.png in Resources */,
 				B0E42246201A820600CA879C /* B02-030.png in Resources */,
@@ -646,6 +656,7 @@
 				B03D57F42012CD14007A3E97 /* B10-059.png in Resources */,
 				B03D57D22012CCE9007A3E97 /* S03-002ST.png in Resources */,
 				B054BBBA200E68AE004159A6 /* Assets.xcassets in Resources */,
+				B048FE402020DD2B007F1525 /* B09-085.png in Resources */,
 				B03D57E02012CCEF007A3E97 /* 30px-Green.png in Resources */,
 				B03D57F62012CD14007A3E97 /* B10-076.png in Resources */,
 				B03D57CA2012CCE0007A3E97 /* B07-086.png in Resources */,
@@ -692,6 +703,7 @@
 				B08A6B352017FCE200603113 /* B08-004.png in Resources */,
 				B03D57CE2012CCE0007A3E97 /* B07-064.png in Resources */,
 				B03D58042012D169007A3E97 /* cipher_header.png in Resources */,
+				B048FE3E2020DD1F007F1525 /* B10-097.png in Resources */,
 				B08A6B3D201900AD00603113 /* cipher_launch_screen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
