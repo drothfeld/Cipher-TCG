@@ -1103,3 +1103,27 @@ let dance_in_purgatory = Skill(name: "Dance in Purgatory",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let regalia = Skill(name: "Regalia",
+                        description: "When this unit growths, draw 1 card.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let crimson_mane = Skill(name: "Crimson Mane",
+                        description: "During your turn, your allied Fang gain +30 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let showdown_roar = Skill(name: "Showdown Roar",
+                        description: "[ Flip 2 Bonds ] Reveal the top 5 cards of your deck. Choose any number of Fang cards among the revealed cards, deploy them, and place the remaining cards in your Retreat Area. (Level Skill 7 This skill becomes active while there are a total of 7 cards stacked with this unit.).",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

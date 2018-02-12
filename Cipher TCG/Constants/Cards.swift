@@ -536,6 +536,17 @@ let b08_039 = Card(series: "B08-039R",
                    skills: [rite_of_awakening, divine_dragons_awakening, long_lived_dragon_clan],
                    cardImageName: "B08-039.png")
 
+let b09_076 = Card(series: "B09-076SR",
+                   name: "Regal-Fanged Successor, Skrimir",
+                   rarity: "Secret Rare",
+                   insignia: medallion,
+                   attack: 80,
+                   support: 10,
+                   illustrator: "Senri Kita",
+                   supportingSkill: none,
+                   skills: [regalia, crimson_mane, showdown_roar],
+                   cardImageName: "B09-076.png")
+
 let b09_085 = Card(series: "B09-085SR",
                    name: "King of Gallia, Caineghis",
                    rarity: "Secret Rare",
