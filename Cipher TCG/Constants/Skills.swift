@@ -1127,3 +1127,19 @@ let showdown_roar = Skill(name: "Showdown Roar",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let oath_sworn_audhulma = Skill(name: "Oath-Sworn Audhulma",
+                        description: "[ Flip 1 Bond ] When this unit's attack destroys an enemy, you may pay the cost and if you do: Choose 1 'Joshua' from your Retreat Area, and add it to your hand.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let lets_have_us_a_little_wager = Skill(name: "Let's have us a little wager",
+                        description: "Place a card from your hand on top of your deck. Your opponent declares a guess as to whether or not that card's unit name is 'Joshua'. Reveal that card, and if the opponent's guess is wrong, destroy your opponent's Main Character.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

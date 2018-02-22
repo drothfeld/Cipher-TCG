@@ -767,6 +767,17 @@ let b11_004 = Card(series: "B11-004SR",
                    skills: [two_heroes_ephraim, cleaving_justice, legendary_siegmund],
                    cardImageName: "B11-004.png")
 
+let b11_020 = Card(series: "B11-020SR",
+                   name: "Tempest King, Joshua",
+                   rarity: "Secret Rare",
+                   insignia: divine_weapons,
+                   attack: 70,
+                   support: 10,
+                   illustrator: "nNekoRa",
+                   supportingSkill: none,
+                   skills: [oath_sworn_audhulma, lets_have_us_a_little_wager],
+                   cardImageName: "B11-020.png")
+
 let b11_073 = Card(series: "B11-0073HN",
                    name: "Flickering Memory of Love, Rinea",
                    rarity: "High Normal",

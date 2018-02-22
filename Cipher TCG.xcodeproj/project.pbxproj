@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0329590203F2CDC00BB2FE4 /* B11-020.png in Resources */ = {isa = PBXBuildFile; fileRef = B032958F203F2CDB00BB2FE4 /* B11-020.png */; };
 		B03D5775201105A9007A3E97 /* CardLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03D5774201105A9007A3E97 /* CardLists.swift */; };
 		B03D57882012C570007A3E97 /* card_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = B03D57872012C56F007A3E97 /* card_placeholder.png */; };
 		B03D57AC2012CCB7007A3E97 /* B03-072.png in Resources */ = {isa = PBXBuildFile; fileRef = B03D57A32012CCB7007A3E97 /* B03-072.png */; };
@@ -122,6 +123,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B032958F203F2CDB00BB2FE4 /* B11-020.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B11-020.png"; sourceTree = "<group>"; };
 		B03D5774201105A9007A3E97 /* CardLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardLists.swift; sourceTree = "<group>"; };
 		B03D57872012C56F007A3E97 /* card_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_placeholder.png; sourceTree = "<group>"; };
 		B03D57A32012CCB7007A3E97 /* B03-072.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B03-072.png"; sourceTree = "<group>"; };
@@ -556,6 +558,7 @@
 			children = (
 				B0E42252201C46DD00CA879C /* B11-001.png */,
 				B0E42251201C46DD00CA879C /* B11-004.png */,
+				B032958F203F2CDB00BB2FE4 /* B11-020.png */,
 				B048FE3B2020DD13007F1525 /* B11-073.png */,
 			);
 			path = B11;
@@ -627,6 +630,7 @@
 				B0E42246201A820600CA879C /* B02-030.png in Resources */,
 				B03D57B22012CCB7007A3E97 /* B03-051.png in Resources */,
 				B03D57B12012CCB7007A3E97 /* B03-078.png in Resources */,
+				B0329590203F2CDC00BB2FE4 /* B11-020.png in Resources */,
 				B0E4223F20191D7C00CA879C /* .gitignore in Resources */,
 				B0E42259201CEB9C00CA879C /* B08-001.png in Resources */,
 				B0E42253201C46DD00CA879C /* B11-004.png in Resources */,
