@@ -778,6 +778,17 @@ let b11_020 = Card(series: "B11-020SR",
                    skills: [oath_sworn_audhulma, lets_have_us_a_little_wager],
                    cardImageName: "B11-020.png")
 
+let b11_041 = Card(series: "B11-041R",
+                   name: "Great Dragon, Myrrh",
+                   rarity: "Rare",
+                   insignia: divine_weapons,
+                   attack: 50,
+                   support: 20,
+                   illustrator: "Fumi",
+                   supportingSkill: none,
+                   skills: [eternally_young_savior, ancient_dragonkin],
+                   cardImageName: "B11-041.png")
+
 let b11_073 = Card(series: "B11-0073HN",
                    name: "Flickering Memory of Love, Rinea",
                    rarity: "High Normal",

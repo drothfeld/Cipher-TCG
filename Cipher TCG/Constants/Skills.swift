@@ -1143,3 +1143,19 @@ let lets_have_us_a_little_wager = Skill(name: "Let's have us a little wager",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let eternally_young_savior = Skill(name: "Eternally Young Savior",
+                        description: "Choose 1 of your bond cards, and add it to your hand.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let ancient_dragonkin = Skill(name: "Ancient Dragonkin",
+                        description: "If you have at least 6 bonds, this unit gains +30 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

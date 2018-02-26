@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B004B3172044B849001BD07D /* B11-041.png in Resources */ = {isa = PBXBuildFile; fileRef = B004B3162044B849001BD07D /* B11-041.png */; };
 		B0329590203F2CDC00BB2FE4 /* B11-020.png in Resources */ = {isa = PBXBuildFile; fileRef = B032958F203F2CDB00BB2FE4 /* B11-020.png */; };
 		B03D5775201105A9007A3E97 /* CardLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03D5774201105A9007A3E97 /* CardLists.swift */; };
 		B03D57882012C570007A3E97 /* card_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = B03D57872012C56F007A3E97 /* card_placeholder.png */; };
@@ -123,6 +124,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B004B3162044B849001BD07D /* B11-041.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B11-041.png"; sourceTree = "<group>"; };
 		B032958F203F2CDB00BB2FE4 /* B11-020.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B11-020.png"; sourceTree = "<group>"; };
 		B03D5774201105A9007A3E97 /* CardLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardLists.swift; sourceTree = "<group>"; };
 		B03D57872012C56F007A3E97 /* card_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_placeholder.png; sourceTree = "<group>"; };
@@ -559,6 +561,7 @@
 				B0E42252201C46DD00CA879C /* B11-001.png */,
 				B0E42251201C46DD00CA879C /* B11-004.png */,
 				B032958F203F2CDB00BB2FE4 /* B11-020.png */,
+				B004B3162044B849001BD07D /* B11-041.png */,
 				B048FE3B2020DD13007F1525 /* B11-073.png */,
 			);
 			path = B11;
@@ -659,6 +662,7 @@
 				B03D57F72012CD14007A3E97 /* B10-060.png in Resources */,
 				B03D57AF2012CCB7007A3E97 /* B03-052.png in Resources */,
 				B048FE30201E3FDE007F1525 /* B03-047.png in Resources */,
+				B004B3172044B849001BD07D /* B11-041.png in Resources */,
 				B03D57882012C570007A3E97 /* card_placeholder.png in Resources */,
 				B08A6B2A2017C06D00603113 /* B01-046.png in Resources */,
 				B0B7E3F120150EAC00331FC3 /* 60px-AtkDef.png in Resources */,
