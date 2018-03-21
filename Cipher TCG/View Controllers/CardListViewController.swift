@@ -121,6 +121,11 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         HeaderView.dropShadow()
     }
     
+    // Hide keyboard activated from search bar
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        self.CardListSearchBar.endEditing(true)
+    }
+    
     // Hiding Status Bar
     override var prefersStatusBarHidden: Bool {
         return true
