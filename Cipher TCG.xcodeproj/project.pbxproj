@@ -84,6 +84,8 @@
 		B054BBE5200EA4DA004159A6 /* SupportingSkills.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBE4200EA4DA004159A6 /* SupportingSkills.swift */; };
 		B054BBE7200EA5E0004159A6 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBE6200EA5E0004159A6 /* Card.swift */; };
 		B054BBE9200EAC3C004159A6 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBE8200EAC3C004159A6 /* Cards.swift */; };
+		B0810B1020C839BE0003EC6C /* B12-002.png in Resources */ = {isa = PBXBuildFile; fileRef = B0810B0E20C839BE0003EC6C /* B12-002.png */; };
+		B0810B1120C839BE0003EC6C /* B12-001.png in Resources */ = {isa = PBXBuildFile; fileRef = B0810B0F20C839BE0003EC6C /* B12-001.png */; };
 		B08A6B1C2016532700603113 /* UIViewDropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08A6B1B2016532700603113 /* UIViewDropShadow.swift */; };
 		B08A6B1F201661C300603113 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08A6B1E201661C300603113 /* MenuViewController.swift */; };
 		B08A6B242017A43500603113 /* B01-078.png in Resources */ = {isa = PBXBuildFile; fileRef = B08A6B232017A43500603113 /* B01-078.png */; };
@@ -203,6 +205,8 @@
 		B054BBE4200EA4DA004159A6 /* SupportingSkills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportingSkills.swift; sourceTree = "<group>"; };
 		B054BBE6200EA5E0004159A6 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		B054BBE8200EAC3C004159A6 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		B0810B0E20C839BE0003EC6C /* B12-002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B12-002.png"; sourceTree = "<group>"; };
+		B0810B0F20C839BE0003EC6C /* B12-001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B12-001.png"; sourceTree = "<group>"; };
 		B08A6B1B2016532700603113 /* UIViewDropShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewDropShadow.swift; sourceTree = "<group>"; };
 		B08A6B1E201661C300603113 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		B08A6B232017A43500603113 /* B01-078.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B01-078.png"; sourceTree = "<group>"; };
@@ -477,8 +481,18 @@
 				B048FE36201F8BAF007F1525 /* B09 */,
 				B03D57E22012CD14007A3E97 /* B10 */,
 				B0E42250201C46CB00CA879C /* B11 */,
+				B0810B0D20C839920003EC6C /* B12 */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		B0810B0D20C839920003EC6C /* B12 */ = {
+			isa = PBXGroup;
+			children = (
+				B0810B0F20C839BE0003EC6C /* B12-001.png */,
+				B0810B0E20C839BE0003EC6C /* B12-002.png */,
+			);
+			path = B12;
 			sourceTree = "<group>";
 		};
 		B08A6B1D2016532C00603113 /* Extensions */ = {
@@ -627,6 +641,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B03D57DC2012CCEF007A3E97 /* 30px-Blue.png in Resources */,
+				B0810B1120C839BE0003EC6C /* B12-001.png in Resources */,
 				B048FE3C2020DD13007F1525 /* B11-073.png in Resources */,
 				B03D57FC2012CD14007A3E97 /* B10-052.png in Resources */,
 				B048FE35201F8BA9007F1525 /* B05-082.png in Resources */,
@@ -686,6 +701,7 @@
 				B08A6B322017E55500603113 /* B04-018.png in Resources */,
 				B03D57FD2012CD14007A3E97 /* B10-081.png in Resources */,
 				B03D57AD2012CCB7007A3E97 /* B03-067.png in Resources */,
+				B0810B1020C839BE0003EC6C /* B12-002.png in Resources */,
 				B08A6B242017A43500603113 /* B01-078.png in Resources */,
 				B03D57F92012CD14007A3E97 /* B10-086.png in Resources */,
 				B03D57BE2012CCDB007A3E97 /* B06-054.png in Resources */,

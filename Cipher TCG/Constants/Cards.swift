@@ -800,3 +800,25 @@ let b11_073 = Card(series: "B11-0073HN",
                    skills: [inferno_of_love, dance_in_purgatory],
                    cardImageName: "B11-073.png")
 
+let b12_001 = Card(series: "B12-001SR",
+                   name: "Radiant Vanguard, Ike",
+                   rarity: "Secret Rare",
+                   insignia: medallion,
+                   attack: 0,
+                   support: 20,
+                   illustrator: "Senri Kita",
+                   supportingSkill: none,
+                   skills: [legendary_swordplay, ragnells_aura, ceaseless_challenger],
+                   cardImageName: "B12-001.png")
+
+let b12_002 = Card(series: "B12-002SR",
+                   name: "Nightmarish Rampaging Hero, Ike",
+                   rarity: "Secret Rare",
+                   insignia: medallion,
+                   attack: 100,
+                   support: 0,
+                   illustrator: "Senri Kita",
+                   supportingSkill: none,
+                   skills: [forbidden_medallion, raging_power, rampage],
+                   cardImageName: "B12-002.png")
+

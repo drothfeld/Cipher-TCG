@@ -1159,3 +1159,51 @@ let ancient_dragonkin = Skill(name: "Ancient Dragonkin",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let legendary_swordplay = Skill(name: "Legendary Swordplay",
+                        description: "This unit's attack is calculated as the total number of cards stacked with this unit x 10.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let ragnells_aura = Skill(name: "Ragnell's Aura",
+                        description: "This unit gains range 1-2. This skill only comes into effect if this unit is in the Front Line.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let ceaseless_challenger = Skill(name: "Ceaseless Challenger",
+                        description: "Each time this unit's attack destroys an enemy, untap this unit.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let forbidden_medallion = Skill(name: "Forbidden Medallion",
+                        description: "When this card is placed in your support area, stack this support card on top of an allied 'Ike' as a metamorphosis.(Metamorphoses do not count as a level-up or class change.)",
+                        colorType: UIColor.purple,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let raging_power = Skill(name: "Raging Power",
+                        description: "When this unit's attack destroys an enemy, choose 1 non-lord enemy for each card stacked with this unit, and destroy them.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let rampage = Skill(name: "Rampage",
+                        description: "At the end of your turn, choose 1 ally for each card stacked with this unit, and destroy them.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
