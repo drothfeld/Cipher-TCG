@@ -123,6 +123,7 @@
 		B0E42258201CEB9C00CA879C /* B08-010.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E42255201CEB9B00CA879C /* B08-010.png */; };
 		B0E42259201CEB9C00CA879C /* B08-001.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E42256201CEB9B00CA879C /* B08-001.png */; };
 		B0E4225A201CEB9C00CA879C /* B08-002.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E42257201CEB9B00CA879C /* B08-002.png */; };
+		B0FCC4FF20C8AF6700B33F0C /* B10-095.png in Resources */ = {isa = PBXBuildFile; fileRef = B0FCC4FE20C8AF6700B33F0C /* B10-095.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -244,6 +245,7 @@
 		B0E42255201CEB9B00CA879C /* B08-010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B08-010.png"; sourceTree = "<group>"; };
 		B0E42256201CEB9B00CA879C /* B08-001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B08-001.png"; sourceTree = "<group>"; };
 		B0E42257201CEB9B00CA879C /* B08-002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B08-002.png"; sourceTree = "<group>"; };
+		B0FCC4FE20C8AF6700B33F0C /* B10-095.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B10-095.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -356,6 +358,7 @@
 				B03D57F02012CD14007A3E97 /* B10-055.png */,
 				B03D57F12012CD14007A3E97 /* B10-054.png */,
 				B03D57F22012CD14007A3E97 /* B10-068.png */,
+				B0FCC4FE20C8AF6700B33F0C /* B10-095.png */,
 				B048FE3D2020DD1F007F1525 /* B10-097.png */,
 			);
 			path = B10;
@@ -672,6 +675,7 @@
 				B0A034C3203258B1000FFCA4 /* B09-076.png in Resources */,
 				B048FE2F201E3FDE007F1525 /* B03-044.png in Resources */,
 				B03D57CC2012CCE0007A3E97 /* B07-068.png in Resources */,
+				B0FCC4FF20C8AF6700B33F0C /* B10-095.png in Resources */,
 				B03D57AC2012CCB7007A3E97 /* B03-072.png in Resources */,
 				B03D57E12012CCEF007A3E97 /* 30px-Purple.png in Resources */,
 				B03D57F72012CD14007A3E97 /* B10-060.png in Resources */,

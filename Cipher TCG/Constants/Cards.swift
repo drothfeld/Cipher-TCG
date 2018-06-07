@@ -734,6 +734,17 @@ let b10_086 = Card(series: "B10-086HN",
                    skills: [corrupted_paradise, curse_twisted_dream],
                    cardImageName: "B10-086.png")
 
+let b10_095 = Card(series: "B10-095R",
+                   name: "Dark-Garbed Mage Knight, Bruno",
+                   rarity: "Rare",
+                   insignia: colorless,
+                   attack: 50,
+                   support: 20,
+                   illustrator: "Setsu",
+                   supportingSkill: none,
+                   skills: [valaskjalf, impregnable_force],
+                   cardImageName: "B10-095.png")
+
 let b10_097 = Card(series: "B10-097SR",
                    name: "Detached Princess, Veronica",
                    rarity: "Secret Rare",

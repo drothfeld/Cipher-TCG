@@ -1207,3 +1207,19 @@ let rampage = Skill(name: "Rampage",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let valaskjalf = Skill(name: "Valaskjalf",
+                       description: "[ Flip 2 Bonds ] Until the end of your opponent's next turn, this unit gains +20 attack.",
+                       colorType: UIColor.red,
+                       flippedBonds: 2,
+                       flipOrb: false,
+                       tapUnit: false,
+                       CCS: false)
+
+let impregnable_force = Skill(name: "Impregnable Force",
+                       description: "Other allies in the same area as this unit cannot be moved by enemy skills or by your opponent's support skills.",
+                       colorType: UIColor.green,
+                       flippedBonds: 0,
+                       flipOrb: false,
+                       tapUnit: false,
+                       CCS: false)
