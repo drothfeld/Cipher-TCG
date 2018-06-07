@@ -1223,3 +1223,115 @@ let impregnable_force = Skill(name: "Impregnable Force",
                        flipOrb: false,
                        tapUnit: false,
                        CCS: false)
+
+let i_am_inexorable = Skill(name: "I am inexorable!",
+                        description: "If your opponent's Main Character is in the Front Line, this unit can only attack your opponent's lord.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let do_not_interfere = Skill(name: "Do not interfere!",
+                        description: "Other allies are unable to attack your opponent's Main Character.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let devastation = Skill(name: "Devastation",
+                        description: "If this unit in the Front Line is in combat with an enemy in the Front Line, this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let conquest = Skill(name: "Conquest",
+                        description: "If you have 6 or more bond cards, this cards's class change cost becomes 6.",
+                        colorType: UIColor.purple,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let regnant = Skill(name: "Regnant",
+                        description: "When this unit changes class, if 'Conquest' is in effect, until this unit is removed from the battlefield, your opponent cannot deploy cards into their Back Line.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let manipulative_tactics = Skill(name: "Manipulative Tactics",
+                        description: "If you have an allied 'Walhart', choose up to two enemies in the Back Line, and move them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let do_not_interfere_2 = Skill(name: "Do not interfere!",
+                        description: "Your opponent cannot deploy cards with a deployment cost of 1 into the Front Line.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let nowis_treasure = Skill(name: "Nowi's treasure!",
+                        description: "When this unit's attack ends, if it is the first attack to occur in this turn, choose 1 of your bond cards, and add it to your hand.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let longevous_dragonkin = Skill(name: "Longevous Dragonkin",
+                        description: "If you have 7 or more bond cards, this unit gains +30 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let ive_got_a_trick_up_my_sleeve = Skill(name: "I've got a trick up my sleeve!",
+                        description: "[ Flip 1 Bond ] Choose 1 of your orbs and destroy it. If you do, choose 1 card with the same name as your Main Character from your Retreat Area, and place it in your Orb Area.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let royal_blood = Skill(name: "Royal Blood",
+                        description: "When another ally Class Changes, until the end of the turn, this unit gains +30 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let exalted_eyed_princess = Skill(name: "Exalted-Eyed Princess",
+                        description: "[Flip 1 Blue bond card face-down] For each ally who has changed class, choose up to 1 enemy in the Back Line, and move them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let immortal_falchion = Skill(name: "Immortal Falchion",
+                        description: "If this unit is attacking a Dragon, this unit gains +30 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let army_of_justice = Skill(name: "Army of Justice",
+                        description: "[ Flip 2 Bonds ] When another ally is deployed, you may pay the cost and if you do: Choose 1 non-'Chrom' Blue card with a deployment cost of 1 from your Retreat Area, and add it to your hand.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
