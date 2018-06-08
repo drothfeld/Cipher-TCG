@@ -833,6 +833,17 @@ let b12_002 = Card(series: "B12-002SR",
                    skills: [forbidden_medallion, raging_power, rampage],
                    cardImageName: "B12-002.png")
 
+let b12_037 = Card(series: "B12-037SR",
+                   name: "Fearsome Blade General, Black Knight",
+                   rarity: "Secret Rare",
+                   insignia: medallion,
+                   attack: 80,
+                   support: 0,
+                   illustrator: "Daisuke Izuka",
+                   supportingSkill: none,
+                   skills: [miasma_of_alondite, end_heralding_holy_sword],
+                   cardImageName: "B12-037.png")
+
 let b12_051 = Card(series: "B12-051R",
                    name: "Awakened Justice, Chrom",
                    rarity: "Rare",

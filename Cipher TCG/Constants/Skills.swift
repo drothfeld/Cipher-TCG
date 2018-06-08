@@ -1335,3 +1335,19 @@ let army_of_justice = Skill(name: "Army of Justice",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let miasma_of_alondite = Skill(name: "Miasma of Alondite",
+                        description: "This unit gains range 1-2. This skill is only in effect if this unit is in the Front Line.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let end_heralding_holy_sword = Skill(name: "End-Heralding Holy Sword",
+                        description: "[ Flip 2 Bonds ] When this unit attacks your opponent's lord, you may pay the cost and if you do: Destroy all non-lord enemies. Until the end of this combat, this unit gains +80 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
