@@ -1351,3 +1351,35 @@ let end_heralding_holy_sword = Skill(name: "End-Heralding Holy Sword",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let furious_point = Skill(name: "Furious Point",
+                        description: "[ Flip 1 Bond ] Stack a 'Nephenee' card from your Retreat Area under this unit to growth them] This turn, this unit's attack is doubled (The unit is treated as if it was Leveled Up. CCS.png effects can be used if that unit has any CCS.png effects).",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: true)
+
+let javelin = Skill(name: "Javelin",
+                        description: "[ Flip 1 Bond ] This turn, this unit's range becomes 1-2.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let impaling_princess = Skill(name: "Impaling Princess",
+                        description: "During your turn, this unit gains +10 attack for each card stacked under this unit.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let tempered_wrath = Skill(name: "Tempered Wrath",
+                        description: "When this unit performs a Critical Hit, you may select a “Nephenee” card from your Retreat Area and place it under this unit to growth them (The unit is treated as if it was Leveled Up. CCS.png effects can be used if that unit has any CCS.png effects).",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

@@ -129,6 +129,17 @@ let b02_060 = Card(series: "B02-060SR",
                    skills: [brynhildr, soulcrushing_darkness],
                    cardImageName: "B02-060.png")
 
+let b03_032 = Card(series: "B03-032R",
+                   name: "Swift Lance of Liberation, Nephenee",
+                   rarity: "Rare",
+                   insignia: medallion,
+                   attack: 70,
+                   support: 10,
+                   illustrator: "Raita Kazama",
+                   supportingSkill: none,
+                   skills: [impaling_princess, tempered_wrath],
+                   cardImageName: "B03-032.png")
+
 let b03_043 = Card(series: "B03-043R",
                    name: "King of Phoenicis, Tibarn",
                    rarity: "Rare",
@@ -326,6 +337,17 @@ let b05_051 = Card(series: "B05-051SR",
                    supportingSkill: none,
                    skills: [shine, priestess_of_dawn],
                    cardImageName: "B05-051.png")
+
+let b05_077 = Card(series: "B05-077R",
+                   name: "Patriotic War Princess, Nephenee",
+                   rarity: "Rare",
+                   insignia: medallion,
+                   attack: 60,
+                   support: 10,
+                   illustrator: "Daigoman",
+                   supportingSkill: none,
+                   skills: [furious_point, javelin],
+                   cardImageName: "B05-077.png")
 
 let b05_082 = Card(series: "B05-082SR",
                    name: "Lancer General, Geoffrey",
