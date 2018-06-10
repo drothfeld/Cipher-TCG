@@ -1383,3 +1383,43 @@ let tempered_wrath = Skill(name: "Tempered Wrath",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let godly_wind = Skill(name: "Godly Wind",
+                        description: "[Flip one of your Orbs face-up] This turn, all your allies can attack enemy units regardless of your unit's ranges.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: true,
+                        tapUnit: false,
+                        CCS: false)
+
+let stage_for_a_singular_duel = Skill(name: "Stage for a Singular Duel",
+                        description: "If you have a face-up Orb, both this unit and your opponent's Main Character gain +30 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let dragons_pulse = Skill(name: "Dragon's Pulse",
+                        description: "This card's promotion cost is reduced by 1 for each of your face-up Orbs while this card is in your hand. The promotion cost cannot be reduced to 0.",
+                        colorType: UIColor.purple,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let unrestrained_rule = Skill(name: "Unrestrained Rule",
+                        description: "[ Flip 1 Bond ] When this unit's attack destroys an enemy, you may pay the cost, and if you do: Untap this unit and this turn, this unit loses -10 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let disjointed_fate = Skill(name: "Disjointed Fate",
+                        description: "When you Class Change with this card, this turn, this unit's range becomes 1-2 and this unit's attacks cannot be evaded except by the Main Character.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

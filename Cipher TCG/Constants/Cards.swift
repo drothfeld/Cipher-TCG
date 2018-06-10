@@ -118,6 +118,17 @@ let b02_051 = Card(series: "B02-051SR",
                    skills: [blood_stained_dark_sword, march_of_darkness],
                    cardImageName: "B02-051.png")
 
+let b02_056 = Card(series: "B02-056SR",
+                   name: "Pitch Dark Paladin, Xander",
+                   rarity: "Secret Rare",
+                   insignia: nohr,
+                   attack: 70,
+                   support: 10,
+                   illustrator: "Rika Suzuki",
+                   supportingSkill: none,
+                   skills: [unrestrained_rule, disjointed_fate],
+                   cardImageName: "B02-056.png")
+
 let b02_060 = Card(series: "B02-060SR",
                    name: "Prince of Darkness, Leo",
                    rarity: "Secret Rare",
@@ -370,6 +381,17 @@ let b05_089 = Card(series: "B05-089SR",
                    supportingSkill: none,
                    skills: [aether, memories_of_war],
                    cardImageName: "B05-089.png")
+
+let b06_051 = Card(series: "B06-051SR",
+                   name: "Unifier of the Kingdom of Nohr, Xander",
+                   rarity: "Secret Rare",
+                   insignia: nohr,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "Rika Suzuki",
+                   supportingSkill: none,
+                   skills: [godly_wind, stage_for_a_singular_duel, dragons_pulse],
+                   cardImageName: "B06-051.png")
 
 let b06_054 = Card(series: "B06-054SR",
                    name: "Beautiful Obsidian Princess, Camilla",
