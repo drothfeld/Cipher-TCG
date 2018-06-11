@@ -1423,3 +1423,76 @@ let disjointed_fate = Skill(name: "Disjointed Fate",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let here_i_go_2 = Skill(name: "Here I Go!",
+                        description: "If your Main Character has no insignia, you may make this unit your Main Character. If you do, return the ally that was previously your Main Character back to your hand.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let radiant_facinna = Skill(name: "Radiant Facinna",
+                        description: "When you deploy this unit, you may destroy an enemy with a deployment cost of 2 or less besides the Main Character.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let the_light_of_hope = Skill(name: "The Light of Hope",
+                        description: "[ Flip 1 Bond ] When an ally's skill destroys an enemy, you may pay the cost and if you do: Draw a card.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let tikis_turn = Skill(name: "Tiki's turn!",
+                        description: "When this unit attacks, if it is the first time that this unit has attacked in this turn, this unit gains +30 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let dragons_growing_power = Skill(name: "Dragon's Growing Power",
+                        description: "When this unit's attack destroys an enemy, reveal the top card of your deck, then choose whether or not to place that card in the Bond Area.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let divine_dragon_princess = Skill(name: "Divine Dragon Princess",
+                        description: "If you have 7 or more bond cards, all Dragon allies gain +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let right_leave_it_to_me = Skill(name: "Right, leave it to me!",
+                        description: "If your Main Character has no insignia, you may make this unit your Main Character. If you do, return the ally that was previously your Main Character back to your hand.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let warriors_enliron = Skill(name: "Warriors' Enliron",
+                        description: "[ Flip 2 Bonds ] When this unit is deployed, you may pay the cost and if you do: Destroy an enemy besides the Main Character.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let youre_firing_me_up = Skill(name: "You're firing me up!",
+                        description: "When an ally's skill destroys an enemy, until the end of the turn, this unit gains +20 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+

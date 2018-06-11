@@ -844,7 +844,7 @@ let b11_041 = Card(series: "B11-041R",
                    skills: [eternally_young_savior, ancient_dragonkin],
                    cardImageName: "B11-041.png")
 
-let b11_073 = Card(series: "B11-0073HN",
+let b11_073 = Card(series: "B11-073HN",
                    name: "Flickering Memory of Love, Rinea",
                    rarity: "High Normal",
                    insignia: blade_of_light,
@@ -854,6 +854,39 @@ let b11_073 = Card(series: "B11-0073HN",
                    supportingSkill: none,
                    skills: [inferno_of_love, dance_in_purgatory],
                    cardImageName: "B11-073.png")
+
+let b11_076 = Card(series: "B11-076SR",
+                   name: "Shining Sun Prince, Rowan",
+                   rarity: "Secret Rare",
+                   insignia: colorless,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "Azusa",
+                   supportingSkill: none,
+                   skills: [right_leave_it_to_me, warriors_enliron, youre_firing_me_up],
+                   cardImageName: "B11-076.png")
+
+let b11_079 = Card(series: "B11-079SR",
+                   name: "Beautiful Sunflower Princess, Lianna",
+                   rarity: "Secret Rare",
+                   insignia: colorless,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "Fuzichoco",
+                   supportingSkill: none,
+                   skills: [here_i_go_2, radiant_facinna, the_light_of_hope],
+                   cardImageName: "B11-079.png")
+
+let b11_093 = Card(series: "B11-093SR",
+                   name: "Awoken Daughter of the Dragon Ruler, Tiki",
+                   rarity: "Secret Rare",
+                   insignia: colorless,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "Kawasumi",
+                   supportingSkill: none,
+                   skills: [tikis_turn, dragons_growing_power, divine_dragon_princess],
+                   cardImageName: "B11-093.png")
 
 let b12_001 = Card(series: "B12-001SR",
                    name: "Radiant Vanguard, Ike",
