@@ -1496,3 +1496,67 @@ let youre_firing_me_up = Skill(name: "You're firing me up!",
                         tapUnit: false,
                         CCS: false)
 
+let plains_galloper = Skill(name: "Plains Galloper",
+                        description: "Move this card. This skill cannot be used if this unit is tapped.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let canto = Skill(name: "Canto",
+                        description: "After this card attacks, you may move it.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let darkness_illuminating_warrior = Skill(name: "Darkness-Illuminating Warrior",
+                        description: "[ Flip 1 Bond ] When an ally performs a critical hit, you may pay the cost, and if you do: Place a card from your retreat with the same name as that unit in your Bond Area.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let sacred_blade_tyrfing = Skill(name: "Sacred Blade: Tyrfing",
+                        description: "While you have 8 or more cards in your Bond Area, this unit gains +10 attack and the number of orbs this unit’s attacks would destroy becomes 2.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let taboo_surpassing_love = Skill(name: "Taboo Surpassing Love",
+                        description: "At the end of your turn, you may flip a face-down card in your Bond Area face-up.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let seal_of_naga = Skill(name: "Seal of Naga",
+                        description: "During either player's Beginning Phase, all non-Main Character Dragon Stone units cannot be untapped.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let aura_of_nova = Skill(name: "Aura of Nova",
+                        description: "At the start of your turn, if you have a 'Quan' card in your Bond Area, you may move a unit in the Rear Guard, besides the Main Character.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let thracian_besting_lance = Skill(name: "Thracian-besting Lance",
+                        description: "[Flip 1 Lance bond card in your possession face-down] Choose up to 1 Dragon unit your opponent controls that is not the Main Character, and destroy them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+

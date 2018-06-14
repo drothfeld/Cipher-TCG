@@ -382,6 +382,50 @@ let b05_089 = Card(series: "B05-089SR",
                    skills: [aether, memories_of_war],
                    cardImageName: "B05-089.png")
 
+let b06_001 = Card(series: "B06-001SR",
+                   name: "The Warrior of Light's Heir, Sigurd",
+                   rarity: "Secret Rare",
+                   insignia: holy_war_flag,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "Rika Suzuki",
+                   supportingSkill: none,
+                   skills: [darkness_illuminating_warrior, sacred_blade_tyrfing],
+                   cardImageName: "B06-001.png")
+
+let b06_004 = Card(series: "B06-004SR",
+                   name: "Maiden of Destiny, Deirdre",
+                   rarity: "Secret Rare",
+                   insignia: holy_war_flag,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "Fuzichoco",
+                   supportingSkill: none,
+                   skills: [taboo_surpassing_love, seal_of_naga],
+                   cardImageName: "B06-004.png")
+
+let b06_006 = Card(series: "B06-006SR",
+                   name: "Aura-Enshrouded Lancer, Quan",
+                   rarity: "Secret Rare",
+                   insignia: holy_war_flag,
+                   attack: 70,
+                   support: 10,
+                   illustrator: "Sachiko Wada",
+                   supportingSkill: none,
+                   skills: [aura_of_nova, thracian_besting_lance],
+                   cardImageName: "B06-006.png")
+
+let b06_018 = Card(series: "B06-018HN",
+                   name: "Shining Flame of Kindness, Azel",
+                   rarity: "High Normal",
+                   insignia: holy_war_flag,
+                   attack: 50,
+                   support: 20,
+                   illustrator: "Unknown",
+                   supportingSkill: none,
+                   skills: [plains_galloper, canto],
+                   cardImageName: "B06-018.png")
+
 let b06_051 = Card(series: "B06-051SR",
                    name: "Unifier of the Kingdom of Nohr, Xander",
                    rarity: "Secret Rare",
