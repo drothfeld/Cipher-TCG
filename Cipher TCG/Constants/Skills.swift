@@ -1560,3 +1560,75 @@ let thracian_besting_lance = Skill(name: "Thracian-besting Lance",
                         tapUnit: false,
                         CCS: false)
 
+let blessing = Skill(name: "Blessing",
+                        description: "[ Flip 1 Bond ] When this unit is untapped, you may pay the cost, and if you do: Choose a card in your Retreat Area except 'Leanne', and add that card to your hand.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let sleeping_beauty = Skill(name: "Sleeping Beauty",
+                        description: "When this unit is deployed, tap this unit.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let song_of_fortunes = Skill(name: "Song of Fortunes",
+                        description: "[ Flip 1 Bond ] Look at the top 3 cards of your Deck. Place any of those cards into your retreat or back onto the top of your deck in any order.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let light_road_to_the_invisible_kingdom = Skill(name: "Light Road to the Invisible Kingdom",
+                        description: "While you have at least one Black card in your Bond Area, this card gains a promotion cost of 2.",
+                        colorType: UIColor.purple,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let grandmaster_plan = Skill(name: "Grandmaster Plan",
+                        description: "When another ally Class Changes, you may choose an enemy and move it.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let all_according_to_plan = Skill(name: "All According to Plan",
+                        description: "[ Flip 3 Bonds ] If you have less orbs than your opponent, add the top card of your deck to your Orb Area. (Class Change Skill: This ability does not take effect unless this unit was Class Changed.)",
+                        colorType: UIColor.red,
+                        flippedBonds: 3,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: true)
+
+let the_verge_of_histroy = Skill(name: "The Verge of History",
+                        description: "Look at your all the cards in your Orb Area.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let strategy_of_hope = Skill(name: "Strategy of Hope",
+                        description: "Destroy an Orb. Then, you may select a card in your Bond Area and place it in your Orb Area.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let invsiible_ties = Skill(name: "Invisible Ties",
+                        description: "[ Flip 1 Bond ] Draw two cards, then discard two cards.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+

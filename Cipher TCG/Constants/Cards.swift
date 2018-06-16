@@ -52,6 +52,17 @@ let b01_054 = Card(series: "B01-054SR",
                    skills: [defiant_of_destiny, parallel_falchion],
                    cardImageName: "B01-054.png")
 
+let b01_057 = Card(series: "B01-057R",
+                   name: "Exalted Strategist, Robin (Female)",
+                   rarity: "Rare",
+                   insignia: mark_of_naga,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "BISAI",
+                   supportingSkill: none,
+                   skills: [grandmaster_plan, all_according_to_plan],
+                   cardImageName: "B01-057.png")
+
 let b01_078 = Card(series: "B01-078R",
                    name: "Wellspring of Youth, Nowi",
                    rarity: "Rare",
@@ -173,6 +184,17 @@ let b03_044 = Card(series: "B03-044R",
                    skills: [vortex, job_well_done],
                    cardImageName: "B03-044.png")
 
+let b03_046 = Card(series: "B03-046R",
+                   name: "Awakened Heron Princess, Leanne",
+                   rarity: "Rare",
+                   insignia: medallion,
+                   attack: 10,
+                   support: 20,
+                   illustrator: "Ayaka Suzuki",
+                   supportingSkill: miracle_emblem,
+                   skills: [blessing, sleeping_beauty],
+                   cardImageName: "B03-046.png")
+
 let b03_047 = Card(series: "B03-047SR",
                    name: "Demon in Blessed Armor, Black Knight",
                    rarity: "Secret Rare",
@@ -205,6 +227,17 @@ let b03_052 = Card(series: "B03-052HN",
                    supportingSkill: heros_emblem,
                    skills: [grim_yato],
                    cardImageName: "B03-052.png")
+
+let b03_053 = Card(series: "B03-053SR",
+                   name: "Diva of Dawn, Azura",
+                   rarity: "Secret Rare",
+                   insignia: hoshido,
+                   attack: 60,
+                   support: 10,
+                   illustrator: "Senri Kita",
+                   supportingSkill: none,
+                   skills: [song_of_fortunes, princess_of_the_nation, light_road_to_the_invisible_kingdom],
+                   cardImageName: "B03-053.png")
 
 let b03_063 = Card(series: "B03-063R",
                    name: "Nightingale Warrior, Shigure",
@@ -590,6 +623,17 @@ let b08_002 = Card(series: "B08-002SR",
                    supportingSkill: none,
                    skills: [awaken_the_dead, cursed_army_of_despair, land_of_the_risen],
                    cardImageName: "B08-002.png")
+
+let b08_006 = Card(series: "B08-006SR",
+                   name: "Legendary Tactician, Robin (Female)",
+                   rarity: "Secret Rare",
+                   insignia: mark_of_naga,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "BISAI",
+                   supportingSkill: none,
+                   skills: [the_verge_of_histroy, strategy_of_hope, invsiible_ties],
+                   cardImageName: "B08-006.png")
 
 let b08_009 = Card(series: "B08-009SR",
                    name: "The Exalt's Guardian Knight, Frederick",

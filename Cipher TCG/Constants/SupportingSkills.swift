@@ -31,3 +31,7 @@ let hope_emblem = SupportingSkill(type: "Hope Emblem",
 let heros_emblem = SupportingSkill(type: "Hero's Emblem",
                                    description: "If the attacking unit is White, until the end of this battle, the number of orbs this unit’s attack would destroy becomes 2.",
                                    iconImage: #imageLiteral(resourceName: "28px-Attack_Support.png"))
+
+let miracle_emblem = SupportingSkill(type: "Miracle Emblem",
+                                   description: "Until the end of this battle, your opponent’s attacking unit cannot perform a Critical Hit.",
+                                   iconImage: #imageLiteral(resourceName: "28px-Defense_Support.png"))
