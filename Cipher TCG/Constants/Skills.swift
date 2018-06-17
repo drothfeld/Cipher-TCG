@@ -1632,3 +1632,75 @@ let invsiible_ties = Skill(name: "Invisible Ties",
                         tapUnit: false,
                         CCS: false)
 
+let maturing_swordsmanship = Skill(name: "Maturing Swordsmanship",
+                        description: "When this unit's attack destroys an enemy, until the end of your opponent's next turn, this unit gains +10 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let warm_singing = Skill(name: "Warm Singing",
+                        description: "[ Flip 1 Bond ] Choose 1 Green ally. Until the end of your opponent's next turn, that ally gains +10 attack, and cannot be destroyed as the cost or effect of a skill.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let spring_breeze_florete = Skill(name: "Spring-Breeze Florete",
+                        description: "If you have 2 or more other allies, this unit gains range 1-2, and you may use 'Warm Singing' without paying the cost.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let defeat_rejecting_heart = Skill(name: "Defeat-Rejecting Heart",
+                        description: "When you play a Green card in your Support Area, you may pay the cost and if you do: Send that supporting card to the Retreat Area. Then, play the top card of your deck in the Support Area.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let heal = Skill(name: "Heal",
+                        description: "[ Tap , Flip 2 Bonds ] Choose a card in your Retreat Area except 'casting character's name' and add that card to your hand.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let tempestuous_edge = Skill(name: "Tempestuous Edge",
+                        description: "When this unit attacks your opponent's lord, choose up to 2 non-lord enemies, and destroy them.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let sinister_impulse = Skill(name: "Sinister Impulse",
+                        description: "At the end of your turn, choose 1 other ally, and destroy this unit and that ally.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let a_happy_rendezvous = Skill(name: "A Happy Rendezvous",
+                        description: "If you have an allied 'Elena', this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let mercenary_leader_to_be = Skill(name: "Mercenary Leader-To-Be",
+                        description: "Treat this card as if its unit name is also 'Greil'.",
+                        colorType: UIColor.purple,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+

@@ -998,6 +998,61 @@ let b12_002 = Card(series: "B12-002SR",
                    skills: [forbidden_medallion, raging_power, rampage],
                    cardImageName: "B12-002.png")
 
+let b12_003 = Card(series: "B12-003N",
+                   name: "Ike: Youth Becoming a Hero",
+                   rarity: "Normal",
+                   insignia: medallion,
+                   attack: 40,
+                   support: 20,
+                   illustrator: "Senri Kita",
+                   supportingSkill: heros_emblem,
+                   skills: [maturing_swordsmanship],
+                   cardImageName: "B12-003.png")
+
+let b12_004 = Card(series: "B12-004SR",
+                   name: "Mist: Ordered Knight of Healing",
+                   rarity: "Secret Rare",
+                   insignia: medallion,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "Fuzichoco",
+                   supportingSkill: none,
+                   skills: [warm_singing, spring_breeze_florete],
+                   cardImageName: "B12-004.png")
+
+let b12_005 = Card(series: "B12-005N",
+                   name: "Mist: Medallion-Bearing Girl",
+                   rarity: "Normal",
+                   insignia: medallion,
+                   attack: 20,
+                   support: 20,
+                   illustrator: "Sachiko Wada",
+                   supportingSkill: miracle_emblem,
+                   skills: [defeat_rejecting_heart, heal],
+                   cardImageName: "B12-005.png")
+
+let b12_006 = Card(series: "B12-006R",
+                   name: "Greil: Unending Night of Grief",
+                   rarity: "Rare",
+                   insignia: medallion,
+                   attack: 80,
+                   support: 0,
+                   illustrator: "Akira Fujikawa",
+                   supportingSkill: none,
+                   skills: [tempestuous_edge, sinister_impulse],
+                   cardImageName: "B12-006.png")
+
+let b12_007 = Card(series: "B12-007N",
+                   name: "Gawain: Sword Knight of Daein",
+                   rarity: "Normal",
+                   insignia: medallion,
+                   attack: 40,
+                   support: 10,
+                   illustrator: "Kita Senri",
+                   supportingSkill: attack_emblem,
+                   skills: [a_happy_rendezvous, mercenary_leader_to_be],
+                   cardImageName: "B12-007.png")
+
 let b12_037 = Card(series: "B12-037SR",
                    name: "Fearsome Blade General, Black Knight",
                    rarity: "Secret Rare",
