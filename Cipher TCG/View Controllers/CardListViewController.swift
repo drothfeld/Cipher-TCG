@@ -14,11 +14,14 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     @IBOutlet weak var HeaderView: UIView!
     @IBOutlet weak var CardListTableView: UITableView!
     @IBOutlet weak var CardListSearchBar: UISearchBar!
+    @IBOutlet weak var CardListViewHeightConstraint: NSLayoutConstraint!
     
     // Defined Values
     var sortedRawCardList: [Card] = []
     var filteredRawCardList: [Card] = []
     var isSearching = false
+    let screenSize: CGRect = UIScreen.main.bounds
+    let storyboardDeviceHeight: CGFloat = 667
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -119,6 +122,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     // Make any Changes to the Interface
     func interfaceSetup() {
         HeaderView.dropShadow()
+        CardListViewHeightConstraint.constant += screenSize.height - storyboardDeviceHeight
     }
     
     // Hide keyboard activated from search bar
