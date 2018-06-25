@@ -534,8 +534,7 @@
         <image name="loading_fetch.gif" width="600" height="400"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="v70-lw-KrB"/>
-        <segue reference="8ih-mp-VFz"/>
+        <segue reference="CJv-bm-6cT"/>
         <segue reference="cac-9f-3tE"/>
     </inferredMetricsTieBreakers>
 </document>

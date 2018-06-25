@@ -509,11 +509,11 @@
 			isa = PBXGroup;
 			children = (
 				B054BBDC200E8A0A004159A6 /* Skills.swift */,
+				B048FE412020E314007F1525 /* SkillLists.swift */,
 				B054BBE0200E9E8A004159A6 /* Insignias.swift */,
 				B054BBE4200EA4DA004159A6 /* SupportingSkills.swift */,
 				B054BBE8200EAC3C004159A6 /* Cards.swift */,
 				B03D5774201105A9007A3E97 /* CardLists.swift */,
-				B048FE412020E314007F1525 /* SkillLists.swift */,
 				B08A6B4A20190E8100603113 /* AnimationList.swift */,
 			);
 			path = Constants;
