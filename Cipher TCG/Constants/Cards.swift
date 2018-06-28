@@ -63,6 +63,17 @@ let b01_057 = Card(series: "B01-057R",
                    skills: [grandmaster_plan, all_according_to_plan],
                    cardImageName: "B01-057.png")
 
+let b01_075 = Card(series: "B01-075SR",
+                   name: "Cordelia: Pegasus Knight Paragon",
+                   rarity: "Secret Rare",
+                   insignia: mark_of_naga,
+                   attack: 50,
+                   support: 30,
+                   illustrator: "YangYang",
+                   supportingSkill: none,
+                   skills: [galeforce, handmade_javelins],
+                   cardImageName: "B01-075.png")
+
 let b01_078 = Card(series: "B01-078R",
                    name: "Wellspring of Youth, Nowi",
                    rarity: "Rare",
@@ -371,6 +382,28 @@ let b04_065 = Card(series: "B04-065SR",
                    skills: [rally_spectrum, two_steps_ahead],
                    cardImageName: "B04-065.png")
 
+let b04_072 = Card(series: "B04-072SR",
+                   name: "Cordelia: Pure Genius",
+                   rarity: "Secret Rare",
+                   insignia: mark_of_naga,
+                   attack: 60,
+                   support: 30,
+                   illustrator: "daigoman",
+                   supportingSkill: none,
+                   skills: [empyrean_goddess, intermezzo],
+                   cardImageName: "B04-072.png")
+
+let b04_092 = Card(series: "B04-092R",
+                   name: "Cynthia: Wings of Justice",
+                   rarity: "Rare",
+                   insignia: mark_of_naga,
+                   attack: 50,
+                   support: 30,
+                   illustrator: "Unknown",
+                   supportingSkill: none,
+                   skills: [your_hero_arrives, now_i_gracefull_depart],
+                   cardImageName: "B04-092.png")
+
 let b05_051 = Card(series: "B05-051SR",
                    name: "Priestess of Hope, Micaiah",
                    rarity: "Secret Rare",
@@ -667,6 +700,28 @@ let b08_039 = Card(series: "B08-039R",
                    supportingSkill: none,
                    skills: [rite_of_awakening, divine_dragons_awakening, long_lived_dragon_clan],
                    cardImageName: "B08-039.png")
+
+let b08_047 = Card(series: "B08-047N",
+                   name: "Risen: Defiled Soldier",
+                   rarity: "Normal",
+                   insignia: mark_of_naga,
+                   attack: 0,
+                   support: 0,
+                   illustrator: "aogachou",
+                   supportingSkill: despair_emblem,
+                   skills: [army_of_risen],
+                   cardImageName: "B08-047.png")
+
+let b08_048 = Card(series: "B08-048SR",
+                   name: "Grima: Baleful Dragon",
+                   rarity: "Secret Rare",
+                   insignia: mark_of_naga,
+                   attack: 60,
+                   support: 0,
+                   illustrator: "cuboon",
+                   supportingSkill: none,
+                   skills: [deitys_vessel, the_grimleal, dragonskin],
+                   cardImageName: "B08-048.png")
 
 let b09_076 = Card(series: "B09-076SR",
                    name: "Regal-Fanged Successor, Skrimir",
@@ -1140,3 +1195,25 @@ let b12_072 = Card(series: "B12-072N",
                    supportingSkill: attack_emblem,
                    skills: [i_am_inexorable, do_not_interfere],
                    cardImageName: "B12-072.png")
+
+let b12_073 = Card(series: "B12-073R",
+                   name: "Naga: Divine Dragon of Salvation",
+                   rarity: "Rare",
+                   insignia: mark_of_naga,
+                   attack: 0,
+                   support: 20,
+                   illustrator: "Aoji",
+                   supportingSkill: none,
+                   skills: [divine_dragons_rite_of_awakening, nagas_power],
+                   cardImageName: "B12-073.png")
+
+let b12_074 = Card(series: "B12-074HN",
+                   name: "Risen Chief: Grotesque Commander",
+                   rarity: "High Normal",
+                   insignia: mark_of_naga,
+                   attack: 0,
+                   support: 0,
+                   illustrator: "cuboon",
+                   supportingSkill: none,
+                   skills: [commander_of_corpses, corpse_calling_corpse, reeking_miasma],
+                   cardImageName: "B12-074.png")

@@ -35,3 +35,7 @@ let heros_emblem = SupportingSkill(type: "Hero's Emblem",
 let miracle_emblem = SupportingSkill(type: "Miracle Emblem",
                                    description: "Until the end of this battle, your opponent’s attacking unit cannot perform a Critical Hit.",
                                    iconImage: #imageLiteral(resourceName: "28px-Defense_Support.png"))
+
+let despair_emblem = SupportingSkill(type: "Despair Emblem",
+                                   description: "Deploy a Risen from your Retreat Area.",
+                                   iconImage: #imageLiteral(resourceName: "28px-Attack_Support.png") )

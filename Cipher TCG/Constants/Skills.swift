@@ -1704,3 +1704,123 @@ let mercenary_leader_to_be = Skill(name: "Mercenary Leader-To-Be",
                         tapUnit: false,
                         CCS: false)
 
+let deitys_vessel = Skill(name: "Deity's Vessel",
+                        description: "If you do not control Grima, you may level up this card onto a Robin (Female) you control.",
+                        colorType: UIColor.purple,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let the_grimleal = Skill(name: "The Grimleal",
+                        description: "Send the top three cards of your deck to the Retreat Area. Then, you may select up to three Risen cards in your Retreat Area, and add them to your hand.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let dragonskin = Skill(name: "Dragonskin",
+                        description: "If the number of allies exceeds the number of enemies, this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let empyrean_goddess = Skill(name: "Empyrean Goddess",
+                        description: "During your turn, while this unit is in the front line, Lance allies in the front line gain +10 attack. CONT During your turn, while this unit is in the back line, Lance allies in the back line gain 1-2 range. (Class Change Skill: This skill is inactive unless this unit was Class Changed.)",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: true)
+
+let intermezzo = Skill(name: "Intermezzo",
+                        description: "At the end of either player's turn, you may move one of your allies.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let galeforce = Skill(name: "Galeforce",
+                        description: "After this unit's attack destroys an enemy, untap this unit.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let handmade_javelins = Skill(name: "Handmade Javelins",
+                        description: "[ Flip 1 Bond ] Until the end of this turn, all Flying allies gain the Lance affinity and their range becomes 1-2. (Class Change Skill: This skill is inactive unless this unit was Class Changed.)",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: true)
+
+let your_hero_arrives = Skill(name: "Your hero arrives!",
+                        description: "When you class change into this unit, you may move this unit, and until the end of this turn, this unit gains +30 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let now_i_gracefull_depart = Skill(name: "Now I gracefully depart!",
+                        description: "After this unit attacks, you may move this unit.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let army_of_risen = Skill(name: "Army of Risen",
+                        description: "This card can be deployed while you already have an ally “Risen”. There can be more than two “Risen” allies. SPEC You may have more than 4 copies of this card in your deck.",
+                        colorType: UIColor.purple,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let commander_of_corpses = Skill(name: "Commander of Corpses",
+                        description: "You may deploy this card even if you already have an allied Risen Chief, and you may have 2 or more allied Risen Chiefs at once.",
+                        colorType: UIColor.purple,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let corpse_calling_corpse = Skill(name: "Corpse-Calling Corpse",
+                        description: "When you deploy this unit, choose up to 2 Risens from your Retreat Area, and deploy them.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let reeking_miasma = Skill(name: "Reeking Miasma",
+                        description: "If you have 3 or more other Monster allies, this unit gains +70 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let divine_dragons_rite_of_awakening = Skill(name: "Divine Dragon's Rite of Awakening",
+                        description: "[ Flip 1 Bond ] Choose 1 other Blue ally. Choose 1 card from your retreat area with the same unit name as that ally and a class change cost, then stack it on top of that ally to Class Change them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let nagas_power = Skill(name: "Naga's Power",
+                        description: "When an other ally Class Changes, until the end of the turn, all allies gain +20 attack. Place this unit face-down in your Bond Area.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
