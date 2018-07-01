@@ -8,7 +8,7 @@ Version 0.2.7
 
 **Features:**
 - View database of Cipher cards (incomplete: 116/X).
-- View database of Cipher card skills (incomplete): 236/X.
+- View database of Cipher card skills (incomplete: 236/X).
 - Extensive filtering search system (incomplete).
 - Build and view pre-made deck lists (incomplete).
 
