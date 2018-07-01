@@ -1824,3 +1824,74 @@ let nagas_power = Skill(name: "Naga's Power",
                         tapUnit: false,
                         CCS: false)
 
+let durandals_true_flames = Skill(name: "Durandal's True Flames",
+                        description: "All other allies in the Front Line gain +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let crimson_sovereign = Skill(name: "Crimson Sovereign",
+                        description: "Choose one enemy whose attack is lower than this unit's, and move them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let staunchflash_sol_katti = Skill(name: "Staunchflash Sol Katti",
+                        description: "This unit's attacks cannot be evaded by your opponent's lord. (Class Change Skill may only be used if this unit has changed class.)",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: true)
+
+let lend_me_your_strength = Skill(name: "Lend me your strength!",
+                        description: "Choose one Purple card from your hand, and deploy it. This skill may only be used if one of the opponent's Orbs has been destroyed in this turn.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let armads_almighty_lightning = Skill(name: "Armads' Almighty Lightning",
+                        description: "[Send 1 Hector from your hand to the Retreat Area] When this unit's attack destroys an enemy, you may pay the cost and if you do: Choose 1 of your opponent's orbs, and destroy it.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let on_the_path_to_victory = Skill(name: "On the Path to Victory",
+                        description: "If this unit is in the Front Line when your turn ends and the number of allies exceeds the number of enemies, you may draw 1 card.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let conquest_in_the_name_of_the_hero_king = Skill(name: "Conquest: In the Name of the Hero-King",
+                        description: "[ Tap This Unit, Tap 5 other allies ] If your opponent has 0 orbs, you win the game.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let summon_heroes = Skill(name: "Summon Heroes",
+                        description: "Choose 1 bond card with a deployment cost of 1, and deploy it.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let summoning_weapon_breidablik = Skill(name: "Summoning Weapon: Breidablik",
+                        description: "Reveal the top card of your deck. You may Flip 2 Bonds. If you do, deploy that card.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
