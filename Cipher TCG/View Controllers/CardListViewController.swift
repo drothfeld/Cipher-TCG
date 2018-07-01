@@ -26,6 +26,11 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     override func viewDidLoad() {
         super.viewDidLoad()
         prepare()
+        
+        // FOR TESTING ONLY
+        // GET TOTAL CARDS COMPLETED
+        // NSLog(String(sortedRawCardList.count)) 116
+        // NSLog(String(rawSkillsList.count)) 236
     }
     
     func prepare() {
