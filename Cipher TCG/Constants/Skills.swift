@@ -1895,3 +1895,107 @@ let summoning_weapon_breidablik = Skill(name: "Summoning Weapon: Breidablik",
                         flipOrb: false,
                         tapUnit: true,
                         CCS: false)
+
+let knowledge_vital_to_a_knight = Skill(name: "Knowledge Vital to a Knight",
+                        description: "Until the end of the turn, all allies in the Front Line gain +10 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let duty_to_defend = Skill(name: "Duty to Defend",
+                        description: "During your opponent's turn, if you have an allied Marth, this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let red_and_green_paladins = Skill(name: "Red and Green Paladins",
+                        description: "When you deploy this unit, if you have an allied “Abel”, draw 1 card.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let bulls_charge = Skill(name: "Bull's Charge",
+                        description: "[Flip a Red bond face-down] Choose 1 enemy in the Front Line, and move them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let my_life_is_my_princes = Skill(name: "My Life is My Prince's",
+                        description: "This unit cannot be destroyed as the cost or effect of a skill.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let guardian_gods_gallant_guise = Skill(name: "Guardian God's Gallant Guise",
+                        description: "During your turn, if a card supporting an ally is Armor, that ally gains +30 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let armor_expertise = Skill(name: "Armor Expertise",
+                        description: "If this unit is being attacked by a non-Tome, this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let patriotic_volunteer = Skill(name: "Patriotic Volunteer",
+                        description: "During your turn, this unit gains +20 attack, and this unit's attacks cannot be evaded by non-lord enemies.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let heh_oops_uhh = Skill(name: "Heh...Oops...uhh...",
+                        description: "When this unit's attack fails to destroy an enemy, destroy this unit.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let blessing_of_gentle_love = Skill(name: "Blessing of Gentle Love",
+                        description: "[Flip 1 of your Red bond cards face-down] Choose 1 non-Lena card with a deployment cost of 1 from your Retreat Area, and add it to your hand.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let purifying_halo = Skill(name: "Purifying Halo",
+                        description: "[Send 1 card from your hand to your Retreat Area] Your opponent must add all cards from in their Retreat Area to their deck. Then, they must shuffle their deck.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let green_and_red_paladins = Skill(name: "Green and Red Paladins",
+                        description: "When you deploy this unit, if you have an allied “Cain”, draw 1 card.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let panthers_formation = Skill(name: "Panther's Formation",
+                        description: "[Flip a Red bond face-down] Choose up to 2 allies, and move them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

@@ -244,5 +244,18 @@ let rawSkillsList: [Skill] = [
     on_the_path_to_victory,
     conquest_in_the_name_of_the_hero_king,
     summon_heroes,
-    summoning_weapon_breidablik
+    summoning_weapon_breidablik,
+    knowledge_vital_to_a_knight,
+    duty_to_defend,
+    red_and_green_paladins,
+    bulls_charge,
+    my_life_is_my_princes,
+    guardian_gods_gallant_guise,
+    armor_expertise,
+    patriotic_volunteer,
+    heh_oops_uhh,
+    blessing_of_gentle_love,
+    purifying_halo,
+    green_and_red_paladins,
+    panthers_formation
 ]

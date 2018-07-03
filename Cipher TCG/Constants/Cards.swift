@@ -1262,6 +1262,72 @@ let b13_051 = Card(series: "B13-051SR",
                    skills: [on_the_path_to_victory, conquest_in_the_name_of_the_hero_king, falchion],
                    cardImageName: "B13-051.png")
 
+let b13_055 = Card(series: "B13-055R",
+                   name: "Abel: Panther of the Adept Lance",
+                   rarity: "Rare",
+                   insignia: blade_of_light,
+                   attack: 70,
+                   support: 10,
+                   illustrator: "Aoji",
+                   supportingSkill: none,
+                   skills: [green_and_red_paladins, panthers_formation, my_life_is_my_princes],
+                   cardImageName: "B13-055.png")
+
+let b13_057 = Card(series: "B13-057HN",
+                   name: "Frey: Death-Defying Paladin",
+                   rarity: "High Normal",
+                   insignia: blade_of_light,
+                   attack: 60,
+                   support: 10,
+                   illustrator: "Nijihayashi",
+                   supportingSkill: none,
+                   skills: [knowledge_vital_to_a_knight, duty_to_defend],
+                   cardImageName: "B13-057.png")
+
+let b13_060 = Card(series: "B13-060R",
+                   name: "Cain: Bull of the War Sword",
+                   rarity: "Rare",
+                   insignia: blade_of_light,
+                   attack: 70,
+                   support: 10,
+                   illustrator: "Karuta Shiki",
+                   supportingSkill: none,
+                   skills: [red_and_green_paladins, bulls_charge, my_life_is_my_princes],
+                   cardImageName: "B13-060.png")
+
+let b13_064 = Card(series: "B13-064R",
+                   name: "Draug: Guardian God of Altea",
+                   rarity: "Rare",
+                   insignia: blade_of_light,
+                   attack: 60,
+                   support: 10,
+                   illustrator: "Homazo",
+                   supportingSkill: none,
+                   skills: [guardian_gods_gallant_guise, armor_expertise],
+                   cardImageName: "B13-064.png")
+
+let b13_066 = Card(series: "B13-066R",
+                   name: "Norne: Crisis-Headlong Bow",
+                   rarity: "Rare",
+                   insignia: blade_of_light,
+                   attack: 50,
+                   support: 20,
+                   illustrator: "Sakura Miwabe",
+                   supportingSkill: none,
+                   skills: [patriotic_volunteer, heh_oops_uhh, wingbane],
+                   cardImageName: "B13-066.png")
+
+let b13_070 = Card(series: "B13-070R",
+                   name: "Lena: Angel of Noble Love",
+                   rarity: "Rare",
+                   insignia: blade_of_light,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "daigoman",
+                   supportingSkill: none,
+                   skills: [blessing_of_gentle_love, purifying_halo],
+                   cardImageName: "B13-070.png")
+
 let b13_088 = Card(series: "B13-088R",
                    name: "Kiran: Otherworldly Great Hero",
                    rarity: "Rare",
