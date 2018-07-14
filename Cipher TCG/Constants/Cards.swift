@@ -954,6 +954,28 @@ let b11_001 = Card(series: "B11-001SR",
                    skills: [two_heroes_eirika, courage_to_confront, sieglindes_rays],
                    cardImageName: "B11-001.png")
 
+let b11_002 = Card(series: "B11-002R",
+                   name: "Eirika: Princess of the Sacred Storm Blade",
+                   rarity: "Rare",
+                   insignia: divine_weapons,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "Rika Suzuki",
+                   supportingSkill: enduring_command,
+                   skills: [stormlike_resolve, lunar_brace],
+                   cardImageName: "B11-002.png")
+
+let b11_003 = Card(series: "B11-003",
+                   name: "Eirika: Princess of Renais",
+                   rarity: "High Normal",
+                   insignia: divine_weapons,
+                   attack: 40,
+                   support: 20,
+                   illustrator: "Sachiko Wada",
+                   supportingSkill: encouragement_emblem,
+                   skills: [],
+                   cardImageName: "B11-003.png")
+
 let b11_004 = Card(series: "B11-004SR",
                    name: "Restoration King, Ephraim",
                    rarity: "Secret Rare",
@@ -964,6 +986,28 @@ let b11_004 = Card(series: "B11-004SR",
                    supportingSkill: none,
                    skills: [two_heroes_ephraim, cleaving_justice, legendary_siegmund],
                    cardImageName: "B11-004.png")
+
+let b11_005 = Card(series: "B11-005R",
+                   name: "Ephraim: Prince of the Blazing Brave Lance",
+                   rarity: "Rare",
+                   insignia: divine_weapons,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "Rika Suzuki",
+                   supportingSkill: invincible_command,
+                   skills: [flamelike_strength, solar_brace],
+                   cardImageName: "B11-005.png")
+
+let b11_006 = Card(series: "B11-006HN",
+                   name: "Ephraim: Prince of Renais",
+                   rarity: "High Normal",
+                   insignia: divine_weapons,
+                   attack: 40,
+                   support: 20,
+                   illustrator: "Sachiko Wada",
+                   supportingSkill: heros_emblem,
+                   skills: [],
+                   cardImageName: "B11-006.png")
 
 let b11_020 = Card(series: "B11-020SR",
                    name: "Tempest King, Joshua",

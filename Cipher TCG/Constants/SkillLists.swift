@@ -257,5 +257,9 @@ let rawSkillsList: [Skill] = [
     blessing_of_gentle_love,
     purifying_halo,
     green_and_red_paladins,
-    panthers_formation
+    panthers_formation,
+    stormlike_resolve,
+    lunar_brace,
+    flamelike_strength,
+    solar_brace
 ]

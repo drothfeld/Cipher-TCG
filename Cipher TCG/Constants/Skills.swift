@@ -1999,3 +1999,35 @@ let panthers_formation = Skill(name: "Panther's Formation",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let stormlike_resolve = Skill(name: "Stormlike Resolve",
+                        description: "If you have at least one other Purple ally, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let lunar_brace = Skill(name: "Lunar Brace",
+                        description: "Choose an Eirika or Ephraim in your Retreat Area, and add it to your hand.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let flamelike_strength = Skill(name: "Flamelike Strength",
+                        description: "If the card supporting this unit is Purple, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let solar_brace = Skill(name: "Solar Brace",
+                        description: "Choose an Eirika or Ephraim in your Retreat Area, and add it to your hand.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

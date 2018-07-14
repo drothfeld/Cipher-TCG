@@ -40,12 +40,38 @@ let despair_emblem = SupportingSkill(type: "Despair Emblem",
                                    description: "Deploy a Risen from your Retreat Area.",
                                    iconImage: #imageLiteral(resourceName: "28px-Attack_Support.png"))
 
-let undying_friendship = SupportingSkill(type: "Undying Friendship", description: "You may choose one ally or enemy other than the units in combat, and move them. You may Flip 1 Bond and each time you do, this skill is activated again.", iconImage: #imageLiteral(resourceName: "28px-Attack_Support.png"))
+let undying_friendship = SupportingSkill(type: "Undying Friendship",
+                                   description: "You may choose one ally or enemy other than the units in combat, and move them. You may Flip 1 Bond and each time you do, this skill is activated again.",
+                                   iconImage: #imageLiteral(resourceName: "28px-Attack_Support.png"))
 
-let memories_of_the_earth = SupportingSkill(type: "Memories of the Earth", description: "Until the end of this combat, this card's support is equal to the total number of face-down bond cards you have X 10.", iconImage: #imageLiteral(resourceName: "60px-AtkDef.png"))
+let memories_of_the_earth = SupportingSkill(type: "Memories of the Earth",
+                                   description: "Until the end of this combat, this card's support is equal to the total number of face-down bond cards you have X 10.",
+                                   iconImage: #imageLiteral(resourceName: "60px-AtkDef.png"))
 
-let eternal_friendship = SupportingSkill(type: "Eternal Friendship", description: "You may choose 1 non-lord enemy, and tap them. You may Flip 1 Bond and each time you do, this skill is activated again.", iconImage: #imageLiteral(resourceName: "28px-Defense_Support.png"))
+let eternal_friendship = SupportingSkill(type: "Eternal Friendship",
+                                   description: "You may choose 1 non-lord enemy, and tap them. You may Flip 1 Bond and each time you do, this skill is activated again.",
+                                   iconImage: #imageLiteral(resourceName: "28px-Defense_Support.png"))
 
-let divine_weapon_of_summoning = SupportingSkill(type: "Divine Weapon of Summoning", description: "Until the end of this combart, this card's support is equal to the total number of orbs you have x10.", iconImage: #imageLiteral(resourceName: "60px-AtkDef.png"))
+let divine_weapon_of_summoning = SupportingSkill(type: "Divine Weapon of Summoning",
+                                   description: "Until the end of this combart, this card's support is equal to the total number of orbs you have x10.",
+                                   iconImage: #imageLiteral(resourceName: "60px-AtkDef.png"))
 
-let salvations_command = SupportingSkill(type: "Salvation's Command", description: "Choose 1 card from your hand, and reveal it. Until the end of this combat, this card's support stat is equal to the revealed card's support stat. (If it is X, it becomes 0.)", iconImage: #imageLiteral(resourceName: "60px-AtkDef.png"))
+let salvations_command = SupportingSkill(type: "Salvation's Command",
+                                   description: "Choose 1 card from your hand, and reveal it. Until the end of this combat, this card's support stat is equal to the revealed card's support stat. (If it is X, it becomes 0.)",
+                                   iconImage: #imageLiteral(resourceName: "60px-AtkDef.png"))
+
+let enduring_command = SupportingSkill(type: "Enduring Command",
+                                   description: "[ Flip 1 Bond ] If your defending unit is Purple and if you pay the cost, until the end of this battle, your defending unit gains +20 attack.",
+                                   iconImage: #imageLiteral(resourceName: "28px-Defense_Support.png"))
+
+let encouragement_emblem = SupportingSkill(type: "Encouragement Emblem",
+                                   description: "If your attacking unit destroys the opponent's Main Character, at the end of this battle, draw a card.",
+                                   iconImage: #imageLiteral(resourceName: "28px-Attack_Support.png"))
+
+let sibling_emblem = SupportingSkill(type: "Sibling Emblem",
+                                   description: "If your combat unit is Ephraim, until the end of this battle, that unit gains +20 attack.",
+                                   iconImage: #imageLiteral(resourceName: "60px-AtkDef.png"))
+
+let invincible_command = SupportingSkill(type: "Invincible Command",
+                                   description: "[ Flip 1 Bond ] If your attacking unit is Purple and if you pay the cost, until the end of this battle, your attacking unit gains +20 attack.",
+                                   iconImage: #imageLiteral(resourceName: "28px-Attack_Support.png"))
