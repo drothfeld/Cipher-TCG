@@ -2031,3 +2031,67 @@ let solar_brace = Skill(name: "Solar Brace",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let kingdom_protecting_blade = Skill(name: "Kingdom-Protecting Blade",
+                        description: "This card cannot be destroyed by an enemy's skill.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let the_kind_princesss_knight = Skill(name: "The Kind Princess's Knight",
+                        description: "When this unit is deployed, your ally Eirika gains +10 attack until the end of your opponent's turn.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let escort_duty = Skill(name: "Escort Duty",
+                        description: "[Reveal a card from your hand and stack it on top of your Deck] Move any number of Purple allies.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let winged_deliverer = Skill(name: "Winged Deliverer",
+                        description: "Choose an ally, and move it.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let the_villages_finest_fighter = Skill(name: "The Village's Finest Fighter",
+                        description: "Level Skill 3 - This unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let sword_smashing_axe = Skill(name: "Sword-Smashing Axe",
+                        description: "This unit gains +10 attack. (Level Skill 5 This skill becomes active while this unit's stack is at least 5)",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let hatchet = Skill(name: "Hatchet",
+                        description: "This turn, this unit's range becomes 1-2.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let aspirational_back = Skill(name: "Aspirational Back",
+                        description: "At the start of your turn, you may pay the cost, and if you do: Choose a Ross card in your deck with a Deployment Cost of 2 or less, reveal it, and add it to your hand. Shuffle your deck afterwards.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

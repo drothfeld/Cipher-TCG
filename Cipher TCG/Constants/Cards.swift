@@ -1009,6 +1009,61 @@ let b11_006 = Card(series: "B11-006HN",
                    skills: [],
                    cardImageName: "B11-006.png")
 
+let b11_007 = Card(series: "B11-007N",
+                   name: "Seth: Silver Knight",
+                   rarity: "Normal",
+                   insignia: divine_weapons,
+                   attack: 70,
+                   support: 10,
+                   illustrator: "Tomohide Takaya",
+                   supportingSkill: none,
+                   skills: [kingdom_protecting_blade, the_kind_princesss_knight],
+                   cardImageName: "B11-007.png")
+
+let b11_008 = Card(series: "B11-008HN",
+                   name: "Vanessa: Dutiful Rider",
+                   rarity: "High Normal",
+                   insignia: divine_weapons,
+                   attack: 50,
+                   support: 30,
+                   illustrator: "40hara",
+                   supportingSkill: none,
+                   skills: [escort_duty, javelin],
+                   cardImageName: "B11-008.png")
+
+let b11_009 = Card(series: "B11-009N",
+                   name: "Vanessa: Dilligent Pegasus Knight",
+                   rarity: "Normal",
+                   insignia: divine_weapons,
+                   attack: 30,
+                   support: 30,
+                   illustrator: "40hara",
+                   supportingSkill: flying_emblem,
+                   skills: [winged_deliverer],
+                   cardImageName: "B11-009.png")
+
+let b11_010 = Card(series: "B11-010HN",
+                   name: "Ross: His Father's Son",
+                   rarity: "High Normal",
+                   insignia: divine_weapons,
+                   attack: 60,
+                   support: 10,
+                   illustrator: "Nekobayashi",
+                   supportingSkill: none,
+                   skills: [the_villages_finest_fighter, sword_smashing_axe, hatchet],
+                   cardImageName: "B11-010.png")
+
+let b11_011 = Card(series: "B11-011N",
+                   name: "Ross: Son of Garcia",
+                   rarity: "Normal",
+                   insignia: divine_weapons,
+                   attack: 30,
+                   support: 10,
+                   illustrator: "Nekobayashi",
+                   supportingSkill: tempered_emblem,
+                   skills: [aspirational_back],
+                   cardImageName: "B11-011.png")
+
 let b11_020 = Card(series: "B11-020SR",
                    name: "Tempest King, Joshua",
                    rarity: "Secret Rare",

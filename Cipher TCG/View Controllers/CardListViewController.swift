@@ -38,8 +38,8 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         
         // FOR TESTING ONLY
         // GET TOTAL CARDS/SKILLS COMPLETED
-//         NSLog(String(sortedRawCardList.count)) 126
-//         NSLog(String(rawSkillsList.count)) 253
+//         NSLog(String(sortedRawCardList.count)) // 131
+//         NSLog(String(rawSkillsList.count))     // 261
     }
     
     func prepare() {

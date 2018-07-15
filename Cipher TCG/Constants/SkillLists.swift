@@ -261,5 +261,13 @@ let rawSkillsList: [Skill] = [
     stormlike_resolve,
     lunar_brace,
     flamelike_strength,
-    solar_brace
+    solar_brace,
+    kingdom_protecting_blade,
+    the_kind_princesss_knight,
+    escort_duty,
+    winged_deliverer,
+    the_villages_finest_fighter,
+    sword_smashing_axe,
+    hatchet,
+    aspirational_back
 ]
