@@ -2095,3 +2095,59 @@ let aspirational_back = Skill(name: "Aspirational Back",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let soul_soothing_singing = Skill(name: "Soul-Soothing Singing",
+                        description: "Choose 1 other Green ally. Until the end of your opponent's next turn, that ally cannot be destroyed as the cost or effect of a skill.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let beloved_husband = Skill(name: "Beloved Husband",
+                        description: "Allied Greil gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let ordered_hearts_encouragement = Skill(name: "Ordered Heart's Encouragement",
+                        description: "[ Tap.png,Flip 1 Bond] Choose 1 other ally. Choose 1 card with the same unit name as that ally from your Reterat Area, then stack it under that ally to growth them. (A unit who has growthed is treated as if they have leveled up. If they possess a CCS.png, they are able to use it.)",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let blessings_of_yune = Skill(name: "Blessings of Yune",
+                        description: "All Green allies may also be supported by support cards with the same unit name as themselves. CONT All enemies lose 'Mantle' and cannot re-acquire it.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let heart_of_the_goddess_of_chaos = Skill(name: "Heart of the Goddess of Chaos",
+                        description: "At the end of your turn, choose 1 ally. Choose up to 2 cards with the same unit name as that ally from your Retreat Area, then stack them under that ally to growth them. (A unit who has growthed is treated as if they have leveled up. If they possess a Class Change Skill, they are able to use it.)",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let path_to_victory = Skill(name: "Path to Victory",
+                        description: "[ Flip 1 Bond ] When this unit's attack destroys an enemy, you may pay the cost and if you do: Choose 1 other ally. Choose 1 card from your retreat area with the same unit name as that ally, then stack it under that ally to growth them. (A unit who has growthed is treated as if they have leveled up. If they possess a Class Change Skill, they are able to use it.)",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let bond_of_dawn = Skill(name: "Bond of Dawn",
+                        description: "During your opponent's turn, if you have 1 or more other allies, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

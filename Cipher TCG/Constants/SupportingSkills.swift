@@ -44,6 +44,10 @@ let tempered_emblem = SupportingSkill(type: "Tempered Emblem",
                                    description: "If your defending unit is destroyed, at the end of combat, you may add this card to your hand instead of placing it in your Retreat Area.",
                                    iconImage: #imageLiteral(resourceName: "28px-Defense_Support.png"))
 
+let fate_emblem = SupportingSkill(type: "Fate Emblem",
+                                      description: "If the attacking unit is the same color as this support card, draw 1 card, then choose 1 card from your hand and place it on top of your deck.",
+                                      iconImage: #imageLiteral(resourceName: "28px-Attack_Support.png"))
+
 let undying_friendship = SupportingSkill(type: "Undying Friendship",
                                    description: "You may choose one ally or enemy other than the units in combat, and move them. You may Flip 1 Bond and each time you do, this skill is activated again.",
                                    iconImage: #imageLiteral(resourceName: "28px-Attack_Support.png"))

@@ -269,5 +269,12 @@ let rawSkillsList: [Skill] = [
     the_villages_finest_fighter,
     sword_smashing_axe,
     hatchet,
-    aspirational_back
+    aspirational_back,
+    soul_soothing_singing,
+    beloved_husband,
+    ordered_hearts_encouragement,
+    blessings_of_yune,
+    heart_of_the_goddess_of_chaos,
+    path_to_victory,
+    bond_of_dawn
 ]

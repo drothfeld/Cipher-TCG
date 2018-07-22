@@ -1207,6 +1207,61 @@ let b12_007 = Card(series: "B12-007N",
                    skills: [a_happy_rendezvous, mercenary_leader_to_be],
                    cardImageName: "B12-007.png")
 
+let b12_008 = Card(series: "B12-008HN",
+                   name: "Elena: Keeper of the Medallion",
+                   rarity: "High Normal",
+                   insignia: medallion,
+                   attack: 50,
+                   support: 20,
+                   illustrator: "Kita Senri",
+                   supportingSkill: none,
+                   skills: [soul_soothing_singing, beloved_husband],
+                   cardImageName: "B12-008.png")
+
+let b12_009 = Card(series: "B12-009N",
+                   name: "Elena: Serene-Hearted Cleric",
+                   rarity: "Normal",
+                   insignia: medallion,
+                   attack: 30,
+                   support: 20,
+                   illustrator: "Kita Senri",
+                   supportingSkill: miracle_emblem,
+                   skills: [ordered_hearts_encouragement],
+                   cardImageName: "B12-009.png")
+
+let b12_010 = Card(series: "B12-010SR",
+                   name: "Micaiah: Goddess-Possessed Maiden",
+                   rarity: "Secret Rare",
+                   insignia: medallion,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "Kaoru Hagiya",
+                   supportingSkill: none,
+                   skills: [blessings_of_yune, heart_of_the_goddess_of_chaos],
+                   cardImageName: "B12-010.png")
+
+let b12_011 = Card(series: "B12-011N",
+                   name: "Micaiah: Silver-Haired Mage General",
+                   rarity: "Normal",
+                   insignia: medallion,
+                   attack: 50,
+                   support: 20,
+                   illustrator: "Sakura Miwabe",
+                   supportingSkill: none,
+                   skills: [path_to_victory],
+                   cardImageName: "B12-011.png")
+
+let b12_012 = Card(series: "B12-012N",
+                   name: "Micaiah: Maiden of Miracles",
+                   rarity: "Normal",
+                   insignia: medallion,
+                   attack: 30,
+                   support: 20,
+                   illustrator: "Niji",
+                   supportingSkill: fate_emblem,
+                   skills: [bond_of_dawn],
+                   cardImageName: "B12-012.png")
+
 let b12_037 = Card(series: "B12-037SR",
                    name: "Fearsome Blade General, Black Knight",
                    rarity: "Secret Rare",
