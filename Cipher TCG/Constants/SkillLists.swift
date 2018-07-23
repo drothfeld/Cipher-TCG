@@ -276,5 +276,11 @@ let rawSkillsList: [Skill] = [
     blessings_of_yune,
     heart_of_the_goddess_of_chaos,
     path_to_victory,
-    bond_of_dawn
+    bond_of_dawn,
+    banner_of_light,
+    untarnished_white_sword,
+    princess_of_hoshido,
+    cascading_blossoms_of_restoration,
+    reckless_power,
+    blood_of_the_holy_dragon
 ]

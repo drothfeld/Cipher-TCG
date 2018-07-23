@@ -85,6 +85,17 @@ let b01_078 = Card(series: "B01-078R",
                    skills: [young_manakete, ancient_dragon_tribe],
                    cardImageName: "B01-078.png")
 
+let b02_001 = Card(series: "B02-001SR",
+                   name: "Corrin (Male): Chosen Prince of the Godly Blade",
+                   rarity: "Secret Rare",
+                   insignia: hoshido,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "Kaoru Hagiya",
+                   supportingSkill: none,
+                   skills: [banner_of_light, untarnished_white_sword],
+                   cardImageName: "B02-001.png")
+
 let b02_003 = Card(series: "B02-003HN",
                    name: "Crown Prince of Hoshido, Corrin",
                    rarity: "High Normal",
@@ -118,6 +129,28 @@ let b02_008 = Card(series: "B02-008SR",
                    skills: [pep_talk, galloping_gallantry],
                    cardImageName: "B02-008.png")
 
+let b02_009 = Card(series: "B02-009N",
+                   name: "Hinoka: First Princess of Hoshido",
+                   rarity: "Normal",
+                   insignia: hoshido,
+                   attack: 40,
+                   support: 30,
+                   illustrator: "Mayo",
+                   supportingSkill: flying_emblem,
+                   skills: [princess_of_hoshido],
+                   cardImageName: "B02-009.png")
+
+let b02_012 = Card(series: "B02-012SR",
+                   name: "Sakura: Priestess of Love and War",
+                   rarity: "Secret Rare",
+                   insignia: hoshido,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "Tetsu Kurosawa",
+                   supportingSkill: none,
+                   skills: [cascading_blossoms_of_restoration, wingbane],
+                   cardImageName: "B02-012.png")
+
 let b02_030 = Card(series: "B02-030SR",
                    name: "Capable Maid, Felicia",
                    rarity: "Secret Rare",
@@ -128,6 +161,17 @@ let b02_030 = Card(series: "B02-030SR",
                    supportingSkill: none,
                    skills: [here_i_go, i_wont_go_easy],
                    cardImageName: "B02-030.png")
+
+let b02_041 = Card(series: "B02-041HN",
+                   name: "Kana (Female): White Dragon Princess",
+                   rarity: "High Normal",
+                   insignia: hoshido,
+                   attack: 50,
+                   support: 20,
+                   illustrator: "cuboon",
+                   supportingSkill: none,
+                   skills: [reckless_power, blood_of_the_holy_dragon],
+                   cardImageName: "B02-041.png")
 
 let b02_051 = Card(series: "B02-051SR",
                    name: "Chosen Princess of the Godly Blade, Corrin",

@@ -2151,3 +2151,51 @@ let bond_of_dawn = Skill(name: "Bond of Dawn",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let banner_of_light = Skill(name: "Banner of Light",
+                        description: "[ Flip 3 Bonds, Discard a 'Corrin (Male)'] Deploy a unit from your hand with a Deployment Cost of 2 or less. Also, until the end of this turn, all allied units gain +30 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 3,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let untarnished_white_sword = Skill(name: "Untarnished White Sword",
+                        description: "[ Flip 3 Bonds , Discard a 'Corrin (Male)'] Destroy a non-lord enemy. Then, choose a White card in your Retreat Area except 'Corrin (Male)' and add that card to your hand.",
+                        colorType: UIColor.red,
+                        flippedBonds: 3,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let princess_of_hoshido = Skill(name: "Princess of Hoshido",
+                        description: "If there at least 2 White allies, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let cascading_blossoms_of_restoration = Skill(name: "Cascading Blossoms of Restoration",
+                        description: "[ Tap.png,Flip 4 Bonds ] Choose 3 cards with different unit names in your Retreat Area except 'Sakura' and add those cards to your hand.",
+                        colorType: UIColor.red,
+                        flippedBonds: 4,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let reckless_power = Skill(name: "Reckless Power",
+                        description: "[ Flip 1 Bond ] If you have at least 6 cards in your Bond Area, flip all of them face-down. Until the end of this turn, the number of orbs this unit’s attacks would destroy becomes 2.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let blood_of_the_holy_dragon = Skill(name: "Blood of the Holy Dragon",
+                        description: "If you have at least 6 bonds, this unit gains +30 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
