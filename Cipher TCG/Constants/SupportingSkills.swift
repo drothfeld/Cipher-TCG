@@ -20,6 +20,10 @@ let thief_emblem = SupportingSkill(type: "Thief Emblem",
                                    description: "Reveal the top card of your opponent’s deck. You may then place that card in their Retreat Area.",
                                    iconImage: #imageLiteral(resourceName: "28px-Attack_Support.png"))
 
+let magic_emblem = SupportingSkill(type: "Magic Emblem",
+                                   description: "Draw 1 card, then discard 1 card.",
+                                   iconImage: #imageLiteral(resourceName: "28px-Attack_Support.png"))
+
 let flying_emblem = SupportingSkill(type: "Flying Emblem",
                                     description: "You may choose one ally that is not the attacking unit, and move it.",
                                     iconImage: #imageLiteral(resourceName: "28px-Attack_Support.png"))

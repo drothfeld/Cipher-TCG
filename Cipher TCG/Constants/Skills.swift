@@ -2199,3 +2199,75 @@ let blood_of_the_holy_dragon = Skill(name: "Blood of the Holy Dragon",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let courageous_hoofbeats = Skill(name: "Courageous Hoofbeats",
+                        description: "If your number of bond cards is the same as or lower　than that of your opponent, the deployment cost of this card in the hand is reduced by 2.",
+                        colorType: UIColor.purple,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let scarlet_resolve = Skill(name: "Scarlet Resolve",
+                        description: "This unit cannot be destroyed by a skill's cost or by a skill's effect.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let mercenaries_style = Skill(name: "Mercenaries' Style",
+                        description: "[ Flip 1 Bond ] If this unit is in the Front Line, until the end of the turn, this unit gains +20 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let secret_tactics = Skill(name: "Secret Tactics",
+                        description: "Choose as many allies with 80 attack or higher as you wish. Until the end of the turn, the chosen allies' attacks cannot be evaded by non-lord enemies.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let wise_mans_schemes = Skill(name: "Wise Man's Schemes",
+                        description: "When this unit's attack destroys an enemy, draw 1 card. Choose 1 card from your hand, and place it in the Retreat Area.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let encouraging_wings_of_light = Skill(name: "Encouraging Wings of Light",
+                        description: "[ Flip 2 Bonds ] When this unit's attack ends, you may pay the cost and if you do: Choose up to 1 card from your deck with the same unit name as your lord, reveal it, and add it to your hand. Then, shuffle your deck.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let reassuring_smile = Skill(name: "Reassuring Smile",
+                        description: "If the total number of cards stacked with your lord is 4 or more, the cost of this unit's 'Encouraging Wings of Light' is reduced by Flip 1 Bond.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let aerial_guardswoman = Skill(name: "Aerial Guardswoman",
+                        description: "If your lord is being attacked by an enemy in the Back Line, your lord gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let stay_back_boat_monkey = Skill(name: "Stay back, boat-monkey!",
+                        description: "If this unit is being attacked by an enemy in the Front Line, this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

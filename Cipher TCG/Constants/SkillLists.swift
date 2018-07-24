@@ -282,5 +282,14 @@ let rawSkillsList: [Skill] = [
     princess_of_hoshido,
     cascading_blossoms_of_restoration,
     reckless_power,
-    blood_of_the_holy_dragon
+    blood_of_the_holy_dragon,
+    courageous_hoofbeats,
+    scarlet_resolve,
+    mercenaries_style,
+    secret_tactics,
+    wise_mans_schemes,
+    encouraging_wings_of_light,
+    reassuring_smile,
+    aerial_guardswoman,
+    stay_back_boat_monkey
 ]

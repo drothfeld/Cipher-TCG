@@ -1306,6 +1306,72 @@ let b12_012 = Card(series: "B12-012N",
                    skills: [bond_of_dawn],
                    cardImageName: "B12-012.png")
 
+let b12_013 = Card(series: "B12-013R",
+                   name: "Titania: Scarlet-Haired Paladin",
+                   rarity: "Rare",
+                   insignia: medallion,
+                   attack: 70,
+                   support: 10,
+                   illustrator: "Kokon Konfuzi",
+                   supportingSkill: none,
+                   skills: [courageous_hoofbeats, scarlet_resolve, plains_galloper],
+                   cardImageName: "B12-013.png")
+
+let b12_014 = Card(series: "B12-014R",
+                   name: "Soren: Clever Path-Clearing Winds",
+                   rarity: "Rare",
+                   insignia: medallion,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "Saori Toyota",
+                   supportingSkill: none,
+                   skills: [mercenaries_style, secret_tactics],
+                   cardImageName: "B12-014.png")
+
+let b12_015 = Card(series: "B12-015N",
+                   name: "Soren: Wise Man of the Mercenaries",
+                   rarity: "Normal",
+                   insignia: medallion,
+                   attack: 30,
+                   support: 20,
+                   illustrator: "Saori Toyota",
+                   supportingSkill: magic_emblem,
+                   skills: [wise_mans_schemes],
+                   cardImageName: "B12-015.png")
+
+let b12_016 = Card(series: "B12-016SR",
+                   name: "Marcia: Dawn-Soaring Seraph",
+                   rarity: "Secret Rare",
+                   insignia: medallion,
+                   attack: 60,
+                   support: 30,
+                   illustrator: "daigoman",
+                   supportingSkill: none,
+                   skills: [encouraging_wings_of_light, reassuring_smile],
+                   cardImageName: "B12-016.png")
+
+let b12_017 = Card(series: "B12-017N",
+                   name: "Marcia: Cheery Royal Pegasus Knight",
+                   rarity: "Normal",
+                   insignia: medallion,
+                   attack: 50,
+                   support: 30,
+                   illustrator: "Genki Kuno",
+                   supportingSkill: none,
+                   skills: [aerial_guardswoman, javelin],
+                   cardImageName: "B12-017.png")
+
+let b12_018 = Card(series: "B12-018N",
+                   name: "Marcia: Petulant Pegasus Knight",
+                   rarity: "Normal",
+                   insignia: medallion,
+                   attack: 30,
+                   support: 30,
+                   illustrator: "daigoman",
+                   supportingSkill: flying_emblem,
+                   skills: [stay_back_boat_monkey],
+                   cardImageName: "B12-018.png")
+
 let b12_037 = Card(series: "B12-037SR",
                    name: "Fearsome Blade General, Black Knight",
                    rarity: "Secret Rare",
