@@ -291,5 +291,11 @@ let rawSkillsList: [Skill] = [
     encouraging_wings_of_light,
     reassuring_smile,
     aerial_guardswoman,
-    stay_back_boat_monkey
+    stay_back_boat_monkey,
+    lethality,
+    good_bye,
+    mutitalented_professional,
+    beautiful_marksmanship,
+    white_arrow_of_resolution,
+    how_do_you_do_sir_makalov
 ]

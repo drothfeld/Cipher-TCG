@@ -2271,3 +2271,51 @@ let stay_back_boat_monkey = Skill(name: "Stay back, boat-monkey!",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let lethality = Skill(name: "Lethality",
+                        description: "Choose 1 non-lord enemy. Flip 1 Bond for each point of deployment cost that that enemy has. Then, if you did, destroy that enemy.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let good_bye = Skill(name: "...Good-bye",
+                        description: "[ Flip 4 Bonds, discard a 'Volke' card from your hand] Destroy your opponent's lord.",
+                        colorType: UIColor.red,
+                        flippedBonds: 4,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let mutitalented_professional = Skill(name: "Multitalented Professional",
+                        description: "Reveal the top card of your opponent's deck. If that card has a deployment cost of 3 or more, then until the end of the turn, this unit may attack enemies in the Back Line regardless of range.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let beautiful_marksmanship = Skill(name: "Beautiful Marksmanship",
+                        description: "[Stack 1 'Astrid' from your Retreat Area under this unit to growth her] Until the end of the turn, this unit's attacks cannot be evaded by non-lord enemies. (A unit who has growthed is treated as if they are leveled up.)",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let white_arrow_of_resolution = Skill(name: "White Arrow of Resolution",
+                        description: "During your turn, for each card stacked underneath this unit, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let how_do_you_do_sir_makalov = Skill(name: "How do you do, Sir Makalov?",
+                        description: "During your turn, if you have an allied 'Makalov', this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

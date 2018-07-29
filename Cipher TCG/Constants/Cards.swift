@@ -1372,6 +1372,50 @@ let b12_018 = Card(series: "B12-018N",
                    skills: [stay_back_boat_monkey],
                    cardImageName: "B12-018.png")
 
+let b12_019 = Card(series: "B12-019R",
+                   name: "Volke: Fireman",
+                   rarity: "Rare",
+                   insignia: medallion,
+                   attack: 70,
+                   support: 10,
+                   illustrator: "Clover K",
+                   supportingSkill: none,
+                   skills: [lethality, good_bye],
+                   cardImageName: "B12-019.png")
+
+let b12_020 = Card(series: "B12-020N",
+                   name: "Volke: Shady Informant",
+                   rarity: "Normal",
+                   insignia: medallion,
+                   attack: 40,
+                   support: 10,
+                   illustrator: "Clover K",
+                   supportingSkill: thief_emblem,
+                   skills: [mutitalented_professional],
+                   cardImageName: "B12-020.png")
+
+let b12_021 = Card(series: "B12-021R",
+                   name: "Astrid: Fate-Defiant Bow",
+                   rarity: "Rare",
+                   insignia: medallion,
+                   attack: 50,
+                   support: 20,
+                   illustrator: "Fumi",
+                   supportingSkill: none,
+                   skills: [beautiful_marksmanship, white_arrow_of_resolution, wingbane],
+                   cardImageName: "B12-021.png")
+
+let b12_022 = Card(series: "B12-022N",
+                   name: "Astrid: Knighthood-Aspiring Ladyling",
+                   rarity: "Normal",
+                   insignia: medallion,
+                   attack: 30,
+                   support: 20,
+                   illustrator: "Fumi",
+                   supportingSkill: cover_emblem,
+                   skills: [how_do_you_do_sir_makalov, wingbane],
+                   cardImageName: "B12-022.png")
+
 let b12_037 = Card(series: "B12-037SR",
                    name: "Fearsome Blade General, Black Knight",
                    rarity: "Secret Rare",
