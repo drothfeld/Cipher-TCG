@@ -41,20 +41,53 @@ class CardViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // DATA SCRAPE TESTING ONLY
-//        let url = URL(string: "https://tcgrepublic.com/category/subcategory_page_4027.html")!
-//        let task = URLSession.shared.dataTask(with: url) { data, response, error in
-//            guard let data = data, error == nil else {
-//                print("\(String(describing: error))")
-//                return
-//            }
-//            let string = String(data: data, encoding: .utf8)
-//            print("\(String(describing: string))")
-//        }
-//        task.resume()
-        
         configureView()
+        
+        // TESTING ONLY
+        print(getCurrentCardPrice(card: b02_009))
+    }
+    
+    // Returns the current going price of a specific card
+    func getCurrentCardPrice(card: Card) -> Double {
+        // Extracting series number as int to properly index URLs
+        let series = card.series
+        var innerHTML: String = ""
+        let start = series.index(series.startIndex, offsetBy: 1)
+        let end = series.index(series.endIndex, offsetBy: -5)
+        let range = start..<end
+        let seriesNumber = Int(series[range])! - 1
+        
+        // Scraping each wab page of cards for the given card's series number
+        for pageURL in cardPriceURLs[seriesNumber] {
+            let url = URL(string: pageURL)!
+            let task = URLSession.shared.dataTask(with: url) { data, response, error in
+                // Error occured
+                guard let data = data, error == nil else {
+                    print("\(String(describing: error))")
+                    return
+                }
+                // Return HTML data string
+                let string = String(data: data, encoding: .utf8)!
+                innerHTML = String(describing: string)
+                //print("\(String(describing: string))")
+                
+                // Search for card in scraped HTML string
+                var currentSubstring = ""
+                for (_, char) in innerHTML.enumerated() {
+                    if (currentSubstring.trimmingCharacters(in: .whitespaces) == series) {
+                        print("CARD HAS BEEN FOUND")
+                    }
+                    if (char == " ") {
+                        //print(currentSubstring)
+                        currentSubstring = ""
+                    }
+                    currentSubstring.append(char)
+                }
+            }
+            task.resume()
+        }
+
+        return 0.00
     }
     
     // Setting View
