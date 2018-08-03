@@ -154,6 +154,7 @@
 		B0D0EFF120E95D0700869E07 /* B13-051.png in Resources */ = {isa = PBXBuildFile; fileRef = B0D0EFF020E95D0700869E07 /* B13-051.png */; };
 		B0D0EFF420E95DF300869E07 /* B13-088.png in Resources */ = {isa = PBXBuildFile; fileRef = B0D0EFF220E95DF300869E07 /* B13-088.png */; };
 		B0D0EFF520E95DF300869E07 /* B13-089.png in Resources */ = {isa = PBXBuildFile; fileRef = B0D0EFF320E95DF300869E07 /* B13-089.png */; };
+		B0D1ABDE2114DEDF0051935A /* CardPriceURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D1ABDD2114DEDE0051935A /* CardPriceURLs.swift */; };
 		B0DA71D420EC1B3300AC6AB5 /* B13-057.png in Resources */ = {isa = PBXBuildFile; fileRef = B0DA71D320EC1B3200AC6AB5 /* B13-057.png */; };
 		B0DA71D620EC1CB500AC6AB5 /* B13-060.png in Resources */ = {isa = PBXBuildFile; fileRef = B0DA71D520EC1CB500AC6AB5 /* B13-060.png */; };
 		B0DA71D820EC1D6500AC6AB5 /* B13-064.png in Resources */ = {isa = PBXBuildFile; fileRef = B0DA71D720EC1D6400AC6AB5 /* B13-064.png */; };
@@ -352,6 +353,7 @@
 		B0D0EFF020E95D0700869E07 /* B13-051.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B13-051.png"; sourceTree = "<group>"; };
 		B0D0EFF220E95DF300869E07 /* B13-088.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B13-088.png"; sourceTree = "<group>"; };
 		B0D0EFF320E95DF300869E07 /* B13-089.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B13-089.png"; sourceTree = "<group>"; };
+		B0D1ABDD2114DEDE0051935A /* CardPriceURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPriceURLs.swift; sourceTree = "<group>"; };
 		B0DA71D320EC1B3200AC6AB5 /* B13-057.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B13-057.png"; sourceTree = "<group>"; };
 		B0DA71D520EC1CB500AC6AB5 /* B13-060.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B13-060.png"; sourceTree = "<group>"; };
 		B0DA71D720EC1D6400AC6AB5 /* B13-064.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B13-064.png"; sourceTree = "<group>"; };
@@ -616,6 +618,7 @@
 				B054BBE8200EAC3C004159A6 /* Cards.swift */,
 				B03D5774201105A9007A3E97 /* CardLists.swift */,
 				B08A6B4A20190E8100603113 /* AnimationList.swift */,
+				B0D1ABDD2114DEDE0051935A /* CardPriceURLs.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -1080,6 +1083,7 @@
 				B054BBB3200E68AE004159A6 /* AppDelegate.swift in Sources */,
 				B03D5775201105A9007A3E97 /* CardLists.swift in Sources */,
 				B08A6B3F201902CA00603113 /* UIImageGIF.swift in Sources */,
+				B0D1ABDE2114DEDF0051935A /* CardPriceURLs.swift in Sources */,
 				B08A6B42201903AD00603113 /* LaunchScreenViewController.swift in Sources */,
 				B054BBB5200E68AE004159A6 /* CardListViewController.swift in Sources */,
 			);

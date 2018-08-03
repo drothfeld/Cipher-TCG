@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import WebKit
 
 class CardViewController: UIViewController {
     // UI Elements
@@ -40,6 +41,19 @@ class CardViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // DATA SCRAPE TESTING ONLY
+//        let url = URL(string: "https://tcgrepublic.com/category/subcategory_page_4027.html")!
+//        let task = URLSession.shared.dataTask(with: url) { data, response, error in
+//            guard let data = data, error == nil else {
+//                print("\(String(describing: error))")
+//                return
+//            }
+//            let string = String(data: data, encoding: .utf8)
+//            print("\(String(describing: string))")
+//        }
+//        task.resume()
+        
         configureView()
     }
     
