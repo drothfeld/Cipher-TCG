@@ -31,6 +31,7 @@ class CardViewController: UIViewController {
     @IBOutlet weak var CardSupportingSkillImage: UIImageView!
     @IBOutlet weak var SkillsTitleText: UILabel!
     @IBOutlet weak var CardSkillsText: UITextView!
+    @IBOutlet weak var CardPriceText: UILabel!
     
     // Defined Values
     var detailCard: Card? {
@@ -43,12 +44,12 @@ class CardViewController: UIViewController {
         super.viewDidLoad()
         configureView()
         
-        // TESTING ONLY
-        setCurrentCardPrice(card: detailCard!)
+        // Data scraping TCGRepublic.com to get current card prices
+        setCurrentCardPrice(card: detailCard!, priceLabel: CardPriceText)
     }
     
     // Returns the current going price of a specific card
-    func setCurrentCardPrice(card: Card) {
+    func setCurrentCardPrice(card: Card, priceLabel: UILabel) -> Void {
         let series = card.series
         var innerHTML: String = ""
         
@@ -92,7 +93,14 @@ class CardViewController: UIViewController {
                     // The current substring should contain the price at this point
                     if (char == "<" && priceTagFound) {
                         let cardPrice = currentSubstring.trimmingCharacters(in: .whitespaces)
-                        print(cardPrice)
+                        print("Card: " + (self.detailCard?.name)!)
+                        print("Price: " + cardPrice)
+                        
+                        // Make sure running in main thread when touching UIKit
+                        DispatchQueue.main.async {
+                            priceLabel.text = "$" + cardPrice
+                        }
+                        
                         return
                     }
                     
