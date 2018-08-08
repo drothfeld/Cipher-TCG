@@ -297,5 +297,9 @@ let rawSkillsList: [Skill] = [
     mutitalented_professional,
     beautiful_marksmanship,
     white_arrow_of_resolution,
-    how_do_you_do_sir_makalov
+    how_do_you_do_sir_makalov,
+    resonating_feelings,
+    consecrated_sword_of_hoshido,
+    dark_surge,
+    consecrated_sword_of_nohr
 ]

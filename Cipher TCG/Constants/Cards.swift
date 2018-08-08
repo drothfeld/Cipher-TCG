@@ -8,6 +8,17 @@
 
 import UIKit
 
+let s03_001 = Card(series: "S03-001ST",
+                   name: "Corrin (Male): Prince who Chooses the Future",
+                   rarity: "Starter Deck Rare",
+                   insignia: hoshido,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "Yusuke Kozaki",
+                   supportingSkill: none,
+                   skills: [resonating_feelings, consecrated_sword_of_hoshido],
+                   cardImageName: "S03-001.png")
+
 let s03_002 = Card(series: "S03-002ST",
                    name: "Successor of Hoshido, Ryoma",
                    rarity: "Starter Deck Rare",
@@ -17,7 +28,18 @@ let s03_002 = Card(series: "S03-002ST",
                    illustrator: "Clover K",
                    supportingSkill: none,
                    skills: [sacred_treasure_raijinto, i_do_not_like_to_give_up],
-                   cardImageName: "S03-002ST.png")
+                   cardImageName: "S03-002.png")
+
+let s04_001 = Card(series: "S04-001ST",
+                   name: "Corrin (Female): Princess who Chooses the Future",
+                   rarity: "Starter Deck Rare",
+                   insignia: nohr,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "Unknown",
+                   supportingSkill: none,
+                   skills: [dark_surge, consecrated_sword_of_nohr],
+                   cardImageName: "S04-001.png")
 
 let b01_046 = Card(series: "B01-046SR",
                    name: "Manakete Princess, Tiki",

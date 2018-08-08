@@ -2319,3 +2319,35 @@ let how_do_you_do_sir_makalov = Skill(name: "How do you do, Sir Makalov?",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let resonating_feelings = Skill(name: "Resonating Feelings",
+                        description: "During your turn, if this unit is in the frontline and there are at least 3 other allies, all your other allies gain +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let consecrated_sword_of_hoshido = Skill(name: "Consecrated Sword of Hoshido",
+                        description: "[Tap an ally 'Ryoma', 'Hinoka', 'Takumi', or 'Sakura'] When this unit attacks a Black enemy, you may pay the cost, and If you do: Until the end of the battle, this unit gains +10 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let dark_surge = Skill(name: "Dark Surge",
+                        description: "When this unit's attack destroys an enemy, you may choose one enemy unit in the back lines and move it to the front lines.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let consecrated_sword_of_nohr = Skill(name: "Consecrated Sword of Nohr",
+                        description: "[Tap an ally 'Xander', 'Camilla', 'Leo', or 'Elise'] When this attacks a White enemy, you may pay the cost, and If you do: Until the end of the battle, this unit gains +10 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
