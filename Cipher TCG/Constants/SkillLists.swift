@@ -301,5 +301,8 @@ let rawSkillsList: [Skill] = [
     resonating_feelings,
     consecrated_sword_of_hoshido,
     dark_surge,
-    consecrated_sword_of_nohr
+    consecrated_sword_of_nohr,
+    auspicious_wind,
+    forceful_torrent,
+    love_bequeathed,
 ]

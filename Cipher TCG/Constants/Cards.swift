@@ -580,6 +580,17 @@ let b06_054 = Card(series: "B06-054SR",
                    skills: [eruption, obsidian_mist],
                    cardImageName: "B06-054.png")
 
+let b06_055 = Card(series: "B06-055N",
+                   name: "Camilla: Bewitching Flower",
+                   rarity: "Normal",
+                   insignia: nohr,
+                   attack: 30,
+                   support: 30,
+                   illustrator: "Mayo",
+                   supportingSkill: flying_emblem,
+                   skills: [forceful_torrent],
+                   cardImageName: "B06-055.png")
+
 let b06_056 = Card(series: "B06-056SR",
                    name: "Younger Dark Prince of Chilling Magic, Leo",
                    rarity: "Secret Rare",
@@ -612,6 +623,17 @@ let b06_063 = Card(series: "B06-063N",
                    supportingSkill: flying_emblem,
                    skills: [commander_of_the_kamikaze_unit],
                    cardImageName: "B06-063.png")
+
+let b06_087 = Card(series: "B06-087N",
+                   name: "Percy: Lucky Dragon Knight",
+                   rarity: "Normal",
+                   insignia: nohr,
+                   attack: 30,
+                   support: 30,
+                   illustrator: "40hara",
+                   supportingSkill: flying_emblem,
+                   skills: [auspicious_wind],
+                   cardImageName: "B06-087.png")
 
 let b07_051 = Card(series: "B07-051SR",
                    name: "Unifier of the Kingdom of Hoshido, Ryoma",
@@ -689,6 +711,17 @@ let b07_086 = Card(series: "B07-086HN",
                    supportingSkill: none,
                    skills: [dragon_vein_whiff, wingbane],
                    cardImageName: "B07-086.png")
+
+let b07_095 = Card(series: "B07-095HN",
+                   name: "Mikoto: Queen of the Kingdom of Hoshido",
+                   rarity: "High Normal",
+                   insignia: hoshido,
+                   attack: 50,
+                   support: 20,
+                   illustrator: "Minori Fuyuzora",
+                   supportingSkill: none,
+                   skills: [love_bequeathed, wingbane],
+                   cardImageName: "B07-095.png")
 
 let b08_004 = Card(series: "B08-004R",
                    name: "Divine Dragon's Exalt, Lucina",

@@ -2351,3 +2351,27 @@ let consecrated_sword_of_nohr = Skill(name: "Consecrated Sword of Nohr",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let auspicious_wind = Skill(name: "Auspicious Wind",
+                        description: "When this unit is destroyed, look at the top 2 cards of your Deck. Send one of them to your Retreat Area, then place the other card back on top of your Deck.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let forceful_torrent = Skill(name: "Forceful Torrent",
+                        description: "During your turn, if you have a face-up Orb, this unit gains +10 attack and can attack any enemy regardless of this unit's range.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let love_bequeathed = Skill(name: "Love Bequeathed",
+                        description: "[ Tap This Unit, Send two face-down cards in your Bond Area to the Retreat Area] Choose a card from your Retreat Area except 'Mikoto' and add it to your hand.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

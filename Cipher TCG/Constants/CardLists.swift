@@ -69,9 +69,11 @@ let rawCardsList: [Card] = [
     b06_018,
     b06_051,
     b06_054,
+    b06_055,
     b06_056,
     b06_062,
     b06_063,
+    b06_087,
     // Series: Box Set 07
     b07_051,
     b07_053,
@@ -80,6 +82,7 @@ let rawCardsList: [Card] = [
     b07_064,
     b07_068,
     b07_086,
+    b07_095,
     // Series: Box Set 08
     b08_001,
     b08_002,
