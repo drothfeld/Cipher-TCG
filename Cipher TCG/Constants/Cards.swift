@@ -327,6 +327,17 @@ let b03_063 = Card(series: "B03-063R",
                    skills: [cry_of_the_pegasus, resounding_anthem],
                    cardImageName: "B03-063.png")
 
+let b03_065 = Card(series: "B03-065HN",
+                   name: "Shiro: Surpassing His Father",
+                   rarity: "High Normal",
+                   insignia: hoshido,
+                   attack: 60,
+                   support: 10,
+                   illustrator: "Unknown",
+                   supportingSkill: none,
+                   skills: [expert_lancer, bonds_of_the_next_generation],
+                   cardImageName: "B03-065.png")
+
 let b03_067 = Card(series: "B03-067HN",
                    name: "Natural Hunter, Kiragi",
                    rarity: "High Normal",
@@ -602,6 +613,17 @@ let b06_056 = Card(series: "B06-056SR",
                    skills: [terrorizing_fear, chilling_miasma],
                    cardImageName: "B06-056.png")
 
+let b06_058 = Card(series: "B06-058SR",
+                   name: "Elise: Blooming Flower Princess of Nohr",
+                   rarity: "Secret Rare",
+                   insignia: nohr,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "Tetsu Kurosawa",
+                   supportingSkill: none,
+                   skills: [replicate, brilliant_miracle],
+                   cardImageName: "B06-058.png")
+
 let b06_062 = Card(series: "B06-062R",
                    name: "The Deadly, Beruka",
                    rarity: "Rare",
@@ -700,6 +722,39 @@ let b07_068 = Card(series: "B07-068R",
                    supportingSkill: none,
                    skills: [swords_beat_axes_and_bows, axes_beat_lances_and_shurikens, lances_beat_swords_and_tomes],
                    cardImageName: "B07-068.png")
+
+let b07_078 = Card(series: "B07-078HN",
+                   name: "Scarlet: Crimson Wyvern Minion",
+                   rarity: "High Normal",
+                   insignia: nohr,
+                   attack: 60,
+                   support: 30,
+                   illustrator: "lack",
+                   supportingSkill: none,
+                   skills: [sorrowful_battle, minion_wyvern],
+                   cardImageName: "B07-078.png")
+
+let b07_084 = Card(series: "B07-084",
+                   name: "Shiro: Resolved Heir of Raijin",
+                   rarity: "Rare",
+                   insignia: nohr,
+                   attack: 70,
+                   support: 10,
+                   illustrator: "Unknown",
+                   supportingSkill: none,
+                   skills: [will_to_develop_the_future, oh_i_just_cant_wait_to_be_king],
+                   cardImageName: "B07-084.png")
+
+let b07_085 = Card(series: "B07-085N",
+                   name: "Shiro: Prince Polishing his Spearmanship",
+                   rarity: "Normal",
+                   insignia: nohr,
+                   attack: 40,
+                   support: 10,
+                   illustrator: "lack",
+                   supportingSkill: attack_emblem,
+                   skills: [divine_blade_of_protection],
+                   cardImageName: "B07-085.png")
 
 let b07_086 = Card(series: "B07-086HN",
                    name: "Wild Archery, Kiragi",
@@ -953,6 +1008,17 @@ let b10_061 = Card(series: "B10-061R",
                    supportingSkill: none,
                    skills: [the_changing_tide, watchful_eye],
                    cardImageName: "B10-061.png")
+
+let b10_062 = Card(series: "B10-062HN",
+                   name: "Shiro: Promised Raijinto",
+                   rarity: "High Normal",
+                   insignia: hoshido,
+                   attack: 70,
+                   support: 10,
+                   illustrator: "Rika Suzuki",
+                   supportingSkill: none,
+                   skills: [thunderstorm, thundering_earth],
+                   cardImageName: "B10-062.png")
 
 let b10_064 = Card(series: "B10-064R",
                    name: "Fox in Black, Selkie",

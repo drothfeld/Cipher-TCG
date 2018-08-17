@@ -2375,3 +2375,91 @@ let love_bequeathed = Skill(name: "Love Bequeathed",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let sorrowful_battle = Skill(name: "Sorrowful Battle",
+                        description: "[Send a face-down card in your Bond Area to your Retreat Area] Your opponent chooses and sends one of the cards in their Bond Area to the Retreat Area. This skill cannot be used unless your opponent has at least 5 cards in their bond Area.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let minion_wyvern = Skill(name: "Minion Wyvern",
+                        description: "If you have at least 5 face-down cards in your Bond Area, this card gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let replicate = Skill(name: "Replicate",
+                        description: "[ Flip 1 Bond, flip one of your Orbs face-up] Until the end of this turn, this unit gains +30 attack. Then, if you have equal to or less Orbs than your opponent, you may untap this unit.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: true,
+                        tapUnit: false,
+                        CCS: false)
+
+let brilliant_miracle = Skill(name: "Brilliant Miracle",
+                        description: "If you have a face-up Orb, neither player's units with a Deployment Cost of 2 or less can perform critical hits.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let expert_lancer = Skill(name: "Expert Lancer",
+                        description: "While this unit is battling with a Sword enemy, this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let bonds_of_the_next_generation = Skill(name: "Bonds of the Next Generation",
+                        description: "While you have at least one Black ally, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let divine_blade_of_protection = Skill(name: "Divine Blade of Protection",
+                        description: "[ Flip 1 Bond ] Until the end of this turn, this unit's range becomes 1-2. This skill cannot be used unless you have at least one Black bond.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let will_to_develop_the_future = Skill(name: "Will to Develop the Future",
+                        description: "When you deploy a Black ally, you may move one of your allies.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let oh_i_just_cant_wait_to_be_king = Skill(name: "Oh I just can't wait to be king!",
+                        description: "While there are at least two other White allies in the back line, this unit's range becomes 1-2.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let thunderstorm = Skill(name: "Thunderstorm",
+                        description: "[Flip one of your Orbs face-up] Until the end of this turn, this unit's range becomes 1-2, and for each other ally, this unit gains +10 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: true,
+                        tapUnit: false,
+                        CCS: false)
+
+let thundering_earth = Skill(name: "Thundering Earth",
+                        description: "While there is a face-up Orb, the attacks of units with a deployment cost of 2 or less cannot be evaded except by the Main Characters.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
