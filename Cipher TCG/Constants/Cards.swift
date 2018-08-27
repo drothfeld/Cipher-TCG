@@ -1778,3 +1778,128 @@ let b13_089 = Card(series: "B13-089N",
                    supportingSkill: divine_weapon_of_summoning,
                    skills: [summon_heroes],
                    cardImageName: "B13-089.png")
+
+// USING PLACEHOLDER NAMES FOR SET 14 UNTIL
+// SET RELEASE. CURRENT SET-CARD NUMBERING IS UNKNOWN.
+
+let b14_0AA = Card(series: "B14-0??N",
+                   name: "Corrin (M): Prince of a Shining Land",
+                   rarity: "Normal",
+                   insignia: hoshido,
+                   attack: 40,
+                   support: 20,
+                   illustrator: "Aoji",
+                   supportingSkill: heros_emblem,
+                   skills: [white_justice],
+                   cardImageName: "B14-0AA.png")
+
+let b14_0AB = Card(series: "B14-0??N",
+                   name: "Corrin (M): Song of Lamentation",
+                   rarity: "Normal",
+                   insignia: hoshido,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "Aoji",
+                   supportingSkill: none,
+                   skills: [feral_instinct, lost_reason],
+                   cardImageName: "B14-0AB.png")
+
+let b14_0AC = Card(series: "B14-0??SR",
+                   name: "Corrin (M): Dawn Breaks Through the Gloom",
+                   rarity: "Secret Rare",
+                   insignia: hoshido,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "Saori Toyota",
+                   supportingSkill: none,
+                   skills: [unbreakable_blade_and_heart, resonance_of_dragons_blood, you_of_the_light],
+                   cardImageName: "B14-0AC.png")
+
+let b14_0AD = Card(series: "B14-0??N",
+                   name: "Ryoma: Lightning Sword-in-Training",
+                   rarity: "Normal",
+                   insignia: hoshido,
+                   attack: 40,
+                   support: 20,
+                   illustrator: "Clover.K",
+                   supportingSkill: attack_emblem,
+                   skills: [family_uniting_regalia_sword],
+                   cardImageName: "B14-0AD.png")
+
+let b14_0AE = Card(series: "B14-0??R",
+                   name: "Ryoma: Prince Born of White Dragon Blood",
+                   rarity: "Rare",
+                   insignia: hoshido,
+                   attack: 70,
+                   support: 10,
+                   illustrator: "Clover.K",
+                   supportingSkill: none,
+                   skills: [lightning_taming_sword, resonance_of_dragons_blood, echoing_thunderclap],
+                   cardImageName: "B14-0AE.png")
+
+let b14_0AF = Card(series: "B14-0??R",
+                   name: "Chrom: Sealed Paladin",
+                   rarity: "Rare",
+                   insignia: mark_of_naga,
+                   attack: 70,
+                   support: 10,
+                   illustrator: "Clover.K",
+                   supportingSkill: none,
+                   skills: [banner_of_the_brand, leader_of_ylisse],
+                   cardImageName: "B14-0AF.png")
+
+let b14_0AG = Card(series: "B14-0??SR",
+                   name: "Lucina: Hope-Ruling Queen",
+                   rarity: "Secret Rare",
+                   insignia: mark_of_naga,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "Kotaro Yamada",
+                   supportingSkill: none,
+                   skills: [i_swear_i_will_vanquish_the_darkness_of_despair, i_will_bring_light_to_this_land, and_i_will_bring_hope_to_the_people],
+                   cardImageName: "B14-0AG.png")
+
+let b14_0AH = Card(series: "B14-0??R",
+                   name: "Cordelia: Beautiful Flier Paragon",
+                   rarity: "Rare",
+                   insignia: mark_of_naga,
+                   attack: 50,
+                   support: 30,
+                   illustrator: "Tetsu Kurosawa",
+                   supportingSkill: none,
+                   skills: [skillful_lancework, eternally_abreast_wings],
+                   cardImageName: "B14-0AH.png")
+
+let b14_0AI = Card(series: "B14-0??R",
+                   name: "Severa: Girl of the Paragon’s Blood",
+                   rarity: "Rare",
+                   insignia: mark_of_naga,
+                   attack: 50,
+                   support: 30,
+                   illustrator: "Tetsu Kurosawa",
+                   supportingSkill: none,
+                   skills: [yearning_after_the_flier, eternally_abreast_wings],
+                   cardImageName: "B14-0AI.png")
+
+let b14_0AJ = Card(series: "B14-0??N",
+                   name: "Elise: Mingled Tears",
+                   rarity: "Normal",
+                   insignia: nohr,
+                   attack: 40,
+                   support: 20,
+                   illustrator: "Foo Midori",
+                   supportingSkill: none,
+                   skills: [thats_the_way_try_to_be_at_peace, warmth_is_gone],
+                   cardImageName: "B14-0AJ.png")
+
+let b14_0AK = Card(series: "B14-0??N",
+                   name: "Felicia: Let’s Get to Work",
+                   rarity: "Normal",
+                   insignia: nohr,
+                   attack: 50,
+                   support: 20,
+                   illustrator: "Sachie",
+                   supportingSkill: none,
+                   skills: [super_sweet_service, covering_dagger],
+                   cardImageName: "B14-0AK.png")
+

@@ -2463,3 +2463,171 @@ let thundering_earth = Skill(name: "Thundering Earth",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let unbreakable_blade_and_heart = Skill(name: "Unbreakable Blade and Heart",
+                        description: "[ALWAYS] During your turn, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let resonance_of_dragons_blood = Skill(name: "Resonance of Dragon’s Blood",
+                        description: "[ALWAYS] This unit acquires all [DB] possessed by other allies. However, if there are multiple skills with the same skill name, he may only have 1 of those.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let you_of_the_light = Skill(name: "You of the Light",
+                        description: "[FLIP 1] Deploy a cost 3 or lower hoshido unit from your hand.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let thats_the_way_try_to_be_at_peace = Skill(name: "That’s the way… Try to be at peace…",
+                        description: "[TRIGGER] [TAP] When your lord is being attacked, you may pay the cost and if you do: This unit is attacked instead of your lord.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let warmth_is_gone = Skill(name: "Warmth Is Gone",
+                        description: "When this unit is destroyed, place her in the Boundless Area instead of sending her to the Retreat Area.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let super_sweet_service = Skill(name: "Super Sweet Service",
+                        description: "[ACT] [ONCE PER TURN] [TAP] Choose 1 card from your Retreat Area with the same unit name as your lord, and add it to your hand. Your opponent blindly chooses 1 card from your hand. You send that card to the Retreat Area.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let covering_dagger = Skill(name: "Covering Dagger",
+                        description: "[TRIGGER] [ONCE PER TURN] When your lord is being attacked until the end of this combat, your lord gains +10 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let banner_of_the_brand = Skill(name: "Banner of the Brand",
+                        description: "[TRIGGER] When this unit Class Changes, choose 1 ally. Until the end of your opponent’s next turn, for each card stacked beneath this card, that ally gains +20 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let leader_of_ylisse = Skill(name: "Leader of Ylisse",
+                        description: "[ACT] [ONCE PER TURN] [Flip 1 <Blue> bond cards face-down] Choose 1 “Chrom” from your Retreat Area, and add it to your hand.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let i_swear_i_will_vanquish_the_darkness_of_despair = Skill(name: "I swear, I will vanquish the darkness of despair…",
+                        description: "[SPECIAL] This card’s Class Change cost is calculated as the total number of orbs your opponent has x 1. (If your opponent has no orbs, it becomes 0.)",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let i_will_bring_light_to_this_land = Skill(name: "I will bring light to this land…",
+                        description: "[TRIGGER] When this unit changes class, until the end of the turn, for each card stacked beneath this card, other allies gain +10 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let and_i_will_bring_hope_to_the_people = Skill(name: "And I will bring hope to the people",
+                        description: "[TRIGGER] [FLIP 1] Each time a class changed ally’s attack destroys an enemy, you may pay the cost and if you do: Draw 1 card.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let family_uniting_regalia_sword = Skill(name: "Family-Uniting Regalia Sword",
+                        description: "[ACT] [Flip 2 <White> bond cards face-down] Until the end of the turn, this unit gains +20 attack and range 1-2.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let lightning_taming_sword = Skill(name: "Lightning-Taming Sword",
+                        description: "[ACT] [FLIP 1] Until the end of the turn, this unit gains range 1-2.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let echoing_thunderclap = Skill(name: "Echoing Thunderclap",
+                        description: "[ONCE PER TURN] [FLIP 1, Tap 2 <White> allies] Untap this unit.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let white_justice = Skill(name: "White Justice",
+                        description: "[ALWAYS] If you have an allied “Ryoma”, “Hinoka”, “Takumi” or “Sakura”, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let feral_instinct = Skill(name: "Feral Instinct",
+                        description: "[TRIGGER] When your turn ends, if you have no allied “Azura”, destroy this unit.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let lost_reason = Skill(name: "Lost Reason",
+                        description: "[ALWAYS] This unit cannot evade.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let skillful_lancework = Skill(name: "Skillful Lancework",
+                        description: "[ALWAYS] During your turn, this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: true)
+
+let eternally_abreast_wings = Skill(name: "Eternally Abreast Wings",
+                        description: "[TRIGGER] [FLIP 1] At the end of your turn, you may pay the cost and if you do: Choose 1 non-“Cordelia” card that is both <Blue> and <Flier> from your Retreat Area, and add it to your hand.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let yearning_after_the_flier = Skill(name: "Yearning After the Flier",
+                        description: "[ALWAYS] During your turn, if this unit is in the same area as 1 or more other <Flier> allies, this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

@@ -65,61 +65,69 @@ class CardViewController: UIViewController {
         let range = start..<end
         let seriesNumber = Int(series[range])! - 1
         
-        // Scraping each wab page of cards for the given card's series number
-        for pageURL in cardPriceURLs[seriesNumber] {
-            let url = URL(string: pageURL)!
-            let task = URLSession.shared.dataTask(with: url) { data, response, error in
-                
-                // Error occured
-                guard let data = data, error == nil else {
-                    print("\(String(describing: error))")
-                    return
-                }
-                
-                // Return HTML data string
-                let string = String(data: data, encoding: .utf8)!
-                innerHTML = String(describing: string)
-                
-                // Search for card in scraped HTML string
-                var currentSubstring = ""
-                var cardWasFound = false
-                var priceTagFound = false
-                for (_, char) in innerHTML.enumerated() {
-                    // Card was found
-                    if (currentSubstring.trimmingCharacters(in: .whitespaces) == series) {
-                        cardWasFound = true
-                    }
+        // Do not search store webpage for sets that are not yet released
+        if (seriesNumber != unreleasedSetNumber - 1) {
+            
+            // Scraping each web page of cards for the given card's series number
+            for pageURL in cardPriceURLs[seriesNumber] {
+                let url = URL(string: pageURL)!
+                let task = URLSession.shared.dataTask(with: url) { data, response, error in
                     
-                    // The current substring should contain the price at this point
-                    if (char == "<" && priceTagFound) {
-                        let cardPrice = currentSubstring.trimmingCharacters(in: .whitespaces)
-                        print("Card: " + (self.detailCard?.name)!)
-                        print("Price: " + cardPrice)
-                        
-                        // Make sure running in main thread when touching UIKit
-                        DispatchQueue.main.async {
-                            priceLabel.text = "$" + cardPrice
-                        }
-                        
+                    // Error occured
+                    guard let data = data, error == nil else {
+                        print("\(String(describing: error))")
                         return
                     }
                     
-                    // Check if reached the price substring
-                    if (cardWasFound && char == "$") {
-                        priceTagFound = true
-                    }
+                    // Return HTML data string
+                    let string = String(data: data, encoding: .utf8)!
+                    innerHTML = String(describing: string)
                     
-                    // Reset substring
-                    if (char == " ") {
-                        currentSubstring = ""
+                    // Search for card in scraped HTML string
+                    var currentSubstring = ""
+                    var cardWasFound = false
+                    var priceTagFound = false
+                    for (_, char) in innerHTML.enumerated() {
+                        // Card was found
+                        if (currentSubstring.trimmingCharacters(in: .whitespaces) == series) {
+                            cardWasFound = true
+                        }
+                        
+                        // The current substring should contain the price at this point
+                        if (char == "<" && priceTagFound) {
+                            let cardPrice = currentSubstring.trimmingCharacters(in: .whitespaces)
+                            print("Card: " + (self.detailCard?.name)!)
+                            print("Price: " + cardPrice)
+                            
+                            // Make sure running in main thread when touching UIKit
+                            DispatchQueue.main.async {
+                                priceLabel.text = "$" + cardPrice
+                            }
+                            
+                            return
+                        }
+                        
+                        // Check if reached the price substring
+                        if (cardWasFound && char == "$") {
+                            priceTagFound = true
+                        }
+                        
+                        // Reset substring
+                        if (char == " ") {
+                            currentSubstring = ""
+                        }
+                        
+                        // Add on to current substring
+                        currentSubstring.append(char)
                     }
-                    
-                    // Add on to current substring
-                    currentSubstring.append(char)
                 }
+                // Resume URL session task
+                task.resume()
             }
-            // Resume URL session task
-            task.resume()
+            
+        // Set is not yet released, no market price exists
+        } else {
+            priceLabel.text = "UNRELEASED"
         }
     }
     

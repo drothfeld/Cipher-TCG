@@ -216,7 +216,7 @@
                                     <constraint firstAttribute="height" constant="586" id="fAa-X2-nzM"/>
                                 </constraints>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="customCell" textLabel="glB-lA-1xG" detailTextLabel="MUx-iP-nkX" style="IBUITableViewCellStyleSubtitle" id="L8d-aE-gXd">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="customCell" textLabel="glB-lA-1xG" detailTextLabel="MUx-iP-nkX" style="IBUITableViewCellStyleSubtitle" id="L8d-aE-gXd">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="L8d-aE-gXd" id="FaE-M7-j1f">
