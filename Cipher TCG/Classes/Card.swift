@@ -51,10 +51,5 @@ class Card: Equatable {
     func isInFavoritesList() -> Bool {
         return favorite_cards.contains(self)
     }
-    
-    // Remove a card fromthe favorites list
-    func removeFromFavorites() {
-        
-    }
 }
 
