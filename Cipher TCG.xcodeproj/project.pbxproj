@@ -140,6 +140,8 @@
 		B08A6B482019065B00603113 /* loading_guitar.gif in Resources */ = {isa = PBXBuildFile; fileRef = B08A6B452019065A00603113 /* loading_guitar.gif */; };
 		B08A6B492019065B00603113 /* loading_fetch.gif in Resources */ = {isa = PBXBuildFile; fileRef = B08A6B462019065B00603113 /* loading_fetch.gif */; };
 		B08A6B4B20190E8100603113 /* AnimationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08A6B4A20190E8100603113 /* AnimationList.swift */; };
+		B094C4822135D84500DC2870 /* favorite_button.png in Resources */ = {isa = PBXBuildFile; fileRef = B094C4812135D84400DC2870 /* favorite_button.png */; };
+		B094C4852135DACF00DC2870 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = B094C4842135DACF00DC2870 /* Favorites.swift */; };
 		B095F77420CAEC88009638E0 /* B12-037.png in Resources */ = {isa = PBXBuildFile; fileRef = B095F77320CAEC87009638E0 /* B12-037.png */; };
 		B09632DB20CC43350050F90F /* B05-077.png in Resources */ = {isa = PBXBuildFile; fileRef = B09632DA20CC43350050F90F /* B05-077.png */; };
 		B09632DD20CC446F0050F90F /* B03-032.png in Resources */ = {isa = PBXBuildFile; fileRef = B09632DC20CC446E0050F90F /* B03-032.png */; };
@@ -363,6 +365,8 @@
 		B08A6B452019065A00603113 /* loading_guitar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading_guitar.gif; sourceTree = "<group>"; };
 		B08A6B462019065B00603113 /* loading_fetch.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading_fetch.gif; sourceTree = "<group>"; };
 		B08A6B4A20190E8100603113 /* AnimationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationList.swift; sourceTree = "<group>"; };
+		B094C4812135D84400DC2870 /* favorite_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorite_button.png; sourceTree = "<group>"; };
+		B094C4842135DACF00DC2870 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
 		B095F77320CAEC87009638E0 /* B12-037.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B12-037.png"; sourceTree = "<group>"; };
 		B09632DA20CC43350050F90F /* B05-077.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B05-077.png"; sourceTree = "<group>"; };
 		B09632DC20CC446E0050F90F /* B03-032.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B03-032.png"; sourceTree = "<group>"; };
@@ -712,6 +716,7 @@
 				B08A6B4A20190E8100603113 /* AnimationList.swift */,
 				B0D1ABDD2114DEDE0051935A /* CardPriceURLs.swift */,
 				B0303B97213496DA00F78A00 /* BoxSets.swift */,
+				B094C4842135DACF00DC2870 /* Favorites.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -731,6 +736,7 @@
 				B08A6B3C201900AD00603113 /* cipher_launch_screen.png */,
 				B03D58032012D169007A3E97 /* cipher_header.png */,
 				B09EA0662106421C00FDCCEF /* card_placeholder.png */,
+				B094C4812135D84400DC2870 /* favorite_button.png */,
 				B08A6B432019064900603113 /* Loading Gifs */,
 				B0B7E3EB20150E7900331FC3 /* Supporting Skill Categories */,
 				B03D57D32012CCEF007A3E97 /* Insignia Categories */,
@@ -1078,6 +1084,7 @@
 				B0803DF420FBC8A9002CCCD8 /* B11-009.png in Resources */,
 				B03D57F62012CD14007A3E97 /* B10-076.png in Resources */,
 				B00C1A2020FA6C9A00051DF5 /* B11-006.png in Resources */,
+				B094C4822135D84500DC2870 /* favorite_button.png in Resources */,
 				B03D57CA2012CCE0007A3E97 /* B07-086.png in Resources */,
 				B03D57C92012CCE0007A3E97 /* B07-053.png in Resources */,
 				B03D57FE2012CD14007A3E97 /* B10-080.png in Resources */,
@@ -1193,6 +1200,7 @@
 				B03D580F2013C1A0007A3E97 /* SegueFromRight.swift in Sources */,
 				B054BBDD200E8A0A004159A6 /* Skills.swift in Sources */,
 				B03D580D2013C100007A3E97 /* SegueFromLeft.swift in Sources */,
+				B094C4852135DACF00DC2870 /* Favorites.swift in Sources */,
 				B08A6B1F201661C300603113 /* MenuViewController.swift in Sources */,
 				B054BBE5200EA4DA004159A6 /* SupportingSkills.swift in Sources */,
 				B054BBE1200E9E8A004159A6 /* Insignias.swift in Sources */,

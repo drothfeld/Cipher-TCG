@@ -216,7 +216,7 @@
                                     <constraint firstAttribute="height" constant="586" id="fAa-X2-nzM"/>
                                 </constraints>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="customCell" textLabel="glB-lA-1xG" detailTextLabel="MUx-iP-nkX" style="IBUITableViewCellStyleSubtitle" id="L8d-aE-gXd">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="customCell" textLabel="glB-lA-1xG" detailTextLabel="MUx-iP-nkX" style="IBUITableViewCellStyleSubtitle" id="L8d-aE-gXd">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="L8d-aE-gXd" id="FaE-M7-j1f">
@@ -419,6 +419,14 @@
                                             <segue destination="o1b-Zz-bjG" kind="popoverPresentation" popoverAnchorView="jue-K7-y9L" id="QE9-aR-HPz">
                                                 <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                             </segue>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" alpha="0.25" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7nQ-Qg-TQE" userLabel="Favorite Button">
+                                        <rect key="frame" x="162" y="6" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="favorite_button.png"/>
+                                        <connections>
+                                            <action selector="favoriteCardButtonPressed:" destination="PI4-7j-J4h" eventType="touchUpInside" id="fQ6-n6-Ev2"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -626,10 +634,11 @@
         <image name="30px-White.png" width="30" height="30"/>
         <image name="30px-Yellow.png" width="30" height="30"/>
         <image name="cipher_header.png" width="1224" height="444"/>
+        <image name="favorite_button.png" width="500" height="500"/>
         <image name="loading_fetch.gif" width="600" height="400"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="CJv-bm-6cT"/>
+        <segue reference="8ih-mp-VFz"/>
         <segue reference="QE9-aR-HPz"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -187,6 +187,11 @@ class CardViewController: UIViewController {
         }
     }
     
+    // User presses the add/remove card to favorites list button
+    @IBAction func favoriteCardButtonPressed(_ sender: Any) {
+        
+    }
+    
     // Hiding status bar
     override var prefersStatusBarHidden: Bool {
         return true
