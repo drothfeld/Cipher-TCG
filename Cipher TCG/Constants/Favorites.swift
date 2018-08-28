@@ -6,4 +6,4 @@
 //  Copyright © 2018 Dylan Rothfeld. All rights reserved.
 //
 
-let favorite_cards: [Card] = []
+var favorite_cards: [Card] = []

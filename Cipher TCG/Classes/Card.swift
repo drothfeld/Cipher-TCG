@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Card {
+class Card: Equatable {
     // Fields
     var series: String
     var name: String
@@ -40,6 +40,21 @@ class Card {
         } else {
             self.cardImage = nil
         }
+    }
+    
+    // Checks if two cards are equatable
+    static func ==(cardA: Card, cardB: Card) -> Bool {
+        return cardA.name == cardB.name
+    }
+    
+    // Check if card is in favorites list
+    func isInFavoritesList() -> Bool {
+        return favorite_cards.contains(self)
+    }
+    
+    // Remove a card fromthe favorites list
+    func removeFromFavorites() {
+        
     }
 }
 

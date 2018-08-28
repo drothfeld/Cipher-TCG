@@ -612,6 +612,7 @@
                         <outlet property="CardSupportingSkillText" destination="ds5-v6-nco" id="L6g-13-dYS"/>
                         <outlet property="HeaderView" destination="48J-Nh-E77" id="zyN-qo-Rob"/>
                         <outlet property="IllustratorTitleText" destination="2vb-QZ-AUS" id="5ft-o5-nPk"/>
+                        <outlet property="MenuBarFavoriteButton" destination="7nQ-Qg-TQE" id="ziB-mH-Ien"/>
                         <outlet property="RarityTitleText" destination="Ib0-NA-Qaa" id="3af-Rr-CjQ"/>
                         <outlet property="SeriesTitleText" destination="Jky-fa-qgr" id="baJ-jK-0uO"/>
                         <outlet property="SkillsTitleText" destination="bKT-PU-Rr4" id="eza-rT-zwx"/>

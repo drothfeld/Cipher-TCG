@@ -32,6 +32,7 @@ class CardViewController: UIViewController {
     @IBOutlet weak var SkillsTitleText: UILabel!
     @IBOutlet weak var CardSkillsText: UITextView!
     @IBOutlet weak var CardPriceText: UILabel!
+    @IBOutlet weak var MenuBarFavoriteButton: UIButton!
     
     // Defined Values
     var detailCard: Card? {
@@ -154,6 +155,11 @@ class CardViewController: UIViewController {
                 // Setting up Interface
                 HeaderView.dropShadow()
                 
+                // Change alpha of favorite button if card is in the favorites list
+                if detailCard.isInFavoritesList() {
+                    MenuBarFavoriteButton.alpha = 1.00
+                }
+                
                 // Assigning Values to UI Elements
                 CardImage.image = detailCard.cardImage
                 CardNameText.text = detailCard.name
@@ -189,7 +195,17 @@ class CardViewController: UIViewController {
     
     // User presses the add/remove card to favorites list button
     @IBAction func favoriteCardButtonPressed(_ sender: Any) {
-        
+        // Card is already in list, remove it
+        if (detailCard?.isInFavoritesList())! {
+            MenuBarFavoriteButton.alpha = 0.25
+            favorite_cards = favorite_cards.filter { $0 != detailCard }
+        }
+            
+        // Card is not in list, add it
+        else {
+            MenuBarFavoriteButton.alpha = 1.00
+            favorite_cards.append(detailCard!)
+        }
     }
     
     // Hiding status bar
