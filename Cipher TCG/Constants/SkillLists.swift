@@ -337,4 +337,6 @@ let rawSkillsList: [Skill] = [
     skillful_lancework,
     eternally_abreast_wings,
     yearning_after_the_flier,
+    sky_riding_fighting_spirit,
+    blue_sky_whirlwind,
 ]

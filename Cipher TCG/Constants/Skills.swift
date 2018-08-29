@@ -2465,7 +2465,7 @@ let thundering_earth = Skill(name: "Thundering Earth",
                         CCS: false)
 
 let unbreakable_blade_and_heart = Skill(name: "Unbreakable Blade and Heart",
-                        description: "[ALWAYS] During your turn, this unit gains +10 attack.",
+                        description: "[ALWAYS] [DB] During your turn, this unit gains +10 attack.",
                         colorType: UIColor.green,
                         flippedBonds: 0,
                         flipOrb: false,
@@ -2481,7 +2481,7 @@ let resonance_of_dragons_blood = Skill(name: "Resonance of Dragon’s Blood",
                         CCS: false)
 
 let you_of_the_light = Skill(name: "You of the Light",
-                        description: "[FLIP 1] Deploy a cost 3 or lower hoshido unit from your hand.",
+                        description: "[ Flip 1 Bond ] Choose 1 White card from your hand with a Deployment Cost of 3 or lower, and deploy them.",
                         colorType: UIColor.red,
                         flippedBonds: 1,
                         flipOrb: false,
@@ -2569,7 +2569,7 @@ let family_uniting_regalia_sword = Skill(name: "Family-Uniting Regalia Sword",
                         CCS: false)
 
 let lightning_taming_sword = Skill(name: "Lightning-Taming Sword",
-                        description: "[ACT] [FLIP 1] Until the end of the turn, this unit gains range 1-2.",
+                        description: "[ACT] [FLIP 1] [DB] Until the end of the turn, this unit gains range 1-2.",
                         colorType: UIColor.red,
                         flippedBonds: 1,
                         flipOrb: false,
@@ -2628,6 +2628,22 @@ let yearning_after_the_flier = Skill(name: "Yearning After the Flier",
                         description: "[ALWAYS] During your turn, if this unit is in the same area as 1 or more other <Flier> allies, this unit gains +20 attack.",
                         colorType: UIColor.green,
                         flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let sky_riding_fighting_spirit = Skill(name: "Sky-Riding Fighting Spirit",
+                        description: "[DB] Move this unit. This skill cannot be used unless this unit is in the Front Line.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let blue_sky_whirlwind = Skill(name: "Blue-Sky Whirlwind",
+                        description: "[ Flip 1 Bond ] Choose as many enemies with a Deployment Cost of 2 or lower as you wish, and move them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)

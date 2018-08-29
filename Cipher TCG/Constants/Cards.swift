@@ -1903,3 +1903,25 @@ let b14_0AK = Card(series: "B14-0??N",
                    skills: [super_sweet_service, covering_dagger],
                    cardImageName: "B14-0AK.png")
 
+let b14_0AL = Card(series: "B14-0??N",
+                   name: "Hinoka: Valiant Sky-Riding Princess",
+                   rarity: "Normal",
+                   insignia: hoshido,
+                   attack: 30,
+                   support: 30,
+                   illustrator: "Fumi Hasumi",
+                   supportingSkill: none,
+                   skills: [winged_deliverer],
+                   cardImageName: "B14-0AL.png")
+
+let b14_0AM = Card(series: "B14-0??R",
+                   name: "Hinoka: Blue-Sky-Wheeling Crimson Princess",
+                   rarity: "Rare",
+                   insignia: hoshido,
+                   attack: 50,
+                   support: 30,
+                   illustrator: "Fumi Hasumi",
+                   supportingSkill: none,
+                   skills: [sky_riding_fighting_spirit, resonance_of_dragons_blood, blue_sky_whirlwind],
+                   cardImageName: "B14-0AM.png")
+
