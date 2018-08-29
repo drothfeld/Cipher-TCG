@@ -8,16 +8,31 @@
 
 import UIKit
 
-class SupportingSkill {
+class SupportingSkill: NSObject, NSCoding {
     // Fields
     var type: String
-    var description: String
+    var textDescription: String
     var iconImage: UIImage
     
     // Constructor
-    init(type: String, description: String, iconImage: UIImage) {
+    init(type: String, textDescription: String, iconImage: UIImage) {
         self.type = type
-        self.description = description
+        self.textDescription = textDescription
         self.iconImage = iconImage
+    }
+    
+    // Decoding for userDefaults
+    required convenience init(coder decoder: NSCoder) {
+        let type = decoder.decodeObject(forKey: "type") as? String ?? ""
+        let textDescription = decoder.decodeObject(forKey: "textDescription") as? String ?? ""
+        let iconImage = decoder.decodeObject(forKey: "iconImage") as? UIImage ?? #imageLiteral(resourceName: "card_placeholder.png")
+        self.init(type: type, textDescription: textDescription, iconImage: iconImage)
+    }
+    
+    // Encoding for userDefaults
+    func encode(with coder: NSCoder) {
+        coder.encode(type, forKey: "type")
+        coder.encode(textDescription, forKey: "textDescription")
+        coder.encode(iconImage, forKey: "iconImage")
     }
 }

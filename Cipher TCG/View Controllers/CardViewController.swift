@@ -175,7 +175,7 @@ class CardViewController: UIViewController {
                 if (detailCard.supportingSkill.type != "None") {
                     SupportingSkillTitleText.isHidden = false
                     CardSupportingSkillImage.isHidden = false
-                    CardSupportingSkillText.text = detailCard.supportingSkill.type + " - " + detailCard.supportingSkill.description
+                    CardSupportingSkillText.text = detailCard.supportingSkill.type + " - " + detailCard.supportingSkill.textDescription
                     CardSupportingSkillImage.image = detailCard.supportingSkill.iconImage
                 } else {
                     SupportingSkillTitleText.isHidden = true
@@ -186,7 +186,7 @@ class CardViewController: UIViewController {
                 // Skills Text
                 var skillsLongString: String = ""
                 for (index, skill) in detailCard.skills.enumerated() {
-                    skillsLongString = skillsLongString + "Skill " + String(index + 1) + ": " + skill.name + " - " + skill.description + "\n \n"
+                    skillsLongString = skillsLongString + "Skill " + String(index + 1) + ": " + skill.name + " - " + skill.textdescription + "\n \n"
                 }
                 CardSkillsText.text = skillsLongString
             }
@@ -198,7 +198,7 @@ class CardViewController: UIViewController {
         // Card is already in list, remove it
         if (detailCard?.isInFavoritesList())! {
             MenuBarFavoriteButton.alpha = 0.25
-            favorite_cards = favorite_cards.filter { $0 != detailCard }
+            detailCard?.removeFromFavoritesList()
         }
             
         // Card is not in list, add it
@@ -206,6 +206,10 @@ class CardViewController: UIViewController {
             MenuBarFavoriteButton.alpha = 1.00
             favorite_cards.append(detailCard!)
         }
+        
+        // Update userDefaults saved favorite card data
+        let encodedData = NSKeyedArchiver.archivedData(withRootObject: favorite_cards)
+        UserDefaults.standard.set(encodedData, forKey: "favoriteCardData")
     }
     
     // Hiding status bar

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Insignia {
+class Insignia: NSObject, NSCoding {
     
     // Fields
     var name: String
@@ -25,5 +25,20 @@ class Insignia {
         } else {
             self.iconImage = nil
         }
+    }
+    
+    // Decoding for userdefaults
+    required convenience init(coder decoder: NSCoder) {
+        let name = decoder.decodeObject(forKey: "name") as? String ?? ""
+        let color = decoder.decodeObject(forKey: "color") as? UIColor ?? .black
+        let iconImageName = decoder.decodeObject(forKey: "iconImageName") as? String ?? ""
+        self.init(name: name, color: color, iconImageName: iconImageName)
+    }
+    
+    // Encoding for userdefaults
+    func encode(with coder: NSCoder) {
+        coder.encode(name, forKey: "name")
+        coder.encode(color, forKey: "color")
+        coder.encode(iconImage, forKey: "iconImageName")
     }
 }

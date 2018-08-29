@@ -1910,7 +1910,7 @@ let b14_0AL = Card(series: "B14-0??N",
                    attack: 30,
                    support: 30,
                    illustrator: "Fumi Hasumi",
-                   supportingSkill: none,
+                   supportingSkill: flying_emblem,
                    skills: [winged_deliverer],
                    cardImageName: "B14-0AL.png")
 

@@ -8,6 +8,9 @@
 
 import UIKit
 
+// TODO:
+// FIX LOG WARNING FOR EACH SAVED CARD: [framework] CUICatalog: Invalid asset name supplied: ''
+
 class CardListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate {
     
     // User Interface Outlets
@@ -45,6 +48,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         interfaceSetup()
         refreshTable()
         searchBarSetup()
+        loadFavoriteCardData()
     }
     
     // Number of Rows
@@ -284,6 +288,35 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
             filteredRawCardList = sortedRawCardList.filter({$0.insignia.name.contains(colorless.name)})
         }
         CardListTableView.reloadData()
+    }
+    
+    // Load favorite card data
+    func loadFavoriteCardData() {
+        NSLog("\n")
+        if let data = UserDefaults.standard.data(forKey: "favoriteCardData"),
+            // Loaded data from userDefaults
+            let savedfavoriteCardData = NSKeyedUnarchiver.unarchiveObject(with: data) as? [Card] {
+            NSLog("Successfully loaded favorite card data from userDefaults.")
+            favorite_cards = savedfavoriteCardData
+        } else {
+            // An error occured, favorite card list will be blank
+            let encodedData = NSKeyedArchiver.archivedData(withRootObject: favorite_cards)
+            UserDefaults.standard.set(encodedData, forKey: "favoriteCardData")
+            NSLog("There was an issue loading favorite card data from userDefaults.")
+        }
+        
+        // DEBUG
+        for card in favorite_cards {
+            NSLog("     " + card.name)
+        }
+    }
+    
+    // Reset favorite card list saved data
+    // Mostly used for testing
+    private func resetFavoriteCardData() {
+        favorite_cards = []
+        let encodedData = NSKeyedArchiver.archivedData(withRootObject: favorite_cards)
+        UserDefaults.standard.set(encodedData, forKey: "favoriteCardData")
     }
 }
 
