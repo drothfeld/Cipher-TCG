@@ -844,6 +844,17 @@ let b08_010 = Card(series: "B08-010R",
                    skills: [dukes_conquest, bowbreaker, wingbane],
                    cardImageName: "B08-010.png")
 
+let b08_033 = Card(series: "B08-033R",
+                   name: "Owain: Bearer of Royal Lineage",
+                   rarity: "Rare",
+                   insignia: mark_of_naga,
+                   attack: 60,
+                   support: 10,
+                   illustrator: "BISAI",
+                   supportingSkill: none,
+                   skills: [final_impact_of_the_end, catalogue_of_ultimate_techniques, all_or_nothing2],
+                   cardImageName: "B08-033.png")
+
 let b08_039 = Card(series: "B08-039R",
                    name: "Immortal Voice, Tiki",
                    rarity: "Rare",
@@ -1924,4 +1935,15 @@ let b14_0AM = Card(series: "B14-0??R",
                    supportingSkill: none,
                    skills: [sky_riding_fighting_spirit, resonance_of_dragons_blood, blue_sky_whirlwind],
                    cardImageName: "B14-0AM.png")
+
+let b14_0AN = Card(series: "B14-0??R",
+                   name: "Owain: That is the Name of this Forger of Legends",
+                   rarity: "Rare",
+                   insignia: mark_of_naga,
+                   attack: 70,
+                   support: 10,
+                   illustrator: "Rika Suzuki",
+                   supportingSkill: none,
+                   skills: [i_thus_engrave_my_name_into_your_very_soul, endless_legend],
+                   cardImageName: "B14-0AN.png")
 

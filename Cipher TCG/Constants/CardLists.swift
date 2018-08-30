@@ -95,6 +95,7 @@ let rawCardsList: [Card] = [
     b08_006,
     b08_009,
     b08_010,
+    b08_033,
     b08_039,
     b08_047,
     b08_048,
@@ -199,4 +200,5 @@ let rawCardsList: [Card] = [
     b14_0AK,
     b14_0AL,
     b14_0AM,
+    b14_0AN,
 ]

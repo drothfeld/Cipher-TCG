@@ -339,4 +339,9 @@ let rawSkillsList: [Skill] = [
     yearning_after_the_flier,
     sky_riding_fighting_spirit,
     blue_sky_whirlwind,
+    i_thus_engrave_my_name_into_your_very_soul,
+    endless_legend,
+    final_impact_of_the_end,
+    catalogue_of_ultimate_techniques,
+    all_or_nothing2,
 ]

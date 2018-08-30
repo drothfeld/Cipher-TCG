@@ -2647,3 +2647,43 @@ let blue_sky_whirlwind = Skill(name: "Blue-Sky Whirlwind",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let i_thus_engrave_my_name_into_your_very_soul = Skill(name: "I thus engrave my name into your very soul!",
+                        description: "When this unit class changes, until the end of the turn, the number of orbs destroyed by this unit increases by 1 for each card stacked beneath this card.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let endless_legend = Skill(name: "Endless Legend",
+                        description: "[ Flip 1 Bond ] When this unit's attack destroys an enemy besides the Main Character, if you pay the cost, untap this unit.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let final_impact_of_the_end = Skill(name: "FINAL IMPACT OF THE END!",
+                        description: "[Discard two 'Owain'] Until the end of this turn, the number of orbs this unit's attacks would destroy becomes 3.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let catalogue_of_ultimate_techniques = Skill(name: "Catalogue of Ultimate Techniques",
+                        description: "[Discard an 'Owain'] Untap this unit.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let all_or_nothing2 = Skill(name: "All or Nothing",
+                        description: "This unit cannot evade enemy attacks.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
