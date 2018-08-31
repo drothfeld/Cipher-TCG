@@ -344,4 +344,9 @@ let rawSkillsList: [Skill] = [
     final_impact_of_the_end,
     catalogue_of_ultimate_techniques,
     all_or_nothing2,
+    dark_silence,
+    heir_to_the_dark_blade,
+    unspoken_feelings,
+    golden_maneuvers,
+    scarlet_command,
 ]

@@ -2687,3 +2687,43 @@ let all_or_nothing2 = Skill(name: "All or Nothing",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let dark_silence = Skill(name: "Dark Silence",
+                        description: "[FLIP 1] Destroy all non-lord <Tome> enemies. If 1 or more enemies are destroyed by this skill, then until the end of your opponent's next turn, your opponent is unable to deploy <Tome> cards.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let heir_to_the_dark_blade = Skill(name: "Heir to the Dark Blade",
+                        description: "[ONCE PER TURN] When an enemy is destroyed, until the end of the turn, this unit gains +30 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let unspoken_feelings = Skill(name: "Unspoken Feelings",
+                        description: "[ALWAYS] If this unit is supported by “Greil”, this unit gains +30 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let golden_maneuvers = Skill(name: "Golden Maneuvers",
+                        description: "[FLIP 1] Until the end of your opponent’s next turn, all [LVS-2], [LVS-3], [LVS-4] and [LVS-5] possessed by allies become usable.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let scarlet_command = Skill(name: "Scarlet Command",
+                        description: "[ONCE PER TURN] Choose as many allies as you wish, and move them. ([LVS-3] becomes usable if a total of 3 or more cards are stacked with this unit.)",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
