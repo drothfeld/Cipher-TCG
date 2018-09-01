@@ -2727,3 +2727,43 @@ let scarlet_command = Skill(name: "Scarlet Command",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let legendary_divine_knight = Skill(name: "Legendary Divine Knight",
+                        description: "[ONCE PER TURN] [FLIP 1] Until the end of your opponent’s next turn, all <Green> allies gain +10 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let peerless_swordplay = Skill(name: "Peerless Swordplay",
+                        description: "[TRIGGER] When this unit attacks your opponent’s lord, choose 1 of your opponent’s orbs and destroy it. After this, if your opponent has no orbs, destroy all non-lord enemies. ([LVS-5] becomes usable if a total of 5 or more cards are stacked with this unit.)",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let corporally_learned_swordplay = Skill(name: "Corporally-Learned Swordplay",
+                        description: "[ACT] [ONCE PER TURN] [FLIP 1] Until the end of the turn, this unit gains +30 attack. ([LVS-2] comes into effect if a total of 2 or more cards are stacked with this unit.)",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let his_late_fathers_urvan = Skill(name: "His Late Father’s Urvan",
+                        description: "[ALWAYS] If this unit is attacking your opponent’s lord, this unit gains +30 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let general_ikes_command = Skill(name: "General Ike’s Command",
+                        description: "[TRIGGER] [FLIP 1] When this unit’s attack destroys an enemy, you may pay the cost and if you do: Move all enemies in the Back Line.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

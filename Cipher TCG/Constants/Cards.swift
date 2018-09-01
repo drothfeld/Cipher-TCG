@@ -1980,3 +1980,36 @@ let b14_0AQ = Card(series: "B14-0??SR",
                    skills: [golden_maneuvers, scarlet_command],
                    cardImageName: "B14-0AQ.png")
 
+let b14_0AR = Card(series: "B14-0??SR",
+                   name: "Gawain: Unsurpassed Legend",
+                   rarity: "Secret Rare",
+                   insignia: medallion,
+                   attack: 70,
+                   support: 10,
+                   illustrator: "Senri Kita",
+                   supportingSkill: none,
+                   skills: [legendary_divine_knight, peerless_swordplay, mercenary_leader_to_be],
+                   cardImageName: "B14-0AR.png")
+
+let b14_0AS = Card(series: "B14-0??N",
+                   name: "Ike: Son of the Mercenaries’ Commander",
+                   rarity: "Normal",
+                   insignia: medallion,
+                   attack: 40,
+                   support: 20,
+                   illustrator: "Senri Kita",
+                   supportingSkill: tandem_emblem,
+                   skills: [corporally_learned_swordplay],
+                   cardImageName: "B14-0AS.png")
+
+let b14_0AT = Card(series: "B14-0??R",
+                   name: "Ike: Heir to His Father’s Spirit",
+                   rarity: "Rare",
+                   insignia: medallion,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "Senri Kita",
+                   supportingSkill: none,
+                   skills: [his_late_fathers_urvan, general_ikes_command],
+                   cardImageName: "B14-0AT.png")
+

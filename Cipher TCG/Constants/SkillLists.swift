@@ -349,4 +349,9 @@ let rawSkillsList: [Skill] = [
     unspoken_feelings,
     golden_maneuvers,
     scarlet_command,
+    legendary_divine_knight,
+    peerless_swordplay,
+    corporally_learned_swordplay,
+    his_late_fathers_urvan,
+    general_ikes_command,
 ]

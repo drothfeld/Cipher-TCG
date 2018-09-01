@@ -52,6 +52,10 @@ let fate_emblem = SupportingSkill(type: "Fate Emblem",
                                       textDescription: "If the attacking unit is the same color as this support card, draw 1 card, then choose 1 card from your hand and place it on top of your deck.",
                                       iconImage: #imageLiteral(resourceName: "28px-Attack_Support.png"))
 
+let tandem_emblem = SupportingSkill(type: "Tandem Emblem",
+                                  textDescription: "Until the end of this combat, your <COLOR> attacking unit gains +10 attack.",
+                                  iconImage: #imageLiteral(resourceName: "28px-Attack_Support.png"))
+
 let cover_emblem = SupportingSkill(type: "Cover Emblem",
                                   textDescription: "After this battle, you may move your attacking unit.",
                                   iconImage: #imageLiteral(resourceName: "28px-Attack_Support.png"))
