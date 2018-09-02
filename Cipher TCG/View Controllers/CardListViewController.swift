@@ -26,6 +26,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     @IBOutlet weak var PurpleFilterButton: UIButton!
     @IBOutlet weak var YellowFilterButton: UIButton!
     @IBOutlet weak var ColorlessFilterButton: UIButton!
+    @IBOutlet weak var FavoritesFilterButton: UIButton!
     
     // Defined Values
     var sortedRawCardList: [Card] = []
@@ -162,6 +163,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
                 deactivateFilterButton(button: button)
             }
         }
+        deactivateFilterButton(button: FavoritesFilterButton)
     }
     
     // Deactivate filter button
@@ -289,6 +291,21 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         }
         CardListTableView.reloadData()
     }
+    
+    // Filter favorite cards
+    @IBAction func filterFavoriteCardsButtonPressed(_ sender: Any) {
+        let buttonPressed = sender as! UIButton
+        // Deactivate filter
+        if (buttonPressed.alpha == 1.0) {
+            deactivateFilterButton(button: buttonPressed)
+            // Activate filter
+        } else {
+            activateFilterButton(button: buttonPressed)
+            filteredRawCardList = favorite_cards
+        }
+        CardListTableView.reloadData()
+    }
+    
     
     // Load favorite card data
     func loadFavoriteCardData() {

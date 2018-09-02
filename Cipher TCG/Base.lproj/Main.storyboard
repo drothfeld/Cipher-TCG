@@ -160,7 +160,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C74-fr-YDl" userLabel="Footer View">
                                 <rect key="frame" x="0.0" y="644" width="375" height="23"/>
                                 <subviews>
-                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="v-0.3.1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BMT-pb-H2J" userLabel="Version Display Text">
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="v-0.3.2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BMT-pb-H2J" userLabel="Version Display Text">
                                         <rect key="frame" x="4" y="12" width="31" height="8"/>
                                         <fontDescription key="fontDescription" name="Arial-ItalicMT" family="Arial" pointSize="10"/>
                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -339,6 +339,14 @@
                                             <action selector="filterColorlessCardsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H8h-wV-R7K"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" alpha="0.5" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12e-6M-kFq" userLabel="Sort Favorites Button">
+                                        <rect key="frame" x="8" y="55" width="20" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="favorite_button.png"/>
+                                        <connections>
+                                            <action selector="filterFavoriteCardsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sDe-Rk-SfL"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
@@ -370,6 +378,7 @@
                         <outlet property="CardListTableView" destination="2ZS-RV-4qz" id="N8t-V0-sD4"/>
                         <outlet property="CardListViewHeightConstraint" destination="fAa-X2-nzM" id="kV5-ze-kc6"/>
                         <outlet property="ColorlessFilterButton" destination="208-gH-0b9" id="ySC-8W-yHC"/>
+                        <outlet property="FavoritesFilterButton" destination="12e-6M-kFq" id="hxD-MC-iO2"/>
                         <outlet property="GreenFilterButton" destination="jv8-pd-wkV" id="CR0-3o-bSk"/>
                         <outlet property="HeaderView" destination="bCi-jW-AfE" id="2Xg-u8-cMm"/>
                         <outlet property="PurpleFilterButton" destination="xjr-hE-RDH" id="Uy3-9A-ZxS"/>
@@ -640,6 +649,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="CJv-bm-6cT"/>
-        <segue reference="QE9-aR-HPz"/>
+        <segue reference="cac-9f-3tE"/>
     </inferredMetricsTieBreakers>
 </document>
