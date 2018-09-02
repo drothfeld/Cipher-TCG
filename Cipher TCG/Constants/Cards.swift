@@ -1548,6 +1548,50 @@ let b12_022 = Card(series: "B12-022N",
                    skills: [how_do_you_do_sir_makalov, wingbane],
                    cardImageName: "B12-022.png")
 
+let b12_023 = Card(series: "B12-023HN",
+                   name: "Makalov: Peerless Layabout",
+                   rarity: "High Normal",
+                   insignia: medallion,
+                   attack: 60,
+                   support: 10,
+                   illustrator: "Tetsu Kurosawa",
+                   supportingSkill: none,
+                   skills: [oogh_my_stomach, work_time_if_this_pays_off_my_debts],
+                   cardImageName: "B12-023.png")
+
+let b12_024 = Card(series: "B12-024N",
+                   name: "Makalov: Ne'er-Do-Well Brother",
+                   rarity: "Normal",
+                   insignia: medallion,
+                   attack: 40,
+                   support: 10,
+                   illustrator: "Tetsu Kurosawa",
+                   supportingSkill: attack_emblem,
+                   skills: [begging_for_gold],
+                   cardImageName: "B12-024.png")
+
+let b12_025 = Card(series: "B12-025R",
+                   name: "Stefan: Lion-Blooded",
+                   rarity: "Rare",
+                   insignia: medallion,
+                   attack: 70,
+                   support: 10,
+                   illustrator: "nNekoR",
+                   supportingSkill: none,
+                   skills: [vague_katti, fated_astra],
+                   cardImageName: "B12-025.png")
+
+let b12_026 = Card(series: "B12-026N",
+                   name: "Stefan: Myrmidon of the Hidden Village",
+                   rarity: "Normal",
+                   insignia: medallion,
+                   attack: 40,
+                   support: 10,
+                   illustrator: "nNekoR",
+                   supportingSkill: attack_emblem,
+                   skills: [heros_descendant],
+                   cardImageName: "B12-026.png")
+
 let b12_037 = Card(series: "B12-037SR",
                    name: "Fearsome Blade General, Black Knight",
                    rarity: "Secret Rare",

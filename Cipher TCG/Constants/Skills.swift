@@ -2767,3 +2767,51 @@ let general_ikes_command = Skill(name: "General Ike’s Command",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let oogh_my_stomach = Skill(name: "Oogh... My stomach...",
+                        description: "During your Beginning Phase, this unit cannot be untapped.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let work_time_if_this_pays_off_my_debts = Skill(name: "Work time... If this pays off my debts....",
+                        description: "[Send 2 cards from your hand to the Retreat Area] Reveal the top card of your opponent's deck. If that card has a deployment cost of 4 or more, draw 3 cards and untap this unit.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let begging_for_gold = Skill(name: "Begging for Gold",
+                        description: "At the start of your Action Phase, choose 1 Mounted ally, and move them.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let vague_katti = Skill(name: "Vague Katti",
+                        description: "If a total of 4 or more cards are stacked with your lord, this unit's attacks cannot be evaded by non-lord enemies.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let fated_astra = Skill(name: "Fated Astra",
+                        description: "Each time you growth your lord, untap this unit.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let heros_descendant = Skill(name: "Hero's Descendant",
+                        description: "When you growth your lord, until the end of the turn, this unit gains +20 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

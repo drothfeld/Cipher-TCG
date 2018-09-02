@@ -354,4 +354,10 @@ let rawSkillsList: [Skill] = [
     corporally_learned_swordplay,
     his_late_fathers_urvan,
     general_ikes_command,
+    oogh_my_stomach,
+    work_time_if_this_pays_off_my_debts,
+    begging_for_gold,
+    vague_katti,
+    fated_astra,
+    heros_descendant,
 ]
