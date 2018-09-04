@@ -209,10 +209,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xak-UL-8QW">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xak-UL-8QW" userLabel="Skill List Table View">
                                 <rect key="frame" x="0.0" y="81" width="375" height="586"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="586" id="C4z-nV-5MU"/>
+                                </constraints>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="customCell" textLabel="NqJ-HO-9xk" detailTextLabel="S5x-ua-tZw" style="IBUITableViewCellStyleSubtitle" id="4WL-Sl-qTt">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
@@ -244,9 +246,8 @@
                                     <outlet property="delegate" destination="3nh-M4-Z6t" id="yiA-7g-zHl"/>
                                 </connections>
                             </tableView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5CK-Qq-SaK" userLabel="Header View">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5CK-Qq-SaK" userLabel="Header View">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="81"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <searchBar contentMode="redraw" fixedFrame="YES" barStyle="black" searchBarStyle="minimal" placeholder="Search Skills" translatesAutoresizingMaskIntoConstraints="NO" id="ZBR-9w-hG0" userLabel="Skill Search Bar">
                                         <rect key="frame" x="150" y="3" width="225" height="56"/>
@@ -276,6 +277,15 @@
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="5CK-Qq-SaK" firstAttribute="leading" secondItem="LSV-VL-eow" secondAttribute="leading" id="0UA-Ak-toN"/>
+                            <constraint firstItem="xak-UL-8QW" firstAttribute="top" secondItem="5CK-Qq-SaK" secondAttribute="bottom" id="SOi-ta-Wb2"/>
+                            <constraint firstItem="xak-UL-8QW" firstAttribute="leading" secondItem="LSV-VL-eow" secondAttribute="leading" id="ebp-rO-0U0"/>
+                            <constraint firstItem="5CK-Qq-SaK" firstAttribute="trailing" secondItem="LSV-VL-eow" secondAttribute="trailing" id="f1t-68-JuB"/>
+                            <constraint firstItem="5CK-Qq-SaK" firstAttribute="top" secondItem="2hf-k0-Oqg" secondAttribute="top" id="hv7-IK-2mX"/>
+                            <constraint firstItem="xak-UL-8QW" firstAttribute="bottom" secondItem="LSV-VL-eow" secondAttribute="bottom" id="lEm-Kz-jX2"/>
+                            <constraint firstItem="xak-UL-8QW" firstAttribute="trailing" secondItem="LSV-VL-eow" secondAttribute="trailing" id="n0E-al-z36"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="LSV-VL-eow"/>
                     </view>
                 </viewController>
