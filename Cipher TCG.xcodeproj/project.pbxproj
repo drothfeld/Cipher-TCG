@@ -196,6 +196,7 @@
 		B0DA71DE20EC20B400AC6AB5 /* B13-055.png in Resources */ = {isa = PBXBuildFile; fileRef = B0DA71DD20EC20B400AC6AB5 /* B13-055.png */; };
 		B0E02BDD213EFA93008C8B05 /* B14-0AW.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E02BDB213EFA92008C8B05 /* B14-0AW.png */; };
 		B0E02BDE213EFA93008C8B05 /* B14-0AX.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E02BDC213EFA92008C8B05 /* B14-0AX.png */; };
+		B0E02BE0213EFE61008C8B05 /* SkillListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E02BDF213EFE61008C8B05 /* SkillListViewController.swift */; };
 		B0E0DE1E20D2D8D4002672A4 /* B06-018.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E0DE1D20D2D8D4002672A4 /* B06-018.png */; };
 		B0E0DE2020D2DA4B002672A4 /* B06-001.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E0DE1F20D2DA4B002672A4 /* B06-001.png */; };
 		B0E0DE2220D2DC33002672A4 /* B06-004.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E0DE2120D2DC33002672A4 /* B06-004.png */; };
@@ -439,6 +440,7 @@
 		B0DA71DD20EC20B400AC6AB5 /* B13-055.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B13-055.png"; sourceTree = "<group>"; };
 		B0E02BDB213EFA92008C8B05 /* B14-0AW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B14-0AW.png"; sourceTree = "<group>"; };
 		B0E02BDC213EFA92008C8B05 /* B14-0AX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B14-0AX.png"; sourceTree = "<group>"; };
+		B0E02BDF213EFE61008C8B05 /* SkillListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillListViewController.swift; sourceTree = "<group>"; };
 		B0E0DE1D20D2D8D4002672A4 /* B06-018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B06-018.png"; sourceTree = "<group>"; };
 		B0E0DE1F20D2DA4B002672A4 /* B06-001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B06-001.png"; sourceTree = "<group>"; };
 		B0E0DE2120D2DC33002672A4 /* B06-004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B06-004.png"; sourceTree = "<group>"; };
@@ -736,6 +738,7 @@
 			children = (
 				B054BBB4200E68AE004159A6 /* CardListViewController.swift */,
 				B03D58092012DBC5007A3E97 /* CardViewController.swift */,
+				B0E02BDF213EFE61008C8B05 /* SkillListViewController.swift */,
 				B08A6B1E201661C300603113 /* MenuViewController.swift */,
 				B08A6B41201903AD00603113 /* LaunchScreenViewController.swift */,
 			);
@@ -1273,6 +1276,7 @@
 				B054BBDD200E8A0A004159A6 /* Skills.swift in Sources */,
 				B03D580D2013C100007A3E97 /* SegueFromLeft.swift in Sources */,
 				B094C4852135DACF00DC2870 /* Favorites.swift in Sources */,
+				B0E02BE0213EFE61008C8B05 /* SkillListViewController.swift in Sources */,
 				B08A6B1F201661C300603113 /* MenuViewController.swift in Sources */,
 				B054BBE5200EA4DA004159A6 /* SupportingSkills.swift in Sources */,
 				B054BBE1200E9E8A004159A6 /* Insignias.swift in Sources */,
