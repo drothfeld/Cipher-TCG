@@ -216,7 +216,7 @@
                                     <constraint firstAttribute="height" constant="586" id="C4z-nV-5MU"/>
                                 </constraints>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="customCell" textLabel="NqJ-HO-9xk" detailTextLabel="S5x-ua-tZw" style="IBUITableViewCellStyleSubtitle" id="4WL-Sl-qTt">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="customCell" textLabel="NqJ-HO-9xk" style="IBUITableViewCellStyleDefault" id="4WL-Sl-qTt">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4WL-Sl-qTt" id="yVk-fc-ThF">
@@ -224,16 +224,9 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NqJ-HO-9xk">
-                                                    <rect key="frame" x="15" y="5" width="33.5" height="20.5"/>
+                                                    <rect key="frame" x="15" y="0.0" width="325" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="S5x-ua-tZw">
-                                                    <rect key="frame" x="15" y="25.5" width="44" height="14.5"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -288,6 +281,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="LSV-VL-eow"/>
                     </view>
+                    <connections>
+                        <outlet property="HeaderView" destination="5CK-Qq-SaK" id="Him-P4-EqJ"/>
+                        <outlet property="SkillListTableView" destination="xak-UL-8QW" id="7cm-Vu-bJV"/>
+                        <outlet property="SkillListTableViewHeightConstraint" destination="C4z-nV-5MU" id="XMF-5L-T2N"/>
+                        <outlet property="SkillSearchBar" destination="ZBR-9w-hG0" id="Jfw-7V-lyU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QLm-gM-bV1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

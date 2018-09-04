@@ -62,12 +62,6 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     
     // Row Height
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-//        if (indexPath.row == 0) {
-//            return 100
-//        }
-//        else {
-//            return 60
-//        }
         return 75
     }
     

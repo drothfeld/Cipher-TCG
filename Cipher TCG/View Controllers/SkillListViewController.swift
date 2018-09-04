@@ -9,18 +9,75 @@
 import UIKit
 
 class SkillListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate {
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+    
+    // User Interface Outlets
+    @IBOutlet weak var SkillListTableView: UITableView!
+    @IBOutlet weak var SkillSearchBar: UISearchBar!
+    @IBOutlet weak var SkillListTableViewHeightConstraint: NSLayoutConstraint!
+    @IBOutlet weak var HeaderView: UIView!
+    
+    // Defined Values
+    var sortedRawSkillList: [Skill] = []
+    var filteredRawSkillList: [Skill] = []
+    var isSearching = false
+    let screenSize: CGRect = UIScreen.main.bounds
+    let storyboardDeviceHeight: CGFloat = 667
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        prepare()
     }
     
+    func prepare() {
+        interfaceSetup()
+        refreshTable()
+    }
+    
+    // Number of Rows
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if (isSearching) {
+            return filteredRawSkillList.count
+        }
+        return rawSkillsList.count
+    }
+    
+    // Row Height
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 40
+    }
+    
+    // Cell Data
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "customCell", for: indexPath)
+        if (isSearching) {
+            cell.textLabel?.text = filteredRawSkillList[indexPath.item].name
+        } else {
+            cell.textLabel?.text = sortedRawSkillList[indexPath.item].name
+        }
         return cell
         
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    // Sort list of skills alphabetically by name
+    func sortSkillsAlphabetically(unsortedList: Array<Skill>) -> Array<Skill> {
+        return unsortedList.sorted { $0.name < $1.name }
+    }
+    
+    // Table Refresh
+    func refreshTable() {
+        sortedRawSkillList = sortSkillsAlphabetically(unsortedList: rawSkillsList)
+        self.SkillListTableView.reloadData()
+    }
+    
+    // Interface Setup
+    func interfaceSetup() {
+        HeaderView.dropShadow()
+        SkillListTableViewHeightConstraint.constant += screenSize.height - storyboardDeviceHeight
+    }
+    
+    // Hide keyboard activated from search bar
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        self.SkillSearchBar.endEditing(true)
     }
     
     // Hiding Status Bar
