@@ -761,8 +761,7 @@
         <image name="loading_fetch.gif" width="600" height="400"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="oVR-qE-nmK"/>
         <segue reference="CJv-bm-6cT"/>
-        <segue reference="eSc-Sj-Klz"/>
+        <segue reference="cac-9f-3tE"/>
     </inferredMetricsTieBreakers>
 </document>

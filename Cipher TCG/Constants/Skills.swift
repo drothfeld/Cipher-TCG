@@ -216,7 +216,7 @@ let obsidian_mist = Skill(name: "Obsidian Mist",
                        tapUnit: false,
                        CCS: false)
 
-let all_or_nothing = Skill(name: "All-Or-Nothing",
+let all_or_nothing = Skill(name: "All or Nothing",
                        description: "This turn, this unit gains +30 attack and gains the following skill ' AUTO After this unit attacks, destroy this unit.'",
                        colorType: UIColor.red,
                        flippedBonds: 1,
@@ -592,7 +592,7 @@ let kind_hearted_dragon_princess = Skill(name: "Kind-hearted Dragon Princess",
                         tapUnit: false,
                         CCS: false)
 
-let ancient_dragon_tribe_2 = Skill(name: "Ancient Dragon Tribe",
+let ancient_dragon_tribe_2 = Skill(name: "Ancient Dragon Tribe (II)",
                         description: "If you have at least 8 bonds, this unit gains +30 attack.",
                         colorType: UIColor.green,
                         flippedBonds: 0,
@@ -832,7 +832,7 @@ let soulcrushing_darkness = Skill(name: "Soulcrushing Darkness",
                         tapUnit: false,
                         CCS: true)
 
-let two_heroes_eirika = Skill(name: "Two Heroes",
+let two_heroes_eirika = Skill(name: "Two Heroes (Eirika)",
                         description: "If your Main Character is 'Ephraim', if this unit is to be sent to the Retreat Area as the result of being destroyed, you may destroy one of your orbs instead.",
                         colorType: UIColor.green,
                         flippedBonds: 0,
@@ -856,7 +856,7 @@ let sieglindes_rays = Skill(name: "Sieglinde's Rays",
                         tapUnit: false,
                         CCS: false)
 
-let two_heroes_ephraim = Skill(name: "Two Heroes",
+let two_heroes_ephraim = Skill(name: "Two Heroes (Ephraim)",
                         description: "If your Main Character is 'Eirika', if this unit is to be sent to the Retreat Area as the result of being destroyed, you may destroy one of your orbs instead.",
                         colorType: UIColor.green,
                         flippedBonds: 0,
@@ -1272,7 +1272,7 @@ let manipulative_tactics = Skill(name: "Manipulative Tactics",
                         tapUnit: false,
                         CCS: false)
 
-let do_not_interfere_2 = Skill(name: "Do not interfere!",
+let do_not_interfere_2 = Skill(name: "Do not interfere! (II)",
                         description: "Your opponent cannot deploy cards with a deployment cost of 1 into the Front Line.",
                         colorType: UIColor.red,
                         flippedBonds: 0,
@@ -1424,7 +1424,7 @@ let disjointed_fate = Skill(name: "Disjointed Fate",
                         tapUnit: false,
                         CCS: false)
 
-let here_i_go_2 = Skill(name: "Here I Go!",
+let here_i_go_2 = Skill(name: "Here I Go! (II)",
                         description: "If your Main Character has no insignia, you may make this unit your Main Character. If you do, return the ally that was previously your Main Character back to your hand.",
                         colorType: UIColor.red,
                         flippedBonds: 0,
@@ -2680,7 +2680,7 @@ let catalogue_of_ultimate_techniques = Skill(name: "Catalogue of Ultimate Techni
                         tapUnit: false,
                         CCS: false)
 
-let all_or_nothing2 = Skill(name: "All or Nothing",
+let all_or_nothing2 = Skill(name: "All or Nothing (II)",
                         description: "This unit cannot evade enemy attacks.",
                         colorType: UIColor.red,
                         flippedBonds: 0,
