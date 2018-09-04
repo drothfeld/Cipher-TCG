@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3nh-M4-Z6t">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VWK-sJ-blK">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -83,7 +83,7 @@
                                 <rect key="frame" x="16" y="197" width="343" height="427"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5dW-Qf-i9T" userLabel="Button Emblem Wiki">
-                                        <rect key="frame" x="8" y="162" width="327" height="60"/>
+                                        <rect key="frame" x="8" y="245" width="327" height="60"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="Y8r-Ws-7Hz"/>
                                         </constraints>
@@ -104,7 +104,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N0Y-2V-5hd" userLabel="Button Settings">
-                                        <rect key="frame" x="8" y="249" width="327" height="60"/>
+                                        <rect key="frame" x="8" y="332" width="327" height="60"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="e4z-9J-fxA"/>
                                         </constraints>
@@ -142,18 +142,40 @@
                                             <segue destination="BYZ-38-t0r" kind="showDetail" id="CJv-bm-6cT"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u6Y-2S-tWM" userLabel="Button Skill List">
+                                        <rect key="frame" x="8" y="158" width="327" height="60"/>
+                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="25"/>
+                                        <state key="normal" title="Cipher Skill List">
+                                            <color key="titleColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                <integer key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="3nh-M4-Z6t" kind="showDetail" id="oVR-qE-nmK"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="N0Y-2V-5hd" firstAttribute="leading" secondItem="5dW-Qf-i9T" secondAttribute="leading" id="082-fr-f6x"/>
                                     <constraint firstItem="5dW-Qf-i9T" firstAttribute="trailing" secondItem="0C1-Uv-sAA" secondAttribute="trailing" id="0Yv-ts-Vg6"/>
                                     <constraint firstItem="0C1-Uv-sAA" firstAttribute="top" secondItem="Tll-Wa-EGH" secondAttribute="top" constant="71" id="5ZG-SL-JHH"/>
+                                    <constraint firstItem="u6Y-2S-tWM" firstAttribute="leading" secondItem="0C1-Uv-sAA" secondAttribute="leading" id="Fh3-2p-nu6"/>
                                     <constraint firstItem="N0Y-2V-5hd" firstAttribute="trailing" secondItem="Tll-Wa-EGH" secondAttribute="trailingMargin" id="JTe-mt-WAp"/>
-                                    <constraint firstItem="5dW-Qf-i9T" firstAttribute="top" secondItem="0C1-Uv-sAA" secondAttribute="bottom" constant="31" id="N86-jm-1ct"/>
+                                    <constraint firstItem="u6Y-2S-tWM" firstAttribute="trailing" secondItem="0C1-Uv-sAA" secondAttribute="trailing" id="Kx4-H5-97p"/>
+                                    <constraint firstItem="5dW-Qf-i9T" firstAttribute="top" secondItem="0C1-Uv-sAA" secondAttribute="bottom" constant="114" id="N86-jm-1ct"/>
                                     <constraint firstItem="N0Y-2V-5hd" firstAttribute="top" secondItem="5dW-Qf-i9T" secondAttribute="bottom" constant="27" id="VDE-Uq-DaG"/>
-                                    <constraint firstAttribute="bottom" secondItem="N0Y-2V-5hd" secondAttribute="bottom" constant="118" id="bOH-FB-SfP"/>
+                                    <constraint firstAttribute="bottom" secondItem="N0Y-2V-5hd" secondAttribute="bottom" constant="35" id="bOH-FB-SfP"/>
                                     <constraint firstItem="N0Y-2V-5hd" firstAttribute="trailing" secondItem="5dW-Qf-i9T" secondAttribute="trailing" id="bqz-4X-NnE"/>
                                     <constraint firstItem="N0Y-2V-5hd" firstAttribute="leading" secondItem="Tll-Wa-EGH" secondAttribute="leadingMargin" id="h4O-bN-gYC"/>
+                                    <constraint firstItem="5dW-Qf-i9T" firstAttribute="top" secondItem="u6Y-2S-tWM" secondAttribute="bottom" constant="27" id="h7g-NG-8dK"/>
+                                    <constraint firstItem="u6Y-2S-tWM" firstAttribute="top" secondItem="0C1-Uv-sAA" secondAttribute="bottom" constant="27" id="xIY-Tr-wmx"/>
                                     <constraint firstItem="5dW-Qf-i9T" firstAttribute="leading" secondItem="0C1-Uv-sAA" secondAttribute="leading" id="zYd-om-JGX"/>
                                 </constraints>
                             </view>
@@ -290,7 +312,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QLm-gM-bV1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1550" y="913"/>
+            <point key="canvasLocation" x="132" y="-591"/>
         </scene>
         <!--Card List View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -739,7 +761,8 @@
         <image name="loading_fetch.gif" width="600" height="400"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="oVR-qE-nmK"/>
         <segue reference="CJv-bm-6cT"/>
-        <segue reference="cac-9f-3tE"/>
+        <segue reference="eSc-Sj-Klz"/>
     </inferredMetricsTieBreakers>
 </document>
