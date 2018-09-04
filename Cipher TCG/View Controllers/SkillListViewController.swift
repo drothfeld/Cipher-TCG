@@ -31,6 +31,13 @@ class SkillListViewController: UIViewController, UITableViewDataSource, UITableV
     func prepare() {
         interfaceSetup()
         refreshTable()
+        searchBarSetup()
+    }
+    
+    // Interface Setup
+    func interfaceSetup() {
+        HeaderView.dropShadow()
+        SkillListTableViewHeightConstraint.constant += screenSize.height - storyboardDeviceHeight
     }
     
     // Number of Rows
@@ -69,10 +76,22 @@ class SkillListViewController: UIViewController, UITableViewDataSource, UITableV
         self.SkillListTableView.reloadData()
     }
     
-    // Interface Setup
-    func interfaceSetup() {
-        HeaderView.dropShadow()
-        SkillListTableViewHeightConstraint.constant += screenSize.height - storyboardDeviceHeight
+    // Search Bar Setup
+    func searchBarSetup() {
+        SkillSearchBar.delegate = self
+        SkillSearchBar.returnKeyType = UIReturnKeyType.done
+    }
+    
+    // Search Bar Functionality
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        if (SkillSearchBar.text == nil || SkillSearchBar.text == "") {
+            isSearching = false
+            view.endEditing(true)
+        } else {
+            isSearching = true
+            filteredRawSkillList = sortedRawSkillList.filter( {$0.name.lowercased().contains(SkillSearchBar.text!.lowercased())} )
+        }
+        SkillListTableView.reloadData()
     }
     
     // Hide keyboard activated from search bar
