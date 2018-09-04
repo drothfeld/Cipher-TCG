@@ -360,4 +360,7 @@ let rawSkillsList: [Skill] = [
     vague_katti,
     fated_astra,
     heros_descendant,
+    shes_the_only_one_for_me,
+    my_job_is_to_shield_my_allies,
+    invincible_guardsman,
 ]

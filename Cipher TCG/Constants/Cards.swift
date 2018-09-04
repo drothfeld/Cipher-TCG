@@ -2057,3 +2057,25 @@ let b14_0AT = Card(series: "B14-0??R",
                    skills: [his_late_fathers_urvan, general_ikes_command],
                    cardImageName: "B14-0AT.png")
 
+let b14_0AU = Card(series: "B14-0??N",
+                   name: "Gatrie: Easygoing Professional Mercenary",
+                   rarity: "Normal",
+                   insignia: medallion,
+                   attack: 30,
+                   support: 10,
+                   illustrator: "mineri",
+                   supportingSkill: defense_emblem,
+                   skills: [shes_the_only_one_for_me, armor_expertise],
+                   cardImageName: "B14-0AU.png")
+
+let b14_0AV = Card(series: "B14-0??HN",
+                   name: "Gatrie: Easygoing Professional Mercenary",
+                   rarity: "High Normal",
+                   insignia: medallion,
+                   attack: 60,
+                   support: 10,
+                   illustrator: "mineri",
+                   supportingSkill: none,
+                   skills: [my_job_is_to_shield_my_allies, invincible_guardsman, armor_expertise],
+                   cardImageName: "B14-0AV.png")
+

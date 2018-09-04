@@ -2815,3 +2815,28 @@ let heros_descendant = Skill(name: "Hero's Descendant",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let shes_the_only_one_for_me = Skill(name: "She’s the one for me!",
+                        description: "[ALWAYS] If you have 1 or more <Female> allies, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let my_job_is_to_shield_my_allies = Skill(name: "My job is to shield my allies!",
+                        description: "[ALWAYS] During your turn, if you have 1 or more <Female> allies, this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let invincible_guardsman = Skill(name: "Invincible Guardsman",
+                        description: "[FLIP 1] At the end of your turn, you may pay the cost and if you do: Choose 1 other <Green> ally. Until the end of your opponent’s next turn, that ally gains +20 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
