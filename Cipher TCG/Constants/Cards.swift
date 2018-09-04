@@ -2079,3 +2079,24 @@ let b14_0AV = Card(series: "B14-0??HN",
                    skills: [my_job_is_to_shield_my_allies, invincible_guardsman, armor_expertise],
                    cardImageName: "B14-0AV.png")
 
+let b14_0AW = Card(series: "B14-0??HN",
+                   name: "Hinata: Ingenuous Young Warrior",
+                   rarity: "High Normal",
+                   insignia: hoshido,
+                   attack: 70,
+                   support: 10,
+                   illustrator: "Yoneko",
+                   supportingSkill: none,
+                   skills: [swordsmans_thoroughfare, devoted_heavy_blade],
+                   cardImageName: "B14-0AW.png")
+
+let b14_0AX = Card(series: "B14-0??HN",
+                   name: "Oboro: Stalwart Spear Maiden",
+                   rarity: "High Normal",
+                   insignia: hoshido,
+                   attack: 70,
+                   support: 10,
+                   illustrator: "Yoneko",
+                   supportingSkill: none,
+                   skills: [great_swap, devoted_fierce_lance],
+                   cardImageName: "B14-0AX.png")

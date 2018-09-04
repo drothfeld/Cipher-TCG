@@ -2840,3 +2840,35 @@ let invincible_guardsman = Skill(name: "Invincible Guardsman",
                         tapUnit: false,
                         CCS: false)
 
+let swordsmans_thoroughfare = Skill(name: "Swordsman’s Thoroughfare",
+                        description: "[ONCE PER TURN] [FLIP 1] When this unit has been moved from the Back Line to the Front Line, you may pay the cost and if you do: Untap this unit.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let devoted_heavy_blade = Skill(name: "Devoted Heavy Blade",
+                        description: "[ALWAYS] During your turn, if you have an allied “Takumi”, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let great_swap = Skill(name: "Great Swap",
+                        description: "[ONCE PER TURN] [FLIP 1] Choose 1 ally in the Front Line, and move them. Once you do. Choose 1 ally in the Back Line, and move them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let devoted_fierce_lance = Skill(name: "Devoted Fierce Lance",
+                        description: "[ALWAYS] If you have an allied “Takumi”, this unit gains range 1-2.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+

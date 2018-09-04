@@ -363,4 +363,8 @@ let rawSkillsList: [Skill] = [
     shes_the_only_one_for_me,
     my_job_is_to_shield_my_allies,
     invincible_guardsman,
+    swordsmans_thoroughfare,
+    devoted_heavy_blade,
+    great_swap,
+    devoted_fierce_lance
 ]
