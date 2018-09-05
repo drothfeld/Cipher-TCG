@@ -366,5 +366,10 @@ let rawSkillsList: [Skill] = [
     swordsmans_thoroughfare,
     devoted_heavy_blade,
     great_swap,
-    devoted_fierce_lance
+    devoted_fierce_lance,
+    thankless_laborer,
+    victory_chakra,
+    carnage_form,
+    holy_light_raging_blast,
+    empty_wave_conquest_flame,
 ]

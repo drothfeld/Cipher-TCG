@@ -41,8 +41,8 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         prepare()
         
         // DEBUG
-        NSLog("Total number of unique cards: " + String(sortedRawCardList.count)) // 190
-        NSLog("Total number of unique skills: " + String(rawSkillsList.count)) // 358
+        NSLog("Total number of unique cards: " + String(sortedRawCardList.count)) // 193
+        NSLog("Total number of unique skills: " + String(rawSkillsList.count)) // 363
     }
     
     func prepare() {

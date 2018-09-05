@@ -2872,3 +2872,42 @@ let devoted_fierce_lance = Skill(name: "Devoted Fierce Lance",
                         tapUnit: false,
                         CCS: false)
 
+let thankless_laborer = Skill(name: "Thankless Laborer",
+                        description: "[ONCE PER TURN] [FLIP 1] Choose 1 card with [CF] from your Retreat Area. Deploy that card, or stack it on top of an ally with the same unit name to Level Up them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let victory_chakra = Skill(name: "Victory Chakra",
+                        description: "Each time a <Mirage> ally’s attack destroys an enemy, draw 1 card. Then, choose 1 card from your hand, and send it to the Retreat Area.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let carnage_form = Skill(name: "Carnage Form",
+                        description: "[ALWAYS] If this unit is in the same area as “Itsuki Aoi”, this unit cannot be destroyed by enemy attacks.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let holy_light_raging_blast = Skill(name: "Holy Light: Raging Blast",
+                        description: "[ACT] [TAP; FLIP 1] Choose 1 non-lord enemy in the Back Line, and move them. If this unit has Class Changed, then until the end of the turn, that enemy cannot evade.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let empty_wave_conquest_flame = Skill(name: "Empty Wave: Conquest Flame",
+                        description: "[ACT] [TAP] Until the end of the turn, allied “Itsuki Aoi” gains +20 attack. If this unit has Class Changed, he instead gains +50 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)

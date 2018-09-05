@@ -2100,3 +2100,36 @@ let b14_0AX = Card(series: "B14-0??HN",
                    supportingSkill: none,
                    skills: [great_swap, devoted_fierce_lance],
                    cardImageName: "B14-0AX.png")
+
+let b14_0AY = Card(series: "B14-0??R",
+                   name: "Itsuki Aoi: A New Awakening",
+                   rarity: "Rare",
+                   insignia: mark_of_naga,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "daigoman",
+                   supportingSkill: none,
+                   skills: [thankless_laborer, victory_chakra],
+                   cardImageName: "B14-0AY.png")
+
+let b14_0AZ = Card(series: "B14-0??HN",
+                   name: "Chrom: Mirage Sacred Sovereign",
+                   rarity: "High Normal",
+                   insignia: mark_of_naga,
+                   attack: 0,
+                   support: 20,
+                   illustrator: "Tada",
+                   supportingSkill: none,
+                   skills: [carnage_form, holy_light_raging_blast],
+                   cardImageName: "B14-0AZ.png")
+
+let b14_0BA = Card(series: "B14-0??HN",
+                   name: "Chrom: Mirage Conqueror",
+                   rarity: "High Normal",
+                   insignia: mark_of_naga,
+                   attack: 0,
+                   support: 20,
+                   illustrator: "Tada",
+                   supportingSkill: none,
+                   skills: [carnage_form, empty_wave_conquest_flame],
+                   cardImageName: "B14-0BA.png")
