@@ -35,6 +35,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     let screenSize: CGRect = UIScreen.main.bounds
     let storyboardDeviceHeight: CGFloat = 667
     var colorFilterButtons: [UIButton]!
+    var loadedCardFilterIndex: Int = -1
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,10 +47,12 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     }
     
     func prepare() {
+        loadCardFilterData()
         interfaceSetup()
         refreshTable()
         searchBarSetup()
         loadFavoriteCardData()
+        applyLoadedFilter()
     }
     
     // Number of Rows
@@ -136,7 +139,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     func interfaceSetup() {
         HeaderView.dropShadow()
         CardListViewHeightConstraint.constant += screenSize.height - storyboardDeviceHeight
-        colorFilterButtons = [RedFilterButton, BlueFilterButton, WhiteFilterButton, BlackFilterButton, GreenFilterButton, PurpleFilterButton, YellowFilterButton, ColorlessFilterButton]
+        colorFilterButtons = [RedFilterButton, BlueFilterButton, WhiteFilterButton, BlackFilterButton, GreenFilterButton, PurpleFilterButton, YellowFilterButton, ColorlessFilterButton, FavoritesFilterButton]
     }
     
     // Hide keyboard activated from search bar
@@ -157,7 +160,6 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
                 deactivateFilterButton(button: button)
             }
         }
-        deactivateFilterButton(button: FavoritesFilterButton)
     }
     
     // Deactivate filter button
@@ -174,6 +176,40 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         isSearching = true
     }
     
+    // Return the index of the current active filter
+    func getActiveFilterIndex() -> Int {
+        for (index, button) in colorFilterButtons.enumerated() {
+            // An active button will have an alpha of 1
+            if (button.alpha == 1.0) {
+                return index
+            }
+        }
+        // No filters are active
+        return -1
+    }
+    
+    // Apply saved filter on page load
+    func applyLoadedFilter() {
+        // Apply the loaded card filter if there is any
+        if (loadedCardFilterIndex >= 0) {
+            filterCardsWithLoadedValue(button: colorFilterButtons[loadedCardFilterIndex])
+        }
+    }
+    
+    // Filter cards based on loaded filter index value
+    func filterCardsWithLoadedValue(button: UIButton) {
+        activateFilterButton(button: button)
+        
+        // Check if favorites filter was saved
+        if (loadedCardFilterIndex >= 8) {
+            filteredRawCardList = favorite_cards
+        } else {
+            filteredRawCardList = sortedRawCardList.filter({$0.insignia.name.contains(rawInsigniaList[loadedCardFilterIndex].name)})
+        }
+        
+        CardListTableView.reloadData()
+    }
+    
     // Filter red cards
     @IBAction func filterRedCardsButtonPressed(_ sender: Any) {
         let buttonPressed = sender as! UIButton
@@ -185,6 +221,11 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
             activateFilterButton(button: buttonPressed)
             filteredRawCardList = sortedRawCardList.filter({$0.insignia.name.contains(blade_of_light.name)})
         }
+        
+        // Update userDefaults with last used filter
+        let encodedData = NSKeyedArchiver.archivedData(withRootObject: getActiveFilterIndex())
+        UserDefaults.standard.set(encodedData, forKey: "cardFilter")
+        
         CardListTableView.reloadData()
     }
     
@@ -199,6 +240,11 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
             activateFilterButton(button: buttonPressed)
             filteredRawCardList = sortedRawCardList.filter({$0.insignia.name.contains(mark_of_naga.name)})
         }
+        
+        // Update userDefaults with last used filter
+        let encodedData = NSKeyedArchiver.archivedData(withRootObject: getActiveFilterIndex())
+        UserDefaults.standard.set(encodedData, forKey: "cardFilter")
+        
         CardListTableView.reloadData()
     }
     
@@ -213,6 +259,11 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
             activateFilterButton(button: buttonPressed)
             filteredRawCardList = sortedRawCardList.filter({$0.insignia.name.contains(hoshido.name)})
         }
+        
+        // Update userDefaults with last used filter
+        let encodedData = NSKeyedArchiver.archivedData(withRootObject: getActiveFilterIndex())
+        UserDefaults.standard.set(encodedData, forKey: "cardFilter")
+        
         CardListTableView.reloadData()
     }
     
@@ -227,6 +278,11 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
             activateFilterButton(button: buttonPressed)
             filteredRawCardList = sortedRawCardList.filter({$0.insignia.name.contains(nohr.name)})
         }
+        
+        // Update userDefaults with last used filter
+        let encodedData = NSKeyedArchiver.archivedData(withRootObject: getActiveFilterIndex())
+        UserDefaults.standard.set(encodedData, forKey: "cardFilter")
+        
         CardListTableView.reloadData()
     }
     
@@ -241,6 +297,11 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
             activateFilterButton(button: buttonPressed)
             filteredRawCardList = sortedRawCardList.filter({$0.insignia.name.contains(medallion.name)})
         }
+        
+        // Update userDefaults with last used filter
+        let encodedData = NSKeyedArchiver.archivedData(withRootObject: getActiveFilterIndex())
+        UserDefaults.standard.set(encodedData, forKey: "cardFilter")
+        
         CardListTableView.reloadData()
     }
     
@@ -255,6 +316,11 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
             activateFilterButton(button: buttonPressed)
             filteredRawCardList = sortedRawCardList.filter({$0.insignia.name.contains(divine_weapons.name)})
         }
+        
+        // Update userDefaults with last used filter
+        let encodedData = NSKeyedArchiver.archivedData(withRootObject: getActiveFilterIndex())
+        UserDefaults.standard.set(encodedData, forKey: "cardFilter")
+        
         CardListTableView.reloadData()
     }
     
@@ -269,6 +335,11 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
             activateFilterButton(button: buttonPressed)
             filteredRawCardList = sortedRawCardList.filter({$0.insignia.name.contains(holy_war_flag.name)})
         }
+        
+        // Update userDefaults with last used filter
+        let encodedData = NSKeyedArchiver.archivedData(withRootObject: getActiveFilterIndex())
+        UserDefaults.standard.set(encodedData, forKey: "cardFilter")
+        
         CardListTableView.reloadData()
     }
     
@@ -283,6 +354,11 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
             activateFilterButton(button: buttonPressed)
             filteredRawCardList = sortedRawCardList.filter({$0.insignia.name.contains(colorless.name)})
         }
+        
+        // Update userDefaults with last used filter
+        let encodedData = NSKeyedArchiver.archivedData(withRootObject: getActiveFilterIndex())
+        UserDefaults.standard.set(encodedData, forKey: "cardFilter")
+        
         CardListTableView.reloadData()
     }
     
@@ -297,6 +373,11 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
             activateFilterButton(button: buttonPressed)
             filteredRawCardList = favorite_cards
         }
+        
+        // Update userDefaults with last used filter
+        let encodedData = NSKeyedArchiver.archivedData(withRootObject: getActiveFilterIndex())
+        UserDefaults.standard.set(encodedData, forKey: "cardFilter")
+        
         CardListTableView.reloadData()
     }
     
@@ -320,6 +401,25 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         for card in favorite_cards {
             NSLog("     " + card.name)
         }
+    }
+    
+    // Load last used filter
+    func loadCardFilterData() {
+        NSLog("\n")
+        if let data = UserDefaults.standard.data(forKey: "cardFilter"),
+            // Loaded data from userDefaults
+            let savedCardFilterData = NSKeyedUnarchiver.unarchiveObject(with: data) as? Int {
+            NSLog("Successfully loaded last used card filter from userDefaults.")
+            loadedCardFilterIndex = savedCardFilterData
+        } else {
+            // An error occured, favorite card list will be blank
+            let encodedData = NSKeyedArchiver.archivedData(withRootObject: loadedCardFilterIndex)
+            UserDefaults.standard.set(encodedData, forKey: "cardFilter")
+            NSLog("There was an issue loading last used card filter from userDefaults.")
+        }
+        
+        // DEBUG
+        NSLog("     " + String(loadedCardFilterIndex))
     }
     
     // Reset favorite card list saved data

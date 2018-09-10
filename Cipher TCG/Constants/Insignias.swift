@@ -40,3 +40,5 @@ let colorless = Insignia(name: "Colorless",
                              color: UIColor.clear,
                              iconImageName: "30px-Colorless.png")
 
+let rawInsigniaList: [Insignia] = [blade_of_light, mark_of_naga, hoshido, nohr, medallion, divine_weapons, holy_war_flag, colorless]
+
