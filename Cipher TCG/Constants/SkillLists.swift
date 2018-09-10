@@ -372,4 +372,7 @@ let rawSkillsList: [Skill] = [
     carnage_form,
     holy_light_raging_blast,
     empty_wave_conquest_flame,
+    dont_you_children_owe_me_a_little_gratitude,
+    masters_windreading,
+    skill_to_shoot_between_the_eyes,
 ]

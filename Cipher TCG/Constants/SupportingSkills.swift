@@ -28,6 +28,10 @@ let flying_emblem = SupportingSkill(type: "Flying Emblem",
                                     textDescription: "You may choose one ally that is not the attacking unit, and move it.",
                                     iconImage: #imageLiteral(resourceName: "28px-Attack_Support.png"))
 
+let bullseye_emblem = SupportingSkill(type: "Bullseye Emblem",
+                                    textDescription: "Until the end of this combat, non-lord defending units cannot evade.",
+                                    iconImage: #imageLiteral(resourceName: "28px-Attack_Support.png"))
+
 let hope_emblem = SupportingSkill(type: "Hope Emblem",
                                   textDescription: "If the defending unit has the White affinity, you may look at one of your orbs.",
                                   iconImage: #imageLiteral(resourceName: "28px-Defense_Support.png"))

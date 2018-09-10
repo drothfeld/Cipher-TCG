@@ -2911,3 +2911,29 @@ let empty_wave_conquest_flame = Skill(name: "Empty Wave: Conquest Flame",
                         flipOrb: false,
                         tapUnit: true,
                         CCS: false)
+
+let dont_you_children_owe_me_a_little_gratitude = Skill(name: "Don’t you children owe me a little gratitude?",
+                        description: "[ACT] [TAP] Choose 1 <Bow> ally. Until the end of the turn, that ally gains +10 attack and and any [LVS-2] possessed by that ally become usable.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let masters_windreading = Skill(name: "Master’s Windreading",
+                        description: "[ALWAYS] If your lord is <Green>, this unit may attack enemies in the Back Line regardless of range.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let skill_to_shoot_between_the_eyes = Skill(name: "Skill to Shoot Between the Eyes",
+                        description: "[TRIGGER] [Send 1 <Bow> from your hand to the Retreat Area] When this unit’s attack is evaded by a non-lord enemy, you may pay the cost and if you do: Destroy that enemy.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+

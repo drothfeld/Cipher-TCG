@@ -2133,3 +2133,25 @@ let b14_0BA = Card(series: "B14-0??HN",
                    supportingSkill: none,
                    skills: [carnage_form, empty_wave_conquest_flame],
                    cardImageName: "B14-0BA.png")
+
+let b14_0BB = Card(series: "B14-0??N",
+                   name: "Shinon: Sharp-Tongued Archer",
+                   rarity: "Normal",
+                   insignia: medallion,
+                   attack: 30,
+                   support: 20,
+                   illustrator: "Tomohide Takaya",
+                   supportingSkill: bullseye_emblem,
+                   skills: [dont_you_children_owe_me_a_little_gratitude, wingbane],
+                   cardImageName: "B14-0BB.png")
+
+let b14_0BC = Card(series: "B14-0??R",
+                   name: "Shinon: Eccentric Shot",
+                   rarity: "Rare",
+                   insignia: medallion,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "Tomohide Takaya",
+                   supportingSkill: none,
+                   skills: [masters_windreading, skill_to_shoot_between_the_eyes, wingbane],
+                   cardImageName: "B14-0BC.png")
