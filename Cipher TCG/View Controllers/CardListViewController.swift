@@ -210,8 +210,8 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         CardListTableView.reloadData()
     }
     
-    // Filter red cards
-    @IBAction func filterRedCardsButtonPressed(_ sender: Any) {
+    // Filter cards based on button pressed
+    @IBAction func filterButtonPressed(_ sender: Any) {
         let buttonPressed = sender as! UIButton
         // Deactivate filter
         if (buttonPressed.alpha == 1.0) {
@@ -219,7 +219,12 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         // Activate filter
         } else {
             activateFilterButton(button: buttonPressed)
-            filteredRawCardList = sortedRawCardList.filter({$0.insignia.name.contains(blade_of_light.name)})
+            // Check if we pressed the favorite cards filter button
+            if (buttonPressed.tag > 7) {
+                filteredRawCardList = favorite_cards
+            } else {
+                filteredRawCardList = sortedRawCardList.filter({$0.insignia.name.contains(rawInsigniaList[buttonPressed.tag].name)})
+            }
         }
         
         // Update userDefaults with last used filter
@@ -228,159 +233,6 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         
         CardListTableView.reloadData()
     }
-    
-    // Filter blue cards
-    @IBAction func filterBlueCardsButtonPressed(_ sender: Any) {
-        let buttonPressed = sender as! UIButton
-        // Deactivate filter
-        if (buttonPressed.alpha == 1.0) {
-            deactivateFilterButton(button: buttonPressed)
-            // Activate filter
-        } else {
-            activateFilterButton(button: buttonPressed)
-            filteredRawCardList = sortedRawCardList.filter({$0.insignia.name.contains(mark_of_naga.name)})
-        }
-        
-        // Update userDefaults with last used filter
-        let encodedData = NSKeyedArchiver.archivedData(withRootObject: getActiveFilterIndex())
-        UserDefaults.standard.set(encodedData, forKey: "cardFilter")
-        
-        CardListTableView.reloadData()
-    }
-    
-    // Filter white cards
-    @IBAction func filterWhiteCardsButtonPressed(_ sender: Any) {
-        let buttonPressed = sender as! UIButton
-        // Deactivate filter
-        if (buttonPressed.alpha == 1.0) {
-            deactivateFilterButton(button: buttonPressed)
-            // Activate filter
-        } else {
-            activateFilterButton(button: buttonPressed)
-            filteredRawCardList = sortedRawCardList.filter({$0.insignia.name.contains(hoshido.name)})
-        }
-        
-        // Update userDefaults with last used filter
-        let encodedData = NSKeyedArchiver.archivedData(withRootObject: getActiveFilterIndex())
-        UserDefaults.standard.set(encodedData, forKey: "cardFilter")
-        
-        CardListTableView.reloadData()
-    }
-    
-    // Filter black cards
-    @IBAction func filterBlackCardsButtonPressed(_ sender: Any) {
-        let buttonPressed = sender as! UIButton
-        // Deactivate filter
-        if (buttonPressed.alpha == 1.0) {
-            deactivateFilterButton(button: buttonPressed)
-            // Activate filter
-        } else {
-            activateFilterButton(button: buttonPressed)
-            filteredRawCardList = sortedRawCardList.filter({$0.insignia.name.contains(nohr.name)})
-        }
-        
-        // Update userDefaults with last used filter
-        let encodedData = NSKeyedArchiver.archivedData(withRootObject: getActiveFilterIndex())
-        UserDefaults.standard.set(encodedData, forKey: "cardFilter")
-        
-        CardListTableView.reloadData()
-    }
-    
-    // Filter green cards
-    @IBAction func filterGreenCardsButtonPressed(_ sender: Any) {
-        let buttonPressed = sender as! UIButton
-        // Deactivate filter
-        if (buttonPressed.alpha == 1.0) {
-            deactivateFilterButton(button: buttonPressed)
-            // Activate filter
-        } else {
-            activateFilterButton(button: buttonPressed)
-            filteredRawCardList = sortedRawCardList.filter({$0.insignia.name.contains(medallion.name)})
-        }
-        
-        // Update userDefaults with last used filter
-        let encodedData = NSKeyedArchiver.archivedData(withRootObject: getActiveFilterIndex())
-        UserDefaults.standard.set(encodedData, forKey: "cardFilter")
-        
-        CardListTableView.reloadData()
-    }
-    
-    // Filter purple cards
-    @IBAction func filterPurpleCardsButtonPressed(_ sender: Any) {
-        let buttonPressed = sender as! UIButton
-        // Deactivate filter
-        if (buttonPressed.alpha == 1.0) {
-            deactivateFilterButton(button: buttonPressed)
-            // Activate filter
-        } else {
-            activateFilterButton(button: buttonPressed)
-            filteredRawCardList = sortedRawCardList.filter({$0.insignia.name.contains(divine_weapons.name)})
-        }
-        
-        // Update userDefaults with last used filter
-        let encodedData = NSKeyedArchiver.archivedData(withRootObject: getActiveFilterIndex())
-        UserDefaults.standard.set(encodedData, forKey: "cardFilter")
-        
-        CardListTableView.reloadData()
-    }
-    
-    // Filter yellow cards
-    @IBAction func filterYellowCardsButtonPressed(_ sender: Any) {
-        let buttonPressed = sender as! UIButton
-        // Deactivate filter
-        if (buttonPressed.alpha == 1.0) {
-            deactivateFilterButton(button: buttonPressed)
-            // Activate filter
-        } else {
-            activateFilterButton(button: buttonPressed)
-            filteredRawCardList = sortedRawCardList.filter({$0.insignia.name.contains(holy_war_flag.name)})
-        }
-        
-        // Update userDefaults with last used filter
-        let encodedData = NSKeyedArchiver.archivedData(withRootObject: getActiveFilterIndex())
-        UserDefaults.standard.set(encodedData, forKey: "cardFilter")
-        
-        CardListTableView.reloadData()
-    }
-    
-    // Filter colorless cards
-    @IBAction func filterColorlessCardsButtonPressed(_ sender: Any) {
-        let buttonPressed = sender as! UIButton
-        // Deactivate filter
-        if (buttonPressed.alpha == 1.0) {
-            deactivateFilterButton(button: buttonPressed)
-            // Activate filter
-        } else {
-            activateFilterButton(button: buttonPressed)
-            filteredRawCardList = sortedRawCardList.filter({$0.insignia.name.contains(colorless.name)})
-        }
-        
-        // Update userDefaults with last used filter
-        let encodedData = NSKeyedArchiver.archivedData(withRootObject: getActiveFilterIndex())
-        UserDefaults.standard.set(encodedData, forKey: "cardFilter")
-        
-        CardListTableView.reloadData()
-    }
-    
-    // Filter favorite cards
-    @IBAction func filterFavoriteCardsButtonPressed(_ sender: Any) {
-        let buttonPressed = sender as! UIButton
-        // Deactivate filter
-        if (buttonPressed.alpha == 1.0) {
-            deactivateFilterButton(button: buttonPressed)
-            // Activate filter
-        } else {
-            activateFilterButton(button: buttonPressed)
-            filteredRawCardList = favorite_cards
-        }
-        
-        // Update userDefaults with last used filter
-        let encodedData = NSKeyedArchiver.archivedData(withRootObject: getActiveFilterIndex())
-        UserDefaults.standard.set(encodedData, forKey: "cardFilter")
-        
-        CardListTableView.reloadData()
-    }
-    
     
     // Load favorite card data
     func loadFavoriteCardData() {

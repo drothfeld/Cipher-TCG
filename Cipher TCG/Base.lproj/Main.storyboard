@@ -393,71 +393,71 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="30px-Red.png"/>
                                         <connections>
-                                            <action selector="filterRedCardsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vaQ-e9-Ofl"/>
+                                            <action selector="filterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bXV-vW-guu"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bdo-cj-cLD" userLabel="Sort Blue Button">
+                                    <button opaque="NO" alpha="0.5" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bdo-cj-cLD" userLabel="Sort Blue Button">
                                         <rect key="frame" x="190" y="55" width="20" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="30px-Blue.png"/>
                                         <connections>
-                                            <action selector="filterBlueCardsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pHz-nN-heS"/>
+                                            <action selector="filterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rd8-dZ-VlL"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VfG-x6-Y9S" userLabel="Sort White Button">
+                                    <button opaque="NO" alpha="0.5" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VfG-x6-Y9S" userLabel="Sort White Button">
                                         <rect key="frame" x="215" y="55" width="20" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="30px-White.png"/>
                                         <connections>
-                                            <action selector="filterWhiteCardsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YYu-9M-A3f"/>
+                                            <action selector="filterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C2Y-6K-Edn"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vGd-mX-B3G" userLabel="Sort Black Button">
+                                    <button opaque="NO" alpha="0.5" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vGd-mX-B3G" userLabel="Sort Black Button">
                                         <rect key="frame" x="240" y="55" width="20" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="30px-Black.png"/>
                                         <connections>
-                                            <action selector="filterBlackCardsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QeM-AO-SGY"/>
+                                            <action selector="filterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D2k-ZT-Qdu"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jv8-pd-wkV" userLabel="Sort Green Button">
+                                    <button opaque="NO" alpha="0.5" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jv8-pd-wkV" userLabel="Sort Green Button">
                                         <rect key="frame" x="265" y="55" width="20" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="30px-Green.png"/>
                                         <connections>
-                                            <action selector="filterGreenCardsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t7B-QM-6Zn"/>
+                                            <action selector="filterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C3e-CY-xBJ"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xjr-hE-RDH" userLabel="Sort Purple Button">
+                                    <button opaque="NO" alpha="0.5" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xjr-hE-RDH" userLabel="Sort Purple Button">
                                         <rect key="frame" x="290" y="55" width="20" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="30px-Purple.png"/>
                                         <connections>
-                                            <action selector="filterPurpleCardsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6rM-zs-do0"/>
+                                            <action selector="filterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hik-UD-0jT"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gLb-oz-BkV" userLabel="Sort Yellow Button">
+                                    <button opaque="NO" alpha="0.5" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gLb-oz-BkV" userLabel="Sort Yellow Button">
                                         <rect key="frame" x="315" y="55" width="20" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="30px-Yellow.png"/>
                                         <connections>
-                                            <action selector="filterYellowCardsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RAw-SJ-mSF"/>
+                                            <action selector="filterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uVq-JK-Jhn"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="208-gH-0b9" userLabel="Sort Colorless Button">
+                                    <button opaque="NO" alpha="0.5" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="208-gH-0b9" userLabel="Sort Colorless Button">
                                         <rect key="frame" x="340" y="55" width="20" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="30px-Colorless.png"/>
                                         <connections>
-                                            <action selector="filterColorlessCardsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H8h-wV-R7K"/>
+                                            <action selector="filterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uE3-Ho-xyg"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.5" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12e-6M-kFq" userLabel="Sort Favorites Button">
+                                    <button opaque="NO" alpha="0.5" tag="8" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12e-6M-kFq" userLabel="Sort Favorites Button">
                                         <rect key="frame" x="8" y="55" width="20" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="favorite_button.png"/>
                                         <connections>
-                                            <action selector="filterFavoriteCardsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sDe-Rk-SfL"/>
+                                            <action selector="filterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kxl-pG-aDO"/>
                                         </connections>
                                     </button>
                                 </subviews>
