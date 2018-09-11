@@ -2936,4 +2936,36 @@ let skill_to_shoot_between_the_eyes = Skill(name: "Skill to Shoot Between the Ey
                         tapUnit: false,
                         CCS: false)
 
+let supporting_javelin = Skill(name: "Supporting Javelin",
+                        description: "[FLIP 1] If this unit is in the Front Line, then until the end of the turn, this unit gains range 1-2.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let the_pegasus_hero_makes_her_dashing_entrance = Skill(name: "The pegasus hero makes her dashing entrance!",
+                        description: "[TRIGGER] When this unit Class Changes, choose up to 1 ally for each card stacked beneath this card,  and move them.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let ill_take_you_all_on = Skill(name: "I’ll take you all on!",
+                        description: "[TRIGGER] When this unit changes class, choose 1 enemy in the Back Line for each card stacked beneath this card, and move them.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let dont_take_me_lightly = Skill(name: "Don’t take me lightly!",
+                        description: "[TRIGGER] [ONCE PER TURN] [FLIP 2] When this unit’s attack fails to destroy an enemy, you may pay the cost and if you do: Untap this unit, choose 1 “Cynthia” from your Retreat Area, and add it to your hand.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
 

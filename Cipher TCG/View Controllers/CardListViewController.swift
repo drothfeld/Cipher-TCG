@@ -39,20 +39,16 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        prepare()
-        
-        // DEBUG
-        NSLog("Total number of unique cards: " + String(sortedRawCardList.count)) // 195
-        NSLog("Total number of unique skills: " + String(rawSkillsList.count)) // 366
-    }
-    
-    func prepare() {
         loadCardFilterData()
         interfaceSetup()
         refreshTable()
         searchBarSetup()
         loadFavoriteCardData()
         applyLoadedFilter()
+        
+        // DEBUG
+        NSLog("Total number of unique cards: " + String(sortedRawCardList.count)) // 198
+        NSLog("Total number of unique skills: " + String(rawSkillsList.count)) // 370
     }
     
     // Number of Rows
@@ -201,7 +197,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         activateFilterButton(button: button)
         
         // Check if favorites filter was saved
-        if (loadedCardFilterIndex >= 8) {
+        if (loadedCardFilterIndex > 7) {
             filteredRawCardList = favorite_cards
         } else {
             filteredRawCardList = sortedRawCardList.filter({$0.insignia.name.contains(rawInsigniaList[loadedCardFilterIndex].name)})
@@ -255,7 +251,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         }
     }
     
-    // Load last used filter
+    // Load last used filter data
     func loadCardFilterData() {
         NSLog("\n")
         if let data = UserDefaults.standard.data(forKey: "cardFilter"),
@@ -275,7 +271,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     }
     
     // Reset favorite card list saved data
-    // Mostly used for testing
+    // FOR TESTING ONLY
     private func resetFavoriteCardData() {
         favorite_cards = []
         let encodedData = NSKeyedArchiver.archivedData(withRootObject: favorite_cards)

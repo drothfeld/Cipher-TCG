@@ -2155,3 +2155,36 @@ let b14_0BC = Card(series: "B14-0??R",
                    supportingSkill: none,
                    skills: [masters_windreading, skill_to_shoot_between_the_eyes, wingbane],
                    cardImageName: "B14-0BC.png")
+
+let b14_0BD = Card(series: "B14-0??N",
+                   name: "Cynthia: Aspirant Hero",
+                   rarity: "Normal",
+                   insignia: mark_of_naga,
+                   attack: 30,
+                   support: 30,
+                   illustrator: "Megumi Nagahama",
+                   supportingSkill: flying_emblem,
+                   skills: [supporting_javelin],
+                   cardImageName: "B14-0BD.png")
+
+let b14_0BE = Card(series: "B14-0??HN",
+                   name: "Cynthia: Pegasus Knight in the Making!",
+                   rarity: "High Normal",
+                   insignia: mark_of_naga,
+                   attack: 50,
+                   support: 30,
+                   illustrator: "Megumi Nagahama",
+                   supportingSkill: none,
+                   skills: [the_pegasus_hero_makes_her_dashing_entrance, javelin],
+                   cardImageName: "B14-0BE.png")
+
+let b14_0BF = Card(series: "B14-0??SR",
+                   name: "Cynthia: Winged Justice",
+                   rarity: "Secret Rare",
+                   insignia: mark_of_naga,
+                   attack: 60,
+                   support: 30,
+                   illustrator: "Megumi Nagahama",
+                   supportingSkill: none,
+                   skills: [ill_take_you_all_on, dont_take_me_lightly],
+                   cardImageName: "B14-0BF.png")

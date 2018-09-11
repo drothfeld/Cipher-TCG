@@ -375,4 +375,8 @@ let rawSkillsList: [Skill] = [
     dont_you_children_owe_me_a_little_gratitude,
     masters_windreading,
     skill_to_shoot_between_the_eyes,
+    supporting_javelin,
+    the_pegasus_hero_makes_her_dashing_entrance,
+    ill_take_you_all_on,
+    dont_take_me_lightly,
 ]
