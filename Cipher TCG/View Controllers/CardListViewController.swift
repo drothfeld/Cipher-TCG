@@ -10,6 +10,7 @@ import UIKit
 
 // TODO:
 // FIX LOG WARNING FOR EACH SAVED CARD: [framework] CUICatalog: Invalid asset name supplied: ''
+// RESET TABLE VIEW SCROLL TO TOP OF PAGE WHEN CHANGING FILTER
 
 class CardListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate {
     
@@ -36,6 +37,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     let storyboardDeviceHeight: CGFloat = 667
     var colorFilterButtons: [UIButton]!
     var loadedCardFilterIndex: Int = -1
+    var loadedtableViewScrollOffset: CGFloat = 0.0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,6 +47,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         searchBarSetup()
         loadFavoriteCardData()
         applyLoadedFilter()
+        loadTableViewScrollOffset()
         
         // DEBUG
         NSLog("Total number of unique cards: " + String(sortedRawCardList.count)) // 198
@@ -87,6 +90,13 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         return cell
     }
     
+    // Scrolling animation ends on table view scroll event
+//    func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {
+//            // Update userDefaults with new scroll offset
+//            let encodedData = NSKeyedArchiver.archivedData(withRootObject: scrollView.contentOffset.y)
+//            UserDefaults.standard.set(encodedData, forKey: "cardViewScrollOffset")
+//    }
+    
     // Sort list of cards alphabetically by name
     func sortCardsAlphabetically(unsortedList: Array<Card>) -> Array<Card> {
         return unsortedList.sorted { $0.name < $1.name }
@@ -119,6 +129,10 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     
     // Preparing Specific Card
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Update userDefaults with new scroll offset
+        let encodedData = NSKeyedArchiver.archivedData(withRootObject: CardListTableView.contentOffset.y)
+        UserDefaults.standard.set(encodedData, forKey: "cardViewScrollOffset")
+        
         if let indexPath = CardListTableView.indexPathForSelectedRow {
             let card: Card
             if isSearching {
@@ -208,6 +222,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     
     // Filter cards based on button pressed
     @IBAction func filterButtonPressed(_ sender: Any) {
+        
         let buttonPressed = sender as! UIButton
         // Deactivate filter
         if (buttonPressed.alpha == 1.0) {
@@ -232,7 +247,6 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     
     // Load favorite card data
     func loadFavoriteCardData() {
-        NSLog("\n")
         if let data = UserDefaults.standard.data(forKey: "favoriteCardData"),
             // Loaded data from userDefaults
             let savedfavoriteCardData = NSKeyedUnarchiver.unarchiveObject(with: data) as? [Card] {
@@ -253,7 +267,6 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     
     // Load last used filter data
     func loadCardFilterData() {
-        NSLog("\n")
         if let data = UserDefaults.standard.data(forKey: "cardFilter"),
             // Loaded data from userDefaults
             let savedCardFilterData = NSKeyedUnarchiver.unarchiveObject(with: data) as? Int {
@@ -268,6 +281,27 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         
         // DEBUG
         NSLog("     " + String(loadedCardFilterIndex))
+    }
+    
+    // Load table view scroll offset
+    func loadTableViewScrollOffset() {
+        if let data = UserDefaults.standard.data(forKey: "cardViewScrollOffset"),
+            // Loaded value from userDefaults
+            let savedScrollOffsetData = NSKeyedUnarchiver.unarchiveObject(with: data) as? CGFloat {
+            NSLog("Successfully loaded card tableView scroll offset from userDefaults.")
+            loadedtableViewScrollOffset = savedScrollOffsetData
+        } else {
+            // An error occured, scroll offset will default to 0.0
+            let encodedData = NSKeyedArchiver.archivedData(withRootObject: loadedtableViewScrollOffset)
+            UserDefaults.standard.set(encodedData, forKey: "cardViewScrollOffset")
+            NSLog("There was an issue loading the card tableView offset value.")
+        }
+        
+        // Applying offset
+        CardListTableView.contentOffset.y = loadedtableViewScrollOffset
+        
+        // DEBUG
+        NSLog("      %f", loadedtableViewScrollOffset.native)
     }
     
     // Reset favorite card list saved data
