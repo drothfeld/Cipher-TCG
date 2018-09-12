@@ -2188,3 +2188,25 @@ let b14_0BF = Card(series: "B14-0??SR",
                    supportingSkill: none,
                    skills: [ill_take_you_all_on, dont_take_me_lightly],
                    cardImageName: "B14-0BF.png")
+
+let b14_0BG = Card(series: "B14-0??N",
+                   name: "Takumi: Bow-Adept Princeling",
+                   rarity: "Normal",
+                   insignia: hoshido,
+                   attack: 30,
+                   support: 20,
+                   illustrator: "Misei Ito",
+                   supportingSkill: bullseye_emblem,
+                   skills: [princes_bow_lesson, wingbane],
+                   cardImageName: "B14-0BG.png")
+
+let b14_0BH = Card(series: "B14-0??R",
+                   name: "Takumi: Prince of the Light Arrows and Wind Bow",
+                   rarity: "Rare",
+                   insignia: hoshido,
+                   attack: 50,
+                   support: 20,
+                   illustrator: "Misei Ito",
+                   supportingSkill: none,
+                   skills: [brighthand_bound_to_fujin, resonance_of_dragons_blood, wingbane],
+                   cardImageName: "B14-0BH.png")

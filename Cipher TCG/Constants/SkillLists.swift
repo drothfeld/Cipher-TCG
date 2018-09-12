@@ -379,4 +379,6 @@ let rawSkillsList: [Skill] = [
     the_pegasus_hero_makes_her_dashing_entrance,
     ill_take_you_all_on,
     dont_take_me_lightly,
+    princes_bow_lesson,
+    brighthand_bound_to_fujin,
 ]

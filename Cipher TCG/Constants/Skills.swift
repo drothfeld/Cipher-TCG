@@ -2968,4 +2968,18 @@ let dont_take_me_lightly = Skill(name: "Don’t take me lightly!",
                         tapUnit: false,
                         CCS: false)
 
+let princes_bow_lesson = Skill(name: "Prince’s Bow Lesson",
+                        description: "[ALWAYS] If this unit is attacking an enemy with a deployment cost of 1, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
 
+let brighthand_bound_to_fujin = Skill(name: "Brighthand Bound to Fujin",
+                        description: "[DB] [ACT] [FLIP 1] Until the end of the turn, non-lord enemies cannot evade this unit’s attacks.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
