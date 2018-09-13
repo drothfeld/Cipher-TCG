@@ -2983,3 +2983,43 @@ let brighthand_bound_to_fujin = Skill(name: "Brighthand Bound to Fujin",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let young_dragons_breath = Skill(name: "Young Dragon’s Breath",
+                        description: "[ONCE PER TURN] [FLIP 1] Until the end of the turn, this unit gains +10 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let longevous_dragonkin_2 = Skill(name: "Longevous Dragonkin II",
+                        description: "[ALWAYS] If you have 4 or more bond cards, this unit gains +30 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let ill_transform_into_a_dragon = Skill(name: "I’ll transform into a dragon!",
+                        description: "[ONCE PER TURN] [FLIP 1] Until the end of the turn, this unit gains +20 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let maturing_young_dragon = Skill(name: "Maturing Young Dragon",
+                        description: "[ONCE PER TURN] [FLIP 1] Choose 1 of your bond cards, and add it to your hand. Then, reveal the topmost card of your deck, and play it face-down in the Bond Area.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let longevous_dragonkin_3 = Skill(name: "Longevous Dragonkin III",
+                        description: "[ALWAYS] If you have 6 or more bond cards, this unit gains +30 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

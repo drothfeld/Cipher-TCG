@@ -381,4 +381,9 @@ let rawSkillsList: [Skill] = [
     dont_take_me_lightly,
     princes_bow_lesson,
     brighthand_bound_to_fujin,
+    young_dragons_breath,
+    longevous_dragonkin_2,
+    ill_transform_into_a_dragon,
+    maturing_young_dragon,
+    longevous_dragonkin_3,
 ]

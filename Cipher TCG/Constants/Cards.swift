@@ -2210,3 +2210,25 @@ let b14_0BH = Card(series: "B14-0??R",
                    supportingSkill: none,
                    skills: [brighthand_bound_to_fujin, resonance_of_dragons_blood, wingbane],
                    cardImageName: "B14-0BH.png")
+
+let b14_0BI = Card(series: "B14-0??N",
+                   name: "Nah: Daughter to Dragons",
+                   rarity: "Normal",
+                   insignia: mark_of_naga,
+                   attack: 20,
+                   support: 20,
+                   illustrator: "Sakura Miwabe",
+                   supportingSkill: dragonblood_emblem,
+                   skills: [young_dragons_breath, longevous_dragonkin_2],
+                   cardImageName: "B14-0BI.png")
+
+let b14_0BJ = Card(series: "B14-0??R",
+                   name: "Nah: Little Perseverant",
+                   rarity: "Rare",
+                   insignia: mark_of_naga,
+                   attack: 20,
+                   support: 20,
+                   illustrator: "Sakura Miwabe",
+                   supportingSkill: none,
+                   skills: [ill_transform_into_a_dragon, maturing_young_dragon, longevous_dragonkin_3],
+                   cardImageName: "B14-0BJ.png")

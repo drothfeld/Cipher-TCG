@@ -126,6 +126,8 @@
 		B0803DF720FBC8A9002CCCD8 /* B11-011.png in Resources */ = {isa = PBXBuildFile; fileRef = B0803DF220FBC8A9002CCCD8 /* B11-011.png */; };
 		B0810B1020C839BE0003EC6C /* B12-002.png in Resources */ = {isa = PBXBuildFile; fileRef = B0810B0E20C839BE0003EC6C /* B12-002.png */; };
 		B0810B1120C839BE0003EC6C /* B12-001.png in Resources */ = {isa = PBXBuildFile; fileRef = B0810B0F20C839BE0003EC6C /* B12-001.png */; };
+		B085A67E214ACB87008EAFE7 /* B14-0BJ.png in Resources */ = {isa = PBXBuildFile; fileRef = B085A67C214ACB87008EAFE7 /* B14-0BJ.png */; };
+		B085A67F214ACB87008EAFE7 /* B14-0BI.png in Resources */ = {isa = PBXBuildFile; fileRef = B085A67D214ACB87008EAFE7 /* B14-0BI.png */; };
 		B08A6B1C2016532700603113 /* UIViewDropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08A6B1B2016532700603113 /* UIViewDropShadow.swift */; };
 		B08A6B1F201661C300603113 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08A6B1E201661C300603113 /* MenuViewController.swift */; };
 		B08A6B242017A43500603113 /* B01-078.png in Resources */ = {isa = PBXBuildFile; fileRef = B08A6B232017A43500603113 /* B01-078.png */; };
@@ -380,6 +382,8 @@
 		B0803DF220FBC8A9002CCCD8 /* B11-011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B11-011.png"; sourceTree = "<group>"; };
 		B0810B0E20C839BE0003EC6C /* B12-002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B12-002.png"; sourceTree = "<group>"; };
 		B0810B0F20C839BE0003EC6C /* B12-001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B12-001.png"; sourceTree = "<group>"; };
+		B085A67C214ACB87008EAFE7 /* B14-0BJ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B14-0BJ.png"; sourceTree = "<group>"; };
+		B085A67D214ACB87008EAFE7 /* B14-0BI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B14-0BI.png"; sourceTree = "<group>"; };
 		B08A6B1B2016532700603113 /* UIViewDropShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewDropShadow.swift; sourceTree = "<group>"; };
 		B08A6B1E201661C300603113 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		B08A6B232017A43500603113 /* B01-078.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B01-078.png"; sourceTree = "<group>"; };
@@ -560,6 +564,8 @@
 				B0E6BC2A214835D000D1840D /* B14-0BF.png */,
 				B0951F192149759200B3ABBB /* B14-0BG.png */,
 				B0951F182149759100B3ABBB /* B14-0BH.png */,
+				B085A67D214ACB87008EAFE7 /* B14-0BI.png */,
+				B085A67C214ACB87008EAFE7 /* B14-0BJ.png */,
 			);
 			path = B14;
 			sourceTree = "<group>";
@@ -1169,6 +1175,7 @@
 				B03D57E12012CCEF007A3E97 /* 30px-Purple.png in Resources */,
 				B01986DB21407CA8006FF634 /* B14-0AY.png in Resources */,
 				B03D57F72012CD14007A3E97 /* B10-060.png in Resources */,
+				B085A67E214ACB87008EAFE7 /* B14-0BJ.png in Resources */,
 				B03D57AF2012CCB7007A3E97 /* B11-010PR.png in Resources */,
 				B048FE30201E3FDE007F1525 /* B03-047.png in Resources */,
 				B0CFF5412146E92800DC7BED /* B14-0BB.png in Resources */,
@@ -1222,6 +1229,7 @@
 				B0803DF320FBC8A9002CCCD8 /* B11-008.png in Resources */,
 				B03D57BE2012CCDB007A3E97 /* B06-054.png in Resources */,
 				B0303B8D213490FE00F78A00 /* B14-0AK.png in Resources */,
+				B085A67F214ACB87008EAFE7 /* B14-0BI.png in Resources */,
 				B03D57B32012CCB7007A3E97 /* B03-092.png in Resources */,
 				B0803DF720FBC8A9002CCCD8 /* B11-011.png in Resources */,
 				B0464419211BAA4700AECB2A /* S04-001.png in Resources */,

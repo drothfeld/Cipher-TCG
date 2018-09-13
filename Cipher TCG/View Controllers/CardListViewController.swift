@@ -11,6 +11,7 @@ import UIKit
 // TODO:
 // FIX LOG WARNING FOR EACH SAVED CARD: [framework] CUICatalog: Invalid asset name supplied: ''
 // RESET TABLE VIEW SCROLL TO TOP OF PAGE WHEN CHANGING FILTER
+// FIX FIRST TIME BACK TO CARD LIST FROM CARD DETAIL INCORRECTLY OFFSETS SCROLL
 
 class CardListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate {
     
@@ -50,8 +51,8 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         loadTableViewScrollOffset()
         
         // DEBUG
-        NSLog("Total number of unique cards: " + String(sortedRawCardList.count)) // 200
-        NSLog("Total number of unique skills: " + String(rawSkillsList.count)) // 372
+        NSLog("Total number of unique cards: " + String(sortedRawCardList.count)) // 202
+        NSLog("Total number of unique skills: " + String(rawSkillsList.count)) // 377
     }
     
     // Number of Rows

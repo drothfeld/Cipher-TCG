@@ -28,6 +28,10 @@ let flying_emblem = SupportingSkill(type: "Flying Emblem",
                                     textDescription: "You may choose one ally that is not the attacking unit, and move it.",
                                     iconImage: #imageLiteral(resourceName: "28px-Attack_Support.png"))
 
+let dragonblood_emblem = SupportingSkill(type: "Dragonblood Emblem",
+                                    textDescription: "If your total number of bond cards is lower than that of your opponent, you may choose 1 card from your hand and play it in the Bond Area.",
+                                    iconImage: #imageLiteral(resourceName: "28px-Attack_Support.png"))
+
 let bullseye_emblem = SupportingSkill(type: "Bullseye Emblem",
                                     textDescription: "Until the end of this combat, non-lord defending units cannot evade.",
                                     iconImage: #imageLiteral(resourceName: "28px-Attack_Support.png"))
