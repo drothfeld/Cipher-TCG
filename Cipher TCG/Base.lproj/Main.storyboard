@@ -254,6 +254,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="u7v-gz-y8Z" kind="custom" customClass="SegueFromRight" customModule="Cipher_TCG" customModuleProvider="target" id="cSO-wt-L8c"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -313,6 +316,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QLm-gM-bV1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="132" y="-591"/>
+        </scene>
+        <!--Skill View Controller-->
+        <scene sceneID="J2o-pE-Li4">
+            <objects>
+                <viewController id="u7v-gz-y8Z" customClass="SkillViewController" customModule="Cipher_TCG" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2KE-FK-RaL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="JcE-dX-ihC"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VBw-Aw-zzb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1086" y="-591"/>
         </scene>
         <!--Card List View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -762,6 +780,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="CJv-bm-6cT"/>
-        <segue reference="cac-9f-3tE"/>
+        <segue reference="eSc-Sj-Klz"/>
     </inferredMetricsTieBreakers>
 </document>

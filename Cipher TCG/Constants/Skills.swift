@@ -2992,7 +2992,7 @@ let young_dragons_breath = Skill(name: "Young Dragon’s Breath",
                         tapUnit: false,
                         CCS: false)
 
-let longevous_dragonkin_2 = Skill(name: "Longevous Dragonkin II",
+let longevous_dragonkin_2 = Skill(name: "Longevous Dragonkin (II)",
                         description: "[ALWAYS] If you have 4 or more bond cards, this unit gains +30 attack.",
                         colorType: UIColor.green,
                         flippedBonds: 0,
@@ -3016,7 +3016,7 @@ let maturing_young_dragon = Skill(name: "Maturing Young Dragon",
                         tapUnit: false,
                         CCS: false)
 
-let longevous_dragonkin_3 = Skill(name: "Longevous Dragonkin III",
+let longevous_dragonkin_3 = Skill(name: "Longevous Dragonkin (III)",
                         description: "[ALWAYS] If you have 6 or more bond cards, this unit gains +30 attack.",
                         colorType: UIColor.green,
                         flippedBonds: 0,

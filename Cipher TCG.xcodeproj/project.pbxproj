@@ -203,6 +203,7 @@
 		B0DA71DA20EC1E4A00AC6AB5 /* B13-066.png in Resources */ = {isa = PBXBuildFile; fileRef = B0DA71D920EC1E4A00AC6AB5 /* B13-066.png */; };
 		B0DA71DC20EC1F2000AC6AB5 /* B13-070.png in Resources */ = {isa = PBXBuildFile; fileRef = B0DA71DB20EC1F2000AC6AB5 /* B13-070.png */; };
 		B0DA71DE20EC20B400AC6AB5 /* B13-055.png in Resources */ = {isa = PBXBuildFile; fileRef = B0DA71DD20EC20B400AC6AB5 /* B13-055.png */; };
+		B0DC65E4214B52FD00A422D7 /* SkillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DC65E3214B52FD00A422D7 /* SkillViewController.swift */; };
 		B0E02BDD213EFA93008C8B05 /* B14-0AW.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E02BDB213EFA92008C8B05 /* B14-0AW.png */; };
 		B0E02BDE213EFA93008C8B05 /* B14-0AX.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E02BDC213EFA92008C8B05 /* B14-0AX.png */; };
 		B0E02BE0213EFE61008C8B05 /* SkillListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E02BDF213EFE61008C8B05 /* SkillListViewController.swift */; };
@@ -459,6 +460,7 @@
 		B0DA71D920EC1E4A00AC6AB5 /* B13-066.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B13-066.png"; sourceTree = "<group>"; };
 		B0DA71DB20EC1F2000AC6AB5 /* B13-070.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B13-070.png"; sourceTree = "<group>"; };
 		B0DA71DD20EC20B400AC6AB5 /* B13-055.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B13-055.png"; sourceTree = "<group>"; };
+		B0DC65E3214B52FD00A422D7 /* SkillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillViewController.swift; sourceTree = "<group>"; };
 		B0E02BDB213EFA92008C8B05 /* B14-0AW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B14-0AW.png"; sourceTree = "<group>"; };
 		B0E02BDC213EFA92008C8B05 /* B14-0AX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B14-0AX.png"; sourceTree = "<group>"; };
 		B0E02BDF213EFE61008C8B05 /* SkillListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillListViewController.swift; sourceTree = "<group>"; };
@@ -775,6 +777,7 @@
 				B054BBB4200E68AE004159A6 /* CardListViewController.swift */,
 				B03D58092012DBC5007A3E97 /* CardViewController.swift */,
 				B0E02BDF213EFE61008C8B05 /* SkillListViewController.swift */,
+				B0DC65E3214B52FD00A422D7 /* SkillViewController.swift */,
 				B08A6B1E201661C300603113 /* MenuViewController.swift */,
 				B08A6B41201903AD00603113 /* LaunchScreenViewController.swift */,
 			);
@@ -1331,6 +1334,7 @@
 				B054BBE9200EAC3C004159A6 /* Cards.swift in Sources */,
 				B08A6B1C2016532700603113 /* UIViewDropShadow.swift in Sources */,
 				B03D580A2012DBC5007A3E97 /* CardViewController.swift in Sources */,
+				B0DC65E4214B52FD00A422D7 /* SkillViewController.swift in Sources */,
 				B054BBB3200E68AE004159A6 /* AppDelegate.swift in Sources */,
 				B0303B98213496DA00F78A00 /* BoxSets.swift in Sources */,
 				B03D5775201105A9007A3E97 /* CardLists.swift in Sources */,
