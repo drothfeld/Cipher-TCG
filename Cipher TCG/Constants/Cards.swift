@@ -2232,3 +2232,14 @@ let b14_0BJ = Card(series: "B14-0??R",
                    supportingSkill: none,
                    skills: [ill_transform_into_a_dragon, maturing_young_dragon, longevous_dragonkin_3],
                    cardImageName: "B14-0BJ.png")
+
+let b14_0BK = Card(series: "B14-0??SR",
+                   name: "Ilyana: Famished Arch Sage",
+                   rarity: "Secret Rare",
+                   insignia: medallion,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "Mayo",
+                   supportingSkill: none,
+                   skills: [enhungering_lightning_magic, a_delicious_meal_i_can_almost_taste_it],
+                   cardImageName: "B14-0BK.png")

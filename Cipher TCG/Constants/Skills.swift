@@ -3023,3 +3023,19 @@ let longevous_dragonkin_3 = Skill(name: "Longevous Dragonkin (III)",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let enhungering_lightning_magic = Skill(name: "Enhungering Lightning Magic",
+                        description: "[ACT] [TAP, Send as many cards as you wish from your hand to the Retreat Area] For each card you sent to the Retreat Area as the cost of this skill, choose 1 non-lord enemy and destroy it.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let a_delicious_meal_i_can_almost_taste_it = Skill(name: "A delicious meal… I can almost taste it…",
+                        description: "[ACT] [ONCE PER TURN] [FLIP 2] If you have 4 or fewer cards in your hand, draw 2 cards.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
