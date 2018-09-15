@@ -3039,3 +3039,19 @@ let a_delicious_meal_i_can_almost_taste_it = Skill(name: "A delicious meal… I 
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let grimas_truth = Skill(name: "Grima’s Truth",
+                        description: "[ONCE PER TURN] [FLIP 3] Your opponent may choose 2 cards from their hand and send them to the Retreat Area. If they do not, destroy your opponent’s lord.",
+                        colorType: UIColor.red,
+                        flippedBonds: 3,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let dragons_table = Skill(name: "Dragon’s Table",
+                        description: "[ONCE PER TURN] [Destroy 2 allies with a deployment cost of 1 or lower] Choose 1 non-lord enemy, and destroy it.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

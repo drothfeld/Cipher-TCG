@@ -2243,3 +2243,14 @@ let b14_0BK = Card(series: "B14-0??SR",
                    supportingSkill: none,
                    skills: [enhungering_lightning_magic, a_delicious_meal_i_can_almost_taste_it],
                    cardImageName: "B14-0BK.png")
+
+let b14_0BL = Card(series: "B14-0??R",
+                   name: "Validar: Fell Dragon-Worshipping Sorcerer",
+                   rarity: "Rare",
+                   insignia: mark_of_naga,
+                   attack: 70,
+                   support: 0,
+                   illustrator: "Kazuhiro Taneda",
+                   supportingSkill: none,
+                   skills: [grimas_truth, dragons_table],
+                   cardImageName: "B14-0BL.png")

@@ -388,4 +388,6 @@ let rawSkillsList: [Skill] = [
     longevous_dragonkin_3,
     enhungering_lightning_magic,
     a_delicious_meal_i_can_almost_taste_it,
+    grimas_truth,
+    dragons_table,
 ]

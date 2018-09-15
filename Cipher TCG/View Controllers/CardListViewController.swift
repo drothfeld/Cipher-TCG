@@ -51,8 +51,8 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         loadTableViewScrollOffset()
         
         // DEBUG
-        NSLog("Total number of unique cards: " + String(sortedRawCardList.count)) // 203
-        NSLog("Total number of unique skills: " + String(rawSkillsList.count)) // 379
+        NSLog("Total number of unique cards: " + String(sortedRawCardList.count)) // 204
+        NSLog("Total number of unique skills: " + String(rawSkillsList.count)) // 381
     }
     
     // Number of Rows
