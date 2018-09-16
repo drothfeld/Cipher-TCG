@@ -390,4 +390,9 @@ let rawSkillsList: [Skill] = [
     a_delicious_meal_i_can_almost_taste_it,
     grimas_truth,
     dragons_table,
+    ill_lure_them_this_way_and,
+    tacticians_elfire,
+    student_of_the_same_strategies,
+    dark_hauteclere,
+    seal_seals,
 ]

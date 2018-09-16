@@ -2254,3 +2254,25 @@ let b14_0BL = Card(series: "B14-0??R",
                    supportingSkill: none,
                    skills: [grimas_truth, dragons_table],
                    cardImageName: "B14-0BL.png")
+
+let b14_0BM = Card(series: "B14-0??N",
+                   name: "Morgan (F): Amnesiac Girl",
+                   rarity: "Normal",
+                   insignia: mark_of_naga,
+                   attack: 40,
+                   support: 20,
+                   illustrator: "HMK84",
+                   supportingSkill: none,
+                   skills: [ill_lure_them_this_way_and, tacticians_elfire],
+                   cardImageName: "B14-0BM.png")
+
+let b14_0BN = Card(series: "B14-0??R",
+                   name: "???: Mightiest Pawn of the Leal",
+                   rarity: "Rare",
+                   insignia: mark_of_naga,
+                   attack: 50,
+                   support: 30,
+                   illustrator: "Setsu",
+                   supportingSkill: none,
+                   skills: [student_of_the_same_strategies, dark_hauteclere, seal_seals],
+                   cardImageName: "B14-0BN.png")

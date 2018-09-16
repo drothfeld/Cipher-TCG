@@ -3055,3 +3055,43 @@ let dragons_table = Skill(name: "Dragon’s Table",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let ill_lure_them_this_way_and = Skill(name: "I’ll lure them this way, and…",
+                        description: "[TRIGGER] [ONCE PER TURN] When an other ally Class Changes, you may choose 1 enemy in the Back Line and move them.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let tacticians_elfire = Skill(name: "Tactician’s Elfire",
+                        description: "[ONCE PER TURN] [Flip 1 <Blue> bond card face-down] Until the end of the turn, this unit gains +20 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let student_of_the_same_strategies = Skill(name: "Student of the Same Strategies",
+                        description: "[SPECIAL] If you have no allied “???”, you may Class Change an allied “Morgan (F)” into this card.",
+                        colorType: UIColor.purple,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let dark_hauteclere = Skill(name: "Dark Hauteclere",
+                        description: "[ONCE PER TURN] [Destroy 1 ally with a deployment cost of 1 or lower] Until the end of the turn, this unit gains +20 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let seal_seals = Skill(name: "Seal Seals",
+                        description: "[ALWAYS] Non-lord enemiees are unable to Class Change.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
