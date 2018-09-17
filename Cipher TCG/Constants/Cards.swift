@@ -2276,3 +2276,25 @@ let b14_0BN = Card(series: "B14-0??R",
                    supportingSkill: none,
                    skills: [student_of_the_same_strategies, dark_hauteclere, seal_seals],
                    cardImageName: "B14-0BN.png")
+
+let b14_0BO = Card(series: "B14-0??N",
+                   name: "Sakura: Princess Named For a Flower",
+                   rarity: "Normal",
+                   insignia: hoshido,
+                   attack: 20,
+                   support: 20,
+                   illustrator: "kawasumi",
+                   supportingSkill: miracle_emblem,
+                   skills: [bloom_festal, princesss_sympathy],
+                   cardImageName: "B14-0BO.png")
+
+let b14_0BP = Card(series: "B14-0??R",
+                   name: "Sakura: Well-Wishing Cherry Blossom Shrine Maiden",
+                   rarity: "Rare",
+                   insignia: hoshido,
+                   attack: 50,
+                   support: 20,
+                   illustrator: "kawasumi",
+                   supportingSkill: none,
+                   skills: [peace_desiring_will, resonance_of_dragons_blood, wingbane],
+                   cardImageName: "B14-0BP.png")

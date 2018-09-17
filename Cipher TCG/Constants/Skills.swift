@@ -3095,3 +3095,27 @@ let seal_seals = Skill(name: "Seal Seals",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let bloom_festal = Skill(name: "Bloom Festal",
+                        description: "[ACT] [TAP, FLIP 2] Choose 1 non-“Sakura” card from your Retreat Area, and add it to your hand.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let princesss_sympathy = Skill(name: "Princess’s Sympathy",
+                        description: "[TRIGGER] [ONCE PER TURN] During your opponent’s turn, if an other ally is destroyed as the cost or effect of a skill, draw 1 card.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let peace_desiring_will = Skill(name: "Peace-Desiring Will",
+                        description: "[DB] [TRIGGER] [FLIP 1] When this unit’s attack destroys a non-lord enemy, you may pay the cost and if you do: Draw 1 card.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

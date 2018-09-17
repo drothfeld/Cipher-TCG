@@ -395,4 +395,7 @@ let rawSkillsList: [Skill] = [
     student_of_the_same_strategies,
     dark_hauteclere,
     seal_seals,
+    bloom_festal,
+    princesss_sympathy,
+    peace_desiring_will
 ]
