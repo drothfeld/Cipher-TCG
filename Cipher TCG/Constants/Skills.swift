@@ -3119,3 +3119,27 @@ let peace_desiring_will = Skill(name: "Peace-Desiring Will",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let spacetime_transcending_fell_heart = Skill(name: "Spacetime-Transcending Fell Heart",
+                        description: "[SPECIAL] [Flip 2 <Blue> bond cards face-down] At the start of your Bond Phase, you may pay the cost and if you do: Deploy this card into your Front Line from your Retreat Area.",
+                        colorType: UIColor.purple,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let die_and_let_hope_die_with_you = Skill(name: "Die, and let hope die with you!",
+                        description: "[ALWAYS] If an enemy destroyed by this unit’s attack is to be sent to the Retreat Area, it is instead sent to the Boundless Area.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let lost_power = Skill(name: "Lost Power",
+                        description: "[ALWAYS] If this unit is to be sent to the Retreat Area upon being destroyed, send her to the Boundless Area instead.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

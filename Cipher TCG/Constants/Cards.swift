@@ -2298,3 +2298,14 @@ let b14_0BP = Card(series: "B14-0??R",
                    supportingSkill: none,
                    skills: [peace_desiring_will, resonance_of_dragons_blood, wingbane],
                    cardImageName: "B14-0BP.png")
+
+let b14_0BQ = Card(series: "B14-0??SR",
+                   name: "Robin (F): Visitor from the Future",
+                   rarity: "Secret Rare",
+                   insignia: mark_of_naga,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "Masaki Hirooka",
+                   supportingSkill: none,
+                   skills: [spacetime_transcending_fell_heart, die_and_let_hope_die_with_you, lost_power],
+                   cardImageName: "B14-0BQ.png")

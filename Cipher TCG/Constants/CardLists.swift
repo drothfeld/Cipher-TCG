@@ -233,4 +233,5 @@ let rawCardsList: [Card] = [
     b14_0BN,
     b14_0BO,
     b14_0BP,
+    b14_0BQ,
 ]

@@ -397,5 +397,8 @@ let rawSkillsList: [Skill] = [
     seal_seals,
     bloom_festal,
     princesss_sympathy,
-    peace_desiring_will
+    peace_desiring_will,
+    spacetime_transcending_fell_heart,
+    die_and_let_hope_die_with_you,
+    lost_power,
 ]
