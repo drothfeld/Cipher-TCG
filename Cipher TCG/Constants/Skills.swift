@@ -3143,3 +3143,19 @@ let lost_power = Skill(name: "Lost Power",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let are_you_my_archrival = Skill(name: "Are you my archrival?",
+                        description: "[ACT] [ONCE PER TURN] [Send 1 “Mia” from your hand to the Retreat Area] Choose 1 enemy in the Back Line, and move them. Until the end of the turn, this unit gains +20 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let not_gonna_lose = Skill(name: "Not gonna lose!",
+                        description: "[ALWAYS] If this unit evades, you may [FLIP 2] instead of sending a “Mia” from your hand to the Retreat Area.",
+                        colorType: UIColor.green,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

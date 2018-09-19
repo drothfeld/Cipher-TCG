@@ -2309,3 +2309,14 @@ let b14_0BQ = Card(series: "B14-0??SR",
                    supportingSkill: none,
                    skills: [spacetime_transcending_fell_heart, die_and_let_hope_die_with_you, lost_power],
                    cardImageName: "B14-0BQ.png")
+
+let b14_0BR = Card(series: "B14-0??R",
+                   name: "Mia: Duel! Duel! And Duel Some More!",
+                   rarity: "Rare",
+                   insignia: medallion,
+                   attack: 70,
+                   support: 10,
+                   illustrator: "cuboon",
+                   supportingSkill: none,
+                   skills: [are_you_my_archrival, not_gonna_lose],
+                   cardImageName: "B14-0BR.png")

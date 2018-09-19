@@ -401,4 +401,6 @@ let rawSkillsList: [Skill] = [
     spacetime_transcending_fell_heart,
     die_and_let_hope_die_with_you,
     lost_power,
+    are_you_my_archrival,
+    not_gonna_lose,
 ]
