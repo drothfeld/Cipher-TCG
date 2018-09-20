@@ -178,7 +178,7 @@ class CardViewController: UIViewController {
                 SkillsView.backgroundColor = detailCard.insignia.color
                 
                 // Supporting Skill Section and Text
-                if (detailCard.supportingSkill != none) {
+                if (detailCard.supportingSkill.type != "None") {
                     SupportingSkillView.backgroundColor = detailCard.insignia.color
                     CardSupportingSkillText.text = detailCard.supportingSkill.textDescription
                     SupportingSkillTitleText.text = detailCard.supportingSkill.type

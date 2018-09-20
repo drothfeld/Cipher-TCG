@@ -14,11 +14,13 @@ class Insignia: NSObject, NSCoding {
     var name: String
     var color: UIColor
     var iconImage: UIImage?
+    var iconImageName: String?
     
     // Constructor
     init(name: String, color: UIColor, iconImageName: String?) {
         self.name = name
         self.color = color
+        self.iconImageName = iconImageName
         
         if let image = UIImage(named: iconImageName!) {
             self.iconImage = image
@@ -39,6 +41,6 @@ class Insignia: NSObject, NSCoding {
     func encode(with coder: NSCoder) {
         coder.encode(name, forKey: "name")
         coder.encode(color, forKey: "color")
-        coder.encode(iconImage, forKey: "iconImageName")
+        coder.encode(iconImageName, forKey: "iconImageName")
     }
 }

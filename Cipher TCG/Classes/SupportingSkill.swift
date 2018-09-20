@@ -12,27 +12,34 @@ class SupportingSkill: NSObject, NSCoding {
     // Fields
     var type: String
     var textDescription: String
-    var iconImage: UIImage
+    var iconImage: UIImage?
+    var iconImageName: String?
     
     // Constructor
-    init(type: String, textDescription: String, iconImage: UIImage) {
+    init(type: String, textDescription: String, iconImageName: String?) {
         self.type = type
         self.textDescription = textDescription
-        self.iconImage = iconImage
+        self.iconImageName = iconImageName
+        
+        if let image = UIImage(named: iconImageName!) {
+            self.iconImage = image
+        } else {
+            self.iconImage = nil
+        }
     }
     
     // Decoding for userDefaults
     required convenience init(coder decoder: NSCoder) {
         let type = decoder.decodeObject(forKey: "type") as? String ?? ""
         let textDescription = decoder.decodeObject(forKey: "textDescription") as? String ?? ""
-        let iconImage = decoder.decodeObject(forKey: "iconImage") as? UIImage ?? #imageLiteral(resourceName: "card_placeholder.png")
-        self.init(type: type, textDescription: textDescription, iconImage: iconImage)
+        let iconImageName = decoder.decodeObject(forKey: "iconImageName") as? String ?? ""
+        self.init(type: type, textDescription: textDescription, iconImageName: iconImageName)
     }
     
     // Encoding for userDefaults
     func encode(with coder: NSCoder) {
         coder.encode(type, forKey: "type")
         coder.encode(textDescription, forKey: "textDescription")
-        coder.encode(iconImage, forKey: "iconImage")
+        coder.encode(iconImageName, forKey: "iconImageName")
     }
 }
