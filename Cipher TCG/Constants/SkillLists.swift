@@ -403,4 +403,8 @@ let rawSkillsList: [Skill] = [
     lost_power,
     are_you_my_archrival,
     not_gonna_lose,
+    miraculous_singing_voice,
+    blessed_lance_dance,
+    prophetic_song,
+    call_of_the_tide,
 ]

@@ -2320,3 +2320,25 @@ let b14_0BR = Card(series: "B14-0??R",
                    supportingSkill: none,
                    skills: [are_you_my_archrival, not_gonna_lose],
                    cardImageName: "B14-0BR.png")
+
+let b14_0BS = Card(series: "B14-0??N",
+                   name: "Azura: Requiem Songstress",
+                   rarity: "Normal",
+                   insignia: nohr,
+                   attack: 30,
+                   support: 20,
+                   illustrator: "Geso Umiu",
+                   supportingSkill: prophecy_emblem,
+                   skills: [miraculous_singing_voice],
+                   cardImageName: "B14-0BS.png")
+
+let b14_0BT = Card(series: "B14-0??SR",
+                   name: "Azura: End of All",
+                   rarity: "Secret Rare",
+                   insignia: nohr,
+                   attack: 30,
+                   support: 20,
+                   illustrator: "Geso Umiu",
+                   supportingSkill: none,
+                   skills: [blessed_lance_dance, prophetic_song, call_of_the_tide],
+                   cardImageName: "B14-0BT.png")

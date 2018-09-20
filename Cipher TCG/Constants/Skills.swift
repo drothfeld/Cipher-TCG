@@ -3159,3 +3159,35 @@ let not_gonna_lose = Skill(name: "Not gonna lose!",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let miraculous_singing_voice = Skill(name: "Miraculous Singing Voice",
+                        description: "[TAP, FLIP 1] Look at the topmost 2 cards of your deck, and place them at the top of your deck in any order you wish.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let blessed_lance_dance = Skill(name: "Blessed Lance Dance",
+                        description: "[ONCE PER TURN] [TAP] Choose 1 other ally that has attacked in this turn, and untap them. Until the end of the turn, that ally gains +30 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let prophetic_song = Skill(name: "Prophetic Song",
+                        description: "[ONCE PER TURN] Choose 1 non-lord <Dragonstone> enemy, and send them to the Boundless Area",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let call_of_the_tide = Skill(name: "Call of the Tide",
+                        description: "[SPECIAL] If you have 1 or more face-down bond cards, this card gains a Class Change cost of 3.",
+                        colorType: UIColor.purple,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
