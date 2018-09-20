@@ -9,35 +9,35 @@
 import UIKit
 
 let blade_of_light = Insignia(name: "Blade of Light",
-                              color: UIColor.red,
+                              color: UIColor(red: 0.70, green: 0.14, blue: 0.15, alpha: 1.0),
                               iconImageName: "30px-Red.png")
 
 let mark_of_naga = Insignia(name: "Mark of Naga",
-                              color: UIColor.blue,
+                              color: UIColor(red: 0.13, green: 0.35, blue: 0.58, alpha: 1.0),
                               iconImageName: "30px-Blue.png")
 
 let hoshido = Insignia(name: "Hoshido",
-                              color: UIColor.white,
+                              color: UIColor(red: 0.79, green: 0.57, blue: 0.65, alpha: 1.0),
                               iconImageName: "30px-White.png")
 
 let nohr = Insignia(name: "Nohr",
-                              color: UIColor.black,
+                              color: UIColor(red: 0.24, green: 0.24, blue: 0.31, alpha: 1.0),
                               iconImageName: "30px-Black.png")
 
 let medallion = Insignia(name: "Medallion",
-                              color: UIColor.green,
+                              color: UIColor(red: 0.21, green: 0.37, blue: 0.20, alpha: 1.0),
                               iconImageName: "30px-Green.png")
 
 let divine_weapons = Insignia(name: "Divine Weapons",
-                              color: UIColor.purple,
+                              color: UIColor(red: 0.49, green: 0.15, blue: 0.44, alpha: 1.0),
                               iconImageName: "30px-Purple.png")
 
 let holy_war_flag = Insignia(name: "Holy War Flag",
-                              color: UIColor.yellow,
+                              color: UIColor(red: 0.81, green: 0.55, blue: 0.20, alpha: 1.0),
                               iconImageName: "30px-Yellow.png")
 
 let colorless = Insignia(name: "Colorless",
-                             color: UIColor.clear,
+                             color: UIColor(red: 0.48, green: 0.53, blue: 0.59, alpha: 1.0),
                              iconImageName: "30px-Colorless.png")
 
 let rawInsigniaList: [Insignia] = [blade_of_light, mark_of_naga, hoshido, nohr, medallion, divine_weapons, holy_war_flag, colorless]

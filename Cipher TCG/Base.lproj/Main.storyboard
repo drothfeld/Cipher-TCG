@@ -529,23 +529,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="48J-Nh-E77" userLabel="Header View">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="48J-Nh-E77" userLabel="Header View">
                                 <rect key="frame" x="0.0" y="0.0" width="376" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wIQ-VU-HKz" userLabel="Header Bar">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wIQ-VU-HKz" userLabel="Header Bar">
                                         <rect key="frame" x="0.0" y="60" width="376" height="2"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="2" id="uFn-U6-Znd"/>
-                                        </constraints>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rbt-jA-tCY">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rbt-jA-tCY" userLabel="Back Button">
                                         <rect key="frame" x="8" y="15" width="62" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="62" id="0Oh-gA-wqC"/>
-                                            <constraint firstAttribute="height" constant="35" id="8LA-vd-edv"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
                                         <state key="normal" title="&lt; Back">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -554,12 +550,9 @@
                                             <segue destination="BYZ-38-t0r" kind="custom" customClass="SegueFromLeft" customModule="Cipher_TCG" customModuleProvider="target" id="8ih-mp-VFz"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jue-K7-y9L" userLabel="Menu Button">
+                                    <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jue-K7-y9L" userLabel="Menu Button">
                                         <rect key="frame" x="220" y="3" width="146" height="53"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="53" id="cII-ZU-8NZ"/>
-                                            <constraint firstAttribute="width" constant="146" id="mh4-Uq-soQ"/>
-                                        </constraints>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="cipher_header.png"/>
                                         <connections>
                                             <segue destination="o1b-Zz-bjG" kind="popoverPresentation" popoverAnchorView="jue-K7-y9L" id="QE9-aR-HPz">
@@ -567,12 +560,9 @@
                                             </segue>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.25" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7nQ-Qg-TQE" userLabel="Favorite Button">
+                                    <button opaque="NO" alpha="0.25" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="749" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7nQ-Qg-TQE" userLabel="Favorite Button">
                                         <rect key="frame" x="163" y="5.5" width="50" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="XVT-fA-fFl"/>
-                                            <constraint firstAttribute="width" constant="50" id="ir6-sy-vKP"/>
-                                        </constraints>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="favorite_button.png"/>
                                         <connections>
                                             <action selector="favoriteCardButtonPressed:" destination="PI4-7j-J4h" eventType="touchUpInside" id="fQ6-n6-Ev2"/>
@@ -580,297 +570,185 @@
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstItem="wIQ-VU-HKz" firstAttribute="top" secondItem="jue-K7-y9L" secondAttribute="bottom" constant="4" id="1Sy-5q-lGy"/>
-                                    <constraint firstItem="7nQ-Qg-TQE" firstAttribute="centerX" secondItem="48J-Nh-E77" secondAttribute="centerX" id="548-ZS-G4u"/>
-                                    <constraint firstItem="wIQ-VU-HKz" firstAttribute="centerX" secondItem="48J-Nh-E77" secondAttribute="centerX" id="7RT-JL-qQs"/>
-                                    <constraint firstItem="wIQ-VU-HKz" firstAttribute="top" secondItem="7nQ-Qg-TQE" secondAttribute="bottom" constant="4.5" id="HHd-Wy-jR1"/>
-                                    <constraint firstItem="7nQ-Qg-TQE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="rbt-jA-tCY" secondAttribute="trailing" constant="8" symbolic="YES" id="KSv-hv-lGw"/>
-                                    <constraint firstItem="rbt-jA-tCY" firstAttribute="top" secondItem="48J-Nh-E77" secondAttribute="top" constant="15" id="Otj-L8-JNK"/>
-                                    <constraint firstAttribute="trailing" secondItem="wIQ-VU-HKz" secondAttribute="trailing" id="Ptl-B7-qvO"/>
-                                    <constraint firstAttribute="trailing" secondItem="jue-K7-y9L" secondAttribute="trailing" constant="10" id="VpV-GT-5vN"/>
-                                    <constraint firstItem="rbt-jA-tCY" firstAttribute="leading" secondItem="48J-Nh-E77" secondAttribute="leading" constant="8" id="YL9-Qq-vmz"/>
-                                    <constraint firstItem="7nQ-Qg-TQE" firstAttribute="top" secondItem="48J-Nh-E77" secondAttribute="top" constant="5.5" id="fW8-BD-H5o"/>
-                                    <constraint firstItem="wIQ-VU-HKz" firstAttribute="leading" secondItem="48J-Nh-E77" secondAttribute="leading" id="mH3-eV-3gY"/>
-                                    <constraint firstAttribute="height" constant="61" id="oc2-WC-dJT"/>
-                                    <constraint firstItem="jue-K7-y9L" firstAttribute="top" secondItem="48J-Nh-E77" secondAttribute="top" constant="3" id="yZg-mC-k6J"/>
-                                </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6RG-iI-hrQ" userLabel="Card View">
-                                <rect key="frame" x="0.0" y="69" width="375" height="598"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6RG-iI-hrQ" userLabel="Card View">
+                                <rect key="frame" x="0.0" y="69" width="376" height="598"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TLJ-zq-3rn" userLabel="Card Image">
-                                        <rect key="frame" x="8" y="28" width="214" height="300"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="300" id="Fst-9v-ajw"/>
-                                            <constraint firstAttribute="width" constant="214" id="gZh-Qg-vV9"/>
-                                        </constraints>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Card Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="baE-Rw-07R" userLabel="Card Name Text">
-                                        <rect key="frame" x="8" y="0.0" width="360" height="20"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="20" id="5s9-5K-79F"/>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="360" id="pAB-HG-9aQ"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="18"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Series:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jky-fa-qgr" userLabel="Card Series Title Text">
-                                        <rect key="frame" x="231" y="27" width="44" height="15"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Insignia Text" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4v8-H0-SNk" userLabel="Card Insignia Text">
-                                        <rect key="frame" x="250" y="50" width="102" height="13"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="X0l-0g-e8M" userLabel="Card Insignia Image">
-                                        <rect key="frame" x="231" y="50" width="13" height="13"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="13" id="8Xp-g5-GSI"/>
-                                            <constraint firstAttribute="height" constant="13" id="EPW-wu-E3w"/>
-                                        </constraints>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Illustrator:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2vb-QZ-AUS" userLabel="Card Illustrator Title Text">
-                                        <rect key="frame" x="231" y="71" width="67" height="15"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Illus Text" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vy6-lJ-rWs" userLabel="Card Illustrator Text">
-                                        <rect key="frame" x="297" y="71" width="71" height="15"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rarity: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ib0-NA-Qaa" userLabel="Card Rarity Title Text">
-                                        <rect key="frame" x="231" y="93" width="44" height="15"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Secret Rare" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1xQ-v6-oka" userLabel="Card Rarity Text">
-                                        <rect key="frame" x="276" y="93" width="66" height="15"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="66" id="n6c-34-PWr"/>
-                                            <constraint firstAttribute="height" constant="15" id="xFm-NE-cHU"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Attack:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4pF-ZQ-yhP" userLabel="Card Attack Title Text">
-                                        <rect key="frame" x="231" y="117" width="44" height="15"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0  " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nVD-D5-nm0" userLabel="Card Attack Text">
-                                        <rect key="frame" x="279" y="117" width="40" height="15"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="uK4-AZ-YvR"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Support:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YLI-SF-J22" userLabel="Card Support Title Text">
-                                        <rect key="frame" x="231" y="140" width="54" height="15"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nXl-6y-hZw" userLabel="Card Support Text">
-                                        <rect key="frame" x="289" y="140" width="40" height="15"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="40" id="Uoq-s5-3Co"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hhx-bx-fAc" userLabel="Card Price Title Text">
-                                        <rect key="frame" x="231" y="163" width="36" height="15"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                        <color key="textColor" red="0.0" green="0.58385485742705567" blue="0.22380658967759745" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8R5-pp-DBi" userLabel="Supporting Skill">
-                                        <rect key="frame" x="231" y="181" width="134" height="147"/>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Bb-mG-sw0" userLabel="Card Info View">
+                                        <rect key="frame" x="239" y="28" width="180" height="89"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jSe-xV-ppj" userLabel="Card Supporting Skill Image">
-                                                <rect key="frame" x="0.0" y="8" width="16" height="16"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="16" id="0Uz-ta-o3N"/>
-                                                    <constraint firstAttribute="width" constant="16" id="TFx-9i-yjj"/>
-                                                </constraints>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Series:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jky-fa-qgr" userLabel="Card Series Title Text">
+                                                <rect key="frame" x="8" y="29" width="44" height="15"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X0l-0g-e8M" userLabel="Card Insignia Image">
+                                                <rect key="frame" x="8" y="8" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Supporting Skill:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O8A-Yt-wVz" userLabel="Card Supprting Skill Title Text">
-                                                <rect key="frame" x="20" y="8" width="108" height="16"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Artist:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2vb-QZ-AUS" userLabel="Card Illustrator Title Text">
+                                                <rect key="frame" x="8" y="66" width="44" height="15"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rarity: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ib0-NA-Qaa" userLabel="Card Rarity Title Text">
+                                                <rect key="frame" x="8" y="47" width="44" height="15"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Secret Rare" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1xQ-v6-oka" userLabel="Card Rarity Text">
+                                                <rect key="frame" x="53" y="48" width="74" height="15"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="B99-099SR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9im-wi-VKQ" userLabel="Card Series Text">
+                                                <rect key="frame" x="53" y="30" width="74" height="15"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Masaki Hirooka" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vy6-lJ-rWs" userLabel="Card Illustrator Text">
+                                                <rect key="frame" x="53" y="68" width="74" height="12"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Blade of Light" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4v8-H0-SNk" userLabel="Card Insignia Text">
+                                                <rect key="frame" x="32" y="11" width="102" height="15"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.74587094783782959" green="0.0" blue="0.11550974100828171" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="card_placeholder.png" translatesAutoresizingMaskIntoConstraints="NO" id="TLJ-zq-3rn" userLabel="Card Image">
+                                        <rect key="frame" x="8" y="28" width="214" height="300"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7pu-RY-wnb" userLabel="Card Name View">
+                                        <rect key="frame" x="0.0" y="0.0" width="376" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Card Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="baE-Rw-07R" userLabel="Card Name Text">
+                                                <rect key="frame" x="8" y="0.0" width="360" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" delaysContentTouches="NO" canCancelContentTouches="NO" keyboardDismissMode="interactive" editable="NO" text="Supporting Skill Text" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ds5-v6-nco" userLabel="Card Supporting Skill Text">
-                                                <rect key="frame" x="0.0" y="23" width="128" height="124"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </subviews>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8R5-pp-DBi" userLabel="Supporting Skill View">
+                                        <rect key="frame" x="231" y="181" width="188" height="147"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jSe-xV-ppj" userLabel="Card Supporting Skill Image">
+                                                <rect key="frame" x="8" y="8" width="16" height="16"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hero's Emblem" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O8A-Yt-wVz" userLabel="Card Supprting Skill Title Text">
+                                                <rect key="frame" x="28" y="8" width="108" height="16"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" delaysContentTouches="NO" canCancelContentTouches="NO" keyboardDismissMode="interactive" editable="NO" text="If the attacking unit is White, until the end of this battle, the number of orbs this unit’s attack would destroy becomes 2." selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ds5-v6-nco" userLabel="Card Supporting Skill Text">
+                                                <rect key="frame" x="8" y="27" width="128" height="112"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstItem="O8A-Yt-wVz" firstAttribute="top" secondItem="8R5-pp-DBi" secondAttribute="topMargin" id="1JE-SX-Ka6"/>
-                                            <constraint firstItem="O8A-Yt-wVz" firstAttribute="leading" secondItem="jSe-xV-ppj" secondAttribute="trailing" constant="4" id="DFE-M3-hTH"/>
-                                            <constraint firstItem="O8A-Yt-wVz" firstAttribute="top" secondItem="jSe-xV-ppj" secondAttribute="top" id="Sz1-tA-NaI"/>
-                                            <constraint firstAttribute="trailing" secondItem="O8A-Yt-wVz" secondAttribute="trailing" constant="6" id="eGP-hd-B0x"/>
-                                            <constraint firstItem="O8A-Yt-wVz" firstAttribute="bottom" secondItem="jSe-xV-ppj" secondAttribute="bottom" id="eKh-cO-6nM"/>
-                                            <constraint firstItem="ds5-v6-nco" firstAttribute="top" secondItem="8R5-pp-DBi" secondAttribute="top" constant="23" id="fGo-bp-lde"/>
-                                            <constraint firstAttribute="bottom" secondItem="ds5-v6-nco" secondAttribute="bottom" id="nO4-88-RF5"/>
-                                            <constraint firstItem="jSe-xV-ppj" firstAttribute="leading" secondItem="8R5-pp-DBi" secondAttribute="leading" id="sg4-1A-H4c"/>
-                                            <constraint firstItem="jSe-xV-ppj" firstAttribute="leading" secondItem="ds5-v6-nco" secondAttribute="leading" id="yXw-nB-cIz"/>
-                                            <constraint firstItem="O8A-Yt-wVz" firstAttribute="trailing" secondItem="ds5-v6-nco" secondAttribute="trailing" id="z3w-4o-tfb"/>
-                                        </constraints>
+                                        <color key="backgroundColor" red="0.74587094783782959" green="0.0" blue="0.11550974100828171" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TrZ-pl-g5P" userLabel="Skills">
-                                        <rect key="frame" x="8" y="336" width="357" height="254"/>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TrZ-pl-g5P" userLabel="Skills View">
+                                        <rect key="frame" x="-30" y="344" width="390" height="240"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Skills:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bKT-PU-Rr4" userLabel="Card Skills Title Text">
-                                                <rect key="frame" x="0.0" y="0.0" width="45" height="20"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="20" id="BkR-x6-2U1"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" delaysContentTouches="NO" canCancelContentTouches="NO" keyboardDismissMode="interactive" editable="NO" text="Skill Text" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qER-V9-n48" userLabel="Skill Text">
-                                                <rect key="frame" x="8" y="22" width="341" height="224"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" delaysContentTouches="NO" canCancelContentTouches="NO" keyboardDismissMode="interactive" editable="NO" text="Skill Text" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qER-V9-n48" userLabel="Skill Text">
+                                                <rect key="frame" x="41" y="8" width="341" height="224"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="13"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstItem="qER-V9-n48" firstAttribute="trailing" secondItem="TrZ-pl-g5P" secondAttribute="trailingMargin" id="AGM-Cp-KcN"/>
-                                            <constraint firstItem="qER-V9-n48" firstAttribute="top" secondItem="bKT-PU-Rr4" secondAttribute="bottom" constant="2" id="BLJ-CL-pik"/>
-                                            <constraint firstItem="bKT-PU-Rr4" firstAttribute="top" secondItem="TrZ-pl-g5P" secondAttribute="top" id="De9-Mz-Ydw"/>
-                                            <constraint firstItem="qER-V9-n48" firstAttribute="bottom" secondItem="TrZ-pl-g5P" secondAttribute="bottomMargin" id="N5D-0B-GLw"/>
-                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="bKT-PU-Rr4" secondAttribute="trailing" constant="20" symbolic="YES" id="X99-zu-Btz"/>
-                                            <constraint firstItem="bKT-PU-Rr4" firstAttribute="leading" secondItem="TrZ-pl-g5P" secondAttribute="leading" id="Zk4-07-bAr"/>
-                                            <constraint firstItem="qER-V9-n48" firstAttribute="leading" secondItem="TrZ-pl-g5P" secondAttribute="leadingMargin" id="heQ-rV-JjJ"/>
-                                        </constraints>
+                                        <color key="backgroundColor" red="0.74587094783782959" green="0.0" blue="0.11550974100828171" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOADING..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NGS-De-mBX" userLabel="Card Price Text">
-                                        <rect key="frame" x="269" y="163" width="64" height="15"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Series Text" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9im-wi-VKQ" userLabel="Card Series Text">
-                                        <rect key="frame" x="276" y="27" width="85" height="15"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="85" id="rLY-cR-wXL"/>
-                                            <constraint firstAttribute="height" constant="15" id="sXw-VE-yXK"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h9S-WP-D0A" userLabel="Card Price View">
+                                        <rect key="frame" x="272" y="125" width="147" height="48"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$00.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NGS-De-mBX" userLabel="Card Price Text">
+                                                <rect key="frame" x="8" y="11" width="84" height="27"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.74587094783782959" green="0.0" blue="0.11550974100828171" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="1xQ-v6-oka" secondAttribute="trailing" constant="20" symbolic="YES" id="0FF-aG-fIo"/>
-                                    <constraint firstItem="2vb-QZ-AUS" firstAttribute="top" secondItem="X0l-0g-e8M" secondAttribute="bottom" constant="8" symbolic="YES" id="0wC-L2-5yZ"/>
-                                    <constraint firstAttribute="trailing" secondItem="Vy6-lJ-rWs" secondAttribute="trailing" constant="7" id="1BJ-23-TJJ"/>
-                                    <constraint firstItem="4v8-H0-SNk" firstAttribute="centerX" secondItem="NGS-De-mBX" secondAttribute="centerX" id="2j0-Ni-xix"/>
-                                    <constraint firstItem="4v8-H0-SNk" firstAttribute="leading" secondItem="X0l-0g-e8M" secondAttribute="trailing" constant="6" id="2m9-yY-MCv"/>
-                                    <constraint firstItem="nVD-D5-nm0" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="4pF-ZQ-yhP" secondAttribute="trailing" constant="4" id="4Sl-BZ-nKm"/>
-                                    <constraint firstItem="TrZ-pl-g5P" firstAttribute="leading" secondItem="baE-Rw-07R" secondAttribute="leading" id="4pf-Pk-u1O"/>
-                                    <constraint firstItem="Ib0-NA-Qaa" firstAttribute="trailing" secondItem="Jky-fa-qgr" secondAttribute="trailing" id="5Gf-1J-yz2"/>
-                                    <constraint firstItem="nVD-D5-nm0" firstAttribute="baseline" secondItem="4pF-ZQ-yhP" secondAttribute="baseline" id="5xV-Zg-hoJ"/>
-                                    <constraint firstItem="Ib0-NA-Qaa" firstAttribute="leading" secondItem="X0l-0g-e8M" secondAttribute="leading" id="6Q3-Il-TJ1"/>
-                                    <constraint firstItem="X0l-0g-e8M" firstAttribute="centerY" secondItem="4v8-H0-SNk" secondAttribute="centerY" id="7Wx-wl-B66"/>
-                                    <constraint firstAttribute="trailing" secondItem="Ib0-NA-Qaa" secondAttribute="trailing" constant="100" id="7dX-DW-Wwk"/>
-                                    <constraint firstItem="Vy6-lJ-rWs" firstAttribute="baseline" secondItem="2vb-QZ-AUS" secondAttribute="baseline" id="7f9-bf-fHu"/>
-                                    <constraint firstItem="YLI-SF-J22" firstAttribute="top" secondItem="4pF-ZQ-yhP" secondAttribute="bottom" constant="8" symbolic="YES" id="7s0-WK-can"/>
-                                    <constraint firstAttribute="trailing" secondItem="4pF-ZQ-yhP" secondAttribute="trailing" constant="100" id="8Q9-yq-ftu"/>
-                                    <constraint firstItem="TrZ-pl-g5P" firstAttribute="leading" secondItem="6RG-iI-hrQ" secondAttribute="leadingMargin" id="GTo-aS-DhL"/>
-                                    <constraint firstItem="TLJ-zq-3rn" firstAttribute="top" secondItem="baE-Rw-07R" secondAttribute="bottom" constant="8" symbolic="YES" id="GgP-i5-oOK"/>
-                                    <constraint firstItem="8R5-pp-DBi" firstAttribute="trailing" secondItem="TrZ-pl-g5P" secondAttribute="trailing" id="J2K-mD-qrt"/>
-                                    <constraint firstItem="Ib0-NA-Qaa" firstAttribute="leading" secondItem="YLI-SF-J22" secondAttribute="leading" id="JDy-dP-ARN"/>
-                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9im-wi-VKQ" secondAttribute="trailing" constant="14" id="Kwk-zD-jKg"/>
-                                    <constraint firstItem="9im-wi-VKQ" firstAttribute="leading" secondItem="Jky-fa-qgr" secondAttribute="trailing" constant="1" id="LMF-Gi-1bo"/>
-                                    <constraint firstItem="1xQ-v6-oka" firstAttribute="leading" secondItem="Ib0-NA-Qaa" secondAttribute="trailing" constant="1" id="Lhk-5U-GoW"/>
-                                    <constraint firstItem="hhx-bx-fAc" firstAttribute="baseline" secondItem="NGS-De-mBX" secondAttribute="baseline" id="MLl-Bm-LmG"/>
-                                    <constraint firstItem="X0l-0g-e8M" firstAttribute="bottom" secondItem="4v8-H0-SNk" secondAttribute="bottom" id="OCJ-ht-NAD"/>
-                                    <constraint firstItem="Vy6-lJ-rWs" firstAttribute="leading" secondItem="TLJ-zq-3rn" secondAttribute="trailing" constant="75" id="QDj-Q7-E5S"/>
-                                    <constraint firstItem="hhx-bx-fAc" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="YLI-SF-J22" secondAttribute="leading" id="Ru7-0l-DKd"/>
-                                    <constraint firstItem="TrZ-pl-g5P" firstAttribute="leading" secondItem="TLJ-zq-3rn" secondAttribute="leading" id="S10-CE-Gso"/>
-                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="baE-Rw-07R" secondAttribute="trailing" constant="7" id="SWh-W2-yAC"/>
-                                    <constraint firstItem="Ib0-NA-Qaa" firstAttribute="leading" secondItem="TLJ-zq-3rn" secondAttribute="trailing" constant="9" id="Tub-Ox-ft5"/>
-                                    <constraint firstAttribute="trailing" secondItem="nVD-D5-nm0" secondAttribute="trailing" constant="56" id="U2R-3G-r9h"/>
-                                    <constraint firstItem="nXl-6y-hZw" firstAttribute="leading" secondItem="YLI-SF-J22" secondAttribute="trailing" constant="4" id="Uq5-bh-u3w"/>
-                                    <constraint firstItem="TrZ-pl-g5P" firstAttribute="bottom" secondItem="6RG-iI-hrQ" secondAttribute="bottomMargin" id="V4F-aZ-nLF"/>
-                                    <constraint firstAttribute="trailing" secondItem="8R5-pp-DBi" secondAttribute="trailing" constant="10" id="VvV-rA-Yp6"/>
-                                    <constraint firstItem="Ib0-NA-Qaa" firstAttribute="leading" secondItem="8R5-pp-DBi" secondAttribute="leading" id="X1U-g7-KN4"/>
-                                    <constraint firstItem="baE-Rw-07R" firstAttribute="top" secondItem="6RG-iI-hrQ" secondAttribute="top" id="XeD-f5-YqB"/>
-                                    <constraint firstItem="8R5-pp-DBi" firstAttribute="bottom" secondItem="TLJ-zq-3rn" secondAttribute="bottom" id="XpB-Ob-E8T"/>
-                                    <constraint firstItem="Ib0-NA-Qaa" firstAttribute="top" secondItem="6RG-iI-hrQ" secondAttribute="top" constant="93" id="Y9i-tI-h9W"/>
-                                    <constraint firstItem="Ib0-NA-Qaa" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="4pF-ZQ-yhP" secondAttribute="leading" id="Yap-ul-GFS"/>
-                                    <constraint firstItem="X0l-0g-e8M" firstAttribute="top" secondItem="Jky-fa-qgr" secondAttribute="bottom" constant="8" symbolic="YES" id="cVy-0P-bGF"/>
-                                    <constraint firstAttribute="bottom" secondItem="8R5-pp-DBi" secondAttribute="bottom" constant="270" id="dbs-yM-el9"/>
-                                    <constraint firstAttribute="trailing" secondItem="nXl-6y-hZw" secondAttribute="trailing" constant="46" id="ddS-oz-k4k"/>
-                                    <constraint firstItem="Ib0-NA-Qaa" firstAttribute="leading" secondItem="Jky-fa-qgr" secondAttribute="leading" id="e67-nY-Nf1"/>
-                                    <constraint firstItem="8R5-pp-DBi" firstAttribute="leading" secondItem="TLJ-zq-3rn" secondAttribute="trailing" constant="9" id="fXT-Ma-SrA"/>
-                                    <constraint firstItem="nXl-6y-hZw" firstAttribute="baseline" secondItem="YLI-SF-J22" secondAttribute="baseline" id="fen-c0-EZg"/>
-                                    <constraint firstItem="TrZ-pl-g5P" firstAttribute="top" secondItem="8R5-pp-DBi" secondAttribute="bottom" constant="8" symbolic="YES" id="fyV-0H-85K"/>
-                                    <constraint firstItem="NGS-De-mBX" firstAttribute="leading" secondItem="TLJ-zq-3rn" secondAttribute="trailing" constant="47" id="icm-fB-tYN"/>
-                                    <constraint firstItem="4pF-ZQ-yhP" firstAttribute="top" secondItem="Ib0-NA-Qaa" secondAttribute="bottom" constant="9" id="jAD-85-YFW"/>
-                                    <constraint firstAttribute="trailing" secondItem="2vb-QZ-AUS" secondAttribute="trailing" constant="77" id="jCV-h5-qrj"/>
-                                    <constraint firstItem="8R5-pp-DBi" firstAttribute="top" secondItem="6RG-iI-hrQ" secondAttribute="top" constant="181" id="jdW-C9-F1j"/>
-                                    <constraint firstItem="9im-wi-VKQ" firstAttribute="top" secondItem="baE-Rw-07R" secondAttribute="bottom" constant="7" id="kKj-No-sxJ"/>
-                                    <constraint firstItem="2vb-QZ-AUS" firstAttribute="leading" secondItem="X0l-0g-e8M" secondAttribute="leading" id="kQV-k6-09f"/>
-                                    <constraint firstItem="NGS-De-mBX" firstAttribute="leading" secondItem="hhx-bx-fAc" secondAttribute="trailing" constant="2" id="mKZ-j1-rHW"/>
-                                    <constraint firstItem="Ib0-NA-Qaa" firstAttribute="top" secondItem="2vb-QZ-AUS" secondAttribute="bottom" constant="7" id="mtY-Nm-0x6"/>
-                                    <constraint firstItem="1xQ-v6-oka" firstAttribute="top" secondItem="2vb-QZ-AUS" secondAttribute="bottom" constant="7" id="n4y-W8-hQ6"/>
-                                    <constraint firstItem="NGS-De-mBX" firstAttribute="top" secondItem="YLI-SF-J22" secondAttribute="bottom" constant="8" symbolic="YES" id="wtp-Gd-jW0"/>
-                                    <constraint firstItem="TrZ-pl-g5P" firstAttribute="top" secondItem="TLJ-zq-3rn" secondAttribute="bottom" constant="8" id="yAe-Uj-bRV"/>
-                                    <constraint firstItem="TrZ-pl-g5P" firstAttribute="top" secondItem="TLJ-zq-3rn" secondAttribute="bottom" constant="8" symbolic="YES" id="yfM-WP-U6n"/>
-                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="48J-Nh-E77" firstAttribute="top" secondItem="Ws7-xH-woR" secondAttribute="top" id="7vC-pX-Qbc"/>
-                            <constraint firstItem="6RG-iI-hrQ" firstAttribute="bottom" secondItem="966-pH-91d" secondAttribute="bottom" id="AfG-OV-dg8"/>
-                            <constraint firstAttribute="bottom" secondItem="48J-Nh-E77" secondAttribute="bottom" constant="606" id="Dp4-aP-7o3"/>
-                            <constraint firstAttribute="trailing" secondItem="48J-Nh-E77" secondAttribute="trailing" constant="-1" id="OlV-cl-Tj6"/>
-                            <constraint firstItem="48J-Nh-E77" firstAttribute="leading" secondItem="6RG-iI-hrQ" secondAttribute="leading" id="YPI-bO-ywC"/>
-                            <constraint firstItem="6RG-iI-hrQ" firstAttribute="top" secondItem="48J-Nh-E77" secondAttribute="bottom" constant="8" symbolic="YES" id="gQz-Xx-dDJ"/>
-                            <constraint firstAttribute="trailing" secondItem="6RG-iI-hrQ" secondAttribute="trailing" id="jHT-c0-1EB"/>
-                            <constraint firstItem="48J-Nh-E77" firstAttribute="leading" secondItem="Ws7-xH-woR" secondAttribute="leading" id="vBN-8m-xtQ"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="966-pH-91d"/>
                     </view>
                     <connections>
-                        <outlet property="AttackTitleText" destination="4pF-ZQ-yhP" id="yL0-1g-hC8"/>
-                        <outlet property="CardAttackText" destination="nVD-D5-nm0" id="Nix-cw-Pgd"/>
                         <outlet property="CardIllustratorText" destination="Vy6-lJ-rWs" id="pPJ-Ll-ByE"/>
                         <outlet property="CardImage" destination="TLJ-zq-3rn" id="pbk-Px-PJU"/>
+                        <outlet property="CardInfoView" destination="7Bb-mG-sw0" id="XwP-oS-yBY"/>
                         <outlet property="CardInsigniaImage" destination="X0l-0g-e8M" id="wtN-9s-sxV"/>
                         <outlet property="CardInsigniaText" destination="4v8-H0-SNk" id="uZg-D8-YzP"/>
                         <outlet property="CardNameText" destination="baE-Rw-07R" id="Ygj-y9-HLy"/>
+                        <outlet property="CardNameView" destination="7pu-RY-wnb" id="dsc-S8-9Ia"/>
                         <outlet property="CardPriceText" destination="NGS-De-mBX" id="93Z-zx-pLR"/>
+                        <outlet property="CardPriceView" destination="h9S-WP-D0A" id="Bhl-ab-a7w"/>
                         <outlet property="CardRarityText" destination="1xQ-v6-oka" id="yNC-PV-qqF"/>
                         <outlet property="CardSeriesText" destination="9im-wi-VKQ" id="VAg-3Q-nyu"/>
                         <outlet property="CardSkillsText" destination="qER-V9-n48" id="dLY-0c-aHc"/>
-                        <outlet property="CardSupportText" destination="nXl-6y-hZw" id="tLv-V6-c5f"/>
                         <outlet property="CardSupportingSkillImage" destination="jSe-xV-ppj" id="gOS-sU-x9G"/>
                         <outlet property="CardSupportingSkillText" destination="ds5-v6-nco" id="L6g-13-dYS"/>
                         <outlet property="HeaderView" destination="48J-Nh-E77" id="zyN-qo-Rob"/>
@@ -878,9 +756,9 @@
                         <outlet property="MenuBarFavoriteButton" destination="7nQ-Qg-TQE" id="ziB-mH-Ien"/>
                         <outlet property="RarityTitleText" destination="Ib0-NA-Qaa" id="3af-Rr-CjQ"/>
                         <outlet property="SeriesTitleText" destination="Jky-fa-qgr" id="baJ-jK-0uO"/>
-                        <outlet property="SkillsTitleText" destination="bKT-PU-Rr4" id="eza-rT-zwx"/>
-                        <outlet property="SupportTitleText" destination="YLI-SF-J22" id="GcS-nH-INJ"/>
+                        <outlet property="SkillsView" destination="TrZ-pl-g5P" id="Y81-di-9r9"/>
                         <outlet property="SupportingSkillTitleText" destination="O8A-Yt-wVz" id="cKc-sb-CfE"/>
+                        <outlet property="SupportingSkillView" destination="8R5-pp-DBi" id="IXo-8k-fGc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4QY-0x-MQs" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -897,6 +775,7 @@
         <image name="30px-Red.png" width="30" height="30"/>
         <image name="30px-White.png" width="30" height="30"/>
         <image name="30px-Yellow.png" width="30" height="30"/>
+        <image name="card_placeholder.png" width="500" height="688"/>
         <image name="cipher_header.png" width="1224" height="444"/>
         <image name="favorite_button.png" width="500" height="500"/>
         <image name="loading_fetch.gif" width="600" height="400"/>

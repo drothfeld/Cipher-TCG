@@ -22,17 +22,17 @@ class CardViewController: UIViewController {
     @IBOutlet weak var IllustratorTitleText: UILabel!
     @IBOutlet weak var CardRarityText: UILabel!
     @IBOutlet weak var RarityTitleText: UILabel!
-    @IBOutlet weak var CardAttackText: UILabel!
-    @IBOutlet weak var AttackTitleText: UILabel!
-    @IBOutlet weak var CardSupportText: UILabel!
-    @IBOutlet weak var SupportTitleText: UILabel!
     @IBOutlet weak var CardSupportingSkillText: UITextView!
     @IBOutlet weak var SupportingSkillTitleText: UILabel!
     @IBOutlet weak var CardSupportingSkillImage: UIImageView!
-    @IBOutlet weak var SkillsTitleText: UILabel!
     @IBOutlet weak var CardSkillsText: UITextView!
     @IBOutlet weak var CardPriceText: UILabel!
     @IBOutlet weak var MenuBarFavoriteButton: UIButton!
+    @IBOutlet weak var CardInfoView: UIView!
+    @IBOutlet weak var CardPriceView: UIView!
+    @IBOutlet weak var SupportingSkillView: UIView!
+    @IBOutlet weak var SkillsView: UIView!
+    @IBOutlet weak var CardNameView: UIView!
     
     // Defined Values
     var detailCard: Card? {
@@ -128,7 +128,9 @@ class CardViewController: UIViewController {
             
         // Set is not yet released, no market price exists
         } else {
-            priceLabel.text = "UNRELEASED"
+            priceLabel.text = "N/A"
+            priceLabel.isHidden = true
+            CardPriceView.isHidden = true
         }
     }
     
@@ -143,9 +145,6 @@ class CardViewController: UIViewController {
                 let CardInsigniaImage = CardInsigniaImage,
                 let CardInsigniaText = CardInsigniaText,
                 let CardIllustratorText = CardIllustratorText,
-                let CardRarityText = CardRarityText,
-                let CardAttackText = CardAttackText,
-                let CardSupportText = CardSupportText,
                 let CardSupportingSkillText = CardSupportingSkillText,
                 let SupportingSkillTitleText = SupportingSkillTitleText,
                 let CardSupportingSkillImage = CardSupportingSkillImage,
@@ -163,32 +162,49 @@ class CardViewController: UIViewController {
                 // Assigning Values to UI Elements
                 CardImage.image = detailCard.cardImage
                 CardNameText.text = detailCard.name
+                CardNameText.minimumScaleFactor = 0.10
+                CardNameText.adjustsFontSizeToFitWidth = true
                 CardSeriesText.text = detailCard.series
                 CardInsigniaImage.image = detailCard.insignia.iconImage
                 CardInsigniaText.text = detailCard.insignia.name
                 CardIllustratorText.text = detailCard.illustrator
+                CardIllustratorText.minimumScaleFactor = 0.10
+                CardIllustratorText.adjustsFontSizeToFitWidth = true
                 CardRarityText.text = detailCard.rarity
-                CardAttackText.text = String(detailCard.attack)
-                CardSupportText.text = String(detailCard.support)
                 
-                // Supporting Skill Text
-                if (detailCard.supportingSkill.type != "None") {
-                    SupportingSkillTitleText.isHidden = false
-                    CardSupportingSkillImage.isHidden = false
-                    CardSupportingSkillText.text = detailCard.supportingSkill.type + " - " + detailCard.supportingSkill.textDescription
+                // Changing background theme colors to chosen card insignia
+                CardInfoView.backgroundColor = detailCard.insignia.color
+                CardPriceView.backgroundColor = detailCard.insignia.color
+                SkillsView.backgroundColor = detailCard.insignia.color
+                
+                // Supporting Skill Section and Text
+                if (detailCard.supportingSkill != none) {
+                    SupportingSkillView.backgroundColor = detailCard.insignia.color
+                    CardSupportingSkillText.text = detailCard.supportingSkill.textDescription
+                    SupportingSkillTitleText.text = detailCard.supportingSkill.type
+                    SupportingSkillTitleText.minimumScaleFactor = 0.10
+                    SupportingSkillTitleText.adjustsFontSizeToFitWidth = true
                     CardSupportingSkillImage.image = detailCard.supportingSkill.iconImage
                 } else {
-                    SupportingSkillTitleText.isHidden = true
-                    CardSupportingSkillImage.isHidden = true
-                    CardSupportingSkillText.text = ""
+                    SupportingSkillView.isHidden = true
                 }
                 
-                // Skills Text
-                var skillsLongString: String = ""
-                for (index, skill) in detailCard.skills.enumerated() {
-                    skillsLongString = skillsLongString + "Skill " + String(index + 1) + ": " + skill.name + " - " + skill.textdescription + "\n \n"
+                // Main Skill Section and Text
+                if (detailCard.skills.count == 0) {
+                    SkillsView.isHidden = true
+                } else {
+                    let attrs = [NSAttributedString.Key.font : UIFont.boldSystemFont(ofSize: 14)]
+                    let attributedString = NSMutableAttributedString(string: "", attributes: attrs)
+                    for (_, skill) in detailCard.skills.enumerated() {
+                        let skillName = NSMutableAttributedString(string: skill.name + " - ", attributes: attrs)
+                        let skillDescription = NSMutableAttributedString(string: skill.textdescription + "\n \n")
+                        attributedString.append(skillName)
+                        attributedString.append(skillDescription)
+                        
+                        attributedString.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.white, range: NSRange(location: 0, length: attributedString.length))
+                    }
+                    CardSkillsText.attributedText = attributedString
                 }
-                CardSkillsText.text = skillsLongString
             }
         }
     }
