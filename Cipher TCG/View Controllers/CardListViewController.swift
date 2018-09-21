@@ -29,11 +29,13 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     @IBOutlet weak var YellowFilterButton: UIButton!
     @IBOutlet weak var ColorlessFilterButton: UIButton!
     @IBOutlet weak var FavoritesFilterButton: UIButton!
+    @IBOutlet weak var CardListOrderButton: UIButton!
     
     // Defined Values
     var sortedRawCardList: [Card] = []
     var filteredRawCardList: [Card] = []
     var isSearching = false
+    var sortByName = true
     let screenSize: CGRect = UIScreen.main.bounds
     let storyboardDeviceHeight: CGFloat = 667
     var colorFilterButtons: [UIButton]!
@@ -91,22 +93,29 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         return cell
     }
     
-    // Scrolling animation ends on table view scroll event
-//    func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {
-//            // Update userDefaults with new scroll offset
-//            let encodedData = NSKeyedArchiver.archivedData(withRootObject: scrollView.contentOffset.y)
-//            UserDefaults.standard.set(encodedData, forKey: "cardViewScrollOffset")
-//    }
-    
     // Sort list of cards alphabetically by name
     func sortCardsAlphabetically(unsortedList: Array<Card>) -> Array<Card> {
         return unsortedList.sorted { $0.name < $1.name }
     }
     
+    // Sort list of cards by series by number
+    func sortCardsNumerically(unsortedList: Array<Card>) -> Array<Card> {
+        return unsortedList.sorted { $0.series < $1.series }
+    }
+    
     // Table Refresh
     func refreshTable() {
-        sortedRawCardList = sortCardsAlphabetically(unsortedList: rawCardsList)
+        sortedRawCardList = sortCardList(cardList: rawCardsList)
         self.CardListTableView.reloadData()
+    }
+    
+    // Sort card list based on current sort value
+    func sortCardList(cardList: Array<Card>) -> Array<Card> {
+        if (sortByName) {
+            return sortCardsAlphabetically(unsortedList: cardList)
+        } else {
+            return sortCardsNumerically(unsortedList: cardList)
+        }
     }
     
     // Search Bar Setup
@@ -244,6 +253,18 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         UserDefaults.standard.set(encodedData, forKey: "cardFilter")
         
         CardListTableView.reloadData()
+    }
+    
+    // Order cards in list based on selection
+    @IBAction func orderCardListButtonPressed(_ sender: Any) {
+        sortByName = !sortByName
+        if (sortByName) {
+            CardListOrderButton.setImage(#imageLiteral(resourceName: "sort_by_number_button.png"), for: [])
+        } else {
+            CardListOrderButton.setImage(#imageLiteral(resourceName: "sort_by_name_button.png"), for: [])
+        }
+        filteredRawCardList = sortCardList(cardList: filteredRawCardList)
+        refreshTable()
     }
     
     // Load favorite card data

@@ -477,6 +477,14 @@
                                             <action selector="filterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kxl-pG-aDO"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5eD-Wu-yRY" userLabel="Card List Order Button">
+                                        <rect key="frame" x="36" y="55" width="20" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="sort_by_number_button.png"/>
+                                        <connections>
+                                            <action selector="orderCardListButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qiv-KW-IgE"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
@@ -504,6 +512,7 @@
                     <connections>
                         <outlet property="BlackFilterButton" destination="vGd-mX-B3G" id="CQo-1e-Ma0"/>
                         <outlet property="BlueFilterButton" destination="bdo-cj-cLD" id="69b-4i-cke"/>
+                        <outlet property="CardListOrderButton" destination="5eD-Wu-yRY" id="wN9-ab-Zxg"/>
                         <outlet property="CardListSearchBar" destination="hzd-cv-NpC" id="2Ec-DG-mpf"/>
                         <outlet property="CardListTableView" destination="2ZS-RV-4qz" id="N8t-V0-sD4"/>
                         <outlet property="CardListViewHeightConstraint" destination="fAa-X2-nzM" id="kV5-ze-kc6"/>
@@ -779,9 +788,10 @@
         <image name="cipher_header.png" width="1224" height="444"/>
         <image name="favorite_button.png" width="500" height="500"/>
         <image name="loading_fetch.gif" width="600" height="400"/>
+        <image name="sort_by_number_button.png" width="290" height="289"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="CJv-bm-6cT"/>
-        <segue reference="QE9-aR-HPz"/>
+        <segue reference="cac-9f-3tE"/>
     </inferredMetricsTieBreakers>
 </document>
