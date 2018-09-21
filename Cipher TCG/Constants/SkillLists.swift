@@ -407,4 +407,9 @@ let rawSkillsList: [Skill] = [
     blessed_lance_dance,
     prophetic_song,
     call_of_the_tide,
+    a_gods_vessel,
+    expiration,
+    ruinous_punishment,
+    gradmasters_thoron,
+    all_according_to_plan2,
 ]

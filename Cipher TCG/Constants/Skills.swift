@@ -3191,3 +3191,43 @@ let call_of_the_tide = Skill(name: "Call of the Tide",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let a_gods_vessel = Skill(name: "A God’s Vessel",
+                        description: "[SPECIAL] If you have no allied “Grima”, you are able to Level Up an allied “Robin (M)” into this card.",
+                        colorType: UIColor.purple,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let expiration = Skill(name: "Expiration",
+                        description: "[ONCE PER TURN] Send all cards in your opponent’s Retreat Area with the same unit name as your opponent’s lord to the Boundless Area.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let ruinous_punishment = Skill(name: "Ruinous Punishment",
+                        description: "Send 1 other non-lord ally to the Boundless Area] Choose 1 non-lord enemy, and send them to the Boundless Area.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let gradmasters_thoron = Skill(name: "Grandmaster’s Thoron",
+                        description: "[ONCE PER TURN] [Flip 1 <Blue> bond card face-down] Until the end of the turn, this unit gains +40 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let all_according_to_plan2 = Skill(name: "All according to plan! (II)",
+                        description: "[ONCE PER TURN] When an enemy evades or executes a critical hit, you draw 1 card.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

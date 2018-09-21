@@ -37,11 +37,11 @@ let bullseye_emblem = SupportingSkill(type: "Bullseye Emblem",
                                     iconImageName: "28px-Attack_Support.png")
 
 let hope_emblem = SupportingSkill(type: "Hope Emblem",
-                                  textDescription: "If the defending unit has the White affinity, you may look at one of your orbs.",
+                                  textDescription: "If the defending unit is the same color as this card, you may look at one of your orbs.",
                                   iconImageName: "28px-Defense_Support.png")
 
 let heros_emblem = SupportingSkill(type: "Hero's Emblem",
-                                   textDescription: "If the attacking unit is White, until the end of this battle, the number of orbs this unit’s attack would destroy becomes 2.",
+                                   textDescription: "If the attacking unit is the same color as this card, until the end of this battle, the number of orbs this unit’s attack would destroy becomes 2.",
                                    iconImageName: "28px-Attack_Support.png")
 
 let prophecy_emblem = SupportingSkill(type: "Prophecy Emblem",
@@ -65,7 +65,7 @@ let tempered_emblem = SupportingSkill(type: "Tempered Emblem",
                                    iconImageName: "28px-Defense_Support.png")
 
 let fate_emblem = SupportingSkill(type: "Fate Emblem",
-                                      textDescription: "If the attacking unit is the same color as this support card, draw 1 card, then choose 1 card from your hand and place it on top of your deck.",
+                                      textDescription: "If the attacking unit is the same color as this card, draw 1 card, then choose 1 card from your hand and place it on top of your deck.",
                                       iconImageName: "28px-Attack_Support.png")
 
 let tandem_emblem = SupportingSkill(type: "Tandem Emblem",

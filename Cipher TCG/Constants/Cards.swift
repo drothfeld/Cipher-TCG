@@ -2342,3 +2342,25 @@ let b14_0BT = Card(series: "B14-0??SR",
                    supportingSkill: none,
                    skills: [blessed_lance_dance, prophetic_song, call_of_the_tide],
                    cardImageName: "B14-0BT.png")
+
+let b14_0BU = Card(series: "B14-0??SR",
+                   name: "Grima: Dragon of Despair and Ruin",
+                   rarity: "Secret Rare",
+                   insignia: mark_of_naga,
+                   attack: 70,
+                   support: 0,
+                   illustrator: "Yugo Okuma",
+                   supportingSkill: none,
+                   skills: [a_gods_vessel, expiration, ruinous_punishment],
+                   cardImageName: "B14-0BU.png")
+
+let b14_0BV = Card(series: "B14-0??SR",
+                   name: "Robin (M): Tactician of Exalted Strategies",
+                   rarity: "Secret Rare",
+                   insignia: mark_of_naga,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "Yugo Okuma",
+                   supportingSkill: none,
+                   skills: [gradmasters_thoron, all_according_to_plan2],
+                   cardImageName: "B14-0BV.png")
