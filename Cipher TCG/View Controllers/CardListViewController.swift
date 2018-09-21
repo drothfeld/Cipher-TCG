@@ -41,16 +41,18 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     var colorFilterButtons: [UIButton]!
     var loadedCardFilterIndex: Int = -1
     var loadedtableViewScrollOffset: CGFloat = 0.0
+    var loadedSortType: Bool = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
         loadCardFilterData()
+        loadCardListSortTypeData()
         interfaceSetup()
         refreshTable()
         searchBarSetup()
         loadFavoriteCardData()
         applyLoadedFilter()
-        loadTableViewScrollOffset()
+        loadTableViewScrollOffsetData()
         
         // DEBUG
         NSLog("Total number of unique cards: " + String(sortedRawCardList.count)) // 214
@@ -258,13 +260,23 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     // Order cards in list based on selection
     @IBAction func orderCardListButtonPressed(_ sender: Any) {
         sortByName = !sortByName
+        updateSortButton()
+        
+        // Update userDefaults with last used sort type
+        let encodedData = NSKeyedArchiver.archivedData(withRootObject: sortByName)
+        UserDefaults.standard.set(encodedData, forKey: "cardListSortType")
+        
+        filteredRawCardList = sortCardList(cardList: filteredRawCardList)
+        refreshTable()
+    }
+    
+    // Update sort button
+    func updateSortButton() {
         if (sortByName) {
             CardListOrderButton.setImage(#imageLiteral(resourceName: "sort_by_number_button.png"), for: [])
         } else {
             CardListOrderButton.setImage(#imageLiteral(resourceName: "sort_by_name_button.png"), for: [])
         }
-        filteredRawCardList = sortCardList(cardList: filteredRawCardList)
-        refreshTable()
     }
     
     // Load favorite card data
@@ -306,7 +318,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     }
     
     // Load table view scroll offset
-    func loadTableViewScrollOffset() {
+    func loadTableViewScrollOffsetData() {
         if let data = UserDefaults.standard.data(forKey: "cardViewScrollOffset"),
             // Loaded value from userDefaults
             let savedScrollOffsetData = NSKeyedUnarchiver.unarchiveObject(with: data) as? CGFloat {
@@ -324,6 +336,28 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         
         // DEBUG
         NSLog("      %f", loadedtableViewScrollOffset.native)
+    }
+    
+    // Load card list order type
+    func loadCardListSortTypeData() {
+        if let data = UserDefaults.standard.data(forKey: "cardListSortType"),
+            // Loaded value from userDefaults
+            let savedSortTypeData = NSKeyedUnarchiver.unarchiveObject(with: data) as? Bool {
+            NSLog("Successfully loaded card list sort type from userDefaults.")
+            loadedSortType = savedSortTypeData
+        } else {
+            // An error occured, sort type will default to name type (true)
+            let encodedData = NSKeyedArchiver.archivedData(withRootObject: loadedSortType)
+            UserDefaults.standard.set(encodedData, forKey: "cardListSortType")
+            NSLog("There was an issue loading the card list sort type value.")
+        }
+        
+        // Applying offset
+        sortByName = loadedSortType
+        updateSortButton()
+        
+        // DEBUG
+        NSLog("     " + String(loadedSortType))
     }
     
     // Reset favorite card list saved data
