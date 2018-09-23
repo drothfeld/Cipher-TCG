@@ -556,7 +556,7 @@
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <segue destination="BYZ-38-t0r" kind="custom" customClass="SegueFromLeft" customModule="Cipher_TCG" customModuleProvider="target" id="8ih-mp-VFz"/>
+                                            <segue destination="BYZ-38-t0r" kind="custom" identifier="backToCardList" customClass="SegueFromLeft" customModule="Cipher_TCG" customModuleProvider="target" id="8ih-mp-VFz"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jue-K7-y9L" userLabel="Menu Button">
@@ -791,7 +791,7 @@
         <image name="sort_by_number_button.png" width="290" height="289"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="CJv-bm-6cT"/>
+        <segue reference="8ih-mp-VFz"/>
         <segue reference="cac-9f-3tE"/>
     </inferredMetricsTieBreakers>
 </document>

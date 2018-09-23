@@ -44,6 +44,7 @@ class CardViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configureView()
+        setupSwipeGestures()
         
         // Data scraping TCGRepublic.com to get current card prices
         setCurrentCardPrice(card: detailCard!, priceLabel: CardPriceText)
@@ -132,6 +133,18 @@ class CardViewController: UIViewController {
             priceLabel.isHidden = true
             CardPriceView.isHidden = true
         }
+    }
+    
+    // Set up for tap gestures
+    func setupSwipeGestures() {
+        let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(CardViewController.respondToSwipeGesture))
+        swipeRight.direction = UISwipeGestureRecognizer.Direction.right
+        self.view.addGestureRecognizer(swipeRight)
+    }
+    
+    // User swipes right
+    @objc func respondToSwipeGesture(gesture: UIGestureRecognizer) {
+        performSegue(withIdentifier: "backToCardList", sender: self)
     }
     
     // Setting View
