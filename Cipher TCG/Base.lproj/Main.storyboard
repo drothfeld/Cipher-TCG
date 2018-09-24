@@ -382,22 +382,30 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bCi-jW-AfE" userLabel="Header View">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="81"/>
                                 <subviews>
-                                    <searchBar contentMode="redraw" fixedFrame="YES" barStyle="black" searchBarStyle="minimal" placeholder="Search Cards" translatesAutoresizingMaskIntoConstraints="NO" id="hzd-cv-NpC" userLabel="Card Search Bar">
+                                    <searchBar contentMode="redraw" barStyle="black" searchBarStyle="minimal" placeholder="Search Cards" translatesAutoresizingMaskIntoConstraints="NO" id="hzd-cv-NpC" userLabel="Card Search Bar">
                                         <rect key="frame" x="150" y="3" width="225" height="56"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="56" id="6GY-OG-Hgc"/>
+                                            <constraint firstAttribute="width" constant="225" id="zVk-cd-YNE"/>
+                                        </constraints>
                                         <color key="tintColor" red="0.8119627237" green="0.003281183774" blue="0.054759666319999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="barTintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </searchBar>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wrk-SM-0UN" userLabel="Header Bar">
-                                        <rect key="frame" x="0.0" y="80" width="500" height="1"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wrk-SM-0UN" userLabel="Header Bar">
+                                        <rect key="frame" x="0.0" y="80" width="375" height="1"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="PH5-Fg-7MP"/>
+                                        </constraints>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RGG-Ki-YSV" userLabel="Menu Button">
+                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RGG-Ki-YSV" userLabel="Menu Button">
                                         <rect key="frame" x="2" y="3" width="146" height="53"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="53" id="6D8-bL-Sw4"/>
+                                            <constraint firstAttribute="width" constant="146" id="dtm-Tb-HRi"/>
+                                        </constraints>
                                         <state key="normal" image="cipher_header.png"/>
                                         <connections>
                                             <segue destination="o1b-Zz-bjG" kind="popoverPresentation" popoverAnchorView="RGG-Ki-YSV" id="cac-9f-3tE">
@@ -405,81 +413,111 @@
                                             </segue>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ukX-uQ-UiB" userLabel="Sort Red Button">
+                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ukX-uQ-UiB" userLabel="Sort Red Button">
                                         <rect key="frame" x="165" y="55" width="20" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="9iv-JQ-Y3F"/>
+                                            <constraint firstAttribute="width" constant="20" id="mY7-mY-4ps"/>
+                                        </constraints>
                                         <state key="normal" image="30px-Red.png"/>
                                         <connections>
                                             <action selector="filterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bXV-vW-guu"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.5" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bdo-cj-cLD" userLabel="Sort Blue Button">
+                                    <button opaque="NO" alpha="0.5" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bdo-cj-cLD" userLabel="Sort Blue Button">
                                         <rect key="frame" x="190" y="55" width="20" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="1oN-Mq-x7L"/>
+                                            <constraint firstAttribute="height" constant="20" id="sze-Qd-fci"/>
+                                        </constraints>
                                         <state key="normal" image="30px-Blue.png"/>
                                         <connections>
                                             <action selector="filterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rd8-dZ-VlL"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.5" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VfG-x6-Y9S" userLabel="Sort White Button">
+                                    <button opaque="NO" alpha="0.5" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VfG-x6-Y9S" userLabel="Sort White Button">
                                         <rect key="frame" x="215" y="55" width="20" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="KFp-Tw-L1V"/>
+                                            <constraint firstAttribute="width" constant="20" id="bL7-83-yMS"/>
+                                        </constraints>
                                         <state key="normal" image="30px-White.png"/>
                                         <connections>
                                             <action selector="filterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C2Y-6K-Edn"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.5" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vGd-mX-B3G" userLabel="Sort Black Button">
+                                    <button opaque="NO" alpha="0.5" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vGd-mX-B3G" userLabel="Sort Black Button">
                                         <rect key="frame" x="240" y="55" width="20" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="GiN-3W-PRN"/>
+                                            <constraint firstAttribute="height" constant="20" id="cZn-1V-72R"/>
+                                        </constraints>
                                         <state key="normal" image="30px-Black.png"/>
                                         <connections>
                                             <action selector="filterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D2k-ZT-Qdu"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.5" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jv8-pd-wkV" userLabel="Sort Green Button">
+                                    <button opaque="NO" alpha="0.5" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jv8-pd-wkV" userLabel="Sort Green Button">
                                         <rect key="frame" x="265" y="55" width="20" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="mNb-8p-O9i"/>
+                                            <constraint firstAttribute="height" constant="20" id="z3i-Wq-Bpx"/>
+                                        </constraints>
                                         <state key="normal" image="30px-Green.png"/>
                                         <connections>
                                             <action selector="filterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C3e-CY-xBJ"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.5" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xjr-hE-RDH" userLabel="Sort Purple Button">
+                                    <button opaque="NO" alpha="0.5" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xjr-hE-RDH" userLabel="Sort Purple Button">
                                         <rect key="frame" x="290" y="55" width="20" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="7L4-J6-XCB"/>
+                                            <constraint firstAttribute="width" constant="20" id="vpq-tL-PDO"/>
+                                        </constraints>
                                         <state key="normal" image="30px-Purple.png"/>
                                         <connections>
                                             <action selector="filterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hik-UD-0jT"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.5" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gLb-oz-BkV" userLabel="Sort Yellow Button">
+                                    <button opaque="NO" alpha="0.5" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gLb-oz-BkV" userLabel="Sort Yellow Button">
                                         <rect key="frame" x="315" y="55" width="20" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="FMH-nz-aeF"/>
+                                            <constraint firstAttribute="height" constant="20" id="ZVu-Nw-JKU"/>
+                                        </constraints>
                                         <state key="normal" image="30px-Yellow.png"/>
                                         <connections>
                                             <action selector="filterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uVq-JK-Jhn"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.5" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="208-gH-0b9" userLabel="Sort Colorless Button">
+                                    <button opaque="NO" alpha="0.5" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="208-gH-0b9" userLabel="Sort Colorless Button">
                                         <rect key="frame" x="340" y="55" width="20" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="VfQ-1d-Uom"/>
+                                            <constraint firstAttribute="height" constant="20" id="qBu-Zr-Wa5"/>
+                                        </constraints>
                                         <state key="normal" image="30px-Colorless.png"/>
                                         <connections>
                                             <action selector="filterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uE3-Ho-xyg"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.5" tag="8" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12e-6M-kFq" userLabel="Sort Favorites Button">
+                                    <button opaque="NO" alpha="0.5" tag="8" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12e-6M-kFq" userLabel="Sort Favorites Button">
                                         <rect key="frame" x="8" y="55" width="20" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="Lmw-Jg-PgJ"/>
+                                            <constraint firstAttribute="height" constant="20" id="ekR-Sd-grk"/>
+                                        </constraints>
                                         <state key="normal" image="favorite_button.png"/>
                                         <connections>
                                             <action selector="filterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kxl-pG-aDO"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5eD-Wu-yRY" userLabel="Card List Order Button">
+                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5eD-Wu-yRY" userLabel="Card List Order Button">
                                         <rect key="frame" x="36" y="55" width="20" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="nev-GK-tTg"/>
+                                            <constraint firstAttribute="width" constant="20" id="oog-DV-Rrk"/>
+                                        </constraints>
                                         <state key="normal" image="sort_by_number_button.png"/>
                                         <connections>
                                             <action selector="orderCardListButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qiv-KW-IgE"/>
@@ -487,6 +525,38 @@
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="jv8-pd-wkV" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="05D-GK-tRl"/>
+                                    <constraint firstAttribute="trailing" secondItem="208-gH-0b9" secondAttribute="trailing" constant="15" id="0Wz-bi-hEK"/>
+                                    <constraint firstItem="5eD-Wu-yRY" firstAttribute="leading" secondItem="12e-6M-kFq" secondAttribute="trailing" constant="8" id="2Xq-fh-aLc"/>
+                                    <constraint firstItem="Wrk-SM-0UN" firstAttribute="leading" secondItem="bCi-jW-AfE" secondAttribute="leading" id="6AG-S0-pC2"/>
+                                    <constraint firstItem="VfG-x6-Y9S" firstAttribute="leading" secondItem="bdo-cj-cLD" secondAttribute="trailing" constant="5" id="A1v-hH-zrQ"/>
+                                    <constraint firstItem="5eD-Wu-yRY" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="EKo-1f-g8h"/>
+                                    <constraint firstAttribute="trailing" secondItem="Wrk-SM-0UN" secondAttribute="trailing" id="FNH-KR-dve"/>
+                                    <constraint firstItem="12e-6M-kFq" firstAttribute="leading" secondItem="bCi-jW-AfE" secondAttribute="leading" constant="8" id="G5a-RW-DRK"/>
+                                    <constraint firstItem="vGd-mX-B3G" firstAttribute="leading" secondItem="VfG-x6-Y9S" secondAttribute="trailing" constant="5" id="GaD-YC-3bg"/>
+                                    <constraint firstItem="hzd-cv-NpC" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="3" id="ISf-vQ-oxE"/>
+                                    <constraint firstItem="Wrk-SM-0UN" firstAttribute="centerX" secondItem="bCi-jW-AfE" secondAttribute="centerX" id="ND4-uP-8Sq"/>
+                                    <constraint firstItem="VfG-x6-Y9S" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="NL8-Or-iHs"/>
+                                    <constraint firstItem="208-gH-0b9" firstAttribute="leading" secondItem="gLb-oz-BkV" secondAttribute="trailing" constant="5" id="O0b-Yh-D9Z"/>
+                                    <constraint firstItem="bdo-cj-cLD" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="QNK-7x-ySN"/>
+                                    <constraint firstItem="208-gH-0b9" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="Qd3-PX-6l0"/>
+                                    <constraint firstItem="gLb-oz-BkV" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="Sks-2J-YJq"/>
+                                    <constraint firstItem="Wrk-SM-0UN" firstAttribute="trailing" secondItem="hzd-cv-NpC" secondAttribute="trailing" id="UB6-ZQ-hTV"/>
+                                    <constraint firstItem="xjr-hE-RDH" firstAttribute="leading" secondItem="jv8-pd-wkV" secondAttribute="trailing" constant="5" id="URk-NJ-h6A"/>
+                                    <constraint firstItem="jv8-pd-wkV" firstAttribute="leading" secondItem="vGd-mX-B3G" secondAttribute="trailing" constant="5" id="Wds-NU-Jo9"/>
+                                    <constraint firstItem="ukX-uQ-UiB" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="Ydj-uQ-k2x"/>
+                                    <constraint firstItem="gLb-oz-BkV" firstAttribute="leading" secondItem="xjr-hE-RDH" secondAttribute="trailing" constant="5" id="deA-TY-t6W"/>
+                                    <constraint firstItem="RGG-Ki-YSV" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="3" id="gER-g8-GHn"/>
+                                    <constraint firstItem="RGG-Ki-YSV" firstAttribute="leading" secondItem="bCi-jW-AfE" secondAttribute="leading" constant="2" id="i7O-35-ddJ"/>
+                                    <constraint firstItem="12e-6M-kFq" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="iNJ-Jv-9vJ"/>
+                                    <constraint firstItem="Wrk-SM-0UN" firstAttribute="top" secondItem="ukX-uQ-UiB" secondAttribute="bottom" constant="5" id="iYB-7i-q6x"/>
+                                    <constraint firstAttribute="trailing" secondItem="hzd-cv-NpC" secondAttribute="trailing" id="piM-OY-2aF"/>
+                                    <constraint firstItem="vGd-mX-B3G" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="pwR-dU-WRu"/>
+                                    <constraint firstItem="xjr-hE-RDH" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="qjJ-9k-5jh"/>
+                                    <constraint firstAttribute="bottom" secondItem="Wrk-SM-0UN" secondAttribute="bottom" id="tEJ-ab-le3"/>
+                                    <constraint firstItem="bdo-cj-cLD" firstAttribute="leading" secondItem="ukX-uQ-UiB" secondAttribute="trailing" constant="5" id="vIX-T3-XN0"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -791,6 +861,7 @@
         <image name="sort_by_number_button.png" width="290" height="289"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="v70-lw-KrB"/>
         <segue reference="8ih-mp-VFz"/>
         <segue reference="cac-9f-3tE"/>
     </inferredMetricsTieBreakers>
