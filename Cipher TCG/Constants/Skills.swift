@@ -3231,3 +3231,11 @@ let all_according_to_plan2 = Skill(name: "All according to plan! (II)",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let undead_command = Skill(name: "Undead Command",
+                        description: "[CONTINUOUS] If you have 1 or more other <Monster> allies, this gets +100 power.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

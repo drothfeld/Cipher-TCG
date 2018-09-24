@@ -2364,3 +2364,14 @@ let b14_0BV = Card(series: "B14-0??SR",
                    supportingSkill: none,
                    skills: [gradmasters_thoron, all_according_to_plan2],
                    cardImageName: "B14-0BV.png")
+
+let b14_0BW = Card(series: "B14-0??HN",
+                   name: "Risen Chief",
+                   rarity: "High Normal",
+                   insignia: mark_of_naga,
+                   attack: 0,
+                   support: 0,
+                   illustrator: "Unknown",
+                   supportingSkill: none,
+                   skills: [commander_of_corpses, undead_command],
+                   cardImageName: "B14-0BW.png")

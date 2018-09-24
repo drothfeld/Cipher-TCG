@@ -412,4 +412,5 @@ let rawSkillsList: [Skill] = [
     ruinous_punishment,
     gradmasters_thoron,
     all_according_to_plan2,
+    undead_command,
 ]
