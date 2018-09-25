@@ -413,4 +413,6 @@ let rawSkillsList: [Skill] = [
     gradmasters_thoron,
     all_according_to_plan2,
     undead_command,
+    your_soul_is_mine,
+    yes_more_power,
 ]

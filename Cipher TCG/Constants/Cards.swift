@@ -2375,3 +2375,14 @@ let b14_0BW = Card(series: "B14-0??HN",
                    supportingSkill: none,
                    skills: [commander_of_corpses, undead_command],
                    cardImageName: "B14-0BW.png")
+
+let b14_0BX = Card(series: "B14-0??HN",
+                   name: "Garon: (Base)",
+                   rarity: "High Normal",
+                   insignia: nohr,
+                   attack: 70,
+                   support: 0,
+                   illustrator: "Unknown",
+                   supportingSkill: none,
+                   skills: [your_soul_is_mine, yes_more_power],
+                   cardImageName: "B14-0BX.png")

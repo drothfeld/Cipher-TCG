@@ -3239,3 +3239,19 @@ let undead_command = Skill(name: "Undead Command",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let your_soul_is_mine = Skill(name: "Your Soul is Mine!",
+                        description: "[Destroy 1 other ally] If your opponent has 5 or more cards in their hand, randomly choose a card from your opponent's hand and discard it.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let yes_more_power = Skill(name: "YES, MORE POWER!",
+                        description: "During your turn this unit gains +10 attack for each Black card in your Bond Area.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

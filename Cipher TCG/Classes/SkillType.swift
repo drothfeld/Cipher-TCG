@@ -15,13 +15,15 @@ class SkillType {
     var description: String
     var color: UIColor
     var displayColor: UIColor
+    var image: UIImage
     
     // Constructor
-    init(name: String, abbreviation: String, description: String, color: UIColor, displayColor: UIColor) {
+    init(name: String, abbreviation: String, description: String, color: UIColor, displayColor: UIColor, image: UIImage) {
         self.name = name
         self.abbreviation = abbreviation
         self.description = description
         self.color = color
         self.displayColor = displayColor
+        self.image = image
     }
 }

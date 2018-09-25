@@ -22,6 +22,7 @@ class SkillViewController: UIViewController {
     @IBOutlet weak var OrbFlipLabel: UILabel!
     @IBOutlet weak var CardTapLabel: UILabel!
     @IBOutlet weak var CCSSkillLabel: UILabel!
+    @IBOutlet weak var SkillTypeImage: UIImageView!
     
     // Defined Values
     var detailSkill: Skill? {
@@ -48,6 +49,7 @@ class SkillViewController: UIViewController {
                 let OrbFlipLabel = OrbFlipLabel,
                 let CardTapLabel = CardTapLabel,
                 let CCSSkillLabel = CCSSkillLabel,
+                let SkillTypeImage = SkillTypeImage,
                 let SkillDescriptionView = SkillDescriptionView,
                 let SkillInfoView = SkillInfoView,
                 let CardListView = CardListView {
@@ -72,6 +74,9 @@ class SkillViewController: UIViewController {
                         
                         // Skill type text
                         SkillTypeLabel.text = skillType.abbreviation + "/" + skillType.name
+                        
+                        // Skill type image
+                        SkillTypeImage.image = skillType.image
                     }
                 }
                 
