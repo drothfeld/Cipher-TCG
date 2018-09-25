@@ -55,7 +55,7 @@ class CardViewController: UIViewController {
         let series = card.series
         var innerHTML: String = ""
         
-        // Need to account for different lengths in series strings based on ending rarity (e.g R and SR)
+        // Account for different lengths in series strings based on ending rarity (e.g R and SR)
         var endOffset = -5
         if (series.count == 9) {
             endOffset = -6

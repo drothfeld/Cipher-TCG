@@ -28,6 +28,8 @@
 		B01986DB21407CA8006FF634 /* B14-0AY.png in Resources */ = {isa = PBXBuildFile; fileRef = B01986D821407CA7006FF634 /* B14-0AY.png */; };
 		B01986DC21407CA8006FF634 /* B14-0AZ.png in Resources */ = {isa = PBXBuildFile; fileRef = B01986D921407CA7006FF634 /* B14-0AZ.png */; };
 		B01986DD21407CA8006FF634 /* B14-0BA.png in Resources */ = {isa = PBXBuildFile; fileRef = B01986DA21407CA8006FF634 /* B14-0BA.png */; };
+		B01B2EC0215ABDB300ACA461 /* SkillTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01B2EBF215ABDB300ACA461 /* SkillTypes.swift */; };
+		B01B2EC2215ABDEC00ACA461 /* SkillType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01B2EC1215ABDEC00ACA461 /* SkillType.swift */; };
 		B01C08A12152D08700795F9B /* B14-0BR.png in Resources */ = {isa = PBXBuildFile; fileRef = B01C08A02152D08700795F9B /* B14-0BR.png */; };
 		B01C08A321541C9A00795F9B /* B02-003.png in Resources */ = {isa = PBXBuildFile; fileRef = B01C08A221541C9900795F9B /* B02-003.png */; };
 		B01C08A6215426ED00795F9B /* B14-0BS.png in Resources */ = {isa = PBXBuildFile; fileRef = B01C08A4215426ED00795F9B /* B14-0BS.png */; };
@@ -298,6 +300,8 @@
 		B01986D821407CA7006FF634 /* B14-0AY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B14-0AY.png"; sourceTree = "<group>"; };
 		B01986D921407CA7006FF634 /* B14-0AZ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B14-0AZ.png"; sourceTree = "<group>"; };
 		B01986DA21407CA8006FF634 /* B14-0BA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B14-0BA.png"; sourceTree = "<group>"; };
+		B01B2EBF215ABDB300ACA461 /* SkillTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillTypes.swift; sourceTree = "<group>"; };
+		B01B2EC1215ABDEC00ACA461 /* SkillType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillType.swift; sourceTree = "<group>"; };
 		B01C08A02152D08700795F9B /* B14-0BR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B14-0BR.png"; sourceTree = "<group>"; };
 		B01C08A221541C9900795F9B /* B02-003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B02-003.png"; sourceTree = "<group>"; };
 		B01C08A4215426ED00795F9B /* B14-0BS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B14-0BS.png"; sourceTree = "<group>"; };
@@ -831,6 +835,7 @@
 			isa = PBXGroup;
 			children = (
 				B054BBCA200E7BA1004159A6 /* Skill.swift */,
+				B01B2EC1215ABDEC00ACA461 /* SkillType.swift */,
 				B054BBDE200E9DB7004159A6 /* Insignia.swift */,
 				B054BBE2200EA461004159A6 /* SupportingSkill.swift */,
 				B054BBE6200EA5E0004159A6 /* Card.swift */,
@@ -843,6 +848,7 @@
 			children = (
 				B054BBDC200E8A0A004159A6 /* Skills.swift */,
 				B048FE412020E314007F1525 /* SkillLists.swift */,
+				B01B2EBF215ABDB300ACA461 /* SkillTypes.swift */,
 				B054BBE0200E9E8A004159A6 /* Insignias.swift */,
 				B054BBE4200EA4DA004159A6 /* SupportingSkills.swift */,
 				B054BBE8200EAC3C004159A6 /* Cards.swift */,
@@ -1397,10 +1403,12 @@
 				B03D580A2012DBC5007A3E97 /* CardViewController.swift in Sources */,
 				B0DC65E4214B52FD00A422D7 /* SkillViewController.swift in Sources */,
 				B054BBB3200E68AE004159A6 /* AppDelegate.swift in Sources */,
+				B01B2EC0215ABDB300ACA461 /* SkillTypes.swift in Sources */,
 				B0303B98213496DA00F78A00 /* BoxSets.swift in Sources */,
 				B03D5775201105A9007A3E97 /* CardLists.swift in Sources */,
 				B08A6B3F201902CA00603113 /* UIImageGIF.swift in Sources */,
 				B0D1ABDE2114DEDF0051935A /* CardPriceURLs.swift in Sources */,
+				B01B2EC2215ABDEC00ACA461 /* SkillType.swift in Sources */,
 				B08A6B42201903AD00603113 /* LaunchScreenViewController.swift in Sources */,
 				B054BBB5200E68AE004159A6 /* CardListViewController.swift in Sources */,
 			);

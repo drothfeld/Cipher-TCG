@@ -25,10 +25,6 @@ class SkillListViewController: UIViewController, UITableViewDataSource, UITableV
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        prepare()
-    }
-    
-    func prepare() {
         interfaceSetup()
         refreshTable()
         searchBarSetup()
@@ -74,6 +70,20 @@ class SkillListViewController: UIViewController, UITableViewDataSource, UITableV
     func refreshTable() {
         sortedRawSkillList = sortSkillsAlphabetically(unsortedList: rawSkillsList)
         self.SkillListTableView.reloadData()
+    }
+    
+    // Preparing Specific Skill
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let indexPath = SkillListTableView.indexPathForSelectedRow {
+            let skill: Skill
+            if isSearching {
+                skill = filteredRawSkillList[indexPath.row]
+            } else {
+                skill = sortedRawSkillList[indexPath.row]
+            }
+            let controller = segue.destination as! SkillViewController
+            controller.detailSkill = skill
+        }
     }
     
     // Search Bar Setup
