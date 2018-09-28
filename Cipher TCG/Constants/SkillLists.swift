@@ -415,4 +415,8 @@ let rawSkillsList: [Skill] = [
     undead_command,
     your_soul_is_mine,
     yes_more_power,
+    give_me_your_hand,
+    battle_persistent_princess,
+    memories_of_carnage,
+    children_of_hope,
 ]

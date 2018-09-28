@@ -1845,6 +1845,28 @@ let b14_001 = Card(series: "B14-001SR",
                    skills: [i_swear_i_will_vanquish_the_darkness_of_despair, i_will_bring_light_to_this_land, and_i_will_bring_hope_to_the_people],
                    cardImageName: "B14-001.png")
 
+let b14_002 = Card(series: "B14-002N",
+                   name: "Lucina: Parallel Paladin",
+                   rarity: "Normal",
+                   insignia: mark_of_naga,
+                   attack: 60,
+                   support: 10,
+                   illustrator: "Aoji",
+                   supportingSkill: none,
+                   skills: [battle_persistent_princess, memories_of_carnage],
+                   cardImageName: "B14-002.png")
+
+let b14_003 = Card(series: "B14-003N",
+                   name: "Lucina: Despair-Defying Princess",
+                   rarity: "Normal",
+                   insignia: mark_of_naga,
+                   attack: 40,
+                   support: 20,
+                   illustrator: "Yusuke Kozaki",
+                   supportingSkill: heros_emblem,
+                   skills: [children_of_hope],
+                   cardImageName: "B14-003.png")
+
 let b14_004 = Card(series: "B14-004R",
                    name: "Chrom: Sealed Paladin",
                    rarity: "Rare",
@@ -1855,6 +1877,17 @@ let b14_004 = Card(series: "B14-004R",
                    supportingSkill: none,
                    skills: [banner_of_the_brand, leader_of_ylisse],
                    cardImageName: "B14-004.png")
+
+let b14_005 = Card(series: "B14-005N",
+                   name: "Chrom: A Fateful Meeting",
+                   rarity: "Normal",
+                   insignia: mark_of_naga,
+                   attack: 40,
+                   support: 20,
+                   illustrator: "BISAI",
+                   supportingSkill: heros_emblem,
+                   skills: [give_me_your_hand],
+                   cardImageName: "B14-005.png")
 
 let b14_006 = Card(series: "B14-006SR",
                    name: "Robin (Male): Tactician of Exalted Strategies",

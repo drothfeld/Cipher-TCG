@@ -3255,3 +3255,35 @@ let yes_more_power = Skill(name: "YES, MORE POWER!",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let give_me_your_hand = Skill(name: "Give me your hand.",
+                        description: "[ Tap This Unit, Flip 2 Bonds ] Choose 1 card besides Chrom with a Deployment Cost of 1 from your Retreat Area, and add it to your hand.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let battle_persistent_princess = Skill(name: "Battle-Persistent Princess",
+                        description: "[Send 1 card from your hand to the Retreat Area] When an other ally Class Changes, you may pay the cost and if you do: Choose 1 Lucina from your Retreat Area, and add it to your hand.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let memories_of_carnage = Skill(name: "Memories of Carnage",
+                        description: "This unit gains +10 attack. ( Class Change Skill may only be used if this unit has Class Changed.)",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: true)
+
+let children_of_hope = Skill(name: "Children of Hope",
+                        description: "When another ally class changes, until the end of your opponent's next turn, this unit gains +20 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
