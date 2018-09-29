@@ -962,7 +962,7 @@
                                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" delaysContentTouches="NO" canCancelContentTouches="NO" keyboardDismissMode="interactive" editable="NO" text="If the attacking unit is White, until the end of this battle, the number of orbs this unit’s attack would destroy becomes 2." selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ds5-v6-nco" userLabel="Card Supporting Skill Text">
+                                            <textView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" keyboardDismissMode="interactive" editable="NO" text="If the attacking unit is White, until the end of this battle, the number of orbs this unit’s attack would destroy becomes 2." selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ds5-v6-nco" userLabel="Card Supporting Skill Text">
                                                 <rect key="frame" x="8" y="27" width="128" height="112"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1072,8 +1072,8 @@
         <image name="sort_by_number_button.png" width="290" height="289"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="CJv-bm-6cT"/>
+        <segue reference="8ih-mp-VFz"/>
         <segue reference="oVR-qE-nmK"/>
-        <segue reference="6Gl-2R-TWn"/>
+        <segue reference="QE9-aR-HPz"/>
     </inferredMetricsTieBreakers>
 </document>

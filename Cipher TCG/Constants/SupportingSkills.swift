@@ -44,6 +44,10 @@ let heros_emblem = SupportingSkill(type: "Hero's Emblem",
                                    textDescription: "If the attacking unit is the same color as this card, until the end of this battle, the number of orbs this unit’s attack would destroy becomes 2.",
                                    iconImageName: "28px-Attack_Support.png")
 
+let tactical_emblem = SupportingSkill(type: "Tactical Emblem",
+                                   textDescription: "If your attacking unit is the same color as this card, you may choose 1 enemy besides your opponent’s defending unit, and move them.",
+                                   iconImageName: "28px-Attack_Support.png")
+
 let prophecy_emblem = SupportingSkill(type: "Prophecy Emblem",
                                    textDescription: "Look at the topmost card of your deck. You may send that card to the Retreat Area.",
                                    iconImageName: "28px-Attack_Support.png")

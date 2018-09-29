@@ -3287,3 +3287,35 @@ let children_of_hope = Skill(name: "Children of Hope",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let recollected_knowledge = Skill(name: "Recollected Knowledge",
+                        description: "[ Flip 1 Bond, Send 1 card from your hand to the Retreat Area] When this unit’s attack destroys an enemy, if you pay the cost, choose 1 Robin (M) from your Retreat Area, and add it to your hand.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let the_verge_of_history = Skill(name: "The Verge of History",
+                        description: "[Discard 1 Robin (Female) from your hand to the Retreat Area] Choose 1 enemy, and move them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let overwhelming_love_of_armor = Skill(name: "Overwhelming Love of Armor",
+                        description: "[Flip 1 Armor Bond card face-down] Until the end of your opponent’s next turn, this unit gains +20 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let contest_of_the_strong = Skill(name: "Contest of the Strong",
+                        description: "If this unit is attacking an enemy with a deployment cost of 3 or higher, this unit gains +30 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

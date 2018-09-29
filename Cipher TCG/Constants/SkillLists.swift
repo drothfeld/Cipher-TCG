@@ -419,4 +419,8 @@ let rawSkillsList: [Skill] = [
     battle_persistent_princess,
     memories_of_carnage,
     children_of_hope,
+    recollected_knowledge,
+    the_verge_of_history,
+    overwhelming_love_of_armor,
+    contest_of_the_strong,
 ]

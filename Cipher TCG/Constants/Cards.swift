@@ -1900,6 +1900,17 @@ let b14_006 = Card(series: "B14-006SR",
                    skills: [gradmasters_thoron, all_according_to_plan2],
                    cardImageName: "B14-006.png")
 
+let b14_007 = Card(series: "B14-007N",
+                   name: "Robin (Male): The Shepherds' Tactician",
+                   rarity: "Normal",
+                   insignia: mark_of_naga,
+                   attack: 30,
+                   support: 20,
+                   illustrator: "nNekoR",
+                   supportingSkill: tactical_emblem,
+                   skills: [recollected_knowledge],
+                   cardImageName: "B14-007.png")
+
 let b14_008 = Card(series: "B14-008SR",
                    name: "Robin (Female): Visitor from the Future",
                    rarity: "Secret Rare",
@@ -1911,6 +1922,17 @@ let b14_008 = Card(series: "B14-008SR",
                    skills: [spacetime_transcending_fell_heart, die_and_let_hope_die_with_you, lost_power],
                    cardImageName: "B14-008.png")
 
+let b14_009 = Card(series: "B14-009N",
+                   name: "Robin (Female): The Shepherds' Tactician",
+                   rarity: "Normal",
+                   insignia: mark_of_naga,
+                   attack: 30,
+                   support: 20,
+                   illustrator: "nNekoR",
+                   supportingSkill: tactical_emblem,
+                   skills: [the_verge_of_history],
+                   cardImageName: "B14-009.png")
+
 let b14_010 = Card(series: "B14-010R",
                    name: "Cordelia: Beautiful Flier Paragon",
                    rarity: "Rare",
@@ -1921,6 +1943,17 @@ let b14_010 = Card(series: "B14-010R",
                    supportingSkill: none,
                    skills: [skillful_lancework, eternally_abreast_wings],
                    cardImageName: "B14-010.png")
+
+let b14_011 = Card(series: "B14-011N",
+                   name: "Cordelia:",
+                   rarity: "Normal",
+                   insignia: mark_of_naga,
+                   attack: 30,
+                   support: 30,
+                   illustrator: "Unknown",
+                   supportingSkill: flying_emblem,
+                   skills: [winged_deliverer],
+                   cardImageName: "B14-011.png")
 
 let b14_013 = Card(series: "B14-013N",
                    name: "Morgan (Female): Amnesiac Girl",
@@ -1943,6 +1976,28 @@ let b14_016 = Card(series: "B14-016R",
                    supportingSkill: none,
                    skills: [i_thus_engrave_my_name_into_your_very_soul, endless_legend],
                    cardImageName: "B14-016.png")
+
+let b14_018 = Card(series: "B14-018HN",
+                   name: "Kjelle: The Most Attached to Her Armor",
+                   rarity: "High Normal",
+                   insignia: mark_of_naga,
+                   attack: 60,
+                   support: 10,
+                   illustrator: "40hara",
+                   supportingSkill: none,
+                   skills: [overwhelming_love_of_armor, armor_expertise],
+                   cardImageName: "B14-018.png")
+
+let b14_019 = Card(series: "B14-019N",
+                   name: "Kjelle: Duelling Armored Girl",
+                   rarity: "Normal",
+                   insignia: mark_of_naga,
+                   attack: 30,
+                   support: 10,
+                   illustrator: "40hara",
+                   supportingSkill: defense_emblem,
+                   skills: [contest_of_the_strong, armor_expertise],
+                   cardImageName: "B14-019.png")
 
 let b14_022 = Card(series: "B14-022SR",
                    name: "Cynthia: Winged Justice",
