@@ -423,4 +423,10 @@ let rawSkillsList: [Skill] = [
     the_verge_of_history,
     overwhelming_love_of_armor,
     contest_of_the_strong,
+    pursuit_of_truth,
+    beautiful_flame,
+    tricorne_intellect,
+    i_want_to_fight_too,
+    im_too_young_to_go_extinct,
+    i_im_still_alive,
 ]

@@ -3319,3 +3319,51 @@ let contest_of_the_strong = Skill(name: "Contest of the Strong",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let pursuit_of_truth = Skill(name: "Pursuit of Truth",
+                        description: "[ Send 1 Blue card in your hand to your Retreat Area] Draw 1 card.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let beautiful_flame = Skill(name: "Beautiful Flame",
+                        description: "[ Flip 1 Bond ] Until the end of the turn, this unit gains +20 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let tricorne_intellect = Skill(name: "Tricorne of Intellect",
+                        description: "When this unit’s attack destroys an enemy, draw 1 card. Choose 1 card from your hand and send it to your Retreat Area.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let i_want_to_fight_too = Skill(name: "I want to fight, too!",
+                        description: "Move this unit. This skill cannot be used unless this unit is in the Back Line.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let im_too_young_to_go_extinct = Skill(name: "I’m too young to go extinct!",
+                        description: "When this unit’s attack ends, move this unit.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let i_im_still_alive = Skill(name: "I… I’m still alive!",
+                        description: "[ Flip 1 Bond ] ???",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

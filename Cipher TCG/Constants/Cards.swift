@@ -1999,6 +1999,28 @@ let b14_019 = Card(series: "B14-019N",
                    skills: [contest_of_the_strong, armor_expertise],
                    cardImageName: "B14-019.png")
 
+let b14_020 = Card(series: "B14-020HN",
+                   name: "Laurent: Endless Thirst for Knowledge",
+                   rarity: "High Normal",
+                   insignia: mark_of_naga,
+                   attack: 50,
+                   support: 20,
+                   illustrator: "Unknown",
+                   supportingSkill: none,
+                   skills: [pursuit_of_truth, beautiful_flame],
+                   cardImageName: "B14-020.png")
+
+let b14_021 = Card(series: "B14-021N",
+                   name: "Laurent: In the Land of Whirling Sandstorms",
+                   rarity: "Normal",
+                   insignia: mark_of_naga,
+                   attack: 30,
+                   support: 20,
+                   illustrator: "Unknown",
+                   supportingSkill: magic_emblem,
+                   skills: [tricorne_intellect],
+                   cardImageName: "B14-021.png")
+
 let b14_022 = Card(series: "B14-022SR",
                    name: "Cynthia: Winged Justice",
                    rarity: "Secret Rare",
@@ -2031,6 +2053,28 @@ let b14_024 = Card(series: "B14-024N",
                    supportingSkill: flying_emblem,
                    skills: [supporting_javelin],
                    cardImageName: "B14-024.png")
+
+let b14_027 = Card(series: "B14-027HN",
+                   name: "Yarne: The Last Taguel",
+                   rarity: "High Normal",
+                   insignia: mark_of_naga,
+                   attack: 70,
+                   support: 10,
+                   illustrator: "Nekobayashi",
+                   supportingSkill: none,
+                   skills: [i_want_to_fight_too, im_too_young_to_go_extinct],
+                   cardImageName: "B14-027.png")
+
+let b14_028 = Card(series: "B14-028N",
+                   name: "Yarne: His Warren’s Hope",
+                   rarity: "Normal",
+                   insignia: mark_of_naga,
+                   attack: 40,
+                   support: 10,
+                   illustrator: "Nekobayashi",
+                   supportingSkill: attack_emblem,
+                   skills: [i_im_still_alive],
+                   cardImageName: "B14-028.png")
 
 let b14_029 = Card(series: "B14-029R",
                    name: "Severa: Girl of the Paragon’s Blood",
