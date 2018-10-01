@@ -657,6 +657,28 @@ let b06_087 = Card(series: "B06-087N",
                    skills: [auspicious_wind],
                    cardImageName: "B06-087.png")
 
+let b06_094 = Card(series: "B06-094HN",
+                   name: "Arete: Queen of Nohr",
+                   rarity: "High Normal",
+                   insignia: nohr,
+                   attack: 50,
+                   support: 20,
+                   illustrator: "Unknown",
+                   supportingSkill: none,
+                   skills: [jumbled_memories, descendant_of_valla],
+                   cardImageName: "B06-094.png")
+
+let b06_099 = Card(series: "B06-094HN",
+                   name: "Shade: Midnight Witch",
+                   rarity: "High Normal",
+                   insignia: nohr,
+                   attack: 50,
+                   support: 20,
+                   illustrator: "Yoko Maturica",
+                   supportingSkill: none,
+                   skills: [witches_brew],
+                   cardImageName: "B06-099.png")
+
 let b07_051 = Card(series: "B07-051SR",
                    name: "Unifier of the Kingdom of Hoshido, Ryoma",
                    rarity: "Secret Rare",
@@ -1063,6 +1085,17 @@ let b10_068 = Card(series: "B10-068HN",
                    supportingSkill: none,
                    skills: [perfect_arragement, prodigy, wingbane],
                    cardImageName: "B10-068.png")
+
+let b10_071 = Card(series: "B10-071N",
+                   name: "Rhajat: Mysterious Curse Girl",
+                   rarity: "Normal",
+                   insignia: hoshido,
+                   attack: 40,
+                   support: 20,
+                   illustrator: "40hara",
+                   supportingSkill: none,
+                   skills: [mysterious_secret_arts],
+                   cardImageName: "B10-071.png")
 
 let b10_076 = Card(series: "B10-076R",
                    name: "Rehearsal of a Turnabout Victory, Ophelia",
@@ -1701,6 +1734,17 @@ let b12_074 = Card(series: "B12-074HN",
                    supportingSkill: none,
                    skills: [commander_of_corpses, corpse_calling_corpse, reeking_miasma],
                    cardImageName: "B12-074.png")
+
+let b12_100 = Card(series: "B12-100HN",
+                   name: "Shade: Veteran Dark Mage",
+                   rarity: "High Normal",
+                   insignia: colorless,
+                   attack: 30,
+                   support: 20,
+                   illustrator: "Unknown",
+                   supportingSkill: magic_emblem,
+                   skills: [leave_it_to_shade, how_cruel_should_i_be],
+                   cardImageName: "B12-100.png")
 
 let b13_001 = Card(series: "B13-001SR",
                    name: "Eliwood: Blazing Knight of Valor",
@@ -2375,7 +2419,7 @@ let b14_072 = Card(series: "B14-072SR",
                    cardImageName: "B14-072.png")
 
 let b14_073 = Card(series: "B14-073HN",
-                   name: "Garon: ",
+                   name: "Garon: Nohrian King in Dragon Form",
                    rarity: "High Normal",
                    insignia: nohr,
                    attack: 70,

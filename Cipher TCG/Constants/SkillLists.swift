@@ -429,4 +429,10 @@ let rawSkillsList: [Skill] = [
     i_want_to_fight_too,
     im_too_young_to_go_extinct,
     i_im_still_alive,
+    leave_it_to_shade,
+    how_cruel_should_i_be,
+    witches_brew,
+    jumbled_memories,
+    descendant_of_valla,
+    mysterious_secret_arts,
 ]

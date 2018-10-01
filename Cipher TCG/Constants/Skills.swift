@@ -3367,3 +3367,51 @@ let i_im_still_alive = Skill(name: "I… I’m still alive!",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let leave_it_to_shade = Skill(name: "Leave it to Shade!",
+                        description: "If you have 4 or more bond cards, the deployment cost of this card in your hand becomes 0.",
+                        colorType: UIColor.purple,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let how_cruel_should_i_be = Skill(name: "How cruel should I be?",
+                        description: "[Once Per Turn] Until the end of your opponent's next turn, your opponent cannot play cards from their hand into the Bond Area through the effect of skills.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let witches_brew = Skill(name: "Witch's Brew",
+                        description: "[Once Per Turn] When another ally is destroyed, this turn, this unit gains the following skill: AUTO [ Flip 1 Bond ] At the end of your turn, you may pay the cost, and if you do: Choose a card in your Retreat Area except Shade and add that card to your hand.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let jumbled_memories = Skill(name: "Jumbled Memories",
+                        description: "[ Tap This Unit ] If you pay the cost, you may draw one card and reveal it. If the revealed card is not White, you must discard a card from your hand.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let descendant_of_valla = Skill(name: "Descendant of Valla",
+                        description: "While you have no face-up cards in your Bond Area, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let mysterious_secret_arts = Skill(name: "Mysterious Secret Arts",
+                        description: "During your turn, if you have at least three other allies, this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
