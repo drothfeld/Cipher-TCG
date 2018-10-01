@@ -734,7 +734,7 @@ let b07_078 = Card(series: "B07-078HN",
                    skills: [sorrowful_battle, minion_wyvern],
                    cardImageName: "B07-078.png")
 
-let b07_084 = Card(series: "B07-084",
+let b07_084 = Card(series: "B07-084R",
                    name: "Shiro: Resolved Heir of Raijin",
                    rarity: "Rare",
                    insignia: hoshido,
