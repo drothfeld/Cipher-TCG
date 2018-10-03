@@ -3415,3 +3415,51 @@ let mysterious_secret_arts = Skill(name: "Mysterious Secret Arts",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let here_have_some_water = Skill(name: "Here. Have some water.",
+                        description: "During your turn, your lord gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let mother_son_dance_practice = Skill(name: "Mother-Son Dance Practice",
+                        description: "[ Tap This Unit, Flip 1 Bonds ] Untap your allied Inigo.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let wielder_of_sword_and_flame = Skill(name: "Wielder of Sword and Flame",
+                        description: "This unit gains <Tome> and range 1-2 (Class Change Skill may only be used if this unit has Class Changed.)",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: true)
+
+let mother_learned_tactics = Skill(name: "Mother-Learned Tactics",
+                        description: "[Once Per Turn] When you draw a card, until the end of the turn, this unit gains +10 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let time_to_even_the_odds = Skill(name: "Time to even the odds!",
+                        description: "[Once Per Turn] [ Flip 1 Bond ] If you and your opponent have the same number of orbs, draw 1 card.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let comeback_tactics = Skill(name: "Comeback Tactics",
+                        description: "While you have fewer orbs than your opponent, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

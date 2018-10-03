@@ -1999,6 +1999,17 @@ let b14_011 = Card(series: "B14-011N",
                    skills: [winged_deliverer],
                    cardImageName: "B14-011.png")
 
+let b14_012 = Card(series: "B14-012HN",
+                   name: "Olivia: Soothing Dancer",
+                   rarity: "High Normal",
+                   insignia: mark_of_naga,
+                   attack: 20,
+                   support: 10,
+                   illustrator: "Kotetsu Kinoshita",
+                   supportingSkill: none,
+                   skills: [here_have_some_water, mother_son_dance_practice],
+                   cardImageName: "B14-012.png")
+
 let b14_013 = Card(series: "B14-013N",
                    name: "Morgan (Female): Amnesiac Girl",
                    rarity: "Normal",
@@ -2009,6 +2020,28 @@ let b14_013 = Card(series: "B14-013N",
                    supportingSkill: none,
                    skills: [ill_lure_them_this_way_and, tacticians_elfire],
                    cardImageName: "B14-013.png")
+
+let b14_014 = Card(series: "B14-014R",
+                   name: "Morgan (Male): Disowned by Time",
+                   rarity: "Rare",
+                   insignia: mark_of_naga,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "Yoko Maturica",
+                   supportingSkill: none,
+                   skills: [wielder_of_sword_and_flame, mother_learned_tactics, time_to_even_the_odds],
+                   cardImageName: "B14-014.png")
+
+let b14_015 = Card(series: "B14-015N",
+                   name: "Morgan (Male): Little Tactician Boy",
+                   rarity: "Normal",
+                   insignia: mark_of_naga,
+                   attack: 30,
+                   support: 20,
+                   illustrator: "Yoko Maturica",
+                   supportingSkill: fate_emblem,
+                   skills: [comeback_tactics],
+                   cardImageName: "B14-015.png")
 
 let b14_016 = Card(series: "B14-016R",
                    name: "Owain: That is the Name of this Forger of Legends",

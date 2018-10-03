@@ -435,4 +435,10 @@ let rawSkillsList: [Skill] = [
     jumbled_memories,
     descendant_of_valla,
     mysterious_secret_arts,
+    here_have_some_water,
+    mother_son_dance_practice,
+    wielder_of_sword_and_flame,
+    mother_learned_tactics,
+    time_to_even_the_odds,
+    comeback_tactics,
 ]
