@@ -441,4 +441,8 @@ let rawSkillsList: [Skill] = [
     mother_learned_tactics,
     time_to_even_the_odds,
     comeback_tactics,
+    fated_blade,
+    watch_my_back,
+    negative_love,
+    unsubtle_inferiority_complex,
 ]

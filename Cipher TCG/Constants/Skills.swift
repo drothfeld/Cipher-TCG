@@ -3463,3 +3463,35 @@ let comeback_tactics = Skill(name: "Comeback Tactics",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let fated_blade = Skill(name: "Fated Blade",
+                        description: "Once Per Turn [ Flip 2 Bonds ] Until the end of the turn, this unit gains +10 attack, and the number of orbs that this unit's attack will destroy is increased to 2.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let watch_my_back = Skill(name: "Watch my back!",
+                        description: "Once Per Turn [ Flip 1 Bond ] Choose 1 other ally. Until the end of the turn, that unit gains +10 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let negative_love = Skill(name: "Negative Love",
+                        description: "If you have an allied Cordelia, this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let unsubtle_inferiority_complex = Skill(name: "Unsubtle Inferiority Complex",
+                        description: "If you have 1 or more allies with a deployment cost of 3 or higher, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

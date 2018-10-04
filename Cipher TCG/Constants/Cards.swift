@@ -2054,6 +2054,17 @@ let b14_016 = Card(series: "B14-016R",
                    skills: [i_thus_engrave_my_name_into_your_very_soul, endless_legend],
                    cardImageName: "B14-016.png")
 
+let b14_017 = Card(series: "B14-017N",
+                   name: "Owain: Scion of the Demon Sword",
+                   rarity: "Normal",
+                   insignia: mark_of_naga,
+                   attack: 40,
+                   support: 10,
+                   illustrator: "Rika Suzuki",
+                   supportingSkill: attack_emblem,
+                   skills: [fated_blade],
+                   cardImageName: "B14-017.png")
+
 let b14_018 = Card(series: "B14-018HN",
                    name: "Kjelle: The Most Attached to Her Armor",
                    rarity: "High Normal",
@@ -2163,6 +2174,28 @@ let b14_029 = Card(series: "B14-029R",
                    supportingSkill: none,
                    skills: [yearning_after_the_flier, eternally_abreast_wings],
                    cardImageName: "B14-029.png")
+
+let b14_030 = Card(series: "B14-030HN",
+                   name: "Severa: Soul-searching Sellsword",
+                   rarity: "High Normal",
+                   insignia: mark_of_naga,
+                   attack: 60,
+                   support: 10,
+                   illustrator: "Tetsu Kurosawa",
+                   supportingSkill: none,
+                   skills: [watch_my_back, negative_love],
+                   cardImageName: "B14-030.png")
+
+let b14_031 = Card(series: "B14-031N",
+                   name: "Severa: Impudent Swordswoman",
+                   rarity: "Normal",
+                   insignia: mark_of_naga,
+                   attack: 40,
+                   support: 10,
+                   illustrator: "Tetsu Kurosawa",
+                   supportingSkill: attack_emblem,
+                   skills: [unsubtle_inferiority_complex],
+                   cardImageName: "B14-031.png")
 
 let b14_032 = Card(series: "B14-032R",
                    name: "Nah: Little Perseverant Manakete",
