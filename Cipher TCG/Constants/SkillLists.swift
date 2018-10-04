@@ -445,4 +445,6 @@ let rawSkillsList: [Skill] = [
     watch_my_back,
     negative_love,
     unsubtle_inferiority_complex,
+    army_of_corpses,
+    monster_healing_staff,
 ]

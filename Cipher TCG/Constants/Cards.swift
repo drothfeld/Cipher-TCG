@@ -2221,7 +2221,7 @@ let b14_033 = Card(series: "B14-033N",
                    cardImageName: "B14-033.png")
 
 let b14_039 = Card(series: "B14-039HN",
-                   name: "Risen Chief",
+                   name: "Risen Chief: Evil-Eyed Assassin",
                    rarity: "High Normal",
                    insignia: mark_of_naga,
                    attack: 0,
@@ -2230,6 +2230,39 @@ let b14_039 = Card(series: "B14-039HN",
                    supportingSkill: none,
                    skills: [commander_of_corpses, undead_command],
                    cardImageName: "B14-039.png")
+
+let b14_040a = Card(series: "B14-040aN",
+                   name: "Risen: Grotesque Soldier",
+                   rarity: "Normal",
+                   insignia: mark_of_naga,
+                   attack: 0,
+                   support: 0,
+                   illustrator: "Aogachou",
+                   supportingSkill: despair_emblem,
+                   skills: [army_of_corpses],
+                   cardImageName: "B14-040a.png")
+
+let b14_040b = Card(series: "B14-040bN",
+                    name: "Risen: Grotesque Soldier",
+                    rarity: "Normal",
+                    insignia: mark_of_naga,
+                    attack: 0,
+                    support: 0,
+                    illustrator: "Aogachou",
+                    supportingSkill: none,
+                    skills: [army_of_corpses],
+                    cardImageName: "B14-040b.png")
+
+let b14_040c = Card(series: "B14-040cN",
+                    name: "Risen: Grotesque Soldier",
+                    rarity: "Normal",
+                    insignia: mark_of_naga,
+                    attack: 0,
+                    support: 0,
+                    illustrator: "Aogachou",
+                    supportingSkill: none,
+                    skills: [army_of_corpses, monster_healing_staff],
+                    cardImageName: "B14-040c.png")
 
 let b14_041 = Card(series: "B14-041HN",
                    name: "???: Mightest Pawn of the Leal",

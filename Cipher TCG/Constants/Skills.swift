@@ -3495,3 +3495,19 @@ let unsubtle_inferiority_complex = Skill(name: "Unsubtle Inferiority Complex",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let army_of_corpses = Skill(name: "Army of Corpses",
+                        description: "You may deploy this card even if you already have an allied “Risen”, and you may have 2 or more allied “Risen” at once. [SPEC] You may have 5 or more cards with the same card name as this card in your deck.",
+                        colorType: UIColor.purple,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let monster_healing_staff = Skill(name: "Monster-Healing Staff",
+                        description: "[ Tap This Unit, Flip 2 Bonds ] Choose 1 Monster card from your Retreat Area, and add it to your hand.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)

@@ -71,6 +71,9 @@
 		B0303B98213496DA00F78A00 /* BoxSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0303B97213496DA00F78A00 /* BoxSets.swift */; };
 		B0303B9A213499F600F78A00 /* B03-052.png in Resources */ = {isa = PBXBuildFile; fileRef = B0303B99213499F600F78A00 /* B03-052.png */; };
 		B0329590203F2CDC00BB2FE4 /* B11-020.png in Resources */ = {isa = PBXBuildFile; fileRef = B032958F203F2CDB00BB2FE4 /* B11-020.png */; };
+		B0346ED32166DDD000681FD8 /* B14-040a.png in Resources */ = {isa = PBXBuildFile; fileRef = B0346ED02166DDCF00681FD8 /* B14-040a.png */; };
+		B0346ED42166DDD000681FD8 /* B14-040b.png in Resources */ = {isa = PBXBuildFile; fileRef = B0346ED12166DDCF00681FD8 /* B14-040b.png */; };
+		B0346ED52166DDD000681FD8 /* B14-040c.png in Resources */ = {isa = PBXBuildFile; fileRef = B0346ED22166DDCF00681FD8 /* B14-040c.png */; };
 		B03D5775201105A9007A3E97 /* CardLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03D5774201105A9007A3E97 /* CardLists.swift */; };
 		B03D57AC2012CCB7007A3E97 /* B03-072.png in Resources */ = {isa = PBXBuildFile; fileRef = B03D57A32012CCB7007A3E97 /* B03-072.png */; };
 		B03D57AD2012CCB7007A3E97 /* B03-067.png in Resources */ = {isa = PBXBuildFile; fileRef = B03D57A42012CCB7007A3E97 /* B03-067.png */; };
@@ -372,6 +375,9 @@
 		B0303B97213496DA00F78A00 /* BoxSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxSets.swift; sourceTree = "<group>"; };
 		B0303B99213499F600F78A00 /* B03-052.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B03-052.png"; sourceTree = "<group>"; };
 		B032958F203F2CDB00BB2FE4 /* B11-020.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B11-020.png"; sourceTree = "<group>"; };
+		B0346ED02166DDCF00681FD8 /* B14-040a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B14-040a.png"; sourceTree = "<group>"; };
+		B0346ED12166DDCF00681FD8 /* B14-040b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B14-040b.png"; sourceTree = "<group>"; };
+		B0346ED22166DDCF00681FD8 /* B14-040c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B14-040c.png"; sourceTree = "<group>"; };
 		B03D5774201105A9007A3E97 /* CardLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardLists.swift; sourceTree = "<group>"; };
 		B03D57A32012CCB7007A3E97 /* B03-072.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B03-072.png"; sourceTree = "<group>"; };
 		B03D57A42012CCB7007A3E97 /* B03-067.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B03-067.png"; sourceTree = "<group>"; };
@@ -669,6 +675,9 @@
 				B085A67C214ACB87008EAFE7 /* B14-032.png */,
 				B085A67D214ACB87008EAFE7 /* B14-033.png */,
 				B01C08B42159524300795F9B /* B14-039.png */,
+				B0346ED02166DDCF00681FD8 /* B14-040a.png */,
+				B0346ED12166DDCF00681FD8 /* B14-040b.png */,
+				B0346ED22166DDCF00681FD8 /* B14-040c.png */,
 				B0FA7C69214EC77F005801C9 /* B14-041.png */,
 				B06E095B214D6BB700B30080 /* B14-042.png */,
 				B01C08A92155625800795F9B /* B14-043.png */,
@@ -1343,6 +1352,7 @@
 				B0303B8F213490FE00F78A00 /* B14-057.png in Resources */,
 				B0FA0BFC213C905B00C4F88D /* B12-026.png in Resources */,
 				B01C08B221556F2B00795F9B /* sort_by_number_button.png in Resources */,
+				B0346ED42166DDD000681FD8 /* B14-040b.png in Resources */,
 				B0DA71DC20EC1F2000AC6AB5 /* B13-070.png in Resources */,
 				B03D57E12012CCEF007A3E97 /* 30px-Purple.png in Resources */,
 				B01B2EEE216141D900ACA461 /* B14-027.png in Resources */,
@@ -1427,6 +1437,7 @@
 				B0ED9DFA20D6CCE900A7BEB6 /* B12-007.png in Resources */,
 				B0B2B2C22104F21B00ABA187 /* B12-008.png in Resources */,
 				B0E0A8D6214C21F30026EDB9 /* B14-097.png in Resources */,
+				B0346ED32166DDD000681FD8 /* B14-040a.png in Resources */,
 				B08A6B392018008E00603113 /* B04-063.png in Resources */,
 				B01B2EDF215FFDC200ACA461 /* B14-007.png in Resources */,
 				B0FD329320C9A49F00B1D2E6 /* B12-051.png in Resources */,
@@ -1449,6 +1460,7 @@
 				B09EA06D2106423C00FDCCEF /* B02-012.png in Resources */,
 				B0E4224B201C423A00CA879C /* B04-001.png in Resources */,
 				B0B47C93212772EE006D93B5 /* B03-065.png in Resources */,
+				B0346ED52166DDD000681FD8 /* B14-040c.png in Resources */,
 				B09EA0692106423100FDCCEF /* B02-001.png in Resources */,
 				B01C08B52159524400795F9B /* B14-039.png in Resources */,
 				B03D57CB2012CCE0007A3E97 /* B07-051.png in Resources */,
