@@ -2330,6 +2330,17 @@ let b14_047 = Card(series: "B14-047HN",
                    skills: [carnage_form, empty_wave_conquest_flame],
                    cardImageName: "B14-047.png")
 
+let b14_048 = Card(series: "B14-048HN",
+                   name: "Maiko Shimazaki:",
+                   rarity: "High Normal",
+                   insignia: colorless,
+                   attack: 0,
+                   support: 20,
+                   illustrator: "Unknown",
+                   supportingSkill: none,
+                   skills: [sharp_support, sharp_shooters, sharp_evasion],
+                   cardImageName: "B14-048.png")
+
 let b14_051 = Card(series: "B14-051SR",
                    name: "Corrin (Male): Dawn That Breaks Through the Gloom",
                    rarity: "Secret Rare",
@@ -2484,6 +2495,17 @@ let b14_064 = Card(series: "B14-064HN",
                    skills: [super_sweet_service, covering_dagger],
                    cardImageName: "B14-064.png")
 
+let b14_065 = Card(series: "B14-065N",
+                   name: "Gunter: Falling Knight’s Shadow",
+                   rarity: "Normal",
+                   insignia: nohr,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "Kazuhiro Taneda",
+                   supportingSkill: none,
+                   skills: [bottomless_darkness],
+                   cardImageName: "B14-065.png")
+
 let b14_068 = Card(series: "B14-068HN",
                    name: "Oboro: Stalwart Spear Maiden",
                    rarity: "High Normal",
@@ -2494,6 +2516,17 @@ let b14_068 = Card(series: "B14-068HN",
                    supportingSkill: none,
                    skills: [great_swap, devoted_fierce_lance],
                    cardImageName: "B14-068.png")
+
+let b14_069 = Card(series: "B14-069N",
+                   name: "Oboro: Matching Ponytail",
+                   rarity: "Normal",
+                   insignia: hoshido,
+                   attack: 40,
+                   support: 10,
+                   illustrator: "Douji Shiki",
+                   supportingSkill: attack_emblem,
+                   skills: [hoshidan_naginata_arts],
+                   cardImageName: "B14-069.png")
 
 let b14_070 = Card(series: "B14-070HN",
                    name: "Hinata: Ingenuous Young Warrior",
@@ -2571,6 +2604,28 @@ let b14_078 = Card(series: "B14-078SR",
                    supportingSkill: none,
                    skills: [legendary_divine_knight, peerless_swordplay, mercenary_leader_to_be],
                    cardImageName: "B14-078.png")
+
+let b14_079 = Card(series: "B14-079HN",
+                   name: "Mist: Family-Protecting Resolve",
+                   rarity: "High Normal",
+                   insignia: medallion,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "Kokon Konfuzi",
+                   supportingSkill: none,
+                   skills: [safeguarding_sonic_sword, valkyries_staff],
+                   cardImageName: "B14-079.png")
+
+let b14_080 = Card(series: "B14-080N",
+                   name: "Mist: Reminiscent Singing Voice",
+                   rarity: "Normal",
+                   insignia: medallion,
+                   attack: 40,
+                   support: 20,
+                   illustrator: "Kokon Konfuzi",
+                   supportingSkill: none,
+                   skills: [floweresque_smile, song_of_waking],
+                   cardImageName: "B14-080.png")
 
 let b14_081 = Card(series: "B14-081SR",
                    name: "Titania: Golden Savior",

@@ -447,4 +447,13 @@ let rawSkillsList: [Skill] = [
     unsubtle_inferiority_complex,
     army_of_corpses,
     monster_healing_staff,
+    sharp_support,
+    sharp_shooters,
+    sharp_evasion,
+    bottomless_darkness,
+    hoshidan_naginata_arts,
+    safeguarding_sonic_sword,
+    valkyries_staff,
+    floweresque_smile,
+    song_of_waking,
 ]

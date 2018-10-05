@@ -3511,3 +3511,75 @@ let monster_healing_staff = Skill(name: "Monster-Healing Staff",
                         flipOrb: false,
                         tapUnit: true,
                         CCS: false)
+
+let sharp_support = Skill(name: "Sharp Support",
+                        description: "[ Tap This Unit ] Select one other ally. Until the end of the turn, the Sharp affinity is added to that ally.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let sharp_shooters = Skill(name: "Sharp Shooters",
+                        description: "During your turn, all Sharp allies gain +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let sharp_evasion = Skill(name: "Sharp Evasion",
+                        description: "While this unit is in the back line this unit cannot be attacked.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let bottomless_darkness = Skill(name: "Bottomless Darkness",
+                        description: "When this unit is destroyed, place him in the Boundless Area instead of sending him to the Retreat Area.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let hoshidan_naginata_arts = Skill(name: "Hoshidan Naginata Arts",
+                        description: "[Once Per Turn] Move this unit. This skill cannot be used unless this unit is untapped.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let safeguarding_sonic_sword = Skill(name: "Safeguarding Sonic Sword",
+                        description: "If you have 2 or more other allies, this unit gains Tome and range 1-2.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let valkyries_staff = Skill(name: "Valkyrie's Staff",
+                        description: "Once Per Turn [ Flip 1 Bond ] Choose 1 other Green ally. Choose 1 card from your Retreat Area with the same unit name as that ally and add it to your hand. Until the end of the turn, that ally gains +10 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let floweresque_smile = Skill(name: "Floweresque Smile",
+                        description: "[ Tap.png ] Choose 1 other ally with a deployment cost of 2 or lower. Until the end of the turn, that ally gains +10 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let song_of_waking = Skill(name: "Song of Waking",
+                        description: "All Level Skill 2 skills possessed by allies become usable.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
