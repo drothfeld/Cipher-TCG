@@ -456,4 +456,11 @@ let rawSkillsList: [Skill] = [
     valkyries_staff,
     floweresque_smile,
     song_of_waking,
+    hoshidan_rod_practice,
+    nohrian_naginata_training,
+    are_you_the_master_here,
+    monasticism_atop_the_sacred_mount,
+    karma,
+    bloom_festal2,
+    pitying_aid,
 ]

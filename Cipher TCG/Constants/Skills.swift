@@ -3581,5 +3581,61 @@ let song_of_waking = Skill(name: "Song of Waking",
                         colorType: UIColor.green,
                         flippedBonds: 0,
                         flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let hoshidan_rod_practice = Skill(name: "Hoshidan Rod Practice",
+                        description: "[ Tap This Unit, Flip 2 White bond cards face-down] Choose 1 non-Emma card from your Retreat Area, and add it to your hand.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
                         tapUnit: true,
                         CCS: false)
+
+let nohrian_naginata_training = Skill(name: "Nohrian Naginata Training",
+                        description: "[Flip 2 Black bond cards face-down] Until the end of the turn, this unit gains +40 attack and range 1-2.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let are_you_the_master_here = Skill(name: "Are you the master here?",
+                        description: "If there are no non-lord enemies, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let monasticism_atop_the_sacred_mount = Skill(name: "Monasticism Atop the Sacred Mount",
+                        description: "[Once Per Turn, Flip 2 Bonds ] Draw 1 card. Until the end of the turn, this unit gains +10 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let karma = Skill(name: "Karma",
+                        description: "When this unit is destroyed by an enemy's attack, choose 1 non-lord enemy with a deployment cost of 2 or lower, and destroy them.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let bloom_festal2 = Skill(name: "Bloom Festal (II)",
+                         description: "[ Tap Unit , Flip 2 Bond ] Choose a card in your Retreat Area except Azama and add that card to your hand.",
+                         colorType: UIColor.red,
+                         flippedBonds: 2,
+                         flipOrb: false,
+                         tapUnit: true,
+                         CCS: false)
+
+let pitying_aid = Skill(name: "Pitying Aid",
+                         description: "[Once Per Turn] When a card is sent from your hand to the Retreat Area as a result of an enemy's skill or your opponent's support skill, draw 1 card.",
+                         colorType: UIColor.blue,
+                         flippedBonds: 0,
+                         flipOrb: false,
+                         tapUnit: true,
+                         CCS: false)

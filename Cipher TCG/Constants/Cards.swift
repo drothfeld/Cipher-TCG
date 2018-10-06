@@ -2506,6 +2506,28 @@ let b14_065 = Card(series: "B14-065N",
                    skills: [bottomless_darkness],
                    cardImageName: "B14-065.png")
 
+let b14_066 = Card(series: "B14-066HN",
+                   name: "Azama: Sinful Preacher",
+                   rarity: "High Normal",
+                   insignia: hoshido,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "Ippei Soeda",
+                   supportingSkill: none,
+                   skills: [monasticism_atop_the_sacred_mount, karma],
+                   cardImageName: "B14-066.png")
+
+let b14_067 = Card(series: "B14-067N",
+                   name: "Azama: Monk of Ill Repute",
+                   rarity: "Normal",
+                   insignia: hoshido,
+                   attack: 20,
+                   support: 20,
+                   illustrator: "Ippei Soeda",
+                   supportingSkill: miracle_emblem,
+                   skills: [bloom_festal2, pitying_aid],
+                   cardImageName: "B14-067.png")
+
 let b14_068 = Card(series: "B14-068HN",
                    name: "Oboro: Stalwart Spear Maiden",
                    rarity: "High Normal",
@@ -2539,6 +2561,17 @@ let b14_070 = Card(series: "B14-070HN",
                    skills: [swordsmans_thoroughfare, devoted_heavy_blade],
                    cardImageName: "B14-070.png")
 
+let b14_071 = Card(series: "B14-071N",
+                   name: "Hinata: Show Yourself! Take My Challenge!",
+                   rarity: "Normal",
+                   insignia: hoshido,
+                   attack: 40,
+                   support: 10,
+                   illustrator: "Homazo",
+                   supportingSkill: attack_emblem,
+                   skills: [are_you_the_master_here],
+                   cardImageName: "B14-071.png")
+
 let b14_072 = Card(series: "B14-072SR",
                    name: "Leo: Sorcerous King of the Dark",
                    rarity: "Secret Rare",
@@ -2571,6 +2604,17 @@ let b14_074 = Card(series: "B14-074N",
                    supportingSkill: none,
                    skills: [thats_the_way_try_to_be_at_peace, warmth_is_gone],
                    cardImageName: "B14-074.png")
+
+let b14_075 = Card(series: "B14-075HN",
+                   name: "Emma: Sunny-Day Falcon!",
+                   rarity: "High Normal",
+                   insignia: nohr,
+                   attack: 60,
+                   support: 30,
+                   illustrator: "Horiguchi Kousei",
+                   supportingSkill: none,
+                   skills: [hoshidan_rod_practice, nohrian_naginata_training],
+                   cardImageName: "B14-075.png")
 
 let b14_076 = Card(series: "B14-076R",
                    name: "Ike: Heir to His Father’s Spirit",
