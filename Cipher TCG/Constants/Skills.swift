@@ -3639,3 +3639,91 @@ let pitying_aid = Skill(name: "Pitying Aid",
                          flipOrb: false,
                          tapUnit: true,
                          CCS: false)
+
+let whirlwind = Skill(name: "Whirlwind",
+                         description: "[Flip one of your Orbs face-up] Until the end of this turn, range 1 is gained by all allies.",
+                         colorType: UIColor.red,
+                         flippedBonds: 0,
+                         flipOrb: true,
+                         tapUnit: false,
+                         CCS: false)
+
+let wild_wind = Skill(name: "Wild Wind",
+                        description: "If you have a face-up Orb, attacking Bow units gain +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let kidnap = Skill(name: "Kidnap",
+                        description: "[ Flip 1 Bond ] When this unit's attack destroys an enemy with a Deployment Cost of 1, you may pay the cost, and if you do: Draw a card.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let up_for_a_ride = Skill(name: "Up for a ride?",
+                        description: "Once Per Turn When another ally is destroyed, this unit gains the following skill until the end of this turn: AUTO When this unit's attack destroys an enemy, you may draw a card.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let nobles_are_simply_wonderful = Skill(name: "Nobles are simply wonderful!",
+                        description: "During your turn, if you have Male an ally with a Deployment Cost of 5 or more, this unit gains +70 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let shall_we_have_a_one_on_one_chat = Skill(name: "Shall we have a one-on-one chat?",
+                        description: "When a  Male ally with a Deployment Cost of 4 or higher is deployed, until the end of this turn, the number of orbs this unit’s attacks would destroy becomes 2.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let youre_too_simple_minded = Skill(name: "...You're too simple minded!",
+                        description: "[Discard a Male card with a Deployment Cost of 3 or less] When this unit's attack destroys the Main Character, you may pay the cost, and if you do: Your opponent must discard a card.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let i_im_just_a_girl = Skill(name: "I-I'm just a girl...",
+                        description: "During your opponent's turn, if you have a Male ally, this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let ill_beat_the_crap_out_of_you = Skill(name: "I'll beat the crap out of you!!!!",
+                        description: "During your turn, if you have no Male allies, this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let dreams_of_a_gold_digger = Skill(name: "Dreams of a Gold Digger",
+                        description: "During your turn, this unit gains +10 attack for each Female enemy.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let womans_nature = Skill(name: "Woman's Nature",
+                        description: "While this unit is attacking a Female enemy, this unit gains +30 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

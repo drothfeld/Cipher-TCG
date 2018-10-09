@@ -228,6 +228,28 @@ let b02_060 = Card(series: "B02-060SR",
                    skills: [brynhildr, soulcrushing_darkness],
                    cardImageName: "B02-060.png")
 
+let b02_085 = Card(series: "B02-085HN",
+                   name: "Charlotte: Two-Faced Berserker",
+                   rarity: "High Normal",
+                   insignia: nohr,
+                   attack: 50,
+                   support: 10,
+                   illustrator: "Daisuke Izuka",
+                   supportingSkill: none,
+                   skills: [dreams_of_a_gold_digger],
+                   cardImageName: "B02-085.png")
+
+let b02_086 = Card(series: "B02-086N",
+                   name: "Charlotte: Lovely Warrior Lady",
+                   rarity: "Normal",
+                   insignia: nohr,
+                   attack: 30,
+                   support: 10,
+                   illustrator: "Daisuke Izuka",
+                   supportingSkill: attack_emblem,
+                   skills: [womans_nature],
+                   cardImageName: "B02-086.png")
+
 let b03_032 = Card(series: "B03-032R",
                    name: "Swift Lance of Liberation, Nephenee",
                    rarity: "Rare",
@@ -646,6 +668,50 @@ let b06_063 = Card(series: "B06-063N",
                    skills: [commander_of_the_kamikaze_unit],
                    cardImageName: "B06-063.png")
 
+let b06_064 = Card(series: "B06-064R",
+                   name: "Niles: Pleasure Professional",
+                   rarity: "Rare",
+                   insignia: nohr,
+                   attack: 50,
+                   support: 20,
+                   illustrator: "Unknown",
+                   supportingSkill: none,
+                   skills: [up_for_a_ride, wingbane],
+                   cardImageName: "B06-064.png")
+
+let b06_065 = Card(series: "B06-065N",
+                   name: "Niles: Twisted Joy",
+                   rarity: "Normal",
+                   insignia: nohr,
+                   attack: 30,
+                   support: 10,
+                   illustrator: "Unknown",
+                   supportingSkill: thief_emblem,
+                   skills: [kidnap, wingbane],
+                   cardImageName: "B06-065.png")
+
+let b06_076 = Card(series: "B06-076SR",
+                   name: "Charlotte: Savage Feminity",
+                   rarity: "Secret Rare",
+                   insignia: nohr,
+                   attack: 70,
+                   support: 10,
+                   illustrator: "daigoman",
+                   supportingSkill: none,
+                   skills: [nobles_are_simply_wonderful, shall_we_have_a_one_on_one_chat, youre_too_simple_minded],
+                   cardImageName: "B06-076.png")
+
+let b06_077 = Card(series: "B06-077HN",
+                   name: "Charlotte: Colorful Coaxing",
+                   rarity: "High Normal",
+                   insignia: nohr,
+                   attack: 30,
+                   support: 10,
+                   illustrator: "daigoman",
+                   supportingSkill: attack_emblem,
+                   skills: [i_im_just_a_girl, ill_beat_the_crap_out_of_you],
+                   cardImageName: "B06-077.png")
+
 let b06_087 = Card(series: "B06-087N",
                    name: "Percy: Lucky Dragon Knight",
                    rarity: "Normal",
@@ -1052,6 +1118,17 @@ let b10_062 = Card(series: "B10-062HN",
                    supportingSkill: none,
                    skills: [thunderstorm, thundering_earth],
                    cardImageName: "B10-062.png")
+
+let b10_063 = Card(series: "B10-063HN",
+                   name: "Kiragi: Aspirant Fujin Yumi",
+                   rarity: "High Normal",
+                   insignia: hoshido,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "Kokon Konfuzi",
+                   supportingSkill: none,
+                   skills: [whirlwind, wild_wind, wingbane],
+                   cardImageName: "B10-063.png")
 
 let b10_064 = Card(series: "B10-064R",
                    name: "Fox in Black, Selkie",
