@@ -3232,7 +3232,7 @@ let all_according_to_plan2 = Skill(name: "All according to plan! (II)",
                         tapUnit: false,
                         CCS: false)
 
-let undead_command = Skill(name: "Undead Command",
+let the_ultimate_solider = Skill(name: "The Ultimate Soldier",
                         description: "[CONTINUOUS] If you have 1 or more other <Monster> allies, this gets +100 power.",
                         colorType: UIColor.green,
                         flippedBonds: 0,
@@ -3746,6 +3746,62 @@ let strength_training = Skill(name: "Strength Training",
 
 let aloof_aid = Skill(name: "Aloof Aid",
                         description: "[ Once Per Turn ] When another ally Class Changes, until the end of the turn, that ally gains +10 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let bearslaying_bow = Skill(name: "Bearslaying Bow",
+                        description: "During your turn, if there are 1 or more enemies with a deployment cost of 5 or higher, this unit gains +30 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let a_bouquet_for_you = Skill(name: "A bouquet for you...",
+                        description: "[ Tap This Unit ] Choose 1 Female ally. Until the end of the turn, that ally gains +20 attack, and their attacks cannot be evaded by non-lord enemies.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let and_a_smile_for_me = Skill(name: "...And a smile for me!",
+                        description: "Each time an enemy is destroyed by an attack from an ally who was chosen by this unit's 'A bouquet for you...' in this turn, untap this unit.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let practicing_a_dance = Skill(name: "Practicing a Dance",
+                        description: "[ Tap This Unit, Flip 2 Bonds ] Choose 1 Female ally who has attacked in this turn, and untap them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let careful_now = Skill(name: "Careful, now!",
+                        description: "[ Once Per Turn ] Choose 1 Female ally in the Front Line, and move them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let ladies_man = Skill(name: "Ladies’ Man",
+                        description: "During your turn, this unit gains +10 attack for each Female ally in your Back Line.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let with_mothers_wyvern_steed = Skill(name: "With Mother's Wyvern Steed",
+                        description: "When you deploy this unit, until the end of the turn, this unit gains +10 attack.",
                         colorType: UIColor.blue,
                         flippedBonds: 0,
                         flipOrb: false,

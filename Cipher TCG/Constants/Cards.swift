@@ -2319,6 +2319,61 @@ let b14_033 = Card(series: "B14-033N",
                    skills: [young_dragons_breath, longevous_dragonkin_2],
                    cardImageName: "B14-033.png")
 
+let b14_034 = Card(series: "B14-034HN",
+                   name: "Noire: About-Facing Bow Knight",
+                   rarity: "High Normal",
+                   insignia: mark_of_naga,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "40hara",
+                   supportingSkill: none,
+                   skills: [bearslaying_bow, wingbane],
+                   cardImageName: "B14-034.png")
+
+let b14_035 = Card(series: "B14-035SR",
+                   name: "Inigo: Floral Scent Dancing Sword",
+                   rarity: "Secret Rare",
+                   insignia: mark_of_naga,
+                   attack: 70,
+                   support: 10,
+                   illustrator: "Sachiko Wada",
+                   supportingSkill: none,
+                   skills: [a_bouquet_for_you, and_a_smile_for_me],
+                   cardImageName: "B14-035.png")
+
+let b14_036 = Card(series: "B14-036N",
+                   name: "Inigo: Secret Dance Lesson",
+                   rarity: "Normal",
+                   insignia: mark_of_naga,
+                   attack: 60,
+                   support: 10,
+                   illustrator: "Sachiko Wada",
+                   supportingSkill: none,
+                   skills: [practicing_a_dance, careful_now],
+                   cardImageName: "B14-036.png")
+
+let b14_037 = Card(series: "B14-037HN",
+                   name: "Inigo: Everpresent Smile",
+                   rarity: "High Normal",
+                   insignia: mark_of_naga,
+                   attack: 60,
+                   support: 10,
+                   illustrator: "Sachiko Wada",
+                   supportingSkill: attack_emblem,
+                   skills: [ladies_man],
+                   cardImageName: "B14-037.png")
+
+let b14_038 = Card(series: "B14-038N",
+                   name: "Gerome: Mask-Concealed Feelings",
+                   rarity: "Normal",
+                   insignia: mark_of_naga,
+                   attack: 60,
+                   support: 30,
+                   illustrator: "Kitsunen Kurodan",
+                   supportingSkill: none,
+                   skills: [with_mothers_wyvern_steed, javelin],
+                   cardImageName: "B14-038.png")
+
 let b14_039 = Card(series: "B14-039HN",
                    name: "Risen Chief: Evil-Eyed Assassin",
                    rarity: "High Normal",
@@ -2327,7 +2382,7 @@ let b14_039 = Card(series: "B14-039HN",
                    support: 0,
                    illustrator: "Unknown",
                    supportingSkill: none,
-                   skills: [commander_of_corpses, undead_command],
+                   skills: [commander_of_corpses, the_ultimate_solider],
                    cardImageName: "B14-039.png")
 
 let b14_040a = Card(series: "B14-040aN",
