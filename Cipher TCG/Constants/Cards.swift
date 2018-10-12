@@ -2219,6 +2219,28 @@ let b14_024 = Card(series: "B14-024N",
                    skills: [supporting_javelin],
                    cardImageName: "B14-024.png")
 
+let b14_025 = Card(series: "B14-025HN",
+                   name: "Brady: Fierce-Faced War Monk",
+                   rarity: "High Normal",
+                   insignia: mark_of_naga,
+                   attack: 70,
+                   support: 10,
+                   illustrator: "Homazo",
+                   supportingSkill: none,
+                   skills: [the_power_to_treat_people, strength_training],
+                   cardImageName: "B14-025.png")
+
+let b14_026 = Card(series: "B14-026N",
+                   name: "Brady: Hammered-In Manners",
+                   rarity: "Normal",
+                   insignia: mark_of_naga,
+                   attack: 20,
+                   support: 20,
+                   illustrator: "Homazo",
+                   supportingSkill: miracle_emblem,
+                   skills: [heal, aloof_aid],
+                   cardImageName: "B14-026.png")
+
 let b14_027 = Card(series: "B14-027HN",
                    name: "Yarne: The Last Taguel",
                    rarity: "High Normal",

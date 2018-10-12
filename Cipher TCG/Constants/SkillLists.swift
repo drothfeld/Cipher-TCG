@@ -474,4 +474,7 @@ let rawSkillsList: [Skill] = [
     ill_beat_the_crap_out_of_you,
     dreams_of_a_gold_digger,
     womans_nature,
+    the_power_to_treat_people,
+    strength_training,
+    aloof_aid,
 ]

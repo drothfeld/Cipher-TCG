@@ -3727,3 +3727,27 @@ let womans_nature = Skill(name: "Woman's Nature",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let the_power_to_treat_people = Skill(name: "The Power to Treat People",
+                        description: "[ Once Per Turn, Flip 2 Bonds ] Choose 1 non-Brady Blue card from your Retreat Area, and add it to your hand.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let strength_training = Skill(name: "Strength Training",
+                        description: "[ Once Per Turn ] When you add a card to your hand from the Retreat Area, until the end of the turn, this unit gains +20 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let aloof_aid = Skill(name: "Aloof Aid",
+                        description: "[ Once Per Turn ] When another ally Class Changes, until the end of the turn, that ally gains +10 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
