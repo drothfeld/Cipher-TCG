@@ -2066,7 +2066,7 @@ let b14_010 = Card(series: "B14-010R",
                    cardImageName: "B14-010.png")
 
 let b14_011 = Card(series: "B14-011N",
-                   name: "Cordelia:",
+                   name: "Cordelia: Improving Genius",
                    rarity: "Normal",
                    insignia: mark_of_naga,
                    attack: 30,
@@ -2745,7 +2745,7 @@ let b14_073 = Card(series: "B14-073HN",
                    support: 0,
                    illustrator: "Unknown",
                    supportingSkill: none,
-                   skills: [your_soul_is_mine, yes_more_power],
+                   skills: [raging_dragon_of_darkness, dark_breath],
                    cardImageName: "B14-073.png")
 
 let b14_074 = Card(series: "B14-074N",

@@ -3240,7 +3240,7 @@ let the_ultimate_solider = Skill(name: "The Ultimate Soldier",
                         tapUnit: false,
                         CCS: false)
 
-let your_soul_is_mine = Skill(name: "Your Soul is Mine!",
+let raging_dragon_of_darkness = Skill(name: "Raging Dragon of Darkness",
                         description: "[Destroy 1 other ally] If your opponent has 5 or more cards in their hand, randomly choose a card from your opponent's hand and discard it.",
                         colorType: UIColor.red,
                         flippedBonds: 0,
@@ -3248,7 +3248,7 @@ let your_soul_is_mine = Skill(name: "Your Soul is Mine!",
                         tapUnit: false,
                         CCS: false)
 
-let yes_more_power = Skill(name: "YES, MORE POWER!",
+let dark_breath = Skill(name: "Dark Breath",
                         description: "During your turn this unit gains +10 attack for each Black card in your Bond Area.",
                         colorType: UIColor.green,
                         flippedBonds: 0,
