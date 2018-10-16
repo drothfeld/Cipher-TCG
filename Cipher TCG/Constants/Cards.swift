@@ -2462,6 +2462,17 @@ let b14_044 = Card(series: "B14-044R",
                    skills: [thankless_laborer, victory_chakra],
                    cardImageName: "B14-044.png")
 
+let b14_045 = Card(series: "B14-045N",
+                   name: "Itsuki Aoi: Youth of Untapped Potential",
+                   rarity: "Normal",
+                   insignia: mark_of_naga,
+                   attack: 40,
+                   support: 20,
+                   illustrator: "Unknown",
+                   supportingSkill: heros_emblem,
+                   skills: [otherwordly_friendship],
+                   cardImageName: "B14-045.png")
+
 let b14_046 = Card(series: "B14-046HN",
                    name: "Chrom: Mirage Sacred Sovereign",
                    rarity: "High Normal",
@@ -2485,7 +2496,7 @@ let b14_047 = Card(series: "B14-047HN",
                    cardImageName: "B14-047.png")
 
 let b14_048 = Card(series: "B14-048HN",
-                   name: "Maiko Shimazaki:",
+                   name: "Maiko Shimazaki: Fortuna’s Competent President",
                    rarity: "High Normal",
                    insignia: colorless,
                    attack: 0,
@@ -2494,6 +2505,28 @@ let b14_048 = Card(series: "B14-048HN",
                    supportingSkill: none,
                    skills: [sharp_support, sharp_shooters, sharp_evasion],
                    cardImageName: "B14-048.png")
+
+let b14_049 = Card(series: "B14-049N",
+                   name: "Alice: Ennobling Change of Fashion",
+                   rarity: "Normal",
+                   insignia: mark_of_naga,
+                   attack: 60,
+                   support: 10,
+                   illustrator: "Fumi Hasumi",
+                   supportingSkill: none,
+                   skills: [i_grow_weary_of_this_outfit, im_a_war_cleric_chic_no],
+                   cardImageName: "B14-049.png")
+
+let b14_050 = Card(series: "B14-050N",
+                   name: "Valjean: Soap-Scented General",
+                   rarity: "Normal",
+                   insignia: mark_of_naga,
+                   attack: 50,
+                   support: 10,
+                   illustrator: "mayo",
+                   supportingSkill: none,
+                   skills: [a_spare_set_of_clothing_for_you_milady, armor_expertise],
+                   cardImageName: "B14-050.png")
 
 let b14_051 = Card(series: "B14-051SR",
                    name: "Corrin (Male): Dawn That Breaks Through the Gloom",
@@ -2846,6 +2879,28 @@ let b14_082 = Card(series: "B14-082HN",
                    supportingSkill: attack_emblem,
                    skills: [unspoken_feelings],
                    cardImageName: "B14-082.png")
+
+let b14_083 = Card(series: "B14-083HN",
+                   name: "Oscar: Agile Paladin",
+                   rarity: "High Normal",
+                   insignia: medallion,
+                   attack: 70,
+                   support: 10,
+                   illustrator: "Mayo",
+                   supportingSkill: none,
+                   skills: [beloved_brothers, three_bow_triangle_attack],
+                   cardImageName: "B14-083.png")
+
+let b14_084 = Card(series: "B14-084N",
+                   name: "Oscar: Quiet Laborer",
+                   rarity: "High Normal",
+                   insignia: medallion,
+                   attack: 40,
+                   support: 10,
+                   illustrator: "Mayo",
+                   supportingSkill: attack_emblem,
+                   skills: [renowned_cooking],
+                   cardImageName: "B14-084.png")
 
 let b14_091 = Card(series: "B14-091R",
                    name: "Shinon: Eccentric Shot",

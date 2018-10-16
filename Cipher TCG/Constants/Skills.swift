@@ -3807,3 +3807,61 @@ let with_mothers_wyvern_steed = Skill(name: "With Mother's Wyvern Steed",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let otherwordly_friendship = Skill(name: "Otherworldly Friendship",
+                        description: "If you have an allied Chrom, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let i_grow_weary_of_this_outfit = Skill(name: "I grow weary of this outfit!",
+                        description: "[ Once Per Turn, Send 1 Alice from your hand to the Retreat Area] Until the end of your opponent's next turn, this unit gains +20 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let im_a_war_cleric_chic_no = Skill(name: "I'm a war cleric! Chic, no?",
+                        description: "[ Once Per Turn ] When this unit's attack destroys an enemy, if this unit has used 'I grow weary of this outfit!' in this turn, choose 1 non-Alice card from your Retreat Area, and add it to your hand.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let a_spare_set_of_clothing_for_you_milady = Skill(name: "A spare set of clothing for you, milady.",
+                        description: "[ Once Per Turn, Flip 1 Bond ] If you have an allied Alice, choose 1 Alice from your Retreat Area, and add it to your hand.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let beloved_brothers = Skill(name: "Beloved Brothers",
+                        description: "[ Once Per Turn, Send 1 card from your hand to the Retreat Area] Choose 1 “Boyd” or “Rolf” from your Retreat Area, and add it to your hand.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let three_bow_triangle_attack = Skill(name: "Three-Bow Triangle Attack",
+                        description: "During your turn, if you have allies “Boyd” and “Rolf”, this unit gains +20 attack, Bow, range 2, and Wingbane.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let renowned_cooking = Skill(name: "Renowned Cooking",
+                        description: "[ Once Per Turn, Send 1 card from your hand to the Retreat Area] Choose 1 other Green ally. Until the end of the turn, that ally gains +20 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+

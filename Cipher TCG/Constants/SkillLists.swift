@@ -484,4 +484,11 @@ let rawSkillsList: [Skill] = [
     careful_now,
     ladies_man,
     with_mothers_wyvern_steed,
+    otherwordly_friendship,
+    i_grow_weary_of_this_outfit,
+    im_a_war_cleric_chic_no,
+    a_spare_set_of_clothing_for_you_milady,
+    beloved_brothers,
+    three_bow_triangle_attack,
+    renowned_cooking,
 ]
