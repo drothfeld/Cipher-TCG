@@ -2902,6 +2902,72 @@ let b14_084 = Card(series: "B14-084N",
                    skills: [renowned_cooking],
                    cardImageName: "B14-084.png")
 
+let b14_085 = Card(series: "B14-085HN",
+                   name: "Boyd: Mighty Warrior",
+                   rarity: "High Normal",
+                   insignia: medallion,
+                   attack: 70,
+                   support: 10,
+                   illustrator: "Mayo",
+                   supportingSkill: none,
+                   skills: [family_protecting_battle_axe, three_bow_triangle_attack],
+                   cardImageName: "B14-085.png")
+
+let b14_086 = Card(series: "B14-086N",
+                   name: "Boyd: Opponent-Seeking Fighter",
+                   rarity: "Normal",
+                   insignia: medallion,
+                   attack: 30,
+                   support: 10,
+                   illustrator: "Mattsun",
+                   supportingSkill: attack_emblem,
+                   skills: [accumulated_training],
+                   cardImageName: "B14-086.png")
+
+let b14_087 = Card(series: "B14-087HN",
+                   name: "Rolf: Student Sniper",
+                   rarity: "High Normal",
+                   insignia: medallion,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "Mayo",
+                   supportingSkill: none,
+                   skills: [handed_down_marksmanship, three_bow_triangle_attack, wingbane],
+                   cardImageName: "B14-087.png")
+
+let b14_088 = Card(series: "B14-088N",
+                   name: "Rolf: Aspiring to Join the Battle",
+                   rarity: "Normal",
+                   insignia: medallion,
+                   attack: 30,
+                   support: 20,
+                   illustrator: "Simadoriru",
+                   supportingSkill: bullseye_emblem,
+                   skills: [secret_bow_training, wingbane],
+                   cardImageName: "B14-088.png")
+
+let b14_089 = Card(series: "B14-089HN",
+                   name: "Rhys: Serene Saint",
+                   rarity: "High Normal",
+                   insignia: medallion,
+                   attack: 50,
+                   support: 20,
+                   illustrator: "Niko Komori",
+                   supportingSkill: none,
+                   skills: [bishop_of_the_mercenaries],
+                   cardImageName: "B14-089.png")
+
+let b14_090 = Card(series: "B14-090N",
+                   name: "Rhys: Conflict-Dreading Priest",
+                   rarity: "Normal",
+                   insignia: medallion,
+                   attack: 30,
+                   support: 20,
+                   illustrator: "Niko Komori",
+                   supportingSkill: miracle_emblem,
+                   skills: [heal],
+                   cardImageName: "B14-090.png")
+
 let b14_091 = Card(series: "B14-091R",
                    name: "Shinon: Eccentric Shot",
                    rarity: "Rare",
@@ -2946,6 +3012,17 @@ let b14_094 = Card(series: "B14-094N",
                    skills: [shes_the_only_one_for_me, armor_expertise],
                    cardImageName: "B14-094.png")
 
+let b14_095 = Card(series: "B14-095N",
+                   name: "Soren: Genius of the Mercenaries",
+                   rarity: "Normal",
+                   insignia: medallion,
+                   attack: 40,
+                   support: 20,
+                   illustrator: "Tatsuro Iwamoto",
+                   supportingSkill: none,
+                   skills: [keen_counsel],
+                   cardImageName: "B14-095.png")
+
 let b14_096 = Card(series: "B14-096R",
                    name: "Mia: Duel! Duel! And Duel Some More!",
                    rarity: "Rare",
@@ -2967,4 +3044,37 @@ let b14_097 = Card(series: "B14-097SR",
                    supportingSkill: none,
                    skills: [enhungering_lightning_magic, a_delicious_meal_i_can_almost_taste_it],
                    cardImageName: "B14-097.png")
+
+let b14_098 = Card(series: "B14-098HN",
+                   name: "Ilyana: Wandering Mage Girl",
+                   rarity: "High Normal",
+                   insignia: medallion,
+                   attack: 30,
+                   support: 20,
+                   illustrator: "Mayo",
+                   supportingSkill: magic_emblem,
+                   skills: [fleeting_shade],
+                   cardImageName: "B14-098.png")
+
+let b14_099 = Card(series: "B14-099N",
+                   name: "Marcia: Girl with a Layabout Brother",
+                   rarity: "Normal",
+                   insignia: medallion,
+                   attack: 40,
+                   support: 30,
+                   illustrator: "Sachie",
+                   supportingSkill: none,
+                   skills: [get_over_here_for_a_sec],
+                   cardImageName: "B14-099.png")
+
+let b14_100 = Card(series: "B14-100HN",
+                   name: "Shade: Midnight Stress Relief",
+                   rarity: "High Normal",
+                   insignia: medallion,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "Horiguchi Kousei",
+                   supportingSkill: none,
+                   skills: [a_night_of_fun_begins, magic_fever_until_dawn],
+                   cardImageName: "B14-100.png")
 

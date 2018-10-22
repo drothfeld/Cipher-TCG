@@ -3864,4 +3864,84 @@ let renowned_cooking = Skill(name: "Renowned Cooking",
                         tapUnit: false,
                         CCS: false)
 
+let family_protecting_battle_axe = Skill(name: "Family-Protecting Battle Axe",
+                        description: "[Flip 1 Green Bond card face-down] Until the end of the turn, the number of orbs that this unit’s attack will destroy is increased to 2.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let accumulated_training = Skill(name: "Accumulated Training",
+                        description: "[ Level Skill 2 ] This unit gains +30 attack. (Level Skill 2 comes into effect if a total of 2 or more cards are stacked with this unit.)",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let handed_down_marksmanship = Skill(name: "Handed-Down Marksmanship",
+                        description: "[ Flip 1 Bond ] Until the end of the turn, this unit’s attacks cannot be evaded except by the Main Character.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let secret_bow_training = Skill(name: "Secret Bow Training",
+                        description: "[ Level Skill 2 ] During your turn, this unit gains +20 attack. (Level Skill 2 comes into effect if a total of 2 or more cards are stacked with this unit.)",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let bishop_of_the_mercenaries = Skill(name: "Bishop of the Mercenaries",
+                        description: "[ Tap, Flip 2 Bonds ] Choose 2 cards from your Retreat Area with the same unit name as your lord. Then, choose 1 of those cards and add it to your hand, then stack the other card under your lord to Growth them. (A unit who has Growthed is treated as if they have Leveled Up. If they possess a Class Change Skill, they are able to use it.)",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let keen_counsel = Skill(name: "Keen Counsel",
+                        description: "[ Once Per Turn, Flip 1 Bond ] Choose 1 other ally. Choose 1 card with the same unit name as that ally from your Retreat Area, then stack it under that ally to Growth them. (A unit who has Growthed is treated as if they have Leveled Up. If they possess a Class Change Skill, they are able to use it.)",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let fleeting_shade = Skill(name: "Fleeting Shade",
+                        description: "If there are 2 or more other allies in the same area as this unit, enemies cannot attack this unit.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let get_over_here_for_a_sec = Skill(name: "Get over here for a sec!",
+                        description: "[ Tap This Unit ] Choose up to 2 allies in the Front Line, and move them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let a_night_of_fun_begins = Skill(name: "A Night of Fun Begins",
+                        description: "If you have 3 or fewer cards in your hand, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let magic_fever_until_dawn = Skill(name: "Magic fever until dawn!",
+                        description: "[ Flip 1 Bond ] Until the end of the turn, this unit is able to attack enemies in the Back Line regardless of range.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
 
