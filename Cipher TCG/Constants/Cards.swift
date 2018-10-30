@@ -1834,6 +1834,28 @@ let b13_001 = Card(series: "B13-001SR",
                    skills: [durandals_true_flames, crimson_sovereign],
                    cardImageName: "B13-001.png")
 
+let b13_002 = Card(series: "B13-002N",
+                   name: "Eliwood: A Renewed Vow",
+                   rarity: "Normal",
+                   insignia: divine_weapons,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "Karuta Shiki",
+                   supportingSkill: none,
+                   skills: [crimson_lording],
+                   cardImageName: "B13-002.png")
+
+let b13_003 = Card(series: "B13-003HN",
+                   name: "Eliwood: Crimson-Haired Lordling",
+                   rarity: "Normal",
+                   insignia: divine_weapons,
+                   attack: 60,
+                   support: 20,
+                   illustrator: "Sachiko Wada",
+                   supportingSkill: solidarity_emblem,
+                   skills: [shades_of_a_just_lord],
+                   cardImageName: "B13-003.png")
+
 let b13_004 = Card(series: "B13-004SR",
                    name: "Lyn: Blade Princess of the Spring Breeze",
                    rarity: "Secret Rare",

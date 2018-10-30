@@ -501,4 +501,6 @@ let rawSkillsList: [Skill] = [
     get_over_here_for_a_sec,
     a_night_of_fun_begins,
     magic_fever_until_dawn,
+    crimson_lording,
+    shades_of_a_just_lord,
 ]

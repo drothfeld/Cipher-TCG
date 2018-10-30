@@ -3944,4 +3944,20 @@ let magic_fever_until_dawn = Skill(name: "Magic fever until dawn!",
                         tapUnit: false,
                         CCS: false)
 
+let crimson_lording = Skill(name: "Crimson Lordling",
+                        description: "[ Once Per Turn, Tap 2 allies ] Choose one enemy, and move them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let shades_of_a_just_lord = Skill(name: "Shades of a Just Lord",
+                        description: "[ Tap This Unit ] Choose one enemy in the Back Line with a Deployment Cost of 1, and move them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
 
