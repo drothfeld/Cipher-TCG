@@ -40,6 +40,10 @@ let solidarity_emblem = SupportingSkill(type: "Solidarity Emblem",
                                     textDescription: "Until the end of this combat, your Purple attacking unit gains +10 attack.",
                                     iconImageName: "28px-Attack_Support.png")
 
+let elysian_emblem = SupportingSkill(type: "Elysian Emblem",
+                                    textDescription: "You may choose one ally that is not the attacking unit, and move it.",
+                                    iconImageName: "28px-Attack_Support.png")
+
 let hope_emblem = SupportingSkill(type: "Hope Emblem",
                                   textDescription: "If the defending unit is the same color as this card, you may look at one of your orbs.",
                                   iconImageName: "28px-Defense_Support.png")

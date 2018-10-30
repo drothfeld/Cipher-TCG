@@ -1867,6 +1867,39 @@ let b13_004 = Card(series: "B13-004SR",
                    skills: [staunchflash_sol_katti, lend_me_your_strength],
                    cardImageName: "B13-004.png")
 
+let b13_005 = Card(series: "B13-005HN",
+                   name: "Lyn: Swordswoman of the Lorca Tribe",
+                   rarity: "High Normal",
+                   insignia: divine_weapons,
+                   attack: 40,
+                   support: 10,
+                   illustrator: "cuboon",
+                   supportingSkill: attack_emblem,
+                   skills: [oath_of_the_plains],
+                   cardImageName: "B13-005.png")
+
+let b13_006 = Card(series: "B13-006HN",
+                   name: "Florina: Lovely Ilian Wings",
+                   rarity: "High Normal",
+                   insignia: divine_weapons,
+                   attack: 50,
+                   support: 30,
+                   illustrator: "Yoko Matsurika",
+                   supportingSkill: none,
+                   skills: [three_winged_triangle_attack, javelin],
+                   cardImageName: "B13-006.png")
+
+let b13_007 = Card(series: "B13-007N",
+                   name: "Florina: Journeying With Her Close Friend",
+                   rarity: "Normal",
+                   insignia: divine_weapons,
+                   attack: 30,
+                   support: 30,
+                   illustrator: "kawasumi",
+                   supportingSkill: elysian_emblem,
+                   skills: [winged_deliverer],
+                   cardImageName: "B13-007.png")
+
 let b13_019 = Card(series: "B13-019SR",
                    name: "Hector: General of Raging Thunder",
                    rarity: "Secret Rare",

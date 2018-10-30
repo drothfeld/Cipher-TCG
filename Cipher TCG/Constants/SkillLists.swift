@@ -503,4 +503,6 @@ let rawSkillsList: [Skill] = [
     magic_fever_until_dawn,
     crimson_lording,
     shades_of_a_just_lord,
+    oath_of_the_plains,
+    three_winged_triangle_attack,
 ]

@@ -3960,4 +3960,19 @@ let shades_of_a_just_lord = Skill(name: "Shades of a Just Lord",
                         tapUnit: true,
                         CCS: false)
 
+let oath_of_the_plains = Skill(name: "Oath of the Plains",
+                        description: "[ Once Per Turn, Flip 1 Bond ] Until the end of the turn, this unit gains +10 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let three_winged_triangle_attack = Skill(name: "Three-Winged Triangle Attack",
+                        description: "[Tap allied “Fiora” and “Farina”] Until the end of your opponent's next turn, this unit and allied “Fiora” and “Farina” gain +30 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
 
