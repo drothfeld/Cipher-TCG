@@ -123,3 +123,7 @@ let sibling_emblem = SupportingSkill(type: "Sibling Emblem",
 let invincible_command = SupportingSkill(type: "Invincible Command",
                                    textDescription: "[ Flip 1 Bond ] If your attacking unit is Purple and if you pay the cost, until the end of this battle, your attacking unit gains +20 attack.",
                                    iconImageName: "28px-Attack_Support.png")
+
+let guardian_grand_axe = SupportingSkill(type: "Guardian Grand Axe",
+                                    textDescription: "Until the end of this battle, your defending unit gains +10 attack. You may Flip 1 Bond and each time you do, this skill is activated again.",
+                                    iconImageName: "28px-Defense_Support.png")

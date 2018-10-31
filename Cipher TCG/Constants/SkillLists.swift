@@ -505,4 +505,10 @@ let rawSkillsList: [Skill] = [
     shades_of_a_just_lord,
     oath_of_the_plains,
     three_winged_triangle_attack,
+    liegelady_protecting_bow,
+    nimble_sniper,
+    steel_bow,
+    strength_for_the_sake_of_family,
+    hand_axe,
+    fighters_expertise,
 ]

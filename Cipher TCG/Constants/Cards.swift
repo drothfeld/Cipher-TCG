@@ -1900,6 +1900,50 @@ let b13_007 = Card(series: "B13-007N",
                    skills: [winged_deliverer],
                    cardImageName: "B13-007.png")
 
+let b13_008 = Card(series: "B13-008HN",
+                   name: "Wil: Archer Without Equal",
+                   rarity: "High Normal",
+                   insignia: divine_weapons,
+                   attack: 50,
+                   support: 20,
+                   illustrator: "Niko Komori",
+                   supportingSkill: none,
+                   skills: [liegelady_protecting_bow, nimble_sniper, wingbane],
+                   cardImageName: "B13-008.png")
+
+let b13_009 = Card(series: "B13-009N",
+                   name: "Wil: Traveling Archer",
+                   rarity: "Normal",
+                   insignia: divine_weapons,
+                   attack: 30,
+                   support: 20,
+                   illustrator: "Niko Komori",
+                   supportingSkill: bullseye_emblem,
+                   skills: [steel_bow, wingbane],
+                   cardImageName: "B13-009.png")
+
+let b13_010 = Card(series: "B13-010HN",
+                   name: "Dorcas: Serene Grand Axe",
+                   rarity: "High Normal",
+                   insignia: divine_weapons,
+                   attack: 60,
+                   support: 10,
+                   illustrator: "Akihiro Mibuta",
+                   supportingSkill: guardian_grand_axe,
+                   skills: [strength_for_the_sake_of_family, hand_axe],
+                   cardImageName: "B13-010.png")
+
+let b13_011 = Card(series: "B13-011N",
+                   name: "Dorcas: Family-Loving Fighter",
+                   rarity: "Normal",
+                   insignia: divine_weapons,
+                   attack: 30,
+                   support: 10,
+                   illustrator: "Akihiro Mibuta",
+                   supportingSkill: attack_emblem,
+                   skills: [fighters_expertise],
+                   cardImageName: "B13-011.png")
+
 let b13_019 = Card(series: "B13-019SR",
                    name: "Hector: General of Raging Thunder",
                    rarity: "Secret Rare",

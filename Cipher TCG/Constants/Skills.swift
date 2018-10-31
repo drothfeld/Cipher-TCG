@@ -3976,3 +3976,51 @@ let three_winged_triangle_attack = Skill(name: "Three-Winged Triangle Attack",
                         tapUnit: false,
                         CCS: false)
 
+let liegelady_protecting_bow = Skill(name: "Liegelady-Protecting Bow",
+                        description: "During your turn, if this unit is in the Front Line, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let nimble_sniper = Skill(name: "Nimble Sniper",
+                        description: "[ Flip 1 Bond ] If this unit is in the Back Line, move this unit.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let steel_bow = Skill(name: "Steel Bow",
+                        description: "[ Flip 1 Bond ] Until the end of the turn, this unit gains +10 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let strength_for_the_sake_of_family = Skill(name: "Strength for the Sake of Family",
+                        description: "During your turn, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let hand_axe = Skill(name: "Hand Axe",
+                        description: "[ Flip 1 Bond ] Until the end of the turn, this unit gains range 1-2.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let fighters_expertise = Skill(name: "Fighter's Expertise",
+                        description: "During your turn, this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
