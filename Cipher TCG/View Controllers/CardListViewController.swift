@@ -157,9 +157,13 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         }
     }
     
+    // Drop header view shadow after constraints load
+    override func viewDidLayoutSubviews() {
+        HeaderView.dropShadow()
+    }
+    
     // Make any Changes to the Interface
     func interfaceSetup() {
-        HeaderView.dropShadow()
         CardListViewHeightConstraint.constant += screenSize.height - storyboardDeviceHeight
         colorFilterButtons = [RedFilterButton, BlueFilterButton, WhiteFilterButton, BlackFilterButton, GreenFilterButton, PurpleFilterButton, YellowFilterButton, ColorlessFilterButton, FavoritesFilterButton]
     }

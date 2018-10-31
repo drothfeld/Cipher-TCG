@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VWK-sJ-blK">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VWK-sJ-blK">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -266,22 +266,30 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5CK-Qq-SaK" userLabel="Header View">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="81"/>
                                 <subviews>
-                                    <searchBar contentMode="redraw" fixedFrame="YES" barStyle="black" searchBarStyle="minimal" placeholder="Search Skills" translatesAutoresizingMaskIntoConstraints="NO" id="ZBR-9w-hG0" userLabel="Skill Search Bar">
+                                    <searchBar contentMode="redraw" barStyle="black" searchBarStyle="minimal" placeholder="Search Skills" translatesAutoresizingMaskIntoConstraints="NO" id="ZBR-9w-hG0" userLabel="Skill Search Bar">
                                         <rect key="frame" x="150" y="3" width="225" height="56"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="56" id="MZC-az-IHX"/>
+                                            <constraint firstAttribute="width" constant="225" id="nx9-Jm-aef"/>
+                                        </constraints>
                                         <color key="tintColor" red="0.8119627237" green="0.003281183774" blue="0.054759666319999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="barTintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </searchBar>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UAA-Zh-2Hf" userLabel="Header Bar">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UAA-Zh-2Hf" userLabel="Header Bar">
                                         <rect key="frame" x="0.0" y="80" width="375" height="1"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="L66-Pj-pYE"/>
+                                        </constraints>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AB2-0l-PH0" userLabel="Menu Button">
+                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AB2-0l-PH0" userLabel="Menu Button">
                                         <rect key="frame" x="2" y="3" width="146" height="53"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="53" id="353-bi-O2S"/>
+                                            <constraint firstAttribute="width" constant="146" id="B5p-qK-EOk"/>
+                                        </constraints>
                                         <state key="normal" image="cipher_header.png"/>
                                         <connections>
                                             <segue destination="o1b-Zz-bjG" kind="popoverPresentation" popoverAnchorView="AB2-0l-PH0" id="eSc-Sj-Klz">
@@ -291,17 +299,30 @@
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="AB2-0l-PH0" firstAttribute="leading" secondItem="5CK-Qq-SaK" secondAttribute="leading" constant="2" id="2kN-ew-2VL"/>
+                                    <constraint firstItem="ZBR-9w-hG0" firstAttribute="top" secondItem="5CK-Qq-SaK" secondAttribute="top" constant="3" id="Cfa-yH-dbw"/>
+                                    <constraint firstItem="UAA-Zh-2Hf" firstAttribute="centerX" secondItem="5CK-Qq-SaK" secondAttribute="centerX" id="OyG-QX-ANb"/>
+                                    <constraint firstItem="UAA-Zh-2Hf" firstAttribute="top" secondItem="ZBR-9w-hG0" secondAttribute="bottom" constant="21" id="UYA-dd-9xR"/>
+                                    <constraint firstItem="AB2-0l-PH0" firstAttribute="top" secondItem="5CK-Qq-SaK" secondAttribute="top" constant="3" id="iiI-xe-VZF"/>
+                                    <constraint firstAttribute="trailing" secondItem="UAA-Zh-2Hf" secondAttribute="trailing" id="mAu-FN-qLb"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZBR-9w-hG0" secondAttribute="trailing" id="xfx-JZ-0A9"/>
+                                    <constraint firstItem="UAA-Zh-2Hf" firstAttribute="leading" secondItem="5CK-Qq-SaK" secondAttribute="leading" id="yqk-rU-AdQ"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="5CK-Qq-SaK" firstAttribute="leading" secondItem="LSV-VL-eow" secondAttribute="leading" id="0UA-Ak-toN"/>
+                            <constraint firstItem="5CK-Qq-SaK" firstAttribute="trailing" secondItem="LSV-VL-eow" secondAttribute="trailing" id="BmV-rg-fNA"/>
+                            <constraint firstItem="5CK-Qq-SaK" firstAttribute="leading" secondItem="LSV-VL-eow" secondAttribute="leading" id="GPT-FF-BKW"/>
                             <constraint firstItem="xak-UL-8QW" firstAttribute="top" secondItem="5CK-Qq-SaK" secondAttribute="bottom" id="SOi-ta-Wb2"/>
                             <constraint firstItem="xak-UL-8QW" firstAttribute="leading" secondItem="LSV-VL-eow" secondAttribute="leading" id="ebp-rO-0U0"/>
                             <constraint firstItem="5CK-Qq-SaK" firstAttribute="trailing" secondItem="LSV-VL-eow" secondAttribute="trailing" id="f1t-68-JuB"/>
                             <constraint firstItem="5CK-Qq-SaK" firstAttribute="top" secondItem="2hf-k0-Oqg" secondAttribute="top" id="hv7-IK-2mX"/>
                             <constraint firstItem="xak-UL-8QW" firstAttribute="bottom" secondItem="LSV-VL-eow" secondAttribute="bottom" id="lEm-Kz-jX2"/>
                             <constraint firstItem="xak-UL-8QW" firstAttribute="trailing" secondItem="LSV-VL-eow" secondAttribute="trailing" id="n0E-al-z36"/>
+                            <constraint firstItem="5CK-Qq-SaK" firstAttribute="top" secondItem="2hf-k0-Oqg" secondAttribute="top" id="z2X-AJ-J3d"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="LSV-VL-eow"/>
                     </view>
@@ -1072,8 +1093,10 @@
         <image name="sort_by_number_button.png" width="290" height="289"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="CJv-bm-6cT"/>
-        <segue reference="oVR-qE-nmK"/>
-        <segue reference="QE9-aR-HPz"/>
+        <segue reference="v70-lw-KrB"/>
+        <segue reference="cSO-wt-L8c"/>
+        <segue reference="8ih-mp-VFz"/>
+        <segue reference="4a0-cU-pEP"/>
+        <segue reference="eSc-Sj-Klz"/>
     </inferredMetricsTieBreakers>
 </document>

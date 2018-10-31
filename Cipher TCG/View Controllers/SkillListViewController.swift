@@ -32,8 +32,12 @@ class SkillListViewController: UIViewController, UITableViewDataSource, UITableV
     
     // Interface Setup
     func interfaceSetup() {
-        HeaderView.dropShadow()
         SkillListTableViewHeightConstraint.constant += screenSize.height - storyboardDeviceHeight
+    }
+    
+    // Drop header view shadow after constraints load
+    override func viewDidLayoutSubviews() {
+        HeaderView.dropShadow()
     }
     
     // Number of Rows
