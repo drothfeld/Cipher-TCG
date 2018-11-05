@@ -56,6 +56,10 @@ let tactical_emblem = SupportingSkill(type: "Tactical Emblem",
                                    textDescription: "If your attacking unit is the same color as this card, you may choose 1 enemy besides your opponent’s defending unit, and move them.",
                                    iconImageName: "28px-Attack_Support.png")
 
+let tandem_emblem = SupportingSkill(type: "Tandem Emblem",
+                                    textDescription: "Until the end of this combat, if your attacking unit is the same color as this unit, your attacking unit gains +10 attack.",
+                                    iconImageName: "28px-Attack_Support.png")
+
 let prophecy_emblem = SupportingSkill(type: "Prophecy Emblem",
                                    textDescription: "Look at the topmost card of your deck. You may send that card to the Retreat Area.",
                                    iconImageName: "28px-Attack_Support.png")
@@ -77,12 +81,8 @@ let tempered_emblem = SupportingSkill(type: "Tempered Emblem",
                                    iconImageName: "28px-Defense_Support.png")
 
 let fate_emblem = SupportingSkill(type: "Fate Emblem",
-                                      textDescription: "If the attacking unit is the same color as this card, draw 1 card, then choose 1 card from your hand and place it on top of your deck.",
-                                      iconImageName: "28px-Attack_Support.png")
-
-let tandem_emblem = SupportingSkill(type: "Tandem Emblem",
-                                  textDescription: "Until the end of this combat, your <COLOR> attacking unit gains +10 attack.",
-                                  iconImageName: "28px-Attack_Support.png")
+                                    textDescription: "If the attacking unit is the same color as this card, draw 1 card, then choose 1 card from your hand and place it on top of your deck.",
+                                    iconImageName: "28px-Attack_Support.png")
 
 let cover_emblem = SupportingSkill(type: "Cover Emblem",
                                   textDescription: "After this battle, you may move your attacking unit.",

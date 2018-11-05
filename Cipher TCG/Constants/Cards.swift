@@ -3177,3 +3177,25 @@ let b14_100 = Card(series: "B14-100HN",
                    skills: [a_night_of_fun_begins, magic_fever_until_dawn],
                    cardImageName: "B14-100.png")
 
+let b15_0AA = Card(series: "B15-0AAN",
+                   name: "Kris (M): Young Aspirant Knight",
+                   rarity: "Normal",
+                   insignia: blade_of_light,
+                   attack: 40,
+                   support: 20,
+                   illustrator: "Enji Kazura",
+                   supportingSkill: tandem_emblem,
+                   skills: [leader_of_the_7th_platoon],
+                   cardImageName: "B15-0AA.png")
+
+let b15_0AB = Card(series: "B15-0ABN",
+                   name: "Katarina: Aspiring Tactician Girl",
+                   rarity: "Normal",
+                   insignia: blade_of_light,
+                   attack: 30,
+                   support: 20,
+                   illustrator: "Tobi",
+                   supportingSkill: tactical_emblem,
+                   skills: [tactician_of_the_7th_platoon],
+                   cardImageName: "B15-0AB.png")
+

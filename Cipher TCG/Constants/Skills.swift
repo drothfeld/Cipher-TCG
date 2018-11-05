@@ -4024,3 +4024,19 @@ let fighters_expertise = Skill(name: "Fighter's Expertise",
                         tapUnit: false,
                         CCS: false)
 
+let leader_of_the_7th_platoon = Skill(name: "Leader of the 7th Platoon",
+                        description: "[ALWAYS] If this unit is attacking an enemy with a deployment cost of 2 or lower, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let tactician_of_the_7th_platoon = Skill(name: "Tactician of the 7th Platoon",
+                        description: "[ALWAYS] If you have fewer orbs than your opponent, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
