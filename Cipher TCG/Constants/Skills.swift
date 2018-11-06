@@ -4040,3 +4040,11 @@ let tactician_of_the_7th_platoon = Skill(name: "Tactician of the 7th Platoon",
                         tapUnit: false,
                         CCS: false)
 
+let black_ideals = Skill(name: "Black Ideals",
+                        description: "[ALWAYS] If you have an allied Xander, Camilla, Leo or Elise, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+

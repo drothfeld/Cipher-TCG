@@ -3199,3 +3199,25 @@ let b15_0AB = Card(series: "B15-0ABN",
                    skills: [tactician_of_the_7th_platoon],
                    cardImageName: "B15-0AB.png")
 
+let b15_0AC = Card(series: "B15-0ACN",
+                   name: "Corrin (F): Princess of the Dark Wastes",
+                   rarity: "Normal",
+                   insignia: nohr,
+                   attack: 40,
+                   support: 20,
+                   illustrator: "Saori Toyota",
+                   supportingSkill: heros_emblem,
+                   skills: [black_ideals],
+                   cardImageName: "B15-0AC.png")
+
+let b15_0AD = Card(series: "B15-0ADN",
+                   name: "Corrin (F): Song of Lamentation",
+                   rarity: "Normal",
+                   insignia: nohr,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "Aoji",
+                   supportingSkill: none,
+                   skills: [feral_instinct, lost_reason],
+                   cardImageName: "B15-0AD.png")
+

@@ -513,4 +513,5 @@ let rawSkillsList: [Skill] = [
     fighters_expertise,
     leader_of_the_7th_platoon,
     tactician_of_the_7th_platoon,
+    black_ideals,
 ]
