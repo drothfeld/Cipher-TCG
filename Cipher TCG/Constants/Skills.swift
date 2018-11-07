@@ -4048,3 +4048,19 @@ let black_ideals = Skill(name: "Black Ideals",
                         tapUnit: false,
                         CCS: false)
 
+let meeting_of_the_lights = Skill(name: "Meeting of the Lights",
+                        description: "[ALWAYS] If you have an allied Seliph, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let battlefield_friendship = Skill(name: "Battlefield Friendship",
+                        description: "[ALWAYS] If you have 2 or more other <Yellow> allies, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+

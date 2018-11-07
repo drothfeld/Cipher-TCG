@@ -3221,3 +3221,25 @@ let b15_0AD = Card(series: "B15-0ADN",
                    skills: [feral_instinct, lost_reason],
                    cardImageName: "B15-0AD.png")
 
+let b15_0AE = Card(series: "B15-0AEN",
+                   name: "Leif: Light of Leonster",
+                   rarity: "Normal",
+                   insignia: holy_war_flag,
+                   attack: 40,
+                   support: 20,
+                   illustrator: "Senri Kita",
+                   supportingSkill: hope_emblem,
+                   skills: [meeting_of_the_lights],
+                   cardImageName: "B15-0AE.png")
+
+let b15_0AF = Card(series: "B15-0AFN",
+                   name: "Seliph: Grannvalian Scion of Light",
+                   rarity: "Normal",
+                   insignia: holy_war_flag,
+                   attack: 40,
+                   support: 20,
+                   illustrator: "Sachiko Wada",
+                   supportingSkill: hope_emblem,
+                   skills: [battlefield_friendship],
+                   cardImageName: "B15-0AF.png")
+
