@@ -516,4 +516,7 @@ let rawSkillsList: [Skill] = [
     black_ideals,
     meeting_of_the_lights,
     battlefield_friendship,
+    fated_moment_of_change,
+    hero_of_light,
+    hero_of_shadow,
 ]

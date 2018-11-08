@@ -4064,3 +4064,27 @@ let battlefield_friendship = Skill(name: "Battlefield Friendship",
                         tapUnit: false,
                         CCS: false)
 
+let fated_moment_of_change = Skill(name: "Fated Moment of Change",
+                        description: "[ACT] Choose 1 <Red> ally, and transfer lord status from your <Red> lord to that ally. Until the end of the turn, you may not use Fated Moment of Change.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let hero_of_light = Skill(name: "Hero of Light",
+                        description: "[ALWAYS] During your turn, if your opponent has 1 or fewer orbs, all allies gain +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let hero_of_shadow = Skill(name: "Hero of Shadow",
+                        description: "[TRIGGER] [FLIP 1] When this unit's attack destroys your opponent's lord, you may pay the cost and if you do: Choose 1 of your opponent's orbs, and destroy it.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+

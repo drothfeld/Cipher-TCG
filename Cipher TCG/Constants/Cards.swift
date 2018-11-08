@@ -3243,3 +3243,25 @@ let b15_0AF = Card(series: "B15-0AFN",
                    skills: [battlefield_friendship],
                    cardImageName: "B15-0AF.png")
 
+let b15_0AG = Card(series: "B15-0AGR",
+                   name: "Marth: World-Guiding Hero",
+                   rarity: "Rare",
+                   insignia: blade_of_light,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "Daisuke Izuka",
+                   supportingSkill: none,
+                   skills: [fated_moment_of_change, hero_of_light, falchion],
+                   cardImageName: "B15-0AG.png")
+
+let b15_0AH = Card(series: "B15-0AHR",
+                   name: "Kris (M): Another Hero",
+                   rarity: "Rare",
+                   insignia: blade_of_light,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "Daisuke Izuka",
+                   supportingSkill: none,
+                   skills: [fated_moment_of_change, hero_of_shadow],
+                   cardImageName: "B15-0AH.png")
+
