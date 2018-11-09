@@ -519,4 +519,6 @@ let rawSkillsList: [Skill] = [
     fated_moment_of_change,
     hero_of_light,
     hero_of_shadow,
+    breath_of_the_divine_dragon,
+    bye_bye_scary_dreams,
 ]

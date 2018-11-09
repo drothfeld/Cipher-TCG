@@ -3265,3 +3265,14 @@ let b15_0AH = Card(series: "B15-0AHR",
                    skills: [fated_moment_of_change, hero_of_shadow],
                    cardImageName: "B15-0AH.png")
 
+let b15_0AI = Card(series: "B15-0AISR",
+                   name: "Tiki: Dragon Princess",
+                   rarity: "Secret Rare",
+                   insignia: blade_of_light,
+                   attack: 80,
+                   support: 20,
+                   illustrator: "Tetsu Kurosawa",
+                   supportingSkill: none,
+                   skills: [breath_of_the_divine_dragon, bye_bye_scary_dreams],
+                   cardImageName: "B15-0AI.png")
+

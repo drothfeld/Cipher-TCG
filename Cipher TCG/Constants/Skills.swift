@@ -4088,3 +4088,19 @@ let hero_of_shadow = Skill(name: "Hero of Shadow",
                         tapUnit: false,
                         CCS: false)
 
+let breath_of_the_divine_dragon = Skill(name: "Breath of the Divine Dragon",
+                        description: "[ACT] [TAP] Choose as many non-lord enemies as you wish whose deployment costs collectively total 6　or less, and destroy them. During your next turn, this unit cannot be untapped.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let bye_bye_scary_dreams = Skill(name: "Bye-bye, scary dreams!",
+                        description: "[TRIGGER] [ONCE PER TURN] When this unit is untapped, you may choose 1 <Red> card from your hand and deploy it.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
