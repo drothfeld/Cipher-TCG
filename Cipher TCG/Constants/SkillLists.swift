@@ -532,4 +532,6 @@ let rawSkillsList: [Skill] = [
     final_hope,
     hear_me_my_beloved_citizen,
     impassioned_princess,
+    grant_me_strength_o_baldr,
+    a_mothers_deep_love,
 ]

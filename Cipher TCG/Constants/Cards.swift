@@ -3341,3 +3341,14 @@ let b15_0AO = Card(series: "B15-0AOR",
                    supportingSkill: none,
                    skills: [hear_me_my_beloved_citizen, impassioned_princess, armor_expertise],
                    cardImageName: "B15-0AO.png")
+
+let b15_0AP = Card(series: "B15-0APHN",
+                   name: "Ethlyn: Princess of Light God Descent",
+                   rarity: "High Normal",
+                   insignia: holy_war_flag,
+                   attack: 70,
+                   support: 10,
+                   illustrator: "Uroko Naruse",
+                   supportingSkill: none,
+                   skills: [grant_me_strength_o_baldr, a_mothers_deep_love],
+                   cardImageName: "B15-0AP.png")

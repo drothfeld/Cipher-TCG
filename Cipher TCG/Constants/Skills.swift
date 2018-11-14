@@ -4192,3 +4192,19 @@ let impassioned_princess = Skill(name: "Impassioned Princess",
                         tapUnit: false,
                         CCS: false)
 
+let grant_me_strength_o_baldr = Skill(name: "Grant me strength, O Baldr!",
+                        description: "[ACT] [FLIP 1] Until the end of your oppponent's next turn, this unit gains +10 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let a_mothers_deep_love = Skill(name: "A Mother's Deep Love",
+                        description: "[ALWAYS] If you have 6 or more bond cards, all <Yellow> allies cannot be destroyed as the cost or effect of skills.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
