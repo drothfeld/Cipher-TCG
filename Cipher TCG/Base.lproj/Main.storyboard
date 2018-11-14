@@ -839,19 +839,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="48J-Nh-E77" userLabel="Header View">
-                                <rect key="frame" x="0.0" y="0.0" width="376" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="48J-Nh-E77" userLabel="Header View">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="61"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wIQ-VU-HKz" userLabel="Header Bar">
-                                        <rect key="frame" x="0.0" y="60" width="376" height="2"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wIQ-VU-HKz" userLabel="Header Bar">
+                                        <rect key="frame" x="0.0" y="60" width="375" height="2"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2" id="lSo-O9-VQD"/>
+                                        </constraints>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rbt-jA-tCY" userLabel="Back Button">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rbt-jA-tCY" userLabel="Back Button">
                                         <rect key="frame" x="8" y="15" width="62" height="35"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="Qfq-jG-4jt"/>
+                                            <constraint firstAttribute="width" constant="62" id="bZ4-Tu-fNL"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
                                         <state key="normal" title="&lt; Back">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -860,9 +864,12 @@
                                             <segue destination="BYZ-38-t0r" kind="custom" identifier="backToCardList" customClass="SegueFromLeft" customModule="Cipher_TCG" customModuleProvider="target" id="8ih-mp-VFz"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jue-K7-y9L" userLabel="Menu Button">
+                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jue-K7-y9L" userLabel="Menu Button">
                                         <rect key="frame" x="220" y="3" width="146" height="53"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="53" id="1Z2-yJ-P6u"/>
+                                            <constraint firstAttribute="width" constant="146" id="5QG-zD-mGf"/>
+                                        </constraints>
                                         <state key="normal" image="cipher_header.png"/>
                                         <connections>
                                             <segue destination="o1b-Zz-bjG" kind="popoverPresentation" popoverAnchorView="jue-K7-y9L" id="QE9-aR-HPz">
@@ -870,9 +877,12 @@
                                             </segue>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.25" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="749" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7nQ-Qg-TQE" userLabel="Favorite Button">
-                                        <rect key="frame" x="163" y="5.5" width="50" height="50"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" alpha="0.25" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7nQ-Qg-TQE" userLabel="Favorite Button">
+                                        <rect key="frame" x="163" y="6" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="6d1-6V-UUi"/>
+                                            <constraint firstAttribute="width" constant="50" id="CYp-j0-ZBZ"/>
+                                        </constraints>
                                         <state key="normal" image="favorite_button.png"/>
                                         <connections>
                                             <action selector="favoriteCardButtonPressed:" destination="PI4-7j-J4h" eventType="touchUpInside" id="fQ6-n6-Ev2"/>
@@ -880,14 +890,26 @@
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="jue-K7-y9L" firstAttribute="leading" secondItem="7nQ-Qg-TQE" secondAttribute="trailing" constant="7" id="6fX-8n-ZYN"/>
+                                    <constraint firstItem="wIQ-VU-HKz" firstAttribute="centerX" secondItem="48J-Nh-E77" secondAttribute="centerX" id="7MJ-AB-lsW"/>
+                                    <constraint firstItem="rbt-jA-tCY" firstAttribute="top" secondItem="48J-Nh-E77" secondAttribute="top" constant="15" id="9a2-ct-n9f"/>
+                                    <constraint firstAttribute="height" constant="61" id="awS-GD-XZj"/>
+                                    <constraint firstItem="wIQ-VU-HKz" firstAttribute="top" secondItem="jue-K7-y9L" secondAttribute="bottom" constant="4" id="eri-OQ-Lav"/>
+                                    <constraint firstAttribute="bottom" secondItem="wIQ-VU-HKz" secondAttribute="bottom" constant="-1" id="fOe-QW-v34"/>
+                                    <constraint firstItem="wIQ-VU-HKz" firstAttribute="leading" secondItem="48J-Nh-E77" secondAttribute="leading" id="h6L-U8-nY8"/>
+                                    <constraint firstAttribute="trailing" secondItem="wIQ-VU-HKz" secondAttribute="trailing" id="mY9-p7-aHM"/>
+                                    <constraint firstItem="jue-K7-y9L" firstAttribute="top" secondItem="48J-Nh-E77" secondAttribute="top" constant="3" id="mgt-sc-AXE"/>
+                                    <constraint firstItem="7nQ-Qg-TQE" firstAttribute="top" secondItem="48J-Nh-E77" secondAttribute="top" constant="6" id="o0O-AW-UUT"/>
+                                    <constraint firstItem="rbt-jA-tCY" firstAttribute="leading" secondItem="48J-Nh-E77" secondAttribute="leading" constant="8" id="rSj-mq-BUP"/>
+                                    <constraint firstAttribute="trailing" secondItem="jue-K7-y9L" secondAttribute="trailing" constant="9" id="sTY-Re-QzU"/>
+                                </constraints>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6RG-iI-hrQ" userLabel="Card View">
-                                <rect key="frame" x="0.0" y="69" width="376" height="598"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6RG-iI-hrQ" userLabel="Card View">
+                                <rect key="frame" x="0.0" y="69" width="375" height="598"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Bb-mG-sw0" userLabel="Card Info View">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Bb-mG-sw0" userLabel="Card Info View">
                                         <rect key="frame" x="239" y="28" width="180" height="89"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Series:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jky-fa-qgr" userLabel="Card Series Title Text">
                                                 <rect key="frame" x="8" y="29" width="44" height="15"/>
@@ -944,6 +966,10 @@
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.74587094783782959" green="0.0" blue="0.11550974100828171" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="180" id="WX3-sZ-d5c"/>
+                                            <constraint firstAttribute="height" constant="89" id="ghM-Rt-T9L"/>
+                                        </constraints>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                 <integer key="value" value="10"/>
@@ -951,26 +977,40 @@
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="card_placeholder.png" translatesAutoresizingMaskIntoConstraints="NO" id="TLJ-zq-3rn" userLabel="Card Image">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="card_placeholder.png" translatesAutoresizingMaskIntoConstraints="NO" id="TLJ-zq-3rn" userLabel="Card Image">
                                         <rect key="frame" x="8" y="28" width="214" height="300"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="300" id="r50-Nh-wI5"/>
+                                            <constraint firstAttribute="width" constant="214" id="uDj-ek-Vf9"/>
+                                        </constraints>
                                     </imageView>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7pu-RY-wnb" userLabel="Card Name View">
-                                        <rect key="frame" x="0.0" y="0.0" width="376" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7pu-RY-wnb" userLabel="Card Name View">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="20"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Card Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="baE-Rw-07R" userLabel="Card Name Text">
-                                                <rect key="frame" x="8" y="0.0" width="360" height="20"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Card Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="baE-Rw-07R" userLabel="Card Name Text">
+                                                <rect key="frame" x="8" y="0.0" width="359" height="20"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="359" id="4a7-rQ-Lye"/>
+                                                    <constraint firstAttribute="height" constant="20" id="IK7-zS-IEc"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="48U-Go-5C9"/>
+                                            <constraint firstItem="baE-Rw-07R" firstAttribute="leading" secondItem="7pu-RY-wnb" secondAttribute="leading" constant="8" id="7Ct-ZX-Tyr"/>
+                                            <constraint firstAttribute="bottom" secondItem="baE-Rw-07R" secondAttribute="bottom" id="QFj-Je-pma"/>
+                                            <constraint firstItem="baE-Rw-07R" firstAttribute="top" secondItem="7pu-RY-wnb" secondAttribute="top" id="VVC-Qq-KaV"/>
+                                            <constraint firstAttribute="width" constant="375" id="bbT-YK-tHK"/>
+                                            <constraint firstItem="baE-Rw-07R" firstAttribute="leading" secondItem="7pu-RY-wnb" secondAttribute="leadingMargin" id="mtJ-hf-FYo"/>
+                                            <constraint firstItem="baE-Rw-07R" firstAttribute="top" secondItem="7pu-RY-wnb" secondAttribute="top" id="oD2-6F-gty"/>
+                                            <constraint firstAttribute="trailing" secondItem="baE-Rw-07R" secondAttribute="trailing" constant="8" id="tBs-S3-Wbh"/>
+                                        </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8R5-pp-DBi" userLabel="Supporting Skill View">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8R5-pp-DBi" userLabel="Supporting Skill View">
                                         <rect key="frame" x="231" y="181" width="188" height="147"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jSe-xV-ppj" userLabel="Card Supporting Skill Image">
                                                 <rect key="frame" x="8" y="8" width="16" height="16"/>
@@ -992,6 +1032,10 @@
                                             </textView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.74587094783782959" green="0.0" blue="0.11550974100828171" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="188" id="ft4-p9-npE"/>
+                                            <constraint firstAttribute="height" constant="147" id="jhP-X9-gDs"/>
+                                        </constraints>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                 <integer key="value" value="10"/>
@@ -999,9 +1043,8 @@
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TrZ-pl-g5P" userLabel="Skills View">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TrZ-pl-g5P" userLabel="Skills View">
                                         <rect key="frame" x="-30" y="344" width="390" height="240"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" delaysContentTouches="NO" canCancelContentTouches="NO" keyboardDismissMode="interactive" editable="NO" text="Skill Text" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qER-V9-n48" userLabel="Skill Text">
                                                 <rect key="frame" x="41" y="8" width="341" height="224"/>
@@ -1012,6 +1055,10 @@
                                             </textView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.74587094783782959" green="0.0" blue="0.11550974100828171" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="240" id="Q2D-RH-Lrs"/>
+                                            <constraint firstAttribute="width" constant="390" id="p0b-hh-plX"/>
+                                        </constraints>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                 <integer key="value" value="10"/>
@@ -1019,9 +1066,8 @@
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h9S-WP-D0A" userLabel="Card Price View">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h9S-WP-D0A" userLabel="Card Price View">
                                         <rect key="frame" x="272" y="125" width="147" height="48"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$00.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NGS-De-mBX" userLabel="Card Price Text">
                                                 <rect key="frame" x="8" y="11" width="84" height="27"/>
@@ -1032,6 +1078,10 @@
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.74587094783782959" green="0.0" blue="0.11550974100828171" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="147" id="QCz-AI-rvk"/>
+                                            <constraint firstAttribute="height" constant="48" id="XMn-Pg-6qX"/>
+                                        </constraints>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                 <integer key="value" value="10"/>
@@ -1041,9 +1091,40 @@
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="7Bb-mG-sw0" firstAttribute="top" secondItem="7pu-RY-wnb" secondAttribute="bottom" constant="8" id="7GM-vV-DWL"/>
+                                    <constraint firstItem="7pu-RY-wnb" firstAttribute="top" secondItem="6RG-iI-hrQ" secondAttribute="top" id="Ee6-Uh-ItV"/>
+                                    <constraint firstAttribute="trailing" secondItem="8R5-pp-DBi" secondAttribute="trailing" constant="-44" id="GrZ-FJ-Nbw"/>
+                                    <constraint firstAttribute="bottom" secondItem="7pu-RY-wnb" secondAttribute="bottom" constant="578" id="PNI-vL-pSd"/>
+                                    <constraint firstItem="TLJ-zq-3rn" firstAttribute="top" secondItem="7pu-RY-wnb" secondAttribute="bottom" constant="8" id="VNl-Y3-PSh"/>
+                                    <constraint firstItem="TrZ-pl-g5P" firstAttribute="leading" secondItem="6RG-iI-hrQ" secondAttribute="leading" constant="-30" id="VqN-kT-zcu"/>
+                                    <constraint firstItem="7pu-RY-wnb" firstAttribute="leading" secondItem="6RG-iI-hrQ" secondAttribute="leading" id="Yj0-gs-IIr"/>
+                                    <constraint firstItem="8R5-pp-DBi" firstAttribute="top" secondItem="h9S-WP-D0A" secondAttribute="bottom" constant="8" id="ZuJ-bd-rPQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="7pu-RY-wnb" secondAttribute="trailing" id="aSZ-RF-uIk"/>
+                                    <constraint firstItem="TLJ-zq-3rn" firstAttribute="leading" secondItem="6RG-iI-hrQ" secondAttribute="leading" constant="8" id="aZr-zs-z1R"/>
+                                    <constraint firstAttribute="trailing" secondItem="h9S-WP-D0A" secondAttribute="trailing" constant="-44" id="bsk-qa-fol"/>
+                                    <constraint firstItem="TLJ-zq-3rn" firstAttribute="top" secondItem="7pu-RY-wnb" secondAttribute="bottom" constant="8" symbolic="YES" id="dMT-7f-EBY"/>
+                                    <constraint firstItem="TrZ-pl-g5P" firstAttribute="top" secondItem="TLJ-zq-3rn" secondAttribute="bottom" constant="16" id="gO8-Tf-PRo"/>
+                                    <constraint firstAttribute="trailing" secondItem="7Bb-mG-sw0" secondAttribute="trailing" constant="-44" id="iuq-sv-Mmp"/>
+                                    <constraint firstItem="7Bb-mG-sw0" firstAttribute="top" secondItem="7pu-RY-wnb" secondAttribute="bottom" constant="8" id="oEt-kD-91I"/>
+                                    <constraint firstItem="TrZ-pl-g5P" firstAttribute="top" secondItem="TLJ-zq-3rn" secondAttribute="bottom" constant="16" id="sCO-VA-r3T"/>
+                                    <constraint firstItem="h9S-WP-D0A" firstAttribute="top" secondItem="7Bb-mG-sw0" secondAttribute="bottom" constant="8" id="tAH-Vr-Qs9"/>
+                                    <constraint firstItem="7Bb-mG-sw0" firstAttribute="top" secondItem="7pu-RY-wnb" secondAttribute="bottom" constant="8" symbolic="YES" id="wf1-PB-n2R"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6RG-iI-hrQ" firstAttribute="centerX" secondItem="Ws7-xH-woR" secondAttribute="centerX" id="2BC-Ca-atb"/>
+                            <constraint firstItem="6RG-iI-hrQ" firstAttribute="leading" secondItem="966-pH-91d" secondAttribute="leading" id="BYZ-LW-KEw"/>
+                            <constraint firstItem="48J-Nh-E77" firstAttribute="top" secondItem="Ws7-xH-woR" secondAttribute="top" id="Mzu-gp-cit"/>
+                            <constraint firstItem="48J-Nh-E77" firstAttribute="centerX" secondItem="Ws7-xH-woR" secondAttribute="centerX" id="RnV-jq-ZAn"/>
+                            <constraint firstItem="48J-Nh-E77" firstAttribute="leading" secondItem="966-pH-91d" secondAttribute="leading" id="b0N-gF-Ijc"/>
+                            <constraint firstItem="6RG-iI-hrQ" firstAttribute="trailing" secondItem="966-pH-91d" secondAttribute="trailing" id="cH1-01-kp8"/>
+                            <constraint firstItem="6RG-iI-hrQ" firstAttribute="bottom" secondItem="966-pH-91d" secondAttribute="bottom" id="gjY-1T-LPv"/>
+                            <constraint firstItem="6RG-iI-hrQ" firstAttribute="top" secondItem="48J-Nh-E77" secondAttribute="bottom" constant="8" symbolic="YES" id="jic-ip-PV9"/>
+                            <constraint firstItem="48J-Nh-E77" firstAttribute="trailing" secondItem="966-pH-91d" secondAttribute="trailing" id="sAa-cp-TkT"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="966-pH-91d"/>
                     </view>
                     <connections>
@@ -1093,10 +1174,8 @@
         <image name="sort_by_number_button.png" width="290" height="289"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="v70-lw-KrB"/>
-        <segue reference="cSO-wt-L8c"/>
         <segue reference="8ih-mp-VFz"/>
         <segue reference="4a0-cU-pEP"/>
-        <segue reference="eSc-Sj-Klz"/>
+        <segue reference="QE9-aR-HPz"/>
     </inferredMetricsTieBreakers>
 </document>
