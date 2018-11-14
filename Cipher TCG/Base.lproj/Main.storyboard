@@ -1008,6 +1008,12 @@
                                             <constraint firstItem="baE-Rw-07R" firstAttribute="top" secondItem="7pu-RY-wnb" secondAttribute="top" id="oD2-6F-gty"/>
                                             <constraint firstAttribute="trailing" secondItem="baE-Rw-07R" secondAttribute="trailing" constant="8" id="tBs-S3-Wbh"/>
                                         </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8R5-pp-DBi" userLabel="Supporting Skill View">
                                         <rect key="frame" x="231" y="181" width="188" height="147"/>
@@ -1098,12 +1104,11 @@
                                     <constraint firstAttribute="bottom" secondItem="7pu-RY-wnb" secondAttribute="bottom" constant="578" id="PNI-vL-pSd"/>
                                     <constraint firstItem="TLJ-zq-3rn" firstAttribute="top" secondItem="7pu-RY-wnb" secondAttribute="bottom" constant="8" id="VNl-Y3-PSh"/>
                                     <constraint firstItem="TrZ-pl-g5P" firstAttribute="leading" secondItem="6RG-iI-hrQ" secondAttribute="leading" constant="-30" id="VqN-kT-zcu"/>
-                                    <constraint firstItem="7pu-RY-wnb" firstAttribute="leading" secondItem="6RG-iI-hrQ" secondAttribute="leading" id="Yj0-gs-IIr"/>
                                     <constraint firstItem="8R5-pp-DBi" firstAttribute="top" secondItem="h9S-WP-D0A" secondAttribute="bottom" constant="8" id="ZuJ-bd-rPQ"/>
-                                    <constraint firstAttribute="trailing" secondItem="7pu-RY-wnb" secondAttribute="trailing" id="aSZ-RF-uIk"/>
                                     <constraint firstItem="TLJ-zq-3rn" firstAttribute="leading" secondItem="6RG-iI-hrQ" secondAttribute="leading" constant="8" id="aZr-zs-z1R"/>
                                     <constraint firstAttribute="trailing" secondItem="h9S-WP-D0A" secondAttribute="trailing" constant="-44" id="bsk-qa-fol"/>
                                     <constraint firstItem="TLJ-zq-3rn" firstAttribute="top" secondItem="7pu-RY-wnb" secondAttribute="bottom" constant="8" symbolic="YES" id="dMT-7f-EBY"/>
+                                    <constraint firstItem="7pu-RY-wnb" firstAttribute="centerX" secondItem="6RG-iI-hrQ" secondAttribute="centerX" id="fBX-YL-8QO"/>
                                     <constraint firstItem="TrZ-pl-g5P" firstAttribute="top" secondItem="TLJ-zq-3rn" secondAttribute="bottom" constant="16" id="gO8-Tf-PRo"/>
                                     <constraint firstAttribute="trailing" secondItem="7Bb-mG-sw0" secondAttribute="trailing" constant="-44" id="iuq-sv-Mmp"/>
                                     <constraint firstItem="7Bb-mG-sw0" firstAttribute="top" secondItem="7pu-RY-wnb" secondAttribute="bottom" constant="8" id="oEt-kD-91I"/>
