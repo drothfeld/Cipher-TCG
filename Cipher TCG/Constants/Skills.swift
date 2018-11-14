@@ -4104,3 +4104,91 @@ let bye_bye_scary_dreams = Skill(name: "Bye-bye, scary dreams!",
                         tapUnit: false,
                         CCS: false)
 
+let unwavering_thoughts_and_will = Skill(name: "Unwavering Thoughts and Will",
+                        description: "[DB] [ALWAYS] During your opponent's turn, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let you_of_the_dark = Skill(name: "You of the Dark",
+                        description: "[ACT] [ONCE PER TURN] [FLIP 1] If there are no non-lord enemies, draw 1 card.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let blood_of_baldr_god_of_light = Skill(name: "Blood of Baldr, God of Light",
+                        description: "[ACT] [ONCE PER TURN] Choose 1 card from your hand, reveal it, then place it face-down in the Bond Area. Once you do, until the end of the turn, all allies gain +10 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let blood_of_njorun_earthen_goddess = Skill(name: "Blood of Njörun, Earthen Goddess",
+                        description: "[ALWAYS] All of your <Yellow> bond cards possess this unit's [BS].",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let dream_of_a_united_fatherland = Skill(name: "Dream of a United Fatherland",
+                        description: "[BOND] [ACT] [Flip this card face-down] Choose 1 non-lord enemy, and move them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let bloody_perfume = Skill(name: "Bloody Perfume",
+                        description: "[TRIGGER] [ONCE PER TURN] When an enemy is destroyed, you may choose an ally and move them.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let reapers_murmur = Skill(name: "Reaper's Murmur",
+                        description: "[DB] [ACT] [TAP] Choose 1 non-lord enemy with 40 or less attack, and destroy them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let ebon_wings_of_love = Skill(name: "Ebon Wings of Love",
+                        description: "[SPECIAL] [FLIP 1] When you deploy a <Black> ally with a deployment cost of 3 or higher, you may pay the cost and if you do: deploy this card from your hand.",
+                        colorType: UIColor.purple,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let final_hope = Skill(name: "Final Hope",
+                        description: "[ALWAYS] During your turn, if there are no allies in the same area as this unit, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let hear_me_my_beloved_citizen = Skill(name: "Hear me, my beloved citizen!",
+                        description: "[TRIGGER] [ONCE PER TURN] [FLIP 1] When you deploy an other <Red> ally in the same area as this unit, you may pay the cost and if you do: Until the end of your opponent's next turn, that ally gains +20 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let impassioned_princess = Skill(name: "Impassioned Princess",
+                        description: "[ALWAYS] If you have no orbs, enemies attacking this unit cannot inflict critical hits.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+

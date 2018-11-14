@@ -300,6 +300,12 @@
 		B0E0DE2020D2DA4B002672A4 /* B06-001.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E0DE1F20D2DA4B002672A4 /* B06-001.png */; };
 		B0E0DE2220D2DC33002672A4 /* B06-004.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E0DE2120D2DC33002672A4 /* B06-004.png */; };
 		B0E0DE2420D2DD17002672A4 /* B06-006.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E0DE2320D2DD16002672A4 /* B06-006.png */; };
+		B0E36C7B219B947700E3D0C6 /* B15-0AJ.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E36C7A219B947700E3D0C6 /* B15-0AJ.png */; };
+		B0E36C81219B9AEC00E3D0C6 /* B15-0AM.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E36C7C219B9AEB00E3D0C6 /* B15-0AM.png */; };
+		B0E36C82219B9AEC00E3D0C6 /* B15-0AO.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E36C7D219B9AEB00E3D0C6 /* B15-0AO.png */; };
+		B0E36C83219B9AEC00E3D0C6 /* B15-0AL.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E36C7E219B9AEB00E3D0C6 /* B15-0AL.png */; };
+		B0E36C84219B9AEC00E3D0C6 /* B15-0AN.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E36C7F219B9AEC00E3D0C6 /* B15-0AN.png */; };
+		B0E36C85219B9AEC00E3D0C6 /* B15-0AK.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E36C80219B9AEC00E3D0C6 /* B15-0AK.png */; };
 		B0E4223F20191D7C00CA879C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B0E4223E20191D7C00CA879C /* .gitignore */; };
 		B0E4224120191DCE00CA879C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B0E4224020191DCE00CA879C /* README.md */; };
 		B0E42245201A820600CA879C /* B02-008.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E42242201A820500CA879C /* B02-008.png */; };
@@ -662,6 +668,12 @@
 		B0E0DE1F20D2DA4B002672A4 /* B06-001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B06-001.png"; sourceTree = "<group>"; };
 		B0E0DE2120D2DC33002672A4 /* B06-004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B06-004.png"; sourceTree = "<group>"; };
 		B0E0DE2320D2DD16002672A4 /* B06-006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B06-006.png"; sourceTree = "<group>"; };
+		B0E36C7A219B947700E3D0C6 /* B15-0AJ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-0AJ.png"; sourceTree = "<group>"; };
+		B0E36C7C219B9AEB00E3D0C6 /* B15-0AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-0AM.png"; sourceTree = "<group>"; };
+		B0E36C7D219B9AEB00E3D0C6 /* B15-0AO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-0AO.png"; sourceTree = "<group>"; };
+		B0E36C7E219B9AEB00E3D0C6 /* B15-0AL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-0AL.png"; sourceTree = "<group>"; };
+		B0E36C7F219B9AEC00E3D0C6 /* B15-0AN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-0AN.png"; sourceTree = "<group>"; };
+		B0E36C80219B9AEC00E3D0C6 /* B15-0AK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-0AK.png"; sourceTree = "<group>"; };
 		B0E4223E20191D7C00CA879C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
 		B0E4224020191DCE00CA879C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		B0E42242201A820500CA879C /* B02-008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B02-008.png"; sourceTree = "<group>"; };
@@ -1286,6 +1298,12 @@
 				B0193C8D2194D40100C2047F /* B15-0AG.png */,
 				B0193C8C2194D40000C2047F /* B15-0AH.png */,
 				B0533FEF21957AFC00D9A5DA /* B15-0AI.png */,
+				B0E36C7A219B947700E3D0C6 /* B15-0AJ.png */,
+				B0E36C80219B9AEC00E3D0C6 /* B15-0AK.png */,
+				B0E36C7E219B9AEB00E3D0C6 /* B15-0AL.png */,
+				B0E36C7C219B9AEB00E3D0C6 /* B15-0AM.png */,
+				B0E36C7F219B9AEC00E3D0C6 /* B15-0AN.png */,
+				B0E36C7D219B9AEB00E3D0C6 /* B15-0AO.png */,
 			);
 			path = B15;
 			sourceTree = "<group>";
@@ -1447,6 +1465,7 @@
 				B01B2ED1215AD12E00ACA461 /* B14-073.png in Resources */,
 				B0951F1B2149759200B3ABBB /* B14-061.png in Resources */,
 				B0329590203F2CDC00BB2FE4 /* B11-020.png in Resources */,
+				B0E36C82219B9AEC00E3D0C6 /* B15-0AO.png in Resources */,
 				B0E4223F20191D7C00CA879C /* .gitignore in Resources */,
 				B08C33EA2190C19E00B57CD0 /* B15-0AA.png in Resources */,
 				B01986DD21407CA8006FF634 /* B14-047.png in Resources */,
@@ -1471,6 +1490,7 @@
 				B01C08AA2155625800795F9B /* B14-006.png in Resources */,
 				B094C48A21370D1800DC2870 /* B14-058.png in Resources */,
 				B03D57FA2012CD14007A3E97 /* B10-051.png in Resources */,
+				B0E36C83219B9AEC00E3D0C6 /* B15-0AL.png in Resources */,
 				B0B2B2C12104F21B00ABA187 /* B12-009.png in Resources */,
 				B01B2ED7215EB89600ACA461 /* B14-003.png in Resources */,
 				B01B2ECA215ACF3000ACA461 /* skill_type_special.png in Resources */,
@@ -1515,6 +1535,7 @@
 				B0E42249201C422700CA879C /* B02-060.png in Resources */,
 				B09EA06B2106423600FDCCEF /* B02-009.png in Resources */,
 				B0FA2A6321629D2A00B8485F /* B12-100.png in Resources */,
+				B0E36C84219B9AEC00E3D0C6 /* B15-0AN.png in Resources */,
 				B019AB29218A4205004B7D73 /* B13-010.png in Resources */,
 				B01C08AB2155625800795F9B /* B14-043.png in Resources */,
 				B0E6BC2B214835D000D1840D /* B14-024.png in Resources */,
@@ -1600,6 +1621,7 @@
 				B03D57CA2012CCE0007A3E97 /* B07-086.png in Resources */,
 				B03D57C92012CCE0007A3E97 /* B07-053.png in Resources */,
 				B01B2EEA216141D000ACA461 /* B14-021.png in Resources */,
+				B0E36C85219B9AEC00E3D0C6 /* B15-0AK.png in Resources */,
 				B03D57FE2012CD14007A3E97 /* B10-080.png in Resources */,
 				B01B2EE1215FFDC600ACA461 /* B14-009.png in Resources */,
 				B0E6AA1E211E499A00F0BF1E /* B07-095.png in Resources */,
@@ -1629,6 +1651,7 @@
 				B08A6B322017E55500603113 /* B04-018.png in Resources */,
 				B0533FF021957AFC00D9A5DA /* B15-0AI.png in Resources */,
 				B0FD328B20C9A0D900B1D2E6 /* B12-059.png in Resources */,
+				B0E36C81219B9AEC00E3D0C6 /* B15-0AM.png in Resources */,
 				B03D57FD2012CD14007A3E97 /* B10-081.png in Resources */,
 				B0803DF520FBC8A9002CCCD8 /* B11-007.png in Resources */,
 				B03D57AD2012CCB7007A3E97 /* B03-067.png in Resources */,
@@ -1701,6 +1724,7 @@
 				B016E49E21501E32007FF563 /* B14-062.png in Resources */,
 				B09632DD20CC446F0050F90F /* B03-032.png in Resources */,
 				B06E095C214D6BB800B30080 /* B14-042.png in Resources */,
+				B0E36C7B219B947700E3D0C6 /* B15-0AJ.png in Resources */,
 				B054BBB8200E68AE004159A6 /* Main.storyboard in Resources */,
 				B0303B94213490FE00F78A00 /* B14-052.png in Resources */,
 				B01B2ED6215EB89600ACA461 /* B14-002.png in Resources */,

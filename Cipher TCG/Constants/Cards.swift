@@ -3276,3 +3276,68 @@ let b15_0AI = Card(series: "B15-0AISR",
                    skills: [breath_of_the_divine_dragon, bye_bye_scary_dreams],
                    cardImageName: "B15-0AI.png")
 
+let b15_0AJ = Card(series: "B15-0AJSR",
+                   name: "Corrin (F): Night Breaks Through The Day",
+                   rarity: "Secret Rare",
+                   insignia: nohr,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "Saori Toyota",
+                   supportingSkill: none,
+                   skills: [unwavering_thoughts_and_will, resonance_of_dragons_blood, you_of_the_dark],
+                   cardImageName: "B15-0AJ.png")
+
+let b15_0AK = Card(series: "B15-0AKSR",
+                   name: "Leif: Prince of Two Sacred Bloodlines",
+                   rarity: "Secret Rare",
+                   insignia: holy_war_flag,
+                   attack: 70,
+                   support: 20,
+                   illustrator: "Rika Suzuki",
+                   supportingSkill: none,
+                   skills: [blood_of_baldr_god_of_light, blood_of_njorun_earthen_goddess, dream_of_a_united_fatherland],
+                   cardImageName: "B15-0AK.png")
+
+let b15_0AL = Card(series: "B15-0ALN",
+                   name: "Camilla: Lustrous Princess",
+                   rarity: "Normal",
+                   insignia: nohr,
+                   attack: 30,
+                   support: 30,
+                   illustrator: "Fumi Hasumi",
+                   supportingSkill: flying_emblem,
+                   skills: [bloody_perfume],
+                   cardImageName: "B15-0AL.png")
+
+let b15_0AM = Card(series: "B15-0AMR",
+                   name: "Camilla: Black-Sky-Wheeling Beauty",
+                   rarity: "Rare",
+                   insignia: nohr,
+                   attack: 50,
+                   support: 30,
+                   illustrator: "Fumi Hasumi",
+                   supportingSkill: none,
+                   skills: [reapers_murmur, resonance_of_dragons_blood, ebon_wings_of_love],
+                   cardImageName: "B15-0AM.png")
+
+let b15_0AN = Card(series: "B15-0ANN",
+                   name: "Sheena: Princess of Gra",
+                   rarity: "Normal",
+                   insignia: blade_of_light,
+                   attack: 30,
+                   support: 10,
+                   illustrator: "Megumi Nagahama",
+                   supportingSkill: defense_emblem,
+                   skills: [final_hope, armor_expertise],
+                   cardImageName: "B15-0AN.png")
+
+let b15_0AO = Card(series: "B15-0AOR",
+                   name: "Sheena: Twilight Princess-General",
+                   rarity: "Rare",
+                   insignia: blade_of_light,
+                   attack: 60,
+                   support: 10,
+                   illustrator: "Megumi Nagahama",
+                   supportingSkill: none,
+                   skills: [hear_me_my_beloved_citizen, impassioned_princess, armor_expertise],
+                   cardImageName: "B15-0AO.png")
