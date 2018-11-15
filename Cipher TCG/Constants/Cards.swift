@@ -3352,3 +3352,25 @@ let b15_0AP = Card(series: "B15-0APHN",
                    supportingSkill: none,
                    skills: [grant_me_strength_o_baldr, a_mothers_deep_love],
                    cardImageName: "B15-0AP.png")
+
+let b15_0AQ = Card(series: "B15-0AQR",
+                   name: "Travant: King of Thracia",
+                   rarity: "Rare",
+                   insignia: holy_war_flag,
+                   attack: 60,
+                   support: 30,
+                   illustrator: "Tomohide Takaya",
+                   supportingSkill: none,
+                   skills: [scorned_as_a_hyena, bloodstained_gungnir, deathbringing_snare],
+                   cardImageName: "B15-0AQ.png")
+
+let b15_0AR = Card(series: "B15-0ARR",
+                   name: "Quan: Prince of Earthen Goddess Descent",
+                   rarity: "Rare",
+                   insignia: holy_war_flag,
+                   attack: 70,
+                   support: 10,
+                   illustrator: "Tomohide Takaya",
+                   supportingSkill: none,
+                   skills: [glory_of_the_knights, heroic_gae_bolg],
+                   cardImageName: "B15-0AR.png")

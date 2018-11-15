@@ -4208,3 +4208,43 @@ let a_mothers_deep_love = Skill(name: "A Mother's Deep Love",
                         tapUnit: false,
                         CCS: false)
 
+let scorned_as_a_hyena = Skill(name: "Scorned as a Hyena",
+                        description: "[ALWAYS] If this unit is attacking a non-lord enemy, this unit gains +30 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let bloodstained_gungnir = Skill(name: "Bloodstained Gungnir",
+                        description: "[ACT] [FLIP 1] Until the end of the turn, all allies who are both <Flier> and <Dragon> may attack enemies regardless of range.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let deathbringing_snare = Skill(name: "Deathbringing Snare",
+                        description: "[ACT] [ONCE PER TURN] [Send 1 bond card to the Retreat Area] Your opponent chooses 5 cards from their hand, and sends the remainder to the Retreat Area.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let glory_of_the_knights = Skill(name: "Glory to the Knights",
+                        description: "[ALWAYS] During your turn, all <Mounted> allies gain +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let heroic_gae_bolg = Skill(name: "Heroic Gáe Bolg",
+                        description: "[TRIGGER] When this unit's attack destroys an enemy, if you have 6 or more bond cards, you may choose 1 non-lord enemy and destroy it.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+

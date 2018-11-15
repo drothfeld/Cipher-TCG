@@ -534,4 +534,9 @@ let rawSkillsList: [Skill] = [
     impassioned_princess,
     grant_me_strength_o_baldr,
     a_mothers_deep_love,
+    scorned_as_a_hyena,
+    bloodstained_gungnir,
+    deathbringing_snare,
+    glory_of_the_knights,
+    heroic_gae_bolg,
 ]
