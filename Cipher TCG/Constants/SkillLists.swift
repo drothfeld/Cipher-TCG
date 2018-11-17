@@ -539,4 +539,6 @@ let rawSkillsList: [Skill] = [
     deathbringing_snare,
     glory_of_the_knights,
     heroic_gae_bolg,
+    adorable_wyrmswing,
+    blue_sky_mage_knight,
 ]

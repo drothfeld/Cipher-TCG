@@ -4248,3 +4248,19 @@ let heroic_gae_bolg = Skill(name: "Heroic Gáe Bolg",
                         tapUnit: false,
                         CCS: false)
 
+let adorable_wyrmswing = Skill(name: "Adorable Wyrmswing",
+                        description: "[SPECIAL] If you have 1 or more <flier> allie, this card's deployment cost in your hand is reduced by 2.",
+                        colorType: UIColor.purple,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let blue_sky_mage_knight = Skill(name: "Blue-Sky Mage Knight",
+                        description: "[TRIGGER] [FLIP 1] Each time a <Flier> ally's attack destroys an enemy, you may pay the cost and if you do: draw 1 card.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+

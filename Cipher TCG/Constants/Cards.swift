@@ -3374,3 +3374,25 @@ let b15_0AR = Card(series: "B15-0ARR",
                    supportingSkill: none,
                    skills: [glory_of_the_knights, heroic_gae_bolg],
                    cardImageName: "B15-0AR.png")
+
+let b15_0AS = Card(series: "B15-0ASN",
+                   name: "Maria: Princess of the Wyverns' Realm",
+                   rarity: "Normal",
+                   insignia: blade_of_light,
+                   attack: 30,
+                   support: 20,
+                   illustrator: "Shigetaka Kimura",
+                   supportingSkill: miracle_emblem,
+                   skills: [heal],
+                   cardImageName: "B15-0AS.png")
+
+let b15_0AT = Card(series: "B15-0ATSR",
+                   name: "Maria: Wyvern-Riding Mage Princess",
+                   rarity: "Secret Rare",
+                   insignia: blade_of_light,
+                   attack: 50,
+                   support: 30,
+                   illustrator: "Fuzichoco",
+                   supportingSkill: none,
+                   skills: [adorable_wyrmswing, blue_sky_mage_knight],
+                   cardImageName: "B15-0AT.png")
