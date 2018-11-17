@@ -12,7 +12,7 @@ class Card: NSObject, NSCoding {
     // Fields
     var series: String
     var name: String
-    var rarity: String
+    var rarity: Rarity
     var insignia: Insignia
     var attack: Int
     var support: Int
@@ -23,7 +23,7 @@ class Card: NSObject, NSCoding {
     var cardImageName: String?
     
     // Constructor
-    init(series: String, name: String, rarity: String, insignia: Insignia, attack: Int, support: Int, illustrator: String, supportingSkill: SupportingSkill, skills: [Skill], cardImageName: String?) {
+    init(series: String, name: String, rarity: Rarity, insignia: Insignia, attack: Int, support: Int, illustrator: String, supportingSkill: SupportingSkill, skills: [Skill], cardImageName: String?) {
         self.series = series
         self.name = name
         self.rarity = rarity
@@ -46,7 +46,7 @@ class Card: NSObject, NSCoding {
     required convenience init(coder decoder: NSCoder) {
         let series = decoder.decodeObject(forKey: "series") as? String ?? ""
         let name = decoder.decodeObject(forKey: "name") as? String ?? ""
-        let rarity = decoder.decodeObject(forKey: "rarity") as? String ?? ""
+        let rarity = decoder.decodeObject(forKey: "rarity") as? Rarity ?? normal
         let insignia = decoder.decodeObject(forKey: "insignia") as? Insignia ?? hoshido
         let attack = decoder.decodeInteger(forKey: "attack")
         let support = decoder.decodeInteger(forKey: "support")
@@ -91,6 +91,11 @@ class Card: NSObject, NSCoding {
                 }
             }
         }
+    }
+    
+    // Check if a card has a higher rarity rank than another
+    func isMoreRareThan(card: Card) -> Bool {
+        return (self.rarity.rank > card.rarity.rank)
     }
     
 }

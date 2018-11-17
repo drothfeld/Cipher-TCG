@@ -183,7 +183,7 @@ class CardViewController: UIViewController {
                 CardIllustratorText.text = detailCard.illustrator
                 CardIllustratorText.minimumScaleFactor = 0.10
                 CardIllustratorText.adjustsFontSizeToFitWidth = true
-                CardRarityText.text = detailCard.rarity
+                CardRarityText.text = detailCard.rarity.name
                 
                 // Changing background theme colors to chosen card insignia
                 CardInfoView.backgroundColor = detailCard.insignia.color
