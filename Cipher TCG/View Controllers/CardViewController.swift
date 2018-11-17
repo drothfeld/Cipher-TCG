@@ -180,7 +180,7 @@ class CardViewController: UIViewController {
                 CardSeriesText.text = detailCard.series
                 CardInsigniaImage.image = detailCard.insignia.iconImage
                 CardInsigniaText.text = detailCard.insignia.name
-                CardIllustratorText.text = detailCard.illustrator
+                CardIllustratorText.text = detailCard.illustrator.name
                 CardIllustratorText.minimumScaleFactor = 0.10
                 CardIllustratorText.adjustsFontSizeToFitWidth = true
                 CardRarityText.text = detailCard.rarity.name

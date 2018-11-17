@@ -16,14 +16,14 @@ class Card: NSObject, NSCoding {
     var insignia: Insignia
     var attack: Int
     var support: Int
-    var illustrator: String
+    var illustrator: Illustrator
     var supportingSkill: SupportingSkill
     var skills: [Skill]
     var cardImage: UIImage?
     var cardImageName: String?
     
     // Constructor
-    init(series: String, name: String, rarity: Rarity, insignia: Insignia, attack: Int, support: Int, illustrator: String, supportingSkill: SupportingSkill, skills: [Skill], cardImageName: String?) {
+    init(series: String, name: String, rarity: Rarity, insignia: Insignia, attack: Int, support: Int, illustrator: Illustrator, supportingSkill: SupportingSkill, skills: [Skill], cardImageName: String?) {
         self.series = series
         self.name = name
         self.rarity = rarity
@@ -50,7 +50,7 @@ class Card: NSObject, NSCoding {
         let insignia = decoder.decodeObject(forKey: "insignia") as? Insignia ?? hoshido
         let attack = decoder.decodeInteger(forKey: "attack")
         let support = decoder.decodeInteger(forKey: "support")
-        let illustrator = decoder.decodeObject(forKey: "illustrator") as? String ?? ""
+        let illustrator = decoder.decodeObject(forKey: "illustrator") as? Illustrator ?? unknown
         let supportingSkill = decoder.decodeObject(forKey: "supportingSkill") as? SupportingSkill ?? flying_emblem
         let skills = decoder.decodeObject(forKey: "skills") as? [Skill] ?? [winged_deliverer]
         let cardImageName = decoder.decodeObject(forKey: "cardImageName") as? String ?? ""
