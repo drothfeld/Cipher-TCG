@@ -3396,3 +3396,58 @@ let b15_0AT = Card(series: "B15-0ATSR",
                    supportingSkill: none,
                    skills: [adorable_wyrmswing, blue_sky_mage_knight],
                    cardImageName: "B15-0AT.png")
+
+let b15_0AU = Card(series: "B15-0AUN",
+                   name: "Linoan: Ladyling of Tara",
+                   rarity: normal,
+                   insignia: holy_war_flag,
+                   attack: 20,
+                   support: 20,
+                   illustrator: sakura_miwabe,
+                   supportingSkill: holy_blood_emblem,
+                   skills: [saint_of_the_city_state, her_fathers_bequeathed_tome],
+                   cardImageName: "B15-0AU.png")
+
+let b15_0AV = Card(series: "B15-0AVR",
+                   name: "Linoan: Blossom of Tara",
+                   rarity: rare,
+                   insignia: holy_war_flag,
+                   attack: 50,
+                   support: 20,
+                   illustrator: sakura_miwabe,
+                   supportingSkill: none,
+                   skills: [light_of_resistance, awakened_blood_naga],
+                   cardImageName: "B15-0AV.png")
+
+let b15_0AW = Card(series: "B15-0AWR",
+                   name: "Tsubasa Oribe: A New Blossom",
+                   rarity: rare,
+                   insignia: blade_of_light,
+                   attack: 70,
+                   support: 20,
+                   illustrator: daigoman,
+                   supportingSkill: none,
+                   skills: [debut_smile, surefire],
+                   cardImageName: "B15-0AW.png")
+
+let b15_0AX = Card(series: "B15-0AXHN",
+                   name: "Caeda: Mirage Falcon Knight",
+                   rarity: high_normal,
+                   insignia: blade_of_light,
+                   attack: 0,
+                   support: 20,
+                   illustrator: kazuhiro_taneda,
+                   supportingSkill: none,
+                   skills: [carnage_form, winged_lance],
+                   cardImageName: "B15-0AX.png")
+
+let b15_0AY = Card(series: "B15-0AYHN",
+                   name: "Caeda: Mirage Golden Wyvern Knight",
+                   rarity: high_normal,
+                   insignia: blade_of_light,
+                   attack: 0,
+                   support: 20,
+                   illustrator: kazuhiro_taneda,
+                   supportingSkill: none,
+                   skills: [carnage_form, dragoon_lance],
+                   cardImageName: "B15-0AY.png")

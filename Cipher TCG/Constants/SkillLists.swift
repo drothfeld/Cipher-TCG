@@ -541,4 +541,12 @@ let rawSkillsList: [Skill] = [
     heroic_gae_bolg,
     adorable_wyrmswing,
     blue_sky_mage_knight,
+    saint_of_the_city_state,
+    her_fathers_bequeathed_tome,
+    light_of_resistance,
+    awakened_blood_naga,
+    debut_smile,
+    surefire,
+    winged_lance,
+    dragoon_lance,
 ]

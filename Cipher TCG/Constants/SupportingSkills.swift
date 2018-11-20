@@ -32,6 +32,10 @@ let dragonblood_emblem = SupportingSkill(type: "Dragonblood Emblem",
                                     textDescription: "If your total number of bond cards is lower than that of your opponent, you may choose 1 card from your hand and play it in the Bond Area.",
                                     iconImageName: "28px-Attack_Support.png")
 
+let holy_blood_emblem = SupportingSkill(type: "Holy Blood Emblem",
+                                    textDescription: "If you have the same number of, or fewer, bond cards than your opponent, you may choose 1 card from your hand and play it in the Bond Area.",
+                                    iconImageName: "28px-Attack_Support.png")
+
 let bullseye_emblem = SupportingSkill(type: "Bullseye Emblem",
                                     textDescription: "Until the end of this combat, non-lord defending units cannot evade.",
                                     iconImageName: "28px-Attack_Support.png")

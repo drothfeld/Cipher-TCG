@@ -4264,3 +4264,67 @@ let blue_sky_mage_knight = Skill(name: "Blue-Sky Mage Knight",
                         tapUnit: false,
                         CCS: false)
 
+let saint_of_the_city_state = Skill(name: "Saint of the City-State",
+                        description: "[ACT] [TAP, FLIP 2] Choose 1 card from your Retreat Area with the same unit name as your lord, and add it to your hand.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let her_fathers_bequeathed_tome = Skill(name: "Her Father's Bequeathed Tome",
+                        description: "[ALWAYS] If you have 3 or more bond cards, this unit gains <Tome> and range 1-2.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let light_of_resistance = Skill(name: "Light of Resistance",
+                        description: "[ACT] [ONCE PER TURN] [FLIP 2] Draw 2 cards. Choose 1 card from your hand, and send it to the Retreat Area.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let awakened_blood_naga = Skill(name: "Awakened Blood of Naga",
+                        description: "[TRIGGER] At the end of your turn, if you have 6 or more bond cards, you may choose 1 face-down bond card and flip it face-up.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let debut_smile = Skill(name: "Debut Smile",
+                        description: "[ACT] [ONCE PER TURN] [FLIP 1, Send 1 Tsubasa Oribe from your hand to the Retreat Area] Choose 1 <Mirage> card with a deployment cost of 4 or lower from your Retreat Area, then deploy it or add it to your hand.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let surefire = Skill(name: "Surefire",
+                        description: "[ALWAYS] If the card supporting this unit is <Mirage>, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let winged_lance = Skill(name: "Winged Lance",
+                        description: "[ACT] [TAP] Choose as many allies as you wish, and move them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let dragoon_lance = Skill(name: "Dragoon Lance",
+                        description: "[TAP] Until the end of the turn, allied Tsubasa Oribe may attack enemies regardless of range.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
