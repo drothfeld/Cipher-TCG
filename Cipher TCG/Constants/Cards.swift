@@ -3451,3 +3451,25 @@ let b15_0AY = Card(series: "B15-0AYHN",
                    supportingSkill: none,
                    skills: [carnage_form, dragoon_lance],
                    cardImageName: "B15-0AY.png")
+
+let b15_0AZ = Card(series: "B15-0AZHN",
+                   name: "Odin: Fell Warrior Concealing the Night Demons' Brand",
+                   rarity: high_normal,
+                   insignia: nohr,
+                   attack: 60,
+                   support: 20,
+                   illustrator: foo_midori,
+                   supportingSkill: none,
+                   skills: [special_move_shadow_dragon_fire_assult, thrilling_order],
+                   cardImageName: "B15-0AZ.png")
+
+let b15_0BA = Card(series: "B15-0BAHN",
+                   name: "Niles: Liege-Serving Pleasure",
+                   rarity: high_normal,
+                   insignia: nohr,
+                   attack: 60,
+                   support: 10,
+                   illustrator: foo_midori,
+                   supportingSkill: none,
+                   skills: [care_for_a_better_one, sworn_to_protect_you, wingbane],
+                   cardImageName: "B15-0BA.png")

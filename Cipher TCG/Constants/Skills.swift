@@ -4328,3 +4328,35 @@ let dragoon_lance = Skill(name: "Dragoon Lance",
                         tapUnit: true,
                         CCS: false)
 
+let special_move_shadow_dragon_fire_assult = Skill(name: "Special Move: Shadow Dragon Fire Assault!",
+                        description: "[TRIGGER] [FLIP 1] When this unit attacks your opponent's lord, you may pay the cost and if you do: Until the end of the turn, this unit gains +30 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let thrilling_order = Skill(name: "Thrilling Order",
+                        description: "[ALWAYS] If you have an allied Leo, the number of orbs that this unit's attack will destroy is increased to 2.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let care_for_a_better_one = Skill(name: "Care for a better one?",
+                        description: "[TRIGGER] [ONCE PER TURN] When an other ally's attack is evaded, until the end of the turn, this unit gains +30 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let sworn_to_protect_you = Skill(name: "Sworn to Protect You",
+                        description: "[ALWAYS] If you have an allied Leo, this unit may attack enemies regardless of range.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+

@@ -549,4 +549,8 @@ let rawSkillsList: [Skill] = [
     surefire,
     winged_lance,
     dragoon_lance,
+    special_move_shadow_dragon_fire_assult,
+    thrilling_order,
+    care_for_a_better_one,
+    sworn_to_protect_you,
 ]
