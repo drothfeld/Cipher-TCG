@@ -3473,3 +3473,14 @@ let b15_0BA = Card(series: "B15-0BAHN",
                    supportingSkill: none,
                    skills: [care_for_a_better_one, sworn_to_protect_you, wingbane],
                    cardImageName: "B15-0BA.png")
+
+let b15_0BB = Card(series: "B15-0BBSR",
+                   name: "Merric: The Supreme Magic's Chosen One",
+                   rarity: secret_rare,
+                   insignia: blade_of_light,
+                   attack: 60,
+                   support: 20,
+                   illustrator: bisai,
+                   supportingSkill: none,
+                   skills: [rage_forth_excalibur, victory_beckoning_wind],
+                   cardImageName: "B15-0BB.png")

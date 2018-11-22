@@ -4360,3 +4360,19 @@ let sworn_to_protect_you = Skill(name: "Sworn to Protect You",
                         tapUnit: false,
                         CCS: false)
 
+let rage_forth_excalibur = Skill(name: "Rage forth, Excalibur!",
+                        description: "[ACT] [TAP] Choose 1 of your opponent's non-lord units, and return them to your opponent's hand. Until the end of your opponent's next turn, your opponent cannot deploy any cards with the same unit name as that unit.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let victory_beckoning_wind = Skill(name: "Victory-Beckoning Wind",
+                        description: "[ACT] [ONCE PER TURN] [FLIP 1] If you have fewer cards in your hand than your opponent, your opponent chooses 1 card from their hand and sends it to the Retreat Area.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+

@@ -553,4 +553,6 @@ let rawSkillsList: [Skill] = [
     thrilling_order,
     care_for_a_better_one,
     sworn_to_protect_you,
+    rage_forth_excalibur,
+    victory_beckoning_wind,
 ]
