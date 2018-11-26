@@ -4376,3 +4376,26 @@ let victory_beckoning_wind = Skill(name: "Victory-Beckoning Wind",
                         tapUnit: true,
                         CCS: false)
 
+let flowing_blood_of_righteousness = Skill(name: "Flowing Blood of Righteousness",
+                        description: "[BS] [BOND] [TRIGGER] [FLIP 1] When you play this card in your Bond Area, you may pay the cost and if you do: Choose 1 ally, and move them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let prayer_upon_the_gae_bolg = Skill(name: "Prayer Upon the Gáe Bolg",
+                        description: "[ACT] [ONCE PER TURN] [Flip 1 Altena bond card face-down] Until the end of your opponent's next turn, this unit gains +40 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let oath_upon_gungnir = Skill(name: "Oath Upon Gungnir",
+                        description: "[ACT] [ONCE PER TURN] [Send 1 bond card to the Retreat Area] Choose up to 3 non-lord enemies with a deployment cost of 2 or lower, and destroy them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

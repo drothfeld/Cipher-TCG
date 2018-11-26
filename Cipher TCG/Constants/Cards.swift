@@ -3484,3 +3484,25 @@ let b15_0BB = Card(series: "B15-0BBSR",
                    supportingSkill: none,
                    skills: [rage_forth_excalibur, victory_beckoning_wind],
                    cardImageName: "B15-0BB.png")
+
+let b15_0BC = Card(series: "B15-0BCN",
+                   name: "Altena: Thracian-Raised Princess",
+                   rarity: normal,
+                   insignia: holy_war_flag,
+                   attack: 30,
+                   support: 30,
+                   illustrator: masaki_hirooka,
+                   supportingSkill: flying_emblem,
+                   skills: [flowing_blood_of_righteousness],
+                   cardImageName: "B15-0BC.png")
+
+let b15_0BD = Card(series: "B15-0BDSR",
+                   name: "Altena: Wishing for a Warless World",
+                   rarity: secret_rare,
+                   insignia: holy_war_flag,
+                   attack: 60,
+                   support: 30,
+                   illustrator: masaki_hirooka,
+                   supportingSkill: none,
+                   skills: [prayer_upon_the_gae_bolg, oath_upon_gungnir],
+                   cardImageName: "B15-0BD.png")

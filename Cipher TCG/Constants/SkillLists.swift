@@ -555,4 +555,7 @@ let rawSkillsList: [Skill] = [
     sworn_to_protect_you,
     rage_forth_excalibur,
     victory_beckoning_wind,
+    flowing_blood_of_righteousness,
+    prayer_upon_the_gae_bolg,
+    oath_upon_gungnir,
 ]
