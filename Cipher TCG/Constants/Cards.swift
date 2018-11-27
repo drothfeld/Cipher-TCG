@@ -3506,3 +3506,25 @@ let b15_0BD = Card(series: "B15-0BDSR",
                    supportingSkill: none,
                    skills: [prayer_upon_the_gae_bolg, oath_upon_gungnir],
                    cardImageName: "B15-0BD.png")
+
+let b15_0BE = Card(series: "B15-0BEN",
+                   name: "Leo: Cunning Prince",
+                   rarity: normal,
+                   insignia: nohr,
+                   attack: 30,
+                   support: 20,
+                   illustrator: misei_ito,
+                   supportingSkill: darkness_emblem,
+                   skills: [lifetaker],
+                   cardImageName: "B15-0BE.png")
+
+let b15_0BF = Card(series: "B15-0BFR",
+                   name: "Leo: Prince of Chilling Dark Magic Onslaughts",
+                   rarity: rare,
+                   insignia: nohr,
+                   attack: 50,
+                   support: 20,
+                   illustrator: misei_ito,
+                   supportingSkill: none,
+                   skills: [lightpiercing_demon_eye, resonance_of_dragons_blood, into_gravitys_depths],
+                   cardImageName: "B15-0BF.png")

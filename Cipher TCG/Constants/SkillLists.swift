@@ -558,4 +558,7 @@ let rawSkillsList: [Skill] = [
     flowing_blood_of_righteousness,
     prayer_upon_the_gae_bolg,
     oath_upon_gungnir,
+    lifetaker,
+    lightpiercing_demon_eye,
+    into_gravitys_depths,
 ]

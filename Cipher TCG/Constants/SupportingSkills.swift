@@ -24,6 +24,10 @@ let magic_emblem = SupportingSkill(type: "Magic Emblem",
                                    textDescription: "Draw 1 card, then discard 1 card.",
                                    iconImageName: "28px-Attack_Support.png")
 
+let darkness_emblem = SupportingSkill(type: "Darkness Emblem",
+                                   textDescription: "If your opponent has 5 or more cards in their hand, your opponent chooses 1 card from their hand and sends it to the Retreat Area.",
+                                   iconImageName: "28px-Attack_Support.png")
+
 let flying_emblem = SupportingSkill(type: "Flying Emblem",
                                     textDescription: "You may choose one ally that is not the attacking unit, and move it.",
                                     iconImageName: "28px-Attack_Support.png")

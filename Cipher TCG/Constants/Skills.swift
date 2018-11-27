@@ -4399,3 +4399,27 @@ let oath_upon_gungnir = Skill(name: "Oath Upon Gungnir",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let lifetaker = Skill(name: "Lifetaker",
+                        description: "[TRIGGER] [FLIP 2] When this unit's attack destroys an enemy, you may pay the cost and if you do: Choose 1 Leo from your Retreat Area, and add it to your hand.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let lightpiercing_demon_eye = Skill(name: "Lightpiercing Demon Eye",
+                        description: "[DB] [ACT] [TAP] Choose 1 non-lord <Tome> enemy, and destroy them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let into_gravitys_depths = Skill(name: "Into Gravity's Depths",
+                        description: "[ALWAYS] Enemies destroyed by the effect of an ally's skill are sent to the Boundless Area instead of the Retreat Area.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
