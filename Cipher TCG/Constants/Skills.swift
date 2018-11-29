@@ -4455,3 +4455,19 @@ let commander_of_soaring_knights = Skill(name: "Commander of Soaring Knights",
                         flipOrb: false,
                         tapUnit: true,
                         CCS: false)
+
+let friends_hand_in_hand = Skill(name: "Friends Hand-in-Hand",
+                        description: "[ALWAYS] If the card supporting this unit is <Yellow>, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let fated_partings_and_meetings = Skill(name: "Fated Partings and Meetings",
+                        description: "[ACT] [ONCE PER TURN] [FLIP 2] Choose 2 face-down bond cards, and flip them face-up.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

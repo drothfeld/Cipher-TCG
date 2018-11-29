@@ -164,6 +164,7 @@
 		B0497C0A21A0BB9E005E5910 /* Illustrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0497C0921A0BB9E005E5910 /* Illustrator.swift */; };
 		B0497C0C21A0BBFC005E5910 /* Illustrators.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0497C0B21A0BBFC005E5910 /* Illustrators.swift */; };
 		B0533FF021957AFC00D9A5DA /* B15-0AI.png in Resources */ = {isa = PBXBuildFile; fileRef = B0533FEF21957AFC00D9A5DA /* B15-0AI.png */; };
+		B0540A0121B077C600BEDE6B /* B15-0BJ.png in Resources */ = {isa = PBXBuildFile; fileRef = B0540A0021B077C600BEDE6B /* B15-0BJ.png */; };
 		B054BBB3200E68AE004159A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBB2200E68AE004159A6 /* AppDelegate.swift */; };
 		B054BBB5200E68AE004159A6 /* CardListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBB4200E68AE004159A6 /* CardListViewController.swift */; };
 		B054BBB8200E68AE004159A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B054BBB6200E68AE004159A6 /* Main.storyboard */; };
@@ -554,6 +555,7 @@
 		B0497C0921A0BB9E005E5910 /* Illustrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Illustrator.swift; sourceTree = "<group>"; };
 		B0497C0B21A0BBFC005E5910 /* Illustrators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Illustrators.swift; sourceTree = "<group>"; };
 		B0533FEF21957AFC00D9A5DA /* B15-0AI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-0AI.png"; sourceTree = "<group>"; };
+		B0540A0021B077C600BEDE6B /* B15-0BJ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-0BJ.png"; sourceTree = "<group>"; };
 		B054BBAF200E68AE004159A6 /* Cipher TCG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cipher TCG.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B054BBB2200E68AE004159A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B054BBB4200E68AE004159A6 /* CardListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewController.swift; sourceTree = "<group>"; };
@@ -1376,6 +1378,7 @@
 				B05AEAA421AF67600000D222 /* B15-0BG.png */,
 				B05AEAA521AF67610000D222 /* B15-0BH.png */,
 				B05AEAA621AF67610000D222 /* B15-0BI.png */,
+				B0540A0021B077C600BEDE6B /* B15-0BJ.png */,
 			);
 			path = B15;
 			sourceTree = "<group>";
@@ -1684,6 +1687,7 @@
 				B03D57F42012CD14007A3E97 /* B10-059.png in Resources */,
 				B0FEF2632167D69C00B27A28 /* B14-080.png in Resources */,
 				B0951F1A2149759200B3ABBB /* B14-060.png in Resources */,
+				B0540A0121B077C600BEDE6B /* B15-0BJ.png in Resources */,
 				B0FD329120C9A49A00B1D2E6 /* B12-053.png in Resources */,
 				B03D57D22012CCE9007A3E97 /* S03-002.png in Resources */,
 				B054BBBA200E68AE004159A6 /* Assets.xcassets in Resources */,

@@ -565,4 +565,6 @@ let rawSkillsList: [Skill] = [
     free_wing,
     wyvern_messenger,
     commander_of_soaring_knights,
+    friends_hand_in_hand,
+    fated_partings_and_meetings,
 ]

@@ -3561,3 +3561,14 @@ let b15_0BI = Card(series: "B15-0BIR",
                    supportingSkill: none,
                    skills: [three_wyrm_triangle_attack, commander_of_soaring_knights],
                    cardImageName: "B15-0BI.png")
+
+let b15_0BJ = Card(series: "B15-0BJR",
+                   name: "Seliph: Pledge of Friendship",
+                   rarity: rare,
+                   insignia: holy_war_flag,
+                   attack: 60,
+                   support: 20,
+                   illustrator: rika_suzuki,
+                   supportingSkill: none,
+                   skills: [friends_hand_in_hand, fated_partings_and_meetings],
+                   cardImageName: "B15-0BJ.png")
