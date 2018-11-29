@@ -4423,3 +4423,35 @@ let into_gravitys_depths = Skill(name: "Into Gravity's Depths",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let three_wyrm_triangle_attack = Skill(name: "Three-Wyrm Triangle Attack",
+                        description: "[ALWAYS] If you have an allied Palla, Catria and Est, this unit gains +30 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let free_wing = Skill(name: "Free Wing",
+                        description: "[TRIGGER] [FLIP 1] Each time a <Flier> ally evades, you may pay the cost and if you do: Draw 1 card.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let wyvern_messenger = Skill(name: "Wyvern Messenger",
+                        description: "[TRIGGER] At the end of each player's turn, you may choose up to 2 <Flier> allies and move them.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let commander_of_soaring_knights = Skill(name: "Commander of Soaring Knights",
+                        description: "[ACT] [TAP, FLIP 1] Choose 1 <Flier> card with a deployment cost of 4 or lower from your hand, and deploy it.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)

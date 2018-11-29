@@ -3528,3 +3528,36 @@ let b15_0BF = Card(series: "B15-0BFR",
                    supportingSkill: none,
                    skills: [lightpiercing_demon_eye, resonance_of_dragons_blood, into_gravitys_depths],
                    cardImageName: "B15-0BF.png")
+
+let b15_0BG = Card(series: "B15-0BGR",
+                   name: "Est: Scarlet Dracoknight",
+                   rarity: rare,
+                   insignia: blade_of_light,
+                   attack: 60,
+                   support: 30,
+                   illustrator: mayo,
+                   supportingSkill: none,
+                   skills: [three_wyrm_triangle_attack, free_wing],
+                   cardImageName: "B15-0BG.png")
+
+let b15_0BH = Card(series: "B15-0BHR",
+                   name: "Catria: Blueflash Dracoknight",
+                   rarity: rare,
+                   insignia: blade_of_light,
+                   attack: 60,
+                   support: 30,
+                   illustrator: mayo,
+                   supportingSkill: none,
+                   skills: [three_wyrm_triangle_attack, wyvern_messenger],
+                   cardImageName: "B15-0BH.png")
+
+let b15_0BI = Card(series: "B15-0BIR",
+                   name: "Palla: Greenwind Dracoknight",
+                   rarity: rare,
+                   insignia: blade_of_light,
+                   attack: 60,
+                   support: 30,
+                   illustrator: mayo,
+                   supportingSkill: none,
+                   skills: [three_wyrm_triangle_attack, commander_of_soaring_knights],
+                   cardImageName: "B15-0BI.png")

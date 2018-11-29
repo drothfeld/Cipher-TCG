@@ -561,4 +561,8 @@ let rawSkillsList: [Skill] = [
     lifetaker,
     lightpiercing_demon_eye,
     into_gravitys_depths,
+    three_wyrm_triangle_attack,
+    free_wing,
+    wyvern_messenger,
+    commander_of_soaring_knights,
 ]

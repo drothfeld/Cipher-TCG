@@ -177,6 +177,9 @@
 		B054BBE5200EA4DA004159A6 /* SupportingSkills.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBE4200EA4DA004159A6 /* SupportingSkills.swift */; };
 		B054BBE7200EA5E0004159A6 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBE6200EA5E0004159A6 /* Card.swift */; };
 		B054BBE9200EAC3C004159A6 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBE8200EAC3C004159A6 /* Cards.swift */; };
+		B05AEAA721AF67610000D222 /* B15-0BG.png in Resources */ = {isa = PBXBuildFile; fileRef = B05AEAA421AF67600000D222 /* B15-0BG.png */; };
+		B05AEAA821AF67610000D222 /* B15-0BH.png in Resources */ = {isa = PBXBuildFile; fileRef = B05AEAA521AF67610000D222 /* B15-0BH.png */; };
+		B05AEAA921AF67610000D222 /* B15-0BI.png in Resources */ = {isa = PBXBuildFile; fileRef = B05AEAA621AF67610000D222 /* B15-0BI.png */; };
 		B05D319720EA9ACD008599B3 /* 30px-Colorless.png in Resources */ = {isa = PBXBuildFile; fileRef = B05D319620EA9ACD008599B3 /* 30px-Colorless.png */; };
 		B06409C72165AF6800753A7F /* B14-017.png in Resources */ = {isa = PBXBuildFile; fileRef = B06409C62165AF6700753A7F /* B14-017.png */; };
 		B06409CA2165B0BE00753A7F /* B14-031.png in Resources */ = {isa = PBXBuildFile; fileRef = B06409C82165B0BE00753A7F /* B14-031.png */; };
@@ -566,6 +569,9 @@
 		B054BBE4200EA4DA004159A6 /* SupportingSkills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportingSkills.swift; sourceTree = "<group>"; };
 		B054BBE6200EA5E0004159A6 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		B054BBE8200EAC3C004159A6 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		B05AEAA421AF67600000D222 /* B15-0BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-0BG.png"; sourceTree = "<group>"; };
+		B05AEAA521AF67610000D222 /* B15-0BH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-0BH.png"; sourceTree = "<group>"; };
+		B05AEAA621AF67610000D222 /* B15-0BI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-0BI.png"; sourceTree = "<group>"; };
 		B05D319620EA9ACD008599B3 /* 30px-Colorless.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "30px-Colorless.png"; sourceTree = "<group>"; };
 		B06409C62165AF6700753A7F /* B14-017.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B14-017.png"; sourceTree = "<group>"; };
 		B06409C82165B0BE00753A7F /* B14-031.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B14-031.png"; sourceTree = "<group>"; };
@@ -1367,6 +1373,9 @@
 				B016218721AC801400E7D8A0 /* B15-0BD.png */,
 				B0BA76A521ADC6CA00A805AB /* B15-0BE.png */,
 				B0BA76A421ADC6CA00A805AB /* B15-0BF.png */,
+				B05AEAA421AF67600000D222 /* B15-0BG.png */,
+				B05AEAA521AF67610000D222 /* B15-0BH.png */,
+				B05AEAA621AF67610000D222 /* B15-0BI.png */,
 			);
 			path = B15;
 			sourceTree = "<group>";
@@ -1512,6 +1521,7 @@
 				B01B2EDD215FF9FA00ACA461 /* B14-064.png in Resources */,
 				B0DA71D620EC1CB500AC6AB5 /* B13-060.png in Resources */,
 				B0810B1120C839BE0003EC6C /* B12-001.png in Resources */,
+				B05AEAA821AF67610000D222 /* B15-0BH.png in Resources */,
 				B0FD328520C99C2F00B1D2E6 /* B12-071.png in Resources */,
 				B094C48B21370D1800DC2870 /* B14-059.png in Resources */,
 				B048FE3C2020DD13007F1525 /* B11-073.png in Resources */,
@@ -1734,6 +1744,7 @@
 				B0810B1020C839BE0003EC6C /* B12-002.png in Resources */,
 				B071C4B6216C36FC00072668 /* B06-076.png in Resources */,
 				B071C4AE216C32C900072668 /* B10-063.png in Resources */,
+				B05AEAA921AF67610000D222 /* B15-0BI.png in Resources */,
 				B08A6B242017A43500603113 /* B01-078.png in Resources */,
 				B03D57F92012CD14007A3E97 /* B10-086.png in Resources */,
 				B0803DF320FBC8A9002CCCD8 /* B11-008.png in Resources */,
@@ -1795,6 +1806,7 @@
 				B019AB28218A4205004B7D73 /* B13-009.png in Resources */,
 				B048FE34201F8BA9007F1525 /* B05-051.png in Resources */,
 				B0156CE020E49E3E00B107F0 /* B01-075.png in Resources */,
+				B05AEAA721AF67610000D222 /* B15-0BG.png in Resources */,
 				B03D58002012CD14007A3E97 /* B10-055.png in Resources */,
 				B03D57DF2012CCEF007A3E97 /* 30px-White.png in Resources */,
 				B0FB30AA2107B8510032896D /* B12-016.png in Resources */,
