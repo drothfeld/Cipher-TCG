@@ -567,4 +567,7 @@ let rawSkillsList: [Skill] = [
     commander_of_soaring_knights,
     friends_hand_in_hand,
     fated_partings_and_meetings,
+    assassination_mission,
+    silent_arrow_of_death,
+    darkness_piercing_eye,
 ]

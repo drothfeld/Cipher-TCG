@@ -3572,3 +3572,25 @@ let b15_0BJ = Card(series: "B15-0BJR",
                    supportingSkill: none,
                    skills: [friends_hand_in_hand, fated_partings_and_meetings],
                    cardImageName: "B15-0BJ.png")
+
+let b15_0BK = Card(series: "B15-0BKN",
+                   name: "Clarisse: Clandestine Shadow",
+                   rarity: normal,
+                   insignia: blade_of_light,
+                   attack: 30,
+                   support: 20,
+                   illustrator: mayo,
+                   supportingSkill: bullseye_emblem,
+                   skills: [assassination_mission, wingbane],
+                   cardImageName: "B15-0BK.png")
+
+let b15_0BL = Card(series: "B15-0BLSR",
+                  name: "Clarisse: Slaughterous Puppet",
+                  rarity: secret_rare,
+                  insignia: blade_of_light,
+                  attack: 60,
+                  support: 20,
+                  illustrator: mayo,
+                  supportingSkill: none,
+                  skills: [silent_arrow_of_death, darkness_piercing_eye, wingbane],
+                  cardImageName: "B15-0BL.png")

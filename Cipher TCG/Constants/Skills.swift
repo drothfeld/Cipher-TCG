@@ -4471,3 +4471,27 @@ let fated_partings_and_meetings = Skill(name: "Fated Partings and Meetings",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let assassination_mission = Skill(name: "Assassination Mission",
+                        description: "[ACT] [TAP, FLIP 1] Choose 1 non-lord enemy with a deployment cost of 1, and destroy them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let silent_arrow_of_death = Skill(name: "Silent Arrow of Death",
+                        description: "[ACT] [ONCE PER TURN] Choose 1 of your opponent's orbs, and reveal it. If that orb has the same unit name as your opponent's lord, send that orb to the Boundless Area.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let darkness_piercing_eye = Skill(name: "Darkness-Piercing Eye",
+                        description: "[ALWAYS] Non-lord enemies in the Back Line cannot evade.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
