@@ -3594,3 +3594,25 @@ let b15_0BL = Card(series: "B15-0BLSR",
                   supportingSkill: none,
                   skills: [silent_arrow_of_death, darkness_piercing_eye, wingbane],
                   cardImageName: "B15-0BL.png")
+
+let b15_0BM = Card(series: "B15-0BMN",
+                   name: "Elise: Bud in Bloom on the Dark Path",
+                   rarity: normal,
+                   insignia: nohr,
+                   attack: 20,
+                   support: 20,
+                   illustrator: kawasumi,
+                   supportingSkill: miracle_emblem,
+                   skills: [heal, family_loving_girl],
+                   cardImageName: "B15-0BM.png")
+
+let b15_0BN = Card(series: "B15-0BNR",
+                   name: "Elise: Pure Princess of Vivid Flowers",
+                   rarity: rare,
+                   insignia: nohr,
+                   attack: 50,
+                   support: 20,
+                   illustrator: kawasumi,
+                   supportingSkill: none,
+                   skills: [darkness_illuminating_smile, resonance_of_dragons_blood, young_princesss_tactic],
+                   cardImageName: "B15-0BN.png")

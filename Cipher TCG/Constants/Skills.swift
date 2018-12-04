@@ -4495,3 +4495,27 @@ let darkness_piercing_eye = Skill(name: "Darkness-Piercing Eye",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let family_loving_girl = Skill(name: "Family-Loving Girl",
+                        description: "[TRIGGER] [ONCE PER TURN] When your lord is being attacked, until the end of this combat, your lord gains +10 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let darkness_illuminating_smile = Skill(name: "Darkness-Illuminating Smile",
+                        description: "[DB] [ACT] [TAP] Choose 1 enemy in the Back Line, and move them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let young_princesss_tactic = Skill(name: "Young Princess's Tactic",
+                        description: "[TRIGGER] [FLIP 1] When your turn ends, you may pay the cost and if you do: Your opponent returns all cards in their Retreat Area to their deck. Then, they shuffle their deck.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

@@ -570,4 +570,7 @@ let rawSkillsList: [Skill] = [
     assassination_mission,
     silent_arrow_of_death,
     darkness_piercing_eye,
+    family_loving_girl,
+    darkness_illuminating_smile,
+    young_princesss_tactic,
 ]
