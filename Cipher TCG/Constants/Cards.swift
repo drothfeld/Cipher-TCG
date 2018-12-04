@@ -3616,3 +3616,25 @@ let b15_0BN = Card(series: "B15-0BNR",
                    supportingSkill: none,
                    skills: [darkness_illuminating_smile, resonance_of_dragons_blood, young_princesss_tactic],
                    cardImageName: "B15-0BN.png")
+
+let b15_0BO = Card(series: "B15-0BON",
+                   name: "Reinhardt: The Goddess of Thunder's Adjutant",
+                   rarity: normal,
+                   insignia: holy_war_flag,
+                   attack: 30,
+                   support: 20,
+                   illustrator: kotaro_yamada,
+                   supportingSkill: magic_emblem,
+                   skills: [princesss_guardian],
+                   cardImageName: "B15-0BO.png")
+
+let b15_0BP = Card(series: "B15-0BPSR",
+                   name: "Reinhardt: The Crusader Thrud Reborn",
+                   rarity: secret_rare,
+                   insignia: holy_war_flag,
+                   attack: 60,
+                   support: 20,
+                   illustrator: kotaro_yamada,
+                   supportingSkill: none,
+                   skills: [unsilenceable_dire_thunder, nobleminded_warrior, veteran_general],
+                   cardImageName: "B15-0BP.png")

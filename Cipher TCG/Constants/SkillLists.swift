@@ -573,4 +573,8 @@ let rawSkillsList: [Skill] = [
     family_loving_girl,
     darkness_illuminating_smile,
     young_princesss_tactic,
+    princesss_guardian,
+    unsilenceable_dire_thunder,
+    nobleminded_warrior,
+    veteran_general,
 ]

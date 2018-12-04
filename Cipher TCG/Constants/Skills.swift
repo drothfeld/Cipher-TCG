@@ -4519,3 +4519,35 @@ let young_princesss_tactic = Skill(name: "Young Princess's Tactic",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let princesss_guardian = Skill(name: "Princess's Guardian",
+                        description: "[ACT] [TAP, FLIP 2] Choose 1 non-lord enemy with a deployment cost of 1, and destroy then. Once you do, draw 1 card.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let unsilenceable_dire_thunder = Skill(name: "Unsilenceable Dire Thunder",
+                        description: "[TRIGGER] [Send 1 card from your hand to the Retreat Area] Each time this unit's attack destroys a non-lord enemy, you may pay the cost and if you do: Untap this unit.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let nobleminded_warrior = Skill(name: "Nobleminded Warrior",
+                        description: "[TRIGGER] Each time you untap this unit, until the end of the turn, this unit gains +20 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let veteran_general = Skill(name: "Veteran General",
+                        description: "[ACT] [ONCE PER TURN] [FLIP 2] If this unit has 100 or higher attack, draw 2 cards.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
