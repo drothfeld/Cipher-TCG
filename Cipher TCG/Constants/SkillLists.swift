@@ -577,4 +577,6 @@ let rawSkillsList: [Skill] = [
     unsilenceable_dire_thunder,
     nobleminded_warrior,
     veteran_general,
+    saint_born_of_heroic_blood,
+    aum_staff_of_resurrection,
 ]

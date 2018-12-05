@@ -3638,3 +3638,14 @@ let b15_0BP = Card(series: "B15-0BPSR",
                    supportingSkill: none,
                    skills: [unsilenceable_dire_thunder, nobleminded_warrior, veteran_general],
                    cardImageName: "B15-0BP.png")
+
+let b15_0BQ = Card(series: "B15-0BQR",
+                   name: "Elice: Legend-Bearing Princess",
+                   rarity: rare,
+                   insignia: blade_of_light,
+                   attack: 50,
+                   support: 20,
+                   illustrator: senri_kita,
+                   supportingSkill: none,
+                   skills: [saint_born_of_heroic_blood, aum_staff_of_resurrection],
+                   cardImageName: "B15-0BQ.png")

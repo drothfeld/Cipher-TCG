@@ -4551,3 +4551,19 @@ let veteran_general = Skill(name: "Veteran General",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let saint_born_of_heroic_blood = Skill(name: "Saint Born of Heroic Blood",
+                        description: "[ACT] [TAP, FLIP 1] Choose 1 <Red> card with the same unit name as your lord from your Retreat Area, and add it to your hand.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let aum_staff_of_resurrection = Skill(name: "Aum: Staff of Resurrection",
+                        description: "[ACT] [TAP, FLIP 2] Choose 1 card with a deployment cost of 5 or lower from your Boundless Area, and deploy it.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
