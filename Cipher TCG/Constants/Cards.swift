@@ -3649,3 +3649,25 @@ let b15_0BQ = Card(series: "B15-0BQR",
                    supportingSkill: none,
                    skills: [saint_born_of_heroic_blood, aum_staff_of_resurrection],
                    cardImageName: "B15-0BQ.png")
+
+let b15_0BR = Card(series: "B15-0BRN",
+                   name: "Jakob: Aiming to be a Top-Class Butler",
+                   rarity: normal,
+                   insignia: nohr,
+                   attack: 20,
+                   support: 20,
+                   illustrator: nnekora,
+                   supportingSkill: miracle_emblem,
+                   skills: [heal, rigorous_dagger_training],
+                   cardImageName: "B15-0BR.png")
+
+let b15_0BS = Card(series: "B15-0BSSR",
+                   name: "Jakob: Yes, Your Highness",
+                   rarity: secret_rare,
+                   insignia: nohr,
+                   attack: 60,
+                   support: 20,
+                   illustrator: nnekora,
+                   supportingSkill: none,
+                   skills: [for_you_my_last_resort, tomebreaking_silver_blade],
+                   cardImageName: "B15-0BS.png")

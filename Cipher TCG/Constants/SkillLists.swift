@@ -579,4 +579,7 @@ let rawSkillsList: [Skill] = [
     veteran_general,
     saint_born_of_heroic_blood,
     aum_staff_of_resurrection,
+    rigorous_dagger_training,
+    for_you_my_last_resort,
+    tomebreaking_silver_blade,
 ]

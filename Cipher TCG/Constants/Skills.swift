@@ -4567,3 +4567,27 @@ let aum_staff_of_resurrection = Skill(name: "Aum: Staff of Resurrection",
                         flipOrb: false,
                         tapUnit: true,
                         CCS: false)
+
+let rigorous_dagger_training = Skill(name: "Rigorous Dagger Training",
+                        description: "[ACT] [ONCE PER TURN] [FLIP 1] Until the end of the turn, this unit gains +10 attack, <Knife>, and range 1-2.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let for_you_my_last_resort = Skill(name: "For You, My Last Resort",
+                        description: "[TRIGGER] [TAP, FLIP 2] When an other ally attacks, you may pay the cost and if you do: That ally's attack cannot be evaded.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let tomebreaking_silver_blade = Skill(name: "Tomebreaking Silver Blade",
+                        description: "[ALWAYS] This unit cannot be destroyed by <Tome> enemies' attacks. [ALWAYS] This unit cannot be destroyed as the effect of <Tome> enemies' skills.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
