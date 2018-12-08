@@ -3671,3 +3671,14 @@ let b15_0BS = Card(series: "B15-0BSSR",
                    supportingSkill: none,
                    skills: [for_you_my_last_resort, tomebreaking_silver_blade],
                    cardImageName: "B15-0BS.png")
+
+let b15_0BT = Card(series: "B15-0BTSR",
+                   name: "Katarina: With a Joyful Dream",
+                   rarity: secret_rare,
+                   insignia: blade_of_light,
+                   attack: 60,
+                   support: 20,
+                   illustrator: geso_umiu,
+                   supportingSkill: none,
+                   skills: [fated_moment_of_change, tomebreaking_silver_blade, indelible_bond],
+                   cardImageName: "B15-0BT.png")

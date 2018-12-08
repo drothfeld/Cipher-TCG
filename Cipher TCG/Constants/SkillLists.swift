@@ -582,4 +582,6 @@ let rawSkillsList: [Skill] = [
     rigorous_dagger_training,
     for_you_my_last_resort,
     tomebreaking_silver_blade,
+    sinful_magelight,
+    indelible_bond,
 ]

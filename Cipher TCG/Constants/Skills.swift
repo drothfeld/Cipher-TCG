@@ -4591,3 +4591,19 @@ let tomebreaking_silver_blade = Skill(name: "Tomebreaking Silver Blade",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let sinful_magelight = Skill(name: "Sinful Magelight",
+                        description: "[TAP, Send 1 Katarina from your hand to the Retreat Area] Choose 1 of your opponent's orbs, reveal it, and send it to the Boundless Area.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let indelible_bond = Skill(name: "Indelible Bond",
+                        description: "[ALWAYS] During your turn, your <Red> lord gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
