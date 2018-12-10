@@ -4607,3 +4607,19 @@ let indelible_bond = Skill(name: "Indelible Bond",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let man_made_monster = Skill(name: "Man-Made Monster",
+                        description: "[SPECIAL] You may deploy this card even if you already have an allied Faceless, and you may have 2 or more allied Faceless at once. [SPECIAL] You may have 5 or more cards with the same card name as this card in your deck.",
+                        colorType: UIColor.purple,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let roar_in_unison = Skill(name: "Roar in Unison",
+                        description: "[ALWAYS] For each other allied Faceless, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

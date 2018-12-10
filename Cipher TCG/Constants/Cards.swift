@@ -3682,3 +3682,14 @@ let b15_0BT = Card(series: "B15-0BTSR",
                    supportingSkill: none,
                    skills: [fated_moment_of_change, tomebreaking_silver_blade, indelible_bond],
                    cardImageName: "B15-0BT.png")
+
+let b15_0BU = Card(series: "B15-0BUN",
+                   name: "Faceless: Heartless Monster",
+                   rarity: normal,
+                   insignia: nohr,
+                   attack: 40,
+                   support: 0,
+                   illustrator: cherokee,
+                   supportingSkill: none,
+                   skills: [man_made_monster, roar_in_unison],
+                   cardImageName: "B15-0BU.png")
