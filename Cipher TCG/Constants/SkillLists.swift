@@ -586,4 +586,6 @@ let rawSkillsList: [Skill] = [
     indelible_bond,
     man_made_monster,
     roar_in_unison,
+    bold_shadow,
+    corrupted_divine_bow,
 ]

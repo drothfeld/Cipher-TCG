@@ -4623,3 +4623,20 @@ let roar_in_unison = Skill(name: "Roar in Unison",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let bold_shadow = Skill(name: "Bold Shadow",
+                        description: "[SPECIAL] You may deploy this card even if you already have an allied Takumi. [ALWAYS] You may have maximum of 2 Takumis on the battlefield at a time.",
+                        colorType: UIColor.purple,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let corrupted_divine_bow = Skill(name: "Corrupted Divine Bow",
+                        description: "[ACT] [FLIP 1] Until the end of the turn, this unit may attack enemies regardless of range.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+

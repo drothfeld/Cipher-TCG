@@ -3693,3 +3693,14 @@ let b15_0BU = Card(series: "B15-0BUN",
                    supportingSkill: none,
                    skills: [man_made_monster, roar_in_unison],
                    cardImageName: "B15-0BU.png")
+
+let b15_0BV = Card(series: "B15-0BVHN",
+                   name: "Takumi: Evil Bow-Bearing Kin",
+                   rarity: high_normal,
+                   insignia: hoshido,
+                   attack: 70,
+                   support: 0,
+                   illustrator: setsu,
+                   supportingSkill: none,
+                   skills: [bold_shadow, corrupted_divine_bow, wingbane],
+                   cardImageName: "B15-0BV.png")
