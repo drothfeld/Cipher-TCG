@@ -4640,3 +4640,19 @@ let corrupted_divine_bow = Skill(name: "Corrupted Divine Bow",
                         tapUnit: false,
                         CCS: false)
 
+let warriors_of_the_luminous_clouds = Skill(name: "Warriors of the Luminous Clouds",
+                        description: "[ACT] [ONCE PER TURN] [FLIP 2] Choose 1 <Bow> or <Lance> card with a deployment cost of 4 or lower from your Retreat Area, and deploy them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let heiress_to_the_fujin_yumi = Skill(name: "Heiress to the Fujin Yumi",
+                        description: "[ACT] [ONCE PER TURN] [Tap 1 ally] Choose as many allies as you wish, and move them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+

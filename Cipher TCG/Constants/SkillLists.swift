@@ -588,4 +588,6 @@ let rawSkillsList: [Skill] = [
     roar_in_unison,
     bold_shadow,
     corrupted_divine_bow,
+    warriors_of_the_luminous_clouds,
+    heiress_to_the_fujin_yumi,
 ]

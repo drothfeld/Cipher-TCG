@@ -3704,3 +3704,14 @@ let b15_0BV = Card(series: "B15-0BVHN",
                    supportingSkill: none,
                    skills: [bold_shadow, corrupted_divine_bow, wingbane],
                    cardImageName: "B15-0BV.png")
+
+let b15_0BW = Card(series: "B15-0BWSR",
+                   name: "Hinoka: Heavenly Queen of the Shining Sun",
+                   rarity: secret_rare,
+                   insignia: hoshido,
+                   attack: 60,
+                   support: 30,
+                   illustrator: kaoru_hagiya,
+                   supportingSkill: none,
+                   skills: [warriors_of_the_luminous_clouds, heiress_to_the_fujin_yumi, wingbane],
+                   cardImageName: "B15-0BW.png")
