@@ -590,4 +590,7 @@ let rawSkillsList: [Skill] = [
     corrupted_divine_bow,
     warriors_of_the_luminous_clouds,
     heiress_to_the_fujin_yumi,
+    i_dub_you_a_knight_of_altea,
+    his_brothers_talent,
+    growing_archer,
 ]

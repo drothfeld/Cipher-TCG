@@ -3188,6 +3188,17 @@ let b15_001 = Card(series: "B15-001R",
                    skills: [fated_moment_of_change, hero_of_light, falchion],
                    cardImageName: "B15-001.png")
 
+let b15_002 = Card(series: "B15-002N",
+                   name: "Marth: Altean Hero-Prince",
+                   rarity: normal,
+                   insignia: blade_of_light,
+                   attack: 40,
+                   support: 20,
+                   illustrator: daisuke_izuka,
+                   supportingSkill: tandem_emblem,
+                   skills: [i_dub_you_a_knight_of_altea],
+                   cardImageName: "B15-002.png")
+
 let b15_003 = Card(series: "B15-003R",
                    name: "Kris (M): Another Hero",
                    rarity: rare,
@@ -3231,6 +3242,28 @@ let b15_006 = Card(series: "B15-006N",
                    supportingSkill: tactical_emblem,
                    skills: [tactician_of_the_7th_platoon],
                    cardImageName: "B15-006.png")
+
+let b15_007 = Card(series: "B15-007HN",
+                   name: "Ryan: Veteran Sniper",
+                   rarity: high_normal,
+                   insignia: blade_of_light,
+                   attack: 50,
+                   support: 20,
+                   illustrator: douji_shiki,
+                   supportingSkill: none,
+                   skills: [his_brothers_talent, wingbane],
+                   cardImageName: "B15-007.png")
+
+let b15_008 = Card(series: "B15-008N",
+                   name: "Ryan: Little Archer",
+                   rarity: normal,
+                   insignia: blade_of_light,
+                   attack: 30,
+                   support: 20,
+                   illustrator: douji_shiki,
+                   supportingSkill: bullseye_emblem,
+                   skills: [growing_archer, wingbane],
+                   cardImageName: "B15-008.png")
 
 let b15_013 = Card(series: "B15-013SR",
                    name: "Merric: The Supreme Magic's Chosen One",

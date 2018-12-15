@@ -4656,3 +4656,27 @@ let heiress_to_the_fujin_yumi = Skill(name: "Heiress to the Fujin Yumi",
                         tapUnit: false,
                         CCS: false)
 
+let i_dub_you_a_knight_of_altea = Skill(name: "I dub you a knight of Altea.",
+                        description: "Once Per Turn [ Flip 1 Bond ] Until the end of the turn, your lord gains +10 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let his_brothers_talent = Skill(name: "His Brother's Talent",
+                        description: "Once Per Turn [ Flip 1 Bond ] When this unit's attack destroys a Flying enemy, you may pay the cost and if you do: Untap this unit.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let growing_archer = Skill(name: "Growing Archer",
+                        description: "If this unit is attacking an enemy with a deployment cost of 1, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
