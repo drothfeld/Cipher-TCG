@@ -3320,6 +3320,50 @@ let b15_013 = Card(series: "B15-013SR",
                    skills: [rage_forth_excalibur, victory_beckoning_wind],
                    cardImageName: "B15-013.png")
 
+let b15_014 = Card(series: "B15-014N",
+                   name: "Merric: Khadeinite Mage",
+                   rarity: normal,
+                   insignia: blade_of_light,
+                   attack: 30,
+                   support: 20,
+                   illustrator: bisai,
+                   supportingSkill: magic_emblem,
+                   skills: [studious_mages],
+                   cardImageName: "B15-014.png")
+
+let b15_015 = Card(series: "B15-015SR",
+                   name: "Ogma: In the Wilds of Endless Battle",
+                   rarity: secret_rare,
+                   insignia: blade_of_light,
+                   attack: 70,
+                   support: 10,
+                   illustrator: nijihayashi,
+                   supportingSkill: none,
+                   skills: [mercurius_of_the_regalia, we_are_not_gods_of_war],
+                   cardImageName: "B15-015.png")
+
+let b15_016 = Card(series: "B15-016HN",
+                   name: "Ogma: Talysian Hero",
+                   rarity: high_normal,
+                   insignia: blade_of_light,
+                   attack: 60,
+                   support: 10,
+                   illustrator: nijihayashi,
+                   supportingSkill: none,
+                   skills: [reowned_heavy_blade, a_lecture_of_warfare],
+                   cardImageName: "B15-016.png")
+
+let b15_017 = Card(series: "B15-017HN",
+                   name: "Ogma: Ex-Gladiator Mercenary",
+                   rarity: high_normal,
+                   insignia: blade_of_light,
+                   attack: 40,
+                   support: 10,
+                   illustrator: nijihayashi,
+                   supportingSkill: attack_emblem,
+                   skills: [lawless_battle],
+                   cardImageName: "B15-017.png")
+
 let b15_018 = Card(series: "B15-018R",
                    name: "Est: Scarlet Dracoknight",
                    rarity: rare,

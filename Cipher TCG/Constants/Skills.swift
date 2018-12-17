@@ -4727,3 +4727,51 @@ let fervent_partner = Skill(name: "Fervent Partner",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let studious_mages = Skill(name: "Studious Mages",
+                        description: "Once Per Turn [Tap 1 other Tome ally] Until the end of the turn, this unit gains +20 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let mercurius_of_the_regalia = Skill(name: "Mercurius of the Regalia",
+                        description: "Once Per Turn [ Flip 2 Bonds ] Until the end of the turn, the number of orbs that this unit's attack will destroy is increased by 1 per other ally you have.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let we_are_not_gods_of_war = Skill(name: "We Are Not Gods of War",
+                        description: "If an ally in the Front Line is attacking your opponent's lord, that ally gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let reowned_heavy_blade = Skill(name: "Renowned Heavy Blade",
+                        description: "If this unit is attacking your opponent's lord, this unit gains +30 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let a_lecture_of_warfare = Skill(name: "A Lecture on Warfare",
+                        description: "When this unit's attack destroys an enemy, choose 1 other ally. Until the end of the turn, that ally gains +10 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let lawless_battle = Skill(name: "Lawless Battle",
+                        description: "[ Flip 1 Bond ] When this unit is attacking your opponent's lord, you may pay the cost and if you do: Until the end of this combat, this unit gains +20 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

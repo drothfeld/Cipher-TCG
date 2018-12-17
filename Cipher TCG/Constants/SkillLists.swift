@@ -599,4 +599,10 @@ let rawSkillsList: [Skill] = [
     advantage_tactic,
     knowing_when_to_retreat_is_vital,
     fervent_partner,
+    studious_mages,
+    mercurius_of_the_regalia,
+    we_are_not_gods_of_war,
+    reowned_heavy_blade,
+    a_lecture_of_warfare,
+    lawless_battle,
 ]
