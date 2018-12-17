@@ -3265,6 +3265,50 @@ let b15_008 = Card(series: "B15-008N",
                    skills: [growing_archer, wingbane],
                    cardImageName: "B15-008.png")
 
+let b15_009 = Card(series: "B15-009HN",
+                   name: "Luke: Paladin of Dawn",
+                   rarity: high_normal,
+                   insignia: blade_of_light,
+                   attack: 60,
+                   support: 10,
+                   illustrator: mineri,
+                   supportingSkill: none,
+                   skills: [now_we_rush_them, the_biggest_standout],
+                   cardImageName: "B15-009.png")
+
+let b15_010 = Card(series: "B15-010N",
+                   name: "Luke: Fervent Squire",
+                   rarity: normal,
+                   insignia: blade_of_light,
+                   attack: 40,
+                   support: 10,
+                   illustrator: mineri,
+                   supportingSkill: attack_emblem,
+                   skills: [serene_partner],
+                   cardImageName: "B15-010.png")
+
+let b15_011 = Card(series: "B15-011HN",
+                   name: "Roderick: Calm Paladin",
+                   rarity: high_normal,
+                   insignia: blade_of_light,
+                   attack: 60,
+                   support: 10,
+                   illustrator: hatori_kyoka,
+                   supportingSkill: none,
+                   skills: [advantage_tactic, knowing_when_to_retreat_is_vital],
+                   cardImageName: "B15-011.png")
+
+let b15_012 = Card(series: "B15-012N",
+                   name: "Roderick: Serene Squire",
+                   rarity: normal,
+                   insignia: blade_of_light,
+                   attack: 40,
+                   support: 10,
+                   illustrator: hatori_kyoka,
+                   supportingSkill: attack_emblem,
+                   skills: [fervent_partner],
+                   cardImageName: "B15-012.png")
+
 let b15_013 = Card(series: "B15-013SR",
                    name: "Merric: The Supreme Magic's Chosen One",
                    rarity: secret_rare,

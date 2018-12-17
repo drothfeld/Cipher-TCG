@@ -4680,3 +4680,50 @@ let growing_archer = Skill(name: "Growing Archer",
                         tapUnit: false,
                         CCS: false)
 
+let now_we_rush_them = Skill(name: "Now, we rush them!",
+                        description: "At the start of your turn, you may choose as many Mounted allies in the Back Line as you wish, and move them.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let the_biggest_standout = Skill(name: "The Biggest Standout",
+                        description: "During your turn, this unit gains +10 attack per other ally in the same area as him.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let serene_partner = Skill(name: "Serene Partner",
+                        description: "If this unit is being supported by Roderick, this unit gains +30 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let advantage_tactic = Skill(name: "Advantage Tactic",
+                        description: "If this unit is attacking a non-lord enemy, this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let knowing_when_to_retreat_is_vital = Skill(name: "Knowing when to retreat is vital.",
+                        description: "At the end of your turn, you may choose as many Mounted allies in the Front Line as you wish, and move them.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let fervent_partner = Skill(name: "Fervent Partner",
+                        description: "If this unit is being supported by Luke, this unit gains +30 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

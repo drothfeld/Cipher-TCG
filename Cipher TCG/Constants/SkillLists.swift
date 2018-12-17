@@ -593,4 +593,10 @@ let rawSkillsList: [Skill] = [
     i_dub_you_a_knight_of_altea,
     his_brothers_talent,
     growing_archer,
+    now_we_rush_them,
+    the_biggest_standout,
+    serene_partner,
+    advantage_tactic,
+    knowing_when_to_retreat_is_vital,
+    fervent_partner,
 ]
