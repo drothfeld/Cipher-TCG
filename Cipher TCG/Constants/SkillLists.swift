@@ -605,4 +605,5 @@ let rawSkillsList: [Skill] = [
     reowned_heavy_blade,
     a_lecture_of_warfare,
     lawless_battle,
+    adaptive_sister,
 ]

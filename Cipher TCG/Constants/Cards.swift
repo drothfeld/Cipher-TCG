@@ -3375,6 +3375,17 @@ let b15_018 = Card(series: "B15-018R",
                    skills: [three_wyrm_triangle_attack, free_wing],
                    cardImageName: "B15-018.png")
 
+let b15_019 = Card(series: "B15-019N",
+                   name: "Est: Little Macedonian Pegasus",
+                   rarity: normal,
+                   insignia: blade_of_light,
+                   attack: 30,
+                   support: 30,
+                   illustrator: mayo,
+                   supportingSkill: flying_emblem,
+                   skills: [adaptive_sister],
+                   cardImageName: "B15-019.png")
+
 let b15_020 = Card(series: "B15-020R",
                    name: "Catria: Blueflash Dracoknight",
                    rarity: rare,
@@ -3386,6 +3397,17 @@ let b15_020 = Card(series: "B15-020R",
                    skills: [three_wyrm_triangle_attack, wyvern_messenger],
                    cardImageName: "B15-020.png")
 
+let b15_021 = Card(series: "B15-021N",
+                   name: "Catria: Macedonian Pegasus Knight",
+                   rarity: normal,
+                   insignia: blade_of_light,
+                   attack: 30,
+                   support: 30,
+                   illustrator: mayo,
+                   supportingSkill: flying_emblem,
+                   skills: [supporting_javelin],
+                   cardImageName: "B15-021.png")
+
 let b15_022 = Card(series: "B15-022R",
                    name: "Palla: Greenwind Dracoknight",
                    rarity: rare,
@@ -3396,6 +3418,17 @@ let b15_022 = Card(series: "B15-022R",
                    supportingSkill: none,
                    skills: [three_wyrm_triangle_attack, commander_of_soaring_knights],
                    cardImageName: "B15-022.png")
+
+let b15_023 = Card(series: "B15-023N",
+                   name: "Palla: Elder Macedonian Pegasus",
+                   rarity: normal,
+                   insignia: blade_of_light,
+                   attack: 30,
+                   support: 30,
+                   illustrator: mayo,
+                   supportingSkill: flying_emblem,
+                   skills: [winged_deliverer],
+                   cardImageName: "B15-023.png")
 
 let b15_033 = Card(series: "B15-033SR",
                    name: "Tiki: Dragon Princess",

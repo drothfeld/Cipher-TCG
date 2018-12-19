@@ -4775,3 +4775,11 @@ let lawless_battle = Skill(name: "Lawless Battle",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let adaptive_sister = Skill(name: "Adaptive Sister",
+                        description: "If the card supporting this unit is Flying, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
