@@ -4783,3 +4783,43 @@ let adaptive_sister = Skill(name: "Adaptive Sister",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let commander_of_the_altean_knights = Skill(name: "Commander of the Altean Knights",
+                        description: "If this unit is in the Front Line, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let looming_malady = Skill(name: "Looming Malady",
+                        description: "At the beginning of your turn, if you have 2 or fewer orbs and this unit is not your lord, send this unit to the Boundless Area.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let young_bow_princess = Skill(name: "Young Bow Princess",
+                        description: "[ Flip 1 Bond ] Until the end of the turn, this unit gains +20 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let grustian_siblings = Skill(name: "Grustian Siblings",
+                        description: "[ Flip 1 Bond ] When this unit's attack destroys your opponent's lord, you may pay the cost and if you do: Choose 1 Yubello from your Retreat Area, and add it to your hand.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let study_time_has_begun = Skill(name: "Study time has begun!",
+                        description: "During your turn, all Tome allies with a deployment cost of 1 gain +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

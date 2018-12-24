@@ -606,4 +606,9 @@ let rawSkillsList: [Skill] = [
     a_lecture_of_warfare,
     lawless_battle,
     adaptive_sister,
+    commander_of_the_altean_knights,
+    looming_malady,
+    young_bow_princess,
+    grustian_siblings,
+    study_time_has_begun,
 ]

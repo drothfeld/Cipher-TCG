@@ -3430,6 +3430,39 @@ let b15_023 = Card(series: "B15-023N",
                    skills: [winged_deliverer],
                    cardImageName: "B15-023.png")
 
+let b15_024 = Card(series: "B15-024HN",
+                   name: "Arran: Paladin of Grim Resolve",
+                   rarity: high_normal,
+                   insignia: blade_of_light,
+                   attack: 70,
+                   support: 10,
+                   illustrator: setsu,
+                   supportingSkill: none,
+                   skills: [commander_of_the_altean_knights, looming_malady],
+                   cardImageName: "B15-024.png")
+
+let b15_025 = Card(series: "B15-025HN",
+                   name: "Yumina: Determination-Concealed Kindness",
+                   rarity: high_normal,
+                   insignia: blade_of_light,
+                   attack: 60,
+                   support: 20,
+                   illustrator: hmk,
+                   supportingSkill: none,
+                   skills: [young_bow_princess, grustian_siblings, wingbane],
+                   cardImageName: "B15-025.png")
+
+let b15_026 = Card(series: "B15-026N",
+                   name: "Yumina: Surviving Princess",
+                   rarity: high_normal,
+                   insignia: blade_of_light,
+                   attack: 20,
+                   support: 20,
+                   illustrator: hmk,
+                   supportingSkill: miracle_emblem,
+                   skills: [heal, study_time_has_begun],
+                   cardImageName: "B15-026.png")
+
 let b15_033 = Card(series: "B15-033SR",
                    name: "Tiki: Dragon Princess",
                    rarity: secret_rare,
