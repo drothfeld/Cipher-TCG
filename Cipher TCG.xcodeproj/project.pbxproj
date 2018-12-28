@@ -345,6 +345,8 @@
 		B0DA71DC20EC1F2000AC6AB5 /* B13-070.png in Resources */ = {isa = PBXBuildFile; fileRef = B0DA71DB20EC1F2000AC6AB5 /* B13-070.png */; };
 		B0DA71DE20EC20B400AC6AB5 /* B13-055.png in Resources */ = {isa = PBXBuildFile; fileRef = B0DA71DD20EC20B400AC6AB5 /* B13-055.png */; };
 		B0DC65E4214B52FD00A422D7 /* SkillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DC65E3214B52FD00A422D7 /* SkillViewController.swift */; };
+		B0DEF18521D6C434004EBCE9 /* B15-028.png in Resources */ = {isa = PBXBuildFile; fileRef = B0DEF18321D6C433004EBCE9 /* B15-028.png */; };
+		B0DEF18621D6C434004EBCE9 /* B15-027.png in Resources */ = {isa = PBXBuildFile; fileRef = B0DEF18421D6C434004EBCE9 /* B15-027.png */; };
 		B0E02BDD213EFA93008C8B05 /* B14-070.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E02BDB213EFA92008C8B05 /* B14-070.png */; };
 		B0E02BDE213EFA93008C8B05 /* B14-068.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E02BDC213EFA92008C8B05 /* B14-068.png */; };
 		B0E02BE0213EFE61008C8B05 /* SkillListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E02BDF213EFE61008C8B05 /* SkillListViewController.swift */; };
@@ -768,6 +770,8 @@
 		B0DA71DB20EC1F2000AC6AB5 /* B13-070.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B13-070.png"; sourceTree = "<group>"; };
 		B0DA71DD20EC20B400AC6AB5 /* B13-055.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B13-055.png"; sourceTree = "<group>"; };
 		B0DC65E3214B52FD00A422D7 /* SkillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillViewController.swift; sourceTree = "<group>"; };
+		B0DEF18321D6C433004EBCE9 /* B15-028.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-028.png"; sourceTree = "<group>"; };
+		B0DEF18421D6C434004EBCE9 /* B15-027.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-027.png"; sourceTree = "<group>"; };
 		B0E02BDB213EFA92008C8B05 /* B14-070.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B14-070.png"; sourceTree = "<group>"; };
 		B0E02BDC213EFA92008C8B05 /* B14-068.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B14-068.png"; sourceTree = "<group>"; };
 		B0E02BDF213EFE61008C8B05 /* SkillListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillListViewController.swift; sourceTree = "<group>"; };
@@ -1429,6 +1433,8 @@
 				B07F105421D065D800CE2943 /* B15-024.png */,
 				B07F105221D065D800CE2943 /* B15-025.png */,
 				B07F105321D065D800CE2943 /* B15-026.png */,
+				B0DEF18421D6C434004EBCE9 /* B15-027.png */,
+				B0DEF18321D6C433004EBCE9 /* B15-028.png */,
 				B0533FEF21957AFC00D9A5DA /* B15-033.png */,
 				B0E36C7D219B9AEB00E3D0C6 /* B15-035.png */,
 				B0E36C7F219B9AEC00E3D0C6 /* B15-036.png */,
@@ -1694,6 +1700,7 @@
 				B0DA71DA20EC1E4A00AC6AB5 /* B13-066.png in Resources */,
 				B071C4BC216C3B5100072668 /* B02-086.png in Resources */,
 				B06409C72165AF6800753A7F /* B14-017.png in Resources */,
+				B0DEF18621D6C434004EBCE9 /* B15-027.png in Resources */,
 				B01C08A7215426ED00795F9B /* B14-054.png in Resources */,
 				B02617CD217D88A600194F4C /* B14-087.png in Resources */,
 				B019AB2A218A4205004B7D73 /* B13-008.png in Resources */,
@@ -1824,6 +1831,7 @@
 				B02617C42176584C00194F4C /* B14-083.png in Resources */,
 				B08BD67721C5C42C003F900D /* B15-002.png in Resources */,
 				B03D57DD2012CCEF007A3E97 /* 30px-Red.png in Resources */,
+				B0DEF18521D6C434004EBCE9 /* B15-028.png in Resources */,
 				B08A6B302017E55000603113 /* B05-089.png in Resources */,
 				B0E6BC2D214835D000D1840D /* B14-022.png in Resources */,
 				B02617CE217D88A600194F4C /* B14-088.png in Resources */,

@@ -3463,6 +3463,28 @@ let b15_026 = Card(series: "B15-026N",
                    skills: [heal, study_time_has_begun],
                    cardImageName: "B15-026.png")
 
+let b15_027 = Card(series: "B15-027HN",
+                   name: "Yubello: Strength to Protect",
+                   rarity: high_normal,
+                   insignia: blade_of_light,
+                   attack: 70,
+                   support: 10,
+                   illustrator: sachie,
+                   supportingSkill: none,
+                   skills: [young_hero, grustian_siblings],
+                   cardImageName: "B15-027.png")
+
+let b15_028 = Card(series: "B15-028N",
+                   name: "Yubello: Surviving Prince",
+                   rarity: normal,
+                   insignia: blade_of_light,
+                   attack: 30,
+                   support: 20,
+                   illustrator: sachie,
+                   supportingSkill: magic_emblem,
+                   skills: [an_abundance_of_tomes],
+                   cardImageName: "B15-028.png")
+
 let b15_033 = Card(series: "B15-033SR",
                    name: "Tiki: Dragon Princess",
                    rarity: secret_rare,

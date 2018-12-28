@@ -4823,3 +4823,19 @@ let study_time_has_begun = Skill(name: "Study time has begun!",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let young_hero = Skill(name: "Young Hero",
+                        description: "When you deploy an other Red ally, until the end of the turn, this unit gains +20 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let an_abundance_of_tomes = Skill(name: "An Abundance of Tomes",
+                        description: "Once Per Turn [Flip 1 Tome bond face-down] Draw 1 card.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

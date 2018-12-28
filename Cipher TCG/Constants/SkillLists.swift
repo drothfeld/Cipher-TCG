@@ -611,4 +611,6 @@ let rawSkillsList: [Skill] = [
     young_bow_princess,
     grustian_siblings,
     study_time_has_begun,
+    young_hero,
+    an_abundance_of_tomes,
 ]
