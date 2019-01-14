@@ -613,4 +613,8 @@ let rawSkillsList: [Skill] = [
     study_time_has_begun,
     young_hero,
     an_abundance_of_tomes,
+    flash_freezing_blizzard,
+    mentor_of_the_mages_college,
+    patriotic_staff,
+    may_macedon_endure_forever,
 ]

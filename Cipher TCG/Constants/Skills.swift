@@ -4839,3 +4839,35 @@ let an_abundance_of_tomes = Skill(name: "An Abundance of Tomes",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let flash_freezing_blizzard = Skill(name: "Flash-Freezing Blizzard",
+                        description: "Once Per Turn [Send 1 Tome from your hand to the Retreat Area] Draw 1 card. Until the end of the turn, this unit gains +20 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let mentor_of_the_mages_college = Skill(name: "Mentor of the Mage's College",
+                        description: "During your turn, other Tome allies gain +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let patriotic_staff = Skill(name: "Patriotic Staff",
+                        description: "[ Tap This Unit , Flip 1 Bond ] Choose 1 non-Minerva card that is both Flying and Dragon from your Retreat Area, and add it to your hand.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: true,
+                        tapUnit: false,
+                        CCS: false)
+
+let may_macedon_endure_forever = Skill(name: "May Macedon endure forever.",
+                        description: "All allies who are both Flying and Dragon cannot be destroyed as the cost or effect of skills.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

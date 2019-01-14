@@ -3485,6 +3485,28 @@ let b15_028 = Card(series: "B15-028N",
                    skills: [an_abundance_of_tomes],
                    cardImageName: "B15-028.png")
 
+let b15_029 = Card(series: "B15-029HN",
+                   name: "Wendell: Pontifex of Khadein",
+                   rarity: high_normal,
+                   insignia: blade_of_light,
+                   attack: 60,
+                   support: 20,
+                   illustrator: akihiro_mibuta,
+                   supportingSkill: none,
+                   skills: [flash_freezing_blizzard, mentor_of_the_mages_college],
+                   cardImageName: "B15-029.png")
+
+let b15_030 = Card(series: "B15-030HN",
+                   name: "Minerva: Crimson Staff",
+                   rarity: high_normal,
+                   insignia: blade_of_light,
+                   attack: 50,
+                   support: 20,
+                   illustrator: shigetaka_kimura,
+                   supportingSkill: none,
+                   skills: [patriotic_staff, may_macedon_endure_forever],
+                   cardImageName: "B15-030.png")
+
 let b15_033 = Card(series: "B15-033SR",
                    name: "Tiki: Dragon Princess",
                    rarity: secret_rare,
