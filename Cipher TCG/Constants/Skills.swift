@@ -4871,3 +4871,19 @@ let may_macedon_endure_forever = Skill(name: "May Macedon endure forever.",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let envious_lightning_magic = Skill(name: "Envious Lightning Magic",
+                        description: "If this unit is attacking a Tome, this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let contractual_advance_pay = Skill(name: "Contractual Advance Pay",
+                        description: "[ Flip 1 Bond ] When you deploy this unit, you may pay the cost and if you do: Until this unit is removed from the battlefield, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

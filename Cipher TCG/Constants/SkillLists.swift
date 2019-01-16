@@ -617,4 +617,6 @@ let rawSkillsList: [Skill] = [
     mentor_of_the_mages_college,
     patriotic_staff,
     may_macedon_endure_forever,
+    envious_lightning_magic,
+    contractual_advance_pay,
 ]

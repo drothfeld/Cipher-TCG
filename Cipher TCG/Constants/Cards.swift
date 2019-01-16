@@ -3507,6 +3507,28 @@ let b15_030 = Card(series: "B15-030HN",
                    skills: [patriotic_staff, may_macedon_endure_forever],
                    cardImageName: "B15-030.png")
 
+let b15_031 = Card(series: "B15-031N",
+                   name: "Elrean: Eminent Disciple",
+                   rarity: normal,
+                   insignia: blade_of_light,
+                   attack: 40,
+                   support: 20,
+                   illustrator: nekobayashi,
+                   supportingSkill: none,
+                   skills: [envious_lightning_magic],
+                   cardImageName: "B15-031.png")
+
+let b15_032 = Card(series: "B15-032N",
+                   name: "Malice: Pricey Sellsword",
+                   rarity: normal,
+                   insignia: blade_of_light,
+                   attack: 70,
+                   support: 10,
+                   illustrator: masaki_hirooka,
+                   supportingSkill: none,
+                   skills: [contractual_advance_pay, grustian_siblings],
+                   cardImageName: "B15-032.png")
+
 let b15_033 = Card(series: "B15-033SR",
                    name: "Tiki: Dragon Princess",
                    rarity: secret_rare,
