@@ -619,4 +619,10 @@ let rawSkillsList: [Skill] = [
     may_macedon_endure_forever,
     envious_lightning_magic,
     contractual_advance_pay,
+    turning_into_a_dragon,
+    celeritous_hero,
+    i_will_protect_you,
+    ones_of_us_all_in_oneses,
+    masked_brethren,
+    otherworldly_partner,
 ]

@@ -3540,6 +3540,17 @@ let b15_033 = Card(series: "B15-033SR",
                    skills: [breath_of_the_divine_dragon, bye_bye_scary_dreams],
                    cardImageName: "B15-033.png")
 
+let b15_034 = Card(series: "B15-034HN",
+                   name: "Tiki: Into the Outside World!",
+                   rarity: high_normal,
+                   insignia: blade_of_light,
+                   attack: 40,
+                   support: 20,
+                   illustrator: tetsu_kurosawa,
+                   supportingSkill: none,
+                   skills: [turning_into_a_dragon],
+                   cardImageName: "B15-034.png")
+
 let b15_035 = Card(series: "B15-035R",
                    name: "Sheena: Twilight Princess-General",
                    rarity: rare,
@@ -3561,6 +3572,17 @@ let b15_036 = Card(series: "B15-036N",
                    supportingSkill: defense_emblem,
                    skills: [final_hope, armor_expertise],
                    cardImageName: "B15-036.png")
+
+let b15_037 = Card(series: "B15-037HN",
+                   name: "Samson: Twilight Hero",
+                   rarity: high_normal,
+                   insignia: blade_of_light,
+                   attack: 70,
+                   support: 10,
+                   illustrator: homazo,
+                   supportingSkill: none,
+                   skills: [celeritous_hero, i_will_protect_you],
+                   cardImageName: "B15-037.png")
 
 let b15_038 = Card(series: "B15-038R",
                    name: "Elice: Legend-Bearing Princess",
@@ -3595,6 +3617,17 @@ let b15_040 = Card(series: "B15-040N",
                    skills: [heal],
                    cardImageName: "B15-040.png")
 
+let b15_041 = Card(series: "B15-041HN",
+                   name: "Legion: Masked Assassin",
+                   rarity: high_normal,
+                   insignia: blade_of_light,
+                   attack: 50,
+                   support: 10,
+                   illustrator: nekobayashi,
+                   supportingSkill: none,
+                   skills: [ones_of_us_all_in_oneses, masked_brethren],
+                   cardImageName: "B15-041.png")
+
 let b15_042 = Card(series: "B15-042SR",
                    name: "Clarisse: Slaughterous Puppet",
                    rarity: secret_rare,
@@ -3627,6 +3660,17 @@ let b15_044 = Card(series: "B15-044R",
                    supportingSkill: none,
                    skills: [debut_smile, surefire],
                    cardImageName: "B15-044.png")
+
+let b15_045 = Card(series: "B15-045N",
+                   name: "Tsubasa Oribe: Story of a Star's Birth",
+                   rarity: normal,
+                   insignia: blade_of_light,
+                   attack: 40,
+                   support: 20,
+                   illustrator: daigoman,
+                   supportingSkill: flying_emblem,
+                   skills: [otherworldly_partner],
+                   cardImageName: "B15-045.png")
 
 let b15_046 = Card(series: "B15-046HN",
                    name: "Caeda: Mirage Falcon Knight",

@@ -4887,3 +4887,51 @@ let contractual_advance_pay = Skill(name: "Contractual Advance Pay",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let turning_into_a_dragon = Skill(name: "Turning into a dragon!",
+                        description: "[ Flip 2 Bonds ] Until the end of the turn, this unit gains +40 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let celeritous_hero = Skill(name: "Celeritous Hero",
+                        description: "[Tap an ally Sheena] Untap this unit.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let i_will_protect_you = Skill(name: "I will protect you.",
+                        description: "During your opponent's turn, your lord gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let ones_of_us_all_in_oneses = Skill(name: "Ones of us, all in oneses!",
+                        description: "You may deploy this card even if you already have an allied Legion, and you may have 2 or more allied Legions at once. [SPEC] You may have 5 or more cards with the same card name as this card in your deck.",
+                        colorType: UIColor.purple,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let masked_brethren = Skill(name: "Masked Brethren",
+                        description: "[ Tap This Unit, Flip 1 Bond ] Choose 1 Legion from your Retreat Area, and deploy it.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let otherworldly_partner = Skill(name: "Otherworldly Partner",
+                        description: "If you have an allied Caeda, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
