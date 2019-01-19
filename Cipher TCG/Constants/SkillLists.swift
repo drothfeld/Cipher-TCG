@@ -625,4 +625,13 @@ let rawSkillsList: [Skill] = [
     ones_of_us_all_in_oneses,
     masked_brethren,
     otherworldly_partner,
+    you_gotta_keep_busy_busy_busy,
+    dia_witch_or_die,
+    i_simply_cannot_wait,
+    you_cannot_hide_face_me,
+    stewards_meteor,
+    do_forgive_me_my_armor_is_beneath_the_robes,
+    conquest_harboring_soul,
+    soulcleaving_swordspirit,
+    nohrian_combat_art,
 ]

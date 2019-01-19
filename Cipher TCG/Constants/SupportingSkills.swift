@@ -135,3 +135,7 @@ let invincible_command = SupportingSkill(type: "Invincible Command",
 let guardian_grand_axe = SupportingSkill(type: "Guardian Grand Axe",
                                     textDescription: "Until the end of this battle, your defending unit gains +10 attack. You may Flip 1 Bond and each time you do, this skill is activated again.",
                                     iconImageName: "28px-Defense_Support.png")
+
+let personal_cheer_squad = SupportingSkill(type: "Personal Cheer Squad",
+                                    textDescription: "If your attacking unit is Sharp, then at the end of this combat you may deploy this card instead of sending it to the Retreat Area.",
+                                    iconImageName: "28px-Attack_Support.png")

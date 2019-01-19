@@ -4935,3 +4935,75 @@ let otherworldly_partner = Skill(name: "Otherworldly Partner",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let you_gotta_keep_busy_busy_busy = Skill(name: "You gotta keep busy, busy, busy!",
+                        description: "[ Tap This Unit ] Choose 1 other ally. Until the end of the turn, that ally gains +10 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let dia_witch_or_die = Skill(name: "Dia Witch or die!",
+                        description: "[ Flip 2 Bonds , Destroy this unit] Choose 1 Sharp unit who has attacked this turn, and untap them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let i_simply_cannot_wait = Skill(name: "I simply cannot wait!",
+                        description: "If there are more allies than enemies, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let you_cannot_hide_face_me = Skill(name: "You cannot hide! Face me!",
+                        description: "Once Per Turn [ Flip 2 Bonds ] Choose as many enemies in the Back Line as you wish, and move them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let stewards_meteor = Skill(name: "Steward's Meteor",
+                        description: "[ Flip 1 Bond ] Until the end of the turn, this unit may attack enemies in the Back Line regardless of range.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let do_forgive_me_my_armor_is_beneath_the_robes = Skill(name: "Do forgive me: my armor is beneath the robes.",
+                        description: "During your opponent's turn, if you have an allied Alice, this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let conquest_harboring_soul = Skill(name: "Conquest-Harboring Soul",
+                        description: "Once Per Turn [ Flip 1 Bond ] Until the end of the turn, this unit gains +20 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let soulcleaving_swordspirit = Skill(name: "Soulcleaving Swordspirit",
+                        description: "[Tap 1 Black ally] Until the end of the turn, the number of orbs that this unit's attack will destroy is increased to 2.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let nohrian_combat_art = Skill(name: "Nohrian Combat Art",
+                        description: "[Flip 2 Black bonds face-down] Until the end of the turn, this unit gains +10 attack, and this unit's attacks cannot be evaded by non-lord enemies.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

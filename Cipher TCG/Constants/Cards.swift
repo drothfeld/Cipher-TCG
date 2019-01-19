@@ -3694,6 +3694,39 @@ let b15_047 = Card(series: "B15-047HN",
                    skills: [carnage_form, dragoon_lance],
                    cardImageName: "B15-047.png")
 
+let b15_048 = Card(series: "B15-048HN",
+                   name: "Barry Goodman: Otaku Trainer",
+                   rarity: high_normal,
+                   insignia: colorless,
+                   attack: 0,
+                   support: 20,
+                   illustrator: homazo,
+                   supportingSkill: personal_cheer_squad,
+                   skills: [you_gotta_keep_busy_busy_busy, dia_witch_or_die],
+                   cardImageName: "B15-048.png")
+
+let b15_049 = Card(series: "B15-049HN",
+                   name: "Alice: Daunting Mounted Princess",
+                   rarity: high_normal,
+                   insignia: blade_of_light,
+                   attack: 70,
+                   support: 10,
+                   illustrator: horiguchi_kousei,
+                   supportingSkill: none,
+                   skills: [i_simply_cannot_wait, you_cannot_hide_face_me],
+                   cardImageName: "B15-049.png")
+
+let b15_050 = Card(series: "B15-050HN",
+                   name: "Valjean: Armored Sorcerer",
+                   rarity: high_normal,
+                   insignia: blade_of_light,
+                   attack: 60,
+                   support: 20,
+                   illustrator: horiguchi_kousei,
+                   supportingSkill: none,
+                   skills: [stewards_meteor, do_forgive_me_my_armor_is_beneath_the_robes],
+                   cardImageName: "B15-050.png")
+
 let b15_051 = Card(series: "B15-051SR",
                    name: "Corrin (F): Night Breaks Through The Day",
                    rarity: secret_rare,
@@ -3726,6 +3759,28 @@ let b15_053 = Card(series: "B15-053HN",
                    supportingSkill: heros_emblem,
                    skills: [black_ideals],
                    cardImageName: "B15-053.png")
+
+let b15_054 = Card(series: "B15-054R",
+                   name: "Xander: Prince Born of Black Dragon Blood",
+                   rarity: rare,
+                   insignia: nohr,
+                   attack: 70,
+                   support: 10,
+                   illustrator: clover_k,
+                   supportingSkill: none,
+                   skills: [conquest_harboring_soul, resonance_of_dragons_blood, soulcleaving_swordspirit],
+                   cardImageName: "B15-054.png")
+
+let b15_055 = Card(series: "B15-055HN",
+                   name: "Xander: Tutoring Dark Blade",
+                   rarity: high_normal,
+                   insignia: nohr,
+                   attack: 40,
+                   support: 10,
+                   illustrator: clover_k,
+                   supportingSkill: attack_emblem,
+                   skills: [nohrian_combat_art],
+                   cardImageName: "B15-055.png")
 
 let b15_056 = Card(series: "B15-056R",
                    name: "Camilla: Black-Sky-Wheeling Beauty",
