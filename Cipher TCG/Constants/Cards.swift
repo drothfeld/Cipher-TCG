@@ -3870,6 +3870,17 @@ let b15_063 = Card(series: "B15-063N",
                    skills: [heal, rigorous_dagger_training],
                    cardImageName: "B15-063.png")
 
+let b15_064 = Card(series: "B15-064HN",
+                   name: "Flora: Waking Icy Palm",
+                   rarity: high_normal,
+                   insignia: nohr,
+                   attack: 50,
+                   support: 20,
+                   illustrator: shidzuki,
+                   supportingSkill: none,
+                   skills: [a_pristine_outfit, guardian_icicle],
+                   cardImageName: "B15-064.png")
+
 let b15_067 = Card(series: "B15-067HN",
                    name: "Odin: Fell Warrior Concealing the Night Demons' Brand",
                    rarity: high_normal,

@@ -5007,3 +5007,19 @@ let nohrian_combat_art = Skill(name: "Nohrian Combat Art",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let a_pristine_outfit = Skill(name: "A Pristine Outfit",
+                        description: "[ Tap This Unit, Flip 2 Bonds ] Choose 1 card from your Retreat Area with the same unit name as your lord, and add it to your hand. Until the end of the turn, your lord gains +10 attack.",
+                        colorType: UIColor.purple,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let guardian_icicle = Skill(name: "Guardian Icicle",
+                        description: "At the start of your turn, you may choose 1 non-lord enemy with a deployment cost of 2 or lower, and destroy them.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

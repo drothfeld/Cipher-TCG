@@ -634,4 +634,6 @@ let rawSkillsList: [Skill] = [
     conquest_harboring_soul,
     soulcleaving_swordspirit,
     nohrian_combat_art,
+    a_pristine_outfit,
+    guardian_icicle,
 ]
