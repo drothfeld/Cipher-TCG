@@ -3881,6 +3881,28 @@ let b15_064 = Card(series: "B15-064HN",
                    skills: [a_pristine_outfit, guardian_icicle],
                    cardImageName: "B15-064.png")
 
+let b15_065 = Card(series: "B15-065HN",
+                   name: "Selena: Homesick Hero",
+                   rarity: high_normal,
+                   insignia: nohr,
+                   attack: 70,
+                   support: 10,
+                   illustrator: hara,
+                   supportingSkill: none,
+                   skills: [loser, selenas_blade],
+                   cardImageName: "B15-065.png")
+
+let b15_066 = Card(series: "B15-066N",
+                   name: "Selena: Willful Mercenary",
+                   rarity: normal,
+                   insignia: nohr,
+                   attack: 40,
+                   support: 10,
+                   illustrator: hara,
+                   supportingSkill: attack_emblem,
+                   skills: [a_girls_pride],
+                   cardImageName: "B15-066.png")
+
 let b15_067 = Card(series: "B15-067HN",
                    name: "Odin: Fell Warrior Concealing the Night Demons' Brand",
                    rarity: high_normal,

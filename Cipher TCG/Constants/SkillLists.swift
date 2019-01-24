@@ -636,4 +636,7 @@ let rawSkillsList: [Skill] = [
     nohrian_combat_art,
     a_pristine_outfit,
     guardian_icicle,
+    loser,
+    selenas_blade,
+    a_girls_pride,
 ]

@@ -5023,3 +5023,27 @@ let guardian_icicle = Skill(name: "Guardian Icicle",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let loser = Skill(name: "Loser!",
+                        description: "If this unit inflicts a critical hit, you may [ Flip 2 Bonds ] instead of sending 1 Selena from your hand to the Retreat Area.",
+                        colorType: UIColor.green,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let selenas_blade = Skill(name: "Selena's Blade",
+                        description: "When this unit's critical hit destroys an enemy, you may choose 1 non-lord enemy and destroy them.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let a_girls_pride = Skill(name: "A Girl's Pride",
+                        description: "When an other ally inflicts a critical hit, until the end of the turn, this unit gains +20 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
