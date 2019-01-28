@@ -3914,6 +3914,17 @@ let b15_067 = Card(series: "B15-067HN",
                    skills: [special_move_shadow_dragon_fire_assult, thrilling_order],
                    cardImageName: "B15-067.png")
 
+let b15_068 = Card(series: "B15-068N",
+                   name: "Odin: Blood-Aching Mage",
+                   rarity: normal,
+                   insignia: nohr,
+                   attack: 30,
+                   support: 20,
+                   illustrator: niko_komori,
+                   supportingSkill: darkness_emblem,
+                   skills: [is_my_true_power_awakening],
+                   cardImageName: "B15-068.png")
+
 let b15_069 = Card(series: "B15-069HN",
                    name: "Niles: Liege-Serving Pleasure",
                    rarity: high_normal,
@@ -3924,6 +3935,17 @@ let b15_069 = Card(series: "B15-069HN",
                    supportingSkill: none,
                    skills: [care_for_a_better_one, sworn_to_protect_you, wingbane],
                    cardImageName: "B15-069.png")
+
+let b15_070 = Card(series: "B15-070N",
+                   name: "Niles: Outlaw of the Slums",
+                   rarity: normal,
+                   insignia: nohr,
+                   attack: 30,
+                   support: 10,
+                   illustrator: niko_komori,
+                   supportingSkill: thief_emblem,
+                   skills: [the_band_of_thieves_decoy, wingbane],
+                   cardImageName: "B15-070.png")
 
 let b15_071 = Card(series: "B15-071SR",
                    name: "Hinoka: Heavenly Queen of the Shining Sun",
@@ -3957,6 +3979,28 @@ let b15_073 = Card(series: "B15-073N",
                    supportingSkill: none,
                    skills: [man_made_monster, roar_in_unison],
                    cardImageName: "B15-073.png")
+
+let b15_074 = Card(series: "B15-074N",
+                   name: "Lilith: Guardian Dragon of the Astral Plane Castle",
+                   rarity: normal,
+                   insignia: nohr,
+                   attack: 30,
+                   support: 20,
+                   illustrator: kureta,
+                   supportingSkill: none,
+                   skills: [liliths_temple, change_the_castles_style],
+                   cardImageName: "B15-074.png")
+
+let b15_075 = Card(series: "B15-075N",
+                   name: "Niamh: Boundless Hypotheses and Tests",
+                   rarity: normal,
+                   insignia: nohr,
+                   attack: 60,
+                   support: 10,
+                   illustrator: akira_fujikawa,
+                   supportingSkill: none,
+                   skills: [plan_α, plan_β],
+                   cardImageName: "B15-075.png")
 
 let b15_076 = Card(series: "B15-076SR",
                    name: "Leif: Prince of Two Holy Bloodlines",

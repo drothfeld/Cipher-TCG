@@ -639,4 +639,10 @@ let rawSkillsList: [Skill] = [
     loser,
     selenas_blade,
     a_girls_pride,
+    is_my_true_power_awakening,
+    the_band_of_thieves_decoy,
+    liliths_temple,
+    change_the_castles_style,
+    plan_α,
+    plan_β,
 ]

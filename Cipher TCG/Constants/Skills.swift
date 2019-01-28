@@ -5047,3 +5047,51 @@ let a_girls_pride = Skill(name: "A Girl's Pride",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let is_my_true_power_awakening = Skill(name: "Is my true power awakening?",
+                        description: "Once Per Turn [ Flip 1 Bond ] Until the end of the turn, this unit gains +10 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let the_band_of_thieves_decoy = Skill(name: "The Band of Thieves' Decoy",
+                        description: "Once Per Turn When this unit is being attacked, you may choose 1 enemy in the Back Line and move them.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let liliths_temple = Skill(name: "Lilith's Temple",
+                        description: "Once Per Turn [Flip 1 Orb face-up] Until the end of the turn, this unit gains +20 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: true,
+                        tapUnit: false,
+                        CCS: false)
+
+let change_the_castles_style = Skill(name: "Change the Castle's Style",
+                        description: "Once Per Turn [ Flip 2 Bonds ] Flip all of your face-up orbs face-down.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let plan_α = Skill(name: "Plan α: A Strategy In Which Intelligence Is Leaked, Luring The Subject Into A Position In Which Maximal Harm May Be Inflicted Upon Them",
+                        description: "Once Per Turn [Reveal 1 card from your hand] Until the end of the turn, this unit gains +10 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let plan_β = Skill(name: "Plan β: A Strategy In Which The Subject Is Propelled By A Strike Into A Chaotic Rift",
+                        description: "Once Per Turn [ Flip 2 Bonds ] Choose 1 non-lord enemy with a deployment cost of 3 or lower, and send them to the Boundless Area.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
