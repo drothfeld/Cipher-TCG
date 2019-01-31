@@ -4057,6 +4057,17 @@ let b15_080 = Card(series: "B15-080R",
                    skills: [glory_of_the_knights, heroic_gae_bolg],
                    cardImageName: "B15-080.png")
 
+let b15_081 = Card(series: "B15-081N",
+                   name: "Quan: Trueborn Son of Leonster",
+                   rarity: normal,
+                   insignia: holy_war_flag,
+                   attack: 40,
+                   support: 10,
+                   illustrator: karuta_shiki,
+                   supportingSkill: attack_emblem,
+                   skills: [blood_of_the_lance_knight],
+                   cardImageName: "B15-081.png")
+
 let b15_082 = Card(series: "B15-082HN",
                    name: "Ethlyn: Princess of Light God Descent",
                    rarity: high_normal,
@@ -4067,6 +4078,17 @@ let b15_082 = Card(series: "B15-082HN",
                    supportingSkill: none,
                    skills: [grant_me_strength_o_baldr, a_mothers_deep_love],
                    cardImageName: "B15-082.png")
+
+let b15_083 = Card(series: "B15-083N",
+                   name: "Ethlyn: Ladyling of Chalphy",
+                   rarity: normal,
+                   insignia: holy_war_flag,
+                   attack: 30,
+                   support: 20,
+                   illustrator: uroko_naruse,
+                   supportingSkill: miracle_emblem,
+                   skills: [heal],
+                   cardImageName: "B15-083.png")
 
 let b15_084 = Card(series: "B15-084R",
                    name: "Seliph: Pledge of Friendship",
@@ -4089,6 +4111,39 @@ let b15_085 = Card(series: "B15-085N",
                    supportingSkill: hope_emblem,
                    skills: [battlefield_friendship],
                    cardImageName: "B15-085.png")
+
+let b15_086 = Card(series: "B15-086HN",
+                   name: "Leylia: Barrier Blade Dancer",
+                   rarity: high_normal,
+                   insignia: holy_war_flag,
+                   attack: 20,
+                   support: 10,
+                   illustrator: cuboon,
+                   supportingSkill: none,
+                   skills: [holy_dance, barrier_blade],
+                   cardImageName: "B15-086.png")
+
+let b15_087 = Card(series: "B15-087HN",
+                   name: "Charlot: God-Serving Youth",
+                   rarity: high_normal,
+                   insignia: holy_war_flag,
+                   attack: 50,
+                   support: 20,
+                   illustrator: misa_tsutsui,
+                   supportingSkill: none,
+                   skills: [prayer_to_bragi, berserk],
+                   cardImageName: "B15-087.png")
+
+let b15_088 = Card(series: "B15-088N",
+                   name: "Charlot: Son of General Hannibal",
+                   rarity: normal,
+                   insignia: holy_war_flag,
+                   attack: 20,
+                   support: 20,
+                   illustrator: misa_tsutsui,
+                   supportingSkill: miracle_emblem,
+                   skills: [heal, little_courage],
+                   cardImageName: "B15-088.png")
 
 let b15_093 = Card(series: "B15-093R",
                    name: "Linoan: Blossom of Tara",

@@ -5095,3 +5095,51 @@ let plan_β = Skill(name: "Plan β: A Strategy In Which The Subject Is Propelled
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let blood_of_the_lance_knight = Skill(name: "Blood of the Lance Knight",
+                        description: "Once Per Turn When you play a Lance card in your Bond Area, until the end of the turn, this unit gains +20 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let holy_dance = Skill(name: "Holy Dance",
+                        description: "[ Tap This Unit, Flip 2 Bonds ] Choose 1 Yellow ally who has attacked in this turn, and untap them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let barrier_blade = Skill(name: "Barrier Blade",
+                        description: "If this unit is being attacked by a Tome enemy, this unit gains +50 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let prayer_to_bragi = Skill(name: "Prayer to Bragi",
+                        description: "Once Per Turn [ Flip 3 Bonds ] Choose 1 non-Charlot card from your Retreat Area, and add it to your hand. Until the end of the turn, this unit gains +20 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 3,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let berserk = Skill(name: "Berserk",
+                        description: "Once Per Turn When an enemy is deployed in the Back Line, you may move that enemy.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let little_courage = Skill(name: "Little Courage",
+                        description: "When this unit is in the Front Line, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

@@ -645,4 +645,10 @@ let rawSkillsList: [Skill] = [
     change_the_castles_style,
     plan_α,
     plan_β,
+    blood_of_the_lance_knight,
+    holy_dance,
+    barrier_blade,
+    prayer_to_bragi,
+    berserk,
+    little_courage,
 ]
