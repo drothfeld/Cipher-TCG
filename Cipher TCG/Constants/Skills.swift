@@ -5143,3 +5143,91 @@ let little_courage = Skill(name: "Little Courage",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let lightning_sword = Skill(name: "Lightning Sword",
+                        description: "[ Flip 1 Bond ] Until the end of the turn, this unit gains Tome and range 1-2.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let faithful_adjutant = Skill(name: "Faithful Adjutant",
+                        description: "If this unit is in the same area as an allied Olwen, this unit and allied Olwen gain +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let a_path_of_her_own_choosing = Skill(name: "A Path of Her Own Choosing",
+                        description: "Once Per Turn When you play a Tome card in your Bond Area, until the end of the turn, this unit gains +10 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let faith_in_herself = Skill(name: "Faith in Herself",
+                        description: "Once Per Turn [Send 1 Yellow bond card to the Retreat Area] Choose 1 Tome card from your Retreat Area, and play it in the Bond Area.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let wyvern_lanceplay = Skill(name: "Wyvern Lanceplay",
+                        description: "Once Per Turn [ Flip 1 Bond ] Until the end of the turn, this unit gains +20 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let sudden_strike = Skill(name: "Sudden Strike",
+                        description: "[ Tap This Unit, Flip 1 Bond ] Choose 1 non-lord Bow enemy with a deployment cost of 1, and destroy them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let mercenary_dracoknight_king = Skill(name: "Mercenary Dracoknight King",
+                        description: "When this unit is deployed, choose 1 of your face-up bond cards, and flip it face-down.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let fateful_confrontation = Skill(name: "Fateful Confrontation",
+                        description: "When you deploy this unit, until the end of the turn, this unit gains +10 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let bequeathed_etherean_lance = Skill(name: "Bequeathed Etherean Lance",
+                        description: "Once Per Turn [Send 1 bond card to the Retreat Area] Choose 1 non-lord enemy with 80 attack or higher, and destroy them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let im_not_done_with_my_fun = Skill(name: "I'm not done with my fun!",
+                        description: "Once Per Turn [ Flip 1 Bond ] Untap this unit. Until the end of the turn, this unit gains -40 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let lets_play_pretend_demons = Skill(name: "Let's play pretend demons!",
+                        description: "[ Tap This Unit ] Move this unit. Once you do, choose 1 non-lord enemy, and move them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)

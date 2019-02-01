@@ -4145,6 +4145,50 @@ let b15_088 = Card(series: "B15-088N",
                    skills: [heal, little_courage],
                    cardImageName: "B15-088.png")
 
+let b15_089 = Card(series: "B15-089HN",
+                   name: "Fred: Knight of the House of Sterze",
+                   rarity: high_normal,
+                   insignia: holy_war_flag,
+                   attack: 60,
+                   support: 10,
+                   illustrator: mattsun,
+                   supportingSkill: none,
+                   skills: [lightning_sword, faithful_adjutant],
+                   cardImageName: "B15-089.png")
+
+let b15_090 = Card(series: "B15-090HN",
+                   name: "Olwen: Thunder of Conviction",
+                   rarity: high_normal,
+                   insignia: holy_war_flag,
+                   attack: 50,
+                   support: 20,
+                   illustrator: aoji,
+                   supportingSkill: none,
+                   skills: [a_path_of_her_own_choosing, faith_in_herself],
+                   cardImageName: "B15-090.png")
+
+let b15_091 = Card(series: "B15-091HN",
+                   name: "Eda: The Sky Hero's Sister",
+                   rarity: high_normal,
+                   insignia: holy_war_flag,
+                   attack: 50,
+                   support: 30,
+                   illustrator: tetsu_kurosawa,
+                   supportingSkill: none,
+                   skills: [wyvern_lanceplay, canto],
+                   cardImageName: "B15-091.png")
+
+let b15_092 = Card(series: "B15-092N",
+                   name: "Eda: Thracian Dracoknight",
+                   rarity: normal,
+                   insignia: holy_war_flag,
+                   attack: 30,
+                   support: 30,
+                   illustrator: tetsu_kurosawa,
+                   supportingSkill: flying_emblem,
+                   skills: [sudden_strike],
+                   cardImageName: "B15-092.png")
+
 let b15_093 = Card(series: "B15-093R",
                    name: "Linoan: Blossom of Tara",
                    rarity: rare,
@@ -4178,6 +4222,28 @@ let b15_095 = Card(series: "B15-095R",
                    skills: [scorned_as_a_hyena, bloodstained_gungnir, deathbringing_snare],
                    cardImageName: "B15-095.png")
 
+let b15_096 = Card(series: "B15-096N",
+                   name: "Travant: Ambitious Ruler",
+                   rarity: normal,
+                   insignia: holy_war_flag,
+                   attack: 40,
+                   support: 30,
+                   illustrator: yoneko,
+                   supportingSkill: flying_emblem,
+                   skills: [mercenary_dracoknight_king],
+                   cardImageName: "B15-096.png")
+
+let b15_097 = Card(series: "B15-097HN",
+                   name: "Arion: Prince of Thracia",
+                   rarity: high_normal,
+                   insignia: holy_war_flag,
+                   attack: 60,
+                   support: 30,
+                   illustrator: tatsuro_iwamoto,
+                   supportingSkill: none,
+                   skills: [fateful_confrontation, bequeathed_etherean_lance],
+                   cardImageName: "B15-097.png")
+
 let b15_098 = Card(series: "B15-098SR",
                    name: "Reinhardt: The Crusader Thrud Reborn",
                    rarity: secret_rare,
@@ -4199,3 +4265,14 @@ let b15_099 = Card(series: "B15-099N",
                    supportingSkill: magic_emblem,
                    skills: [princesss_guardian],
                    cardImageName: "B15-099.png")
+
+let b15_100 = Card(series: "B15-100N",
+                   name: "Randal: Thus Spoke the Wicked Knight",
+                   rarity: normal,
+                   insignia: holy_war_flag,
+                   attack: 70,
+                   support: 10,
+                   illustrator: tetsu_kurosawa,
+                   supportingSkill: none,
+                   skills: [im_not_done_with_my_fun, lets_play_pretend_demons],
+                   cardImageName: "B15-100.png")
