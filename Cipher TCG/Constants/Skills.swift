@@ -5231,3 +5231,27 @@ let lets_play_pretend_demons = Skill(name: "Let's play pretend demons!",
                         flipOrb: false,
                         tapUnit: true,
                         CCS: false)
+
+let victory_nears = Skill(name: "Victory Nears",
+                        description: "[ Flip 3 Bonds, Send 1 Marth card from your hand to the Retreat Area] Until the end of your opponent’s turn, all allied units gain +30 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 3,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let heros_morale = Skill(name: "Hero’s Morale",
+                        description: "While you have 2 or more Red allies, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let young_hero_2 = Skill(name: "Young Hero (II)",
+                        description: "[ Tap This Unit, Tap 1 other ally unit] Select 1 enemy, and move them. This skill cannot be used unless this unit is in the Frontline.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)

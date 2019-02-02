@@ -662,4 +662,7 @@ let rawSkillsList: [Skill] = [
     bequeathed_etherean_lance,
     im_not_done_with_my_fun,
     lets_play_pretend_demons,
+    victory_nears,
+    heros_morale,
+    young_hero_2,
 ]

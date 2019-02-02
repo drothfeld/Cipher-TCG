@@ -15,6 +15,9 @@ let rawCardsList: [Card] = [
     // Series: Starter Deck 04
     s04_001,
     // Series: Box Set 01
+    b01_001,
+    b01_002,
+    b01_003,
     b01_046,
     b01_051,
     b01_054,

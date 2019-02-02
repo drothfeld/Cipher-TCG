@@ -41,6 +41,39 @@ let s04_001 = Card(series: "S04-001ST",
                    skills: [dark_surge, consecrated_sword_of_nohr],
                    cardImageName: "S04-001.png")
 
+let b01_001 = Card(series: "B01-001SR",
+                   name: "Marth: Savior of Archanea",
+                   rarity: secret_rare,
+                   insignia: blade_of_light,
+                   attack: 70,
+                   support: 20,
+                   illustrator: maki_hakoda,
+                   supportingSkill: none,
+                   skills: [victory_nears, falchion],
+                   cardImageName: "B01-001.png")
+
+let b01_002 = Card(series: "B01-002N",
+                   name: "Marth: Deposed Prince",
+                   rarity: normal,
+                   insignia: blade_of_light,
+                   attack: 50,
+                   support: 20,
+                   illustrator: sachie,
+                   supportingSkill: none,
+                   skills: [heros_morale],
+                   cardImageName: "B01-002.png")
+
+let b01_003 = Card(series: "B01-003HN",
+                   name: "Marth: Crown Prince of Altea",
+                   rarity: high_normal,
+                   insignia: blade_of_light,
+                   attack: 40,
+                   support: 20,
+                   illustrator: yusuke_kozaki,
+                   supportingSkill: heros_emblem,
+                   skills: [young_hero_2],
+                   cardImageName: "B01-003.png")
+
 let b01_046 = Card(series: "B01-046SR",
                    name: "Manakete Princess, Tiki",
                    rarity: secret_rare,
