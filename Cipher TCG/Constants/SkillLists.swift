@@ -669,4 +669,10 @@ let rawSkillsList: [Skill] = [
     heavens_flier,
     wing_spear,
     royal_charisma,
+    paladins_protection,
+    red_and_green_twin_strike,
+    red_and_green_ties,
+    green_and_red_twin_strike,
+    green_and_red_ties,
+    impregnable_wall,
 ]

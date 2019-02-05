@@ -5287,3 +5287,51 @@ let royal_charisma = Skill(name: "Royal Charisma",
                         flipOrb: false,
                         tapUnit: true,
                         CCS: false)
+
+let paladins_protection = Skill(name: "Paladin’s Protection",
+                        description: "Your opponent’s Back Line cannot attack this unit or any ally with a deployment cost of 2 or less.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let red_and_green_twin_strike = Skill(name: "Red & Green Twin Strike",
+                        description: "[Tap ally “Abel”] When this unit attacks, if you pay the cost, until the end of this battle, this unit gains +40 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let red_and_green_ties = Skill(name: "Red & Green Ties",
+                        description: "While this unit is being supported by Abel, this unit gains +30 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let green_and_red_twin_strike = Skill(name: "Green & Red Twin Strike",
+                        description: "[Tap an ally “Cain”] When this unit attacks, you may pay the cost and if you do: Until the end of this battle, this unit gains ",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let green_and_red_ties = Skill(name: "Green & Red Ties",
+                        description: "If this unit is being supported by Cain, this unit gains +30 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let impregnable_wall = Skill(name: "Impregnable Wall",
+                        description: "[ Flip 1 Bond ] When another ally is attacked while this unit is in the Front Line, you may pay the cost, and if you do: This unit becomes the target of the attack instead of that ally.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

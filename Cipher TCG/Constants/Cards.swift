@@ -107,6 +107,72 @@ let b01_006 = Card(series: "B01-006HN",
                    skills: [royal_charisma],
                    cardImageName: "B01-006.png")
 
+let b01_007 = Card(series: "B01-007R",
+                   name: "Cain: The Bull",
+                   rarity: rare,
+                   insignia: blade_of_light,
+                   attack: 60,
+                   support: 10,
+                   illustrator: aoji,
+                   supportingSkill: none,
+                   skills: [paladins_protection, red_and_green_twin_strike],
+                   cardImageName: "B01-007.png")
+
+let b01_008 = Card(series: "B01-008N",
+                   name: "Cain: Red Knight",
+                   rarity: normal,
+                   insignia: blade_of_light,
+                   attack: 40,
+                   support: 10,
+                   illustrator: aoji,
+                   supportingSkill: attack_emblem,
+                   skills: [red_and_green_ties],
+                   cardImageName: "B01-008.png")
+
+let b01_009 = Card(series: "B01-009R",
+                   name: "Abel: The Panther",
+                   rarity: rare,
+                   insignia: blade_of_light,
+                   attack: 60,
+                   support: 10,
+                   illustrator: raita_kazama,
+                   supportingSkill: none,
+                   skills: [paladins_protection, green_and_red_twin_strike],
+                   cardImageName: "B01-009.png")
+
+let b01_010 = Card(series: "B01-010N",
+                   name: "Abel: Green Knight",
+                   rarity: normal,
+                   insignia: blade_of_light,
+                   attack: 40,
+                   support: 10,
+                   illustrator: raita_kazama,
+                   supportingSkill: attack_emblem,
+                   skills: [green_and_red_ties],
+                   cardImageName: "B01-010.png")
+
+let b01_011 = Card(series: "B01-011HN",
+                   name: "Draug: Altea's Shield",
+                   rarity: high_normal,
+                   insignia: blade_of_light,
+                   attack: 50,
+                   support: 10,
+                   illustrator: homazo,
+                   supportingSkill: none,
+                   skills: [impregnable_wall, armor_expertise],
+                   cardImageName: "B01-011.png")
+
+let b01_012 = Card(series: "B01-012N",
+                   name: "Draug: Protective Knight",
+                   rarity: normal,
+                   insignia: blade_of_light,
+                   attack: 30,
+                   support: 10,
+                   illustrator: homazo,
+                   supportingSkill: defense_emblem,
+                   skills: [armor_expertise],
+                   cardImageName: "B01-012.png")
+
 let b01_046 = Card(series: "B01-046SR",
                    name: "Manakete Princess, Tiki",
                    rarity: secret_rare,
