@@ -74,6 +74,39 @@ let b01_003 = Card(series: "B01-003HN",
                    skills: [young_hero_2],
                    cardImageName: "B01-003.png")
 
+let b01_004 = Card(series: "B01-004SR",
+                   name: "Caeda: Angelic Advocate of Affection",
+                   rarity: secret_rare,
+                   insignia: blade_of_light,
+                   attack: 60,
+                   support: 30,
+                   illustrator: mayo,
+                   supportingSkill: none,
+                   skills: [persuasion, heavens_flier],
+                   cardImageName: "B01-004.png")
+
+let b01_005 = Card(series: "B01-005N",
+                   name: "Caeda: Wings of Restoration",
+                   rarity: normal,
+                   insignia: blade_of_light,
+                   attack: 40,
+                   support: 30,
+                   illustrator: mayo,
+                   supportingSkill: none,
+                   skills: [wing_spear, winged_deliverer],
+                   cardImageName: "B01-005.png")
+
+let b01_006 = Card(series: "B01-006HN",
+                   name: "Caeda: Princess of Talys",
+                   rarity: high_normal,
+                   insignia: blade_of_light,
+                   attack: 30,
+                   support: 30,
+                   illustrator: douji_shiki,
+                   supportingSkill: flying_emblem,
+                   skills: [royal_charisma],
+                   cardImageName: "B01-006.png")
+
 let b01_046 = Card(series: "B01-046SR",
                    name: "Manakete Princess, Tiki",
                    rarity: secret_rare,

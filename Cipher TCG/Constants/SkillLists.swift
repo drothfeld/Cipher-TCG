@@ -665,4 +665,8 @@ let rawSkillsList: [Skill] = [
     victory_nears,
     heros_morale,
     young_hero_2,
+    persuasion,
+    heavens_flier,
+    wing_spear,
+    royal_charisma,
 ]

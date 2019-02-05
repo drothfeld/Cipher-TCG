@@ -175,6 +175,9 @@
 		B0497C0821A0B79F005E5910 /* Rarities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0497C0721A0B79F005E5910 /* Rarities.swift */; };
 		B0497C0A21A0BB9E005E5910 /* Illustrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0497C0921A0BB9E005E5910 /* Illustrator.swift */; };
 		B0497C0C21A0BBFC005E5910 /* Illustrators.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0497C0B21A0BBFC005E5910 /* Illustrators.swift */; };
+		B05111EA220A03BB0026350F /* B01-004.png in Resources */ = {isa = PBXBuildFile; fileRef = B05111E9220A03BB0026350F /* B01-004.png */; };
+		B05111EC220A04580026350F /* B01-005.png in Resources */ = {isa = PBXBuildFile; fileRef = B05111EB220A04580026350F /* B01-005.png */; };
+		B05111EE220A04A40026350F /* B01-006.png in Resources */ = {isa = PBXBuildFile; fileRef = B05111ED220A04A40026350F /* B01-006.png */; };
 		B0533FF021957AFC00D9A5DA /* B15-033.png in Resources */ = {isa = PBXBuildFile; fileRef = B0533FEF21957AFC00D9A5DA /* B15-033.png */; };
 		B0540A0121B077C600BEDE6B /* B15-084.png in Resources */ = {isa = PBXBuildFile; fileRef = B0540A0021B077C600BEDE6B /* B15-084.png */; };
 		B054BBB3200E68AE004159A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBB2200E68AE004159A6 /* AppDelegate.swift */; };
@@ -633,6 +636,9 @@
 		B0497C0721A0B79F005E5910 /* Rarities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rarities.swift; sourceTree = "<group>"; };
 		B0497C0921A0BB9E005E5910 /* Illustrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Illustrator.swift; sourceTree = "<group>"; };
 		B0497C0B21A0BBFC005E5910 /* Illustrators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Illustrators.swift; sourceTree = "<group>"; };
+		B05111E9220A03BB0026350F /* B01-004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B01-004.png"; sourceTree = "<group>"; };
+		B05111EB220A04580026350F /* B01-005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B01-005.png"; sourceTree = "<group>"; };
+		B05111ED220A04A40026350F /* B01-006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B01-006.png"; sourceTree = "<group>"; };
 		B0533FEF21957AFC00D9A5DA /* B15-033.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-033.png"; sourceTree = "<group>"; };
 		B0540A0021B077C600BEDE6B /* B15-084.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-084.png"; sourceTree = "<group>"; };
 		B054BBAF200E68AE004159A6 /* Cipher TCG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cipher TCG.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1416,6 +1422,9 @@
 				B09AEA2D22061B6F008C60DA /* B01-001.png */,
 				B09AEA2F22061C9D008C60DA /* B01-002.png */,
 				B09AEA3022061C9D008C60DA /* B01-003.png */,
+				B05111E9220A03BB0026350F /* B01-004.png */,
+				B05111EB220A04580026350F /* B01-005.png */,
+				B05111ED220A04A40026350F /* B01-006.png */,
 				B08A6B282017C06D00603113 /* B01-046.png */,
 				B08A6B272017C06D00603113 /* B01-051.png */,
 				B08A6B252017A50B00603113 /* B01-054.png */,
@@ -1851,6 +1860,7 @@
 				B071C4C72171206A00072668 /* B14-037.png in Resources */,
 				B0F714E820CEF1B9002184D5 /* B11-093.png in Resources */,
 				B03D57CF2012CCE0007A3E97 /* B07-058.png in Resources */,
+				B05111EE220A04A40026350F /* B01-006.png in Resources */,
 				B0FEF2642167D69C00B27A28 /* B14-079.png in Resources */,
 				B0E0DE1E20D2D8D4002672A4 /* B06-018.png in Resources */,
 				B03D58012012CD14007A3E97 /* B10-054.png in Resources */,
@@ -1863,6 +1873,7 @@
 				B0B47C9121277239006D93B5 /* B06-058.png in Resources */,
 				B071C4CA2171206A00072668 /* B14-036.png in Resources */,
 				B003AFEF20D570F200133D1B /* B03-046.png in Resources */,
+				B05111EA220A03BB0026350F /* B01-004.png in Resources */,
 				B048FE2F201E3FDE007F1525 /* B03-044.png in Resources */,
 				B076E7D42188E44F001FA69D /* B13-006.png in Resources */,
 				B09632DB20CC43350050F90F /* B05-077.png in Resources */,
@@ -2012,6 +2023,7 @@
 				B0D035A021A4770900BE1A49 /* B15-094.png in Resources */,
 				B0464419211BAA4700AECB2A /* S04-001.png in Resources */,
 				B0C332E621CAF66D00819811 /* B15-019.png in Resources */,
+				B05111EC220A04580026350F /* B01-005.png in Resources */,
 				B03D58022012CD14007A3E97 /* B10-068.png in Resources */,
 				B071C4C82171206A00072668 /* B14-038.png in Resources */,
 				B0A6400021880C2B006308F4 /* B13-002.png in Resources */,

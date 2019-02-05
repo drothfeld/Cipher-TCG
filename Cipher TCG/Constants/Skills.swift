@@ -5255,3 +5255,35 @@ let young_hero_2 = Skill(name: "Young Hero (II)",
                         flipOrb: false,
                         tapUnit: true,
                         CCS: false)
+
+let persuasion = Skill(name: "Persuasion",
+                        description: "[ Flip 1 Bond ] When an enemy is destroyed by this unit's attack, if you pay the cost, choose 1 Red card except “Caeda” from your deck, reveal it, then add it to your hand. Afterwards, shuffle your deck.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let heavens_flier = Skill(name: "Heavens Flier",
+                        description: "Once Per Turn Move this unit. This skill cannot be used unless this unit is untapped.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let wing_spear = Skill(name: "Wing Spear",
+                        description: "While this unit is attacking a Mounted or Armor unit, this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let royal_charisma = Skill(name: "Royal Charisma",
+                        description: "[ Tap This Unit, tap another ally] Choose one ally. Until the end of the turn, that unit gains +10 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
