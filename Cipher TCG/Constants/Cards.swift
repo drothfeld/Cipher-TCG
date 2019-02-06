@@ -173,6 +173,39 @@ let b01_012 = Card(series: "B01-012N",
                    skills: [armor_expertise],
                    cardImageName: "B01-012.png")
 
+let b01_013 = Card(series: "B01-013HN",
+                   name: "Gordin: Archanean League Bowman",
+                   rarity: high_normal,
+                   insignia: blade_of_light,
+                   attack: 50,
+                   support: 20,
+                   illustrator: kokon_konfuzi,
+                   supportingSkill: none,
+                   skills: [warning_shot, wingbane],
+                   cardImageName: "B01-013.png")
+
+let b01_014 = Card(series: "B01-014N",
+                   name: "Gordin: Altean Archer",
+                   rarity: normal,
+                   insignia: blade_of_light,
+                   attack: 30,
+                   support: 20,
+                   illustrator: kokon_konfuzi,
+                   supportingSkill: attack_emblem,
+                   skills: [steel_bow, wingbane],
+                   cardImageName: "B01-014.png")
+
+let b01_015 = Card(series: "B01-015N",
+                   name: "Wrys: Healing Priest",
+                   rarity: normal,
+                   insignia: blade_of_light,
+                   attack: 30,
+                   support: 20,
+                   illustrator: shishizaru,
+                   supportingSkill: miracle_emblem,
+                   skills: [vulnerary],
+                   cardImageName: "B01-015.png")
+
 let b01_046 = Card(series: "B01-046SR",
                    name: "Manakete Princess, Tiki",
                    rarity: secret_rare,

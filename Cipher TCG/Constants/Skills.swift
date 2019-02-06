@@ -5335,3 +5335,19 @@ let impregnable_wall = Skill(name: "Impregnable Wall",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let warning_shot = Skill(name: "Warning Shot",
+                        description: "When a cost 2 or lower ally unit is deployed, you may choose 1 enemy Flying unit and move them.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let vulnerary = Skill(name: "Vulnerary",
+                        description: "[ Tap This Unit , Destroy this unit] When another ally is attacked, you may pay the cost, and if you do: Until the end of that battle, that ally gains +20 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)

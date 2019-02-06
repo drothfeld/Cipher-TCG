@@ -675,4 +675,6 @@ let rawSkillsList: [Skill] = [
     green_and_red_twin_strike,
     green_and_red_ties,
     impregnable_wall,
+    warning_shot,
+    vulnerary,
 ]
