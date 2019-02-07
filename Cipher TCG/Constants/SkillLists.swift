@@ -677,4 +677,8 @@ let rawSkillsList: [Skill] = [
     impregnable_wall,
     warning_shot,
     vulnerary,
+    battlefield_born,
+    sanctified_strike,
+    predestined_paths,
+    mercenary_commander,
 ]

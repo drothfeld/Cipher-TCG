@@ -206,6 +206,39 @@ let b01_015 = Card(series: "B01-015N",
                    skills: [vulnerary],
                    cardImageName: "B01-015.png")
 
+let b01_016 = Card(series: "B01-016SR",
+                   name: "Ogma: War-God of Talys",
+                   rarity: secret_rare,
+                   insignia: blade_of_light,
+                   attack: 70,
+                   support: 10,
+                   illustrator: masaki_hirooka,
+                   supportingSkill: none,
+                   skills: [battlefield_born, sanctified_strike],
+                   cardImageName: "B01-016.png")
+
+let b01_017 = Card(series: "B01-017N",
+                   name: "Ogma: Well-Armed Gladiator",
+                   rarity: normal,
+                   insignia: blade_of_light,
+                   attack: 70,
+                   support: 10,
+                   illustrator: nnekora,
+                   supportingSkill: none,
+                   skills: [predestined_paths],
+                   cardImageName: "B01-017.png")
+
+let b01_018 = Card(series: "B01-018HN",
+                   name: "Ogma: Talysian Mercenary",
+                   rarity: high_normal,
+                   insignia: blade_of_light,
+                   attack: 40,
+                   support: 10,
+                   illustrator: meisai,
+                   supportingSkill: attack_emblem,
+                   skills: [mercenary_commander],
+                   cardImageName: "B01-018.png")
+
 let b01_046 = Card(series: "B01-046SR",
                    name: "Manakete Princess, Tiki",
                    rarity: secret_rare,

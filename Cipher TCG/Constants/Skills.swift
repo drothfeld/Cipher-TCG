@@ -5351,3 +5351,35 @@ let vulnerary = Skill(name: "Vulnerary",
                         flipOrb: false,
                         tapUnit: true,
                         CCS: false)
+
+let battlefield_born = Skill(name: "Battlefield-Born",
+                        description: "[Tap another ally] Until the end of this turn, this unit gains +10 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let sanctified_strike = Skill(name: "Sanctified Strike",
+                        description: "If this unit’s attack is 100 or more after initiating an attack, until the end of this battle, the number of orbs this unit’s attacks would destroy becomes 2.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let predestined_paths = Skill(name: "Predestined Paths",
+                        description: "The card supporting this unit fails unless it is “Caeda” or “Navarre”.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let mercenary_commander = Skill(name: "Mercenary Commander",
+                        description: "During your turn, if there are at least two other allies with a deployment cost of 2 or less, this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
