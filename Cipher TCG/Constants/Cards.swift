@@ -239,6 +239,39 @@ let b01_018 = Card(series: "B01-018HN",
                    skills: [mercenary_commander],
                    cardImageName: "B01-018.png")
 
+let b01_019 = Card(series: "B01-019N",
+                   name: "Bord: Talysian Fighter",
+                   rarity: normal,
+                   insignia: blade_of_light,
+                   attack: 30,
+                   support: 10,
+                   illustrator: haccan,
+                   supportingSkill: attack_emblem,
+                   skills: [fighters_expertise],
+                   cardImageName: "B01-019.png")
+
+let b01_020 = Card(series: "B01-020N",
+                   name: "Cord: Talysian Axe-wielder",
+                   rarity: normal,
+                   insignia: blade_of_light,
+                   attack: 30,
+                   support: 10,
+                   illustrator: haccan,
+                   supportingSkill: attack_emblem,
+                   skills: [fighters_expertise],
+                   cardImageName: "B01-020.png")
+
+let b01_021 = Card(series: "B01-021HN",
+                   name: "Barst: Courageous Talys Mercenary",
+                   rarity: high_normal,
+                   insignia: blade_of_light,
+                   attack: 40,
+                   support: 10,
+                   illustrator: haccan,
+                   supportingSkill: none,
+                   skills: [bord_cord_and_barst, fighters_expertise],
+                   cardImageName: "B01-021.png")
+
 let b01_046 = Card(series: "B01-046SR",
                    name: "Manakete Princess, Tiki",
                    rarity: secret_rare,

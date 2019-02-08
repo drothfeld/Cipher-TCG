@@ -250,6 +250,9 @@
 		B0803DF720FBC8A9002CCCD8 /* B11-011.png in Resources */ = {isa = PBXBuildFile; fileRef = B0803DF220FBC8A9002CCCD8 /* B11-011.png */; };
 		B0810B1020C839BE0003EC6C /* B12-002.png in Resources */ = {isa = PBXBuildFile; fileRef = B0810B0E20C839BE0003EC6C /* B12-002.png */; };
 		B0810B1120C839BE0003EC6C /* B12-001.png in Resources */ = {isa = PBXBuildFile; fileRef = B0810B0F20C839BE0003EC6C /* B12-001.png */; };
+		B0841D56220E0846004D4501 /* B01-019.png in Resources */ = {isa = PBXBuildFile; fileRef = B0841D55220E0845004D4501 /* B01-019.png */; };
+		B0841D58220E0889004D4501 /* B01-020.png in Resources */ = {isa = PBXBuildFile; fileRef = B0841D57220E0889004D4501 /* B01-020.png */; };
+		B0841D5A220E08B8004D4501 /* B01-021.png in Resources */ = {isa = PBXBuildFile; fileRef = B0841D59220E08B7004D4501 /* B01-021.png */; };
 		B0849B5B21F97C0B005FB1E1 /* B15-065.png in Resources */ = {isa = PBXBuildFile; fileRef = B0849B5921F97C0B005FB1E1 /* B15-065.png */; };
 		B0849B5C21F97C0B005FB1E1 /* B15-066.png in Resources */ = {isa = PBXBuildFile; fileRef = B0849B5A21F97C0B005FB1E1 /* B15-066.png */; };
 		B085A67E214ACB87008EAFE7 /* B14-032.png in Resources */ = {isa = PBXBuildFile; fileRef = B085A67C214ACB87008EAFE7 /* B14-032.png */; };
@@ -725,6 +728,9 @@
 		B0803DF220FBC8A9002CCCD8 /* B11-011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B11-011.png"; sourceTree = "<group>"; };
 		B0810B0E20C839BE0003EC6C /* B12-002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B12-002.png"; sourceTree = "<group>"; };
 		B0810B0F20C839BE0003EC6C /* B12-001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B12-001.png"; sourceTree = "<group>"; };
+		B0841D55220E0845004D4501 /* B01-019.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B01-019.png"; sourceTree = "<group>"; };
+		B0841D57220E0889004D4501 /* B01-020.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B01-020.png"; sourceTree = "<group>"; };
+		B0841D59220E08B7004D4501 /* B01-021.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B01-021.png"; sourceTree = "<group>"; };
 		B0849B5921F97C0B005FB1E1 /* B15-065.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-065.png"; sourceTree = "<group>"; };
 		B0849B5A21F97C0B005FB1E1 /* B15-066.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-066.png"; sourceTree = "<group>"; };
 		B085A67C214ACB87008EAFE7 /* B14-032.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B14-032.png"; sourceTree = "<group>"; };
@@ -1461,6 +1467,9 @@
 				B0EB1215220CB16600F4D4D7 /* B01-016.png */,
 				B0EB1214220CB16600F4D4D7 /* B01-017.png */,
 				B0EB1213220CB16600F4D4D7 /* B01-018.png */,
+				B0841D55220E0845004D4501 /* B01-019.png */,
+				B0841D57220E0889004D4501 /* B01-020.png */,
+				B0841D59220E08B7004D4501 /* B01-021.png */,
 				B08A6B282017C06D00603113 /* B01-046.png */,
 				B08A6B272017C06D00603113 /* B01-051.png */,
 				B08A6B252017A50B00603113 /* B01-054.png */,
@@ -1984,6 +1993,7 @@
 				B03D57E02012CCEF007A3E97 /* 30px-Green.png in Resources */,
 				B0803DF420FBC8A9002CCCD8 /* B11-009.png in Resources */,
 				B03D57F62012CD14007A3E97 /* B10-076.png in Resources */,
+				B0841D5A220E08B8004D4501 /* B01-021.png in Resources */,
 				B0193C8E2194D40100C2047F /* B15-003.png in Resources */,
 				B01B2ECF215ACF3000ACA461 /* skill_type_active.png in Resources */,
 				B0BEF1EA21C72B120006C132 /* B15-011.png in Resources */,
@@ -2071,10 +2081,12 @@
 				B071C4C82171206A00072668 /* B14-038.png in Resources */,
 				B0A6400021880C2B006308F4 /* B13-002.png in Resources */,
 				B0ED9DF620D6CB2600A7BEB6 /* B12-005.png in Resources */,
+				B0841D56220E0846004D4501 /* B01-019.png in Resources */,
 				B0E4224F201C424B00CA879C /* B06-056.png in Resources */,
 				B048FE38201F8BC3007F1525 /* B09-090.png in Resources */,
 				B0303B90213490FE00F78A00 /* B14-056.png in Resources */,
 				B0E42247201A820600CA879C /* B02-051.png in Resources */,
+				B0841D58220E0889004D4501 /* B01-020.png in Resources */,
 				B01B2EE7215FFDD800ACA461 /* B14-019.png in Resources */,
 				B0ED9DFA20D6CCE900A7BEB6 /* B12-007.png in Resources */,
 				B0B2B2C22104F21B00ABA187 /* B12-008.png in Resources */,

@@ -5383,3 +5383,11 @@ let mercenary_commander = Skill(name: "Mercenary Commander",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let bord_cord_and_barst = Skill(name: "Bord, Cord, and Barst",
+                        description: "[Tap both allied Bord and Cord ] When this unit attacks, if you pay the cost, until the end of this battle, this unit gains +50 attack and the number of orbs this unit’s attack would destroy becomes 2.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
