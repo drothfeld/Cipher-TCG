@@ -25,14 +25,8 @@ class SkillListViewController: UIViewController, UITableViewDataSource, UITableV
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        interfaceSetup()
         refreshTable()
         searchBarSetup()
-    }
-    
-    // Interface Setup
-    func interfaceSetup() {
-        SkillListTableViewHeightConstraint.constant += screenSize.height - storyboardDeviceHeight
     }
     
     // Drop header view shadow after constraints load
@@ -111,10 +105,5 @@ class SkillListViewController: UIViewController, UITableViewDataSource, UITableV
     // Hide keyboard activated from search bar
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         self.SkillSearchBar.endEditing(true)
-    }
-    
-    // Hiding Status Bar
-    override var prefersStatusBarHidden: Bool {
-        return true
     }
 }

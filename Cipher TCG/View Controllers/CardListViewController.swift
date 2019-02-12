@@ -173,11 +173,6 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         self.CardListSearchBar.endEditing(true)
     }
     
-    // Hiding Status Bar
-    override var prefersStatusBarHidden: Bool {
-        return true
-    }
-    
     // Deactivate all filter buttons
     // Optional Param: Don't deactivate specified button
     func deactivateAllFilters(keepButton: UIButton? = nil) {

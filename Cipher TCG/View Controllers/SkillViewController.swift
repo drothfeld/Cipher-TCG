@@ -122,9 +122,4 @@ class SkillViewController: UIViewController {
             }
         }
     }
-    
-    // Hiding status bar
-    override var prefersStatusBarHidden: Bool {
-        return true
-    }
 }

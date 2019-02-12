@@ -239,12 +239,6 @@ class CardViewController: UIViewController {
         // Update userDefaults saved favorite card data
         let encodedData = NSKeyedArchiver.archivedData(withRootObject: favorite_cards)
         UserDefaults.standard.set(encodedData, forKey: "favoriteCardData")
-    }
-    
-    // Hiding status bar
-    override var prefersStatusBarHidden: Bool {
-        return true
-    }
-    
+    }    
 }
 

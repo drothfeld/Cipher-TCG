@@ -14,11 +14,6 @@ class MenuViewController: UIViewController {
     @IBAction func linkToEmblemWiki(_ sender: Any) {
         UIApplication.shared.open(URL(string: "https://serenesforest.net/wiki/index.php/Fire_Emblem_TCG")!, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([:]), completionHandler: nil)
     }
-    
-    // Hiding status bar
-        override var prefersStatusBarHidden: Bool {
-        return true
-    }
 }
 
 // Helper function inserted by Swift 4.2 migrator.

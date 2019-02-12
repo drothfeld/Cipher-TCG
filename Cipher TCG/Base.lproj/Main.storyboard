@@ -231,11 +231,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xak-UL-8QW" userLabel="Skill List Table View">
-                                <rect key="frame" x="0.0" y="81" width="375" height="586"/>
+                                <rect key="frame" x="0.0" y="101" width="375" height="566"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="586" id="C4z-nV-5MU"/>
-                                </constraints>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="customCell" textLabel="NqJ-HO-9xk" style="IBUITableViewCellStyleDefault" id="4WL-Sl-qTt">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
@@ -264,7 +261,7 @@
                                 </connections>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5CK-Qq-SaK" userLabel="Header View">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="81"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="81"/>
                                 <subviews>
                                     <searchBar contentMode="redraw" barStyle="black" searchBarStyle="minimal" placeholder="Search Skills" translatesAutoresizingMaskIntoConstraints="NO" id="ZBR-9w-hG0" userLabel="Skill Search Bar">
                                         <rect key="frame" x="150" y="3" width="225" height="56"/>
@@ -300,42 +297,38 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="AB2-0l-PH0" firstAttribute="leading" secondItem="5CK-Qq-SaK" secondAttribute="leading" constant="2" id="2kN-ew-2VL"/>
-                                    <constraint firstItem="ZBR-9w-hG0" firstAttribute="top" secondItem="5CK-Qq-SaK" secondAttribute="top" constant="3" id="Cfa-yH-dbw"/>
-                                    <constraint firstItem="UAA-Zh-2Hf" firstAttribute="centerX" secondItem="5CK-Qq-SaK" secondAttribute="centerX" id="OyG-QX-ANb"/>
-                                    <constraint firstItem="UAA-Zh-2Hf" firstAttribute="top" secondItem="ZBR-9w-hG0" secondAttribute="bottom" constant="21" id="UYA-dd-9xR"/>
-                                    <constraint firstItem="AB2-0l-PH0" firstAttribute="top" secondItem="5CK-Qq-SaK" secondAttribute="top" constant="3" id="iiI-xe-VZF"/>
-                                    <constraint firstAttribute="trailing" secondItem="UAA-Zh-2Hf" secondAttribute="trailing" id="mAu-FN-qLb"/>
-                                    <constraint firstAttribute="trailing" secondItem="ZBR-9w-hG0" secondAttribute="trailing" id="xfx-JZ-0A9"/>
-                                    <constraint firstItem="UAA-Zh-2Hf" firstAttribute="leading" secondItem="5CK-Qq-SaK" secondAttribute="leading" id="yqk-rU-AdQ"/>
+                                    <constraint firstItem="ZBR-9w-hG0" firstAttribute="top" secondItem="5CK-Qq-SaK" secondAttribute="top" constant="3" id="RxV-Nv-bIh"/>
+                                    <constraint firstAttribute="height" constant="81" id="SJb-Ed-McU"/>
+                                    <constraint firstItem="UAA-Zh-2Hf" firstAttribute="leading" secondItem="5CK-Qq-SaK" secondAttribute="leading" id="aBS-C2-KSh"/>
+                                    <constraint firstItem="AB2-0l-PH0" firstAttribute="top" secondItem="5CK-Qq-SaK" secondAttribute="top" constant="3" id="ejf-j2-cy1"/>
+                                    <constraint firstItem="AB2-0l-PH0" firstAttribute="leading" secondItem="5CK-Qq-SaK" secondAttribute="leading" constant="2" id="g16-DA-UkR"/>
+                                    <constraint firstAttribute="trailing" secondItem="UAA-Zh-2Hf" secondAttribute="trailing" id="lTR-A4-RNc"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZBR-9w-hG0" secondAttribute="trailing" id="vh0-jT-q1s"/>
+                                    <constraint firstItem="UAA-Zh-2Hf" firstAttribute="top" secondItem="ZBR-9w-hG0" secondAttribute="bottom" constant="21" id="wd5-SA-Ne8"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="5CK-Qq-SaK" firstAttribute="leading" secondItem="LSV-VL-eow" secondAttribute="leading" id="0UA-Ak-toN"/>
-                            <constraint firstItem="5CK-Qq-SaK" firstAttribute="trailing" secondItem="LSV-VL-eow" secondAttribute="trailing" id="BmV-rg-fNA"/>
-                            <constraint firstItem="5CK-Qq-SaK" firstAttribute="leading" secondItem="LSV-VL-eow" secondAttribute="leading" id="GPT-FF-BKW"/>
-                            <constraint firstItem="xak-UL-8QW" firstAttribute="top" secondItem="5CK-Qq-SaK" secondAttribute="bottom" id="SOi-ta-Wb2"/>
-                            <constraint firstItem="xak-UL-8QW" firstAttribute="leading" secondItem="LSV-VL-eow" secondAttribute="leading" id="ebp-rO-0U0"/>
-                            <constraint firstItem="5CK-Qq-SaK" firstAttribute="trailing" secondItem="LSV-VL-eow" secondAttribute="trailing" id="f1t-68-JuB"/>
-                            <constraint firstItem="5CK-Qq-SaK" firstAttribute="top" secondItem="2hf-k0-Oqg" secondAttribute="top" id="hv7-IK-2mX"/>
-                            <constraint firstItem="xak-UL-8QW" firstAttribute="bottom" secondItem="LSV-VL-eow" secondAttribute="bottom" id="lEm-Kz-jX2"/>
-                            <constraint firstItem="xak-UL-8QW" firstAttribute="trailing" secondItem="LSV-VL-eow" secondAttribute="trailing" id="n0E-al-z36"/>
-                            <constraint firstItem="5CK-Qq-SaK" firstAttribute="top" secondItem="2hf-k0-Oqg" secondAttribute="top" id="z2X-AJ-J3d"/>
+                            <constraint firstItem="5CK-Qq-SaK" firstAttribute="trailing" secondItem="LSV-VL-eow" secondAttribute="trailing" id="VJK-Se-AvR"/>
+                            <constraint firstItem="xak-UL-8QW" firstAttribute="leading" secondItem="LSV-VL-eow" secondAttribute="leading" id="Yio-3w-kUw"/>
+                            <constraint firstItem="xak-UL-8QW" firstAttribute="top" secondItem="5CK-Qq-SaK" secondAttribute="bottom" id="hWz-Ak-tLr"/>
+                            <constraint firstItem="5CK-Qq-SaK" firstAttribute="top" secondItem="LSV-VL-eow" secondAttribute="top" id="ksd-zo-BXJ"/>
+                            <constraint firstItem="xak-UL-8QW" firstAttribute="trailing" secondItem="LSV-VL-eow" secondAttribute="trailing" id="lUr-8m-xaI"/>
+                            <constraint firstItem="xak-UL-8QW" firstAttribute="bottom" secondItem="LSV-VL-eow" secondAttribute="bottom" id="wBH-lG-LfR"/>
+                            <constraint firstItem="5CK-Qq-SaK" firstAttribute="leading" secondItem="LSV-VL-eow" secondAttribute="leading" id="yVS-tY-H2t"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="LSV-VL-eow"/>
                     </view>
                     <connections>
                         <outlet property="HeaderView" destination="5CK-Qq-SaK" id="Him-P4-EqJ"/>
                         <outlet property="SkillListTableView" destination="xak-UL-8QW" id="7cm-Vu-bJV"/>
-                        <outlet property="SkillListTableViewHeightConstraint" destination="C4z-nV-5MU" id="XMF-5L-T2N"/>
                         <outlet property="SkillSearchBar" destination="ZBR-9w-hG0" id="Jfw-7V-lyU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QLm-gM-bV1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="132" y="-591"/>
+            <point key="canvasLocation" x="132" y="-591.45427286356824"/>
         </scene>
         <!--Skill View Controller-->
         <scene sceneID="J2o-pE-Li4">
@@ -1181,6 +1174,6 @@
     <inferredMetricsTieBreakers>
         <segue reference="CJv-bm-6cT"/>
         <segue reference="oVR-qE-nmK"/>
-        <segue reference="QE9-aR-HPz"/>
+        <segue reference="eSc-Sj-Klz"/>
     </inferredMetricsTieBreakers>
 </document>
