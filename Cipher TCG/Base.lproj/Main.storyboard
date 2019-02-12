@@ -338,27 +338,295 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T9m-pA-q73" userLabel="Header View">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k95-bx-w2n" userLabel="Skill View">
+                                <rect key="frame" x="0.0" y="90" width="375" height="577"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zt9-yg-gOq" userLabel="Header Bar">
-                                        <rect key="frame" x="0.0" y="70" width="375" height="1"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WC6-ND-YTZ" userLabel="Skill Name View">
+                                        <rect key="frame" x="0.0" y="8" width="375" height="50"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Skill Name" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yre-AG-EPF" userLabel="Skill Name Text">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="JNq-82-tHn"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="yre-AG-EPF" secondAttribute="trailing" id="InI-My-LU1"/>
+                                            <constraint firstItem="yre-AG-EPF" firstAttribute="leading" secondItem="WC6-ND-YTZ" secondAttribute="leading" id="M3J-L9-3us"/>
+                                            <constraint firstAttribute="height" constant="50" id="dNb-Q6-42R"/>
+                                            <constraint firstAttribute="bottom" secondItem="yre-AG-EPF" secondAttribute="bottom" id="m1S-7R-JgB"/>
+                                            <constraint firstItem="yre-AG-EPF" firstAttribute="top" secondItem="WC6-ND-YTZ" secondAttribute="top" id="rg7-Kp-Inh"/>
+                                        </constraints>
+                                    </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skill_type_active.png" translatesAutoresizingMaskIntoConstraints="NO" id="SAj-zg-awR" userLabel="Skill Type Image">
+                                        <rect key="frame" x="37" y="79" width="100" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="V8I-LE-n85"/>
+                                            <constraint firstAttribute="width" constant="100" id="cil-wl-MyP"/>
+                                        </constraints>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VdB-Mu-Hwl" userLabel="Menu Button">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hxY-Ca-TJN" userLabel="Skill Info View">
+                                        <rect key="frame" x="177" y="77" width="217" height="105"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type:" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yE8-JR-TRR" userLabel="Skill Type Header">
+                                                <rect key="frame" x="8" y="8" width="31.5" height="14"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="14" id="1qT-Mz-MBc"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="12"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ACT/Active" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0wz-KW-Nvg" userLabel="Skill Type">
+                                                <rect key="frame" x="40.5" y="8" width="60.5" height="14"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="14" id="2tW-nu-TfN"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flip Bonds:" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KiS-d4-bN9" userLabel="Skill Bond Flip Header">
+                                                <rect key="frame" x="8" y="26" width="66" height="14"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="14" id="WDt-OB-kjX"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="12"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yes ( 2 )" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v9c-B1-Pgs" userLabel="Skill Bond Flip">
+                                                <rect key="frame" x="75" y="26" width="45" height="14"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="14" id="8u8-t6-a9u"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Flip Orb:" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YTm-e8-9Lp" userLabel="Skill Orb Flip Header">
+                                                <rect key="frame" x="8" y="44" width="50" height="14"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="14" id="RX5-j1-b6s"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="12"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z4t-gE-rJd" userLabel="Skill Orb Flip">
+                                                <rect key="frame" x="58" y="44" width="16" height="14"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="14" id="CEz-gL-JJX"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap Unit:" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hPP-sp-ig1" userLabel="Skill Tap Header">
+                                                <rect key="frame" x="8" y="62" width="52" height="14"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="52" id="OAs-Ni-84d"/>
+                                                    <constraint firstAttribute="height" constant="14" id="aTS-5O-ItP"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="12"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yes" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y2D-VS-q5t" userLabel="Skill Tap">
+                                                <rect key="frame" x="60" y="62" width="20" height="14"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="14" id="rPE-jt-vQi"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Class Change Skill:" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VwP-37-jXl" userLabel="Skill CCS Header">
+                                                <rect key="frame" x="8" y="80" width="112" height="14"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="14" id="QW7-2V-zvF"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="12"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yes" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eh1-ly-dt5" userLabel="Skill CCS">
+                                                <rect key="frame" x="129.5" y="80" width="14" height="14"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="14" id="lMN-pV-dq4"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.74587094779999996" green="0.0" blue="0.115509741" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="Y2D-VS-q5t" firstAttribute="leading" secondItem="hPP-sp-ig1" secondAttribute="trailing" id="Aer-4Q-TPN"/>
+                                            <constraint firstAttribute="height" constant="105" id="Ah2-Xr-cUT"/>
+                                            <constraint firstItem="eh1-ly-dt5" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="VwP-37-jXl" secondAttribute="trailing" symbolic="YES" id="Arg-VS-mOe"/>
+                                            <constraint firstItem="VwP-37-jXl" firstAttribute="leading" secondItem="hxY-Ca-TJN" secondAttribute="leading" constant="8" id="ESc-8R-Dhi"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="0wz-KW-Nvg" secondAttribute="trailing" constant="20" symbolic="YES" id="F6R-cL-OGT"/>
+                                            <constraint firstItem="hPP-sp-ig1" firstAttribute="leading" secondItem="hxY-Ca-TJN" secondAttribute="leading" constant="8" id="Hci-nN-khb"/>
+                                            <constraint firstItem="hPP-sp-ig1" firstAttribute="top" secondItem="YTm-e8-9Lp" secondAttribute="bottom" constant="4" id="KsW-vo-N6R"/>
+                                            <constraint firstItem="YTm-e8-9Lp" firstAttribute="leading" secondItem="hxY-Ca-TJN" secondAttribute="leading" constant="8" id="Nh1-qA-tdi"/>
+                                            <constraint firstItem="v9c-B1-Pgs" firstAttribute="leading" secondItem="KiS-d4-bN9" secondAttribute="trailing" constant="1" id="ONu-g1-VKV"/>
+                                            <constraint firstItem="VwP-37-jXl" firstAttribute="top" secondItem="hPP-sp-ig1" secondAttribute="bottom" constant="4" id="OkD-MA-FsZ"/>
+                                            <constraint firstItem="KiS-d4-bN9" firstAttribute="top" secondItem="yE8-JR-TRR" secondAttribute="bottom" constant="4" id="TBo-da-8Ho"/>
+                                            <constraint firstItem="Z4t-gE-rJd" firstAttribute="top" secondItem="KiS-d4-bN9" secondAttribute="bottom" constant="4" id="Tiq-5M-yCk"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Y2D-VS-q5t" secondAttribute="trailing" constant="20" symbolic="YES" id="V5i-Fq-g4s"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="v9c-B1-Pgs" secondAttribute="trailing" constant="20" symbolic="YES" id="ZQ4-UY-fyI"/>
+                                            <constraint firstItem="KiS-d4-bN9" firstAttribute="leading" secondItem="hxY-Ca-TJN" secondAttribute="leading" constant="8" id="aI2-8O-4Sh"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Z4t-gE-rJd" secondAttribute="trailing" constant="20" symbolic="YES" id="bKz-PQ-rB6"/>
+                                            <constraint firstItem="yE8-JR-TRR" firstAttribute="top" secondItem="hxY-Ca-TJN" secondAttribute="top" constant="8" id="eQW-j3-Bpt"/>
+                                            <constraint firstItem="yE8-JR-TRR" firstAttribute="leading" secondItem="hxY-Ca-TJN" secondAttribute="leading" constant="8" id="fRA-Ci-o18"/>
+                                            <constraint firstAttribute="trailing" secondItem="eh1-ly-dt5" secondAttribute="trailing" constant="73.5" id="fy0-yo-2jQ"/>
+                                            <constraint firstItem="v9c-B1-Pgs" firstAttribute="trailing" secondItem="VwP-37-jXl" secondAttribute="trailing" id="gRM-q7-s8G"/>
+                                            <constraint firstAttribute="trailing" secondItem="v9c-B1-Pgs" secondAttribute="trailing" constant="97" id="gvv-C3-rQj"/>
+                                            <constraint firstItem="0wz-KW-Nvg" firstAttribute="leading" secondItem="yE8-JR-TRR" secondAttribute="trailing" constant="1" id="hzL-VX-cZd"/>
+                                            <constraint firstItem="eh1-ly-dt5" firstAttribute="top" secondItem="Y2D-VS-q5t" secondAttribute="bottom" constant="4" id="iO1-8C-BSV"/>
+                                            <constraint firstItem="v9c-B1-Pgs" firstAttribute="top" secondItem="0wz-KW-Nvg" secondAttribute="bottom" constant="4" id="kY5-jG-7xe"/>
+                                            <constraint firstItem="YTm-e8-9Lp" firstAttribute="top" secondItem="KiS-d4-bN9" secondAttribute="bottom" constant="4" id="ojQ-C4-mnV"/>
+                                            <constraint firstItem="Y2D-VS-q5t" firstAttribute="top" secondItem="Z4t-gE-rJd" secondAttribute="bottom" constant="4" id="sdc-ad-BNI"/>
+                                            <constraint firstItem="KiS-d4-bN9" firstAttribute="trailing" secondItem="Z4t-gE-rJd" secondAttribute="trailing" id="t7s-dN-iB9"/>
+                                            <constraint firstItem="0wz-KW-Nvg" firstAttribute="top" secondItem="hxY-Ca-TJN" secondAttribute="top" constant="8" id="x0v-if-bfX"/>
+                                            <constraint firstAttribute="width" constant="217" id="xSu-Ds-K59"/>
+                                            <constraint firstItem="Z4t-gE-rJd" firstAttribute="leading" secondItem="YTm-e8-9Lp" secondAttribute="trailing" id="y2f-Pl-uRM"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VTZ-N8-eg9" userLabel="Skill Text View">
+                                        <rect key="frame" x="-45" y="200" width="390" height="216"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" delaysContentTouches="NO" canCancelContentTouches="NO" keyboardDismissMode="interactive" editable="NO" text="Skill Text" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pm2-BD-xvW" userLabel="Skill Text">
+                                                <rect key="frame" x="62" y="40" width="320" height="168"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="320" id="bfQ-2v-Hhl"/>
+                                                    <constraint firstAttribute="height" constant="168" id="bk3-m2-X1c"/>
+                                                </constraints>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r3K-ha-CcY" userLabel="Skill Text Label">
+                                                <rect key="frame" x="62" y="8" width="99.5" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="v9R-6R-nFm"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="18"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.74587094779999996" green="0.0" blue="0.115509741" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="r3K-ha-CcY" firstAttribute="top" secondItem="VTZ-N8-eg9" secondAttribute="top" constant="8" id="3Tm-Iv-58Q"/>
+                                            <constraint firstItem="r3K-ha-CcY" firstAttribute="leading" secondItem="VTZ-N8-eg9" secondAttribute="leading" constant="62" id="AYt-yO-3gl"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="r3K-ha-CcY" secondAttribute="trailing" constant="20" symbolic="YES" id="Eoj-Rt-hfb"/>
+                                            <constraint firstItem="Pm2-BD-xvW" firstAttribute="leading" secondItem="VTZ-N8-eg9" secondAttribute="leading" constant="62" id="JTo-JX-Xfm"/>
+                                            <constraint firstItem="Pm2-BD-xvW" firstAttribute="top" secondItem="r3K-ha-CcY" secondAttribute="bottom" constant="2" id="L5X-jX-YjG"/>
+                                            <constraint firstAttribute="width" constant="390" id="VKN-aQ-imL"/>
+                                            <constraint firstAttribute="height" constant="216" id="do4-ZN-Oii"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8tv-qg-1Pe" userLabel="Cards with Skill Text View">
+                                        <rect key="frame" x="-31" y="434" width="382" height="133"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" contentMode="scaleToFill" delaysContentTouches="NO" canCancelContentTouches="NO" keyboardDismissMode="interactive" editable="NO" text="List of Cards that have this skill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cpM-KZ-5aN" userLabel="Cards with Skill Text">
+                                                <rect key="frame" x="46" y="45" width="328" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="TuY-wl-Qlr"/>
+                                                    <constraint firstAttribute="width" constant="328" id="ifI-sq-opU"/>
+                                                </constraints>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cards with this Skill" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EBX-55-5ai" userLabel="Cards with Skill Label">
+                                                <rect key="frame" x="46" y="8" width="171.5" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="Vkj-tI-giQ"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="18"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.74587094779999996" green="0.0" blue="0.115509741" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="EBX-55-5ai" secondAttribute="trailing" constant="20" symbolic="YES" id="40l-qq-3V6"/>
+                                            <constraint firstItem="EBX-55-5ai" firstAttribute="top" secondItem="8tv-qg-1Pe" secondAttribute="top" constant="8" id="5dH-kA-It5"/>
+                                            <constraint firstItem="cpM-KZ-5aN" firstAttribute="top" secondItem="EBX-55-5ai" secondAttribute="bottom" constant="7" id="Kyn-CJ-JWG"/>
+                                            <constraint firstAttribute="width" constant="382" id="Op8-TH-2KI"/>
+                                            <constraint firstItem="cpM-KZ-5aN" firstAttribute="leading" secondItem="8tv-qg-1Pe" secondAttribute="leading" constant="46" id="QE7-Vp-5ld"/>
+                                            <constraint firstItem="EBX-55-5ai" firstAttribute="leading" secondItem="8tv-qg-1Pe" secondAttribute="leading" constant="46" id="VrS-uj-Hec"/>
+                                            <constraint firstAttribute="height" constant="133" id="jnf-gn-ovf"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="VTZ-N8-eg9" firstAttribute="leading" secondItem="k95-bx-w2n" secondAttribute="leading" constant="-45" id="0PE-2W-rRI"/>
+                                    <constraint firstItem="8tv-qg-1Pe" firstAttribute="top" secondItem="VTZ-N8-eg9" secondAttribute="bottom" constant="18" id="717-0K-Ro6"/>
+                                    <constraint firstAttribute="trailing" secondItem="WC6-ND-YTZ" secondAttribute="trailing" id="Ad9-mr-r0A"/>
+                                    <constraint firstAttribute="trailing" secondItem="hxY-Ca-TJN" secondAttribute="trailing" constant="-19" id="DDw-hl-EjD"/>
+                                    <constraint firstItem="WC6-ND-YTZ" firstAttribute="leading" secondItem="k95-bx-w2n" secondAttribute="leading" id="e3t-N9-ANs"/>
+                                    <constraint firstItem="8tv-qg-1Pe" firstAttribute="leading" secondItem="k95-bx-w2n" secondAttribute="leading" constant="-31" id="f7k-6j-zQ7"/>
+                                    <constraint firstItem="hxY-Ca-TJN" firstAttribute="top" secondItem="WC6-ND-YTZ" secondAttribute="bottom" constant="19" id="gPy-6s-NRe"/>
+                                    <constraint firstItem="VTZ-N8-eg9" firstAttribute="top" secondItem="hxY-Ca-TJN" secondAttribute="bottom" constant="18" id="laD-cS-UiE"/>
+                                    <constraint firstItem="SAj-zg-awR" firstAttribute="top" secondItem="WC6-ND-YTZ" secondAttribute="bottom" constant="21" id="qKp-sF-jl8"/>
+                                    <constraint firstItem="SAj-zg-awR" firstAttribute="leading" secondItem="k95-bx-w2n" secondAttribute="leading" constant="37" id="wwn-K3-uQF"/>
+                                    <constraint firstItem="WC6-ND-YTZ" firstAttribute="top" secondItem="k95-bx-w2n" secondAttribute="top" constant="8" id="wx0-jb-DLR"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T9m-pA-q73" userLabel="Header View">
+                                <rect key="frame" x="0.0" y="20" width="375" height="70"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zt9-yg-gOq" userLabel="Header Bar">
+                                        <rect key="frame" x="0.0" y="70" width="375" height="1"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="trg-Pi-FN1"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VdB-Mu-Hwl" userLabel="Menu Button">
                                         <rect key="frame" x="221" y="9" width="146" height="53"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="146" id="P53-J4-kCL"/>
+                                            <constraint firstAttribute="height" constant="53" id="XMs-hG-Lz9"/>
+                                        </constraints>
                                         <state key="normal" image="cipher_header.png"/>
                                         <connections>
                                             <segue destination="o1b-Zz-bjG" kind="custom" customClass="SegueFromLeft" customModule="Cipher_TCG" customModuleProvider="target" id="6Gl-2R-TWn"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vdp-27-DWB" userLabel="Back Button">
-                                        <rect key="frame" x="8" y="18" width="62" height="35"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vdp-27-DWB" userLabel="Back Button">
+                                        <rect key="frame" x="31" y="18" width="62" height="35"/>
                                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="JEF-I9-NdE"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
                                         <state key="normal" title="&lt; Back">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -369,170 +637,29 @@
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k95-bx-w2n" userLabel="Skill View">
-                                <rect key="frame" x="0.0" y="70" width="375" height="595"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WC6-ND-YTZ" userLabel="Skill Name View">
-                                        <rect key="frame" x="0.0" y="8" width="376" height="50"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Skill Name" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yre-AG-EPF" userLabel="Skill Name Text">
-                                                <rect key="frame" x="8" y="0.0" width="360" height="50"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="22"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VTZ-N8-eg9" userLabel="Skill Text View">
-                                        <rect key="frame" x="-45" y="200" width="390" height="216"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <subviews>
-                                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" delaysContentTouches="NO" canCancelContentTouches="NO" keyboardDismissMode="interactive" editable="NO" text="Skill Text" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pm2-BD-xvW" userLabel="Skill Text">
-                                                <rect key="frame" x="62" y="40" width="320" height="168"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="17"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Description" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r3K-ha-CcY" userLabel="Skill Text Label">
-                                                <rect key="frame" x="62" y="8" width="151" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="18"/>
-                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.74587094779999996" green="0.0" blue="0.115509741" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
-                                        </userDefinedRuntimeAttributes>
-                                    </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8tv-qg-1Pe" userLabel="Cards with Skill Text View">
-                                        <rect key="frame" x="-31" y="434" width="382" height="133"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <subviews>
-                                            <textView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" delaysContentTouches="NO" canCancelContentTouches="NO" keyboardDismissMode="interactive" editable="NO" text="List of Cards that have this skill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cpM-KZ-5aN" userLabel="Cards with Skill Text">
-                                                <rect key="frame" x="46" y="45" width="328" height="80"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cards with this Skill" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EBX-55-5ai" userLabel="Cards with Skill Label">
-                                                <rect key="frame" x="46" y="8" width="328" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="18"/>
-                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.74587094779999996" green="0.0" blue="0.115509741" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
-                                        </userDefinedRuntimeAttributes>
-                                    </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hxY-Ca-TJN" userLabel="Skill Info View">
-                                        <rect key="frame" x="177" y="77" width="217" height="105"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Type:" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yE8-JR-TRR" userLabel="Skill Type Header">
-                                                <rect key="frame" x="8" y="8" width="34" height="14"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="12"/>
-                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ACT/Active" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0wz-KW-Nvg" userLabel="Skill Type">
-                                                <rect key="frame" x="43" y="8" width="166" height="14"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
-                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Flip Bonds:" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KiS-d4-bN9" userLabel="Skill Bond Flip Header">
-                                                <rect key="frame" x="8" y="26" width="69" height="14"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="12"/>
-                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Yes ( 2 )" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v9c-B1-Pgs" userLabel="Skill Bond Flip">
-                                                <rect key="frame" x="78" y="26" width="131" height="14"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
-                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Flip Orb:" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YTm-e8-9Lp" userLabel="Skill Orb Flip Header">
-                                                <rect key="frame" x="8" y="44" width="54" height="14"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="12"/>
-                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="No" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z4t-gE-rJd" userLabel="Skill Orb Flip">
-                                                <rect key="frame" x="62" y="44" width="147" height="14"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
-                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap Unit:" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hPP-sp-ig1" userLabel="Skill Tap Header">
-                                                <rect key="frame" x="8" y="62" width="54" height="14"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="12"/>
-                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Yes" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y2D-VS-q5t" userLabel="Skill Tap">
-                                                <rect key="frame" x="62" y="62" width="147" height="14"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
-                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Class Change Skill:" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VwP-37-jXl" userLabel="Skill CCS Header">
-                                                <rect key="frame" x="8" y="80" width="112" height="14"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="12"/>
-                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Yes" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eh1-ly-dt5" userLabel="Skill CCS">
-                                                <rect key="frame" x="124" y="80" width="85" height="14"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
-                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.74587094779999996" green="0.0" blue="0.115509741" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
-                                        </userDefinedRuntimeAttributes>
-                                    </view>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="skill_type_active.png" translatesAutoresizingMaskIntoConstraints="NO" id="SAj-zg-awR" userLabel="Skill Type Image">
-                                        <rect key="frame" x="37" y="79" width="100" height="100"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="zt9-yg-gOq" firstAttribute="top" secondItem="VdB-Mu-Hwl" secondAttribute="bottom" constant="8" id="0qK-lK-Tp8"/>
+                                    <constraint firstItem="vdp-27-DWB" firstAttribute="leading" secondItem="T9m-pA-q73" secondAttribute="leading" constant="31" id="A52-dk-Ubv"/>
+                                    <constraint firstAttribute="trailing" secondItem="VdB-Mu-Hwl" secondAttribute="trailing" constant="8" id="Goe-Dx-YFC"/>
+                                    <constraint firstItem="zt9-yg-gOq" firstAttribute="leading" secondItem="T9m-pA-q73" secondAttribute="leading" id="O8W-Da-ZNr"/>
+                                    <constraint firstAttribute="trailing" secondItem="zt9-yg-gOq" secondAttribute="trailing" id="ZWo-UK-IxU"/>
+                                    <constraint firstItem="VdB-Mu-Hwl" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="vdp-27-DWB" secondAttribute="trailing" constant="8" symbolic="YES" id="ddo-p0-kvR"/>
+                                    <constraint firstItem="vdp-27-DWB" firstAttribute="top" secondItem="T9m-pA-q73" secondAttribute="top" constant="18" id="l3l-qn-TY2"/>
+                                    <constraint firstItem="VdB-Mu-Hwl" firstAttribute="top" secondItem="T9m-pA-q73" secondAttribute="top" constant="9" id="lN0-7Y-oeY"/>
+                                    <constraint firstAttribute="height" constant="70" id="mlZ-ha-DtZ"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="k95-bx-w2n" firstAttribute="bottom" secondItem="JcE-dX-ihC" secondAttribute="bottom" id="Egv-3L-VIl"/>
+                            <constraint firstItem="T9m-pA-q73" firstAttribute="leading" secondItem="JcE-dX-ihC" secondAttribute="leading" id="Hrp-Mi-7yj"/>
+                            <constraint firstItem="k95-bx-w2n" firstAttribute="leading" secondItem="JcE-dX-ihC" secondAttribute="leading" id="Hz3-yw-QrV"/>
+                            <constraint firstItem="T9m-pA-q73" firstAttribute="trailing" secondItem="JcE-dX-ihC" secondAttribute="trailing" id="Iuj-jm-qr9"/>
+                            <constraint firstItem="k95-bx-w2n" firstAttribute="trailing" secondItem="JcE-dX-ihC" secondAttribute="trailing" id="Mgv-uk-8CS"/>
+                            <constraint firstItem="k95-bx-w2n" firstAttribute="top" secondItem="T9m-pA-q73" secondAttribute="bottom" id="Mpw-oi-Rhm"/>
+                            <constraint firstItem="T9m-pA-q73" firstAttribute="top" secondItem="JcE-dX-ihC" secondAttribute="top" id="kH5-6L-Nt2"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="JcE-dX-ihC"/>
                     </view>
                     <connections>
@@ -1173,7 +1300,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="CJv-bm-6cT"/>
-        <segue reference="oVR-qE-nmK"/>
-        <segue reference="eSc-Sj-Klz"/>
+        <segue reference="4a0-cU-pEP"/>
+        <segue reference="6Gl-2R-TWn"/>
     </inferredMetricsTieBreakers>
 </document>
