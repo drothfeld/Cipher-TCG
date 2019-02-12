@@ -29,9 +29,4 @@ class LaunchScreenViewController: UIViewController {
             self.present(CardListViewController, animated: true, completion: nil)
         })
     }
-    
-    // Hiding status bar
-    override var prefersStatusBarHidden: Bool {
-        return true
-    }
 }
