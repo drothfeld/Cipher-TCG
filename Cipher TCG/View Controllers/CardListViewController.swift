@@ -19,7 +19,6 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     @IBOutlet weak var HeaderView: UIView!
     @IBOutlet weak var CardListTableView: UITableView!
     @IBOutlet weak var CardListSearchBar: UISearchBar!
-    @IBOutlet weak var CardListViewHeightConstraint: NSLayoutConstraint!
     @IBOutlet weak var RedFilterButton: UIButton!
     @IBOutlet weak var BlueFilterButton: UIButton!
     @IBOutlet weak var WhiteFilterButton: UIButton!
@@ -36,8 +35,6 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     var filteredRawCardList: [Card] = []
     var isSearching = false
     var sortByName = true
-    let screenSize: CGRect = UIScreen.main.bounds
-    let storyboardDeviceHeight: CGFloat = 667
     var colorFilterButtons: [UIButton]!
     var loadedCardFilterIndex: Int = -1
     var loadedtableViewScrollOffset: CGFloat = 0.0

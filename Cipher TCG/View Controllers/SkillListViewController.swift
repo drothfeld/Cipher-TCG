@@ -13,15 +13,12 @@ class SkillListViewController: UIViewController, UITableViewDataSource, UITableV
     // User Interface Outlets
     @IBOutlet weak var SkillListTableView: UITableView!
     @IBOutlet weak var SkillSearchBar: UISearchBar!
-    @IBOutlet weak var SkillListTableViewHeightConstraint: NSLayoutConstraint!
     @IBOutlet weak var HeaderView: UIView!
     
     // Defined Values
     var sortedRawSkillList: [Skill] = []
     var filteredRawSkillList: [Skill] = []
     var isSearching = false
-    let screenSize: CGRect = UIScreen.main.bounds
-    let storyboardDeviceHeight: CGFloat = 667
     
     override func viewDidLoad() {
         super.viewDidLoad()
