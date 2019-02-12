@@ -164,7 +164,6 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     
     // Make any Changes to the Interface
     func interfaceSetup() {
-        CardListViewHeightConstraint.constant += screenSize.height - storyboardDeviceHeight
         colorFilterButtons = [RedFilterButton, BlueFilterButton, WhiteFilterButton, BlackFilterButton, GreenFilterButton, PurpleFilterButton, YellowFilterButton, ColorlessFilterButton, FavoritesFilterButton]
     }
     
