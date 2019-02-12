@@ -5391,3 +5391,35 @@ let bord_cord_and_barst = Skill(name: "Bord, Cord, and Barst",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let quick_draw = Skill(name: "Quick Draw",
+                        description: "[Discard a Navarre] Until the end of this turn, this unit's attacks cannot be avoided.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let dual_sword_technique = Skill(name: "Dual-Sword Technique",
+                        description: "[ Flip 1 Bond ] When this unit's attack destroys an enemy, you may pay the cost, and if you do: Choose an enemy with a Deployment Cost of 2 or less besides the Main Character, and destroy it.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let predestined_paths_2 = Skill(name: "Predestined Paths (II)",
+                        description: "The card supporting this unit fails unless it is “Caeda” or “Ogma”.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let blade_on_the_edge = Skill(name: "Blade on the Edge",
+                        description: "During your turn, if the only allies you have are this unit and your Main Character, this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

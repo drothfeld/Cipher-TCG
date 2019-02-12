@@ -272,6 +272,39 @@ let b01_021 = Card(series: "B01-021HN",
                    skills: [bord_cord_and_barst, fighters_expertise],
                    cardImageName: "B01-021.png")
 
+let b01_022 = Card(series: "B01-022SR",
+                   name: "Navarre: Crimson God of Death",
+                   rarity: secret_rare,
+                   insignia: blade_of_light,
+                   attack: 70,
+                   support: 10,
+                   illustrator: senri_kita,
+                   supportingSkill: none,
+                   skills: [quick_draw, dual_sword_technique],
+                   cardImageName: "B01-022.png")
+
+let b01_023 = Card(series: "B01-023N",
+                   name: "Navarre: Loose-Cannon Swordsman",
+                   rarity: normal,
+                   insignia: blade_of_light,
+                   attack: 70,
+                   support: 10,
+                   illustrator: maki_hakoda,
+                   supportingSkill: none,
+                   skills: [predestined_paths_2],
+                   cardImageName: "B01-023.png")
+
+let b01_024 = Card(series: "B01-024HN",
+                   name: "Navarre: Crimson Myrmidon",
+                   rarity: high_normal,
+                   insignia: blade_of_light,
+                   attack: 40,
+                   support: 10,
+                   illustrator: enomoto,
+                   supportingSkill: attack_emblem,
+                   skills: [blade_on_the_edge],
+                   cardImageName: "B01-024.png")
+
 let b01_046 = Card(series: "B01-046SR",
                    name: "Manakete Princess, Tiki",
                    rarity: secret_rare,

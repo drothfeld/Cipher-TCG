@@ -162,6 +162,9 @@
 		B03D580A2012DBC5007A3E97 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03D58092012DBC5007A3E97 /* CardViewController.swift */; };
 		B03D580D2013C100007A3E97 /* SegueFromLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03D580C2013C100007A3E97 /* SegueFromLeft.swift */; };
 		B03D580F2013C1A0007A3E97 /* SegueFromRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03D580E2013C1A0007A3E97 /* SegueFromRight.swift */; };
+		B042BC6E2212985E00983416 /* B01-022.png in Resources */ = {isa = PBXBuildFile; fileRef = B042BC6B2212985D00983416 /* B01-022.png */; };
+		B042BC6F2212985E00983416 /* B01-023.png in Resources */ = {isa = PBXBuildFile; fileRef = B042BC6C2212985D00983416 /* B01-023.png */; };
+		B042BC702212985E00983416 /* B01-024.png in Resources */ = {isa = PBXBuildFile; fileRef = B042BC6D2212985E00983416 /* B01-024.png */; };
 		B0464416211BA98600AECB2A /* S03-001.png in Resources */ = {isa = PBXBuildFile; fileRef = B0464415211BA98600AECB2A /* S03-001.png */; };
 		B0464419211BAA4700AECB2A /* S04-001.png in Resources */ = {isa = PBXBuildFile; fileRef = B0464418211BAA4700AECB2A /* S04-001.png */; };
 		B048611921B600EE004192FA /* B15-061.png in Resources */ = {isa = PBXBuildFile; fileRef = B048611721B600EE004192FA /* B15-061.png */; };
@@ -638,6 +641,9 @@
 		B03D58092012DBC5007A3E97 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 		B03D580C2013C100007A3E97 /* SegueFromLeft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueFromLeft.swift; sourceTree = "<group>"; };
 		B03D580E2013C1A0007A3E97 /* SegueFromRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueFromRight.swift; sourceTree = "<group>"; };
+		B042BC6B2212985D00983416 /* B01-022.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B01-022.png"; sourceTree = "<group>"; };
+		B042BC6C2212985D00983416 /* B01-023.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B01-023.png"; sourceTree = "<group>"; };
+		B042BC6D2212985E00983416 /* B01-024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B01-024.png"; sourceTree = "<group>"; };
 		B0464415211BA98600AECB2A /* S03-001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "S03-001.png"; sourceTree = "<group>"; };
 		B0464418211BAA4700AECB2A /* S04-001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "S04-001.png"; sourceTree = "<group>"; };
 		B048611721B600EE004192FA /* B15-061.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-061.png"; sourceTree = "<group>"; };
@@ -1470,6 +1476,9 @@
 				B0841D55220E0845004D4501 /* B01-019.png */,
 				B0841D57220E0889004D4501 /* B01-020.png */,
 				B0841D59220E08B7004D4501 /* B01-021.png */,
+				B042BC6B2212985D00983416 /* B01-022.png */,
+				B042BC6C2212985D00983416 /* B01-023.png */,
+				B042BC6D2212985E00983416 /* B01-024.png */,
 				B08A6B282017C06D00603113 /* B01-046.png */,
 				B08A6B272017C06D00603113 /* B01-051.png */,
 				B08A6B252017A50B00603113 /* B01-054.png */,
@@ -1788,9 +1797,11 @@
 				B094C48B21370D1800DC2870 /* B14-059.png in Resources */,
 				B048FE3C2020DD13007F1525 /* B11-073.png in Resources */,
 				B01B2EE3215FFDCE00ACA461 /* B14-011.png in Resources */,
+				B042BC702212985E00983416 /* B01-024.png in Resources */,
 				B03D57FC2012CD14007A3E97 /* B10-052.png in Resources */,
 				B048FE35201F8BA9007F1525 /* B05-082.png in Resources */,
 				B0303B92213490FE00F78A00 /* B14-010.png in Resources */,
+				B042BC6F2212985E00983416 /* B01-023.png in Resources */,
 				B0CAC7F921F6CE42002AFE76 /* B15-064.png in Resources */,
 				B0FB30A92107B8510032896D /* B12-013.png in Resources */,
 				B0AE35CF21A5ED5500C82B72 /* B15-067.png in Resources */,
@@ -2045,6 +2056,7 @@
 				B03D57CD2012CCE0007A3E97 /* B07-056.png in Resources */,
 				B0FA7C6B214EC77F005801C9 /* B14-041.png in Resources */,
 				B08E8EBC219E072000B0615E /* B15-080.png in Resources */,
+				B042BC6E2212985E00983416 /* B01-022.png in Resources */,
 				B01373C3220408CC009327CF /* B15-092.png in Resources */,
 				B08A6B482019065B00603113 /* loading_guitar.gif in Resources */,
 				B0303B9A213499F600F78A00 /* B03-052.png in Resources */,

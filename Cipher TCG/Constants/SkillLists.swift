@@ -682,4 +682,8 @@ let rawSkillsList: [Skill] = [
     predestined_paths,
     mercenary_commander,
     bord_cord_and_barst,
+    quick_draw,
+    dual_sword_technique,
+    predestined_paths_2,
+    blade_on_the_edge,
 ]
