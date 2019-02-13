@@ -686,4 +686,8 @@ let rawSkillsList: [Skill] = [
     dual_sword_technique,
     predestined_paths_2,
     blade_on_the_edge,
+    twin_blades_of_death,
+    little_voice_of_the_goddess,
+    indomitable_will,
+    seizing_the_future,
 ]

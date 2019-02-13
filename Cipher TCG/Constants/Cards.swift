@@ -4540,3 +4540,40 @@ let b15_100 = Card(series: "B15-100N",
                    supportingSkill: none,
                    skills: [im_not_done_with_my_fun, lets_play_pretend_demons],
                    cardImageName: "B15-100.png")
+
+//////////////////////
+// BOX 16 - UNRELEASED
+//////////////////////
+
+let b16_AA = Card(series: "B16-AAN",
+                   name: "Eir: Princess of Hel",
+                   rarity: normal,
+                   insignia: colorless,
+                   attack: 20,
+                   support: 30,
+                   illustrator: azusa,
+                   supportingSkill: flying_emblem,
+                   skills: [twin_blades_of_death],
+                   cardImageName: "B16-AA.png")
+
+let b16_AB = Card(series: "B16-ABHN",
+                   name: "Sanaki: Goddess-Defying Empress",
+                   rarity: high_normal,
+                   insignia: medallion,
+                   attack: 50,
+                   support: 20,
+                   illustrator: hatapug,
+                   supportingSkill: none,
+                   skills: [indomitable_will, seizing_the_future],
+                   cardImageName: "B16-AB.png")
+
+let b16_AC = Card(series: "B16-ACN",
+                   name: "Sanaki: 37th Sovereign of the Begnion Empire",
+                   rarity: normal,
+                   insignia: medallion,
+                   attack: 30,
+                   support: 20,
+                   illustrator: senri_kita,
+                   supportingSkill: miracle_emblem,
+                   skills: [little_voice_of_the_goddess],
+                   cardImageName: "B16-AC.png")

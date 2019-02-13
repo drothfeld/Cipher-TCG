@@ -5423,3 +5423,35 @@ let blade_on_the_edge = Skill(name: "Blade on the Edge",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let twin_blades_of_death = Skill(name: "Twin Blades of Death",
+                        description: "[ACT] [ONCE PER TURN] [Send 1 Eir from your hand to the Retreat Area] Draw 1 card. Until the end of the turn, this unit gains +20 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let little_voice_of_the_goddess = Skill(name: "Little Voice of the Goddess",
+                        description: "[ACT] [TAP] Draw 1 card. Choose 1 card from your hand, and discard it.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let indomitable_will = Skill(name: "Indomitable Will",
+                        description: "[ALWAYS] If this unit is in the Front Line, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let seizing_the_future = Skill(name: "Seizing the Future",
+                        description: "[ACT] [ONCE PER TURN] [FLIP 1, Send 1 <Green> card from your hand to the Retreat Area] Choose 1 card with the same unit name as your lord from your Retreat Area, and add it to your hand.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
