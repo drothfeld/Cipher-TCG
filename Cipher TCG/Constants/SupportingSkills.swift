@@ -10,7 +10,7 @@ import UIKit
 
 let none = SupportingSkill(type: "None",
                            textDescription: "",
-                           iconImageName: "")
+                           iconImageName: "28px-Attack_Support.png")
 
 let attack_emblem = SupportingSkill(type: "Attack Emblem",
                                     textDescription: "Until the end of this battle, your attacking unit gains +20 attack.",
