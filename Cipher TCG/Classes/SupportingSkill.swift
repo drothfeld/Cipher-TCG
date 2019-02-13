@@ -13,18 +13,18 @@ class SupportingSkill: NSObject, NSCoding {
     var type: String
     var textDescription: String
     var iconImage: UIImage?
-    var iconImageName: String?
+    var iconImageName: String = "60px-AtkDef.png"
     
     // Constructor
     init(type: String, textDescription: String, iconImageName: String?) {
         self.type = type
         self.textDescription = textDescription
-        self.iconImageName = iconImageName
+        self.iconImageName = iconImageName ?? "60px-AtkDef.png"
         
         if let image = UIImage(named: iconImageName!) {
             self.iconImage = image
         } else {
-            self.iconImage = nil
+            self.iconImage = UIImage(named: "60px-AtkDef.png")
         }
     }
     
@@ -32,7 +32,7 @@ class SupportingSkill: NSObject, NSCoding {
     required convenience init(coder decoder: NSCoder) {
         let type = decoder.decodeObject(forKey: "type") as? String ?? ""
         let textDescription = decoder.decodeObject(forKey: "textDescription") as? String ?? ""
-        let iconImageName = decoder.decodeObject(forKey: "iconImageName") as? String ?? ""
+        let iconImageName = decoder.decodeObject(forKey: "iconImageName") as? String ?? "60px-AtkDef.png"
         self.init(type: type, textDescription: textDescription, iconImageName: iconImageName)
     }
     

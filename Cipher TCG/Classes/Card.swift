@@ -20,7 +20,7 @@ class Card: NSObject, NSCoding {
     var supportingSkill: SupportingSkill
     var skills: [Skill]
     var cardImage: UIImage?
-    var cardImageName: String?
+    var cardImageName: String = "card_placeholder.png"
     
     // Constructor
     init(series: String, name: String, rarity: Rarity, insignia: Insignia, attack: Int, support: Int, illustrator: Illustrator, supportingSkill: SupportingSkill, skills: [Skill], cardImageName: String?) {
@@ -33,12 +33,12 @@ class Card: NSObject, NSCoding {
         self.illustrator = illustrator
         self.supportingSkill = supportingSkill
         self.skills = skills
-        self.cardImageName = cardImageName
+        self.cardImageName = cardImageName ?? "card_placeholder.png"
         
         if let image = UIImage(named: cardImageName!) {
             self.cardImage = image
         } else {
-            self.cardImage = nil
+            self.cardImage = UIImage(named: "card_placeholder.png")
         }
     }
     
@@ -53,7 +53,7 @@ class Card: NSObject, NSCoding {
         let illustrator = decoder.decodeObject(forKey: "illustrator") as? Illustrator ?? unknown
         let supportingSkill = decoder.decodeObject(forKey: "supportingSkill") as? SupportingSkill ?? flying_emblem
         let skills = decoder.decodeObject(forKey: "skills") as? [Skill] ?? [winged_deliverer]
-        let cardImageName = decoder.decodeObject(forKey: "cardImageName") as? String ?? ""
+        let cardImageName = decoder.decodeObject(forKey: "cardImageName") as? String ?? "card_placeholder.png"
         self.init(series: series, name: name, rarity: rarity, insignia: insignia, attack: attack, support: support, illustrator: illustrator, supportingSkill: supportingSkill, skills: skills, cardImageName: cardImageName)
     }
     

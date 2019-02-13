@@ -964,7 +964,6 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="16" id="48U-Go-5C9"/>
                                             <constraint firstItem="baE-Rw-07R" firstAttribute="leading" secondItem="7pu-RY-wnb" secondAttribute="leading" id="P0n-FA-qfb"/>
-                                            <constraint firstAttribute="width" constant="375" id="bbT-YK-tHK"/>
                                             <constraint firstAttribute="trailing" secondItem="baE-Rw-07R" secondAttribute="trailing" id="lEd-Ji-pZK"/>
                                             <constraint firstItem="baE-Rw-07R" firstAttribute="top" secondItem="7pu-RY-wnb" secondAttribute="top" id="mRc-L7-8fI"/>
                                         </constraints>
@@ -987,7 +986,7 @@
                                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="X0l-0g-e8M" userLabel="Card Insignia Image">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="30px-Red.png" translatesAutoresizingMaskIntoConstraints="NO" id="X0l-0g-e8M" userLabel="Card Insignia Image">
                                                 <rect key="frame" x="8" y="8" width="20" height="20"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="20" id="b0L-UC-U8z"/>
@@ -1119,7 +1118,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8R5-pp-DBi" userLabel="Supporting Skill View">
                                         <rect key="frame" x="231" y="181" width="188" height="147"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jSe-xV-ppj" userLabel="Card Supporting Skill Image">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="28px-Attack_Support.png" translatesAutoresizingMaskIntoConstraints="NO" id="jSe-xV-ppj" userLabel="Card Supporting Skill Image">
                                                 <rect key="frame" x="8" y="8" width="16" height="16"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="16" id="aYS-LA-gNL"/>
@@ -1319,6 +1318,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="28px-Attack_Support.png" width="28" height="28"/>
         <image name="30px-Black.png" width="30" height="30"/>
         <image name="30px-Blue.png" width="30" height="30"/>
         <image name="30px-Colorless.png" width="30" height="30"/>
@@ -1335,7 +1335,7 @@
         <image name="sort_by_number_button.png" width="290" height="289"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="CJv-bm-6cT"/>
+        <segue reference="8ih-mp-VFz"/>
         <segue reference="oVR-qE-nmK"/>
         <segue reference="QE9-aR-HPz"/>
     </inferredMetricsTieBreakers>

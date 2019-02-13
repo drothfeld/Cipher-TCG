@@ -14,18 +14,18 @@ class Insignia: NSObject, NSCoding {
     var name: String
     var color: UIColor
     var iconImage: UIImage?
-    var iconImageName: String?
+    var iconImageName: String = "30px-Colorless.png"
     
     // Constructor
     init(name: String, color: UIColor, iconImageName: String?) {
         self.name = name
         self.color = color
-        self.iconImageName = iconImageName
+        self.iconImageName = iconImageName ?? "30px-Colorless.png"
         
         if let image = UIImage(named: iconImageName!) {
             self.iconImage = image
         } else {
-            self.iconImage = nil
+            self.iconImage = UIImage(named: "30px-Colorless.png")
         }
     }
     
@@ -33,7 +33,7 @@ class Insignia: NSObject, NSCoding {
     required convenience init(coder decoder: NSCoder) {
         let name = decoder.decodeObject(forKey: "name") as? String ?? ""
         let color = decoder.decodeObject(forKey: "color") as? UIColor ?? .black
-        let iconImageName = decoder.decodeObject(forKey: "iconImageName") as? String ?? ""
+        let iconImageName = decoder.decodeObject(forKey: "iconImageName") as? String ?? "30px-Colorless.png"
         self.init(name: name, color: color, iconImageName: iconImageName)
     }
     
