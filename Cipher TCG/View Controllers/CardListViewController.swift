@@ -9,7 +9,6 @@
 import UIKit
 
 // TODO:
-// RESET TABLE VIEW SCROLL TO TOP OF PAGE WHEN CHANGING FILTER
 // FIX FIRST TIME BACK TO CARD LIST FROM CARD DETAIL INCORRECTLY OFFSETS SCROLL
 
 class CardListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate {
@@ -249,6 +248,11 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         UserDefaults.standard.set(encodedData, forKey: "cardFilter")
         
         CardListTableView.reloadData()
+        
+        if (buttonPressed != FavoritesFilterButton || (buttonPressed == FavoritesFilterButton && favorite_cards.count > 0) ) {
+            CardListTableView.layoutIfNeeded()
+            CardListTableView.scrollToRow(at: IndexPath.init(row: 0, section: 0), at: .top, animated: false)
+        }
     }
     
     // Order cards in list based on selection
@@ -262,6 +266,10 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         
         filteredRawCardList = sortCardList(cardList: filteredRawCardList)
         refreshTable()
+        if (filteredRawCardList.count > 0) {
+            CardListTableView.layoutIfNeeded()
+            CardListTableView.scrollToRow(at: IndexPath.init(row: 0, section: 0), at: .top, animated: false)
+        }
     }
     
     // Update sort button
