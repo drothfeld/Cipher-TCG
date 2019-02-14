@@ -5455,3 +5455,27 @@ let seizing_the_future = Skill(name: "Seizing the Future",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let beloved_zofia = Skill(name: "Beloved Zofia",
+                        description: "[ALWAYS] If there are more allies than enemies, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let with_milas_divine_protection = Skill(name: "With Mila's Divine Protection",
+                        description: "[ACT] [ONCE PER TURN] [FLIP 1, Tap 1 other <Red> ally] Draw 1 card.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let with_duty_in_her_heart = Skill(name: "With Duty In Her Heart",
+                        description: "[ALWAYS] If this unit is attacking your opponent's lord, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

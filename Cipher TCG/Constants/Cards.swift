@@ -4577,3 +4577,25 @@ let b16_AC = Card(series: "B16-ACN",
                    supportingSkill: miracle_emblem,
                    skills: [little_voice_of_the_goddess],
                    cardImageName: "B16-AC.png")
+
+let b16_AD = Card(series: "B16-ADHN",
+                  name: "Celica: Maiden Possessed of a Blessed Soul",
+                  rarity: high_normal,
+                  insignia: blade_of_light,
+                  attack: 60,
+                  support: 20,
+                  illustrator: geso_umiu,
+                  supportingSkill: none,
+                  skills: [beloved_zofia, with_milas_divine_protection],
+                  cardImageName: "B16-AD.png")
+
+let b16_AE = Card(series: "B16-AEN",
+                  name: "Celica: Moment of Embarkation",
+                  rarity: normal,
+                  insignia: blade_of_light,
+                  attack: 30,
+                  support: 20,
+                  illustrator: geso_umiu,
+                  supportingSkill: miracle_emblem,
+                  skills: [with_duty_in_her_heart],
+                  cardImageName: "B16-AE.png")

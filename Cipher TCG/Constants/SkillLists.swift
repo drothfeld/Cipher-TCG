@@ -690,4 +690,7 @@ let rawSkillsList: [Skill] = [
     little_voice_of_the_goddess,
     indomitable_will,
     seizing_the_future,
+    beloved_zofia,
+    with_milas_divine_protection,
+    with_duty_in_her_heart
 ]
