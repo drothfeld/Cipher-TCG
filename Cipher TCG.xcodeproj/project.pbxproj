@@ -340,6 +340,9 @@
 		B0B47C9521277388006D93B5 /* B07-085.png in Resources */ = {isa = PBXBuildFile; fileRef = B0B47C9421277388006D93B5 /* B07-085.png */; };
 		B0B47C972127747F006D93B5 /* B07-084.png in Resources */ = {isa = PBXBuildFile; fileRef = B0B47C962127747E006D93B5 /* B07-084.png */; };
 		B0B47C992127748B006D93B5 /* B10-062.png in Resources */ = {isa = PBXBuildFile; fileRef = B0B47C982127748B006D93B5 /* B10-062.png */; };
+		B0B4CA8D22175BFE00941EB1 /* B16-AH.png in Resources */ = {isa = PBXBuildFile; fileRef = B0B4CA8A22175BFE00941EB1 /* B16-AH.png */; };
+		B0B4CA8E22175BFE00941EB1 /* B16-AF.png in Resources */ = {isa = PBXBuildFile; fileRef = B0B4CA8B22175BFE00941EB1 /* B16-AF.png */; };
+		B0B4CA8F22175BFE00941EB1 /* B16-AG.png in Resources */ = {isa = PBXBuildFile; fileRef = B0B4CA8C22175BFE00941EB1 /* B16-AG.png */; };
 		B0B7E3EF20150EAC00331FC3 /* 28px-Attack_Support.png in Resources */ = {isa = PBXBuildFile; fileRef = B0B7E3EC20150EAC00331FC3 /* 28px-Attack_Support.png */; };
 		B0B7E3F020150EAC00331FC3 /* 28px-Defense_Support.png in Resources */ = {isa = PBXBuildFile; fileRef = B0B7E3ED20150EAC00331FC3 /* 28px-Defense_Support.png */; };
 		B0B7E3F120150EAC00331FC3 /* 60px-AtkDef.png in Resources */ = {isa = PBXBuildFile; fileRef = B0B7E3EE20150EAC00331FC3 /* 60px-AtkDef.png */; };
@@ -826,6 +829,9 @@
 		B0B47C9421277388006D93B5 /* B07-085.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B07-085.png"; sourceTree = "<group>"; };
 		B0B47C962127747E006D93B5 /* B07-084.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B07-084.png"; sourceTree = "<group>"; };
 		B0B47C982127748B006D93B5 /* B10-062.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B10-062.png"; sourceTree = "<group>"; };
+		B0B4CA8A22175BFE00941EB1 /* B16-AH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B16-AH.png"; sourceTree = "<group>"; };
+		B0B4CA8B22175BFE00941EB1 /* B16-AF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B16-AF.png"; sourceTree = "<group>"; };
+		B0B4CA8C22175BFE00941EB1 /* B16-AG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B16-AG.png"; sourceTree = "<group>"; };
 		B0B7E3EC20150EAC00331FC3 /* 28px-Attack_Support.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "28px-Attack_Support.png"; sourceTree = "<group>"; };
 		B0B7E3ED20150EAC00331FC3 /* 28px-Defense_Support.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "28px-Defense_Support.png"; sourceTree = "<group>"; };
 		B0B7E3EE20150EAC00331FC3 /* 60px-AtkDef.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "60px-AtkDef.png"; sourceTree = "<group>"; };
@@ -1666,6 +1672,9 @@
 				B0A3A7E82214A49F005D25F3 /* B16-AC.png */,
 				B026CAC62215C57200D2EC84 /* B16-AD.png */,
 				B026CAC52215C57200D2EC84 /* B16-AE.png */,
+				B0B4CA8B22175BFE00941EB1 /* B16-AF.png */,
+				B0B4CA8C22175BFE00941EB1 /* B16-AG.png */,
+				B0B4CA8A22175BFE00941EB1 /* B16-AH.png */,
 			);
 			path = B16;
 			sourceTree = "<group>";
@@ -1856,6 +1865,7 @@
 				B0E42259201CEB9C00CA879C /* B08-001.png in Resources */,
 				B01B586F220A57E20071ED03 /* B01-012.png in Resources */,
 				B0FA2A71216450AB00B8485F /* B14-015.png in Resources */,
+				B0B4CA8D22175BFE00941EB1 /* B16-AH.png in Resources */,
 				B071C4C221711E0000072668 /* B14-034.png in Resources */,
 				B0998EE52138745300DC456D /* B08-033.png in Resources */,
 				B0CAC7E121ED57AF002AFE76 /* B15-030.png in Resources */,
@@ -2092,6 +2102,7 @@
 				B0FD328B20C9A0D900B1D2E6 /* B12-059.png in Resources */,
 				B0E36C81219B9AEC00E3D0C6 /* B15-056.png in Resources */,
 				B03D57FD2012CD14007A3E97 /* B10-081.png in Resources */,
+				B0B4CA8F22175BFE00941EB1 /* B16-AG.png in Resources */,
 				B0803DF520FBC8A9002CCCD8 /* B11-007.png in Resources */,
 				B0BA76A621ADC6CA00A805AB /* B15-058.png in Resources */,
 				B03D57AD2012CCB7007A3E97 /* B03-067.png in Resources */,
@@ -2225,6 +2236,7 @@
 				B0303B8B213490FE00F78A00 /* B14-001.png in Resources */,
 				B03D58042012D169007A3E97 /* cipher_header.png in Resources */,
 				B0B2B2C62104F49500ABA187 /* B12-011.png in Resources */,
+				B0B4CA8E22175BFE00941EB1 /* B16-AF.png in Resources */,
 				B01C08A6215426ED00795F9B /* B14-055.png in Resources */,
 				B048FE3E2020DD1F007F1525 /* B10-097.png in Resources */,
 				B02617C02176576600194F4C /* B14-050.png in Resources */,

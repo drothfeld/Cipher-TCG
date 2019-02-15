@@ -5479,3 +5479,43 @@ let with_duty_in_her_heart = Skill(name: "With Duty In Her Heart",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let breath_of_destiny = Skill(name: "Breath of Destiny",
+                        description: "[ALWAYS] During your turn, if the card supporting this unit is <Purple>, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let improving_magic = Skill(name: "Improving Magic",
+                        description: "[ACT] [ONCE PER TURN] [Flip 1 <Tome> bond card face-down] Until the end of the turn, this unit gains +20 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let supreme_binding_blade = Skill(name: "Supreme Binding Blade",
+                        description: "[ACT] [Tap 1 other <Purple> card] Until the end of the turn, this unit gains +10 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let the_blade_that_binds_the_demon_dragon = Skill(name: "The Blade that Binds the Demon Dragon",
+                        description: "[LIS] [ACT] [ONCE PER TURN] Reveal the topmost card of your opponent's deck. If that card is <Dragonstone>, destroy all enemies. This skill may only be used if Supreme Binding Blade has already been used 2 or more times in this turn.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let hope_for_the_future = Skill(name: "Hope for the Future",
+                        description: "[TRIGGER] [ONCE PER TURN] When an ally uses a [LIS], reveal the topmost card of your deck. You may deploy that card.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

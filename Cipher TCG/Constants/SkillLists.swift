@@ -692,5 +692,10 @@ let rawSkillsList: [Skill] = [
     seizing_the_future,
     beloved_zofia,
     with_milas_divine_protection,
-    with_duty_in_her_heart
+    with_duty_in_her_heart,
+    breath_of_destiny,
+    improving_magic,
+    supreme_binding_blade,
+    the_blade_that_binds_the_demon_dragon,
+    hope_for_the_future,
 ]

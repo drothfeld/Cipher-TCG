@@ -4599,3 +4599,36 @@ let b16_AE = Card(series: "B16-AEN",
                   supportingSkill: miracle_emblem,
                   skills: [with_duty_in_her_heart],
                   cardImageName: "B16-AE.png")
+
+let b16_AF = Card(series: "B16-AFN",
+                  name: "Roy: Heir to House Pherae",
+                  rarity: normal,
+                  insignia: divine_weapons,
+                  attack: 40,
+                  support: 20,
+                  illustrator: eiji_kaneda,
+                  supportingSkill: heros_emblem,
+                  skills: [breath_of_destiny],
+                  cardImageName: "B16-AF.png")
+
+let b16_AG = Card(series: "B16-AGN",
+                  name: "Lilina: Childhood Friend Ladyling",
+                  rarity: normal,
+                  insignia: divine_weapons,
+                  attack: 30,
+                  support: 20,
+                  illustrator: sachiko_wada,
+                  supportingSkill: magic_emblem,
+                  skills: [improving_magic],
+                  cardImageName: "B16-AG.png")
+
+let b16_AH = Card(series: "B16-AHSR",
+                  name: "Roy: Forger of a Future for Humans and Dragons",
+                  rarity: secret_rare,
+                  insignia: divine_weapons,
+                  attack: 70,
+                  support: 20,
+                  illustrator: eiji_kaneda,
+                  supportingSkill: none,
+                  skills: [supreme_binding_blade, the_blade_that_binds_the_demon_dragon, hope_for_the_future],
+                  cardImageName: "B16-AH.png")
