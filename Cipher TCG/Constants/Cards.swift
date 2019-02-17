@@ -4632,3 +4632,36 @@ let b16_AH = Card(series: "B16-AHSR",
                   supportingSkill: none,
                   skills: [supreme_binding_blade, the_blade_that_binds_the_demon_dragon, hope_for_the_future],
                   cardImageName: "B16-AH.png")
+
+let b16_AI = Card(series: "B16-AISR",
+                  name: "Celica: ???",
+                  rarity: secret_rare,
+                  insignia: blade_of_light,
+                  attack: 70,
+                  support: 0,
+                  illustrator: unknown,
+                  supportingSkill: none,
+                  skills: [b16_celica_01, b16_celica_02, b16_celica_03],
+                  cardImageName: "B16-AI.png")
+
+let b16_AJ = Card(series: "B16-AJSR",
+                  name: "Sanaki: ???",
+                  rarity: secret_rare,
+                  insignia: medallion,
+                  attack: 70,
+                  support: 20,
+                  illustrator: unknown,
+                  supportingSkill: none,
+                  skills: [b16_sanaki_01, b16_sanaki_02],
+                  cardImageName: "B16-AJ.png")
+
+let b16_AK = Card(series: "B16-AKSR",
+                  name: "Deke: Thundersome Piercer of the Earth",
+                  rarity: secret_rare,
+                  insignia: divine_weapons,
+                  attack: 70,
+                  support: 10,
+                  illustrator: clover_k,
+                  supportingSkill: none,
+                  skills: [legendary_weapon_armads, the_strength_of_durban],
+                  cardImageName: "B16-AK.png")

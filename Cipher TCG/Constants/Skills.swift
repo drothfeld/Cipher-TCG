@@ -5519,3 +5519,66 @@ let hope_for_the_future = Skill(name: "Hope for the Future",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+// NEEDS UPDATE
+let b16_celica_01 = Skill(name: "???",
+                        description: "[TAP] [Flip 3] If your opponent is leveled up, you can put the top card of that MC's stack into the retreat area.",
+                        colorType: UIColor.red,
+                        flippedBonds: 3,
+                        flipOrb: true,
+                        tapUnit: true,
+                        CCS: false)
+
+// NEEDS UPDATE
+let b16_celica_02 = Skill(name: "???",
+                        description: "Your opponent's MC cannot level up from a skill.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+// NEEDS UPDATE
+let b16_celica_03 = Skill(name: "???",
+                        description: "This unit gets +10 attack if you have 4 or less cards in your hand.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+// NEEDS UPDATE
+let b16_sanaki_01 = Skill(name: "???",
+                        description: "[ONCE PER TURN] [FLIP 2] When your deployment phase ends, and your allies are all green, pay the cost to have a second draw phase, bond phase, and deployment phase.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 2,
+                        flipOrb: true,
+                        tapUnit: false,
+                        CCS: false)
+
+// NEEDS UPDATE
+let b16_sanaki_02 = Skill(name: "???",
+                        description: "[ONCE PER TURN] [DISCARD 2 CARDS] Draw 2 cards. Until the end of the turn, this card gets 1-2 range.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let legendary_weapon_armads = Skill(name: "Legendary Weapon: Armads",
+                        description: "[ACT] [FLIP 1] Until the end of the turn, the number of orbs that this unit's attack will destroy is increased by 1.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: true,
+                        tapUnit: false,
+                        CCS: false)
+
+let the_strength_of_durban = Skill(name: "The Strength of Durban",
+                        description: "[LIS] [ACT] [ONCE PER TURN] Until the end of your opponent's next turn, this unit gains +30 attack. This skill may only be used if Legendary Weapon: Armads has already been used 2 or more times in this turn.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+

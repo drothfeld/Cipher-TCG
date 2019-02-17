@@ -698,4 +698,11 @@ let rawSkillsList: [Skill] = [
     supreme_binding_blade,
     the_blade_that_binds_the_demon_dragon,
     hope_for_the_future,
+    b16_celica_01,
+    b16_celica_02,
+    b16_celica_03,
+    b16_sanaki_01,
+    b16_sanaki_02,
+    legendary_weapon_armads,
+    the_strength_of_durban,
 ]
