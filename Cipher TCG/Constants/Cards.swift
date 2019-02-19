@@ -4687,3 +4687,36 @@ let b16_AM = Card(series: "B16-AMN",
                   supportingSkill: magic_emblem,
                   skills: [seeking_laguz_emancipation],
                   cardImageName: "B16-AM.png")
+
+let b16_AN = Card(series: "B16-ANHN",
+                  name: "Barth: Striving to be the Mightiest Lance",
+                  rarity: high_normal,
+                  insignia: divine_weapons,
+                  attack: 50,
+                  support: 10,
+                  illustrator: homazo,
+                  supportingSkill: none,
+                  skills: [armored_lance_triangle_attack, strength_masked_by_azure_armor, armor_expertise],
+                  cardImageName: "B16-AN.png")
+
+let b16_AO = Card(series: "B16-AOHN",
+                  name: "Gwendolyn: Striving Toward Her Admired Brother",
+                  rarity: high_normal,
+                  insignia: divine_weapons,
+                  attack: 50,
+                  support: 10,
+                  illustrator: homazo,
+                  supportingSkill: none,
+                  skills: [armored_lance_triangle_attack, scarlet_armored_rush, armor_expertise],
+                  cardImageName: "B16-AO.png")
+
+let b16_AP = Card(series: "B16-APHN",
+                  name: "Bors: Striving to be an Impregnable Shield",
+                  rarity: high_normal,
+                  insignia: divine_weapons,
+                  attack: 50,
+                  support: 10,
+                  illustrator: homazo,
+                  supportingSkill: none,
+                  skills: [armored_lance_triangle_attack, amber_armored_command, armor_expertise],
+                  cardImageName: "B16-AP.png")

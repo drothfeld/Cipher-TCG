@@ -708,4 +708,8 @@ let rawSkillsList: [Skill] = [
     firey_leader,
     celerity_rivalling_the_laguz,
     seeking_laguz_emancipation,
+    armored_lance_triangle_attack,
+    strength_masked_by_azure_armor,
+    scarlet_armored_rush,
+    amber_armored_command,
 ]

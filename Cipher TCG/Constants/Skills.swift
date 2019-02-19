@@ -5525,7 +5525,7 @@ let b16_celica_01 = Skill(name: "???",
                         description: "[TAP] [Flip 3] If your opponent is leveled up, you can put the top card of that MC's stack into the retreat area.",
                         colorType: UIColor.red,
                         flippedBonds: 3,
-                        flipOrb: true,
+                        flipOrb: false,
                         tapUnit: true,
                         CCS: false)
 
@@ -5552,7 +5552,7 @@ let b16_sanaki_01 = Skill(name: "???",
                         description: "[ONCE PER TURN] [FLIP 2] When your deployment phase ends, and your allies are all green, pay the cost to have a second draw phase, bond phase, and deployment phase.",
                         colorType: UIColor.blue,
                         flippedBonds: 2,
-                        flipOrb: true,
+                        flipOrb: false,
                         tapUnit: false,
                         CCS: false)
 
@@ -5569,7 +5569,7 @@ let legendary_weapon_armads = Skill(name: "Legendary Weapon: Armads",
                         description: "[ACT] [FLIP 1] Until the end of the turn, the number of orbs that this unit's attack will destroy is increased by 1.",
                         colorType: UIColor.red,
                         flippedBonds: 1,
-                        flipOrb: true,
+                        flipOrb: false,
                         tapUnit: false,
                         CCS: false)
 
@@ -5601,6 +5601,38 @@ let seeking_laguz_emancipation = Skill(name: "Seeking Laguz Emancipation",
                         description: "[ALWAYS] During your turn, if there are 1 or more <Fang> allies in the same area as this unit, this unit gains +20 attack.",
                         colorType: UIColor.green,
                         flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let armored_lance_triangle_attack = Skill(name: "Armored Lance Triangle Attack",
+                        description: "[ALWAYS] If you have allied Bors and/or Gwendolyn and/or Barth, this unit gains +30 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let strength_masked_by_azure_armor = Skill(name: "Strength Masked by Azure Armor",
+                        description: "[ACT] [ONCE PER TURN] [FLIP 1] Until the end of the turn, this unit gains +20 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let scarlet_armored_rush = Skill(name: "Scarlet-Armored Rush",
+                        description: "[ACT] [ONCE PER TURN] [Send 1 card from your hand to the Retreat Area] Choose 1 enemy in the Front Line, and move them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let amber_armored_command = Skill(name: "Amber-Armored Command",
+                        description: "[ACT] [ONCE PER TURN] [FLIP 2] Choose 1 Barth or Gwendolyn from your Retreat Area, and deploy it.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
