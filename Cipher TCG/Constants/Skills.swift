@@ -5581,4 +5581,28 @@ let the_strength_of_durban = Skill(name: "The Strength of Durban",
                         tapUnit: false,
                         CCS: false)
 
+let firey_leader = Skill(name: "Fiery Leader",
+                        description: "[ALWAYS] During your turn, if this unit is in the Front Line, this unit gains +20 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let celerity_rivalling_the_laguz = Skill(name: "Celerity Rivalling the Laguz",
+                        description: "[TRIGGER] At the end of each player's turn, you may move this unit.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let seeking_laguz_emancipation = Skill(name: "Seeking Laguz Emancipation",
+                        description: "[ALWAYS] During your turn, if there are 1 or more <Fang> allies in the same area as this unit, this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
 

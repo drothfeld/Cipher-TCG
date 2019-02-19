@@ -705,4 +705,7 @@ let rawSkillsList: [Skill] = [
     b16_sanaki_02,
     legendary_weapon_armads,
     the_strength_of_durban,
+    firey_leader,
+    celerity_rivalling_the_laguz,
+    seeking_laguz_emancipation,
 ]

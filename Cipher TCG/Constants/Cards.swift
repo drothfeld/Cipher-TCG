@@ -4665,3 +4665,25 @@ let b16_AK = Card(series: "B16-AKSR",
                   supportingSkill: none,
                   skills: [legendary_weapon_armads, the_strength_of_durban],
                   cardImageName: "B16-AK.png")
+
+let b16_AL = Card(series: "B16-ALR",
+                  name: "Tormod: Maturing Flame",
+                  rarity: rare,
+                  insignia: medallion,
+                  attack: 60,
+                  support: 20,
+                  illustrator: tomohide_takaya,
+                  supportingSkill: none,
+                  skills: [firey_leader, celerity_rivalling_the_laguz],
+                  cardImageName: "B16-AL.png")
+
+let b16_AM = Card(series: "B16-AMN",
+                  name: "Tormod: Laguz-Dressed Youth",
+                  rarity: normal,
+                  insignia: medallion,
+                  attack: 30,
+                  support: 20,
+                  illustrator: tomohide_takaya,
+                  supportingSkill: magic_emblem,
+                  skills: [seeking_laguz_emancipation],
+                  cardImageName: "B16-AM.png")
