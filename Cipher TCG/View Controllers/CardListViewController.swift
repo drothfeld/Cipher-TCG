@@ -286,7 +286,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         if let data = UserDefaults.standard.data(forKey: "favoriteCardData"),
             // Loaded data from userDefaults
             let savedfavoriteCardData = NSKeyedUnarchiver.unarchiveObject(with: data) as? [Card] {
-            NSLog("Successfully loaded favorite card data from userDefaults.")
+            NSLog("Successfully loaded favorite card data from userDefaults:")
             favorite_cards = savedfavoriteCardData
         } else {
             // An error occured, favorite card list will be blank
@@ -306,17 +306,14 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         if let data = UserDefaults.standard.data(forKey: "cardFilter"),
             // Loaded data from userDefaults
             let savedCardFilterData = NSKeyedUnarchiver.unarchiveObject(with: data) as? Int {
-            NSLog("Successfully loaded last used card filter from userDefaults.")
             loadedCardFilterIndex = savedCardFilterData
+            NSLog("Successfully loaded last used card filter from userDefaults: " + String(loadedCardFilterIndex))
         } else {
             // An error occured, favorite card list will be blank
             let encodedData = NSKeyedArchiver.archivedData(withRootObject: loadedCardFilterIndex)
             UserDefaults.standard.set(encodedData, forKey: "cardFilter")
-            NSLog("There was an issue loading last used card filter from userDefaults.")
+            NSLog("There was an issue loading last used card filter from userDefaults: " + String(loadedCardFilterIndex))
         }
-        
-        // DEBUG
-        NSLog("     " + String(loadedCardFilterIndex))
     }
     
     // Load table view scroll offset
@@ -324,20 +321,16 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         if let data = UserDefaults.standard.data(forKey: "cardViewScrollOffset"),
             // Loaded value from userDefaults
             let savedScrollOffsetData = NSKeyedUnarchiver.unarchiveObject(with: data) as? CGFloat {
-            NSLog("Successfully loaded card tableView scroll offset from userDefaults.")
             loadedtableViewScrollOffset = savedScrollOffsetData
+            NSLog("Successfully loaded card tableView scroll offset from userDefaults: " + "%f", loadedtableViewScrollOffset.native)
         } else {
             // An error occured, scroll offset will default to 0.0
             let encodedData = NSKeyedArchiver.archivedData(withRootObject: loadedtableViewScrollOffset)
             UserDefaults.standard.set(encodedData, forKey: "cardViewScrollOffset")
-            NSLog("There was an issue loading the card tableView offset value.")
+            NSLog("There was an issue loading the card tableView offset value: " + "%f", loadedtableViewScrollOffset.native)
         }
-        
         // Applying offset
         CardListTableView.contentOffset.y = loadedtableViewScrollOffset
-        
-        // DEBUG
-        NSLog("      %f", loadedtableViewScrollOffset.native)
     }
     
     // Load card list order type
@@ -345,21 +338,17 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         if let data = UserDefaults.standard.data(forKey: "cardListSortType"),
             // Loaded value from userDefaults
             let savedSortTypeData = NSKeyedUnarchiver.unarchiveObject(with: data) as? Bool {
-            NSLog("Successfully loaded card list sort type from userDefaults.")
             loadedSortType = savedSortTypeData
+            NSLog("Successfully loaded card list sort type from userDefaults: " + String(loadedSortType))
         } else {
             // An error occured, sort type will default to name type (true)
             let encodedData = NSKeyedArchiver.archivedData(withRootObject: loadedSortType)
             UserDefaults.standard.set(encodedData, forKey: "cardListSortType")
-            NSLog("There was an issue loading the card list sort type value.")
+            NSLog("There was an issue loading the card list sort type value: " + String(loadedSortType))
         }
-        
         // Applying offset
         sortByName = loadedSortType
         updateSortButton()
-        
-        // DEBUG
-        NSLog("     " + String(loadedSortType))
     }
     
     // Reset favorite card list saved data
