@@ -5637,4 +5637,28 @@ let amber_armored_command = Skill(name: "Amber-Armored Command",
                         tapUnit: false,
                         CCS: false)
 
+let hlioskjalf = Skill(name: "Hliðskjálf",
+                        description: "[ACT] [ONCE PER TURN] [FLIP 1] Until the end of the turn, this unit gains +20 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let black_steeds_neigh = Skill(name: "Black Steed's Neigh",
+                        description: "[ALWAYS] During your opponent's turn, no enemies can be moved by the effects of skills.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let transcending_fate = Skill(name: "Transcending Fate",
+                        description: "[SPECIAL] When this unit is to be sent to the Retreat Area from your hand as the effect of an enemy's skill or an opponent's support skill, draw cards until you have 4 cards in your hand.",
+                        colorType: UIColor.purple,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
 

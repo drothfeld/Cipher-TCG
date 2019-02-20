@@ -209,6 +209,7 @@
 		B054BBE9200EAC3C004159A6 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBE8200EAC3C004159A6 /* Cards.swift */; };
 		B055AD00221BA30D002FD060 /* B16-AL.png in Resources */ = {isa = PBXBuildFile; fileRef = B055ACFE221BA30C002FD060 /* B16-AL.png */; };
 		B055AD01221BA30D002FD060 /* B16-AM.png in Resources */ = {isa = PBXBuildFile; fileRef = B055ACFF221BA30D002FD060 /* B16-AM.png */; };
+		B058A872221DC7E600258A1B /* B16-AQ.png in Resources */ = {isa = PBXBuildFile; fileRef = B058A871221DC7E600258A1B /* B16-AQ.png */; };
 		B05AEAA721AF67610000D222 /* B15-018.png in Resources */ = {isa = PBXBuildFile; fileRef = B05AEAA421AF67600000D222 /* B15-018.png */; };
 		B05AEAA821AF67610000D222 /* B15-020.png in Resources */ = {isa = PBXBuildFile; fileRef = B05AEAA521AF67610000D222 /* B15-020.png */; };
 		B05AEAA921AF67610000D222 /* B15-022.png in Resources */ = {isa = PBXBuildFile; fileRef = B05AEAA621AF67610000D222 /* B15-022.png */; };
@@ -706,6 +707,7 @@
 		B054BBE8200EAC3C004159A6 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
 		B055ACFE221BA30C002FD060 /* B16-AL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B16-AL.png"; sourceTree = "<group>"; };
 		B055ACFF221BA30D002FD060 /* B16-AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B16-AM.png"; sourceTree = "<group>"; };
+		B058A871221DC7E600258A1B /* B16-AQ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B16-AQ.png"; sourceTree = "<group>"; };
 		B05AEAA421AF67600000D222 /* B15-018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-018.png"; sourceTree = "<group>"; };
 		B05AEAA521AF67610000D222 /* B15-020.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-020.png"; sourceTree = "<group>"; };
 		B05AEAA621AF67610000D222 /* B15-022.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-022.png"; sourceTree = "<group>"; };
@@ -1699,6 +1701,7 @@
 				B0E48309221C5DC3002DBB77 /* B16-AN.png */,
 				B0E4830A221C5DC3002DBB77 /* B16-AO.png */,
 				B0E4830B221C5DC3002DBB77 /* B16-AP.png */,
+				B058A871221DC7E600258A1B /* B16-AQ.png */,
 			);
 			path = B16;
 			sourceTree = "<group>";
@@ -2086,6 +2089,7 @@
 				B0E6AA1E211E499A00F0BF1E /* B07-095.png in Resources */,
 				B01B2ECC215ACF3000ACA461 /* skill_type_support.png in Resources */,
 				B0D035A321A4770900BE1A49 /* B15-047.png in Resources */,
+				B058A872221DC7E600258A1B /* B16-AQ.png in Resources */,
 				B026CAC82215C57300D2EC84 /* B16-AD.png in Resources */,
 				B05CCE6F21FFAF6300B359E1 /* B15-070.png in Resources */,
 				B01C08A12152D08700795F9B /* B14-096.png in Resources */,

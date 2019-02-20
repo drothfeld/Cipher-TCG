@@ -712,4 +712,7 @@ let rawSkillsList: [Skill] = [
     strength_masked_by_azure_armor,
     scarlet_armored_rush,
     amber_armored_command,
+    hlioskjalf,
+    black_steeds_neigh,
+    transcending_fate,
 ]

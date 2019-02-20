@@ -4720,3 +4720,14 @@ let b16_AP = Card(series: "B16-APHN",
                   supportingSkill: none,
                   skills: [armored_lance_triangle_attack, amber_armored_command, armor_expertise],
                   cardImageName: "B16-AP.png")
+
+let b16_AQ = Card(series: "B16-AQR",
+                  name: "Veronica: Brave Princess",
+                  rarity: rare,
+                  insignia: colorless,
+                  attack: 50,
+                  support: 20,
+                  illustrator: kureta,
+                  supportingSkill: none,
+                  skills: [hlioskjalf, black_steeds_neigh, transcending_fate],
+                  cardImageName: "B16-AQ.png")
