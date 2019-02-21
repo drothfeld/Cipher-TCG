@@ -4731,3 +4731,25 @@ let b16_AQ = Card(series: "B16-AQR",
                   supportingSkill: none,
                   skills: [hlioskjalf, black_steeds_neigh, transcending_fate],
                   cardImageName: "B16-AQ.png")
+
+let b16_AR = Card(series: "B16-ARHN",
+                  name: "Jedah: High Priest of the Duma Faithful",
+                  rarity: high_normal,
+                  insignia: blade_of_light,
+                  attack: 60,
+                  support: 0,
+                  illustrator: setsu,
+                  supportingSkill: none,
+                  skills: [sacrificial_rite, fell_pact],
+                  cardImageName: "B16-AR.png")
+
+let b16_AS = Card(series: "B16-ASN",
+                  name: "Witch: Sacrifice Fated for Puppetdom",
+                  rarity: normal,
+                  insignia: blade_of_light,
+                  attack: 40,
+                  support: 0,
+                  illustrator: kazuhiro_taneda,
+                  supportingSkill: none,
+                  skills: [will_less_tool, offering_to_the_darkness, defiled_magic],
+                  cardImageName: "B16-AS.png")

@@ -5661,4 +5661,44 @@ let transcending_fate = Skill(name: "Transcending Fate",
                         tapUnit: false,
                         CCS: false)
 
+let will_less_tool = Skill(name: "Will-less Tool",
+                        description: "[SPECIAL] You may deploy this card even if you already have an allied Witch, and you may have 2 or more allied Witches at once. [SPECIAL] You may have 5 or more cards with the same card name as this card in your deck.",
+                        colorType: UIColor.purple,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let offering_to_the_darkness = Skill(name: "Offering to the Darkness",
+                        description: "[Send 1 card from your hand to the Retreat Area] Until the end of the turn, this unit gains +30 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let defiled_magic = Skill(name: "Defiled Magic",
+                        description: "[TRIGGER] When you deploy this unit, if you have 2 or fewer cards in your hand, draw 1 card.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let sacrificial_rite = Skill(name: "Sacrificial Rite",
+                        description: "[ACT] [ONCE PER TURN] [Send 2 cards from your hand to the Retreat Area] Choose 2 cards whose unit name is Witch from your Retreat Area, and deploy them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let fell_pact = Skill(name: "Fell Pact",
+                        description: "[TRIGGER] At the end of your turn, if you have no cards in your hand, draw 2 cards.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
 

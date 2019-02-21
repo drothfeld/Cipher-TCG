@@ -715,4 +715,9 @@ let rawSkillsList: [Skill] = [
     hlioskjalf,
     black_steeds_neigh,
     transcending_fate,
+    will_less_tool,
+    offering_to_the_darkness,
+    defiled_magic,
+    sacrificial_rite,
+    fell_pact,
 ]
