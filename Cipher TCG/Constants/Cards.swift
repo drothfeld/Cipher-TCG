@@ -4753,3 +4753,25 @@ let b16_AS = Card(series: "B16-ASN",
                   supportingSkill: none,
                   skills: [will_less_tool, offering_to_the_darkness, defiled_magic],
                   cardImageName: "B16-AS.png")
+
+let b16_AT = Card(series: "B16-ATSR",
+                  name: "Kurthnaga: The Coming Era's King of Dragons",
+                  rarity: secret_rare,
+                  insignia: medallion,
+                  attack: 60,
+                  support: 20,
+                  illustrator: saori_toyota,
+                  supportingSkill: none,
+                  skills: [gather_beneath_black_wings, the_new_dragon_king],
+                  cardImageName: "B16-AT.png")
+
+let b16_AU = Card(series: "B16-AUN",
+                  name: "Kurthnaga: Prince of the Land of Dragons",
+                  rarity: normal,
+                  insignia: medallion,
+                  attack: 40,
+                  support: 20,
+                  illustrator: saori_toyota,
+                  supportingSkill: holy_blood_emblem,
+                  skills: [blood_of_the_strong],
+                  cardImageName: "B16-AU.png")

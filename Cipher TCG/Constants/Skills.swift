@@ -5701,4 +5701,28 @@ let fell_pact = Skill(name: "Fell Pact",
                         tapUnit: false,
                         CCS: false)
 
+let blood_of_the_strong = Skill(name: "Blood of the Strong",
+                        description: "[ACT] [ONCE PER TURN] Reveal the 3 topmost cards of your deck, then send them to the Retreat Area. If all three of those cards are <Green>, then until the end of the turn, this unit gains +20 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let gather_beneath_black_wings = Skill(name: "Gather Beneath Black Wings",
+                        description: "[ACT] [ONCE PER TURN] [FLIP 1] Choose 1 non-Kurthnaga with a deployment cost of 5 or higher from your Retreat Area, and add it to your hand.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let the_new_dragon_king = Skill(name: "The New Dragon King",
+                        description: "[ALWAYS] For each ally with a deployment cost of 5 or higher that you have, this unit gains +10 attack. This skill only comes into effect when this unit is in the Front Line.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
 

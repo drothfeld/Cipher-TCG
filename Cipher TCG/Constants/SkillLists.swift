@@ -720,4 +720,7 @@ let rawSkillsList: [Skill] = [
     defiled_magic,
     sacrificial_rite,
     fell_pact,
+    blood_of_the_strong,
+    gather_beneath_black_wings,
+    the_new_dragon_king,
 ]
