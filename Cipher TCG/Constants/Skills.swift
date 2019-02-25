@@ -5725,4 +5725,28 @@ let the_new_dragon_king = Skill(name: "The New Dragon King",
                         tapUnit: false,
                         CCS: false)
 
+let outside_is_fun = Skill(name: "Outside is fun!",
+                        description: "[ALWAYS] During your turn, this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let lets_stay_together_forever_and_ever = Skill(name: "Let's stay together forever and ever!",
+                        description: "[SPECIAL] You cannot deploy this card in an Area which your lord does not occupy.",
+                        colorType: UIColor.purple,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let i_wanna_be_all_growed_up = Skill(name: "I wanna be all growed up!",
+                        description: "[ACT] [ONCE PER TURN] [FLIP 1] Until the end of your opponent's next turn, this unit gains +20 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
 

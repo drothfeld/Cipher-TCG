@@ -4775,3 +4775,25 @@ let b16_AU = Card(series: "B16-AUN",
                   supportingSkill: holy_blood_emblem,
                   skills: [blood_of_the_strong],
                   cardImageName: "B16-AU.png")
+
+let b16_AV = Card(series: "B16-AVR",
+                  name: "Fae: Eternal Smile",
+                  rarity: rare,
+                  insignia: divine_weapons,
+                  attack: 80,
+                  support: 20,
+                  illustrator: tobi,
+                  supportingSkill: none,
+                  skills: [outside_is_fun, lets_stay_together_forever_and_ever],
+                  cardImageName: "B16-AV.png")
+
+let b16_AW = Card(series: "B16-AWN",
+                  name: "Fae: Dragon Girl from the Hidden Village",
+                  rarity: normal,
+                  insignia: divine_weapons,
+                  attack: 30,
+                  support: 20,
+                  illustrator: tobi,
+                  supportingSkill: holy_blood_emblem,
+                  skills: [i_wanna_be_all_growed_up],
+                  cardImageName: "B16-AW.png")

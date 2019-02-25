@@ -723,4 +723,7 @@ let rawSkillsList: [Skill] = [
     blood_of_the_strong,
     gather_beneath_black_wings,
     the_new_dragon_king,
+    outside_is_fun,
+    lets_stay_together_forever_and_ever,
+    i_wanna_be_all_growed_up
 ]
