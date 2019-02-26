@@ -5749,4 +5749,43 @@ let i_wanna_be_all_growed_up = Skill(name: "I wanna be all growed up!",
                         tapUnit: false,
                         CCS: false)
 
+let zofian_siblings = Skill(name: "Zofian Siblings",
+                        description: "[ACT] [TAP, FLIP 2] Choose 1 Celica with a deployment cost of 4 or lower from your Retreat Area, and deploy it.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let guidance_of_the_gold_knight = Skill(name: "Guidance of the Gold Knight",
+                        description: "[ALWAYS] If you have 2 or more other allies, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let compelling_iron_mask = Skill(name: "Compelling Iron Mask",
+                        description: "[ALWAYS] Allied Celica gains +10 attack and is immune to destruction as the cost or effect of skills.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let little_white_knight = Skill(name: "Little White Knight",
+                        description: "[TRIGGER] At the end of your turn, you may choose 1 other ally in the Front Line, and move them.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let are_you_scared_anthiese = Skill(name: "Are you scared, Anthiese?",
+                        description: "[ALWAYS] During your opponent's turn, allied Celica gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
 

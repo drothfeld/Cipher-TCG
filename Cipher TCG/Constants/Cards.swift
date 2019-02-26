@@ -4797,3 +4797,25 @@ let b16_AW = Card(series: "B16-AWN",
                   supportingSkill: holy_blood_emblem,
                   skills: [i_wanna_be_all_growed_up],
                   cardImageName: "B16-AW.png")
+
+let b16_AX = Card(series: "B16-AXR",
+                  name: "Conrad: Prince with Two Faces",
+                  rarity: rare,
+                  insignia: blade_of_light,
+                  attack: 70,
+                  support: 10,
+                  illustrator: mineri,
+                  supportingSkill: none,
+                  skills: [zofian_siblings, guidance_of_the_gold_knight, compelling_iron_mask],
+                  cardImageName: "B16-AX.png")
+
+let b16_AY = Card(series: "B16-AYN",
+                  name: "Conrad: Memories of Childhood",
+                  rarity: normal,
+                  insignia: blade_of_light,
+                  attack: 30,
+                  support: 10,
+                  illustrator: mineri,
+                  supportingSkill: attack_emblem,
+                  skills: [are_you_scared_anthiese, little_white_knight],
+                  cardImageName: "B16-AY.png")
