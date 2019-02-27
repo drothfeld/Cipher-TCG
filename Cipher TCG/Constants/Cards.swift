@@ -4819,3 +4819,25 @@ let b16_AY = Card(series: "B16-AYN",
                   supportingSkill: attack_emblem,
                   skills: [are_you_scared_anthiese, little_white_knight],
                   cardImageName: "B16-AY.png")
+
+let b16_AZ = Card(series: "B16-AZHN",
+                  name: "Alfonse: Spring Prince",
+                  rarity: high_normal,
+                  insignia: colorless,
+                  attack: 60,
+                  support: 20,
+                  illustrator: simadoriru,
+                  supportingSkill: none,
+                  skills: [egg_of_bounty, the_season_of_rebirth],
+                  cardImageName: "B16-AZ.png")
+
+let b16_BA = Card(series: "B16-BAHN",
+                  name: "Sharena: Spring Princess",
+                  rarity: high_normal,
+                  insignia: colorless,
+                  attack: 50,
+                  support: 20,
+                  illustrator: tetsu_kurosawa,
+                  supportingSkill: none,
+                  skills: [im_hopping_your_way, lets_both_be_bunnies],
+                  cardImageName: "B16-BA.png")

@@ -5789,3 +5789,35 @@ let are_you_scared_anthiese = Skill(name: "Are you scared, Anthiese?",
                         tapUnit: false,
                         CCS: false)
 
+let egg_of_bounty = Skill(name: "Egg of Bounty",
+                        description: "[ACT] [ONCE PER TURN] [FLIP 1] Until the end of the turn, this unit gains +20 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let the_season_of_rebirth = Skill(name: "The Season of Rebirth",
+                        description: "[ALWAYS] If you have 3 or more other allies, this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let im_hopping_your_way = Skill(name: "I'm hopping your way!",
+                        description: "[ACT] [ONCE PER TURN] [FLIP 2] Draw 1 card.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let lets_both_be_bunnies = Skill(name: "Let's both be bunnies!",
+                        description: "[ALWAYS] If you have 3 or more other allies, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+

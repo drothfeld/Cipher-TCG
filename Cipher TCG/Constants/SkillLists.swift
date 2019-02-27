@@ -730,4 +730,8 @@ let rawSkillsList: [Skill] = [
     guidance_of_the_gold_knight,
     compelling_iron_mask,
     are_you_scared_anthiese,
+    egg_of_bounty,
+    the_season_of_rebirth,
+    im_hopping_your_way,
+    lets_both_be_bunnies,
 ]
