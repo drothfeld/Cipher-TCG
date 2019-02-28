@@ -734,4 +734,7 @@ let rawSkillsList: [Skill] = [
     the_season_of_rebirth,
     im_hopping_your_way,
     lets_both_be_bunnies,
+    heros_training,
+    proud_command,
+    finest_swordsman_in_all_the_land,
 ]

@@ -4841,3 +4841,25 @@ let b16_BA = Card(series: "B16-BAHN",
                   supportingSkill: none,
                   skills: [im_hopping_your_way, lets_both_be_bunnies],
                   cardImageName: "B16-BA.png")
+
+let b16_BB = Card(series: "B16-BBN",
+                  name: "Zelgius: Hero of Begnion",
+                  rarity: normal,
+                  insignia: medallion,
+                  attack: 40,
+                  support: 10,
+                  illustrator: kazuhiro_taneda,
+                  supportingSkill: attack_emblem,
+                  skills: [heros_training],
+                  cardImageName: "B16-BB.png")
+
+let b16_BC = Card(series: "B16-BCR",
+                  name: "Zelgius: The Empire's Greatest General",
+                  rarity: rare,
+                  insignia: medallion,
+                  attack: 70,
+                  support: 10,
+                  illustrator: daisuke_izuka,
+                  supportingSkill: none,
+                  skills: [proud_command, finest_swordsman_in_all_the_land],
+                  cardImageName: "B16-BC.png")

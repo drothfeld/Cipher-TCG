@@ -5821,3 +5821,27 @@ let lets_both_be_bunnies = Skill(name: "Let's both be bunnies!",
                         tapUnit: false,
                         CCS: false)
 
+let heros_training = Skill(name: "Hero's Training",
+                        description: "[TRIGGER] When this unit's attack destroys an enemy, choose 1 ally. Choose 1 card with the same unit name as that ally from your Retreat Area, then stack it under that unit to Growth them. (A unit who has Growthed is treated as if they are Leveled Up. If they possess a [CCS], they are able to use it.)",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let proud_command = Skill(name: "Proud Command",
+                        description: "[TRIGGER] At the start of your turn, choose 1 other <Green> ally. Until the end of your opponent's next turn, that ally gains +30 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let finest_swordsman_in_all_the_land = Skill(name: "Finest Swordsman in All the Land",
+                        description: "[TRIGGER] [FLIP 1] When this unit is attacking your opponent's lord, you may pay the cost and if you do: Until the end of your opponent's next turn, this unit gains +30 attack and is immune to destruction as the cost or effect of skills.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
