@@ -4863,3 +4863,25 @@ let b16_BC = Card(series: "B16-BCR",
                   supportingSkill: none,
                   skills: [proud_command, finest_swordsman_in_all_the_land],
                   cardImageName: "B16-BC.png")
+
+let b16_BD = Card(series: "B16-BDSR",
+                  name: "Sophia: Darkwalker With the Revelation",
+                  rarity: secret_rare,
+                  insignia: divine_weapons,
+                  attack: 60,
+                  support: 20,
+                  illustrator: kawasumi,
+                  supportingSkill: none,
+                  skills: [legendary_weapon_apocalypse, the_darkness_of_bramimond, shifting_fate],
+                  cardImageName: "B16-BD.png")
+
+let b16_BE = Card(series: "B16-BEN",
+                  name: "Sophia: Arcadian Shaman",
+                  rarity: normal,
+                  insignia: divine_weapons,
+                  attack: 30,
+                  support: 20,
+                  illustrator: kawasumi,
+                  supportingSkill: prophecy_emblem,
+                  skills: [warding_sandstorm],
+                  cardImageName: "B16-BE.png")

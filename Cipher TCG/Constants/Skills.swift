@@ -5845,3 +5845,35 @@ let finest_swordsman_in_all_the_land = Skill(name: "Finest Swordsman in All the 
                         tapUnit: false,
                         CCS: false)
 
+let warding_sandstorm = Skill(name: "Warding Sandstorm",
+                        description: "[ALWAYS] If your lord is being attacked, your opponent's support skills fail.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let legendary_weapon_apocalypse = Skill(name: "Legendary Weapon: Apocalypse",
+                        description: "[ACT] [FLIP 1] Reveal the topmost card of your opponent's deck, and send it to the Boundless Area. If the revealed card was <Tome>, you draw 1 card.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let the_darkness_of_bramimond = Skill(name: "The Darkness of Bramimond",
+                        description: "[LIS] [ACT] [ONCE PER TURN] Choose 1 of your opponent's bond cards, and flip it face-down.  This skill may only be used if Legendary Weapon: Apocalypse has already been used 2 or more times in this turn.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let shifting_fate = Skill(name: "Shifting Fate",
+                        description: "[ACT] [ONCE PER TURN] [FLIP 1] Choose 1 <Purple> card from your Retreat Area, and place it at the top of your deck.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+

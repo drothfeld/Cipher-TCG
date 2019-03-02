@@ -737,4 +737,8 @@ let rawSkillsList: [Skill] = [
     heros_training,
     proud_command,
     finest_swordsman_in_all_the_land,
+    warding_sandstorm,
+    legendary_weapon_apocalypse,
+    the_darkness_of_bramimond,
+    shifting_fate,
 ]
