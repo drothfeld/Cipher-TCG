@@ -741,4 +741,6 @@ let rawSkillsList: [Skill] = [
     legendary_weapon_apocalypse,
     the_darkness_of_bramimond,
     shifting_fate,
+    saints_blessing,
+    stolen_heart,
 ]

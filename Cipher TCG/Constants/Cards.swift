@@ -305,6 +305,28 @@ let b01_024 = Card(series: "B01-024HN",
                    skills: [blade_on_the_edge],
                    cardImageName: "B01-024.png")
 
+let b01_025 = Card(series: "B01-025HN",
+                   name: "Lena: Affectionate Saint",
+                   rarity: high_normal,
+                   insignia: blade_of_light,
+                   attack: 50,
+                   support: 20,
+                   illustrator: fumi_hasumi,
+                   supportingSkill: none,
+                   skills: [saints_blessing],
+                   cardImageName: "B01-025.png")
+
+let b01_026 = Card(series: "B01-026N",
+                   name: "Lena: Angel to All",
+                   rarity: normal,
+                   insignia: blade_of_light,
+                   attack: 20,
+                   support: 20,
+                   illustrator: fumi_hasumi,
+                   supportingSkill: none,
+                   skills: [heal, stolen_heart],
+                   cardImageName: "B01-026.png")
+
 let b01_046 = Card(series: "B01-046SR",
                    name: "Manakete Princess, Tiki",
                    rarity: secret_rare,

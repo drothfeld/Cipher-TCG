@@ -5877,3 +5877,18 @@ let shifting_fate = Skill(name: "Shifting Fate",
                         tapUnit: false,
                         CCS: false)
 
+let saints_blessing = Skill(name: "Saint’s Blessings",
+                        description: "Once Per Turn [ Flip 1 Bond ] When a cost 2 or lower ally unit is deployed, if you pay the cost, choose 1 card besides Lena with a Deployment Cost of 1 from your Retreat Area, and add it to your hand.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let stolen_heart = Skill(name: "Stolen Heart",
+                        description: "Your ally Julian gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
