@@ -743,4 +743,7 @@ let rawSkillsList: [Skill] = [
     shifting_fate,
     saints_blessing,
     stolen_heart,
+    influence_second_to_the_wyvern_generals,
+    aerial_duel,
+    wyvern_generals_talent,
 ]

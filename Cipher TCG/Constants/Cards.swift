@@ -4907,3 +4907,25 @@ let b16_BE = Card(series: "B16-BEN",
                   supportingSkill: prophecy_emblem,
                   skills: [warding_sandstorm],
                   cardImageName: "B16-BE.png")
+
+let b16_BF = Card(series: "B16-BFN",
+                  name: "Gale: Elite Knight of Bern",
+                  rarity: normal,
+                  insignia: divine_weapons,
+                  attack: 30,
+                  support: 30,
+                  illustrator: bisai,
+                  supportingSkill: flying_emblem,
+                  skills: [influence_second_to_the_wyvern_generals],
+                  cardImageName: "B16-BF.png")
+
+let b16_BG = Card(series: "B16-BGR",
+                  name: "Gale: Patriotic Black Wyvern Knight",
+                  rarity: rare,
+                  insignia: divine_weapons,
+                  attack: 50,
+                  support: 30,
+                  illustrator: bisai,
+                  supportingSkill: none,
+                  skills: [aerial_duel, wyvern_generals_talent],
+                  cardImageName: "B16-BG.png")

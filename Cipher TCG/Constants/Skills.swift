@@ -5892,3 +5892,27 @@ let stolen_heart = Skill(name: "Stolen Heart",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let influence_second_to_the_wyvern_generals = Skill(name: "Influence Second to the Wyvern Generals",
+                        description: "[ACT] [ONCE PER TURN] [FLIP 2] Until the end of the turn, this unit gains +30 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let aerial_duel = Skill(name: "Aerial Duel",
+                        description: "[ALWAYS] If this unit is in combat with your opponent's lord, this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let wyvern_generals_talent = Skill(name: "Wyvern General's Talent",
+                        description: "[ALWAYS] All allies who are both <Flier> and <Dragon> acquire [Elysian Deliverer]. (Elysian Deliverer [ACT] [TAP] Choose 1 other ally, and move them.)",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
