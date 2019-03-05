@@ -5916,3 +5916,124 @@ let wyvern_generals_talent = Skill(name: "Wyvern General's Talent",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let locktouch = Skill(name: "Locktouch",
+                        description: "[ Tap This Unit ] Reveal the top card of your opponent’s deck. If that card has a Deployment Cost of 3 or more, you may Flip 1 Bond to draw a card from your deck.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let steal = Skill(name: "Steal",
+                        description: "[ Flip 1 Bond ] Place the top card of your opponent’s deck into their Retreat Area.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let excalibur = Skill(name: "Excalibur",
+                        description: "Once Per Turn [ Flip 1 Bond ] Until the end of this turn, this unit gains Anti-Fliers: (Anti-Fliers CONT If this unit is attacking a Flying unit, this unit gains +30 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let mighty_wind_magic = Skill(name: "Mighty Wind Magic",
+                        description: "When this unit's attack destroys an enemy, if Excalibur was used this turn, draw a card.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let elysian_wip = Skill(name: "Elysian Whip",
+                        description: "For every other Flying ally, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let iote_shield = Skill(name: "Iote’s Shield",
+                        description: "All enemy Anti-Fliers/Wingbane skills are not applied.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let wings_of_macedon = Skill(name: "Wings of Macedon",
+                        description: "While there are at least 2 other Flying allies, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let fortify = Skill(name: "Fortify",
+                        description: "[ Tap This Unit, Flip 3 Bonds ] Choose 2 cards with different unit names in your Retreat Area, except Maria cards, and add them to your hand.",
+                        colorType: UIColor.red,
+                        flippedBonds: 3,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let marias_wish = Skill(name: "Maria’s Wish",
+                        description: "Allied Minerva and Michalis gain +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let peerless_marksman = Skill(name: "Peerless Marksman",
+                        description: "[Tap an ally with a Deployment Cost of 2 or less] Until the end of this turn, while this unit is attacking a Flying unit, this unit's attacks cannot be evaded.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let wellspring_wisdom = Skill(name: "Wellspring of Wisdom",
+                        description: "Once Per Turn [ Flip 1 Bond ] When a cost 2 or lower ally unit is deployed, you may pay the cost, and if you do: Draw a card.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let aura = Skill(name: "Aura",
+                        description: "Once Per Turn [ Flip 1 Bond ] This turn, this unit gains +20 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let thunder = Skill(name: "Thunder",
+                        description: "Once Per Turn [ Flip 1 Bond ] This turn, this unit gains +10 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let double_edged_love = Skill(name: "Double-edged Love",
+                        description: "[Tap an ally “Astram”] When this unit attacks, you may pay the cost, and if you do: Until the end of this battle, this unit gains +40 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let dragonpike = Skill(name: "Dragonpike",
+                        description: "While this unit is attacking a Dragon unit, this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+

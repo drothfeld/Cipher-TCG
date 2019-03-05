@@ -90,3 +90,8 @@ let meisai = Illustrator(name: "Meisai")
 let enomoto = Illustrator(name: "Enomoto")
 let hatapug = Illustrator(name: "Hatapug")
 let eiji_kaneda = Illustrator(name: "Eiji Kaneda")
+let yoshiro_ambe = Illustrator(name: "Yoshiro Ambe")
+let mari_shimazaki = Illustrator(name: "Mari Shimazaki")
+let mio_itou = Illustrator(name: "Mio Itou")
+let momori = Illustrator(name: "Momori")
+
