@@ -764,4 +764,7 @@ let rawSkillsList: [Skill] = [
     lets_settle_this_quickly,
     decimating_armorpiercer,
     tri_affliction,
+    triangle_attack,
+    sisterly_ties,
+    pegasus_sister_trio,
 ]

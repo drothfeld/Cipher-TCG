@@ -448,6 +448,72 @@ let b01_037 = Card(series: "B01-037N",
                    skills: [double_edged_love, dragonpike],
                    cardImageName: "B01-037.png")
 
+let b01_038 = Card(series: "B01-038R",
+                   name: "Palla: Eldest Pegasus Sister (Promoted)",
+                   rarity: rare,
+                   insignia: blade_of_light,
+                   attack: 50,
+                   support: 30,
+                   illustrator: haccan,
+                   supportingSkill: none,
+                   skills: [triangle_attack, sisterly_ties],
+                   cardImageName: "B01-038.png")
+
+let b01_039 = Card(series: "B01-039N",
+                   name: "Palla: Eldest Pegasus Rider (Base)",
+                   rarity: normal,
+                   insignia: blade_of_light,
+                   attack: 30,
+                   support: 30,
+                   illustrator: mayo,
+                   supportingSkill: flying_emblem,
+                   skills: [pegasus_sister_trio],
+                   cardImageName: "B01-039.png")
+
+let b01_040 = Card(series: "B01-040R",
+                   name: "Catria: Middle Pegasus Sister (Promoted)",
+                   rarity: rare,
+                   insignia: blade_of_light,
+                   attack: 50,
+                   support: 30,
+                   illustrator: haccan,
+                   supportingSkill: none,
+                   skills: [triangle_attack, sisterly_ties],
+                   cardImageName: "B01-040.png")
+
+let b01_041 = Card(series: "B01-041N",
+                   name: "Catria: Middle Pegasus Rider (Base)",
+                   rarity: normal,
+                   insignia: blade_of_light,
+                   attack: 30,
+                   support: 30,
+                   illustrator: mayo,
+                   supportingSkill: flying_emblem,
+                   skills: [pegasus_sister_trio],
+                   cardImageName: "B01-041.png")
+
+let b01_042 = Card(series: "B01-042R",
+                   name: "Est: Youngest Pegasus Sister (Promoted)",
+                   rarity: rare,
+                   insignia: blade_of_light,
+                   attack: 50,
+                   support: 30,
+                   illustrator: haccan,
+                   supportingSkill: none,
+                   skills: [triangle_attack, sisterly_ties],
+                   cardImageName: "B01-042.png")
+
+let b01_043 = Card(series: "B01-043N",
+                   name: "Est: Youngest Pegasus Rider (Base)",
+                   rarity: normal,
+                   insignia: blade_of_light,
+                   attack: 30,
+                   support: 30,
+                   illustrator: mayo,
+                   supportingSkill: flying_emblem,
+                   skills: [pegasus_sister_trio],
+                   cardImageName: "B01-043.png")
+
 let b01_046 = Card(series: "B01-046SR",
                    name: "Manakete Princess, Tiki",
                    rarity: secret_rare,

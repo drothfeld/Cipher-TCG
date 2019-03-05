@@ -6060,3 +6060,27 @@ let tri_affliction = Skill(name: "Tri-affliction",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let triangle_attack = Skill(name: "Triangle Attack",
+                        description: "[Formation Skill] [Tap an ally Catria and/or Est and/or Palla] When this unit attacks, you may pay the cost, and if you do: Until the end of this battle, this unit gains +50 attack and this unit's attack and cannot be avoided.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let sisterly_ties = Skill(name: "Sisterly Ties",
+                        description: "While this unit is being supported by Catria and/or Est and/or Palla, this unit gains +10 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let pegasus_sister_trio = Skill(name: "Pegasus Sister Trio",
+                        description: "[ Tap This Unit, Flip 2 Bonds ] Select a Catria and/or Est and/or Palla with a Deployment Cost of 2 or less in your Deck and deploy the selected unit. Shuffle your deck afterwards.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
