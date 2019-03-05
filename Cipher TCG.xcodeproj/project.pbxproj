@@ -392,6 +392,7 @@
 		B0BBD29B21A7522100D84910 /* B15-013.png in Resources */ = {isa = PBXBuildFile; fileRef = B0BBD29A21A7522100D84910 /* B15-013.png */; };
 		B0BBE2CD219FA96300B5B0CE /* B15-039.png in Resources */ = {isa = PBXBuildFile; fileRef = B0BBE2CB219FA96300B5B0CE /* B15-039.png */; };
 		B0BBE2CE219FA96300B5B0CE /* B15-040.png in Resources */ = {isa = PBXBuildFile; fileRef = B0BBE2CC219FA96300B5B0CE /* B15-040.png */; };
+		B0BC3B30222F042C00FD375B /* IllustratorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BC3B2F222F042C00FD375B /* IllustratorsViewController.swift */; };
 		B0BEF1E621C72AEC0006C132 /* B15-009.png in Resources */ = {isa = PBXBuildFile; fileRef = B0BEF1E421C72AEC0006C132 /* B15-009.png */; };
 		B0BEF1E721C72AEC0006C132 /* B15-010.png in Resources */ = {isa = PBXBuildFile; fileRef = B0BEF1E521C72AEC0006C132 /* B15-010.png */; };
 		B0BEF1EA21C72B120006C132 /* B15-011.png in Resources */ = {isa = PBXBuildFile; fileRef = B0BEF1E821C72B120006C132 /* B15-011.png */; };
@@ -927,6 +928,7 @@
 		B0BBD29A21A7522100D84910 /* B15-013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-013.png"; sourceTree = "<group>"; };
 		B0BBE2CB219FA96300B5B0CE /* B15-039.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-039.png"; sourceTree = "<group>"; };
 		B0BBE2CC219FA96300B5B0CE /* B15-040.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-040.png"; sourceTree = "<group>"; };
+		B0BC3B2F222F042C00FD375B /* IllustratorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IllustratorsViewController.swift; sourceTree = "<group>"; };
 		B0BEF1E421C72AEC0006C132 /* B15-009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-009.png"; sourceTree = "<group>"; };
 		B0BEF1E521C72AEC0006C132 /* B15-010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-010.png"; sourceTree = "<group>"; };
 		B0BEF1E821C72B120006C132 /* B15-011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-011.png"; sourceTree = "<group>"; };
@@ -1425,6 +1427,7 @@
 				B0DC65E3214B52FD00A422D7 /* SkillViewController.swift */,
 				B08A6B1E201661C300603113 /* MenuViewController.swift */,
 				B08A6B41201903AD00603113 /* LaunchScreenViewController.swift */,
+				B0BC3B2F222F042C00FD375B /* IllustratorsViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -2479,6 +2482,7 @@
 				B01B2EC2215ABDEC00ACA461 /* SkillType.swift in Sources */,
 				B08A6B42201903AD00603113 /* LaunchScreenViewController.swift in Sources */,
 				B054BBB5200E68AE004159A6 /* CardListViewController.swift in Sources */,
+				B0BC3B30222F042C00FD375B /* IllustratorsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
