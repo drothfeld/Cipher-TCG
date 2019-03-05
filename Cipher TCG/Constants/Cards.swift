@@ -5050,3 +5050,25 @@ let b16_BG = Card(series: "B16-BGR",
                   supportingSkill: none,
                   skills: [aerial_duel, wyvern_generals_talent],
                   cardImageName: "B16-BG.png")
+
+let b16_BH = Card(series: "B16-BHN",
+                  name: "Saber: Seafaring Guardsman",
+                  rarity: normal,
+                  insignia: blade_of_light,
+                  attack: 40,
+                  support: 10,
+                  illustrator: nnekora,
+                  supportingSkill: attack_emblem,
+                  skills: [lets_settle_this_quickly],
+                  cardImageName: "B16-BH.png")
+
+let b16_BI = Card(series: "B16-BIR",
+                  name: "Saber: Dread Ogre",
+                  rarity: rare,
+                  insignia: blade_of_light,
+                  attack: 70,
+                  support: 10,
+                  illustrator: nnekora,
+                  supportingSkill: none,
+                  skills: [decimating_armorpiercer, tri_affliction],
+                  cardImageName: "B16-BI.png")

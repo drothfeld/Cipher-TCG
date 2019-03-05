@@ -6037,3 +6037,26 @@ let dragonpike = Skill(name: "Dragonpike",
                         tapUnit: false,
                         CCS: false)
 
+let lets_settle_this_quickly = Skill(name: "Let's settle this quickly.",
+                        description: "[ACT] [Tap 1 other <Red> ally] Until the end of the turn, this unit's attacks cannot be evaded by non-lord enemies.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let decimating_armorpiercer = Skill(name: "Decimating Armorpiercer",
+                        description: "[TRIGGER] When this unit Class Changes, you may choose 1 enemy in the Front Line, and destroy them.  This skill will not activate if this unit Class Changes through a skill's effect.",
+                                     colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let tri_affliction = Skill(name: "Tri-affliction",
+                        description: "[TRIGGER] [ONCE PER TURN] When your opponent's lord is destroyed by either this unit's attack or Decimating Armorpiercer, until the end of the turn, your opponent's lord gains -20 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

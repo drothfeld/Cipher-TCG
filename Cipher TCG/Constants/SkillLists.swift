@@ -761,4 +761,7 @@ let rawSkillsList: [Skill] = [
     thunder,
     double_edged_love,
     dragonpike,
+    lets_settle_this_quickly,
+    decimating_armorpiercer,
+    tri_affliction,
 ]
