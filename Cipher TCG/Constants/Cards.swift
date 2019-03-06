@@ -5138,3 +5138,25 @@ let b16_BI = Card(series: "B16-BIR",
                   supportingSkill: none,
                   skills: [decimating_armorpiercer, tri_affliction],
                   cardImageName: "B16-BI.png")
+
+let b16_BJ = Card(series: "B16-BJR",
+                  name: "Klein: Matrilineal Bow Prodigy",
+                  rarity: rare,
+                  insignia: divine_weapons,
+                  attack: 60,
+                  support: 20,
+                  illustrator: kokon_konfuzi,
+                  supportingSkill: none,
+                  skills: [illuminating_silver_bow, shall_we_then_clarine, wingbane],
+                  cardImageName: "B16-BJ.png")
+
+let b16_BK = Card(series: "B16-BKR",
+                  name: "Clarine: Patrilineal Magic Prodigy",
+                  rarity: rare,
+                  insignia: divine_weapons,
+                  attack: 60,
+                  support: 20,
+                  illustrator: kokon_konfuzi,
+                  supportingSkill: none,
+                  skills: [toward_her_dream_future, oh_i_love_you_klein],
+                  cardImageName: "B16-BK.png")

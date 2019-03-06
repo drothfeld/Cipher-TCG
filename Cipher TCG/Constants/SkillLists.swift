@@ -767,4 +767,8 @@ let rawSkillsList: [Skill] = [
     triangle_attack,
     sisterly_ties,
     pegasus_sister_trio,
+    illuminating_silver_bow,
+    shall_we_then_clarine,
+    toward_her_dream_future,
+    oh_i_love_you_klein,
 ]

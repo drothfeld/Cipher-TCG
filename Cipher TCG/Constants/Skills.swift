@@ -6084,3 +6084,35 @@ let pegasus_sister_trio = Skill(name: "Pegasus Sister Trio",
                         flipOrb: false,
                         tapUnit: true,
                         CCS: false)
+
+let illuminating_silver_bow = Skill(name: "Illuminating Silver Bow",
+                        description: "[TRIGGER] [FLIP 1] When this unit's attack destroys a non-lord enemy, you may pay the cost and if you do: Choose 1 Klein from your Retreat Area, and add it to your hand.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let shall_we_then_clarine = Skill(name: "Shall we, then, Clarine?",
+                        description: "[ALWAYS] If you have an allied Clarine, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let toward_her_dream_future = Skill(name: "Toward Her Dream Future",
+                        description: "[ACT] [ONCE PER TURN] [FLIP 2] Draw 2 cards. Choose 1 card from your hand, and place it at the top of your deck.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let oh_i_love_you_klein = Skill(name: "Oh, I love you, Klein!",
+                        description: "If you have an allied Klein, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
