@@ -6116,3 +6116,27 @@ let oh_i_love_you_klein = Skill(name: "Oh, I love you, Klein!",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let shining_advent = Skill(name: "Shining Advent",
+                        description: "[SPECIAL] If you have 6 or more bond cards, this card's cost in your hand becomes 0.",
+                        colorType: UIColor.purple,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let entrusted_hope = Skill(name: "Entrusted Hope",
+                        description: "[TRIGGER] [FLIP 1] When you deploy this unit, you may pay the cost and if you do: Choose 1 card with the same unit name as your lord from your Retreat Area, and add it to your hand.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let the_last_of_her_power = Skill(name: "The Last of Her Power",
+                        description: "[TRIGGER] At the end of your turn, send this unit to the Boundless Area.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

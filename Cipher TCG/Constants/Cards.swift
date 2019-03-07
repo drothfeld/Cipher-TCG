@@ -5160,3 +5160,14 @@ let b16_BK = Card(series: "B16-BKR",
                   supportingSkill: none,
                   skills: [toward_her_dream_future, oh_i_love_you_klein],
                   cardImageName: "B16-BK.png")
+
+let b16_BL = Card(series: "B16-BLR",
+                  name: "Mila: Goddess Who Dreamt of Paradise",
+                  rarity: rare,
+                  insignia: blade_of_light,
+                  attack: 0,
+                  support: 20,
+                  illustrator: masaki_hirooka,
+                  supportingSkill: none,
+                  skills: [shining_advent, entrusted_hope, the_last_of_her_power],
+                  cardImageName: "B16-BL.png")

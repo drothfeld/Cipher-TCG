@@ -771,4 +771,7 @@ let rawSkillsList: [Skill] = [
     shall_we_then_clarine,
     toward_her_dream_future,
     oh_i_love_you_klein,
+    shining_advent,
+    entrusted_hope,
+    the_last_of_her_power,
 ]
