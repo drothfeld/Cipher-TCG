@@ -5171,3 +5171,25 @@ let b16_BL = Card(series: "B16-BLR",
                   supportingSkill: none,
                   skills: [shining_advent, entrusted_hope, the_last_of_her_power],
                   cardImageName: "B16-BL.png")
+
+let b16_BM = Card(series: "B16-BMN",
+                  name: "Sigrun: Kind White Pegasus",
+                  rarity: normal,
+                  insignia: medallion,
+                  attack: 30,
+                  support: 30,
+                  illustrator: yoko_maturica,
+                  supportingSkill: flying_emblem,
+                  skills: [winged_deliverer],
+                  cardImageName: "B16-BM.png")
+
+let b16_BN = Card(series: "B16-BNSR",
+                  name: "Sigrun: Empire-Guarding Holy Wings",
+                  rarity: secret_rare,
+                  insignia: medallion,
+                  attack: 60,
+                  support: 30,
+                  illustrator: megumi_nagahama,
+                  supportingSkill: none,
+                  skills: [follow_my_lead_holy_guard, anti_supremacy_formation, castigating_formation],
+                  cardImageName: "B16-BN.png")

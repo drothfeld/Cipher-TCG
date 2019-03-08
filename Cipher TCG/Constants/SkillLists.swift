@@ -774,4 +774,7 @@ let rawSkillsList: [Skill] = [
     shining_advent,
     entrusted_hope,
     the_last_of_her_power,
+    follow_my_lead_holy_guard,
+    anti_supremacy_formation,
+    castigating_formation,
 ]

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0024B122232E5610085F79E /* B16-BN.png in Resources */ = {isa = PBXBuildFile; fileRef = B0024B102232E5610085F79E /* B16-BN.png */; };
+		B0024B132232E5610085F79E /* B16-BM.png in Resources */ = {isa = PBXBuildFile; fileRef = B0024B112232E5610085F79E /* B16-BM.png */; };
 		B003AFEF20D570F200133D1B /* B03-046.png in Resources */ = {isa = PBXBuildFile; fileRef = B003AFEE20D570F200133D1B /* B03-046.png */; };
 		B003AFF120D571FE00133D1B /* B03-053.png in Resources */ = {isa = PBXBuildFile; fileRef = B003AFF020D571FE00133D1B /* B03-053.png */; };
 		B003AFF320D575EE00133D1B /* B01-057.png in Resources */ = {isa = PBXBuildFile; fileRef = B003AFF220D575EE00133D1B /* B01-057.png */; };
@@ -544,6 +546,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B0024B102232E5610085F79E /* B16-BN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B16-BN.png"; sourceTree = "<group>"; };
+		B0024B112232E5610085F79E /* B16-BM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B16-BM.png"; sourceTree = "<group>"; };
 		B003AFEE20D570F200133D1B /* B03-046.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B03-046.png"; sourceTree = "<group>"; };
 		B003AFF020D571FE00133D1B /* B03-053.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B03-053.png"; sourceTree = "<group>"; };
 		B003AFF220D575EE00133D1B /* B01-057.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B01-057.png"; sourceTree = "<group>"; };
@@ -1825,6 +1829,8 @@
 				B012C5BC223040BE0054519C /* B16-BJ.png */,
 				B012C5BB223040BE0054519C /* B16-BK.png */,
 				B08CBF79223192D000EDE9FE /* B16-BL.png */,
+				B0024B112232E5610085F79E /* B16-BM.png */,
+				B0024B102232E5610085F79E /* B16-BN.png */,
 			);
 			path = B16;
 			sourceTree = "<group>";
@@ -2032,6 +2038,7 @@
 				B02617D1217D8A5300194F4C /* B14-089.png in Resources */,
 				B054BBBD200E68AE004159A6 /* LaunchScreen.storyboard in Resources */,
 				B01B2ED3215BF03200ACA461 /* B14-004.png in Resources */,
+				B0024B122232E5610085F79E /* B16-BN.png in Resources */,
 				B01B2EEB216141D000ACA461 /* B14-020.png in Resources */,
 				B0BBD29B21A7522100D84910 /* B15-013.png in Resources */,
 				B01B2ECE215ACF3000ACA461 /* skill_type_continuous.png in Resources */,
@@ -2168,6 +2175,7 @@
 				B0109FCE221F018000750F32 /* B16-AS.png in Resources */,
 				B01986DB21407CA8006FF634 /* B14-044.png in Resources */,
 				B0C6F70A222A0AC200B797AC /* B16-BD.png in Resources */,
+				B0024B132232E5610085F79E /* B16-BM.png in Resources */,
 				B091A1BB220379BB00500EF5 /* B15-086.png in Resources */,
 				B03D57F72012CD14007A3E97 /* B10-060.png in Resources */,
 				B064B668222E399900207C2A /* B01-036.png in Resources */,

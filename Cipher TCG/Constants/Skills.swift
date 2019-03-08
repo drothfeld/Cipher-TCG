@@ -6140,3 +6140,27 @@ let the_last_of_her_power = Skill(name: "The Last of Her Power",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let follow_my_lead_holy_guard = Skill(name: "Follow my lead, Holy Guard!",
+                        description: "[ACT] [ONCE PER TURN] [FLIP 2] Choose up to 2 <Flier> cards with a deployment cost of 2 or lower from your Retreat Area, and deploy them in the Back Line.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let anti_supremacy_formation = Skill(name: "Air-Supremacy Formation",
+                        description: "[ACT] [Tap 1 other <Flier> ally] Choose 1 enemy in the Back Line, and move them.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let castigating_formation = Skill(name: "Castigating Formation",
+                        description: "[ACT] [Tap 1 other <Flier> ally] Until the end of the turn, this unit gains +20 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
