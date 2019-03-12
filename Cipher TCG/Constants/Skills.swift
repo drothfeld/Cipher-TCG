@@ -6180,3 +6180,19 @@ let dragon_birthing_dragon  = Skill(name: "Dragon-Birthing Dragon",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let ill_help_you_sleep  = Skill(name: "I'll help you sleep...",
+                        description: "[ALWAYS] During your turn, if your opponent has 2 or fewer orbs, this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let a_merciful_death  = Skill(name: "A merciful death...",
+                        description: "[TRIGGER] [FLIP 2] At the end of your turn, you may pay the cost and if you do: Choose 1 of your opponent's orbs, and destroy it.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

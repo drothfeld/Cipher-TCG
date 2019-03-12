@@ -5204,3 +5204,14 @@ let b16_BO = Card(series: "B16-BOR",
                   supportingSkill: none,
                   skills: [divine_dragon_fallen_to_the_demonic, dragon_birthing_dragon],
                   cardImageName: "B16-BO.png")
+
+let b16_BP = Card(series: "B16-BPSR",
+                  name: "Eir: Merciful Death",
+                  rarity: secret_rare,
+                  insignia: colorless,
+                  attack: 50,
+                  support: 30,
+                  illustrator: azusa,
+                  supportingSkill: none,
+                  skills: [ill_help_you_sleep, a_merciful_death],
+                  cardImageName: "B16-BO.png")

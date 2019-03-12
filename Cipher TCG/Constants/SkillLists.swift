@@ -779,4 +779,6 @@ let rawSkillsList: [Skill] = [
     castigating_formation,
     divine_dragon_fallen_to_the_demonic,
     dragon_birthing_dragon,
+    ill_help_you_sleep,
+    a_merciful_death,
 ]
