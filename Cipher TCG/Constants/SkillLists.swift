@@ -777,4 +777,6 @@ let rawSkillsList: [Skill] = [
     follow_my_lead_holy_guard,
     anti_supremacy_formation,
     castigating_formation,
+    divine_dragon_fallen_to_the_demonic,
+    dragon_birthing_dragon,
 ]

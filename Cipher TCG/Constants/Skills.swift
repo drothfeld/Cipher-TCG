@@ -6164,3 +6164,19 @@ let castigating_formation = Skill(name: "Castigating Formation",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let divine_dragon_fallen_to_the_demonic = Skill(name: "Divine Dragon Fallen to the Demonic",
+                        description: "[ACT] [TAP] If you have more orbs than your opponent, reveal the topmost card of your deck, and play it in the Bond Area.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let dragon_birthing_dragon  = Skill(name: "Dragon-Birthing Dragon",
+                        description: "[ACT] [ONCE PER TURN] [FLIP 1] Choose 1 <Dragonstone> card with a deployment cost of 4 or lower from your hand, and deploy it.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

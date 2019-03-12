@@ -5193,3 +5193,14 @@ let b16_BN = Card(series: "B16-BNSR",
                   supportingSkill: none,
                   skills: [follow_my_lead_holy_guard, anti_supremacy_formation, castigating_formation],
                   cardImageName: "B16-BN.png")
+
+let b16_BO = Card(series: "B16-BOR",
+                  name: "Idunn: Dark Priestess",
+                  rarity: rare,
+                  insignia: divine_weapons,
+                  attack: 80,
+                  support: 0,
+                  illustrator: foo_midori,
+                  supportingSkill: none,
+                  skills: [divine_dragon_fallen_to_the_demonic, dragon_birthing_dragon],
+                  cardImageName: "B16-BO.png")
