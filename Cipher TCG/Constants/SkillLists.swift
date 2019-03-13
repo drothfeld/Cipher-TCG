@@ -781,4 +781,9 @@ let rawSkillsList: [Skill] = [
     dragon_birthing_dragon,
     ill_help_you_sleep,
     a_merciful_death,
+    premature_awakening,
+    light_of_judgement,
+    the_goddesss_legions,
+    death_to_the_heathens,
+    blessing_of_order,
 ]

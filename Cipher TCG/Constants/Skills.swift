@@ -6196,3 +6196,44 @@ let a_merciful_death  = Skill(name: "A merciful death...",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let premature_awakening  = Skill(name: "Premature Awakening",
+                        description: "[SPECIAL] If you have 3 or more <Green> bond cards, the deployment cost of this card while in your hand is reduced by 2.",
+                        colorType: UIColor.purple,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let light_of_judgement  = Skill(name: "Light of Judgement",
+                        description: "[ACT] [ONCE PER TURN] Reveal the topmost card of your deck. Destroy all non-lord enemies with the same deployment cost as that card. Send the revealed card to your Retreat Area.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let the_goddesss_legions  = Skill(name: "The Goddess's Legions",
+                        description: "[SPECIAL] You may deploy this card even if you already have an allied Disciple of Order, and you may have 2 or more allied Disciples of Order at once.",
+                        colorType: UIColor.purple,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let death_to_the_heathens  = Skill(name: "Death to the heathens!",
+                        description: "[TRIGGER] [FLIP 1] When this unit is deployed, you may pay the cost and if you do: Choose 1 Disciple of Order from your Retreat Area, and add it to your hand.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let blessing_of_order  = Skill(name: "Blessing of Order",
+                        description: "[ALWAYS] If you have an allied Ashera, this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+

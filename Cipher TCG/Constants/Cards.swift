@@ -5215,3 +5215,25 @@ let b16_BP = Card(series: "B16-BPSR",
                   supportingSkill: none,
                   skills: [ill_help_you_sleep, a_merciful_death],
                   cardImageName: "B16-BO.png")
+
+let b16_BQ = Card(series: "B16-BQR",
+                  name: "Ashera: World-Judging Goddess",
+                  rarity: rare,
+                  insignia: medallion,
+                  attack: 70,
+                  support: 0,
+                  illustrator: setsu,
+                  supportingSkill: none,
+                  skills: [premature_awakening, light_of_judgement, mantle],
+                  cardImageName: "B16-BQ.png")
+
+let b16_BR = Card(series: "B16-BRHN",
+                  name: "Disciple of Order: Golden Warrior",
+                  rarity: high_normal,
+                  insignia: medallion,
+                  attack: 60,
+                  support: 20,
+                  illustrator: kotetsu_kinoshita,
+                  supportingSkill: none,
+                  skills: [the_goddesss_legions, death_to_the_heathens, blessing_of_order],
+                  cardImageName: "B16-BR.png")
