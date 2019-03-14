@@ -6237,3 +6237,34 @@ let blessing_of_order  = Skill(name: "Blessing of Order",
                         tapUnit: false,
                         CCS: false)
 
+let energetic_servant  = Skill(name: "Energetic Servant",
+                        description: "[ALWAYS] If you have 2 or more other <Red> allies, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let lets_go_mire  = Skill(name: "Let's go! Mire!",
+                        description: "[TRIGGER] When this unit Class Changes, until the end of your opponent's next turn, all enemies are unable to be untapped. This skill will not activate if this unit Class Changes through a skill's effect.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let youre_gonna_pay_hard  = Skill(name: "You're gonna pay HARD!",
+                        description: "[ALWAYS] If this unit is attacking your opponent's lord, this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let prayer_to_the_god_of_yore  = Skill(name: "Prayer to the God of Yore",
+                        description: "[ACT] [FLIP 1] If you have 2 or fewer cards in your hand, draw 1 card.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

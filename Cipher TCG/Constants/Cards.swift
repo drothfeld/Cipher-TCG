@@ -5237,3 +5237,25 @@ let b16_BR = Card(series: "B16-BRHN",
                   supportingSkill: none,
                   skills: [the_goddesss_legions, death_to_the_heathens, blessing_of_order],
                   cardImageName: "B16-BR.png")
+
+let b16_BS = Card(series: "B16-BSN",
+                  name: "Mae: I'll Do It For Lady Celica!",
+                  rarity: normal,
+                  insignia: blade_of_light,
+                  attack: 30,
+                  support: 20,
+                  illustrator: sakura_miwabe,
+                  supportingSkill: magic_emblem,
+                  skills: [energetic_servant],
+                  cardImageName: "B16-BS.png")
+
+let b16_BT = Card(series: "B16-BTSR",
+                  name: "Mae: Sweet Sovereign of the Dark",
+                  rarity: secret_rare,
+                  insignia: blade_of_light,
+                  attack: 50,
+                  support: 20,
+                  illustrator: fuzichoco,
+                  supportingSkill: none,
+                  skills: [lets_go_mire, youre_gonna_pay_hard, prayer_to_the_god_of_yore],
+                  cardImageName: "B16-BT.png")

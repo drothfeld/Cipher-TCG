@@ -786,4 +786,8 @@ let rawSkillsList: [Skill] = [
     the_goddesss_legions,
     death_to_the_heathens,
     blessing_of_order,
+    energetic_servant,
+    lets_go_mire,
+    youre_gonna_pay_hard,
+    prayer_to_the_god_of_yore,
 ]
