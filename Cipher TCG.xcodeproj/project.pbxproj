@@ -508,6 +508,7 @@
 		B0ED9DF620D6CB2600A7BEB6 /* B12-005.png in Resources */ = {isa = PBXBuildFile; fileRef = B0ED9DF520D6CB2600A7BEB6 /* B12-005.png */; };
 		B0ED9DF820D6CC2A00A7BEB6 /* B12-006.png in Resources */ = {isa = PBXBuildFile; fileRef = B0ED9DF720D6CC2A00A7BEB6 /* B12-006.png */; };
 		B0ED9DFA20D6CCE900A7BEB6 /* B12-007.png in Resources */ = {isa = PBXBuildFile; fileRef = B0ED9DF920D6CCE900A7BEB6 /* B12-007.png */; };
+		B0F2F8E1223AF9F300DBAEF6 /* IllustratorsLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F2F8E0223AF9F300DBAEF6 /* IllustratorsLists.swift */; };
 		B0F3B9FA22373CF400141D89 /* B16-BO.png in Resources */ = {isa = PBXBuildFile; fileRef = B0F3B9F922373CF400141D89 /* B16-BO.png */; };
 		B0F3CFA721920D9B00DE2E34 /* B15-053.png in Resources */ = {isa = PBXBuildFile; fileRef = B0F3CFA521920D9A00DE2E34 /* B15-053.png */; };
 		B0F3CFA821920D9B00DE2E34 /* B15-052.png in Resources */ = {isa = PBXBuildFile; fileRef = B0F3CFA621920D9B00DE2E34 /* B15-052.png */; };
@@ -1055,6 +1056,7 @@
 		B0ED9DF520D6CB2600A7BEB6 /* B12-005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B12-005.png"; sourceTree = "<group>"; };
 		B0ED9DF720D6CC2A00A7BEB6 /* B12-006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B12-006.png"; sourceTree = "<group>"; };
 		B0ED9DF920D6CCE900A7BEB6 /* B12-007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B12-007.png"; sourceTree = "<group>"; };
+		B0F2F8E0223AF9F300DBAEF6 /* IllustratorsLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IllustratorsLists.swift; sourceTree = "<group>"; };
 		B0F3B9F922373CF400141D89 /* B16-BO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B16-BO.png"; sourceTree = "<group>"; };
 		B0F3CFA521920D9A00DE2E34 /* B15-053.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-053.png"; sourceTree = "<group>"; };
 		B0F3CFA621920D9B00DE2E34 /* B15-052.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-052.png"; sourceTree = "<group>"; };
@@ -1484,6 +1486,7 @@
 				B094C4842135DACF00DC2870 /* Favorites.swift */,
 				B0497C0721A0B79F005E5910 /* Rarities.swift */,
 				B0497C0B21A0BBFC005E5910 /* Illustrators.swift */,
+				B0F2F8E0223AF9F300DBAEF6 /* IllustratorsLists.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -2524,6 +2527,7 @@
 				B0497C0821A0B79F005E5910 /* Rarities.swift in Sources */,
 				B0D1ABDE2114DEDF0051935A /* CardPriceURLs.swift in Sources */,
 				B01B2EC2215ABDEC00ACA461 /* SkillType.swift in Sources */,
+				B0F2F8E1223AF9F300DBAEF6 /* IllustratorsLists.swift in Sources */,
 				B08A6B42201903AD00603113 /* LaunchScreenViewController.swift in Sources */,
 				B054BBB5200E68AE004159A6 /* CardListViewController.swift in Sources */,
 				B0BC3B30222F042C00FD375B /* IllustratorsViewController.swift in Sources */,
