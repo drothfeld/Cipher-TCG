@@ -6268,3 +6268,20 @@ let prayer_to_the_god_of_yore  = Skill(name: "Prayer to the God of Yore",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let legendary_weapon_forblaze  = Skill(name: "Legendary Weapon: Forblaze",
+                        description: "[ACT] [FLIP 1] Until the end of the turn, this unit gains +30 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let the_inferno_of_athos  = Skill(name: "The Inferno of Athos",
+                        description: "[LIS] [ACT] [ONCE PER TURN] Choose 1 non-lord enemy, and destroy them. This skill may only be used if Legendary Weapon: Forblaze has already been used 2 or more times in this turn.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+

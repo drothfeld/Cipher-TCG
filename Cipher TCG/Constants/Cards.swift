@@ -5259,3 +5259,14 @@ let b16_BT = Card(series: "B16-BTSR",
                   supportingSkill: none,
                   skills: [lets_go_mire, youre_gonna_pay_hard, prayer_to_the_god_of_yore],
                   cardImageName: "B16-BT.png")
+
+let b16_BU = Card(series: "B16-BUSR",
+                  name: "Lilina: Wielder of Infernal and Shining Flames",
+                  rarity: secret_rare,
+                  insignia: blade_of_light,
+                  attack: 60,
+                  support: 20,
+                  illustrator: kotaro_yamada,
+                  supportingSkill: divine_flame_sorcery,
+                  skills: [legendary_weapon_forblaze, the_inferno_of_athos],
+                  cardImageName: "B16-BU.png")

@@ -139,3 +139,7 @@ let guardian_grand_axe = SupportingSkill(type: "Guardian Grand Axe",
 let personal_cheer_squad = SupportingSkill(type: "Personal Cheer Squad",
                                     textDescription: "If your attacking unit is Sharp, then at the end of this combat you may deploy this card instead of sending it to the Retreat Area.",
                                     iconImageName: "28px-Attack_Support.png")
+
+let divine_flame_sorcery = SupportingSkill(type: "Divine Flame Sorcery",
+                                    textDescription: "If your <Purple> attacking unit destroys an enemy, draw 1 card.",
+                                    iconImageName: "28px-Attack_Support.png")
