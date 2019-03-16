@@ -8,19 +8,21 @@
 
 import UIKit
 
-class IllustratorsViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+class IllustratorsViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, UIScrollViewDelegate {
     
     // Storyboard Outlets
     @IBOutlet weak var IllustratorPicker: UIPickerView!
+    @IBOutlet weak var CardImageScrollView: UIScrollView!
+    @IBOutlet weak var CardImagePageControl: UIPageControl!
     
     // Controller Values
     var illustratorFocusPickerData: [Illustrator] = [Illustrator]()
     var sortedIllustratorsList: [Illustrator] = [Illustrator]()
+    var cardsIllustratedBySelectedArtist: [Card] = [Card]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         interfaceSetup()
-        
     }
     
     // Number of components in picker
@@ -39,8 +41,14 @@ class IllustratorsViewController: UIViewController, UIPickerViewDelegate, UIPick
     }
     
     // Capture the picker view selection
-    private func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) -> String? {
-        return illustratorFocusPickerData[row].name
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        cardsIllustratedBySelectedArtist.removeAll()
+        for card in rawCardsList {
+            if (card.illustrator.name == illustratorFocusPickerData[row].name) {
+                cardsIllustratedBySelectedArtist.append(card)
+            }
+        }
+        
     }
     
     // Sort list of cards alphabetically by name
@@ -52,6 +60,7 @@ class IllustratorsViewController: UIViewController, UIPickerViewDelegate, UIPick
     func interfaceSetup() {
         self.IllustratorPicker.delegate = self
         self.IllustratorPicker.dataSource = self
+        self.IllustratorPicker.showsSelectionIndicator = true
         illustratorFocusPickerData = sortIllustratorsAlphabetically(unsortedList: rawIllustratorsList)
     }
 }

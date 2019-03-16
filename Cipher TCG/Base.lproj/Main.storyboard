@@ -259,11 +259,21 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0yS-W2-haC" userLabel="Card Image Scroll View">
+                                <rect key="frame" x="42" y="198" width="290" height="406"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="RFF-0w-ujN">
+                                <rect key="frame" x="125" y="607" width="125" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </pageControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="H9N-Os-Qi1"/>
                     </view>
                     <connections>
+                        <outlet property="CardImagePageControl" destination="RFF-0w-ujN" id="L7P-jW-gOc"/>
+                        <outlet property="CardImageScrollView" destination="0yS-W2-haC" id="FUt-cD-VxW"/>
                         <outlet property="IllustratorPicker" destination="b5d-gD-Yjc" id="0T5-tY-bWO"/>
                     </connections>
                 </viewController>
@@ -1384,7 +1394,7 @@
         <image name="sort_by_number_button.png" width="290" height="289"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="CJv-bm-6cT"/>
+        <segue reference="8ih-mp-VFz"/>
         <segue reference="oVR-qE-nmK"/>
         <segue reference="yeE-cI-4Wt"/>
     </inferredMetricsTieBreakers>
