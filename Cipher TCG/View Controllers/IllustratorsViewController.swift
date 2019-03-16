@@ -19,6 +19,7 @@ class IllustratorsViewController: UIViewController, UIPickerViewDelegate, UIPick
     var illustratorFocusPickerData: [Illustrator] = [Illustrator]()
     var sortedIllustratorsList: [Illustrator] = [Illustrator]()
     var cardsIllustratedBySelectedArtist: [Card] = [Card]()
+    var frame = CGRect(x:0, y:0, width: 0, height: 0)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -48,7 +49,29 @@ class IllustratorsViewController: UIViewController, UIPickerViewDelegate, UIPick
                 cardsIllustratedBySelectedArtist.append(card)
             }
         }
-        
+        self.CardImagePageControl.numberOfPages = cardsIllustratedBySelectedArtist.count
+        self.CardImagePageControl.currentPage = 0
+        for index in 0..<CardImagePageControl.numberOfPages {
+            frame.origin.x = CardImageScrollView.frame.size.width * CGFloat(index)
+            frame.size = CardImageScrollView.frame.size
+            let cardImageView = UIView(frame: frame)
+            self.CardImageScrollView.addSubview(addNewCardImageView(index: index, cardImageView: cardImageView))
+        }
+        CardImageScrollView.contentSize = CGSize(width: (CardImageScrollView.frame.size.width * CGFloat(cardsIllustratedBySelectedArtist.count)), height: CardImageScrollView.frame.size.height)
+        CardImageScrollView.delegate = self
+    }
+    
+    // Create a new card image view for the scroller
+    func addNewCardImageView(index: Int, cardImageView: UIView) -> UIImageView {
+        let newCardImage = UIImageView(frame: cardImageView.frame)
+        newCardImage.image = UIImage(named: cardsIllustratedBySelectedArtist[index].cardImageName)
+        return newCardImage
+    }
+    
+    // Keeps track of current scroll view focus on deceleration
+    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+        let pageNumber = CardImageScrollView.contentOffset.x / CardImageScrollView.frame.size.width
+        CardImagePageControl.currentPage = Int(pageNumber)
     }
     
     // Sort list of cards alphabetically by name
@@ -62,5 +85,8 @@ class IllustratorsViewController: UIViewController, UIPickerViewDelegate, UIPick
         self.IllustratorPicker.dataSource = self
         self.IllustratorPicker.showsSelectionIndicator = true
         illustratorFocusPickerData = sortIllustratorsAlphabetically(unsortedList: rawIllustratorsList)
+        
+        self.CardImagePageControl.numberOfPages = 1
+        self.CardImagePageControl.currentPage = 0
     }
 }
