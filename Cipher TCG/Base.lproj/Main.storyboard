@@ -260,13 +260,28 @@
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0yS-W2-haC" userLabel="Card Image Scroll View">
-                                <rect key="frame" x="42" y="198" width="290" height="406"/>
+                                <rect key="frame" x="57" y="198" width="260" height="364"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </scrollView>
                             <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="RFF-0w-ujN">
-                                <rect key="frame" x="125" y="607" width="125" height="40"/>
+                                <rect key="frame" x="0.0" y="627" width="375" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </pageControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CARD_NAME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sxq-2F-0yk" userLabel="Selected Card Name Label">
+                                <rect key="frame" x="16" y="570" width="343" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BOX_SET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d3n-qg-oxe" userLabel="Selected Card Set Label">
+                                <rect key="frame" x="16" y="595" width="343" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="H9N-Os-Qi1"/>
@@ -275,6 +290,8 @@
                         <outlet property="CardImagePageControl" destination="RFF-0w-ujN" id="L7P-jW-gOc"/>
                         <outlet property="CardImageScrollView" destination="0yS-W2-haC" id="FUt-cD-VxW"/>
                         <outlet property="IllustratorPicker" destination="b5d-gD-Yjc" id="0T5-tY-bWO"/>
+                        <outlet property="SelectedCardBoxSetName" destination="d3n-qg-oxe" id="e1V-dd-CvB"/>
+                        <outlet property="SelectedCardName" destination="sxq-2F-0yk" id="DFY-Te-KI9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cI0-eM-tqm" userLabel="First Responder" sceneMemberID="firstResponder"/>

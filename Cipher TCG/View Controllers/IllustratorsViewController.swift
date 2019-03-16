@@ -14,6 +14,8 @@ class IllustratorsViewController: UIViewController, UIPickerViewDelegate, UIPick
     @IBOutlet weak var IllustratorPicker: UIPickerView!
     @IBOutlet weak var CardImageScrollView: UIScrollView!
     @IBOutlet weak var CardImagePageControl: UIPageControl!
+    @IBOutlet weak var SelectedCardName: UILabel!
+    @IBOutlet weak var SelectedCardBoxSetName: UILabel!
     
     // Controller Values
     var illustratorFocusPickerData: [Illustrator] = [Illustrator]()
@@ -49,8 +51,11 @@ class IllustratorsViewController: UIViewController, UIPickerViewDelegate, UIPick
                 cardsIllustratedBySelectedArtist.append(card)
             }
         }
+        // Reformatting scroll view for new selected card count
         self.CardImagePageControl.numberOfPages = cardsIllustratedBySelectedArtist.count
         self.CardImagePageControl.currentPage = 0
+        
+        // Adding all cards to scroll view
         for index in 0..<CardImagePageControl.numberOfPages {
             frame.origin.x = CardImageScrollView.frame.size.width * CGFloat(index)
             frame.size = CardImageScrollView.frame.size
@@ -72,6 +77,8 @@ class IllustratorsViewController: UIViewController, UIPickerViewDelegate, UIPick
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         let pageNumber = CardImageScrollView.contentOffset.x / CardImageScrollView.frame.size.width
         CardImagePageControl.currentPage = Int(pageNumber)
+        SelectedCardName.text = cardsIllustratedBySelectedArtist[Int(pageNumber)].name
+        SelectedCardBoxSetName.text = cardsIllustratedBySelectedArtist[Int(pageNumber)].series
     }
     
     // Sort list of cards alphabetically by name
