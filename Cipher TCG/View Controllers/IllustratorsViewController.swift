@@ -64,6 +64,8 @@ class IllustratorsViewController: UIViewController, UIPickerViewDelegate, UIPick
         }
         CardImageScrollView.contentSize = CGSize(width: (CardImageScrollView.frame.size.width * CGFloat(cardsIllustratedBySelectedArtist.count)), height: CardImageScrollView.frame.size.height)
         CardImageScrollView.delegate = self
+        SelectedCardName.text = cardsIllustratedBySelectedArtist[0].name
+        SelectedCardBoxSetName.text = cardsIllustratedBySelectedArtist[0].series
     }
     
     // Create a new card image view for the scroller
@@ -92,6 +94,8 @@ class IllustratorsViewController: UIViewController, UIPickerViewDelegate, UIPick
         self.IllustratorPicker.dataSource = self
         self.IllustratorPicker.showsSelectionIndicator = true
         illustratorFocusPickerData = sortIllustratorsAlphabetically(unsortedList: rawIllustratorsList)
+        self.IllustratorPicker.selectRow(0, inComponent: 0, animated: false)
+        self.IllustratorPicker.delegate?.pickerView?(self.IllustratorPicker, didSelectRow: 0, inComponent: 0)
         
         self.CardImagePageControl.numberOfPages = 1
         self.CardImagePageControl.currentPage = 0
