@@ -792,4 +792,5 @@ let rawSkillsList: [Skill] = [
     prayer_to_the_god_of_yore,
     legendary_weapon_forblaze,
     the_inferno_of_athos,
+    ill_help_myself_to_the_treasure,
 ]

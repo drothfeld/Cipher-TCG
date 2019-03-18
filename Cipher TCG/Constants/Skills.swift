@@ -6285,3 +6285,10 @@ let the_inferno_of_athos  = Skill(name: "The Inferno of Athos",
                         tapUnit: false,
                         CCS: false)
 
+let ill_help_myself_to_the_treasure  = Skill(name: "I'll help myself to the treasure!",
+                        description: "[ACT] [TAP] If your opponent has 6 or more cards in their hand, your opponent chooses 1 card from their hand and send it to the Retreat Area.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)

@@ -5270,3 +5270,14 @@ let b16_BU = Card(series: "B16-BUSR",
                   supportingSkill: divine_flame_sorcery,
                   skills: [legendary_weapon_forblaze, the_inferno_of_athos],
                   cardImageName: "B16-BU.png")
+
+let b16_BV = Card(series: "B16-BVN",
+                  name: "Cath: Mystery Thief Girl",
+                  rarity: normal,
+                  insignia: divine_weapons,
+                  attack: 40,
+                  support: 10,
+                  illustrator: sachie,
+                  supportingSkill: none,
+                  skills: [ill_help_myself_to_the_treasure, locktouch],
+                  cardImageName: "B16-BV.png")
