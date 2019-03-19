@@ -5281,3 +5281,14 @@ let b16_BV = Card(series: "B16-BVN",
                   supportingSkill: none,
                   skills: [ill_help_myself_to_the_treasure, locktouch],
                   cardImageName: "B16-BV.png")
+
+let b16_BW = Card(series: "B16-BWHN",
+                  name: "Gareth: Crimson Bodyguard",
+                  rarity: high_normal,
+                  insignia: medallion,
+                  attack: 70,
+                  support: 20,
+                  illustrator: masaki_hirooka,
+                  supportingSkill: none,
+                  skills: [absolute_royal_command, red_scale_defending_to_the_death],
+                  cardImageName: "B16-BW.png")

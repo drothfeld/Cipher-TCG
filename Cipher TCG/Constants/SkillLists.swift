@@ -793,4 +793,6 @@ let rawSkillsList: [Skill] = [
     legendary_weapon_forblaze,
     the_inferno_of_athos,
     ill_help_myself_to_the_treasure,
+    absolute_royal_command,
+    red_scale_defending_to_the_death,
 ]

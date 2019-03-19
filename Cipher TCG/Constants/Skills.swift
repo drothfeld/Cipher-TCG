@@ -6286,9 +6286,25 @@ let the_inferno_of_athos  = Skill(name: "The Inferno of Athos",
                         CCS: false)
 
 let ill_help_myself_to_the_treasure  = Skill(name: "I'll help myself to the treasure!",
-                        description: "[ACT] [TAP] If your opponent has 6 or more cards in their hand, your opponent chooses 1 card from their hand and send it to the Retreat Area.",
+                        description: "[ACT] [TAP] If your opponent has 6 or more cards in thesir hand, your opponent chooses 1 card from their hand and send it to the Retreat Area.",
                         colorType: UIColor.red,
                         flippedBonds: 0,
                         flipOrb: false,
                         tapUnit: true,
+                        CCS: false)
+
+let absolute_royal_command  = Skill(name: "Absolute Royal Command",
+                        description: "[ACT] [ONCE PER TURN] [Flip 1 <Green> bond card face-down] Until the end of your opponent's next turn, this unit gains +20 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let red_scale_defending_to_the_death  = Skill(name: "Red Scale Defending to the Death",
+                        description: "[ALWAYS] All allies who are both <Fang> and <Dragon> are immune to destruction as the cost or effect of skills.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
                         CCS: false)
