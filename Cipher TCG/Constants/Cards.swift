@@ -5292,3 +5292,36 @@ let b16_BW = Card(series: "B16-BWHN",
                   supportingSkill: none,
                   skills: [absolute_royal_command, red_scale_defending_to_the_death],
                   cardImageName: "B16-BW.png")
+
+let b16_BX = Card(series: "B16-BXHN",
+                  name: "Gonzales: Kindhearted Berserker",
+                  rarity: high_normal,
+                  insignia: divine_weapons,
+                  attack: 60,
+                  support: 10,
+                  illustrator: ippei_soeda,
+                  supportingSkill: none,
+                  skills: [kind_strength, giver_of_courage],
+                  cardImageName: "B16-BX.png")
+
+let b16_BY = Card(series: "B16-BYN",
+                  name: "Thrasir: Magic General of the Realm of the Dead",
+                  rarity: high_normal,
+                  insignia: colorless,
+                  attack: 30,
+                  support: 20,
+                  illustrator: kazuhiro_taneda,
+                  supportingSkill: magic_emblem,
+                  skills: [instant_death_magic_blow],
+                  cardImageName: "B16-BY.png")
+
+let b16_BZ = Card(series: "B16-BZR",
+                  name: "Thrasir: Omnicidal Witch",
+                  rarity: rare,
+                  insignia: colorless,
+                  attack: 60,
+                  support: 20,
+                  illustrator: cuboon,
+                  supportingSkill: none,
+                  skills: [ifingr_the_slaughterous_tome, vampiric_sorcery, inescapable_fate],
+                  cardImageName: "B16-BZ.png")

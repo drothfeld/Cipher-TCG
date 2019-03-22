@@ -795,4 +795,10 @@ let rawSkillsList: [Skill] = [
     ill_help_myself_to_the_treasure,
     absolute_royal_command,
     red_scale_defending_to_the_death,
+    kind_strength,
+    giver_of_courage,
+    instant_death_magic_blow,
+    ifingr_the_slaughterous_tome,
+    vampiric_sorcery,
+    inescapable_fate,
 ]

@@ -6308,3 +6308,51 @@ let red_scale_defending_to_the_death  = Skill(name: "Red Scale Defending to the 
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let kind_strength  = Skill(name: "Kind Strength",
+                        description: "[ACT] [ONCE PER TURN] [FLIP 2] Until the end of your opponent's next turn, this unit gains +20 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let giver_of_courage  = Skill(name: "Giver of Courage",
+                        description: "[ALWAYS] If you have an allied Lilina, this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let instant_death_magic_blow  = Skill(name: "Instant-Death Magic Blow",
+                        description: "[ACT] [TAP, Send 1 card from your hand to the Retreat Area] Choose 1 non-lord enemy with a deployment cost of 2 or lower, and send them to the Boundless Area.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let ifingr_the_slaughterous_tome  = Skill(name: "Ífingr, the Slaughterous Tome",
+                        description: "[ACT] [ONCE PER TURN] [Destroy 1 of your orb] Until the end of the turn, this unit gains +20 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let vampiric_sorcery  = Skill(name: "Vampiric Sorcery",
+                        description: "[ACT] [ONCE PER TURN] [FLIP 1] If your opponent has no orbs, draw 1 card.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let inescapable_fate  = Skill(name: "Inescapable Fate",
+                        description: "[ALWAYS] Your opponent is unable to add any cards to their orbs.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
