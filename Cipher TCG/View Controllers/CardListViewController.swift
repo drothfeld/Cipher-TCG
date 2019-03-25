@@ -10,8 +10,9 @@ import UIKit
 
 // TODO:
 // FIX FIRST TIME BACK TO CARD LIST FROM CARD DETAIL INCORRECTLY OFFSETS SCROLL
+// SAVE SERIES TEXT FILTER DATA AND APPLY ON LOAD
 
-class CardListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate {
+class CardListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate, UITextFieldDelegate {
     
     // User Interface Outlets
     @IBOutlet weak var HeaderView: UIView!
@@ -27,6 +28,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     @IBOutlet weak var ColorlessFilterButton: UIButton!
     @IBOutlet weak var FavoritesFilterButton: UIButton!
     @IBOutlet weak var CardListOrderButton: UIButton!
+    @IBOutlet weak var SetNumberTextField: UITextField!
     
     // Defined Values
     var sortedRawCardList: [Card] = []
@@ -37,6 +39,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     var loadedCardFilterIndex: Int = -1
     var loadedtableViewScrollOffset: CGFloat = 0.0
     var loadedSortType: Bool = true
+    var loadedBoxSetFilter: String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -160,7 +163,37 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     // Make any Changes to the Interface
     func interfaceSetup() {
         colorFilterButtons = [RedFilterButton, BlueFilterButton, WhiteFilterButton, BlackFilterButton, GreenFilterButton, PurpleFilterButton, YellowFilterButton, ColorlessFilterButton, FavoritesFilterButton]
+        self.SetNumberTextField.delegate = self
     }
+    
+    // Hide keyboard
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
+    }
+    
+    // Set number filter text is changed
+    @IBAction func SetNumberTextFieldEditingChanged(_ sender: Any) {
+        loadedBoxSetFilter = SetNumberTextField.text!
+        deactivateAllFilters()
+        
+        // Add starting 0 to singular digit inputs
+        if ((Int(loadedBoxSetFilter) ?? 0) < 10) {
+            loadedBoxSetFilter = "0" + loadedBoxSetFilter
+        }
+        
+        // Filtering by box set text field value
+        if (loadedBoxSetFilter != "") {
+            filteredRawCardList = sortedRawCardList.filter({
+                String($0.series[$0.series.index($0.series.startIndex, offsetBy: 1)...$0.series.index($0.series.startIndex, offsetBy: 2)]) == String(loadedBoxSetFilter)
+            })
+            isSearching = true
+        } else {
+            isSearching = false
+        }
+        CardListTableView.reloadData()
+    }
+    
     
     // Hide keyboard activated from search bar
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
@@ -188,6 +221,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         deactivateAllFilters(keepButton: button)
         button.alpha = 1.0
         CardListSearchBar.text = nil
+        SetNumberTextField.text = nil
         isSearching = true
     }
     

@@ -186,7 +186,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C74-fr-YDl" userLabel="Footer View">
                                 <rect key="frame" x="0.0" y="640.5" width="375" height="26.5"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="v-0.6.1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BMT-pb-H2J" userLabel="Version Display Text">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="v-0.6.2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BMT-pb-H2J" userLabel="Version Display Text">
                                         <rect key="frame" x="4" y="12" width="31" height="11.5"/>
                                         <fontDescription key="fontDescription" name="Arial-ItalicMT" family="Arial" pointSize="10"/>
                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -987,6 +987,19 @@
                                             <action selector="orderCardListButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qiv-KW-IgE"/>
                                         </connections>
                                     </button>
+                                    <textField opaque="NO" alpha="0.75" tag="-1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Set #" textAlignment="center" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="aWU-MH-8xa">
+                                        <rect key="frame" x="64" y="55" width="29.5" height="20"/>
+                                        <color key="backgroundColor" white="0.75395817356850714" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="jCu-Yb-bW7"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numbersAndPunctuation" returnKeyType="done" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                        <connections>
+                                            <action selector="SetNumberTextFieldEditingChanged:" destination="BYZ-38-t0r" eventType="editingChanged" id="USc-El-zOu"/>
+                                        </connections>
+                                    </textField>
                                 </subviews>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -1007,16 +1020,19 @@
                                     <constraint firstAttribute="trailing" secondItem="hzd-cv-NpC" secondAttribute="trailing" id="Rru-4C-F0D"/>
                                     <constraint firstItem="12e-6M-kFq" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="WvF-eK-sqf"/>
                                     <constraint firstItem="vGd-mX-B3G" firstAttribute="leading" secondItem="VfG-x6-Y9S" secondAttribute="trailing" constant="5" id="Xqn-qz-L2y"/>
+                                    <constraint firstItem="aWU-MH-8xa" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="Y8n-r3-uAm"/>
                                     <constraint firstItem="RGG-Ki-YSV" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="3" id="aea-f4-xP7"/>
                                     <constraint firstItem="gLb-oz-BkV" firstAttribute="leading" secondItem="xjr-hE-RDH" secondAttribute="trailing" constant="5" id="apF-eW-cHk"/>
                                     <constraint firstItem="vGd-mX-B3G" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="att-in-sKr"/>
                                     <constraint firstItem="12e-6M-kFq" firstAttribute="leading" secondItem="bCi-jW-AfE" secondAttribute="leading" constant="8" id="bSp-SU-GM0"/>
+                                    <constraint firstItem="hzd-cv-NpC" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="aWU-MH-8xa" secondAttribute="trailing" symbolic="YES" id="gAq-9q-RXF"/>
                                     <constraint firstItem="VfG-x6-Y9S" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="gHV-K2-Zcg"/>
                                     <constraint firstItem="ukX-uQ-UiB" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="hsB-Pf-Lf8"/>
                                     <constraint firstItem="xjr-hE-RDH" firstAttribute="leading" secondItem="jv8-pd-wkV" secondAttribute="trailing" constant="5" id="kiC-Sf-O46"/>
                                     <constraint firstItem="VfG-x6-Y9S" firstAttribute="leading" secondItem="bdo-cj-cLD" secondAttribute="trailing" constant="5" id="qSy-S1-OD5"/>
                                     <constraint firstItem="bdo-cj-cLD" firstAttribute="leading" secondItem="ukX-uQ-UiB" secondAttribute="trailing" constant="5" id="qXh-sR-FAi"/>
                                     <constraint firstAttribute="trailing" secondItem="Wrk-SM-0UN" secondAttribute="trailing" id="sbn-TW-g4I"/>
+                                    <constraint firstItem="aWU-MH-8xa" firstAttribute="leading" secondItem="5eD-Wu-yRY" secondAttribute="trailing" constant="8" id="tPy-aC-2C7"/>
                                     <constraint firstItem="gLb-oz-BkV" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="zEj-Eh-ruM"/>
                                 </constraints>
                             </view>
@@ -1045,6 +1061,7 @@
                         <outlet property="HeaderView" destination="bCi-jW-AfE" id="2Xg-u8-cMm"/>
                         <outlet property="PurpleFilterButton" destination="xjr-hE-RDH" id="Uy3-9A-ZxS"/>
                         <outlet property="RedFilterButton" destination="ukX-uQ-UiB" id="dUx-Fd-4Qm"/>
+                        <outlet property="SetNumberTextField" destination="aWU-MH-8xa" id="ae4-xV-bPX"/>
                         <outlet property="WhiteFilterButton" destination="VfG-x6-Y9S" id="qVI-7J-CAa"/>
                         <outlet property="YellowFilterButton" destination="gLb-oz-BkV" id="0E8-b6-Doe"/>
                     </connections>
@@ -1451,9 +1468,8 @@
         <image name="sort_by_number_button.png" width="290" height="289"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Y2N-Hk-woH"/>
         <segue reference="CJv-bm-6cT"/>
         <segue reference="oVR-qE-nmK"/>
-        <segue reference="yeE-cI-4Wt"/>
+        <segue reference="cac-9f-3tE"/>
     </inferredMetricsTieBreakers>
 </document>
