@@ -86,7 +86,7 @@ class Card: NSObject, NSCoding {
         for card in favorite_cards {
             if (self.name == card.name) {
                 // Find index of self in favorites list
-                if let index = favorite_cards.index(of: card) {
+                if let index = favorite_cards.firstIndex(of: card) {
                     favorite_cards.remove(at: index)
                 }
             }
