@@ -6,6 +6,9 @@
 //  Copyright © 2019 Dylan Rothfeld. All rights reserved.
 //
 
+// TODO:
+// Fix "Index out of range" crash when selecting "Sora Amamiya" from artist UIScrollView
+
 import UIKit
 
 class IllustratorsViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, UIScrollViewDelegate {
