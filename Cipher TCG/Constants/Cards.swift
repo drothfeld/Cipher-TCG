@@ -4761,6 +4761,17 @@ let b16_001 = Card(series: "B16-001SR",
                    skills: [supreme_binding_blade, the_blade_that_binds_the_demon_dragon, hope_for_the_future],
                    cardImageName: "B16-001.png")
 
+let b16_002 = Card(series: "B16-002N",
+                   name: "Roy: Hope of Lycia",
+                   rarity: normal,
+                   insignia: divine_weapons,
+                   attack: 60,
+                   support: 20,
+                   illustrator: kyo_uda,
+                   supportingSkill: none,
+                   skills: [holy_flame_sword, dragonslaying_radiance],
+                   cardImageName: "B16-002.png")
+
 let b16_003 = Card(series: "B16-003HN",
                    name: "Roy: Heir to House Pherae",
                    rarity: high_normal,
@@ -4815,6 +4826,39 @@ let b16_007 = Card(series: "B16-007SR",
                    supportingSkill: none,
                    skills: [legendary_weapon_armads, the_strength_of_durban],
                    cardImageName: "B16-007.png")
+
+let b16_008 = Card(series: "B16-008N",
+                   name: "Deke: Trustworthy Mercenary Captain",
+                   rarity: normal,
+                   insignia: divine_weapons,
+                   attack: 40,
+                   support: 10,
+                   illustrator: clover_k,
+                   supportingSkill: attack_emblem,
+                   skills: [battleground_mindset],
+                   cardImageName: "B16-008.png")
+
+let b16_009 = Card(series: "B16-009HN",
+                   name: "Shanna: Exuberant Young Wing",
+                   rarity: high_normal,
+                   insignia: divine_weapons,
+                   attack: 50,
+                   support: 30,
+                   illustrator: megumi_nagahama,
+                   supportingSkill: none,
+                   skills: [keep_up_with_me, javelin],
+                   cardImageName: "B16-009.png")
+
+let b16_010 = Card(series: "B16-010N",
+                   name: "Shanna: Pegasus Knight of the Mercenaries",
+                   rarity: normal,
+                   insignia: divine_weapons,
+                   attack: 30,
+                   support: 30,
+                   illustrator: megumi_nagahama,
+                   supportingSkill: flying_emblem,
+                   skills: [winged_deliverer],
+                   cardImageName: "B16-010.png")
 
 let b16_011 = Card(series: "B16-011R",
                    name: "Clarine: Patrilineal Magic Prodigy",

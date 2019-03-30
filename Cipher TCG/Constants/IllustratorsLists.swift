@@ -93,4 +93,5 @@ let rawIllustratorsList: [Illustrator] = [
     mio_itou,
     momori,
     sora_amamiya,
+    kyo_uda,
 ]

@@ -801,4 +801,8 @@ let rawSkillsList: [Skill] = [
     ifingr_the_slaughterous_tome,
     vampiric_sorcery,
     inescapable_fate,
+    holy_flame_sword,
+    dragonslaying_radiance,
+    battleground_mindset,
+    keep_up_with_me,
 ]

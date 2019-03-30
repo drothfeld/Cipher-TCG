@@ -7,7 +7,7 @@
 //
 
 // TODO:
-// Fix "Index out of range" crash when selecting "Sora Amamiya" from artist UIScrollView
+// Fix "Index out of range" crash when selecting "Sora Amamiya" from CardImageScrollView
 
 import UIKit
 

@@ -6356,3 +6356,35 @@ let inescapable_fate  = Skill(name: "Inescapable Fate",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let holy_flame_sword  = Skill(name: "Holy Flame Sword",
+                        description: "[ACT] [Flip 1 Bond] Until the end of the turn, this unit gains range 1-2.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let dragonslaying_radiance  = Skill(name: "Dragonslaying Radiance",
+                        description: "If this unit is attacking a Dragon, this unit gains +20 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let battleground_mindset  = Skill(name: "Battleground Mindset",
+                        description: "Once Per Turn When you deploy an other ally to the Front Line, the until the end of the turn, this unit gains +10 attack.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let keep_up_with_me  = Skill(name: "Keep up with me!",
+                        description: "Once Per Turn When you deploy an other ally, you may choose 1 Tome enemy in the Back Line, and move them.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
