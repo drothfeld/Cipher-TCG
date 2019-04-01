@@ -390,6 +390,7 @@
 		B0AFAACC210E5BC90021B32F /* B12-019.png in Resources */ = {isa = PBXBuildFile; fileRef = B0AFAAC8210E5BC90021B32F /* B12-019.png */; };
 		B0AFAACD210E5BC90021B32F /* B12-020.png in Resources */ = {isa = PBXBuildFile; fileRef = B0AFAAC9210E5BC90021B32F /* B12-020.png */; };
 		B0AFAACE210E5BC90021B32F /* B12-021.png in Resources */ = {isa = PBXBuildFile; fileRef = B0AFAACA210E5BC90021B32F /* B12-021.png */; };
+		B0B0233222519600001853E7 /* Cipher_TCGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B0233122519600001853E7 /* Cipher_TCGTests.swift */; };
 		B0B2B2C12104F21B00ABA187 /* B12-009.png in Resources */ = {isa = PBXBuildFile; fileRef = B0B2B2BF2104F21B00ABA187 /* B12-009.png */; };
 		B0B2B2C22104F21B00ABA187 /* B12-008.png in Resources */ = {isa = PBXBuildFile; fileRef = B0B2B2C02104F21B00ABA187 /* B12-008.png */; };
 		B0B2B2C62104F49500ABA187 /* B12-011.png in Resources */ = {isa = PBXBuildFile; fileRef = B0B2B2C32104F49500ABA187 /* B12-011.png */; };
@@ -561,6 +562,16 @@
 		B0FEF2632167D69C00B27A28 /* B14-080.png in Resources */ = {isa = PBXBuildFile; fileRef = B0FEF2612167D69B00B27A28 /* B14-080.png */; };
 		B0FEF2642167D69C00B27A28 /* B14-079.png in Resources */ = {isa = PBXBuildFile; fileRef = B0FEF2622167D69B00B27A28 /* B14-079.png */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0B0233422519600001853E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B054BBA7200E68AE004159A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B054BBAE200E68AE004159A6;
+			remoteInfo = "Cipher TCG";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B0024B102232E5610085F79E /* B16-069.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B16-069.png"; sourceTree = "<group>"; };
@@ -948,6 +959,9 @@
 		B0AFAAC8210E5BC90021B32F /* B12-019.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B12-019.png"; sourceTree = "<group>"; };
 		B0AFAAC9210E5BC90021B32F /* B12-020.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B12-020.png"; sourceTree = "<group>"; };
 		B0AFAACA210E5BC90021B32F /* B12-021.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B12-021.png"; sourceTree = "<group>"; };
+		B0B0232F22519600001853E7 /* Cipher TCGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cipher TCGTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B0233122519600001853E7 /* Cipher_TCGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cipher_TCGTests.swift; sourceTree = "<group>"; };
+		B0B0233322519600001853E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0B2B2BF2104F21B00ABA187 /* B12-009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B12-009.png"; sourceTree = "<group>"; };
 		B0B2B2C02104F21B00ABA187 /* B12-008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B12-008.png"; sourceTree = "<group>"; };
 		B0B2B2C32104F49500ABA187 /* B12-011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B12-011.png"; sourceTree = "<group>"; };
@@ -1122,6 +1136,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		B054BBAC200E68AE004159A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0B0232C22519600001853E7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1431,6 +1452,7 @@
 			isa = PBXGroup;
 			children = (
 				B054BBB1200E68AE004159A6 /* Cipher TCG */,
+				B0B0233022519600001853E7 /* Cipher TCGTests */,
 				B054BBB0200E68AE004159A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1439,6 +1461,7 @@
 			isa = PBXGroup;
 			children = (
 				B054BBAF200E68AE004159A6 /* Cipher TCG.app */,
+				B0B0232F22519600001853E7 /* Cipher TCGTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1886,6 +1909,15 @@
 			path = B16;
 			sourceTree = "<group>";
 		};
+		B0B0233022519600001853E7 /* Cipher TCGTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0B0233122519600001853E7 /* Cipher_TCGTests.swift */,
+				B0B0233322519600001853E7 /* Info.plist */,
+			);
+			path = "Cipher TCGTests";
+			sourceTree = "<group>";
+		};
 		B0B7E3EB20150E7900331FC3 /* Supporting Skill Categories */ = {
 			isa = PBXGroup;
 			children = (
@@ -1968,13 +2000,31 @@
 			productReference = B054BBAF200E68AE004159A6 /* Cipher TCG.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B0B0232E22519600001853E7 /* Cipher TCGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0B0233822519600001853E7 /* Build configuration list for PBXNativeTarget "Cipher TCGTests" */;
+			buildPhases = (
+				B0B0232B22519600001853E7 /* Sources */,
+				B0B0232C22519600001853E7 /* Frameworks */,
+				B0B0232D22519600001853E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0B0233522519600001853E7 /* PBXTargetDependency */,
+			);
+			name = "Cipher TCGTests";
+			productName = "Cipher TCGTests";
+			productReference = B0B0232F22519600001853E7 /* Cipher TCGTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		B054BBA7200E68AE004159A6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Dylan Rothfeld";
 				TargetAttributes = {
@@ -1982,6 +2032,11 @@
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
+					};
+					B0B0232E22519600001853E7 = {
+						CreatedOnToolsVersion = 10.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B054BBAE200E68AE004159A6;
 					};
 				};
 			};
@@ -1999,6 +2054,7 @@
 			projectRoot = "";
 			targets = (
 				B054BBAE200E68AE004159A6 /* Cipher TCG */,
+				B0B0232E22519600001853E7 /* Cipher TCGTests */,
 			);
 		};
 /* End PBXProject section */
@@ -2531,6 +2587,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B0B0232D22519600001853E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -2574,7 +2637,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B0B0232B22519600001853E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0B0233222519600001853E7 /* Cipher_TCGTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0B0233522519600001853E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B054BBAE200E68AE004159A6 /* Cipher TCG */;
+			targetProxy = B0B0233422519600001853E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B054BBB6200E68AE004159A6 /* Main.storyboard */ = {
@@ -2741,6 +2820,45 @@
 			};
 			name = Release;
 		};
+		B0B0233622519600001853E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X984X22XTP;
+				INFOPLIST_FILE = "Cipher TCGTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "drothfeld.Cipher-TCGTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cipher TCG.app/Cipher TCG";
+			};
+			name = Debug;
+		};
+		B0B0233722519600001853E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X984X22XTP;
+				INFOPLIST_FILE = "Cipher TCGTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "drothfeld.Cipher-TCGTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cipher TCG.app/Cipher TCG";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2758,6 +2876,15 @@
 			buildConfigurations = (
 				B054BBC2200E68AE004159A6 /* Debug */,
 				B054BBC3200E68AE004159A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0B0233822519600001853E7 /* Build configuration list for PBXNativeTarget "Cipher TCGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0B0233622519600001853E7 /* Debug */,
+				B0B0233722519600001853E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
