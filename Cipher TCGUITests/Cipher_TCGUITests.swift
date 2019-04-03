@@ -29,6 +29,10 @@ class Cipher_TCGUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
+    
+    // USER INTERFACE TEST:
+    // Goes through the flow of launching the app, waiting for the data
+    // to finish loading, and then being sent to the cardlistview.
     func testWaitingThroughLaunchScreen() {
         app.launch()
         
