@@ -22,6 +22,7 @@ class SkillListViewController: UIViewController, UITableViewDataSource, UITableV
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.accessibilityIdentifier = "skilllistView"
         refreshTable()
         searchBarSetup()
     }

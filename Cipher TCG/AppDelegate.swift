@@ -16,6 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // If conducting UI testing, these specific commands will be executed
+        if CommandLine.arguments.contains("--uitesting") {
+            NSLog("-- Application Launched in UI Testing Mode --")
+            // This is a good spot to call functions to clear instance specific data such as: UserDefaults, Database, Local Disk Saves.
+        }
+        
         return true
     }
 

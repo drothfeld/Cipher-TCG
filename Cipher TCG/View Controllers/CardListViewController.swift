@@ -43,6 +43,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.accessibilityIdentifier = "cardlistView"
         loadCardFilterData()
         loadCardListSortTypeData()
         interfaceSetup()

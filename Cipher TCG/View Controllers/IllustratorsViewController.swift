@@ -28,6 +28,7 @@ class IllustratorsViewController: UIViewController, UIPickerViewDelegate, UIPick
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.accessibilityIdentifier = "illustratorsView"
         interfaceSetup()
     }
     

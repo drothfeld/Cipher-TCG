@@ -10,6 +10,11 @@ import UIKit
 
 class MenuViewController: UIViewController {
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.accessibilityIdentifier = "menuView"
+    }
+    
     // Sends the User to Emblem Wiki
     @IBAction func linkToEmblemWiki(_ sender: Any) {
         UIApplication.shared.open(URL(string: "https://serenesforest.net/wiki/index.php/Fire_Emblem_TCG")!, options: convertToUIApplicationOpenExternalURLOptionsKeyDictionary([:]), completionHandler: nil)

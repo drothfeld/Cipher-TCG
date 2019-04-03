@@ -38,6 +38,16 @@
                ReferencedContainer = "container:Cipher TCG.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B090747B22553C3800F4978F"
+               BuildableName = "Cipher TCGUITests.xctest"
+               BlueprintName = "Cipher TCGUITests"
+               ReferencedContainer = "container:Cipher TCG.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

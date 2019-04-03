@@ -15,6 +15,7 @@ class LaunchScreenViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.accessibilityIdentifier = "launchscreenView"
         
         // Loading Gif
         let animation_index: Int = Int(arc4random_uniform(2))

@@ -33,6 +33,7 @@ class SkillViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.accessibilityIdentifier = "skillView"
         configureView()
     }
     
