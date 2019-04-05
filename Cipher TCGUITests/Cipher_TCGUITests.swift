@@ -33,19 +33,53 @@ class Cipher_TCGUITests: XCTestCase {
     // USER INTERFACE TEST:
     // Goes through the flow of launching the app, waiting for the data
     // to finish loading, and then being sent to the cardlistview.
-    func testWaitingThroughLaunchScreen() {
+        func testWaitingThroughLaunchScreen() {
         app.launch()
         
         // The app should always start at the launch/loading screen.
-        XCTAssertTrue(app.isDisplayingLaunchScreenView)
+//        XCTAssertTrue(app.isDisplayingLaunchScreenView)
         
         // Wait for the data to load before the card list screen is loaded.
-        Thread.sleep(forTimeInterval: 30)
+        Thread.sleep(forTimeInterval: 40)
         
         // The app should now be at the card list screen.
         XCTAssertTrue(app.isDisplayingCardListView)
     }
-
+    
+    // USER INTERFACE TEST:
+    // Goes through the flow of launching the app, waiting for the data
+    // to finish loading, and then being sent to the cardlistview.
+    func testNavigatingMainMenuOptions() {
+        app.launch()
+        
+        // Wait for the data to load before the card list screen is loaded.
+        Thread.sleep(forTimeInterval: 40)
+        
+        // Tap on the main menu button to access the main menu view controller.
+        app.buttons["main_menu_button"].tap()
+        XCTAssertTrue(app.isDisplayingMenuView)
+        
+        // Tap on the Cipher Card List button to return to the card list view controller
+        // Then tap the main menu button to return to the menu again
+        app.buttons["main_menu_card_list_button"].tap()
+        XCTAssertTrue(app.isDisplayingCardListView)
+        app.buttons["main_menu_button"].tap()
+        XCTAssertTrue(app.isDisplayingMenuView)
+        
+        // Tap on the Cipher Skill List button to go to the skill list view controller
+        // Then tap the main menu button to return to the menu again
+        app.buttons["main_menu_skill_list_button"].tap()
+        XCTAssertTrue(app.isDisplayingSkillListView)
+        app.buttons["main_menu_button"].tap()
+        XCTAssertTrue(app.isDisplayingMenuView)
+        
+        // Tap on the Illustrators button to go to the illustrators view controller
+        // Then tap the main menu button to return to the menu again
+        app.buttons["main_menu_illustrators_button"].tap()
+        XCTAssertTrue(app.isDisplayingIllustratorsView)
+        app.buttons["main_menu_button"].tap()
+        XCTAssertTrue(app.isDisplayingMenuView)
+    }
 }
 
 // Extension to allow verification of which view
@@ -67,7 +101,7 @@ extension XCUIApplication {
         return otherElements["skillView"].exists
     }
     
-    var isDisplayingMenuListView: Bool {
+    var isDisplayingMenuView: Bool {
         return otherElements["menuView"].exists
     }
     

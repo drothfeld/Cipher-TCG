@@ -84,6 +84,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0C1-Uv-sAA" userLabel="Button Card List">
                                         <rect key="frame" x="0.0" y="71" width="375" height="60"/>
+                                        <accessibility key="accessibilityConfiguration" label="main_menu_card_list_button"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="7jR-2a-ACJ"/>
                                         </constraints>
@@ -105,6 +106,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u6Y-2S-tWM" userLabel="Button Skill List">
                                         <rect key="frame" x="0.0" y="158" width="375" height="60"/>
+                                        <accessibility key="accessibilityConfiguration" label="main_menu_skill_list_button"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="1vR-VP-W78"/>
                                         </constraints>
@@ -147,6 +149,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N0Y-2V-5hd" userLabel="Button Illustrators">
                                         <rect key="frame" x="0.0" y="332" width="375" height="60"/>
+                                        <accessibility key="accessibilityConfiguration" label="main_menu_illustrators_button"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="e4z-9J-fxA"/>
                                         </constraints>
@@ -238,6 +241,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IjN-5d-fOi" userLabel="Menu Button">
                                         <rect key="frame" x="2" y="3" width="146" height="53"/>
+                                        <accessibility key="accessibilityConfiguration" label="main_menu_button"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="Mvx-Hf-Xu2"/>
                                             <constraint firstAttribute="width" constant="146" id="OI1-za-ULP"/>
@@ -413,6 +417,7 @@
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AB2-0l-PH0" userLabel="Menu Button">
                                         <rect key="frame" x="2" y="3" width="146" height="53"/>
+                                        <accessibility key="accessibilityConfiguration" label="main_menu_button"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="353-bi-O2S"/>
                                             <constraint firstAttribute="width" constant="146" id="B5p-qK-EOk"/>
@@ -880,6 +885,7 @@
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RGG-Ki-YSV" userLabel="Menu Button">
                                         <rect key="frame" x="2" y="3" width="146" height="53"/>
+                                        <accessibility key="accessibilityConfiguration" label="main_menu_button"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="6D8-bL-Sw4"/>
                                             <constraint firstAttribute="width" constant="146" id="dtm-Tb-HRi"/>
@@ -1482,9 +1488,8 @@
         <image name="sort_by_number_button.png" width="69.599998474121094" height="69.360000610351562"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Y2N-Hk-woH"/>
         <segue reference="CJv-bm-6cT"/>
         <segue reference="oVR-qE-nmK"/>
-        <segue reference="yeE-cI-4Wt"/>
+        <segue reference="eSc-Sj-Klz"/>
     </inferredMetricsTieBreakers>
 </document>
