@@ -987,6 +987,7 @@
                                     </button>
                                     <button opaque="NO" alpha="0.5" tag="8" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12e-6M-kFq" userLabel="Sort Favorites Button">
                                         <rect key="frame" x="8" y="55" width="20" height="20"/>
+                                        <accessibility key="accessibilityConfiguration" label="filter_fav_cards_button"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="20" id="Lmw-Jg-PgJ"/>
                                             <constraint firstAttribute="height" constant="20" id="ekR-Sd-grk"/>
@@ -1376,6 +1377,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rbt-jA-tCY" userLabel="Back Button">
                                         <rect key="frame" x="16" y="13" width="62" height="35"/>
                                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <accessibility key="accessibilityConfiguration" label="back_button"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="Qfq-jG-4jt"/>
                                         </constraints>
@@ -1402,6 +1404,7 @@
                                     </button>
                                     <button opaque="NO" alpha="0.25" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7nQ-Qg-TQE" userLabel="Favorite Button">
                                         <rect key="frame" x="163" y="5" width="50" height="50"/>
+                                        <accessibility key="accessibilityConfiguration" label="toggle_fav_button"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="6d1-6V-UUi"/>
                                             <constraint firstAttribute="width" constant="50" id="CYp-j0-ZBZ"/>
@@ -1488,8 +1491,8 @@
         <image name="sort_by_number_button.png" width="69.599998474121094" height="69.360000610351562"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="CJv-bm-6cT"/>
+        <segue reference="8ih-mp-VFz"/>
         <segue reference="oVR-qE-nmK"/>
-        <segue reference="eSc-Sj-Klz"/>
+        <segue reference="QE9-aR-HPz"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -80,6 +80,40 @@ class Cipher_TCGUITests: XCTestCase {
         app.buttons["main_menu_button"].tap()
         XCTAssertTrue(app.isDisplayingMenuView)
     }
+    
+    // USER INTERFACE TEST:
+    // Goes through the flow of launching the app, waiting for the data
+    // to finish loading, and then being sent to the cardlistview.
+    func testAddingCardToFavorites() {
+        app.launch()
+        
+        // Wait for card data to load before the card list screen is displayed.
+        Thread.sleep(forTimeInterval: 40)
+        
+        // Tap on the first cipher card in the table view to go to the card view controller.
+        app.tables.element(boundBy: 0).cells.element(boundBy: 0).tap()
+        XCTAssertTrue(app.isDisplayingCardView)
+        
+        // Tap the favorites button to add the card to the favorites list.
+        // Then tap on the back button to return to the card list view controller.
+        app.buttons["toggle_fav_button"].tap()
+        app.buttons["back_button"].tap()
+        XCTAssertTrue(app.isDisplayingCardListView)
+        
+        // Tap on the filter favorites button to filter by favorited cards.
+        // Then tap on the first favorited card in the list to go to the card view controller.
+        app.buttons["filter_fav_cards_button"].tap()
+        app.tables.element(boundBy: 0).cells.element(boundBy: 0).tap()
+        XCTAssertTrue(app.isDisplayingCardView)
+        
+        // Tap on the favorites button again to remove the added card from the favorites list.
+        // Then tap back to return to the card list view controller.
+        // Then tap the filter favorites button to remove the filter and show all cards again.
+        app.buttons["toggle_fav_button"].tap()
+        app.buttons["back_button"].tap()
+        app.buttons["filter_fav_cards_button"].tap()
+        XCTAssertTrue(app.isDisplayingCardListView)
+    }
 }
 
 // Extension to allow verification of which view
