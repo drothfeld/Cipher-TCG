@@ -114,6 +114,89 @@ class Cipher_TCGUITests: XCTestCase {
         app.buttons["filter_fav_cards_button"].tap()
         XCTAssertTrue(app.isDisplayingCardListView)
     }
+    
+    // USER INTERFACE TEST:
+    // Goes through the flow of launching the app, waiting for the data
+    // to finish loading, and then being sent to the cardlistview.
+    func testInsigniaColorFilters() {
+        app.launch()
+        
+        // Wait for card data to load before the card list screen is displayed.
+        Thread.sleep(forTimeInterval: 40)
+        
+        // Tap on the RED card filter button, then tap the first card in the list.
+        // Then tap on the back button to return to the card list view controller.
+        app.buttons["filter_red"].tap()
+        XCTAssertTrue(app.isDisplayingCardListView)
+        app.tables.element(boundBy: 0).cells.element(boundBy: 0).tap()
+        XCTAssertTrue(app.isDisplayingCardView)
+        app.buttons["back_button"].tap()
+        XCTAssertTrue(app.isDisplayingCardListView)
+        
+        // Tap on the BLUE card filter button, then tap the first card in the list.
+        // Then tap on the back button to return to the card list view controller.
+        app.buttons["filter_blue"].tap()
+        XCTAssertTrue(app.isDisplayingCardListView)
+        app.tables.element(boundBy: 0).cells.element(boundBy: 0).tap()
+        XCTAssertTrue(app.isDisplayingCardView)
+        app.buttons["back_button"].tap()
+        XCTAssertTrue(app.isDisplayingCardListView)
+        
+        // Tap on the WHITE card filter button, then tap the first card in the list.
+        // Then tap on the back button to return to the card list view controller.
+        app.buttons["filter_white"].tap()
+        XCTAssertTrue(app.isDisplayingCardListView)
+        app.tables.element(boundBy: 0).cells.element(boundBy: 0).tap()
+        XCTAssertTrue(app.isDisplayingCardView)
+        app.buttons["back_button"].tap()
+        XCTAssertTrue(app.isDisplayingCardListView)
+        
+        // Tap on the BLACK card filter button, then tap the first card in the list.
+        // Then tap on the back button to return to the card list view controller.
+        app.buttons["filter_black"].tap()
+        XCTAssertTrue(app.isDisplayingCardListView)
+        app.tables.element(boundBy: 0).cells.element(boundBy: 0).tap()
+        XCTAssertTrue(app.isDisplayingCardView)
+        app.buttons["back_button"].tap()
+        XCTAssertTrue(app.isDisplayingCardListView)
+        
+        // Tap on the GREEN card filter button, then tap the first card in the list.
+        // Then tap on the back button to return to the card list view controller.
+        app.buttons["filter_green"].tap()
+        XCTAssertTrue(app.isDisplayingCardListView)
+        app.tables.element(boundBy: 0).cells.element(boundBy: 0).tap()
+        XCTAssertTrue(app.isDisplayingCardView)
+        app.buttons["back_button"].tap()
+        XCTAssertTrue(app.isDisplayingCardListView)
+        
+        // Tap on the PURPLE card filter button, then tap the first card in the list.
+        // Then tap on the back button to return to the card list view controller.
+        app.buttons["filter_purple"].tap()
+        XCTAssertTrue(app.isDisplayingCardListView)
+        app.tables.element(boundBy: 0).cells.element(boundBy: 0).tap()
+        XCTAssertTrue(app.isDisplayingCardView)
+        app.buttons["back_button"].tap()
+        XCTAssertTrue(app.isDisplayingCardListView)
+        
+        // Tap on the YELLOW card filter button, then tap the first card in the list.
+        // Then tap on the back button to return to the card list view controller.
+        app.buttons["filter_yellow"].tap()
+        XCTAssertTrue(app.isDisplayingCardListView)
+        app.tables.element(boundBy: 0).cells.element(boundBy: 0).tap()
+        XCTAssertTrue(app.isDisplayingCardView)
+        app.buttons["back_button"].tap()
+        XCTAssertTrue(app.isDisplayingCardListView)
+        
+        // Tap on the COLORLESS card filter button, then tap the first card in the list.
+        // Then tap on the back button to return to the card list view controller.
+        app.buttons["filter_colorless"].tap()
+        XCTAssertTrue(app.isDisplayingCardListView)
+        app.tables.element(boundBy: 0).cells.element(boundBy: 0).tap()
+        XCTAssertTrue(app.isDisplayingCardView)
+        app.buttons["back_button"].tap()
+        app.buttons["filter_colorless"].tap()
+        XCTAssertTrue(app.isDisplayingCardListView)
+    }
 }
 
 // Extension to allow verification of which view

@@ -899,6 +899,7 @@
                                     </button>
                                     <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ukX-uQ-UiB" userLabel="Sort Red Button">
                                         <rect key="frame" x="165" y="55" width="20" height="20"/>
+                                        <accessibility key="accessibilityConfiguration" label="filter_red"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="20" id="9iv-JQ-Y3F"/>
                                             <constraint firstAttribute="width" constant="20" id="mY7-mY-4ps"/>
@@ -910,6 +911,7 @@
                                     </button>
                                     <button opaque="NO" alpha="0.5" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bdo-cj-cLD" userLabel="Sort Blue Button">
                                         <rect key="frame" x="190" y="55" width="20" height="20"/>
+                                        <accessibility key="accessibilityConfiguration" label="filter_blue"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="20" id="1oN-Mq-x7L"/>
                                             <constraint firstAttribute="height" constant="20" id="sze-Qd-fci"/>
@@ -921,6 +923,7 @@
                                     </button>
                                     <button opaque="NO" alpha="0.5" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VfG-x6-Y9S" userLabel="Sort White Button">
                                         <rect key="frame" x="215" y="55" width="20" height="20"/>
+                                        <accessibility key="accessibilityConfiguration" label="filter_white"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="20" id="KFp-Tw-L1V"/>
                                             <constraint firstAttribute="width" constant="20" id="bL7-83-yMS"/>
@@ -932,6 +935,7 @@
                                     </button>
                                     <button opaque="NO" alpha="0.5" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vGd-mX-B3G" userLabel="Sort Black Button">
                                         <rect key="frame" x="240" y="55" width="20" height="20"/>
+                                        <accessibility key="accessibilityConfiguration" label="filter_black"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="20" id="GiN-3W-PRN"/>
                                             <constraint firstAttribute="height" constant="20" id="cZn-1V-72R"/>
@@ -943,6 +947,7 @@
                                     </button>
                                     <button opaque="NO" alpha="0.5" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jv8-pd-wkV" userLabel="Sort Green Button">
                                         <rect key="frame" x="265" y="55" width="20" height="20"/>
+                                        <accessibility key="accessibilityConfiguration" label="filter_green"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="20" id="mNb-8p-O9i"/>
                                             <constraint firstAttribute="height" constant="20" id="z3i-Wq-Bpx"/>
@@ -954,6 +959,7 @@
                                     </button>
                                     <button opaque="NO" alpha="0.5" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xjr-hE-RDH" userLabel="Sort Purple Button">
                                         <rect key="frame" x="290" y="55" width="20" height="20"/>
+                                        <accessibility key="accessibilityConfiguration" label="filter_purple"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="20" id="7L4-J6-XCB"/>
                                             <constraint firstAttribute="width" constant="20" id="vpq-tL-PDO"/>
@@ -965,6 +971,7 @@
                                     </button>
                                     <button opaque="NO" alpha="0.5" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gLb-oz-BkV" userLabel="Sort Yellow Button">
                                         <rect key="frame" x="315" y="55" width="20" height="20"/>
+                                        <accessibility key="accessibilityConfiguration" label="filter_yellow"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="20" id="FMH-nz-aeF"/>
                                             <constraint firstAttribute="height" constant="20" id="ZVu-Nw-JKU"/>
@@ -976,6 +983,7 @@
                                     </button>
                                     <button opaque="NO" alpha="0.5" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="208-gH-0b9" userLabel="Sort Colorless Button">
                                         <rect key="frame" x="340" y="55" width="20" height="20"/>
+                                        <accessibility key="accessibilityConfiguration" label="filter_colorless"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="20" id="VfQ-1d-Uom"/>
                                             <constraint firstAttribute="height" constant="20" id="qBu-Zr-Wa5"/>
@@ -1491,8 +1499,9 @@
         <image name="sort_by_number_button.png" width="69.599998474121094" height="69.360000610351562"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="v70-lw-KrB"/>
         <segue reference="8ih-mp-VFz"/>
         <segue reference="oVR-qE-nmK"/>
-        <segue reference="QE9-aR-HPz"/>
+        <segue reference="cac-9f-3tE"/>
     </inferredMetricsTieBreakers>
 </document>
