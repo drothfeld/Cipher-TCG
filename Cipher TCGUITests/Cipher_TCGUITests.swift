@@ -129,6 +129,7 @@ class Cipher_TCGUITests: XCTestCase {
         XCTAssertTrue(app.isDisplayingCardListView)
         app.tables.element(boundBy: 0).cells.element(boundBy: 0).tap()
         XCTAssertTrue(app.isDisplayingCardView)
+        XCTAssertEqual(app.staticTexts["CardInsigniaText"].value as! String, "Blade of Light")
         app.buttons["back_button"].tap()
         XCTAssertTrue(app.isDisplayingCardListView)
         
@@ -138,6 +139,7 @@ class Cipher_TCGUITests: XCTestCase {
         XCTAssertTrue(app.isDisplayingCardListView)
         app.tables.element(boundBy: 0).cells.element(boundBy: 0).tap()
         XCTAssertTrue(app.isDisplayingCardView)
+        XCTAssertEqual(app.staticTexts["CardInsigniaText"].value as! String, "Mark of Naga")
         app.buttons["back_button"].tap()
         XCTAssertTrue(app.isDisplayingCardListView)
         
@@ -147,6 +149,7 @@ class Cipher_TCGUITests: XCTestCase {
         XCTAssertTrue(app.isDisplayingCardListView)
         app.tables.element(boundBy: 0).cells.element(boundBy: 0).tap()
         XCTAssertTrue(app.isDisplayingCardView)
+        XCTAssertEqual(app.staticTexts["CardInsigniaText"].value as! String, "Hoshido")
         app.buttons["back_button"].tap()
         XCTAssertTrue(app.isDisplayingCardListView)
         
@@ -156,6 +159,7 @@ class Cipher_TCGUITests: XCTestCase {
         XCTAssertTrue(app.isDisplayingCardListView)
         app.tables.element(boundBy: 0).cells.element(boundBy: 0).tap()
         XCTAssertTrue(app.isDisplayingCardView)
+        XCTAssertEqual(app.staticTexts["CardInsigniaText"].value as! String, "Nohr")
         app.buttons["back_button"].tap()
         XCTAssertTrue(app.isDisplayingCardListView)
         
@@ -165,6 +169,7 @@ class Cipher_TCGUITests: XCTestCase {
         XCTAssertTrue(app.isDisplayingCardListView)
         app.tables.element(boundBy: 0).cells.element(boundBy: 0).tap()
         XCTAssertTrue(app.isDisplayingCardView)
+        XCTAssertEqual(app.staticTexts["CardInsigniaText"].value as! String, "Medallion")
         app.buttons["back_button"].tap()
         XCTAssertTrue(app.isDisplayingCardListView)
         
@@ -174,6 +179,7 @@ class Cipher_TCGUITests: XCTestCase {
         XCTAssertTrue(app.isDisplayingCardListView)
         app.tables.element(boundBy: 0).cells.element(boundBy: 0).tap()
         XCTAssertTrue(app.isDisplayingCardView)
+        XCTAssertEqual(app.staticTexts["CardInsigniaText"].value as! String, "Divine Weapons")
         app.buttons["back_button"].tap()
         XCTAssertTrue(app.isDisplayingCardListView)
         
@@ -183,6 +189,7 @@ class Cipher_TCGUITests: XCTestCase {
         XCTAssertTrue(app.isDisplayingCardListView)
         app.tables.element(boundBy: 0).cells.element(boundBy: 0).tap()
         XCTAssertTrue(app.isDisplayingCardView)
+        XCTAssertEqual(app.staticTexts["CardInsigniaText"].value as! String, "Holy War Flag")
         app.buttons["back_button"].tap()
         XCTAssertTrue(app.isDisplayingCardListView)
         
@@ -192,6 +199,7 @@ class Cipher_TCGUITests: XCTestCase {
         XCTAssertTrue(app.isDisplayingCardListView)
         app.tables.element(boundBy: 0).cells.element(boundBy: 0).tap()
         XCTAssertTrue(app.isDisplayingCardView)
+        XCTAssertEqual(app.staticTexts["CardInsigniaText"].value as! String, "Colorless")
         app.buttons["back_button"].tap()
         app.buttons["filter_colorless"].tap()
         XCTAssertTrue(app.isDisplayingCardListView)
