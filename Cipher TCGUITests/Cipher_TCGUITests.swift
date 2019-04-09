@@ -214,7 +214,7 @@ class Cipher_TCGUITests: XCTestCase {
         Thread.sleep(forTimeInterval: 40)
         let searchString = "Corrin (F): Night Breaks Through The Day"
         
-        // Grab the card text search UI element and search for: "Corrin".
+        // Grab the card text search UI element and search for specified string.
         let searchBar = XCUIApplication().otherElements["cardNameSearchBar"]
         searchBar.tap()
         Thread.sleep(forTimeInterval: 5)
@@ -226,6 +226,31 @@ class Cipher_TCGUITests: XCTestCase {
         app.tables.element(boundBy: 0).cells.element(boundBy: 0).tap()
         XCTAssertTrue(app.isDisplayingCardView)
         XCTAssertEqual(app.staticTexts["CardNameText"].value as! String, searchString)
+    }
+    
+    // USER INTERFACE TEST:
+    // Tests the functionality of using the box set text input box to filter cards.
+    func testBoxSetTextFilter() {
+        app.launch()
+        
+        // Wait for card data to load before the card list screen is displayed.
+        Thread.sleep(forTimeInterval: 40)
+        let searchString = "10"
+        
+        // Grab the box set text search UI element and search for the specified string.
+        let textField = XCUIApplication().textFields["setNumberTextField"]
+        textField.tap()
+        Thread.sleep(forTimeInterval: 5)
+        textField.typeText(searchString)
+        XCTAssertTrue(app.isDisplayingCardListView)
+        
+        // Tap the first filtered result to transition to the card view controller.
+        // Check to make sure the loaded card's set number matches what we searched.
+        app.tables.element(boundBy: 0).cells.element(boundBy: 0).tap()
+        XCTAssertTrue(app.isDisplayingCardView)
+        let selectedCardSetText = app.staticTexts["CardSeriesText"].value as! String
+        let selectedCardSetNumber = String(selectedCardSetText[selectedCardSetText.index(selectedCardSetText.startIndex, offsetBy: 1)...selectedCardSetText.index(selectedCardSetText.startIndex, offsetBy: 2)])
+        XCTAssertEqual(selectedCardSetNumber, searchString)
     }
 }
 

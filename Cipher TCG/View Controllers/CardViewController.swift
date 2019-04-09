@@ -181,6 +181,8 @@ class CardViewController: UIViewController {
                 CardNameText.minimumScaleFactor = 0.10
                 CardNameText.adjustsFontSizeToFitWidth = true
                 CardSeriesText.text = detailCard.series
+                CardSeriesText.accessibilityLabel = "CardSeriesText"
+                CardSeriesText.accessibilityValue = detailCard.series
                 CardInsigniaImage.image = detailCard.insignia.iconImage
                 CardInsigniaText.text = detailCard.insignia.name
                 CardInsigniaText.accessibilityLabel = "CardInsigniaText"

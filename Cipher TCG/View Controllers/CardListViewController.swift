@@ -45,6 +45,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         super.viewDidLoad()
         view.accessibilityIdentifier = "cardlistView"
         CardListSearchBar.accessibilityIdentifier = "cardNameSearchBar"
+        SetNumberTextField.accessibilityIdentifier = "setNumberTextField"
         loadCardFilterData()
         loadCardListSortTypeData()
         interfaceSetup()
