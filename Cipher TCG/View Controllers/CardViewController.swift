@@ -176,6 +176,8 @@ class CardViewController: UIViewController {
                 // Assigning Values to UI Elements
                 CardImage.image = detailCard.cardImage
                 CardNameText.text = detailCard.name
+                CardNameText.accessibilityLabel = "CardNameText"
+                CardNameText.accessibilityValue = detailCard.name
                 CardNameText.minimumScaleFactor = 0.10
                 CardNameText.adjustsFontSizeToFitWidth = true
                 CardSeriesText.text = detailCard.series

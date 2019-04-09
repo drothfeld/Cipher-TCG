@@ -47,8 +47,7 @@ class Cipher_TCGUITests: XCTestCase {
     }
     
     // USER INTERFACE TEST:
-    // Goes through the flow of launching the app, waiting for the data
-    // to finish loading, and then being sent to the cardlistview.
+    // Goes through all menu item flows when using the main menu buttons.
     func testNavigatingMainMenuOptions() {
         app.launch()
         
@@ -82,8 +81,9 @@ class Cipher_TCGUITests: XCTestCase {
     }
     
     // USER INTERFACE TEST:
-    // Goes through the flow of launching the app, waiting for the data
-    // to finish loading, and then being sent to the cardlistview.
+    // Goes through the flow of selecting a cipher card,
+    // adding it to the user's favorites list, filtering the card
+    // list view to only show favorited cards, and then unfavoriting a card.
     func testAddingCardToFavorites() {
         app.launch()
         
@@ -116,8 +116,7 @@ class Cipher_TCGUITests: XCTestCase {
     }
     
     // USER INTERFACE TEST:
-    // Goes through the flow of launching the app, waiting for the data
-    // to finish loading, and then being sent to the cardlistview.
+    // Tests all filter by card insignia color buttons when in card list view.
     func testInsigniaColorFilters() {
         app.launch()
         
@@ -196,6 +195,29 @@ class Cipher_TCGUITests: XCTestCase {
         app.buttons["back_button"].tap()
         app.buttons["filter_colorless"].tap()
         XCTAssertTrue(app.isDisplayingCardListView)
+    }
+    
+    // USER INTERFACE TEST:
+    // Tests the functionality of using the search bar to filter by card name.
+    func testCardNameTextFilter() {
+        app.launch()
+        
+        // Wait for card data to load before the card list screen is displayed.
+        Thread.sleep(forTimeInterval: 40)
+        let searchString = "Corrin (F): Night Breaks Through The Day"
+        
+        // Grab the card text search UI element and search for: "Corrin".
+        let searchBar = XCUIApplication().otherElements["cardNameSearchBar"]
+        searchBar.tap()
+        Thread.sleep(forTimeInterval: 5)
+        searchBar.typeText(searchString)
+        XCTAssertTrue(app.isDisplayingCardListView)
+        
+        // Tap the one and only filtered result to transition to the card view controller.
+        // Check to make sure the loaded card matches what we searched.
+        app.tables.element(boundBy: 0).cells.element(boundBy: 0).tap()
+        XCTAssertTrue(app.isDisplayingCardView)
+        XCTAssertEqual(app.staticTexts["CardNameText"].value as! String, searchString)
     }
 }
 

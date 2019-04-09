@@ -44,6 +44,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     override func viewDidLoad() {
         super.viewDidLoad()
         view.accessibilityIdentifier = "cardlistView"
+        CardListSearchBar.accessibilityIdentifier = "cardNameSearchBar"
         loadCardFilterData()
         loadCardListSortTypeData()
         interfaceSetup()
