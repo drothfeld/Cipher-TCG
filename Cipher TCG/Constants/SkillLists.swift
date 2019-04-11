@@ -805,4 +805,8 @@ let rawSkillsList: [Skill] = [
     dragonslaying_radiance,
     battleground_mindset,
     keep_up_with_me,
+    a_lesson_in_primping,
+    a_helping_hand_for_wayward_lambs,
+    gird_yourself,
+    the_priests_guardswoman,
 ]

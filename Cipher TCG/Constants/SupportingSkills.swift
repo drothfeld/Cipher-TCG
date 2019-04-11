@@ -143,3 +143,11 @@ let personal_cheer_squad = SupportingSkill(type: "Personal Cheer Squad",
 let divine_flame_sorcery = SupportingSkill(type: "Divine Flame Sorcery",
                                     textDescription: "If your <Purple> attacking unit destroys an enemy, draw 1 card.",
                                     iconImageName: "28px-Attack_Support.png")
+
+let a_sermon_on_divine_love = SupportingSkill(type: "A Sermon on Divine Love",
+                                    textDescription: "Until the end of this combat, your Female attacking unit gains +10 attack.",
+                                    iconImageName: "28px-Attack_Support.png")
+
+let guardswomans_archery = SupportingSkill(type: "Guardswoman’s Archery",
+                                    textDescription: "Until the end of this combat, your defending unit gains +10 attack.",
+                                    iconImageName: "28px-Defense_Support.png")

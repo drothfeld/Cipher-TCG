@@ -4871,6 +4871,61 @@ let b16_011 = Card(series: "B16-011R",
                    skills: [toward_her_dream_future, oh_i_love_you_klein],
                    cardImageName: "B16-011.png")
 
+let b16_012 = Card(series: "B16-012N",
+                   name: "Clarine: Ladyling of House Reglay",
+                   rarity: normal,
+                   insignia: divine_weapons,
+                   attack: 20,
+                   support: 20,
+                   illustrator: tetsu_kurosawa,
+                   supportingSkill: miracle_emblem,
+                   skills: [heal, a_lesson_in_primping],
+                   cardImageName: "B16-012.png")
+
+let b16_013 = Card(series: "B16-013HN",
+                   name: "Saul: Amorous Saint",
+                   rarity: high_normal,
+                   insignia: divine_weapons,
+                   attack: 50,
+                   support: 20,
+                   illustrator: niko_komori,
+                   supportingSkill: a_sermon_on_divine_love,
+                   skills: [a_helping_hand_for_wayward_lambs],
+                   cardImageName: "B16-013.png")
+
+let b16_014 = Card(series: "B16-014N",
+                   name: "Saul: Messenger of Divine Love",
+                   rarity: normal,
+                   insignia: divine_weapons,
+                   attack: 30,
+                   support: 20,
+                   illustrator: niko_komori,
+                   supportingSkill: miracle_emblem,
+                   skills: [heal],
+                   cardImageName: "B16-014.png")
+
+let b16_015 = Card(series: "B16-015HN",
+                   name: "Dorothy: Pure Archer",
+                   rarity: high_normal,
+                   insignia: divine_weapons,
+                   attack: 50,
+                   support: 20,
+                   illustrator: douji_shiki,
+                   supportingSkill: guardswomans_archery,
+                   skills: [gird_yourself, wingbane],
+                   cardImageName: "B16-015.png")
+
+let b16_016 = Card(series: "B16-016N",
+                   name: "Dorothy: Gods-Serving Archer",
+                   rarity: normal,
+                   insignia: divine_weapons,
+                   attack: 30,
+                   support: 20,
+                   illustrator: douji_shiki,
+                   supportingSkill: bullseye_emblem,
+                   skills: [the_priests_guardswoman, wingbane],
+                   cardImageName: "B16-016.png")
+
 let b16_017 = Card(series: "B16-017HN",
                    name: "Barth: Striving to be the Mightiest Lance",
                    rarity: high_normal,

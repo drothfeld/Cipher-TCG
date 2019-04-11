@@ -6388,3 +6388,35 @@ let keep_up_with_me  = Skill(name: "Keep up with me!",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let a_lesson_in_primping  = Skill(name: "A Lesson in Primping",
+                        description: "[ Tap ] Choose 1 other ally with a Deployment Cost of 1. Until the end of this turn, that ally gains +10 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: true,
+                        CCS: false)
+
+let a_helping_hand_for_wayward_lambs  = Skill(name: "A Helping Hand for Wayward Lambs",
+                        description: "[Tap 1 Female ally] Until the end of the turn, this unit gains +10 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let gird_yourself  = Skill(name: "Gird yourself!",
+                        description: "[ Flip 2 Bonds ] Each time this unit’s attack destroys an enemy, you may pay the cost and if you do: Untap this unit.",
+                        colorType: UIColor.blue,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let the_priests_guardswoman  = Skill(name: "The Priest’s Guardswoman",
+                        description: "If this unit is attacking an enemy with a Deployment Cost of 1, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
