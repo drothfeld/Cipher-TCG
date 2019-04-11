@@ -809,4 +809,7 @@ let rawSkillsList: [Skill] = [
     a_helping_hand_for_wayward_lambs,
     gird_yourself,
     the_priests_guardswoman,
+    swordsman_with_the_knights,
+    compensating_for_weakness,
+    constant_solo_training,
 ]

@@ -7,8 +7,8 @@ Version 0.7.0
 - Cipher TCG is an IOS application that provides an easy access to translations of cards in the Japanese TCG: Fire Emblem Cipher.
 
 **Features:**
-- View database of Cipher cards (incomplete: 491/X).
-- View database of Cipher card skills (incomplete: 800/X).
+- View database of Cipher cards (incomplete: 493/X).
+- View database of Cipher card skills (incomplete: 803/X).
 - Extensive filtering search system (complete).
 - Save and load favorite card data (complete).
 - Realtime prices of cards as listed on https://tcgrepublic.com/ (complete).

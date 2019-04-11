@@ -6420,3 +6420,27 @@ let the_priests_guardswoman  = Skill(name: "The Priest’s Guardswoman",
                         flipOrb: false,
                         tapUnit: false,
                         CCS: false)
+
+let swordsman_with_the_knights  = Skill(name: "Swordsman With the Knights",
+                        description: "If you have 1 or more Armored allies, this unit gains +10 attack.",
+                        colorType: UIColor.green,
+                        flippedBonds: 0,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let compensating_for_weakness  = Skill(name: "Compensating for Weaknesses",
+                        description: "Once Per Turn [ Flip 2 Bonds ] Choose 1 Ogier from your Retreat Area, and add it to your hand.",
+                        colorType: UIColor.red,
+                        flippedBonds: 2,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)
+
+let constant_solo_training  = Skill(name: "Constant Solo Training",
+                        description: "Once Per Turn [ Flip 1 Bond ] Until the end of the turn, this unit gains +10 attack.",
+                        colorType: UIColor.red,
+                        flippedBonds: 1,
+                        flipOrb: false,
+                        tapUnit: false,
+                        CCS: false)

@@ -4937,6 +4937,28 @@ let b16_017 = Card(series: "B16-017HN",
                    skills: [armored_lance_triangle_attack, strength_masked_by_azure_armor, armor_expertise],
                    cardImageName: "B16-017.png")
 
+let b16_018 = Card(series: "B16-018HN",
+                   name: "Ogier: Little Hero",
+                   rarity: high_normal,
+                   insignia: divine_weapons,
+                   attack: 70,
+                   support: 10,
+                   illustrator: karuta_shiki,
+                   supportingSkill: none,
+                   skills: [swordsman_with_the_knights, compensating_for_weakness],
+                   cardImageName: "B16-018.png")
+
+let b16_019 = Card(series: "B16-019N",
+                   name: "Ogier: New Ostian Recruit",
+                   rarity: normal,
+                   insignia: divine_weapons,
+                   attack: 40,
+                   support: 10,
+                   illustrator: karuta_shiki,
+                   supportingSkill: attack_emblem,
+                   skills: [constant_solo_training],
+                   cardImageName: "B16-019.png")
+
 let b16_020 = Card(series: "B16-020HN",
                    name: "Gwendolyn: Striving Toward Her Admired Brother",
                    rarity: high_normal,
