@@ -92,6 +92,5 @@ let rawIllustratorsList: [Illustrator] = [
     mari_shimazaki,
     mio_itou,
     momori,
-    sora_amamiya,
     kyo_uda,
 ]

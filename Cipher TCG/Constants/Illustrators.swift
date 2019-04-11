@@ -94,6 +94,5 @@ let yoshiro_ambe = Illustrator(name: "Yoshiro Ambe")
 let mari_shimazaki = Illustrator(name: "Mari Shimazaki")
 let mio_itou = Illustrator(name: "Mio Itou")
 let momori = Illustrator(name: "Momori")
-let sora_amamiya = Illustrator(name: "Sora Amamiya")
 let kyo_uda = Illustrator(name: "Kyo Uda")
 
