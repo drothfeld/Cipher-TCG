@@ -759,6 +759,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vdp-27-DWB" userLabel="Back Button">
                                         <rect key="frame" x="31" y="18" width="62" height="35"/>
                                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <accessibility key="accessibilityConfiguration" label="back_button"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="JEF-I9-NdE"/>
                                         </constraints>
@@ -1499,9 +1500,8 @@
         <image name="sort_by_number_button.png" width="69.599998474121094" height="69.360000610351562"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="v70-lw-KrB"/>
         <segue reference="8ih-mp-VFz"/>
-        <segue reference="oVR-qE-nmK"/>
-        <segue reference="cac-9f-3tE"/>
+        <segue reference="4a0-cU-pEP"/>
+        <segue reference="6Gl-2R-TWn"/>
     </inferredMetricsTieBreakers>
 </document>

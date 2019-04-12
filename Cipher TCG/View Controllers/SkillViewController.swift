@@ -60,6 +60,8 @@ class SkillViewController: UIViewController {
                 
                 // Assigning Values to UI Elements
                 SkillNameText.text = detailSkill.name
+                SkillNameText.accessibilityLabel = "SkillNameText"
+                SkillNameText.accessibilityValue = detailSkill.name
                 SkillNameText.minimumScaleFactor = 0.10
                 SkillNameText.adjustsFontSizeToFitWidth = true
                 SkillDescriptionText.text = detailSkill.textdescription

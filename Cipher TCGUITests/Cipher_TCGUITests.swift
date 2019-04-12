@@ -229,6 +229,38 @@ class Cipher_TCGUITests: XCTestCase {
     }
     
     // USER INTERFACE TEST:
+    // Tests the functionality of using the search bar to filter by skill name.
+    func testSkillNameTextFilter() {
+        app.launch()
+        
+        // Wait for card data to load before the card list screen is displayed.
+        Thread.sleep(forTimeInterval: 40)
+        let searchString = "The Blade that Binds the Demon Dragon"
+        
+        // Navigate to the skill list view controller by going through the main menu.
+        app.buttons["main_menu_button"].tap()
+        XCTAssertTrue(app.isDisplayingMenuView)
+        app.buttons["main_menu_skill_list_button"].tap()
+        XCTAssertTrue(app.isDisplayingSkillListView)
+        
+        // Grab the skill text search UI element and search for specified string.
+        let searchBar = XCUIApplication().otherElements["skillNameSearchBar"]
+        searchBar.tap()
+        Thread.sleep(forTimeInterval: 5)
+        searchBar.typeText(searchString)
+        XCTAssertTrue(app.isDisplayingSkillListView)
+        
+        // Tap the one and only filtered result to transition to the skill view controller.
+        // Check to make sure the loaded skill matches what we searched.
+        // Tap the back button to return to the skill list view controller.
+        app.tables.element(boundBy: 0).cells.element(boundBy: 0).tap()
+        XCTAssertTrue(app.isDisplayingSkillView)
+        XCTAssertEqual(app.staticTexts["SkillNameText"].value as! String, searchString)
+        app.buttons["back_button"].tap()
+        XCTAssertTrue(app.isDisplayingSkillListView)
+    }
+    
+    // USER INTERFACE TEST:
     // Tests the functionality of using the box set text input box to filter cards.
     func testBoxSetTextFilter() {
         app.launch()
