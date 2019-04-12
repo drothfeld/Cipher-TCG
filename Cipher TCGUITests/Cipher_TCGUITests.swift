@@ -95,9 +95,9 @@ class Cipher_TCGUITests: XCTestCase {
         XCTAssertTrue(app.isDisplayingCardView)
         
         // Tap the favorites button to add the card to the favorites list.
-        // Then tap on the back button to return to the card list view controller.
+        // Then swipe right to return to the card list view controller.
         app.buttons["toggle_fav_button"].tap()
-        app.buttons["back_button"].tap()
+        app.swipeRight()
         XCTAssertTrue(app.isDisplayingCardListView)
         
         // Tap on the filter favorites button to filter by favorited cards.
@@ -107,10 +107,10 @@ class Cipher_TCGUITests: XCTestCase {
         XCTAssertTrue(app.isDisplayingCardView)
         
         // Tap on the favorites button again to remove the added card from the favorites list.
-        // Then tap back to return to the card list view controller.
+        // Then swipe right to return to the card list view controller.
         // Then tap the filter favorites button to remove the filter and show all cards again.
         app.buttons["toggle_fav_button"].tap()
-        app.buttons["back_button"].tap()
+        app.swipeRight()
         app.buttons["filter_fav_cards_button"].tap()
         XCTAssertTrue(app.isDisplayingCardListView)
     }
@@ -124,83 +124,83 @@ class Cipher_TCGUITests: XCTestCase {
         Thread.sleep(forTimeInterval: 40)
         
         // Tap on the RED card filter button, then tap the first card in the list.
-        // Then tap on the back button to return to the card list view controller.
+        // Then swipe right to return to the card list view controller.
         app.buttons["filter_red"].tap()
         XCTAssertTrue(app.isDisplayingCardListView)
         app.tables.element(boundBy: 0).cells.element(boundBy: 0).tap()
         XCTAssertTrue(app.isDisplayingCardView)
         XCTAssertEqual(app.staticTexts["CardInsigniaText"].value as! String, "Blade of Light")
-        app.buttons["back_button"].tap()
+        app.swipeRight()
         XCTAssertTrue(app.isDisplayingCardListView)
         
         // Tap on the BLUE card filter button, then tap the first card in the list.
-        // Then tap on the back button to return to the card list view controller.
+        // Then swipe right to return to the card list view controller.
         app.buttons["filter_blue"].tap()
         XCTAssertTrue(app.isDisplayingCardListView)
         app.tables.element(boundBy: 0).cells.element(boundBy: 0).tap()
         XCTAssertTrue(app.isDisplayingCardView)
         XCTAssertEqual(app.staticTexts["CardInsigniaText"].value as! String, "Mark of Naga")
-        app.buttons["back_button"].tap()
+        app.swipeRight()
         XCTAssertTrue(app.isDisplayingCardListView)
         
         // Tap on the WHITE card filter button, then tap the first card in the list.
-        // Then tap on the back button to return to the card list view controller.
+        // Then swipe right to return to the card list view controller.
         app.buttons["filter_white"].tap()
         XCTAssertTrue(app.isDisplayingCardListView)
         app.tables.element(boundBy: 0).cells.element(boundBy: 0).tap()
         XCTAssertTrue(app.isDisplayingCardView)
         XCTAssertEqual(app.staticTexts["CardInsigniaText"].value as! String, "Hoshido")
-        app.buttons["back_button"].tap()
+        app.swipeRight()
         XCTAssertTrue(app.isDisplayingCardListView)
         
         // Tap on the BLACK card filter button, then tap the first card in the list.
-        // Then tap on the back button to return to the card list view controller.
+        // Then swipe right to return to the card list view controller.
         app.buttons["filter_black"].tap()
         XCTAssertTrue(app.isDisplayingCardListView)
         app.tables.element(boundBy: 0).cells.element(boundBy: 0).tap()
         XCTAssertTrue(app.isDisplayingCardView)
         XCTAssertEqual(app.staticTexts["CardInsigniaText"].value as! String, "Nohr")
-        app.buttons["back_button"].tap()
+        app.swipeRight()
         XCTAssertTrue(app.isDisplayingCardListView)
         
         // Tap on the GREEN card filter button, then tap the first card in the list.
-        // Then tap on the back button to return to the card list view controller.
+        // Then swipe right to return to the card list view controller.
         app.buttons["filter_green"].tap()
         XCTAssertTrue(app.isDisplayingCardListView)
         app.tables.element(boundBy: 0).cells.element(boundBy: 0).tap()
         XCTAssertTrue(app.isDisplayingCardView)
         XCTAssertEqual(app.staticTexts["CardInsigniaText"].value as! String, "Medallion")
-        app.buttons["back_button"].tap()
+        app.swipeRight()
         XCTAssertTrue(app.isDisplayingCardListView)
         
         // Tap on the PURPLE card filter button, then tap the first card in the list.
-        // Then tap on the back button to return to the card list view controller.
+        // Then swipe right to return to the card list view controller.
         app.buttons["filter_purple"].tap()
         XCTAssertTrue(app.isDisplayingCardListView)
         app.tables.element(boundBy: 0).cells.element(boundBy: 0).tap()
         XCTAssertTrue(app.isDisplayingCardView)
         XCTAssertEqual(app.staticTexts["CardInsigniaText"].value as! String, "Divine Weapons")
-        app.buttons["back_button"].tap()
+        app.swipeRight()
         XCTAssertTrue(app.isDisplayingCardListView)
         
         // Tap on the YELLOW card filter button, then tap the first card in the list.
-        // Then tap on the back button to return to the card list view controller.
+        // Then swipe right to return to the card list view controller.
         app.buttons["filter_yellow"].tap()
         XCTAssertTrue(app.isDisplayingCardListView)
         app.tables.element(boundBy: 0).cells.element(boundBy: 0).tap()
         XCTAssertTrue(app.isDisplayingCardView)
         XCTAssertEqual(app.staticTexts["CardInsigniaText"].value as! String, "Holy War Flag")
-        app.buttons["back_button"].tap()
+        app.swipeRight()
         XCTAssertTrue(app.isDisplayingCardListView)
         
         // Tap on the COLORLESS card filter button, then tap the first card in the list.
-        // Then tap on the back button to return to the card list view controller.
+        // Then swipe right to return to the card list view controller.
         app.buttons["filter_colorless"].tap()
         XCTAssertTrue(app.isDisplayingCardListView)
         app.tables.element(boundBy: 0).cells.element(boundBy: 0).tap()
         XCTAssertTrue(app.isDisplayingCardView)
         XCTAssertEqual(app.staticTexts["CardInsigniaText"].value as! String, "Colorless")
-        app.buttons["back_button"].tap()
+        app.swipeRight()
         app.buttons["filter_colorless"].tap()
         XCTAssertTrue(app.isDisplayingCardListView)
     }
@@ -252,11 +252,11 @@ class Cipher_TCGUITests: XCTestCase {
         
         // Tap the one and only filtered result to transition to the skill view controller.
         // Check to make sure the loaded skill matches what we searched.
-        // Tap the back button to return to the skill list view controller.
+        // Swipe right to return to the skill list view controller.
         app.tables.element(boundBy: 0).cells.element(boundBy: 0).tap()
         XCTAssertTrue(app.isDisplayingSkillView)
         XCTAssertEqual(app.staticTexts["SkillNameText"].value as! String, searchString)
-        app.buttons["back_button"].tap()
+        app.swipeRight()
         XCTAssertTrue(app.isDisplayingSkillListView)
     }
     

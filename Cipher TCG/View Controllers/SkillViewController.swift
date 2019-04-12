@@ -35,6 +35,19 @@ class SkillViewController: UIViewController {
         super.viewDidLoad()
         view.accessibilityIdentifier = "skillView"
         configureView()
+        setupSwipeGestures()
+    }
+    
+    // Set up for tap gestures
+    func setupSwipeGestures() {
+        let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(SkillViewController.respondToSwipeGesture))
+        swipeRight.direction = UISwipeGestureRecognizer.Direction.right
+        self.view.addGestureRecognizer(swipeRight)
+    }
+    
+    // User swipes right
+    @objc func respondToSwipeGesture(gesture: UIGestureRecognizer) {
+        performSegue(withIdentifier: "backToSkillList", sender: self)
     }
     
     // Setting View

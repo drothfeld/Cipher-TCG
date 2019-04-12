@@ -768,7 +768,7 @@
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <segue destination="3nh-M4-Z6t" kind="custom" customClass="SegueFromLeft" customModule="Cipher_TCG" customModuleProvider="target" id="4a0-cU-pEP"/>
+                                            <segue destination="3nh-M4-Z6t" kind="custom" identifier="backToSkillList" customClass="SegueFromLeft" customModule="Cipher_TCG" customModuleProvider="target" id="4a0-cU-pEP"/>
                                         </connections>
                                     </button>
                                 </subviews>
