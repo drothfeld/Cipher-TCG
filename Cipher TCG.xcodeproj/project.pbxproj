@@ -140,6 +140,7 @@
 		B0346ED52166DDD000681FD8 /* B14-040c.png in Resources */ = {isa = PBXBuildFile; fileRef = B0346ED22166DDCF00681FD8 /* B14-040c.png */; };
 		B035B49F22283A98009A6D87 /* B16-085.png in Resources */ = {isa = PBXBuildFile; fileRef = B035B49D22283A98009A6D87 /* B16-085.png */; };
 		B035B4A022283A98009A6D87 /* B16-084.png in Resources */ = {isa = PBXBuildFile; fileRef = B035B49E22283A98009A6D87 /* B16-084.png */; };
+		B03C0E4D2296062C0026F2E6 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03C0E4C2296062C0026F2E6 /* APIService.swift */; };
 		B03D5775201105A9007A3E97 /* CardLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03D5774201105A9007A3E97 /* CardLists.swift */; };
 		B03D57AC2012CCB7007A3E97 /* B03-072.png in Resources */ = {isa = PBXBuildFile; fileRef = B03D57A32012CCB7007A3E97 /* B03-072.png */; };
 		B03D57AD2012CCB7007A3E97 /* B03-067.png in Resources */ = {isa = PBXBuildFile; fileRef = B03D57A42012CCB7007A3E97 /* B03-067.png */; };
@@ -722,6 +723,7 @@
 		B0346ED22166DDCF00681FD8 /* B14-040c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B14-040c.png"; sourceTree = "<group>"; };
 		B035B49D22283A98009A6D87 /* B16-085.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B16-085.png"; sourceTree = "<group>"; };
 		B035B49E22283A98009A6D87 /* B16-084.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B16-084.png"; sourceTree = "<group>"; };
+		B03C0E4C2296062C0026F2E6 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		B03D5774201105A9007A3E97 /* CardLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardLists.swift; sourceTree = "<group>"; };
 		B03D57A32012CCB7007A3E97 /* B03-072.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B03-072.png"; sourceTree = "<group>"; };
 		B03D57A42012CCB7007A3E97 /* B03-067.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B03-067.png"; sourceTree = "<group>"; };
@@ -1314,6 +1316,114 @@
 			path = PROMOS;
 			sourceTree = "<group>";
 		};
+		B03C0E4A229605F10026F2E6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B03C0E4B229606080026F2E6 /* APIService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B03C0E4B229606080026F2E6 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				B03C0E4C2296062C0026F2E6 /* APIService.swift */,
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		B03C0E4E229606460026F2E6 /* Skill */ = {
+			isa = PBXGroup;
+			children = (
+				B054BBCA200E7BA1004159A6 /* Skill.swift */,
+				B054BBDC200E8A0A004159A6 /* Skills.swift */,
+				B048FE412020E314007F1525 /* SkillLists.swift */,
+			);
+			path = Skill;
+			sourceTree = "<group>";
+		};
+		B03C0E4F229606660026F2E6 /* SkillType */ = {
+			isa = PBXGroup;
+			children = (
+				B01B2EC1215ABDEC00ACA461 /* SkillType.swift */,
+				B01B2EBF215ABDB300ACA461 /* SkillTypes.swift */,
+			);
+			path = SkillType;
+			sourceTree = "<group>";
+		};
+		B03C0E50229606750026F2E6 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				B054BBE6200EA5E0004159A6 /* Card.swift */,
+				B054BBE8200EAC3C004159A6 /* Cards.swift */,
+				B03D5774201105A9007A3E97 /* CardLists.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		B03C0E512296068D0026F2E6 /* Insignia */ = {
+			isa = PBXGroup;
+			children = (
+				B054BBDE200E9DB7004159A6 /* Insignia.swift */,
+				B054BBE0200E9E8A004159A6 /* Insignias.swift */,
+			);
+			path = Insignia;
+			sourceTree = "<group>";
+		};
+		B03C0E52229606A10026F2E6 /* SupportingSkill */ = {
+			isa = PBXGroup;
+			children = (
+				B054BBE2200EA461004159A6 /* SupportingSkill.swift */,
+				B054BBE4200EA4DA004159A6 /* SupportingSkills.swift */,
+			);
+			path = SupportingSkill;
+			sourceTree = "<group>";
+		};
+		B03C0E53229606BF0026F2E6 /* Rarity */ = {
+			isa = PBXGroup;
+			children = (
+				B0497C0521A0B5D3005E5910 /* Rarity.swift */,
+				B0497C0721A0B79F005E5910 /* Rarities.swift */,
+			);
+			path = Rarity;
+			sourceTree = "<group>";
+		};
+		B03C0E54229606D60026F2E6 /* Illustrator */ = {
+			isa = PBXGroup;
+			children = (
+				B0497C0921A0BB9E005E5910 /* Illustrator.swift */,
+				B0497C0B21A0BBFC005E5910 /* Illustrators.swift */,
+				B0F2F8E0223AF9F300DBAEF6 /* IllustratorsLists.swift */,
+			);
+			path = Illustrator;
+			sourceTree = "<group>";
+		};
+		B03C0E55229606FB0026F2E6 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				B054BBB4200E68AE004159A6 /* CardListViewController.swift */,
+				B03D58092012DBC5007A3E97 /* CardViewController.swift */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+		B03C0E562296070D0026F2E6 /* SkillView */ = {
+			isa = PBXGroup;
+			children = (
+				B0E02BDF213EFE61008C8B05 /* SkillListViewController.swift */,
+				B0DC65E3214B52FD00A422D7 /* SkillViewController.swift */,
+			);
+			path = SkillView;
+			sourceTree = "<group>";
+		};
+		B03C0E57229607210026F2E6 /* IllustratorView */ = {
+			isa = PBXGroup;
+			children = (
+				B0BC3B2F222F042C00FD375B /* IllustratorsViewController.swift */,
+			);
+			path = IllustratorView;
+			sourceTree = "<group>";
+		};
 		B03D57A22012CCB7007A3E97 /* B03 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1453,13 +1563,13 @@
 			path = B10;
 			sourceTree = "<group>";
 		};
-		B03D580B2013C0D5007A3E97 /* Animations */ = {
+		B03D580B2013C0D5007A3E97 /* SegueAnimations */ = {
 			isa = PBXGroup;
 			children = (
 				B03D580C2013C100007A3E97 /* SegueFromLeft.swift */,
 				B03D580E2013C1A0007A3E97 /* SegueFromRight.swift */,
 			);
-			path = Animations;
+			path = SegueAnimations;
 			sourceTree = "<group>";
 		};
 		B0464417211BA9FD00AECB2A /* S04 */ = {
@@ -1504,10 +1614,11 @@
 			isa = PBXGroup;
 			children = (
 				B08A6B1D2016532C00603113 /* Extensions */,
-				B03D580B2013C0D5007A3E97 /* Animations */,
-				B054BBC7200E7665004159A6 /* Classes */,
+				B03D580B2013C0D5007A3E97 /* SegueAnimations */,
+				B054BBC7200E7665004159A6 /* Models */,
 				B054BBC9200E7B73004159A6 /* Constants */,
 				B054BBC4200E6E5F004159A6 /* View Controllers */,
+				B03C0E4A229605F10026F2E6 /* Services */,
 				B054BBCC200E7BF4004159A6 /* Assets */,
 				B054BBB2200E68AE004159A6 /* AppDelegate.swift */,
 				B054BBB6200E68AE004159A6 /* Main.storyboard */,
@@ -1522,48 +1633,36 @@
 		B054BBC4200E6E5F004159A6 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				B054BBB4200E68AE004159A6 /* CardListViewController.swift */,
-				B03D58092012DBC5007A3E97 /* CardViewController.swift */,
-				B0E02BDF213EFE61008C8B05 /* SkillListViewController.swift */,
-				B0DC65E3214B52FD00A422D7 /* SkillViewController.swift */,
+				B03C0E55229606FB0026F2E6 /* CardView */,
+				B03C0E562296070D0026F2E6 /* SkillView */,
+				B03C0E57229607210026F2E6 /* IllustratorView */,
 				B08A6B1E201661C300603113 /* MenuViewController.swift */,
 				B08A6B41201903AD00603113 /* LaunchScreenViewController.swift */,
-				B0BC3B2F222F042C00FD375B /* IllustratorsViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
 		};
-		B054BBC7200E7665004159A6 /* Classes */ = {
+		B054BBC7200E7665004159A6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B054BBCA200E7BA1004159A6 /* Skill.swift */,
-				B01B2EC1215ABDEC00ACA461 /* SkillType.swift */,
-				B054BBDE200E9DB7004159A6 /* Insignia.swift */,
-				B054BBE2200EA461004159A6 /* SupportingSkill.swift */,
-				B054BBE6200EA5E0004159A6 /* Card.swift */,
-				B0497C0521A0B5D3005E5910 /* Rarity.swift */,
-				B0497C0921A0BB9E005E5910 /* Illustrator.swift */,
+				B03C0E50229606750026F2E6 /* Card */,
+				B03C0E4E229606460026F2E6 /* Skill */,
+				B03C0E4F229606660026F2E6 /* SkillType */,
+				B03C0E52229606A10026F2E6 /* SupportingSkill */,
+				B03C0E512296068D0026F2E6 /* Insignia */,
+				B03C0E53229606BF0026F2E6 /* Rarity */,
+				B03C0E54229606D60026F2E6 /* Illustrator */,
 			);
-			path = Classes;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		B054BBC9200E7B73004159A6 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
-				B054BBDC200E8A0A004159A6 /* Skills.swift */,
-				B048FE412020E314007F1525 /* SkillLists.swift */,
-				B01B2EBF215ABDB300ACA461 /* SkillTypes.swift */,
-				B054BBE0200E9E8A004159A6 /* Insignias.swift */,
-				B054BBE4200EA4DA004159A6 /* SupportingSkills.swift */,
-				B054BBE8200EAC3C004159A6 /* Cards.swift */,
-				B03D5774201105A9007A3E97 /* CardLists.swift */,
 				B08A6B4A20190E8100603113 /* AnimationList.swift */,
 				B0D1ABDD2114DEDE0051935A /* CardPriceURLs.swift */,
 				B0303B97213496DA00F78A00 /* BoxSets.swift */,
 				B094C4842135DACF00DC2870 /* Favorites.swift */,
-				B0497C0721A0B79F005E5910 /* Rarities.swift */,
-				B0497C0B21A0BBFC005E5910 /* Illustrators.swift */,
-				B0F2F8E0223AF9F300DBAEF6 /* IllustratorsLists.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -2689,6 +2788,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B03C0E4D2296062C0026F2E6 /* APIService.swift in Sources */,
 				B054BBCB200E7BA1004159A6 /* Skill.swift in Sources */,
 				B054BBE3200EA461004159A6 /* SupportingSkill.swift in Sources */,
 				B054BBDF200E9DB7004159A6 /* Insignia.swift in Sources */,
