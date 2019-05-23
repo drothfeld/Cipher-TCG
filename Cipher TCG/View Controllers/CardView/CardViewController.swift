@@ -53,7 +53,7 @@ class CardViewController: UIViewController {
     
     // Returns the current going price of a specific card
     func setCurrentCardPrice(card: Card, priceLabel: UILabel) -> Void {
-        let series = card.series
+        let series = card.set
         var innerHTML: String = ""
         
         // Account for different lengths in series strings based on ending rarity (e.g R and SR)
@@ -168,84 +168,55 @@ class CardViewController: UIViewController {
                 // Setting up Interface
                 HeaderView.dropShadow()
                 
-                // Change alpha of favorite button if card is in the favorites list
-                if detailCard.isInFavoritesList() {
-                    MenuBarFavoriteButton.alpha = 1.00
-                }
-                
                 // Assigning Values to UI Elements
-                CardImage.image = detailCard.cardImage
                 CardNameText.text = detailCard.name
                 CardNameText.accessibilityLabel = "CardNameText"
                 CardNameText.accessibilityValue = detailCard.name
                 CardNameText.minimumScaleFactor = 0.10
                 CardNameText.adjustsFontSizeToFitWidth = true
-                CardSeriesText.text = detailCard.series
+                CardSeriesText.text = detailCard.imageFile
                 CardSeriesText.accessibilityLabel = "CardSeriesText"
-                CardSeriesText.accessibilityValue = detailCard.series
-                CardInsigniaImage.image = detailCard.insignia.iconImage
-                CardInsigniaText.text = detailCard.insignia.name
+                CardSeriesText.accessibilityValue = detailCard.imageFile
+                CardInsigniaText.text = detailCard.color
                 CardInsigniaText.accessibilityLabel = "CardInsigniaText"
-                CardInsigniaText.accessibilityValue = detailCard.insignia.name
-                CardIllustratorText.text = detailCard.illustrator.name
-                CardIllustratorText.minimumScaleFactor = 0.10
-                CardIllustratorText.adjustsFontSizeToFitWidth = true
-                CardRarityText.text = detailCard.rarity.name
+                CardInsigniaText.accessibilityValue = detailCard.color
+                CardRarityText.text = detailCard.rarity
                 
                 // Changing background theme colors to chosen card insignia
-                CardInfoView.backgroundColor = detailCard.insignia.color
-                CardPriceView.backgroundColor = detailCard.insignia.color
-                SkillsView.backgroundColor = detailCard.insignia.color
+//                CardInfoView.backgroundColor = detailCard.insignia.color
+//                CardPriceView.backgroundColor = detailCard.insignia.color
+//                SkillsView.backgroundColor = detailCard.insignia.color
                 
                 // Supporting Skill Section and Text
-                if (detailCard.supportingSkill.type != "None") {
-                    SupportingSkillView.backgroundColor = detailCard.insignia.color
-                    CardSupportingSkillText.text = detailCard.supportingSkill.textDescription
-                    SupportingSkillTitleText.text = detailCard.supportingSkill.type
-                    SupportingSkillTitleText.minimumScaleFactor = 0.10
-                    SupportingSkillTitleText.adjustsFontSizeToFitWidth = true
-                    CardSupportingSkillImage.image = detailCard.supportingSkill.iconImage
-                } else {
-                    SupportingSkillView.isHidden = true
-                }
+//                if (detailCard.supportingSkill.type != "None") {
+//                    SupportingSkillView.backgroundColor = detailCard.insignia.color
+//                    CardSupportingSkillText.text = detailCard.supportingSkill.textDescription
+//                    SupportingSkillTitleText.text = detailCard.supportingSkill.type
+//                    SupportingSkillTitleText.minimumScaleFactor = 0.10
+//                    SupportingSkillTitleText.adjustsFontSizeToFitWidth = true
+//                    CardSupportingSkillImage.image = detailCard.supportingSkill.iconImage
+//                } else {
+//                    SupportingSkillView.isHidden = true
+//                }
                 
                 // Main Skill Section and Text
-                if (detailCard.skills.count == 0) {
-                    SkillsView.isHidden = true
-                } else {
-                    let attrs = [NSAttributedString.Key.font : UIFont.boldSystemFont(ofSize: 14)]
-                    let attributedString = NSMutableAttributedString(string: "", attributes: attrs)
-                    for (_, skill) in detailCard.skills.enumerated() {
-                        let skillName = NSMutableAttributedString(string: skill.name + " - ", attributes: attrs)
-                        let skillDescription = NSMutableAttributedString(string: skill.textdescription + "\n \n")
-                        attributedString.append(skillName)
-                        attributedString.append(skillDescription)
-                        
-                        attributedString.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.white, range: NSRange(location: 0, length: attributedString.length))
-                    }
-                    CardSkillsText.attributedText = attributedString
-                }
+//                if (detailCard.skills.count == 0) {
+//                    SkillsView.isHidden = true
+//                } else {
+//                    let attrs = [NSAttributedString.Key.font : UIFont.boldSystemFont(ofSize: 14)]
+//                    let attributedString = NSMutableAttributedString(string: "", attributes: attrs)
+//                    for (_, skill) in detailCard.skills.enumerated() {
+//                        let skillName = NSMutableAttributedString(string: skill.name + " - ", attributes: attrs)
+//                        let skillDescription = NSMutableAttributedString(string: skill.textdescription + "\n \n")
+//                        attributedString.append(skillName)
+//                        attributedString.append(skillDescription)
+//
+//                        attributedString.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.white, range: NSRange(location: 0, length: attributedString.length))
+//                    }
+//                    CardSkillsText.attributedText = attributedString
+//                }
             }
         }
     }
-    
-    // User presses the add/remove card to favorites list button
-    @IBAction func favoriteCardButtonPressed(_ sender: Any) {
-        // Card is already in list, remove it
-        if (detailCard?.isInFavoritesList())! {
-            MenuBarFavoriteButton.alpha = 0.25
-            detailCard?.removeFromFavoritesList()
-        }
-            
-        // Card is not in list, add it
-        else {
-            MenuBarFavoriteButton.alpha = 1.00
-            favorite_cards.append(detailCard!)
-        }
-        
-        // Update userDefaults saved favorite card data
-        let encodedData = NSKeyedArchiver.archivedData(withRootObject: favorite_cards)
-        UserDefaults.standard.set(encodedData, forKey: "favoriteCardData")
-    }    
 }
 

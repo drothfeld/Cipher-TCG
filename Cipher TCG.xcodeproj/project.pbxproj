@@ -141,6 +141,7 @@
 		B035B49F22283A98009A6D87 /* B16-085.png in Resources */ = {isa = PBXBuildFile; fileRef = B035B49D22283A98009A6D87 /* B16-085.png */; };
 		B035B4A022283A98009A6D87 /* B16-084.png in Resources */ = {isa = PBXBuildFile; fileRef = B035B49E22283A98009A6D87 /* B16-084.png */; };
 		B03C0E4D2296062C0026F2E6 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03C0E4C2296062C0026F2E6 /* APIService.swift */; };
+		B03C0E6322961FA50026F2E6 /* carddata.txt in Resources */ = {isa = PBXBuildFile; fileRef = B03C0E6222961FA50026F2E6 /* carddata.txt */; };
 		B03D5775201105A9007A3E97 /* CardLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03D5774201105A9007A3E97 /* CardLists.swift */; };
 		B03D57AC2012CCB7007A3E97 /* B03-072.png in Resources */ = {isa = PBXBuildFile; fileRef = B03D57A32012CCB7007A3E97 /* B03-072.png */; };
 		B03D57AD2012CCB7007A3E97 /* B03-067.png in Resources */ = {isa = PBXBuildFile; fileRef = B03D57A42012CCB7007A3E97 /* B03-067.png */; };
@@ -210,11 +211,8 @@
 		B048FE3C2020DD13007F1525 /* B11-073.png in Resources */ = {isa = PBXBuildFile; fileRef = B048FE3B2020DD13007F1525 /* B11-073.png */; };
 		B048FE3E2020DD1F007F1525 /* B10-097.png in Resources */ = {isa = PBXBuildFile; fileRef = B048FE3D2020DD1F007F1525 /* B10-097.png */; };
 		B048FE402020DD2B007F1525 /* B09-085.png in Resources */ = {isa = PBXBuildFile; fileRef = B048FE3F2020DD2B007F1525 /* B09-085.png */; };
-		B048FE422020E314007F1525 /* SkillLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = B048FE412020E314007F1525 /* SkillLists.swift */; };
 		B0497C0621A0B5D3005E5910 /* Rarity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0497C0521A0B5D3005E5910 /* Rarity.swift */; };
 		B0497C0821A0B79F005E5910 /* Rarities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0497C0721A0B79F005E5910 /* Rarities.swift */; };
-		B0497C0A21A0BB9E005E5910 /* Illustrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0497C0921A0BB9E005E5910 /* Illustrator.swift */; };
-		B0497C0C21A0BBFC005E5910 /* Illustrators.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0497C0B21A0BBFC005E5910 /* Illustrators.swift */; };
 		B05111EA220A03BB0026350F /* B01-004.png in Resources */ = {isa = PBXBuildFile; fileRef = B05111E9220A03BB0026350F /* B01-004.png */; };
 		B05111EC220A04580026350F /* B01-005.png in Resources */ = {isa = PBXBuildFile; fileRef = B05111EB220A04580026350F /* B01-005.png */; };
 		B05111EE220A04A40026350F /* B01-006.png in Resources */ = {isa = PBXBuildFile; fileRef = B05111ED220A04A40026350F /* B01-006.png */; };
@@ -227,14 +225,11 @@
 		B054BBB8200E68AE004159A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B054BBB6200E68AE004159A6 /* Main.storyboard */; };
 		B054BBBA200E68AE004159A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B054BBB9200E68AE004159A6 /* Assets.xcassets */; };
 		B054BBBD200E68AE004159A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B054BBBB200E68AE004159A6 /* LaunchScreen.storyboard */; };
-		B054BBCB200E7BA1004159A6 /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBCA200E7BA1004159A6 /* Skill.swift */; };
-		B054BBDD200E8A0A004159A6 /* Skills.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBDC200E8A0A004159A6 /* Skills.swift */; };
 		B054BBDF200E9DB7004159A6 /* Insignia.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBDE200E9DB7004159A6 /* Insignia.swift */; };
 		B054BBE1200E9E8A004159A6 /* Insignias.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBE0200E9E8A004159A6 /* Insignias.swift */; };
 		B054BBE3200EA461004159A6 /* SupportingSkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBE2200EA461004159A6 /* SupportingSkill.swift */; };
 		B054BBE5200EA4DA004159A6 /* SupportingSkills.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBE4200EA4DA004159A6 /* SupportingSkills.swift */; };
 		B054BBE7200EA5E0004159A6 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBE6200EA5E0004159A6 /* Card.swift */; };
-		B054BBE9200EAC3C004159A6 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBE8200EAC3C004159A6 /* Cards.swift */; };
 		B055AD00221BA30D002FD060 /* B16-073.png in Resources */ = {isa = PBXBuildFile; fileRef = B055ACFE221BA30C002FD060 /* B16-073.png */; };
 		B055AD01221BA30D002FD060 /* B16-074.png in Resources */ = {isa = PBXBuildFile; fileRef = B055ACFF221BA30D002FD060 /* B16-074.png */; };
 		B0561D3722381A2700A7EB4C /* B16-091.png in Resources */ = {isa = PBXBuildFile; fileRef = B0561D3622381A2700A7EB4C /* B16-091.png */; };
@@ -422,7 +417,6 @@
 		B0BBD29B21A7522100D84910 /* B15-013.png in Resources */ = {isa = PBXBuildFile; fileRef = B0BBD29A21A7522100D84910 /* B15-013.png */; };
 		B0BBE2CD219FA96300B5B0CE /* B15-039.png in Resources */ = {isa = PBXBuildFile; fileRef = B0BBE2CB219FA96300B5B0CE /* B15-039.png */; };
 		B0BBE2CE219FA96300B5B0CE /* B15-040.png in Resources */ = {isa = PBXBuildFile; fileRef = B0BBE2CC219FA96300B5B0CE /* B15-040.png */; };
-		B0BC3B30222F042C00FD375B /* IllustratorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BC3B2F222F042C00FD375B /* IllustratorsViewController.swift */; };
 		B0BEF1E621C72AEC0006C132 /* B15-009.png in Resources */ = {isa = PBXBuildFile; fileRef = B0BEF1E421C72AEC0006C132 /* B15-009.png */; };
 		B0BEF1E721C72AEC0006C132 /* B15-010.png in Resources */ = {isa = PBXBuildFile; fileRef = B0BEF1E521C72AEC0006C132 /* B15-010.png */; };
 		B0BEF1EA21C72B120006C132 /* B15-011.png in Resources */ = {isa = PBXBuildFile; fileRef = B0BEF1E821C72B120006C132 /* B15-011.png */; };
@@ -479,12 +473,10 @@
 		B0DA71DA20EC1E4A00AC6AB5 /* B13-066.png in Resources */ = {isa = PBXBuildFile; fileRef = B0DA71D920EC1E4A00AC6AB5 /* B13-066.png */; };
 		B0DA71DC20EC1F2000AC6AB5 /* B13-070.png in Resources */ = {isa = PBXBuildFile; fileRef = B0DA71DB20EC1F2000AC6AB5 /* B13-070.png */; };
 		B0DA71DE20EC20B400AC6AB5 /* B13-055.png in Resources */ = {isa = PBXBuildFile; fileRef = B0DA71DD20EC20B400AC6AB5 /* B13-055.png */; };
-		B0DC65E4214B52FD00A422D7 /* SkillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DC65E3214B52FD00A422D7 /* SkillViewController.swift */; };
 		B0DEF18521D6C434004EBCE9 /* B15-028.png in Resources */ = {isa = PBXBuildFile; fileRef = B0DEF18321D6C433004EBCE9 /* B15-028.png */; };
 		B0DEF18621D6C434004EBCE9 /* B15-027.png in Resources */ = {isa = PBXBuildFile; fileRef = B0DEF18421D6C434004EBCE9 /* B15-027.png */; };
 		B0E02BDD213EFA93008C8B05 /* B14-070.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E02BDB213EFA92008C8B05 /* B14-070.png */; };
 		B0E02BDE213EFA93008C8B05 /* B14-068.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E02BDC213EFA92008C8B05 /* B14-068.png */; };
-		B0E02BE0213EFE61008C8B05 /* SkillListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E02BDF213EFE61008C8B05 /* SkillListViewController.swift */; };
 		B0E0A8D6214C21F30026EDB9 /* B14-097.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E0A8D5214C21F20026EDB9 /* B14-097.png */; };
 		B0E0DE1E20D2D8D4002672A4 /* B06-018.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E0DE1D20D2D8D4002672A4 /* B06-018.png */; };
 		B0E0DE2020D2DA4B002672A4 /* B06-001.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E0DE1F20D2DA4B002672A4 /* B06-001.png */; };
@@ -528,7 +520,6 @@
 		B0ED9DF620D6CB2600A7BEB6 /* B12-005.png in Resources */ = {isa = PBXBuildFile; fileRef = B0ED9DF520D6CB2600A7BEB6 /* B12-005.png */; };
 		B0ED9DF820D6CC2A00A7BEB6 /* B12-006.png in Resources */ = {isa = PBXBuildFile; fileRef = B0ED9DF720D6CC2A00A7BEB6 /* B12-006.png */; };
 		B0ED9DFA20D6CCE900A7BEB6 /* B12-007.png in Resources */ = {isa = PBXBuildFile; fileRef = B0ED9DF920D6CCE900A7BEB6 /* B12-007.png */; };
-		B0F2F8E1223AF9F300DBAEF6 /* IllustratorsLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F2F8E0223AF9F300DBAEF6 /* IllustratorsLists.swift */; };
 		B0F3B9FA22373CF400141D89 /* B16-038.png in Resources */ = {isa = PBXBuildFile; fileRef = B0F3B9F922373CF400141D89 /* B16-038.png */; };
 		B0F3CFA721920D9B00DE2E34 /* B15-053.png in Resources */ = {isa = PBXBuildFile; fileRef = B0F3CFA521920D9A00DE2E34 /* B15-053.png */; };
 		B0F3CFA821920D9B00DE2E34 /* B15-052.png in Resources */ = {isa = PBXBuildFile; fileRef = B0F3CFA621920D9B00DE2E34 /* B15-052.png */; };
@@ -724,6 +715,7 @@
 		B035B49D22283A98009A6D87 /* B16-085.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B16-085.png"; sourceTree = "<group>"; };
 		B035B49E22283A98009A6D87 /* B16-084.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B16-084.png"; sourceTree = "<group>"; };
 		B03C0E4C2296062C0026F2E6 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		B03C0E6222961FA50026F2E6 /* carddata.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = carddata.txt; sourceTree = "<group>"; };
 		B03D5774201105A9007A3E97 /* CardLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardLists.swift; sourceTree = "<group>"; };
 		B03D57A32012CCB7007A3E97 /* B03-072.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B03-072.png"; sourceTree = "<group>"; };
 		B03D57A42012CCB7007A3E97 /* B03-067.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B03-067.png"; sourceTree = "<group>"; };
@@ -793,11 +785,8 @@
 		B048FE3B2020DD13007F1525 /* B11-073.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B11-073.png"; sourceTree = "<group>"; };
 		B048FE3D2020DD1F007F1525 /* B10-097.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B10-097.png"; sourceTree = "<group>"; };
 		B048FE3F2020DD2B007F1525 /* B09-085.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B09-085.png"; sourceTree = "<group>"; };
-		B048FE412020E314007F1525 /* SkillLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillLists.swift; sourceTree = "<group>"; };
 		B0497C0521A0B5D3005E5910 /* Rarity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rarity.swift; sourceTree = "<group>"; };
 		B0497C0721A0B79F005E5910 /* Rarities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rarities.swift; sourceTree = "<group>"; };
-		B0497C0921A0BB9E005E5910 /* Illustrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Illustrator.swift; sourceTree = "<group>"; };
-		B0497C0B21A0BBFC005E5910 /* Illustrators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Illustrators.swift; sourceTree = "<group>"; };
 		B05111E9220A03BB0026350F /* B01-004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B01-004.png"; sourceTree = "<group>"; };
 		B05111EB220A04580026350F /* B01-005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B01-005.png"; sourceTree = "<group>"; };
 		B05111ED220A04A40026350F /* B01-006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B01-006.png"; sourceTree = "<group>"; };
@@ -812,14 +801,11 @@
 		B054BBB9200E68AE004159A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B054BBBC200E68AE004159A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B054BBBE200E68AE004159A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B054BBCA200E7BA1004159A6 /* Skill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
-		B054BBDC200E8A0A004159A6 /* Skills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skills.swift; sourceTree = "<group>"; };
 		B054BBDE200E9DB7004159A6 /* Insignia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insignia.swift; sourceTree = "<group>"; };
 		B054BBE0200E9E8A004159A6 /* Insignias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insignias.swift; sourceTree = "<group>"; };
 		B054BBE2200EA461004159A6 /* SupportingSkill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportingSkill.swift; sourceTree = "<group>"; };
 		B054BBE4200EA4DA004159A6 /* SupportingSkills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportingSkills.swift; sourceTree = "<group>"; };
 		B054BBE6200EA5E0004159A6 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
-		B054BBE8200EAC3C004159A6 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
 		B055ACFE221BA30C002FD060 /* B16-073.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B16-073.png"; sourceTree = "<group>"; };
 		B055ACFF221BA30D002FD060 /* B16-074.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B16-074.png"; sourceTree = "<group>"; };
 		B0561D3622381A2700A7EB4C /* B16-091.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B16-091.png"; sourceTree = "<group>"; };
@@ -1011,7 +997,6 @@
 		B0BBD29A21A7522100D84910 /* B15-013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-013.png"; sourceTree = "<group>"; };
 		B0BBE2CB219FA96300B5B0CE /* B15-039.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-039.png"; sourceTree = "<group>"; };
 		B0BBE2CC219FA96300B5B0CE /* B15-040.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-040.png"; sourceTree = "<group>"; };
-		B0BC3B2F222F042C00FD375B /* IllustratorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IllustratorsViewController.swift; sourceTree = "<group>"; };
 		B0BEF1E421C72AEC0006C132 /* B15-009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-009.png"; sourceTree = "<group>"; };
 		B0BEF1E521C72AEC0006C132 /* B15-010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-010.png"; sourceTree = "<group>"; };
 		B0BEF1E821C72B120006C132 /* B15-011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-011.png"; sourceTree = "<group>"; };
@@ -1068,12 +1053,10 @@
 		B0DA71D920EC1E4A00AC6AB5 /* B13-066.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B13-066.png"; sourceTree = "<group>"; };
 		B0DA71DB20EC1F2000AC6AB5 /* B13-070.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B13-070.png"; sourceTree = "<group>"; };
 		B0DA71DD20EC20B400AC6AB5 /* B13-055.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B13-055.png"; sourceTree = "<group>"; };
-		B0DC65E3214B52FD00A422D7 /* SkillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillViewController.swift; sourceTree = "<group>"; };
 		B0DEF18321D6C433004EBCE9 /* B15-028.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-028.png"; sourceTree = "<group>"; };
 		B0DEF18421D6C434004EBCE9 /* B15-027.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-027.png"; sourceTree = "<group>"; };
 		B0E02BDB213EFA92008C8B05 /* B14-070.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B14-070.png"; sourceTree = "<group>"; };
 		B0E02BDC213EFA92008C8B05 /* B14-068.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B14-068.png"; sourceTree = "<group>"; };
-		B0E02BDF213EFE61008C8B05 /* SkillListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillListViewController.swift; sourceTree = "<group>"; };
 		B0E0A8D5214C21F20026EDB9 /* B14-097.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B14-097.png"; sourceTree = "<group>"; };
 		B0E0DE1D20D2D8D4002672A4 /* B06-018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B06-018.png"; sourceTree = "<group>"; };
 		B0E0DE1F20D2DA4B002672A4 /* B06-001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B06-001.png"; sourceTree = "<group>"; };
@@ -1117,7 +1100,6 @@
 		B0ED9DF520D6CB2600A7BEB6 /* B12-005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B12-005.png"; sourceTree = "<group>"; };
 		B0ED9DF720D6CC2A00A7BEB6 /* B12-006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B12-006.png"; sourceTree = "<group>"; };
 		B0ED9DF920D6CCE900A7BEB6 /* B12-007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B12-007.png"; sourceTree = "<group>"; };
-		B0F2F8E0223AF9F300DBAEF6 /* IllustratorsLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IllustratorsLists.swift; sourceTree = "<group>"; };
 		B0F3B9F922373CF400141D89 /* B16-038.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B16-038.png"; sourceTree = "<group>"; };
 		B0F3CFA521920D9A00DE2E34 /* B15-053.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-053.png"; sourceTree = "<group>"; };
 		B0F3CFA621920D9B00DE2E34 /* B15-052.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B15-052.png"; sourceTree = "<group>"; };
@@ -1332,16 +1314,6 @@
 			path = APIService;
 			sourceTree = "<group>";
 		};
-		B03C0E4E229606460026F2E6 /* Skill */ = {
-			isa = PBXGroup;
-			children = (
-				B054BBCA200E7BA1004159A6 /* Skill.swift */,
-				B054BBDC200E8A0A004159A6 /* Skills.swift */,
-				B048FE412020E314007F1525 /* SkillLists.swift */,
-			);
-			path = Skill;
-			sourceTree = "<group>";
-		};
 		B03C0E4F229606660026F2E6 /* SkillType */ = {
 			isa = PBXGroup;
 			children = (
@@ -1355,7 +1327,6 @@
 			isa = PBXGroup;
 			children = (
 				B054BBE6200EA5E0004159A6 /* Card.swift */,
-				B054BBE8200EAC3C004159A6 /* Cards.swift */,
 				B03D5774201105A9007A3E97 /* CardLists.swift */,
 			);
 			path = Card;
@@ -1388,16 +1359,6 @@
 			path = Rarity;
 			sourceTree = "<group>";
 		};
-		B03C0E54229606D60026F2E6 /* Illustrator */ = {
-			isa = PBXGroup;
-			children = (
-				B0497C0921A0BB9E005E5910 /* Illustrator.swift */,
-				B0497C0B21A0BBFC005E5910 /* Illustrators.swift */,
-				B0F2F8E0223AF9F300DBAEF6 /* IllustratorsLists.swift */,
-			);
-			path = Illustrator;
-			sourceTree = "<group>";
-		};
 		B03C0E55229606FB0026F2E6 /* CardView */ = {
 			isa = PBXGroup;
 			children = (
@@ -1407,21 +1368,21 @@
 			path = CardView;
 			sourceTree = "<group>";
 		};
-		B03C0E562296070D0026F2E6 /* SkillView */ = {
+		B03C0E58229609050026F2E6 /* URLs */ = {
 			isa = PBXGroup;
 			children = (
-				B0E02BDF213EFE61008C8B05 /* SkillListViewController.swift */,
-				B0DC65E3214B52FD00A422D7 /* SkillViewController.swift */,
+				B0D1ABDD2114DEDE0051935A /* CardPriceURLs.swift */,
 			);
-			path = SkillView;
+			path = URLs;
 			sourceTree = "<group>";
 		};
-		B03C0E57229607210026F2E6 /* IllustratorView */ = {
+		B03C0E5C229611290026F2E6 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				B0BC3B2F222F042C00FD375B /* IllustratorsViewController.swift */,
+				B054BBB6200E68AE004159A6 /* Main.storyboard */,
+				B054BBBB200E68AE004159A6 /* LaunchScreen.storyboard */,
 			);
-			path = IllustratorView;
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		B03D57A22012CCB7007A3E97 /* B03 */ = {
@@ -1613,6 +1574,7 @@
 		B054BBB1200E68AE004159A6 /* Cipher TCG */ = {
 			isa = PBXGroup;
 			children = (
+				B03C0E5C229611290026F2E6 /* Storyboards */,
 				B08A6B1D2016532C00603113 /* Extensions */,
 				B03D580B2013C0D5007A3E97 /* SegueAnimations */,
 				B054BBC7200E7665004159A6 /* Models */,
@@ -1621,11 +1583,10 @@
 				B03C0E4A229605F10026F2E6 /* Services */,
 				B054BBCC200E7BF4004159A6 /* Assets */,
 				B054BBB2200E68AE004159A6 /* AppDelegate.swift */,
-				B054BBB6200E68AE004159A6 /* Main.storyboard */,
-				B054BBBB200E68AE004159A6 /* LaunchScreen.storyboard */,
 				B054BBBE200E68AE004159A6 /* Info.plist */,
 				B0E4223E20191D7C00CA879C /* .gitignore */,
 				B0E4224020191DCE00CA879C /* README.md */,
+				B03C0E6222961FA50026F2E6 /* carddata.txt */,
 			);
 			path = "Cipher TCG";
 			sourceTree = "<group>";
@@ -1634,8 +1595,6 @@
 			isa = PBXGroup;
 			children = (
 				B03C0E55229606FB0026F2E6 /* CardView */,
-				B03C0E562296070D0026F2E6 /* SkillView */,
-				B03C0E57229607210026F2E6 /* IllustratorView */,
 				B08A6B1E201661C300603113 /* MenuViewController.swift */,
 				B08A6B41201903AD00603113 /* LaunchScreenViewController.swift */,
 			);
@@ -1646,12 +1605,10 @@
 			isa = PBXGroup;
 			children = (
 				B03C0E50229606750026F2E6 /* Card */,
-				B03C0E4E229606460026F2E6 /* Skill */,
 				B03C0E4F229606660026F2E6 /* SkillType */,
 				B03C0E52229606A10026F2E6 /* SupportingSkill */,
 				B03C0E512296068D0026F2E6 /* Insignia */,
 				B03C0E53229606BF0026F2E6 /* Rarity */,
-				B03C0E54229606D60026F2E6 /* Illustrator */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -1659,8 +1616,8 @@
 		B054BBC9200E7B73004159A6 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				B03C0E58229609050026F2E6 /* URLs */,
 				B08A6B4A20190E8100603113 /* AnimationList.swift */,
-				B0D1ABDD2114DEDE0051935A /* CardPriceURLs.swift */,
 				B0303B97213496DA00F78A00 /* BoxSets.swift */,
 				B094C4842135DACF00DC2870 /* Favorites.swift */,
 			);
@@ -2267,6 +2224,7 @@
 				B05AEAA821AF67610000D222 /* B15-020.png in Resources */,
 				B0FD328520C99C2F00B1D2E6 /* B12-071.png in Resources */,
 				B094C48B21370D1800DC2870 /* B14-059.png in Resources */,
+				B03C0E6322961FA50026F2E6 /* carddata.txt in Resources */,
 				B048FE3C2020DD13007F1525 /* B11-073.png in Resources */,
 				B01B2EE3215FFDCE00ACA461 /* B14-011.png in Resources */,
 				B042BC702212985E00983416 /* B01-024.png in Resources */,
@@ -2789,27 +2747,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				B03C0E4D2296062C0026F2E6 /* APIService.swift in Sources */,
-				B054BBCB200E7BA1004159A6 /* Skill.swift in Sources */,
 				B054BBE3200EA461004159A6 /* SupportingSkill.swift in Sources */,
 				B054BBDF200E9DB7004159A6 /* Insignia.swift in Sources */,
 				B054BBE7200EA5E0004159A6 /* Card.swift in Sources */,
 				B08A6B4B20190E8100603113 /* AnimationList.swift in Sources */,
-				B0497C0A21A0BB9E005E5910 /* Illustrator.swift in Sources */,
-				B048FE422020E314007F1525 /* SkillLists.swift in Sources */,
 				B03D580F2013C1A0007A3E97 /* SegueFromRight.swift in Sources */,
-				B054BBDD200E8A0A004159A6 /* Skills.swift in Sources */,
 				B03D580D2013C100007A3E97 /* SegueFromLeft.swift in Sources */,
 				B094C4852135DACF00DC2870 /* Favorites.swift in Sources */,
-				B0E02BE0213EFE61008C8B05 /* SkillListViewController.swift in Sources */,
 				B08A6B1F201661C300603113 /* MenuViewController.swift in Sources */,
 				B054BBE5200EA4DA004159A6 /* SupportingSkills.swift in Sources */,
 				B054BBE1200E9E8A004159A6 /* Insignias.swift in Sources */,
 				B0497C0621A0B5D3005E5910 /* Rarity.swift in Sources */,
-				B054BBE9200EAC3C004159A6 /* Cards.swift in Sources */,
 				B08A6B1C2016532700603113 /* UIViewDropShadow.swift in Sources */,
 				B03D580A2012DBC5007A3E97 /* CardViewController.swift in Sources */,
-				B0497C0C21A0BBFC005E5910 /* Illustrators.swift in Sources */,
-				B0DC65E4214B52FD00A422D7 /* SkillViewController.swift in Sources */,
 				B054BBB3200E68AE004159A6 /* AppDelegate.swift in Sources */,
 				B01B2EC0215ABDB300ACA461 /* SkillTypes.swift in Sources */,
 				B0303B98213496DA00F78A00 /* BoxSets.swift in Sources */,
@@ -2818,10 +2768,8 @@
 				B0497C0821A0B79F005E5910 /* Rarities.swift in Sources */,
 				B0D1ABDE2114DEDF0051935A /* CardPriceURLs.swift in Sources */,
 				B01B2EC2215ABDEC00ACA461 /* SkillType.swift in Sources */,
-				B0F2F8E1223AF9F300DBAEF6 /* IllustratorsLists.swift in Sources */,
 				B08A6B42201903AD00603113 /* LaunchScreenViewController.swift in Sources */,
 				B054BBB5200E68AE004159A6 /* CardListViewController.swift in Sources */,
-				B0BC3B30222F042C00FD375B /* IllustratorsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

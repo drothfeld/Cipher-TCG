@@ -31,8 +31,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     @IBOutlet weak var SetNumberTextField: UITextField!
     
     // Defined Values
-    var sortedRawCardList: [Card] = []
-    var filteredRawCardList: [Card] = []
+    var cards = [Card]()
     var isSearching = false
     var sortByName = true
     var colorFilterButtons: [UIButton]!
@@ -40,12 +39,15 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     var loadedtableViewScrollOffset: CGFloat = 0.0
     var loadedSortType: Bool = true
     var loadedBoxSetFilter: String = ""
+    let apiService = APIService()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         view.accessibilityIdentifier = "cardlistView"
         CardListSearchBar.accessibilityIdentifier = "cardNameSearchBar"
         SetNumberTextField.accessibilityIdentifier = "setNumberTextField"
+        
+        cards = apiService.loadCipherCardData()
         loadCardFilterData()
         loadCardListSortTypeData()
         interfaceSetup()
@@ -54,18 +56,11 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         loadFavoriteCardData()
         applyLoadedFilter()
         loadTableViewScrollOffsetData()
-        
-        // DEBUG
-        NSLog("Total number of unique cards: " + String(sortedRawCardList.count)) // 493
-        NSLog("Total number of unique skills: " + String(rawSkillsList.count)) // 803
     }
     
     // Number of Rows
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if (isSearching) {
-            return filteredRawCardList.count
-        }
-        return rawCardsList.count
+        return cards.count
     }
     
     // Row Height
@@ -76,23 +71,12 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     // Cell Data
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "customCell", for: indexPath)
-        if (isSearching) {
-            cell.textLabel?.text = filteredRawCardList[indexPath.item].series
-            cell.detailTextLabel?.text = filteredRawCardList[indexPath.item].name
-            if (filteredRawCardList[indexPath.item].cardImage == nil) {
-                cell.imageView?.image = UIImage(named: "card_placeholder.png")
-            } else {
-                cell.imageView?.image = filteredRawCardList[indexPath.item].cardImage
-            }
-        } else {
-            cell.textLabel?.text = sortedRawCardList[indexPath.item].series
-            cell.detailTextLabel?.text = sortedRawCardList[indexPath.item].name
-            if (sortedRawCardList[indexPath.item].cardImage == nil) {
-                cell.imageView?.image = UIImage(named: "card_placeholder.png")
-            } else {
-                cell.imageView?.image = sortedRawCardList[indexPath.item].cardImage
-            }
-        }
+        let seriesName = cards[indexPath.item].imageFile
+        let endIndex = seriesName.index(seriesName.endIndex, offsetBy: -11)
+        let truncated = seriesName.substring(to: endIndex)
+        cell.textLabel?.text = cards[indexPath.item].name
+        cell.detailTextLabel?.text = truncated
+        cell.imageView?.image = UIImage(named: "card_placeholder.png")
         return cell
     }
     
@@ -103,12 +87,11 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     
     // Sort list of cards by series by number
     func sortCardsNumerically(unsortedList: Array<Card>) -> Array<Card> {
-        return unsortedList.sorted { $0.series < $1.series }
+        return unsortedList.sorted { $0.imageFile < $1.imageFile }
     }
     
     // Table Refresh
     func refreshTable() {
-        sortedRawCardList = sortCardList(cardList: rawCardsList)
         self.CardListTableView.reloadData()
     }
     
@@ -129,14 +112,6 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     
     // Search Bar Functionality
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        if (CardListSearchBar.text == nil || CardListSearchBar.text == "") {
-            isSearching = false
-            view.endEditing(true)
-        } else {
-            deactivateAllFilters()
-            isSearching = true
-            filteredRawCardList = sortedRawCardList.filter( {$0.name.lowercased().contains(CardListSearchBar.text!.lowercased())} )
-        }
         CardListTableView.reloadData()
     }
     
@@ -147,12 +122,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         UserDefaults.standard.set(encodedData, forKey: "cardViewScrollOffset")
         
         if let indexPath = CardListTableView.indexPathForSelectedRow {
-            let card: Card
-            if isSearching {
-                card = filteredRawCardList[indexPath.row]
-            } else {
-                card = sortedRawCardList[indexPath.row]
-            }
+            let card = cards[indexPath.row]
             let controller = segue.destination as! CardViewController
             controller.detailCard = card
         }
@@ -187,8 +157,8 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         
         // Filtering by box set text field value
         if (loadedBoxSetFilter != "") {
-            filteredRawCardList = sortedRawCardList.filter({
-                String($0.series[$0.series.index($0.series.startIndex, offsetBy: 1)...$0.series.index($0.series.startIndex, offsetBy: 2)]) == String(loadedBoxSetFilter)
+            cards = cards.filter({
+                String($0.set[$0.set.index($0.set.startIndex, offsetBy: 1)...$0.set.index($0.set.startIndex, offsetBy: 2)]) == String(loadedBoxSetFilter)
             })
             isSearching = true
         } else {
@@ -254,9 +224,9 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         
         // Check if favorites filter was saved
         if (loadedCardFilterIndex > 7) {
-            filteredRawCardList = favorite_cards
+            cards = favorite_cards
         } else {
-            filteredRawCardList = sortedRawCardList.filter({$0.insignia.name.contains(rawInsigniaList[loadedCardFilterIndex].name)})
+            cards = cards.filter({$0.color.contains(rawInsigniaList[loadedCardFilterIndex].name)})
         }
         
         CardListTableView.reloadData()
@@ -274,9 +244,9 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
             activateFilterButton(button: buttonPressed)
             // Check if we pressed the favorite cards filter button
             if (buttonPressed.tag > 7) {
-                filteredRawCardList = favorite_cards
+                cards = favorite_cards
             } else {
-                filteredRawCardList = sortedRawCardList.filter({$0.insignia.name.contains(rawInsigniaList[buttonPressed.tag].name)})
+                cards = cards.filter({$0.color.contains(rawInsigniaList[buttonPressed.tag].name)})
             }
         }
         
@@ -301,9 +271,9 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         let encodedData = NSKeyedArchiver.archivedData(withRootObject: sortByName)
         UserDefaults.standard.set(encodedData, forKey: "cardListSortType")
         
-        filteredRawCardList = sortCardList(cardList: filteredRawCardList)
+        cards = sortCardList(cardList: cards)
         refreshTable()
-        if (filteredRawCardList.count > 0) {
+        if (cards.count > 0) {
             CardListTableView.layoutIfNeeded()
             CardListTableView.scrollToRow(at: IndexPath.init(row: 0, section: 0), at: .top, animated: false)
         }

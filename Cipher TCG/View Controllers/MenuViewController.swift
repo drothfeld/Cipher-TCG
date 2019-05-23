@@ -13,6 +13,16 @@ class MenuViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.accessibilityIdentifier = "menuView"
+        
+        ////
+        // TESTING API ENDPOINT
+        ////
+        let apiService = APIService()
+        apiService.loadCipherCardData()
+        ////
+        ////
+        ////
+        
     }
     
     // Sends the User to Emblem Wiki
