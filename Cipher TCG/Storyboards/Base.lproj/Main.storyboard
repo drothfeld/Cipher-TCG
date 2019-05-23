@@ -230,26 +230,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="2ZS-RV-4qz">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="75" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="2ZS-RV-4qz">
                                 <rect key="frame" x="0.0" y="101" width="375" height="566"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="customCell" textLabel="glB-lA-1xG" detailTextLabel="MUx-iP-nkX" style="IBUITableViewCellStyleSubtitle" id="L8d-aE-gXd">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="customCell" textLabel="glB-lA-1xG" detailTextLabel="MUx-iP-nkX" rowHeight="75" style="IBUITableViewCellStyleSubtitle" id="L8d-aE-gXd">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="L8d-aE-gXd" id="FaE-M7-j1f">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="74.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="glB-lA-1xG">
-                                                    <rect key="frame" x="15" y="5" width="33.5" height="20.5"/>
+                                                    <rect key="frame" x="15" y="17" width="33.5" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MUx-iP-nkX">
-                                                    <rect key="frame" x="15" y="25.5" width="44" height="14.5"/>
+                                                    <rect key="frame" x="15" y="40.5" width="44" height="14.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
@@ -279,7 +279,10 @@
                                         </constraints>
                                         <color key="tintColor" red="0.8119627237" green="0.003281183774" blue="0.054759666319999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="barTintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="SOD-1I-Oij"/>
+                                        </connections>
                                     </searchBar>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wrk-SM-0UN" userLabel="Header Bar">
                                         <rect key="frame" x="0.0" y="80" width="375" height="1"/>
@@ -416,7 +419,7 @@
                                             <constraint firstAttribute="height" constant="20" id="nev-GK-tTg"/>
                                             <constraint firstAttribute="width" constant="20" id="oog-DV-Rrk"/>
                                         </constraints>
-                                        <state key="normal" image="sort_by_number_button.png"/>
+                                        <state key="normal" image="sort_by_name_button.png"/>
                                         <connections>
                                             <action selector="orderCardListButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qiv-KW-IgE"/>
                                         </connections>
@@ -432,6 +435,7 @@
                                         <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numbersAndPunctuation" returnKeyType="done" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
                                         <connections>
                                             <action selector="SetNumberTextFieldEditingChanged:" destination="BYZ-38-t0r" eventType="editingChanged" id="USc-El-zOu"/>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="a7Q-yN-COG"/>
                                         </connections>
                                     </textField>
                                 </subviews>
@@ -484,20 +488,19 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="BlackFilterButton" destination="vGd-mX-B3G" id="CQo-1e-Ma0"/>
-                        <outlet property="BlueFilterButton" destination="bdo-cj-cLD" id="69b-4i-cke"/>
                         <outlet property="CardListOrderButton" destination="5eD-Wu-yRY" id="wN9-ab-Zxg"/>
                         <outlet property="CardListSearchBar" destination="hzd-cv-NpC" id="2Ec-DG-mpf"/>
                         <outlet property="CardListTableView" destination="2ZS-RV-4qz" id="N8t-V0-sD4"/>
-                        <outlet property="ColorlessFilterButton" destination="208-gH-0b9" id="ySC-8W-yHC"/>
                         <outlet property="FavoritesFilterButton" destination="12e-6M-kFq" id="hxD-MC-iO2"/>
-                        <outlet property="GreenFilterButton" destination="jv8-pd-wkV" id="CR0-3o-bSk"/>
-                        <outlet property="HeaderView" destination="bCi-jW-AfE" id="2Xg-u8-cMm"/>
-                        <outlet property="PurpleFilterButton" destination="xjr-hE-RDH" id="Uy3-9A-ZxS"/>
-                        <outlet property="RedFilterButton" destination="ukX-uQ-UiB" id="dUx-Fd-4Qm"/>
                         <outlet property="SetNumberTextField" destination="aWU-MH-8xa" id="ae4-xV-bPX"/>
-                        <outlet property="WhiteFilterButton" destination="VfG-x6-Y9S" id="qVI-7J-CAa"/>
-                        <outlet property="YellowFilterButton" destination="gLb-oz-BkV" id="0E8-b6-Doe"/>
+                        <outletCollection property="CardColorFilterButtons" destination="ukX-uQ-UiB" collectionClass="NSMutableArray" id="9xo-nZ-3J6"/>
+                        <outletCollection property="CardColorFilterButtons" destination="bdo-cj-cLD" collectionClass="NSMutableArray" id="LSO-JP-Blw"/>
+                        <outletCollection property="CardColorFilterButtons" destination="VfG-x6-Y9S" collectionClass="NSMutableArray" id="LuX-DV-uBa"/>
+                        <outletCollection property="CardColorFilterButtons" destination="vGd-mX-B3G" collectionClass="NSMutableArray" id="mT4-sg-JCl"/>
+                        <outletCollection property="CardColorFilterButtons" destination="jv8-pd-wkV" collectionClass="NSMutableArray" id="gVD-vj-aKF"/>
+                        <outletCollection property="CardColorFilterButtons" destination="xjr-hE-RDH" collectionClass="NSMutableArray" id="KiW-cs-oRP"/>
+                        <outletCollection property="CardColorFilterButtons" destination="gLb-oz-BkV" collectionClass="NSMutableArray" id="EZ0-iF-Ise"/>
+                        <outletCollection property="CardColorFilterButtons" destination="208-gH-0b9" collectionClass="NSMutableArray" id="ffc-Vx-LPb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -900,7 +903,7 @@
         <image name="cipher_header.png" width="1224" height="444"/>
         <image name="favorite_button.png" width="120" height="120"/>
         <image name="loading_fetch.gif" width="600" height="400"/>
-        <image name="sort_by_number_button.png" width="69.599998474121094" height="69.360000610351562"/>
+        <image name="sort_by_name_button.png" width="69.599998474121094" height="69.360000610351562"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="CJv-bm-6cT"/>

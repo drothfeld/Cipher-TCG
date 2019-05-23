@@ -32,6 +32,6 @@ class APIService: NSObject {
                 }
             }
         }
-        return cardList
+        return cardList.sorted { $0.seriesFull < $1.seriesFull }
     }
 }

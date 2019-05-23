@@ -26,6 +26,8 @@ struct Card {
     var skill_3: String
     var skill_4: String
     
+    var seriesFull: String
+    
     // Constructor
     init(name: String, set: String, imageFile: String, color: String, rarity: String, cost: String, className: String, type: String, range: String, attack: String, support: String, skill_1: String, skill_2: String, skill_3: String, skill_4: String) {
         self.name = name
@@ -43,6 +45,13 @@ struct Card {
         self.skill_2 = skill_2
         self.skill_3 = skill_3
         self.skill_4 = skill_4
+        
+        if (imageFile.hasSuffix("_SAMPLE.png")) {
+            let endIndex = imageFile.index(imageFile.endIndex, offsetBy: -11)
+            self.seriesFull = imageFile.substring(to: endIndex)
+        } else {
+            self.seriesFull = imageFile
+        }
     }
 }
 

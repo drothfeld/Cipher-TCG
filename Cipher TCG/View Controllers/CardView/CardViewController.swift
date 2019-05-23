@@ -165,8 +165,6 @@ class CardViewController: UIViewController {
                 let CardSkillsText = CardSkillsText,
                 let HeaderView = HeaderView {
                 
-                // Setting up Interface
-                HeaderView.dropShadow()
                 
                 // Assigning Values to UI Elements
                 CardNameText.text = detailCard.name

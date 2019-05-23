@@ -8,39 +8,27 @@
 
 import UIKit
 
-class Insignia: NSObject, NSCoding {
+struct Insignia {
     
     // Fields
     var name: String
     var color: UIColor
+    var colorName: String
     var iconImage: UIImage?
     var iconImageName: String = "30px-Colorless.png"
     
     // Constructor
-    init(name: String, color: UIColor, iconImageName: String?) {
+    init(name: String, color: UIColor, colorName: String, iconImageName: String?) {
         self.name = name
         self.color = color
+        self.colorName = colorName
         self.iconImageName = iconImageName ?? "30px-Colorless.png"
+        self.iconImage = (iconImageName != "30px-Colorless.png") ? UIImage(named: iconImageName!) : UIImage(named: "30px-Colorless.png")
         
-        if let image = UIImage(named: iconImageName!) {
-            self.iconImage = image
-        } else {
-            self.iconImage = UIImage(named: "30px-Colorless.png")
-        }
-    }
-    
-    // Decoding for userdefaults
-    required convenience init(coder decoder: NSCoder) {
-        let name = decoder.decodeObject(forKey: "name") as? String ?? ""
-        let color = decoder.decodeObject(forKey: "color") as? UIColor ?? .black
-        let iconImageName = decoder.decodeObject(forKey: "iconImageName") as? String ?? "30px-Colorless.png"
-        self.init(name: name, color: color, iconImageName: iconImageName)
-    }
-    
-    // Encoding for userdefaults
-    func encode(with coder: NSCoder) {
-        coder.encode(name, forKey: "name")
-        coder.encode(color, forKey: "color")
-        coder.encode(iconImageName, forKey: "iconImageName")
+//        if let image = UIImage(named: iconImageName!) {
+//            self.iconImage = image
+//        } else {
+//            self.iconImage = UIImage(named: "30px-Colorless.png")
+//        }
     }
 }
