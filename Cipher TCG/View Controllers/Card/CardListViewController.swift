@@ -17,17 +17,14 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     @IBOutlet var CardColorFilterButtons: Array<UIButton>!
     
     // Controller Values
-    var cards = [Card]()
     var filteredCards = [Card]()
     var isSearching = false
     var sortByName = false
     var setFilterValue = ""
-    let apiService = APIService()
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        cards = apiService.loadCipherCardData()
         CardListTableView.reloadData()
     }
     

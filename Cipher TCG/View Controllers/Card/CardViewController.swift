@@ -25,15 +25,14 @@ class CardViewController: UIViewController {
     
     // Controller Values
     var card: Card!
+    let apiService = APIService()
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         configureView()
         setupSwipeGestures()
-        
-        // Data scraping TCGRepublic.com to get current card prices
-        //setCurrentCardPrice(card: card!, priceLabel: CardPriceText)
+        fetchCardPrice()
     }
     
     // Populates view controller UI elements with passed card data
@@ -62,88 +61,21 @@ class CardViewController: UIViewController {
         CardSkillsText.attributedText = attributedString
     }
     
-    // Returns the current going price of a specific card
-    func setCurrentCardPrice(card: Card, priceLabel: UILabel) -> Void {
-        let series = card.set
-        var innerHTML: String = ""
-        
-        // Account for different lengths in series strings based on ending rarity (e.g R and SR)
-        var endOffset = -5
-        if (series.count == 9) {
-            endOffset = -6
-        }
-        
-        // Extracting series number as int to properly index URLs
-        let start = series.index(series.startIndex, offsetBy: 1)
-        let end = series.index(series.endIndex, offsetBy: endOffset)
-        let range = start..<end
-        let seriesNumber = Int(series[range])! - 1
-        
-        // Do not search store webpage for sets that are not yet released
-        if (seriesNumber > 16) {
-            
-            // Scraping each web page of cards for the given card's series number
-            for pageURL in cardPriceURLs[seriesNumber] {
-                let url = URL(string: pageURL)!
-                let task = URLSession.shared.dataTask(with: url) { data, response, error in
-                    
-                    // Error occured
-                    guard let data = data, error == nil else {
-                        print("\(String(describing: error))")
-                        return
-                    }
-                    
-                    // Return HTML data string
-                    let string = String(data: data, encoding: .utf8)!
-                    innerHTML = String(describing: string)
-                    
-                    // Search for card in scraped HTML string
-                    var currentSubstring = ""
-                    var cardWasFound = false
-                    var priceTagFound = false
-                    for (_, char) in innerHTML.enumerated() {
-                        // Card was found
-                        if (currentSubstring.trimmingCharacters(in: .whitespaces) == series) {
-                            cardWasFound = true
-                        }
-                        
-                        // The current substring should contain the price at this point
-                        if (char == "<" && priceTagFound) {
-                            let cardPrice = currentSubstring.trimmingCharacters(in: .whitespaces)
-                            print("Card: " + (self.card?.name)!)
-                            print("Price: " + cardPrice)
-                            
-                            // Make sure running in main thread when touching UIKit
-                            DispatchQueue.main.async {
-                                priceLabel.text = "$" + cardPrice
-                            }
-                            return
-                        }
-                        
-                        // Check if reached the price substring
-                        if (cardWasFound && char == "$") {
-                            priceTagFound = true
-                        }
-                        
-                        // Reset substring
-                        if (char == " ") {
-                            currentSubstring = ""
-                        }
-                        
-                        // Add on to current substring
-                        currentSubstring.append(char)
-                    }
-                }
-                // Resume URL session task
-                task.resume()
+    // Makes web scrapping API call to TCGRepublic.com to fetch card price
+    func fetchCardPrice() {
+        apiService.getCardPrice(card: card, completion: { results in
+            switch results {
+                
+            // Successful API call
+            case .success(let cardPrice):
+                self.CardPriceText.text = (cardPrice != "N/A") ? ("$" + cardPrice) : ("$ --")
+                
+            // An error occurred during API call
+            case .failure(let error):
+                print(error.localizedDescription)
+                self.CardPriceView.isHidden = true
             }
-            
-        // Set is not yet released, no market price exists
-        } else {
-            priceLabel.text = "N/A"
-            priceLabel.isHidden = true
-            CardPriceView.isHidden = true
-        }
+        })
     }
     
     // Set up for swipe gestures
