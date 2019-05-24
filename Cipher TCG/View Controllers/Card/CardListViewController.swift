@@ -41,7 +41,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         // Cell data value fields
         cell.textLabel?.text = cardList[indexPath.item].name
         cell.detailTextLabel?.text = cardList[indexPath.item].seriesFull
-        cell.imageView?.image = UIImage(named: "card_placeholder.png")
+        cell.imageView?.image = cardList[indexPath.item].image
         return cell
     }
     
@@ -144,8 +144,10 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     // Refresh table view and scroll to top
     func refreshTable() {
         CardListTableView.reloadData()
-        CardListTableView.layoutIfNeeded()
-        CardListTableView.scrollToRow(at: IndexPath.init(row: 0, section: 0), at: .top, animated: false)
+        if ( (isSearching && !filteredCards.isEmpty) || (!isSearching)) {
+            CardListTableView.layoutIfNeeded()
+            CardListTableView.scrollToRow(at: IndexPath.init(row: 0, section: 0), at: .top, animated: false)
+        }
     }
 }
 

@@ -27,6 +27,7 @@ struct Card {
     var skill_4: String
     var seriesFull: String
     var insignia: Insignia
+    var image: UIImage
     
     // Constructor
     init(name: String, set: String, imageFile: String, color: String, rarity: String, cost: String, className: String, type: String, range: String, attack: String, support: String, skill_1: String, skill_2: String, skill_3: String, skill_4: String) {
@@ -46,6 +47,7 @@ struct Card {
         self.skill_3 = skill_3
         self.skill_4 = skill_4
         self.insignia = colorless
+        self.image = #imageLiteral(resourceName: "card_placeholder.png")
         
         for insignia in insignias {
             if (insignia.colorName == color) {

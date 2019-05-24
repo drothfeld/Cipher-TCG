@@ -81,18 +81,23 @@ class CardViewController: UIViewController {
     
     // Make API call to get card image data if not fetched already
     func fetchCardImage() {
-        apiService.getCardImage(card: card, completion: { results in
-            switch results {
-            
-            // Successful API call
-            case .success(let cardImage):
-                self.CardImage.image = cardImage
-            
-            // An error occurred during API call
-            case .failure(let error):
-                print(error.localizedDescription)
-            }
-        })
+        if (card.image == #imageLiteral(resourceName: "card_placeholder.png")) {
+            apiService.getCardImage(card: card, completion: { results in
+                switch results {
+                    
+                // Successful API call
+                case .success(let cardImage):
+                    self.CardImage.image = cardImage
+                    
+                // An error occurred during API call
+                case .failure(let error):
+                    print(error.localizedDescription)
+                    self.CardImage.image = #imageLiteral(resourceName: "card_placeholder.png")
+                }
+            })
+        } else {
+            CardImage.image = card.image
+        }
     }
     
     // Set up for swipe gestures

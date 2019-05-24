@@ -18,7 +18,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        // Load all cipher card data from carddata.txt
         cards = apiService.loadCipherCardData()
+        
+        // Start background thread to make API calls to fetch card image data
+        let cardImageQueue = DispatchQueue(label: "cardImage-queue")
+        cardImageQueue.async {
+            for (index, card) in cards.enumerated() {
+                apiService.getCardImage(card: card, completion: { results in
+                    switch results {
+                        
+                    // Successful API call
+                    case .success(let cardImage):
+                        cards[index].image = cardImage
+                        
+                    // An error occurred during API call
+                    case .failure(let error):
+                        print(error.localizedDescription)
+                    }
+                })
+            }
+        }
         
         // If conducting UI testing, these specific commands will be executed
         if CommandLine.arguments.contains("--uitesting") {
