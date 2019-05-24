@@ -50,6 +50,14 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     
     // Update filtered card list whenever search bar text changes
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        if (CardListSearchBar.text == nil || CardListSearchBar.text == "") {
+            isSearching = false
+            view.endEditing(true)
+        } else {
+            isSearching = true
+            deactivateAllFilters()
+            filteredCards = cards.filter({ $0.name.lowercased().contains(CardListSearchBar.text!.lowercased()) })
+        }
         CardListTableView.reloadData()
     }
     
