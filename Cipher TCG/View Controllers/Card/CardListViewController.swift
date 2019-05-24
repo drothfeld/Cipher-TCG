@@ -25,7 +25,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        CardListTableView.reloadData()
+        refreshTable()
     }
     
     // Number of rows in table view
@@ -55,7 +55,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
             deactivateAllFilters()
             filteredCards = cards.filter({ $0.name.lowercased().contains(CardListSearchBar.text!.lowercased()) })
         }
-        CardListTableView.reloadData()
+        refreshTable()
     }
     
     // Hide keyboard activated from search bar when finished
@@ -78,7 +78,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         } else {
             isSearching = false
         }
-        CardListTableView.reloadData()
+        refreshTable()
     }
     
     // Hide keyboard when done key is pressed
@@ -114,7 +114,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
             SetNumberTextField.text = nil
             filteredCards = cards.filter({$0.color.isEqual(insignias[buttonPressed.tag].colorName)})
         }
-        CardListTableView.reloadData()
+        refreshTable()
     }
     
     // Order cards in table view depending on sort button state
@@ -127,10 +127,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         cards = sortByName ? cards.sorted { $0.name < $1.name } : cards.sorted { $0.seriesFull < $1.seriesFull }
         filteredCards = sortByName ? filteredCards.sorted { $0.name < $1.name } : filteredCards.sorted { $0.seriesFull < $1.seriesFull }
         
-        // Refresh table view and scroll to top
-        CardListTableView.reloadData()
-        CardListTableView.layoutIfNeeded()
-        CardListTableView.scrollToRow(at: IndexPath.init(row: 0, section: 0), at: .top, animated: false)
+        refreshTable()
     }
     
     // Preparing specific card for detail view
@@ -142,6 +139,13 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
                 controller.card = card
             }
         }
+    }
+    
+    // Refresh table view and scroll to top
+    func refreshTable() {
+        CardListTableView.reloadData()
+        CardListTableView.layoutIfNeeded()
+        CardListTableView.scrollToRow(at: IndexPath.init(row: 0, section: 0), at: .top, animated: false)
     }
 }
 

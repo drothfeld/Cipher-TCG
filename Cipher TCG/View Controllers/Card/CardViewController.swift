@@ -33,6 +33,7 @@ class CardViewController: UIViewController {
         configureView()
         setupSwipeGestures()
         fetchCardPrice()
+        fetchCardImage()
     }
     
     // Populates view controller UI elements with passed card data
@@ -74,6 +75,22 @@ class CardViewController: UIViewController {
             case .failure(let error):
                 print(error.localizedDescription)
                 self.CardPriceView.isHidden = true
+            }
+        })
+    }
+    
+    // Make API call to get card image data if not fetched already
+    func fetchCardImage() {
+        apiService.getCardImage(card: card, completion: { results in
+            switch results {
+            
+            // Successful API call
+            case .success(let cardImage):
+                self.CardImage.image = cardImage
+            
+            // An error occurred during API call
+            case .failure(let error):
+                print(error.localizedDescription)
             }
         })
     }

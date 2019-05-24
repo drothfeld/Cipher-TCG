@@ -12,18 +12,20 @@ import WebKit
 class APIService: NSObject {
     
     //
-    // Parses all cipher card data from Serenes Forest Wiki for Fire Emblem Cipher
+    // Parses all cipher card data from Serenes Forest Wiki text data for Fire Emblem Cipher
     //
     func loadCipherCardData() -> [Card] {
         var cardData = [String]()
         var cardList = [Card]()
         
+        // Attempt to open carddata.txt and assign contents by line
         if let cardDataURL = Bundle.main.url(forResource: "carddata", withExtension: "txt") {
             if let data = try? String(contentsOf: cardDataURL) {
                 cardData = data.components(separatedBy: "\n")
             }
         }
         
+        // Go through dumped text data and create card objects for each line
         for (index, cardLine) in cardData.enumerated() {
             if ((index != 0) && (index < cardData.count - 1)) {
                 let cardFields = cardLine.components(separatedBy: "    ")
@@ -35,6 +37,7 @@ class APIService: NSObject {
         }
         return cardList.sorted { $0.seriesFull < $1.seriesFull }
     }
+    
     
     //
     // Data scrapping TCGRepublic.com to get the current price of a card
@@ -134,5 +137,51 @@ class APIService: NSObject {
             }
             return
         }
+    }
+    
+    
+    //
+    // Gets the image of a single cipher card from Serenes Forest Wiki
+    //
+    func getCardImage(card: Card, completion: @escaping (Result<UIImage, Error>) -> Void) {
+        let imageURL = "https://fecipher.jp/wp-content/uploads/cards/images/" + card.imageFile
+        
+        // An error occurred when creating the API url endpoint
+        guard let url = URL(string: imageURL) else {
+            print("Error: cannot create URL")
+            return
+        }
+        let searchURL = URLRequest(url: url)
+        let config = URLSessionConfiguration.default
+        let session = URLSession(configuration: config)
+        
+        // Start URL session to get data from endpoint
+        session.dataTask(with: searchURL) { (data, _, error) in
+            
+            // An error occurred when making the API call
+            if let error = error {
+                DispatchQueue.main.async {
+                    completion(.failure(error))
+                }
+                return
+            }
+            
+            // An error occurred with the data that was retrieved
+            guard let data = data else {
+                print("Error: cannot get data")
+                return
+            }
+            
+            // An error occurred when trying to create UIImage from data
+            guard let image = UIImage(data: data) else {
+                print("Error: data is not a valid image")
+                return
+            }
+            
+            // Successfully created UIImage from card image url
+            DispatchQueue.main.async() {
+                completion(.success(image))
+            }
+        }.resume()
     }
 }
