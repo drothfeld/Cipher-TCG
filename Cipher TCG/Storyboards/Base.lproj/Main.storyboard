@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VWK-sJ-blK">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,51 +10,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Launch Screen View Controller-->
-        <scene sceneID="CbR-Kd-wZC">
-            <objects>
-                <viewController id="VWK-sJ-blK" customClass="LaunchScreenViewController" customModule="Cipher_TCG" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="2Sz-Cl-BRW">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loading_fetch.gif" translatesAutoresizingMaskIntoConstraints="NO" id="1lx-Jm-94x" userLabel="Splash Gif">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KjC-8o-YCv" userLabel="Loading Text">
-                                <rect key="frame" x="73" y="573" width="228" height="33"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Loading...">
-                                        <attributes>
-                                            <font key="NSFont" size="25" name="Kefa-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="1lx-Jm-94x" firstAttribute="leading" secondItem="JJe-7X-yeL" secondAttribute="leading" id="6TR-G0-2of"/>
-                            <constraint firstItem="1lx-Jm-94x" firstAttribute="top" secondItem="2Sz-Cl-BRW" secondAttribute="top" id="IA4-d9-avO"/>
-                            <constraint firstItem="JJe-7X-yeL" firstAttribute="trailing" secondItem="KjC-8o-YCv" secondAttribute="trailing" constant="74" id="UTw-Ye-Ozg"/>
-                            <constraint firstItem="KjC-8o-YCv" firstAttribute="leading" secondItem="JJe-7X-yeL" secondAttribute="leading" constant="73" id="gfm-9q-ZyH"/>
-                            <constraint firstItem="KjC-8o-YCv" firstAttribute="top" secondItem="JJe-7X-yeL" secondAttribute="top" constant="553" id="h43-rr-p9a"/>
-                            <constraint firstItem="JJe-7X-yeL" firstAttribute="bottom" secondItem="KjC-8o-YCv" secondAttribute="bottom" constant="61" id="pmK-nU-Qnh"/>
-                            <constraint firstItem="1lx-Jm-94x" firstAttribute="trailing" secondItem="JJe-7X-yeL" secondAttribute="trailing" id="s8l-wN-bOd"/>
-                            <constraint firstItem="1lx-Jm-94x" firstAttribute="bottom" secondItem="JJe-7X-yeL" secondAttribute="bottom" id="sHn-Ic-AdH"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="JJe-7X-yeL"/>
-                    </view>
-                    <connections>
-                        <outlet property="SplashGif" destination="1lx-Jm-94x" id="4OU-pk-gk2"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="smI-nm-Dcq" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-306.39999999999998" y="912.5937031484259"/>
-        </scene>
         <!--Menu View Controller-->
         <scene sceneID="Lfc-vH-Yy9">
             <objects>
@@ -104,25 +59,6 @@
                                             <segue destination="BYZ-38-t0r" kind="showDetail" id="CJv-bm-6cT"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u6Y-2S-tWM" userLabel="Button Skill List">
-                                        <rect key="frame" x="0.0" y="158" width="375" height="60"/>
-                                        <accessibility key="accessibilityConfiguration" label="main_menu_skill_list_button"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="60" id="1vR-VP-W78"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="25"/>
-                                        <state key="normal" title="Cipher Skill List">
-                                            <color key="titleColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
-                                                <integer key="value" value="0"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5dW-Qf-i9T" userLabel="Button Emblem Wiki">
                                         <rect key="frame" x="0.0" y="245" width="375" height="60"/>
                                         <constraints>
@@ -144,38 +80,14 @@
                                             <action selector="linkToEmblemWiki:" destination="o1b-Zz-bjG" eventType="touchUpInside" id="i0A-AN-Yab"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N0Y-2V-5hd" userLabel="Button Illustrators">
-                                        <rect key="frame" x="0.0" y="332" width="375" height="60"/>
-                                        <accessibility key="accessibilityConfiguration" label="main_menu_illustrators_button"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="60" id="e4z-9J-fxA"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="25"/>
-                                        <state key="normal" title="Illustrators">
-                                            <color key="titleColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
-                                                <integer key="value" value="0"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="N0Y-2V-5hd" firstAttribute="top" secondItem="5dW-Qf-i9T" secondAttribute="bottom" constant="27" id="0uH-W1-xud"/>
                                     <constraint firstItem="0C1-Uv-sAA" firstAttribute="top" secondItem="Tll-Wa-EGH" secondAttribute="top" constant="71" id="54t-7V-cJ9"/>
-                                    <constraint firstAttribute="trailing" secondItem="N0Y-2V-5hd" secondAttribute="trailing" id="6JT-iZ-1Gy"/>
-                                    <constraint firstItem="u6Y-2S-tWM" firstAttribute="leading" secondItem="Tll-Wa-EGH" secondAttribute="leading" id="PtQ-1d-1gc"/>
-                                    <constraint firstItem="u6Y-2S-tWM" firstAttribute="top" secondItem="0C1-Uv-sAA" secondAttribute="bottom" constant="27" id="QNY-iR-SeF"/>
-                                    <constraint firstAttribute="trailing" secondItem="u6Y-2S-tWM" secondAttribute="trailing" id="QOf-wK-ZZa"/>
+                                    <constraint firstAttribute="bottom" secondItem="5dW-Qf-i9T" secondAttribute="bottom" constant="122" id="DvO-hZ-7iG"/>
+                                    <constraint firstItem="5dW-Qf-i9T" firstAttribute="top" secondItem="Tll-Wa-EGH" secondAttribute="top" constant="245" id="NNE-uf-Xry"/>
                                     <constraint firstItem="0C1-Uv-sAA" firstAttribute="leading" secondItem="Tll-Wa-EGH" secondAttribute="leading" id="SRt-rb-ovD"/>
-                                    <constraint firstItem="N0Y-2V-5hd" firstAttribute="leading" secondItem="Tll-Wa-EGH" secondAttribute="leading" id="V4g-XD-DKi"/>
                                     <constraint firstAttribute="trailing" secondItem="5dW-Qf-i9T" secondAttribute="trailing" id="WGZ-ST-5zc"/>
-                                    <constraint firstItem="5dW-Qf-i9T" firstAttribute="top" secondItem="u6Y-2S-tWM" secondAttribute="bottom" constant="27" id="XdV-hK-d04"/>
                                     <constraint firstAttribute="trailing" secondItem="0C1-Uv-sAA" secondAttribute="trailing" id="eTt-XG-0ev"/>
                                     <constraint firstItem="5dW-Qf-i9T" firstAttribute="leading" secondItem="Tll-Wa-EGH" secondAttribute="leading" id="hAa-El-H3g"/>
                                 </constraints>
@@ -258,7 +170,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="PI4-7j-J4h" kind="custom" customClass="SegueFromRight" customModule="Cipher_TCG" customModuleProvider="target" id="v70-lw-KrB"/>
+                                            <segue destination="PI4-7j-J4h" kind="custom" identifier="toCardView" customClass="SegueFromRight" customModule="Cipher_TCG" customModuleProvider="target" id="v70-lw-KrB"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -401,18 +313,6 @@
                                             <action selector="filterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uE3-Ho-xyg"/>
                                         </connections>
                                     </button>
-                                    <button hidden="YES" opaque="NO" alpha="0.5" tag="8" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12e-6M-kFq" userLabel="Sort Favorites Button">
-                                        <rect key="frame" x="8" y="55" width="20" height="20"/>
-                                        <accessibility key="accessibilityConfiguration" label="filter_fav_cards_button"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="20" id="Lmw-Jg-PgJ"/>
-                                            <constraint firstAttribute="height" constant="20" id="ekR-Sd-grk"/>
-                                        </constraints>
-                                        <state key="normal" image="favorite_button.png"/>
-                                        <connections>
-                                            <action selector="filterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kxl-pG-aDO"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5eD-Wu-yRY" userLabel="Card List Order Button">
                                         <rect key="frame" x="36" y="55" width="20" height="20"/>
                                         <constraints>
@@ -452,17 +352,14 @@
                                     <constraint firstItem="Wrk-SM-0UN" firstAttribute="leading" secondItem="bCi-jW-AfE" secondAttribute="leading" id="A6g-KO-SyS"/>
                                     <constraint firstItem="Wrk-SM-0UN" firstAttribute="top" secondItem="ukX-uQ-UiB" secondAttribute="bottom" constant="5" id="A7I-wY-3wd"/>
                                     <constraint firstItem="bdo-cj-cLD" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="G2B-Ro-VPd"/>
-                                    <constraint firstItem="5eD-Wu-yRY" firstAttribute="leading" secondItem="12e-6M-kFq" secondAttribute="trailing" constant="8" id="IFr-5V-4yN"/>
                                     <constraint firstItem="RGG-Ki-YSV" firstAttribute="leading" secondItem="bCi-jW-AfE" secondAttribute="leading" constant="2" id="K1X-17-fIP"/>
                                     <constraint firstItem="208-gH-0b9" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="KgE-dF-8a5"/>
                                     <constraint firstAttribute="trailing" secondItem="hzd-cv-NpC" secondAttribute="trailing" id="Rru-4C-F0D"/>
-                                    <constraint firstItem="12e-6M-kFq" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="WvF-eK-sqf"/>
                                     <constraint firstItem="vGd-mX-B3G" firstAttribute="leading" secondItem="VfG-x6-Y9S" secondAttribute="trailing" constant="5" id="Xqn-qz-L2y"/>
                                     <constraint firstItem="aWU-MH-8xa" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="Y8n-r3-uAm"/>
                                     <constraint firstItem="RGG-Ki-YSV" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="3" id="aea-f4-xP7"/>
                                     <constraint firstItem="gLb-oz-BkV" firstAttribute="leading" secondItem="xjr-hE-RDH" secondAttribute="trailing" constant="5" id="apF-eW-cHk"/>
                                     <constraint firstItem="vGd-mX-B3G" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="att-in-sKr"/>
-                                    <constraint firstItem="12e-6M-kFq" firstAttribute="leading" secondItem="bCi-jW-AfE" secondAttribute="leading" constant="8" id="bSp-SU-GM0"/>
                                     <constraint firstItem="hzd-cv-NpC" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="aWU-MH-8xa" secondAttribute="trailing" symbolic="YES" id="gAq-9q-RXF"/>
                                     <constraint firstItem="VfG-x6-Y9S" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="gHV-K2-Zcg"/>
                                     <constraint firstItem="ukX-uQ-UiB" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="hsB-Pf-Lf8"/>
@@ -471,6 +368,7 @@
                                     <constraint firstItem="bdo-cj-cLD" firstAttribute="leading" secondItem="ukX-uQ-UiB" secondAttribute="trailing" constant="5" id="qXh-sR-FAi"/>
                                     <constraint firstAttribute="trailing" secondItem="Wrk-SM-0UN" secondAttribute="trailing" id="sbn-TW-g4I"/>
                                     <constraint firstItem="aWU-MH-8xa" firstAttribute="leading" secondItem="5eD-Wu-yRY" secondAttribute="trailing" constant="8" id="tPy-aC-2C7"/>
+                                    <constraint firstItem="5eD-Wu-yRY" firstAttribute="leading" secondItem="bCi-jW-AfE" secondAttribute="leading" constant="36" id="wtT-By-47y"/>
                                     <constraint firstItem="gLb-oz-BkV" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="zEj-Eh-ruM"/>
                                 </constraints>
                             </view>
@@ -491,7 +389,6 @@
                         <outlet property="CardListOrderButton" destination="5eD-Wu-yRY" id="wN9-ab-Zxg"/>
                         <outlet property="CardListSearchBar" destination="hzd-cv-NpC" id="2Ec-DG-mpf"/>
                         <outlet property="CardListTableView" destination="2ZS-RV-4qz" id="N8t-V0-sD4"/>
-                        <outlet property="FavoritesFilterButton" destination="12e-6M-kFq" id="hxD-MC-iO2"/>
                         <outlet property="SetNumberTextField" destination="aWU-MH-8xa" id="ae4-xV-bPX"/>
                         <outletCollection property="CardColorFilterButtons" destination="ukX-uQ-UiB" collectionClass="NSMutableArray" id="9xo-nZ-3J6"/>
                         <outletCollection property="CardColorFilterButtons" destination="bdo-cj-cLD" collectionClass="NSMutableArray" id="LSO-JP-Blw"/>
@@ -744,29 +641,15 @@
                                             </segue>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.25" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7nQ-Qg-TQE" userLabel="Favorite Button">
-                                        <rect key="frame" x="163" y="5" width="50" height="50"/>
-                                        <accessibility key="accessibilityConfiguration" label="toggle_fav_button"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="6d1-6V-UUi"/>
-                                            <constraint firstAttribute="width" constant="50" id="CYp-j0-ZBZ"/>
-                                        </constraints>
-                                        <state key="normal" image="favorite_button.png"/>
-                                        <connections>
-                                            <action selector="favoriteCardButtonPressed:" destination="PI4-7j-J4h" eventType="touchUpInside" id="fQ6-n6-Ev2"/>
-                                        </connections>
-                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="jue-K7-y9L" firstAttribute="top" secondItem="48J-Nh-E77" secondAttribute="top" constant="4" id="0eV-Xf-fHG"/>
-                                    <constraint firstItem="jue-K7-y9L" firstAttribute="leading" secondItem="7nQ-Qg-TQE" secondAttribute="trailing" constant="8" id="28Y-ha-Y1c"/>
                                     <constraint firstItem="rbt-jA-tCY" firstAttribute="leading" secondItem="48J-Nh-E77" secondAttribute="leading" constant="16" id="C9W-sp-PG4"/>
+                                    <constraint firstItem="jue-K7-y9L" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="rbt-jA-tCY" secondAttribute="trailing" constant="8" symbolic="YES" id="P0B-Lp-qxJ"/>
                                     <constraint firstAttribute="height" constant="61" id="awS-GD-XZj"/>
                                     <constraint firstItem="rbt-jA-tCY" firstAttribute="top" secondItem="48J-Nh-E77" secondAttribute="top" constant="13" id="ejX-c7-c8L"/>
                                     <constraint firstItem="wIQ-VU-HKz" firstAttribute="leading" secondItem="48J-Nh-E77" secondAttribute="leading" id="imH-iQ-Wsu"/>
-                                    <constraint firstItem="7nQ-Qg-TQE" firstAttribute="top" secondItem="48J-Nh-E77" secondAttribute="top" constant="5" id="liw-o7-uNW"/>
-                                    <constraint firstItem="7nQ-Qg-TQE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="rbt-jA-tCY" secondAttribute="trailing" constant="8" symbolic="YES" id="m0e-Mj-YuR"/>
                                     <constraint firstItem="wIQ-VU-HKz" firstAttribute="top" secondItem="jue-K7-y9L" secondAttribute="bottom" constant="3" id="mXQ-Lu-l4p"/>
                                     <constraint firstAttribute="trailing" secondItem="wIQ-VU-HKz" secondAttribute="trailing" id="qP9-dH-Sat"/>
                                     <constraint firstAttribute="trailing" secondItem="jue-K7-y9L" secondAttribute="trailing" constant="8" id="wSi-wX-5Nh"/>
@@ -791,15 +674,11 @@
                         <outlet property="CardInsigniaImage" destination="X0l-0g-e8M" id="wtN-9s-sxV"/>
                         <outlet property="CardInsigniaText" destination="4v8-H0-SNk" id="uZg-D8-YzP"/>
                         <outlet property="CardNameText" destination="baE-Rw-07R" id="Ygj-y9-HLy"/>
-                        <outlet property="CardNameView" destination="7pu-RY-wnb" id="dsc-S8-9Ia"/>
                         <outlet property="CardPriceText" destination="NGS-De-mBX" id="93Z-zx-pLR"/>
                         <outlet property="CardPriceView" destination="h9S-WP-D0A" id="Bhl-ab-a7w"/>
                         <outlet property="CardRarityText" destination="1xQ-v6-oka" id="yNC-PV-qqF"/>
                         <outlet property="CardSeriesText" destination="9im-wi-VKQ" id="VAg-3Q-nyu"/>
                         <outlet property="CardSkillsText" destination="qER-V9-n48" id="dLY-0c-aHc"/>
-                        <outlet property="MenuBarFavoriteButton" destination="7nQ-Qg-TQE" id="ziB-mH-Ien"/>
-                        <outlet property="RarityTitleText" destination="Ib0-NA-Qaa" id="3af-Rr-CjQ"/>
-                        <outlet property="SeriesTitleText" destination="Jky-fa-qgr" id="baJ-jK-0uO"/>
                         <outlet property="SkillsView" destination="TrZ-pl-g5P" id="Y81-di-9r9"/>
                     </connections>
                 </viewController>
@@ -819,8 +698,6 @@
         <image name="30px-Yellow.png" width="30" height="30"/>
         <image name="card_placeholder.png" width="500" height="688"/>
         <image name="cipher_header.png" width="1224" height="444"/>
-        <image name="favorite_button.png" width="120" height="120"/>
-        <image name="loading_fetch.gif" width="600" height="400"/>
         <image name="sort_by_name_button.png" width="69.599998474121094" height="69.360000610351562"/>
     </resources>
     <inferredMetricsTieBreakers>

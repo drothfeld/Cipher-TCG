@@ -24,11 +24,5 @@ struct Insignia {
         self.colorName = colorName
         self.iconImageName = iconImageName ?? "30px-Colorless.png"
         self.iconImage = (iconImageName != "30px-Colorless.png") ? UIImage(named: iconImageName!) : UIImage(named: "30px-Colorless.png")
-        
-//        if let image = UIImage(named: iconImageName!) {
-//            self.iconImage = image
-//        } else {
-//            self.iconImage = UIImage(named: "30px-Colorless.png")
-//        }
     }
 }

@@ -12,7 +12,6 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     // Storyboard Outlets
     @IBOutlet weak var CardListTableView: UITableView!
     @IBOutlet weak var CardListSearchBar: UISearchBar!
-    @IBOutlet weak var FavoritesFilterButton: UIButton!
     @IBOutlet weak var CardListOrderButton: UIButton!
     @IBOutlet weak var SetNumberTextField: UITextField!
     @IBOutlet var CardColorFilterButtons: Array<UIButton>!
@@ -131,10 +130,12 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     
     // Preparing specific card for detail view
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let indexPath = CardListTableView.indexPathForSelectedRow {
-            let card = cards[indexPath.row]
-            let controller = segue.destination as! CardViewController
-            controller.card = card
+        if (segue.identifier == "toCardView") {
+            if let indexPath = CardListTableView.indexPathForSelectedRow {
+                let card = isSearching ? filteredCards[indexPath.row] : cards[indexPath.row]
+                let controller = segue.destination as! CardViewController
+                controller.card = card
+            }
         }
     }
 }
