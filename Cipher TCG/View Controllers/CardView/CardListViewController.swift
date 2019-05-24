@@ -9,8 +9,7 @@
 import UIKit
 
 class CardListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate, UITextFieldDelegate {
-    
-    // User Interface Outlets
+    // Storyboard Outlets
     @IBOutlet weak var CardListTableView: UITableView!
     @IBOutlet weak var CardListSearchBar: UISearchBar!
     @IBOutlet weak var FavoritesFilterButton: UIButton!
@@ -42,18 +41,20 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cardList = isSearching ? filteredCards : cards
         let cell = tableView.dequeueReusableCell(withIdentifier: "customCell", for: indexPath)
+        
+        // Cell data value fields
         cell.textLabel?.text = cardList[indexPath.item].name
         cell.detailTextLabel?.text = cardList[indexPath.item].seriesFull
         cell.imageView?.image = UIImage(named: "card_placeholder.png")
         return cell
     }
     
-    // Search bar text is changed
+    // Update filtered card list whenever search bar text changes
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         CardListTableView.reloadData()
     }
     
-    // Hide keyboard activated from search bar
+    // Hide keyboard activated from search bar when finished
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         self.CardListSearchBar.endEditing(true)
     }
@@ -63,16 +64,12 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         setFilterValue = SetNumberTextField.text!
         deactivateAllFilters()
         
-        // Add starting 0 to singular digit inputs
-        if ((Int(setFilterValue) ?? 0) < 10) {
-            setFilterValue = "0" + setFilterValue
-        }
-        
-        // Filtering by box set text field value
+        // Filter cards by the entered set number
         if (setFilterValue != "") {
-            cards = cards.filter({
-                String($0.set[$0.set.index($0.set.startIndex, offsetBy: 1)...$0.set.index($0.set.startIndex, offsetBy: 2)]) == String(setFilterValue)
-            })
+            if ((Int(setFilterValue) ?? 0) < 10) {
+                setFilterValue = "0" + setFilterValue
+            }
+            filteredCards = cards.filter({ $0.set == ("B" + setFilterValue) })
             isSearching = true
         } else {
             isSearching = false
@@ -98,9 +95,13 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     // Card color filter button pressed
     @IBAction func filterButtonPressed(_ sender: Any) {
         let buttonPressed = sender as! UIButton
+        
+        // Pressed color filter button was already active, deactivate it
         if (buttonPressed.alpha == 1.0) {
             isSearching = false
             buttonPressed.alpha = 0.5
+            
+        // Deactivate other filters and activate pressed color filter button
         } else {
             isSearching = true
             buttonPressed.alpha = 1.0
@@ -112,11 +113,17 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         CardListTableView.reloadData()
     }
     
-    // Order cards in table view either numerically or alphabetically)
+    // Order cards in table view depending on sort button state
     @IBAction func orderCardListButtonPressed(_ sender: Any) {
+        // Update sort type button values
         sortByName = !sortByName
         sortByName ? CardListOrderButton.setImage(#imageLiteral(resourceName: "sort_by_number_button.png"), for: []) : CardListOrderButton.setImage(#imageLiteral(resourceName: "sort_by_name_button.png"), for: [])
+        
+        // Sort both card lists by name or number
         cards = sortByName ? cards.sorted { $0.name < $1.name } : cards.sorted { $0.seriesFull < $1.seriesFull }
+        filteredCards = sortByName ? filteredCards.sorted { $0.name < $1.name } : filteredCards.sorted { $0.seriesFull < $1.seriesFull }
+        
+        // Refresh table view and scroll to top
         CardListTableView.reloadData()
         CardListTableView.layoutIfNeeded()
         CardListTableView.scrollToRow(at: IndexPath.init(row: 0, section: 0), at: .top, animated: false)

@@ -401,7 +401,7 @@
                                             <action selector="filterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uE3-Ho-xyg"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.5" tag="8" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12e-6M-kFq" userLabel="Sort Favorites Button">
+                                    <button hidden="YES" opaque="NO" alpha="0.5" tag="8" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12e-6M-kFq" userLabel="Sort Favorites Button">
                                         <rect key="frame" x="8" y="55" width="20" height="20"/>
                                         <accessibility key="accessibilityConfiguration" label="filter_fav_cards_button"/>
                                         <constraints>
