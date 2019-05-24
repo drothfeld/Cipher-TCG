@@ -10,45 +10,34 @@ import UIKit
 import WebKit
 
 class CardViewController: UIViewController {
-    // UI Elements
-    @IBOutlet weak var HeaderView: UIView!
+    // Storyboard Outlets
     @IBOutlet weak var CardImage: UIImageView!
     @IBOutlet weak var CardNameText: UILabel!
     @IBOutlet weak var CardSeriesText: UILabel!
     @IBOutlet weak var SeriesTitleText: UILabel!
     @IBOutlet weak var CardInsigniaImage: UIImageView!
     @IBOutlet weak var CardInsigniaText: UILabel!
-    @IBOutlet weak var CardIllustratorText: UILabel!
-    @IBOutlet weak var IllustratorTitleText: UILabel!
     @IBOutlet weak var CardRarityText: UILabel!
     @IBOutlet weak var RarityTitleText: UILabel!
-    @IBOutlet weak var CardSupportingSkillText: UITextView!
-    @IBOutlet weak var SupportingSkillTitleText: UILabel!
-    @IBOutlet weak var CardSupportingSkillImage: UIImageView!
     @IBOutlet weak var CardSkillsText: UITextView!
     @IBOutlet weak var CardPriceText: UILabel!
     @IBOutlet weak var MenuBarFavoriteButton: UIButton!
     @IBOutlet weak var CardInfoView: UIView!
     @IBOutlet weak var CardPriceView: UIView!
-    @IBOutlet weak var SupportingSkillView: UIView!
     @IBOutlet weak var SkillsView: UIView!
     @IBOutlet weak var CardNameView: UIView!
     
-    // Defined Values
-    var detailCard: Card? {
-        didSet {
-            configureView()
-        }
-    }
+    // Controller Values
+    var card: Card!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.accessibilityIdentifier = "cardView"
         configureView()
         setupSwipeGestures()
         
         // Data scraping TCGRepublic.com to get current card prices
-        setCurrentCardPrice(card: detailCard!, priceLabel: CardPriceText)
+        //setCurrentCardPrice(card: card!, priceLabel: CardPriceText)
     }
     
     // Returns the current going price of a specific card
@@ -99,14 +88,13 @@ class CardViewController: UIViewController {
                         // The current substring should contain the price at this point
                         if (char == "<" && priceTagFound) {
                             let cardPrice = currentSubstring.trimmingCharacters(in: .whitespaces)
-                            print("Card: " + (self.detailCard?.name)!)
+                            print("Card: " + (self.card?.name)!)
                             print("Price: " + cardPrice)
                             
                             // Make sure running in main thread when touching UIKit
                             DispatchQueue.main.async {
                                 priceLabel.text = "$" + cardPrice
                             }
-                            
                             return
                         }
                         
@@ -143,78 +131,37 @@ class CardViewController: UIViewController {
         self.view.addGestureRecognizer(swipeRight)
     }
     
-    // User swipes right
+    // User swipes right to return to the card list view
     @objc func respondToSwipeGesture(gesture: UIGestureRecognizer) {
         performSegue(withIdentifier: "backToCardList", sender: self)
     }
     
-    // Setting View
+    // Populates view controller UI elements with passed card data
     func configureView() {
-        if let detailCard = detailCard {
-            
-            // UI Elements Being Manipulated
-            if let CardImage = CardImage,
-                let CardNameText = CardNameText,
-                let CardSeriesText = CardSeriesText,
-                let CardInsigniaImage = CardInsigniaImage,
-                let CardInsigniaText = CardInsigniaText,
-                let CardIllustratorText = CardIllustratorText,
-                let CardSupportingSkillText = CardSupportingSkillText,
-                let SupportingSkillTitleText = SupportingSkillTitleText,
-                let CardSupportingSkillImage = CardSupportingSkillImage,
-                let CardSkillsText = CardSkillsText,
-                let HeaderView = HeaderView {
-                
-                
-                // Assigning Values to UI Elements
-                CardNameText.text = detailCard.name
-                CardNameText.accessibilityLabel = "CardNameText"
-                CardNameText.accessibilityValue = detailCard.name
-                CardNameText.minimumScaleFactor = 0.10
-                CardNameText.adjustsFontSizeToFitWidth = true
-                CardSeriesText.text = detailCard.imageFile
-                CardSeriesText.accessibilityLabel = "CardSeriesText"
-                CardSeriesText.accessibilityValue = detailCard.imageFile
-                CardInsigniaText.text = detailCard.color
-                CardInsigniaText.accessibilityLabel = "CardInsigniaText"
-                CardInsigniaText.accessibilityValue = detailCard.color
-                CardRarityText.text = detailCard.rarity
-                
-                // Changing background theme colors to chosen card insignia
-//                CardInfoView.backgroundColor = detailCard.insignia.color
-//                CardPriceView.backgroundColor = detailCard.insignia.color
-//                SkillsView.backgroundColor = detailCard.insignia.color
-                
-                // Supporting Skill Section and Text
-//                if (detailCard.supportingSkill.type != "None") {
-//                    SupportingSkillView.backgroundColor = detailCard.insignia.color
-//                    CardSupportingSkillText.text = detailCard.supportingSkill.textDescription
-//                    SupportingSkillTitleText.text = detailCard.supportingSkill.type
-//                    SupportingSkillTitleText.minimumScaleFactor = 0.10
-//                    SupportingSkillTitleText.adjustsFontSizeToFitWidth = true
-//                    CardSupportingSkillImage.image = detailCard.supportingSkill.iconImage
-//                } else {
-//                    SupportingSkillView.isHidden = true
-//                }
-                
-                // Main Skill Section and Text
-//                if (detailCard.skills.count == 0) {
-//                    SkillsView.isHidden = true
-//                } else {
-//                    let attrs = [NSAttributedString.Key.font : UIFont.boldSystemFont(ofSize: 14)]
-//                    let attributedString = NSMutableAttributedString(string: "", attributes: attrs)
-//                    for (_, skill) in detailCard.skills.enumerated() {
-//                        let skillName = NSMutableAttributedString(string: skill.name + " - ", attributes: attrs)
-//                        let skillDescription = NSMutableAttributedString(string: skill.textdescription + "\n \n")
-//                        attributedString.append(skillName)
-//                        attributedString.append(skillDescription)
-//
-//                        attributedString.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.white, range: NSRange(location: 0, length: attributedString.length))
-//                    }
-//                    CardSkillsText.attributedText = attributedString
-//                }
-            }
+        // Setting storyboard component values to card data
+        CardNameText.text = card.name
+        CardNameText.minimumScaleFactor = 0.10
+        CardNameText.adjustsFontSizeToFitWidth = true
+        CardSeriesText.text = card.seriesFull
+        CardRarityText.text = card.rarity
+        
+        // Setting storyboard component values to insignia data
+        if let insignia = card.insignia {
+            CardInfoView.backgroundColor = insignia.color
+            CardPriceView.backgroundColor = insignia.color
+            SkillsView.backgroundColor = insignia.color
+            CardInsigniaText.text = insignia.name
+            CardInsigniaImage.image = insignia.iconImage
         }
+        
+        // Setting storyboard component values to skill data
+        let attributedString = NSMutableAttributedString(string: "", attributes: [NSAttributedString.Key.font : UIFont.boldSystemFont(ofSize: 14)])
+        attributedString.append(NSMutableAttributedString(string: card.skill_1 + "\n \n"))
+        attributedString.append(NSMutableAttributedString(string: card.skill_2 + "\n \n"))
+        attributedString.append(NSMutableAttributedString(string: card.skill_3 + "\n \n"))
+        attributedString.append(NSMutableAttributedString(string: card.skill_4 + "\n \n"))
+        attributedString.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.white, range: NSRange(location: 0, length: attributedString.length))
+        CardSkillsText.attributedText = attributedString
     }
 }
 

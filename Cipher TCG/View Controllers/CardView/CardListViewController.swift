@@ -134,7 +134,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         if let indexPath = CardListTableView.indexPathForSelectedRow {
             let card = cards[indexPath.row]
             let controller = segue.destination as! CardViewController
-            controller.detailCard = card
+            controller.card = card
         }
     }
 }
