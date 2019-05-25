@@ -18,16 +18,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cipher_launch_screen.png" translatesAutoresizingMaskIntoConstraints="NO" id="e0F-N3-RQX" userLabel="Launch Screen Image">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cipher_header.png" translatesAutoresizingMaskIntoConstraints="NO" id="xFj-66-SP5" userLabel="Cipher Logo">
+                                <rect key="frame" x="20" y="44" width="374" height="543"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="e0F-N3-RQX" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="WnD-Z1-l1Q"/>
-                            <constraint firstItem="e0F-N3-RQX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cbx-RD-fru"/>
-                            <constraint firstItem="e0F-N3-RQX" firstAttribute="bottom" secondItem="Ze5-6b-2t3" secondAttribute="bottom" id="iMe-cn-QSo"/>
-                            <constraint firstItem="e0F-N3-RQX" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="kQJ-Vc-RWd"/>
+                            <constraint firstItem="xFj-66-SP5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="KmH-jg-GTB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xFj-66-SP5" secondAttribute="bottom" constant="275" id="jjV-SZ-uF0"/>
+                            <constraint firstItem="xFj-66-SP5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="sp6-EM-gRf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xFj-66-SP5" secondAttribute="trailing" constant="20" id="tO1-cQ-ERg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -38,6 +38,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="cipher_launch_screen.png" width="238.93804931640625" height="425"/>
+        <image name="cipher_header.png" width="1224" height="444"/>
     </resources>
 </document>
