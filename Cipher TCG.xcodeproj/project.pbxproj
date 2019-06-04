@@ -33,6 +33,7 @@
 		B05D319720EA9ACD008599B3 /* 30px-Colorless.png in Resources */ = {isa = PBXBuildFile; fileRef = B05D319620EA9ACD008599B3 /* 30px-Colorless.png */; };
 		B08A6B1F201661C300603113 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08A6B1E201661C300603113 /* MenuViewController.swift */; };
 		B08A6B3D201900AD00603113 /* cipher_launch_screen.png in Resources */ = {isa = PBXBuildFile; fileRef = B08A6B3C201900AD00603113 /* cipher_launch_screen.png */; };
+		B08C81FE22A63C9100B7DA6C /* company_logo_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B08C81FD22A63C9100B7DA6C /* company_logo_icon.png */; };
 		B090747F22553C3800F4978F /* Cipher_TCGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B090747E22553C3800F4978F /* Cipher_TCGUITests.swift */; };
 		B09EA0672106421C00FDCCEF /* card_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = B09EA0662106421C00FDCCEF /* card_placeholder.png */; };
 		B0B0233222519600001853E7 /* Cipher_TCGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B0233122519600001853E7 /* Cipher_TCGTests.swift */; };
@@ -87,6 +88,7 @@
 		B05D319620EA9ACD008599B3 /* 30px-Colorless.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "30px-Colorless.png"; sourceTree = "<group>"; };
 		B08A6B1E201661C300603113 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		B08A6B3C201900AD00603113 /* cipher_launch_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cipher_launch_screen.png; sourceTree = "<group>"; };
+		B08C81FD22A63C9100B7DA6C /* company_logo_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = company_logo_icon.png; sourceTree = "<group>"; };
 		B090747C22553C3800F4978F /* Cipher TCGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cipher TCGUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B090747E22553C3800F4978F /* Cipher_TCGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cipher_TCGUITests.swift; sourceTree = "<group>"; };
 		B090748022553C3800F4978F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -268,6 +270,7 @@
 		B054BBCD200E7C03004159A6 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				B08C81FD22A63C9100B7DA6C /* company_logo_icon.png */,
 				B08A6B3C201900AD00603113 /* cipher_launch_screen.png */,
 				B03D58032012D169007A3E97 /* cipher_header.png */,
 				B09EA0662106421C00FDCCEF /* card_placeholder.png */,
@@ -415,6 +418,7 @@
 				B03D57E12012CCEF007A3E97 /* 30px-Purple.png in Resources */,
 				B054BBBA200E68AE004159A6 /* Assets.xcassets in Resources */,
 				B03D57E02012CCEF007A3E97 /* 30px-Green.png in Resources */,
+				B08C81FE22A63C9100B7DA6C /* company_logo_icon.png in Resources */,
 				B03D57DD2012CCEF007A3E97 /* 30px-Red.png in Resources */,
 				B0E4224120191DCE00CA879C /* README.md in Resources */,
 				B09EA0672106421C00FDCCEF /* card_placeholder.png in Resources */,
