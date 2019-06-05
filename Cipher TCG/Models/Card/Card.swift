@@ -8,7 +8,7 @@
 
 import UIKit
 
-struct Card {
+struct Card: Equatable {
     // Fields
     var name: String
     var set: String
@@ -62,5 +62,8 @@ struct Card {
             self.seriesFull = imageFile
         }
     }
+    
+    // Returns true if two cards are the same
+    static func == (lhs: Card, rhs: Card) -> Bool { return (lhs.imageFile == rhs.imageFile) }
 }
 

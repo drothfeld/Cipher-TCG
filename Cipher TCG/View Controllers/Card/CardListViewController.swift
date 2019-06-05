@@ -35,13 +35,32 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     
     // Table view cell data
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cardList = isSearching ? filteredCards : cards
+        var cardList = isSearching ? filteredCards : cards
         let cell = tableView.dequeueReusableCell(withIdentifier: "customCell", for: indexPath)
+        
+        // Fetch card image data if is still placeholder
+        if (cardList[indexPath.item].image == #imageLiteral(resourceName: "card_placeholder.png")) {
+            DispatchQueue.main.async {
+                apiService.getCardImage(card: cardList[indexPath.item], completion: { results in
+                    switch results {
+                        
+                    // Successful API call
+                    case .success(let cardImage):
+                        if let index = cards.firstIndex(of: cardList[indexPath.item]) { cards[index].image = cardImage }
+                        
+                    // An error occurred during API call
+                    case .failure(let error):
+                        print(error.localizedDescription)
+                    }
+                })
+            }
+        }
         
         // Cell data value fields
         cell.textLabel?.text = cardList[indexPath.item].name
         cell.detailTextLabel?.text = cardList[indexPath.item].seriesFull
         cell.imageView?.image = cardList[indexPath.item].image
+        
         return cell
     }
     
