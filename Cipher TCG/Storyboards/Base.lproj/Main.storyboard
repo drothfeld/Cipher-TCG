@@ -569,10 +569,6 @@
                                             </label>
                                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="GTQ-Yk-Y7P" userLabel="Card Price Activity Indicator">
                                                 <rect key="frame" x="31" y="14" width="20" height="20"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="20" id="lGQ-0Z-NkD"/>
-                                                    <constraint firstAttribute="height" constant="20" id="sK0-C7-rve"/>
-                                                </constraints>
                                                 <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </activityIndicatorView>
                                         </subviews>
@@ -623,10 +619,6 @@
                                     </view>
                                     <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="k2i-5q-Zsx" userLabel="Card Image Activity Indicator">
                                         <rect key="frame" x="97" y="131" width="37" height="37"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="37" id="2cj-mo-sUr"/>
-                                            <constraint firstAttribute="width" constant="37" id="yRm-iy-LKJ"/>
-                                        </constraints>
                                         <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </activityIndicatorView>
                                 </subviews>
@@ -637,13 +629,11 @@
                                     <constraint firstItem="TrZ-pl-g5P" firstAttribute="leading" secondItem="6RG-iI-hrQ" secondAttribute="leading" constant="-30" id="Bw8-5a-fn0"/>
                                     <constraint firstItem="h9S-WP-D0A" firstAttribute="top" secondItem="7Bb-mG-sw0" secondAttribute="bottom" constant="8" id="CMH-4b-LmW"/>
                                     <constraint firstItem="7Bb-mG-sw0" firstAttribute="top" secondItem="7pu-RY-wnb" secondAttribute="bottom" constant="8" id="EM1-hs-2LD"/>
-                                    <constraint firstItem="h9S-WP-D0A" firstAttribute="leading" secondItem="k2i-5q-Zsx" secondAttribute="trailing" constant="138" id="FGe-Iw-XF0"/>
                                     <constraint firstItem="TrZ-pl-g5P" firstAttribute="top" secondItem="TLJ-zq-3rn" secondAttribute="bottom" constant="16" id="HoU-J6-SWD"/>
                                     <constraint firstItem="k2i-5q-Zsx" firstAttribute="leading" secondItem="6RG-iI-hrQ" secondAttribute="leading" constant="97" id="IGp-pO-9YO"/>
                                     <constraint firstItem="7pu-RY-wnb" firstAttribute="top" secondItem="6RG-iI-hrQ" secondAttribute="top" constant="4" id="IIi-mf-iRB"/>
                                     <constraint firstItem="k2i-5q-Zsx" firstAttribute="top" secondItem="7pu-RY-wnb" secondAttribute="bottom" constant="111" id="SgR-Es-6ca"/>
                                     <constraint firstAttribute="trailing" secondItem="7pu-RY-wnb" secondAttribute="trailing" id="WBG-0H-yp3"/>
-                                    <constraint firstItem="TrZ-pl-g5P" firstAttribute="top" secondItem="k2i-5q-Zsx" secondAttribute="bottom" constant="176" id="XPF-o4-zda"/>
                                     <constraint firstItem="TLJ-zq-3rn" firstAttribute="leading" secondItem="6RG-iI-hrQ" secondAttribute="leading" constant="8" id="Z7s-U3-Vdu"/>
                                     <constraint firstAttribute="trailing" secondItem="7Bb-mG-sw0" secondAttribute="trailing" constant="-44" id="nBq-X6-ZAG"/>
                                     <constraint firstAttribute="trailing" secondItem="h9S-WP-D0A" secondAttribute="trailing" constant="-44" id="sYS-S2-ReQ"/>
