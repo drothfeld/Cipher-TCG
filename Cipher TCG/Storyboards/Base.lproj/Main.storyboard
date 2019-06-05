@@ -558,8 +558,8 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h9S-WP-D0A" userLabel="Card Price View">
                                         <rect key="frame" x="272" y="125" width="147" height="48"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$00.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NGS-De-mBX" userLabel="Card Price Text">
-                                                <rect key="frame" x="8" y="11" width="80" height="27"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NGS-De-mBX" userLabel="Card Price Text">
+                                                <rect key="frame" x="8" y="11" width="15" height="27"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="27" id="eMc-ky-W9f"/>
                                                 </constraints>
@@ -567,12 +567,22 @@
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="GTQ-Yk-Y7P" userLabel="Card Price Activity Indicator">
+                                                <rect key="frame" x="31" y="14" width="20" height="20"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="20" id="lGQ-0Z-NkD"/>
+                                                    <constraint firstAttribute="height" constant="20" id="sK0-C7-rve"/>
+                                                </constraints>
+                                                <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </activityIndicatorView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.74587094783782959" green="0.0" blue="0.11550974100828171" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
+                                            <constraint firstItem="GTQ-Yk-Y7P" firstAttribute="top" secondItem="h9S-WP-D0A" secondAttribute="top" constant="14" id="4ru-Ah-HSf"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="NGS-De-mBX" secondAttribute="trailing" constant="20" symbolic="YES" id="9bo-rH-326"/>
                                             <constraint firstAttribute="width" constant="147" id="QCz-AI-rvk"/>
                                             <constraint firstAttribute="height" constant="48" id="XMn-Pg-6qX"/>
+                                            <constraint firstItem="GTQ-Yk-Y7P" firstAttribute="leading" secondItem="NGS-De-mBX" secondAttribute="trailing" constant="8" id="g3v-2t-55I"/>
                                             <constraint firstItem="NGS-De-mBX" firstAttribute="top" secondItem="h9S-WP-D0A" secondAttribute="top" constant="11" id="q9C-HL-SWa"/>
                                             <constraint firstItem="NGS-De-mBX" firstAttribute="leading" secondItem="h9S-WP-D0A" secondAttribute="leading" constant="8" id="r1l-H5-ePe"/>
                                         </constraints>
@@ -611,6 +621,14 @@
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                     </view>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="k2i-5q-Zsx" userLabel="Card Image Activity Indicator">
+                                        <rect key="frame" x="97" y="131" width="37" height="37"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="37" id="2cj-mo-sUr"/>
+                                            <constraint firstAttribute="width" constant="37" id="yRm-iy-LKJ"/>
+                                        </constraints>
+                                        <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </activityIndicatorView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -619,9 +637,13 @@
                                     <constraint firstItem="TrZ-pl-g5P" firstAttribute="leading" secondItem="6RG-iI-hrQ" secondAttribute="leading" constant="-30" id="Bw8-5a-fn0"/>
                                     <constraint firstItem="h9S-WP-D0A" firstAttribute="top" secondItem="7Bb-mG-sw0" secondAttribute="bottom" constant="8" id="CMH-4b-LmW"/>
                                     <constraint firstItem="7Bb-mG-sw0" firstAttribute="top" secondItem="7pu-RY-wnb" secondAttribute="bottom" constant="8" id="EM1-hs-2LD"/>
+                                    <constraint firstItem="h9S-WP-D0A" firstAttribute="leading" secondItem="k2i-5q-Zsx" secondAttribute="trailing" constant="138" id="FGe-Iw-XF0"/>
                                     <constraint firstItem="TrZ-pl-g5P" firstAttribute="top" secondItem="TLJ-zq-3rn" secondAttribute="bottom" constant="16" id="HoU-J6-SWD"/>
+                                    <constraint firstItem="k2i-5q-Zsx" firstAttribute="leading" secondItem="6RG-iI-hrQ" secondAttribute="leading" constant="97" id="IGp-pO-9YO"/>
                                     <constraint firstItem="7pu-RY-wnb" firstAttribute="top" secondItem="6RG-iI-hrQ" secondAttribute="top" constant="4" id="IIi-mf-iRB"/>
+                                    <constraint firstItem="k2i-5q-Zsx" firstAttribute="top" secondItem="7pu-RY-wnb" secondAttribute="bottom" constant="111" id="SgR-Es-6ca"/>
                                     <constraint firstAttribute="trailing" secondItem="7pu-RY-wnb" secondAttribute="trailing" id="WBG-0H-yp3"/>
+                                    <constraint firstItem="TrZ-pl-g5P" firstAttribute="top" secondItem="k2i-5q-Zsx" secondAttribute="bottom" constant="176" id="XPF-o4-zda"/>
                                     <constraint firstItem="TLJ-zq-3rn" firstAttribute="leading" secondItem="6RG-iI-hrQ" secondAttribute="leading" constant="8" id="Z7s-U3-Vdu"/>
                                     <constraint firstAttribute="trailing" secondItem="7Bb-mG-sw0" secondAttribute="trailing" constant="-44" id="nBq-X6-ZAG"/>
                                     <constraint firstAttribute="trailing" secondItem="h9S-WP-D0A" secondAttribute="trailing" constant="-44" id="sYS-S2-ReQ"/>
@@ -694,10 +716,12 @@
                     </view>
                     <connections>
                         <outlet property="CardImage" destination="TLJ-zq-3rn" id="pbk-Px-PJU"/>
+                        <outlet property="CardImageSpinner" destination="k2i-5q-Zsx" id="QZF-7g-jai"/>
                         <outlet property="CardInfoView" destination="7Bb-mG-sw0" id="XwP-oS-yBY"/>
                         <outlet property="CardInsigniaImage" destination="X0l-0g-e8M" id="wtN-9s-sxV"/>
                         <outlet property="CardInsigniaText" destination="4v8-H0-SNk" id="uZg-D8-YzP"/>
                         <outlet property="CardNameText" destination="baE-Rw-07R" id="Ygj-y9-HLy"/>
+                        <outlet property="CardPriceSpinner" destination="GTQ-Yk-Y7P" id="wud-y1-3Yb"/>
                         <outlet property="CardPriceText" destination="NGS-De-mBX" id="93Z-zx-pLR"/>
                         <outlet property="CardPriceView" destination="h9S-WP-D0A" id="Bhl-ab-a7w"/>
                         <outlet property="CardRarityText" destination="1xQ-v6-oka" id="yNC-PV-qqF"/>
@@ -726,7 +750,7 @@
         <image name="sort_by_name_button.png" width="69.599998474121094" height="69.360000610351562"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="CJv-bm-6cT"/>
+        <segue reference="8ih-mp-VFz"/>
         <segue reference="QE9-aR-HPz"/>
     </inferredMetricsTieBreakers>
 </document>

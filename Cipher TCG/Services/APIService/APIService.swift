@@ -63,8 +63,8 @@ class APIService: NSObject {
         let end = series.index(series.endIndex, offsetBy: endOffset)
         let seriesNumber = Int(series[start ..< end])! - 1
 
-        // Do not search store webpage for sets that are not yet released
-        if (seriesNumber < latestSetReleased) {
+        // Do not search store webpage for sets that are not yet released or promo cards
+        if (seriesNumber < latestSetReleased && series.first != "P") {
 
             // Scraping each web page of cards for the given cards series number
             for pageURL in cardPriceURLs[seriesNumber] {

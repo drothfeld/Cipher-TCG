@@ -22,6 +22,8 @@ class CardViewController: UIViewController {
     @IBOutlet weak var CardInfoView: UIView!
     @IBOutlet weak var CardPriceView: UIView!
     @IBOutlet weak var SkillsView: UIView!
+    @IBOutlet weak var CardPriceSpinner: UIActivityIndicatorView!
+    @IBOutlet weak var CardImageSpinner: UIActivityIndicatorView!
     
     // Controller Values
     var card: Card!
@@ -70,6 +72,7 @@ class CardViewController: UIViewController {
             // Successful API call
             case .success(let cardPrice):
                 self.CardPriceText.text = (cardPrice != "N/A") ? ("$" + cardPrice) : ("$ --")
+                self.CardPriceSpinner.stopAnimating()
                 
             // An error occurred during API call
             case .failure(let error):
@@ -88,6 +91,7 @@ class CardViewController: UIViewController {
                 // Successful API call
                 case .success(let cardImage):
                     self.CardImage.image = cardImage
+                    self.CardImageSpinner.stopAnimating()
                     
                 // An error occurred during API call
                 case .failure(let error):
@@ -97,6 +101,7 @@ class CardViewController: UIViewController {
             })
         } else {
             CardImage.image = card.image
+            CardImageSpinner.stopAnimating()
         }
     }
     
