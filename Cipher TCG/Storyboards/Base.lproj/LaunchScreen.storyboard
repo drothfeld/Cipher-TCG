@@ -18,16 +18,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cipher_header.png" translatesAutoresizingMaskIntoConstraints="NO" id="xFj-66-SP5" userLabel="Cipher Logo">
-                                <rect key="frame" x="20" y="44" width="374" height="543"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cipherTCG_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="xFj-66-SP5" userLabel="Cipher Logo">
+                                <rect key="frame" x="82" y="194" width="250" height="363"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cipher TCG" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xdO-Uv-2w1">
+                                <rect key="frame" x="0.0" y="598" width="414" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="e7R-7Q-anD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="35"/>
+                                <color key="textColor" red="0.92151153090000004" green="0.30767011640000003" blue="0.24308258299999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="xFj-66-SP5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="KmH-jg-GTB"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xFj-66-SP5" secondAttribute="bottom" constant="275" id="jjV-SZ-uF0"/>
-                            <constraint firstItem="xFj-66-SP5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="sp6-EM-gRf"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xFj-66-SP5" secondAttribute="trailing" constant="20" id="tO1-cQ-ERg"/>
+                            <constraint firstItem="xdO-Uv-2w1" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="KhX-eo-5Qj"/>
+                            <constraint firstItem="xFj-66-SP5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="82" id="KmH-jg-GTB"/>
+                            <constraint firstItem="xdO-Uv-2w1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="NOS-pD-5m2"/>
+                            <constraint firstItem="xdO-Uv-2w1" firstAttribute="top" secondItem="xFj-66-SP5" secondAttribute="bottom" constant="41" id="TIG-ER-o7b"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xFj-66-SP5" secondAttribute="bottom" constant="305" id="jjV-SZ-uF0"/>
+                            <constraint firstItem="xFj-66-SP5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="sp6-EM-gRf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xFj-66-SP5" secondAttribute="trailing" constant="82" id="tO1-cQ-ERg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -38,6 +50,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="cipher_header.png" width="1224" height="444"/>
+        <image name="cipherTCG_logo.png" width="206.39999389648438" height="382.07998657226562"/>
     </resources>
 </document>

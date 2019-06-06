@@ -18,7 +18,6 @@
 		B03D57DF2012CCEF007A3E97 /* 30px-White.png in Resources */ = {isa = PBXBuildFile; fileRef = B03D57D82012CCEF007A3E97 /* 30px-White.png */; };
 		B03D57E02012CCEF007A3E97 /* 30px-Green.png in Resources */ = {isa = PBXBuildFile; fileRef = B03D57D92012CCEF007A3E97 /* 30px-Green.png */; };
 		B03D57E12012CCEF007A3E97 /* 30px-Purple.png in Resources */ = {isa = PBXBuildFile; fileRef = B03D57DA2012CCEF007A3E97 /* 30px-Purple.png */; };
-		B03D58042012D169007A3E97 /* cipher_header.png in Resources */ = {isa = PBXBuildFile; fileRef = B03D58032012D169007A3E97 /* cipher_header.png */; };
 		B03D580A2012DBC5007A3E97 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03D58092012DBC5007A3E97 /* CardViewController.swift */; };
 		B03D580D2013C100007A3E97 /* SegueFromLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03D580C2013C100007A3E97 /* SegueFromLeft.swift */; };
 		B03D580F2013C1A0007A3E97 /* SegueFromRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03D580E2013C1A0007A3E97 /* SegueFromRight.swift */; };
@@ -31,11 +30,12 @@
 		B054BBE1200E9E8A004159A6 /* Insignias.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBE0200E9E8A004159A6 /* Insignias.swift */; };
 		B054BBE7200EA5E0004159A6 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054BBE6200EA5E0004159A6 /* Card.swift */; };
 		B05D319720EA9ACD008599B3 /* 30px-Colorless.png in Resources */ = {isa = PBXBuildFile; fileRef = B05D319620EA9ACD008599B3 /* 30px-Colorless.png */; };
+		B06AB7D922A991F7005CF7F5 /* card_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = B06AB7D822A991F6005CF7F5 /* card_placeholder.png */; };
+		B06AB7DB22A996BF005CF7F5 /* cipherTCG_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B06AB7DA22A996BF005CF7F5 /* cipherTCG_logo.png */; };
+		B06AB7DD22A999C0005CF7F5 /* cipherTCG_button.png in Resources */ = {isa = PBXBuildFile; fileRef = B06AB7DC22A999C0005CF7F5 /* cipherTCG_button.png */; };
 		B08A6B1F201661C300603113 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08A6B1E201661C300603113 /* MenuViewController.swift */; };
-		B08A6B3D201900AD00603113 /* cipher_launch_screen.png in Resources */ = {isa = PBXBuildFile; fileRef = B08A6B3C201900AD00603113 /* cipher_launch_screen.png */; };
 		B08C81FE22A63C9100B7DA6C /* company_logo_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B08C81FD22A63C9100B7DA6C /* company_logo_icon.png */; };
 		B090747F22553C3800F4978F /* Cipher_TCGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B090747E22553C3800F4978F /* Cipher_TCGUITests.swift */; };
-		B09EA0672106421C00FDCCEF /* card_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = B09EA0662106421C00FDCCEF /* card_placeholder.png */; };
 		B0B0233222519600001853E7 /* Cipher_TCGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B0233122519600001853E7 /* Cipher_TCGTests.swift */; };
 		B0D1ABDE2114DEDF0051935A /* CardPriceURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D1ABDD2114DEDE0051935A /* CardPriceURLs.swift */; };
 		B0E4223F20191D7C00CA879C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B0E4223E20191D7C00CA879C /* .gitignore */; };
@@ -71,7 +71,6 @@
 		B03D57D82012CCEF007A3E97 /* 30px-White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "30px-White.png"; sourceTree = "<group>"; };
 		B03D57D92012CCEF007A3E97 /* 30px-Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "30px-Green.png"; sourceTree = "<group>"; };
 		B03D57DA2012CCEF007A3E97 /* 30px-Purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "30px-Purple.png"; sourceTree = "<group>"; };
-		B03D58032012D169007A3E97 /* cipher_header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cipher_header.png; sourceTree = "<group>"; };
 		B03D58092012DBC5007A3E97 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 		B03D580C2013C100007A3E97 /* SegueFromLeft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueFromLeft.swift; sourceTree = "<group>"; };
 		B03D580E2013C1A0007A3E97 /* SegueFromRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueFromRight.swift; sourceTree = "<group>"; };
@@ -86,13 +85,14 @@
 		B054BBE0200E9E8A004159A6 /* Insignias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insignias.swift; sourceTree = "<group>"; };
 		B054BBE6200EA5E0004159A6 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		B05D319620EA9ACD008599B3 /* 30px-Colorless.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "30px-Colorless.png"; sourceTree = "<group>"; };
+		B06AB7D822A991F6005CF7F5 /* card_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_placeholder.png; sourceTree = "<group>"; };
+		B06AB7DA22A996BF005CF7F5 /* cipherTCG_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cipherTCG_logo.png; sourceTree = "<group>"; };
+		B06AB7DC22A999C0005CF7F5 /* cipherTCG_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cipherTCG_button.png; sourceTree = "<group>"; };
 		B08A6B1E201661C300603113 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		B08A6B3C201900AD00603113 /* cipher_launch_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cipher_launch_screen.png; sourceTree = "<group>"; };
 		B08C81FD22A63C9100B7DA6C /* company_logo_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = company_logo_icon.png; sourceTree = "<group>"; };
 		B090747C22553C3800F4978F /* Cipher TCGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cipher TCGUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B090747E22553C3800F4978F /* Cipher_TCGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cipher_TCGUITests.swift; sourceTree = "<group>"; };
 		B090748022553C3800F4978F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B09EA0662106421C00FDCCEF /* card_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_placeholder.png; sourceTree = "<group>"; };
 		B0B0232F22519600001853E7 /* Cipher TCGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cipher TCGTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B0233122519600001853E7 /* Cipher_TCGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cipher_TCGTests.swift; sourceTree = "<group>"; };
 		B0B0233322519600001853E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -271,9 +271,9 @@
 			isa = PBXGroup;
 			children = (
 				B08C81FD22A63C9100B7DA6C /* company_logo_icon.png */,
-				B08A6B3C201900AD00603113 /* cipher_launch_screen.png */,
-				B03D58032012D169007A3E97 /* cipher_header.png */,
-				B09EA0662106421C00FDCCEF /* card_placeholder.png */,
+				B06AB7DA22A996BF005CF7F5 /* cipherTCG_logo.png */,
+				B06AB7DC22A999C0005CF7F5 /* cipherTCG_button.png */,
+				B06AB7D822A991F6005CF7F5 /* card_placeholder.png */,
 				B01C08B121556F2B00795F9B /* sort_by_name_button.png */,
 				B01C08B021556F2B00795F9B /* sort_by_number_button.png */,
 				B03D57D32012CCEF007A3E97 /* Insignia Categories */,
@@ -414,6 +414,8 @@
 				B01C08B321556F2B00795F9B /* sort_by_name_button.png in Resources */,
 				B05D319720EA9ACD008599B3 /* 30px-Colorless.png in Resources */,
 				B03D57DE2012CCEF007A3E97 /* 30px-Yellow.png in Resources */,
+				B06AB7DB22A996BF005CF7F5 /* cipherTCG_logo.png in Resources */,
+				B06AB7D922A991F7005CF7F5 /* card_placeholder.png in Resources */,
 				B01C08B221556F2B00795F9B /* sort_by_number_button.png in Resources */,
 				B03D57E12012CCEF007A3E97 /* 30px-Purple.png in Resources */,
 				B054BBBA200E68AE004159A6 /* Assets.xcassets in Resources */,
@@ -421,12 +423,10 @@
 				B08C81FE22A63C9100B7DA6C /* company_logo_icon.png in Resources */,
 				B03D57DD2012CCEF007A3E97 /* 30px-Red.png in Resources */,
 				B0E4224120191DCE00CA879C /* README.md in Resources */,
-				B09EA0672106421C00FDCCEF /* card_placeholder.png in Resources */,
 				B03D57DF2012CCEF007A3E97 /* 30px-White.png in Resources */,
 				B054BBB8200E68AE004159A6 /* Main.storyboard in Resources */,
 				B03D57DB2012CCEF007A3E97 /* 30px-Black.png in Resources */,
-				B03D58042012D169007A3E97 /* cipher_header.png in Resources */,
-				B08A6B3D201900AD00603113 /* cipher_launch_screen.png in Resources */,
+				B06AB7DD22A999C0005CF7F5 /* cipherTCG_button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -640,7 +640,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -657,7 +657,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
