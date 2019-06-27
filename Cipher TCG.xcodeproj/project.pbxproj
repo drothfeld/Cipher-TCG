@@ -36,6 +36,7 @@
 		B08A6B1F201661C300603113 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08A6B1E201661C300603113 /* MenuViewController.swift */; };
 		B08C81FE22A63C9100B7DA6C /* company_logo_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B08C81FD22A63C9100B7DA6C /* company_logo_icon.png */; };
 		B090747F22553C3800F4978F /* Cipher_TCGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B090747E22553C3800F4978F /* Cipher_TCGUITests.swift */; };
+		B09B7F6A22C4A3B70078C405 /* UserSettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09B7F6922C4A3B70078C405 /* UserSettingsService.swift */; };
 		B0B0233222519600001853E7 /* Cipher_TCGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B0233122519600001853E7 /* Cipher_TCGTests.swift */; };
 		B0D1ABDE2114DEDF0051935A /* CardPriceURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D1ABDD2114DEDE0051935A /* CardPriceURLs.swift */; };
 		B0E4223F20191D7C00CA879C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B0E4223E20191D7C00CA879C /* .gitignore */; };
@@ -93,6 +94,7 @@
 		B090747C22553C3800F4978F /* Cipher TCGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cipher TCGUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B090747E22553C3800F4978F /* Cipher_TCGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cipher_TCGUITests.swift; sourceTree = "<group>"; };
 		B090748022553C3800F4978F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B09B7F6922C4A3B70078C405 /* UserSettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettingsService.swift; sourceTree = "<group>"; };
 		B0B0232F22519600001853E7 /* Cipher TCGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cipher TCGTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B0233122519600001853E7 /* Cipher_TCGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cipher_TCGTests.swift; sourceTree = "<group>"; };
 		B0B0233322519600001853E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				B03C0E4B229606080026F2E6 /* APIService */,
+				B09B7F6922C4A3B70078C405 /* UserSettingsService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -452,6 +455,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B03C0E4D2296062C0026F2E6 /* APIService.swift in Sources */,
+				B09B7F6A22C4A3B70078C405 /* UserSettingsService.swift in Sources */,
 				B054BBDF200E9DB7004159A6 /* Insignia.swift in Sources */,
 				B054BBE7200EA5E0004159A6 /* Card.swift in Sources */,
 				B03D580F2013C1A0007A3E97 /* SegueFromRight.swift in Sources */,

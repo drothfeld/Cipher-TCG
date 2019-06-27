@@ -25,6 +25,8 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let loadedInsigniaFilter: Int = UserSettingsService.shared.loadInsigniaFilter()
+        if (loadedInsigniaFilter >= 0) { filterButtonPressed(CardColorFilterButtons[loadedInsigniaFilter]) }
         refreshTable()
     }
     
@@ -123,6 +125,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         if (buttonPressed.alpha == 1.0) {
             isSearching = false
             buttonPressed.alpha = 0.5
+            UserSettingsService.shared.saveInsigniaFilter(insigniaId: -1)
             
         // Deactivate other filters and activate pressed color filter button
         } else {
@@ -132,6 +135,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
             CardListSearchBar.text = nil
             SetNumberTextField.text = nil
             filteredCards = cards.filter({$0.color.isEqual(insignias[buttonPressed.tag].colorName)})
+            UserSettingsService.shared.saveInsigniaFilter(insigniaId: buttonPressed.tag)
         }
         refreshTable()
     }
