@@ -45,7 +45,7 @@ class APIService: NSObject {
     func getCardPrice(card: Card, completion: @escaping (Result<String, Error>) -> Void) {
         let series = card.seriesFull
         var innerHTML = ""
-        let latestSetReleased = 16
+        let latestSetReleased = 17
         
         // Abort if special PROMO/ST card with different series length
         if (series.count != 9 && series.count != 8) {

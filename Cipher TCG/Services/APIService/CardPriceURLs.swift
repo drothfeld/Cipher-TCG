@@ -44,4 +44,6 @@ let cardPriceURLs: [[String]] = [
     ["https://tcgrepublic.com/category/subcategory_page_7404.html", "https://tcgrepublic.com/category/subcategory_page_7404.html?p=2&", "https://tcgrepublic.com/category/subcategory_page_7404.html?p=3&"],
     // Series: Box Set 16
     ["https://tcgrepublic.com/category/subcategory_page_7592.html", "https://tcgrepublic.com/category/subcategory_page_7592.html?p=2&", "https://tcgrepublic.com/category/subcategory_page_7592.html?p=3&"],
+    // Series: Box Set 17
+    ["https://tcgrepublic.com/category/subcategory_page_7829.html", "https://tcgrepublic.com/category/subcategory_page_7829.html?p=2&", "https://tcgrepublic.com/category/subcategory_page_7829.html?p=3&"]
 ]
