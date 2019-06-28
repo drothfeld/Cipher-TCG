@@ -24,5 +24,35 @@ class UserSettingsService {
     }
     
     // Save last used insignia filter
-    func saveInsigniaFilter(insigniaId: Int) { Foundation.UserDefaults.standard.set(insigniaId, forKey: "insigniaFilter") }
+    func saveInsigniaFilter(insigniaId: Int) {
+        Foundation.UserDefaults.standard.set(insigniaId, forKey: "insigniaFilter")
+        Foundation.UserDefaults.standard.set("", forKey: "searchTextFilter")
+        Foundation.UserDefaults.standard.set("", forKey: "seriesTextFilter")
+    }
+    
+    // Attempt to load last search text filter
+    func loadSearchTextFilter() -> String {
+        if UserDefaults.standard.string(forKey: "searchTextFilter") != "" { return Foundation.UserDefaults.standard.string(forKey: "searchTextFilter") ?? ""}
+        return ""
+    }
+    
+    // Save last used search text filter
+    func saveSearchTextFilter(searchText: String) {
+        Foundation.UserDefaults.standard.set(searchText, forKey: "searchTextFilter")
+        Foundation.UserDefaults.standard.set(-1, forKey: "insigniaFilter")
+        Foundation.UserDefaults.standard.set("", forKey: "seriesTextFilter")
+    }
+    
+    // Attempt to load last series text filter
+    func loadSeriesTextFilter() -> String {
+        if UserDefaults.standard.string(forKey: "seriesTextFilter") != "" { return Foundation.UserDefaults.standard.string(forKey: "seriesTextFilter") ?? ""}
+        return ""
+    }
+    
+    // Save last used series text filter
+    func saveSeriesTextFilter(seriesText: String) {
+        Foundation.UserDefaults.standard.set(seriesText, forKey: "seriesTextFilter")
+        Foundation.UserDefaults.standard.set("", forKey: "searchTextFilter")
+        Foundation.UserDefaults.standard.set(-1, forKey: "insigniaFilter")
+    }
 }

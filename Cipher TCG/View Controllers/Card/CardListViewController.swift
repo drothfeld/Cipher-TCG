@@ -25,8 +25,7 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let loadedInsigniaFilter: Int = UserSettingsService.shared.loadInsigniaFilter()
-        if (loadedInsigniaFilter >= 0) { filterButtonPressed(CardColorFilterButtons[loadedInsigniaFilter]) }
+        loadFilters()
         refreshTable()
     }
     
@@ -74,6 +73,8 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
         } else {
             isSearching = true
             deactivateAllFilters()
+            SetNumberTextField.text = nil
+            UserSettingsService.shared.saveSearchTextFilter(searchText: CardListSearchBar.text ?? "")
             filteredCards = cards.filter({ $0.name.lowercased().contains(CardListSearchBar.text!.lowercased()) })
         }
         refreshTable()
@@ -86,8 +87,10 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
     
     // Set number filter text is changed
     @IBAction func SetNumberTextFieldEditingChanged(_ sender: Any) {
-        setFilterValue = SetNumberTextField.text!
+        setFilterValue = SetNumberTextField.text ?? ""
         deactivateAllFilters()
+        CardListSearchBar.text = nil
+        UserSettingsService.shared.saveSeriesTextFilter(seriesText: setFilterValue)
         
         // Filter cards by the entered set number
         if (setFilterValue != "") {
@@ -161,6 +164,22 @@ class CardListViewController: UIViewController, UITableViewDataSource, UITableVi
                 let controller = segue.destination as! CardViewController
                 controller.card = card
             }
+        }
+    }
+    
+    // Load all filter and search settings from previous session
+    func loadFilters() {
+        let loadedInsigniaFilter: Int = UserSettingsService.shared.loadInsigniaFilter()
+        let loadedSearchTextFilter: String = UserSettingsService.shared.loadSearchTextFilter()
+        let loadedSeriesTextFilter: String = UserSettingsService.shared.loadSeriesTextFilter()
+        if (loadedInsigniaFilter >= 0) { filterButtonPressed(CardColorFilterButtons[loadedInsigniaFilter]) }
+        else if (loadedSearchTextFilter != "") {
+            CardListSearchBar.text = loadedSearchTextFilter
+            searchBar(CardListSearchBar, textDidChange: loadedSearchTextFilter)
+        }
+        else if (loadedSeriesTextFilter != "") {
+            SetNumberTextField.text = loadedSeriesTextFilter
+            SetNumberTextFieldEditingChanged(SetNumberTextField as UITextField)
         }
     }
     
