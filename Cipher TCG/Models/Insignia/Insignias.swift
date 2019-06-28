@@ -48,5 +48,10 @@ let colorless = Insignia(name: "Colorless",
                              colorName: "Colorless",
                              iconImageName: "30px-Colorless.png")
 
-let insignias = [blade_of_light, mark_of_naga, hoshido, nohr, medallion, divine_weapons, holy_war_flag, colorless]
+let crests_of_the_goddess = Insignia(name: "Crests of the Goddess",
+                             color: UIColor(red: 0.58, green: 0.38, blue: 0, alpha: 1.0),
+                             colorName: "Brown",
+                             iconImageName: "30px-Brown.png")
+
+let insignias = [blade_of_light, mark_of_naga, hoshido, nohr, medallion, divine_weapons, holy_war_flag, colorless, crests_of_the_goddess]
 

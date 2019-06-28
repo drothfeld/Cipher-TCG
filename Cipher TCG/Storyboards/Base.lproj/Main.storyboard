@@ -196,11 +196,11 @@ TCG</string>
                                 <rect key="frame" x="0.0" y="20" width="375" height="81"/>
                                 <subviews>
                                     <searchBar contentMode="redraw" barStyle="black" searchBarStyle="minimal" placeholder="Search Cards" translatesAutoresizingMaskIntoConstraints="NO" id="hzd-cv-NpC" userLabel="Card Search Bar">
-                                        <rect key="frame" x="66" y="3" width="309" height="56"/>
+                                        <rect key="frame" x="146" y="3" width="229" height="56"/>
                                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="56" id="6GY-OG-Hgc"/>
-                                            <constraint firstAttribute="width" constant="309" id="zVk-cd-YNE"/>
+                                            <constraint firstAttribute="width" constant="229" id="zVk-cd-YNE"/>
                                         </constraints>
                                         <color key="tintColor" red="0.8119627237" green="0.003281183774" blue="0.054759666319999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="barTintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -217,7 +217,7 @@ TCG</string>
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ukX-uQ-UiB" userLabel="Sort Red Button">
-                                        <rect key="frame" x="165" y="55" width="20" height="20"/>
+                                        <rect key="frame" x="146" y="55" width="20" height="20"/>
                                         <accessibility key="accessibilityConfiguration" label="filter_red"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="20" id="9iv-JQ-Y3F"/>
@@ -229,7 +229,7 @@ TCG</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.5" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bdo-cj-cLD" userLabel="Sort Blue Button">
-                                        <rect key="frame" x="190" y="55" width="20" height="20"/>
+                                        <rect key="frame" x="171" y="55" width="20" height="20"/>
                                         <accessibility key="accessibilityConfiguration" label="filter_blue"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="20" id="1oN-Mq-x7L"/>
@@ -241,7 +241,7 @@ TCG</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.5" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VfG-x6-Y9S" userLabel="Sort White Button">
-                                        <rect key="frame" x="215" y="55" width="20" height="20"/>
+                                        <rect key="frame" x="196" y="55" width="20" height="20"/>
                                         <accessibility key="accessibilityConfiguration" label="filter_white"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="20" id="KFp-Tw-L1V"/>
@@ -253,7 +253,7 @@ TCG</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.5" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vGd-mX-B3G" userLabel="Sort Black Button">
-                                        <rect key="frame" x="240" y="55" width="20" height="20"/>
+                                        <rect key="frame" x="221" y="55" width="20" height="20"/>
                                         <accessibility key="accessibilityConfiguration" label="filter_black"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="20" id="GiN-3W-PRN"/>
@@ -265,7 +265,7 @@ TCG</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.5" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jv8-pd-wkV" userLabel="Sort Green Button">
-                                        <rect key="frame" x="265" y="55" width="20" height="20"/>
+                                        <rect key="frame" x="246" y="55" width="20" height="20"/>
                                         <accessibility key="accessibilityConfiguration" label="filter_green"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="20" id="mNb-8p-O9i"/>
@@ -277,7 +277,7 @@ TCG</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.5" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xjr-hE-RDH" userLabel="Sort Purple Button">
-                                        <rect key="frame" x="290" y="55" width="20" height="20"/>
+                                        <rect key="frame" x="271" y="55" width="20" height="20"/>
                                         <accessibility key="accessibilityConfiguration" label="filter_purple"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="20" id="7L4-J6-XCB"/>
@@ -289,7 +289,7 @@ TCG</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.5" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gLb-oz-BkV" userLabel="Sort Yellow Button">
-                                        <rect key="frame" x="315" y="55" width="20" height="20"/>
+                                        <rect key="frame" x="296" y="55" width="20" height="20"/>
                                         <accessibility key="accessibilityConfiguration" label="filter_yellow"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="20" id="FMH-nz-aeF"/>
@@ -301,7 +301,7 @@ TCG</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.5" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="208-gH-0b9" userLabel="Sort Colorless Button">
-                                        <rect key="frame" x="340" y="55" width="20" height="20"/>
+                                        <rect key="frame" x="321" y="55" width="20" height="20"/>
                                         <accessibility key="accessibilityConfiguration" label="filter_colorless"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="20" id="VfQ-1d-Uom"/>
@@ -312,25 +312,26 @@ TCG</string>
                                             <action selector="filterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uE3-Ho-xyg"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5eD-Wu-yRY" userLabel="Card List Order Button">
-                                        <rect key="frame" x="76" y="55" width="20" height="20"/>
+                                    <button opaque="NO" alpha="0.5" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CmK-vW-8t0" userLabel="Sort Brown Button">
+                                        <rect key="frame" x="347" y="55" width="20" height="20"/>
+                                        <accessibility key="accessibilityConfiguration" label="filter_colorless"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="20" id="nev-GK-tTg"/>
-                                            <constraint firstAttribute="width" constant="20" id="oog-DV-Rrk"/>
+                                            <constraint firstAttribute="width" constant="20" id="dLT-Bk-dCy"/>
+                                            <constraint firstAttribute="height" constant="20" id="sgj-aO-1Wd"/>
                                         </constraints>
-                                        <state key="normal" image="sort_by_name_button.png"/>
+                                        <state key="normal" image="30px-Brown.png"/>
                                         <connections>
-                                            <action selector="orderCardListButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qiv-KW-IgE"/>
+                                            <action selector="filterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="on6-y7-5NQ"/>
                                         </connections>
                                     </button>
-                                    <textField opaque="NO" alpha="0.75" tag="-1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Set #" textAlignment="center" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="aWU-MH-8xa">
-                                        <rect key="frame" x="104" y="55" width="29.5" height="20"/>
-                                        <color key="backgroundColor" white="0.75395817356850714" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <textField opaque="NO" alpha="0.75" tag="-1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Set #" textAlignment="center" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="aWU-MH-8xa">
+                                        <rect key="frame" x="75.5" y="16" width="58" height="30"/>
+                                        <color key="backgroundColor" red="0.76107865571975708" green="0.76425927877426147" blue="0.78823918104171753" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="20" id="jCu-Yb-bW7"/>
+                                            <constraint firstAttribute="height" constant="30" id="jCu-Yb-bW7"/>
                                         </constraints>
                                         <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numbersAndPunctuation" returnKeyType="done" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
                                         <connections>
                                             <action selector="SetNumberTextFieldEditingChanged:" destination="BYZ-38-t0r" eventType="editingChanged" id="USc-El-zOu"/>
@@ -351,6 +352,17 @@ TCG</string>
                                             </segue>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5eD-Wu-yRY" userLabel="Card List Order Button">
+                                        <rect key="frame" x="94" y="55" width="20" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="nev-GK-tTg"/>
+                                            <constraint firstAttribute="width" constant="20" id="oog-DV-Rrk"/>
+                                        </constraints>
+                                        <state key="normal" image="sort_by_name_button.png"/>
+                                        <connections>
+                                            <action selector="orderCardListButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qiv-KW-IgE"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -359,7 +371,7 @@ TCG</string>
                                     <constraint firstItem="208-gH-0b9" firstAttribute="leading" secondItem="gLb-oz-BkV" secondAttribute="trailing" constant="5" id="4Am-fO-Hio"/>
                                     <constraint firstItem="jv8-pd-wkV" firstAttribute="leading" secondItem="vGd-mX-B3G" secondAttribute="trailing" constant="5" id="4Po-9l-dhU"/>
                                     <constraint firstAttribute="height" constant="81" id="6G6-xW-P5B"/>
-                                    <constraint firstAttribute="trailing" secondItem="208-gH-0b9" secondAttribute="trailing" constant="15" id="6Oa-Aw-oID"/>
+                                    <constraint firstAttribute="trailing" secondItem="208-gH-0b9" secondAttribute="trailing" constant="34" id="6Oa-Aw-oID"/>
                                     <constraint firstItem="xjr-hE-RDH" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="7bm-Zo-bgP"/>
                                     <constraint firstItem="jv8-pd-wkV" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="8ws-Pv-8Od"/>
                                     <constraint firstItem="Wrk-SM-0UN" firstAttribute="leading" secondItem="bCi-jW-AfE" secondAttribute="leading" id="A6g-KO-SyS"/>
@@ -367,21 +379,23 @@ TCG</string>
                                     <constraint firstItem="bdo-cj-cLD" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="G2B-Ro-VPd"/>
                                     <constraint firstItem="RGG-Ki-YSV" firstAttribute="leading" secondItem="bCi-jW-AfE" secondAttribute="leading" constant="26" id="K1X-17-fIP"/>
                                     <constraint firstItem="208-gH-0b9" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="KgE-dF-8a5"/>
+                                    <constraint firstItem="hzd-cv-NpC" firstAttribute="leading" secondItem="5eD-Wu-yRY" secondAttribute="trailing" constant="32" id="NBe-A1-Bkt"/>
                                     <constraint firstAttribute="trailing" secondItem="hzd-cv-NpC" secondAttribute="trailing" id="Rru-4C-F0D"/>
-                                    <constraint firstItem="ukX-uQ-UiB" firstAttribute="leading" secondItem="aWU-MH-8xa" secondAttribute="trailing" constant="31.5" id="Wtq-hb-hSY"/>
                                     <constraint firstItem="vGd-mX-B3G" firstAttribute="leading" secondItem="VfG-x6-Y9S" secondAttribute="trailing" constant="5" id="Xqn-qz-L2y"/>
-                                    <constraint firstItem="aWU-MH-8xa" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="Y8n-r3-uAm"/>
+                                    <constraint firstItem="aWU-MH-8xa" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="16" id="Y8n-r3-uAm"/>
                                     <constraint firstItem="RGG-Ki-YSV" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="13" id="aea-f4-xP7"/>
                                     <constraint firstItem="gLb-oz-BkV" firstAttribute="leading" secondItem="xjr-hE-RDH" secondAttribute="trailing" constant="5" id="apF-eW-cHk"/>
                                     <constraint firstItem="vGd-mX-B3G" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="att-in-sKr"/>
-                                    <constraint firstItem="hzd-cv-NpC" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="aWU-MH-8xa" secondAttribute="trailing" constant="-67.5" id="gAq-9q-RXF"/>
+                                    <constraint firstItem="CmK-vW-8t0" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="cCq-JT-lbQ"/>
                                     <constraint firstItem="VfG-x6-Y9S" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="gHV-K2-Zcg"/>
                                     <constraint firstItem="ukX-uQ-UiB" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="hsB-Pf-Lf8"/>
                                     <constraint firstItem="xjr-hE-RDH" firstAttribute="leading" secondItem="jv8-pd-wkV" secondAttribute="trailing" constant="5" id="kiC-Sf-O46"/>
+                                    <constraint firstAttribute="trailing" secondItem="CmK-vW-8t0" secondAttribute="trailing" constant="8" id="qQ6-jY-mYu"/>
                                     <constraint firstItem="VfG-x6-Y9S" firstAttribute="leading" secondItem="bdo-cj-cLD" secondAttribute="trailing" constant="5" id="qSy-S1-OD5"/>
                                     <constraint firstItem="bdo-cj-cLD" firstAttribute="leading" secondItem="ukX-uQ-UiB" secondAttribute="trailing" constant="5" id="qXh-sR-FAi"/>
                                     <constraint firstAttribute="trailing" secondItem="Wrk-SM-0UN" secondAttribute="trailing" id="sbn-TW-g4I"/>
-                                    <constraint firstItem="aWU-MH-8xa" firstAttribute="leading" secondItem="5eD-Wu-yRY" secondAttribute="trailing" constant="8" id="tPy-aC-2C7"/>
+                                    <constraint firstItem="hzd-cv-NpC" firstAttribute="leading" secondItem="aWU-MH-8xa" secondAttribute="trailing" constant="12.5" id="tQR-xY-Xd0"/>
+                                    <constraint firstItem="aWU-MH-8xa" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="RGG-Ki-YSV" secondAttribute="trailing" constant="8" symbolic="YES" id="tYb-kl-jQu"/>
                                     <constraint firstItem="gLb-oz-BkV" firstAttribute="top" secondItem="bCi-jW-AfE" secondAttribute="top" constant="55" id="zEj-Eh-ruM"/>
                                 </constraints>
                             </view>
@@ -411,6 +425,7 @@ TCG</string>
                         <outletCollection property="CardColorFilterButtons" destination="xjr-hE-RDH" collectionClass="NSMutableArray" id="KiW-cs-oRP"/>
                         <outletCollection property="CardColorFilterButtons" destination="gLb-oz-BkV" collectionClass="NSMutableArray" id="EZ0-iF-Ise"/>
                         <outletCollection property="CardColorFilterButtons" destination="208-gH-0b9" collectionClass="NSMutableArray" id="ffc-Vx-LPb"/>
+                        <outletCollection property="CardColorFilterButtons" destination="CmK-vW-8t0" collectionClass="NSMutableArray" id="Uhx-id-6Gy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -717,6 +732,7 @@ TCG</string>
     <resources>
         <image name="30px-Black.png" width="30" height="30"/>
         <image name="30px-Blue.png" width="30" height="30"/>
+        <image name="30px-Brown.png" width="200" height="200"/>
         <image name="30px-Colorless.png" width="30" height="30"/>
         <image name="30px-Green.png" width="30" height="30"/>
         <image name="30px-Purple.png" width="30" height="30"/>
