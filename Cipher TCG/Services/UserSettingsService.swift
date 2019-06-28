@@ -19,21 +19,10 @@ class UserSettingsService {
     
     // Attempt to load last used insignia filter
     func loadInsigniaFilter() -> Int {
-        if let data = UserDefaults.standard.data(forKey: "insigniaFilter"),
-            let savedCardFilterData = NSKeyedUnarchiver.unarchiveObject(with: data) as? Int {
-            NSLog("Successfully loaded last used insignia filter from userDefaults: " + String(savedCardFilterData))
-            return savedCardFilterData
-        } else {
-            let encodedData = NSKeyedArchiver.archivedData(withRootObject: -1)
-            UserDefaults.standard.set(encodedData, forKey: "cardFilter")
-            NSLog("There was an issue loading last used insignia filter from userDefaults")
-            return -1
-        }
+        if UserDefaults.standard.integer(forKey: "insigniaFilter") != -1 { return Foundation.UserDefaults.standard.integer(forKey: "insigniaFilter") }
+        return -1
     }
     
     // Save last used insignia filter
-    func saveInsigniaFilter(insigniaId: Int) {
-        let encodedData = NSKeyedArchiver.archivedData(withRootObject: insigniaId)
-        UserDefaults.standard.set(encodedData, forKey: "insigniaFilter")
-    }
+    func saveInsigniaFilter(insigniaId: Int) { Foundation.UserDefaults.standard.set(insigniaId, forKey: "insigniaFilter") }
 }

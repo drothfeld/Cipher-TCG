@@ -48,7 +48,7 @@ TCG</string>
                             <view alpha="0.69999998807907104" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sn1-U1-flb" userLabel="Footer">
                                 <rect key="frame" x="0.0" y="615" width="375" height="52"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="V-1.0.0b" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bCJ-Pd-iwZ" userLabel="Version Label">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="V-1.1.0b" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bCJ-Pd-iwZ" userLabel="Version Label">
                                         <rect key="frame" x="8" y="30" width="50" height="14"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="14" id="Xjg-xp-E32"/>
@@ -745,7 +745,7 @@ TCG</string>
         <image name="sort_by_name_button.png" width="69.599998474121094" height="69.360000610351562"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="8ih-mp-VFz"/>
+        <segue reference="CJv-bm-6cT"/>
         <segue reference="cac-9f-3tE"/>
     </inferredMetricsTieBreakers>
 </document>
